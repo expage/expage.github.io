@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kong et al. (2009b)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>YN-48</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1707 &#177; 188<br/>
+<sup>26</sup>Al: 1667 &#177; 158<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kong et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.1137,27.0383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YN-50</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22522 &#177; 1067<br/>
+<sup>26</sup>Al: 8351 &#177; 3836<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kong et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.0973,27.0380</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YN-52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52803 &#177; 2949<br/>
+<sup>26</sup>Al: 56051 &#177; 3428<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kong et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.0800,27.1153</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YN-53</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 65182 &#177; 3077<br/>
+<sup>26</sup>Al: 61991 &#177; 4380<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kong et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.0800,27.1153</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YN-54</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40828 &#177; 2283<br/>
+<sup>26</sup>Al: 37034 &#177; 3011<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kong et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.0793,27.1158</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YN-55</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61133 &#177; 2912<br/>
+<sup>26</sup>Al: 53116 &#177; 3024<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kong et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.0793,27.1158</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YN-56</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 51625 &#177; 2593<br/>
+<sup>26</sup>Al: 44554 &#177; 2980<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kong et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.0793,27.1158</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YN-62</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14897 &#177; 1115<br/>
+<sup>26</sup>Al: 13118 &#177; 1247<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kong et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.2547,27.1217</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YN-63</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12727 &#177; 1074<br/>
+<sup>26</sup>Al: 13714 &#177; 1380<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kong et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.2543,27.1218</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YN-64</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11041 &#177; 620<br/>
+<sup>26</sup>Al: 10857 &#177; 1724<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kong et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.2555,27.0523</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YN-65</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14245 &#177; 784<br/>
+<sup>26</sup>Al: 11813 &#177; 4100<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kong et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.2543,27.0530</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

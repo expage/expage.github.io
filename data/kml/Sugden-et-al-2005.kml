@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sugden et al. (2005)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>01-MBL-139-REA</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25180 &#177; 1254<br/>
+<sup>26</sup>Al: 25332 &#177; 1843<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2005)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.5869,-77.0768</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>01-MBL-132-BBD</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 118574 &#177; 5605<br/>
+<sup>26</sup>Al: 104215 &#177; 6262<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2005)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.699,-77.074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>01-MBL-131-BBD</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 98560 &#177; 4791<br/>
+<sup>26</sup>Al: 83270 &#177; 4964<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2005)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.699,-77.074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>01-MBL-144-REA</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 45229 &#177; 2246<br/>
+<sup>26</sup>Al: 39528 &#177; 2222<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2005)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.587,-77.077</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>01-MBL-148-REA</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 44718 &#177; 2263<br/>
+<sup>26</sup>Al: 37252 &#177; 2047<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2005)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.595,-77.071</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>01-MBL-150-REA</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4756 &#177; 478<br/>
+<sup>26</sup>Al: 3951 &#177; 349<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2005)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.575,-77.068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>01-MBL-154-REA</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3517 &#177; 543<br/>
+<sup>26</sup>Al: 3228 &#177; 311<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2005)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.548,-77.068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>01-MBL-168-GAP</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3446 &#177; 551<br/>
+<sup>26</sup>Al: 3183 &#177; 314<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2005)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.558,-77.084</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>01-MBL-169-GAP</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4453 &#177; 809<br/>
+<sup>26</sup>Al: 1213 &#177; 173<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2005)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.545,-77.082</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>01-MBL-167-REA</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1941 &#177; 171<br/>
+<sup>26</sup>Al: 1871 &#177; 382<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2005)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.568,-77.061</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

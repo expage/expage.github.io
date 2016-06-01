@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Schaefer et al. (2015)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Kiwi-X08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 68147 &#177; 3215<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2318,-44.2254</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-614</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 67206 &#177; 3072<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2025,-44.2239</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-X13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66924 &#177; 3321<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2581,-44.2087</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KIWI-620</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66901 &#177; 3367<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2000,-44.2317</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KIWI-618</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66747 &#177; 3293<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2123,-44.2333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-X02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66013 &#177; 3181<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2325,-44.2291</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-X06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66014 &#177; 3153<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2190,-44.2339</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-X07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 65791 &#177; 3066<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2124,-44.2322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-X03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64780 &#177; 3018<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2324,-44.2302</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-X05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64542 &#177; 3006<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2215,-44.2325</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-617</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64321 &#177; 3159<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2041,-44.2280</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KIWI-619</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64300 &#177; 4297<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2037,-44.2308</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-X14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63697 &#177; 3031<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2609,-44.2083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-X16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63623 &#177; 3041<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2645,-44.2058</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-615</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63647 &#177; 3137<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2040,-44.2254</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-X15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63574 &#177; 3152<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2623,-44.2077</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-X04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63657 &#177; 3074<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2299,-44.2307</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-621</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63552 &#177; 3779<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.1993,-44.2319</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-976</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63560 &#177; 3542<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2113,-44.2333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-X17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63340 &#177; 3140<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2631,-44.2014</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-616</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62639 &#177; 3093<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2043,-44.2255</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-977</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61179 &#177; 3190<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.1994,-44.2318</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-X18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60814 &#177; 3277<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2632,-44.2014</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-X11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60265 &#177; 2940<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2540,-44.2164</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-X12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36842 &#177; 1783<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2540,-44.2165</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-X12-re</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39646 &#177; 2186<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2540,-44.2165</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-705</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 65663 &#177; 4041<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.0840,-44.1949</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-704</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64668 &#177; 3508<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.0833,-44.1953</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-703</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62089 &#177; 3339<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.0821,-44.1960</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MB-07-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 67506 &#177; 3340<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.3300,-44.0832</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-993-re</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63621 &#177; 2931<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.3471,-44.1122</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KIWI-X23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63240 &#177; 3090<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.3457,-44.1344</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KIWI-X25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62628 &#177; 3105<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.3462,-44.1350</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-994-re</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 49185 &#177; 2253<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.3494,-44.1212</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MB-07-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 48167 &#177; 2372<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.3256,-44.0784</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MB-07-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64753 &#177; 3284<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2932,-44.1163</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MB-07-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62715 &#177; 3098<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2933,-44.1162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MB-07-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60013 &#177; 2964<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2881,-44.1099</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-08-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 67907 &#177; 3373<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2731,-43.9672</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KIWI-600</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 67282 &#177; 3112<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2932,-43.9837</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-607</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64785 &#177; 3327<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2890,-43.9884</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-08-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61489 &#177; 3050<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2664,-43.9531</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-608</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60771 &#177; 3118<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2890,-43.9870</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 70032 &#177; 3456<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2475,-44.1980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 68958 &#177; 3402<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2417,-44.1981</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 68763 &#177; 3397<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2477,-44.1967</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66425 &#177; 3283<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2394,-44.1877</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62384 &#177; 3404<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2415,-44.2002</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 54241 &#177; 3197<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2440,-44.1925</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ML-09-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 68642 &#177; 3508<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.3660,-43.9435</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ML-09-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61937 &#177; 3353<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.3745,-43.9436</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-509</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29136 &#177; 1426<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2764,-44.0831</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-415</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22333 &#177; 1377<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2076,-44.2118</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-417</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21815 &#177; 1240<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2119,-44.2112</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-513</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23854 &#177; 1499<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2661,-44.0864</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-421</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21403 &#177; 1175<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2040,-44.2145</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-514</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22023 &#177; 1182<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2661,-44.0862</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-520</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19665 &#177; 1091<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2573,-44.0536</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-418</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19184 &#177; 1077<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2135,-44.2100</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-506</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18916 &#177; 1006<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.2699,-44.0731</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-333</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17900 &#177; 1169<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schaefer et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.1120,-44.1470</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

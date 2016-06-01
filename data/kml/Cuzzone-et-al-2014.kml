@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Cuzzone et al. (2014)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Swe-35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16747 &#177; 857<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cuzzone et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.646,62.496</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Swe-36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15520 &#177; 816<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cuzzone et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.6,62.41</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Swe-38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25586 &#177; 1154<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cuzzone et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.646,62.496</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Swe-39</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9565 &#177; 693<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cuzzone et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.6,62.41</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Swe-41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22239 &#177; 1305<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cuzzone et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.6,62.41</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24419 &#177; 7079<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cuzzone et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>24.634,63.23</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin-08-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26977 &#177; 8713<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cuzzone et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>27.12,66.42</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

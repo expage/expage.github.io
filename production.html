@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+		<title>expage | Production</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<link rel="icon" type="image/png" href="images/exp.ico">
+</head>
+<body>
+
+<div class="container">
+
+	<div id="header"><img src="images/topfig_production.jpg" width="900" height="175" border="0" usemap="#Map"> 
+		<ul class="menu">
+			<li><a href="index.html">Intro</a></li>
+			<li><a href="data.html">Data</a></li>
+			<li><a href="references.html">References</a></li>
+			<li class="selected"><a href="production.html">Production</a></li>
+			<li><a href="calculator.html">Calculator</a></li>
+		</ul>
+	</div>
+
+	<div class="content"> 
+	<p>
+	<h2>Production rate calibration</h2>
+	</p>
+	<p>Here a global compilation of <span class="sup">10</span>Be and <span class="sup">26</span>Al production rate calibration data published 2009-2016 is presented in tab-delimited text files.</p>
+	<p class="half-line">&nbsp;</p>
+	<p><u>Calibration methodology:</u></p>
+	<p><div class="pointlist">
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2">All data has been divided into calibration sites including samples from one location with a single deglaciation age.</div>
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2">Calibration ages are derived from the original publications with radiocarbon ages generally recalibrated recalibrated against IntCal13, Marine13 (<a href="http://dx.doi.org/10.2458/azu_js_rc.55.16947">Reimer et al. 2013</a>), and SHCal13 (<a href="http://dx.doi.org/10.2458/azu_js_rc.55.16783">Hogg et al. 2013</a>) using <a href="https://c14.arch.ox.ac.uk/oxcal.html">OxCal</a> 4.2.</div>
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2">The <span class="sup">10</span>Be and <span class="sup">26</span>Al concentrations from single surface multiple measurements have been combined as uncertainty-weighted means. To account for interlaboratory measurement uncertainties (<a href="http://dx.doi.org/10.1016/j.quageo.2013.09.003">Jull et al. 2015</a>), the highest of the reported (or uncertainty-weighted) concentration uncertainty or 2.9% (<span class="sup">10</span>Be) and 4.9% (<span class="sup">26</span>Al) of the concentration is used for the calibration.</div>
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2">For all calibration sites with at least three separate samples, a reference production rate is derived for the expage calculator using chi-square minimization. The calibration age uncertainty, which is not an independent variable for each sample of a calibration site, is added in quadrature to the site reference production rate.</div>
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2">To avoid data affected by prior and/or incomplete exposure, we combine the well-clustered site production rates into a global <span class="sup">10</span>Be and <span class="sup">26</span>Al reference production rate. For scattered site production rates, with chi-square statistics p-value < 0.1 for the hypothesis that all sample production rates are drawn from one normal distribution, a maximum of 1/3 of the samples are excluded as outliers (still requiring a minimum of three separate samples). The site production rates that cannot pass this clustering test after outlier rejection are not included in the global reference production rate.</div>
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2">The reference <span class="sup">10</span>Be production rate of calibration site 2 is significantly higher than all other site reference production rates with no overlap within 2σ. With both Peirce’s criterion and Chauvenet’s criterion this reference production rate is identified as an outlier, and it is therefore excluded from the global reference <span class="sup">10</span>Be production rate.</div>
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2">The arithmetic mean and standard devition of all well-clustered site reference <span class="sup">10</span>Be and <span class="sup">26</span>Al production rates are taken as global reference <span class="sup">10</span>Be (3.98 ± 0.17 atoms g<span class="sup">–1</span> yr<span class="sup">–1</span>) and <span class="sup">26</span>Al (28.46 ± 1.40 atoms g<span class="sup">–1</span> yr<span class="sup">–1</span>) production rates.</div>
+	</div></p>
+	<br>
+	<hr width="100%">
+	<br>
+	<p>Global poducation rate kml: <a href="data/prodrate/prodrate.kml">prodrate.kml</a></p>
+	<p>Global production rate log: <a href="data/prodrate/P-log.txt">P-log.txt</a></p>
+	<br>
+	<hr width="100%">
+	<br>
+	<p><u>The production rate calibration data is presented in the following text files:</u></p>
+	<p><b>P-sites</b> – Calibration site and global average reference <span class="sup">10</span>Be and <span class="sup">26</span>Al production rates.</p>
+	<p><b>P-calib</b> – Data used for calibration of reference <span class="sup">10</span>Be and <span class="sup">26</span>Al production rates.</p>
+	<p><b>P-origin</b> – Original data with individual reported <span class="sup">10</span>Be and <span class="sup">26</span>Al measurements.</p>
+	<p><b>P-comments</b> – Comments on the data.</p>
+	<p><b>P-refs</b> – References for the production rate calibration.</p>
+	<br>
+	<hr width="100%">
+	<br>
+	<center>
+	To display special characters in the text files correctly, use UTF-8 (unicode) encoding.<br>
+	<br>
+	<div class="prodlist">
+	<div class="pro1"><a href="data/prodrate/P-201606-sites.txt">P-201606-sites</a></div>
+	<div class="pro2"><a href="data/prodrate/P-201606-calib.txt">P-201606-calib</a></div>
+	<div class="pro3"><a href="data/prodrate/P-201606-origin.txt">P-201606-origin</a></div>
+	<div class="pro4"><a href="data/prodrate/P-201606-comments.txt">P-201606-comments</a></div>
+	<div class="pro5"><a href="data/prodrate/P-201606-refs.txt">P-201606-refs</a></div>
+	</div>
+	</center>
+	<br>
+	<hr width="100%">
+	<br><br>
+	<center><img src="images/prodrate.png" width="760" height="610"></center>
+	<br><br>
+	<hr width="100%">
+	<br><br>
+	<center>Contact: <a href="mailto:jakob.heyman@gu.se">jakob.heyman@gu.se</a></center>
+	</div>
+</div>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['addDownloadExtensions', "kml|kmz"]);
+  _paq.push(["setDomains", ["*.expage.github.io"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik-jakobheyman.rhcloud.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//piwik-jakobheyman.rhcloud.com/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+</body>
+</html>

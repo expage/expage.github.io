@@ -1,0 +1,299 @@
+/* CSS rules */
+
+html, body {margin: 0px; padding: 0;}
+
+body {
+
+	padding: 0px 0;
+	font-size:12px;
+	background:  #fff333;	
+	margin-top: 25px;
+	margin-left: auto;
+	background: url(images/granite.jpg) repeat;
+	width: 100%;
+}
+
+reftext {
+	font-size:11px;
+	line-height: normal;
+}
+
+.content  {
+	padding: 70px;
+	background: #f2f2f2;
+	margin-bottom: 70px;
+	min-height: 280px;
+}
+
+.container { 
+	font-size: 12px;
+	line-height: 150%;
+	text-align: justify;
+	font-family: Verdana, Arial, sans-serif;
+	background: transparent; 
+	position: relative;
+	margin-right: auto;
+	margin-left: auto; 
+	width: 900px; 
+	height: 100%; 
+	visibility: visible; 
+	display: block;
+}
+
+.half-line {
+	line-height: .1em;
+}
+
+/* menu */
+ul.menu {
+	/* clear */
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+/*	font-family: Verdana, Arial, sans-serif; */
+	font: inherit;
+	vertical-align: baseline;
+	list-style: none;
+	position: absolute;
+	left: 25px;
+	bottom: 0px;
+}
+ul.menu li {
+	/* clear */
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	display: block;
+	float: left;
+	margin-right: 4px;
+	background: #fff;
+	padding: 3px 10px 3px 10px;
+	-moz-border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+	font-weight: bold;
+	margin-top: 2px;
+}
+ul.menu li.selected {
+	margin-top: 0;
+	background: #f2f2f2;
+	padding-bottom: 5px;
+}
+
+.sup {
+	position: relative;
+	bottom: 0.5em;
+	font-size: 0.7em;
+}
+
+.reflist {
+	display: -webkit-flex;
+	display: flex;
+	width: 760px;
+	height: auto;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+.ref1 {
+	width: 645px;
+	height: auto;
+	text-align: justify;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	text-indent: -20px;
+}
+.ref2 {
+	width: 75px;
+	height: auto;
+	text-align: center;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+.ref3 {
+	width: 20px;
+	height: auto;
+	text-align: center;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.compilation {
+	display: -webkit-flex;
+	display: flex;
+	width: 535px;
+	height: auto;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+.comp1 {
+	width: 155px;
+	height: auto;
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.comp2 {
+	width: 200px;
+	height: auto;
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.comp3 {
+	width: 180px;
+	height: auto;
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.numlist {
+	display: -webkit-flex;
+	display: flex;
+	width: 760px;
+	height: auto;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+.num1 {
+	width: 20px;
+	height: auto;
+	text-align: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.num2 {
+	width: 734px;
+	height: auto;
+	text-align: justify;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 6px;
+}
+
+.pointlist {
+	display: -webkit-flex;
+	display: flex;
+	width: 760px;
+	height: auto;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+.pnt1 {
+	width: 8px;
+	height: auto;
+	text-align: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.pnt2 {
+	width: 746px;
+	height: auto;
+	text-align: justify;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 6px;
+}
+
+.prodlist {
+	display: -webkit-flex;
+	display: flex;
+	width: 760px;
+	height: auto;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+.pro1 {
+	width: 146px;
+	height: auto;
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.pro2 {
+	width: 146px;
+	height: auto;
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.pro3 {
+	width: 153px;
+	height: auto;
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.pro4 {
+	width: 171px;
+	height: auto;
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.pro5 {
+	width: 144px;
+	height: auto;
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+#header {
+	position: relative;
+	height:175px;
+	background: transparent;
+	visibility: visible;
+	display: block;
+	z-index:2;
+	left: 0px;
+
+}
+
+H2 { font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	font-color:#333;
+	text-align:
+}
+
+H3 { font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	font-color:#333;
+	text-align:
+}
+	
+	
+table
+{ 
+border-spacing: 0;
+border-collapse: collapse;
+/* fix for IE not inheriting font size */
+font-size: 1em;
+line-height:normal;
+}
+
+a:link
+	{
+	color:#F50000;
+	text-decoration: none;
+	background-color: transparent
+	}
+a:visited 
+	{
+	color: #F50000;
+	text-decoration: none;
+	background-color: transparent
+	}
+a:hover 
+	{
+	color: #820000;
+	text-decoration: none;
+	background-color: transparent
+	}
+

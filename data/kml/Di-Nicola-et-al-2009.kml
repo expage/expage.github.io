@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Di Nicola et al. (2009)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>ABL1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2391696 &#177; 291376<br/>
+<sup>26</sup>Al: 3549290 &#177; 2088511<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>163.8495,-74.7028</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABB1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 164569 &#177; 9803<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>163.9328,-74.7162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABB2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 152725 &#177; 10230<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>163.9328,-74.7162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABB3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 185622 &#177; 11086<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>163.9488,-74.7153</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABB4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 163087 &#177; 9801<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>163.9392,-74.7142</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABB6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 663214 &#177; 46646<br/>
+<sup>26</sup>Al: 615947 &#177; 54961<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>163.9597,-74.7147</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABB7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 633431 &#177; 39011<br/>
+<sup>26</sup>Al: 648581 &#177; 59023<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>163.9597,-74.7147</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABB8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 171851 &#177; 9593<br/>
+<sup>26</sup>Al: 159774 &#177; 12373<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>163.9577,-74.6993</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABB10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 548347 &#177; 32994<br/>
+<sup>26</sup>Al: 378874 &#177; 31271<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>163.9578,-74.7233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BROW1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 410894 &#177; 24713<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>164.1033,-74.6162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BROW2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 101418 &#177; 6104<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>164.0983,-74.6172</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BROW3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 726351 &#177; 51974<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>164.1212,-74.6030</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BROW7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 153511 &#177; 9171<br/>
+<sup>26</sup>Al: 158462 &#177; 12297<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>164.0888,-74.6092</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BROW8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 145309 &#177; 9678<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>164.0860,-74.6085</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BROW10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27563 &#177; 3666<br/>
+<sup>26</sup>Al: 19152 &#177; 2279<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>164.1097,-74.6227</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BROW11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10989 &#177; 834<br/>
+<sup>26</sup>Al: 7144 &#177; 858<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Di Nicola et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>164.1135,-74.6213</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

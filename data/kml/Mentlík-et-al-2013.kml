@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Mentlík et al. (2013)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>PR-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15130 &#177; 878<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mentlík et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.4021,49.0752</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PR-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15498 &#177; 961<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mentlík et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.4019,49.0765</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PR-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15889 &#177; 904<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mentlík et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.4011,49.0768</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PR-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13981 &#177; 1072<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mentlík et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.4005,49.0766</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PR-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13023 &#177; 1586<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mentlík et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.4004,49.0766</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PR-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16833 &#177; 1333<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mentlík et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.4014,49.0784</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PR-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19283 &#177; 2391<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mentlík et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.4020,49.0791</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PR-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16942 &#177; 1096<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mentlík et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.4021,49.0794</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LA-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13920 &#177; 1411<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mentlík et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.3313,49.1131</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LA-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15878 &#177; 1979<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mentlík et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.3303,49.1145</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

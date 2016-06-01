@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Cronauer et al. (in press)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>12GRO-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9212 &#177; 488<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cronauer et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.47748,70.19212</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12GRO-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10121 &#177; 499<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cronauer et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.44076,70.19753</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12GRO-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8041 &#177; 380<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cronauer et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.47350,70.21378</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12GRO-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8583 &#177; 445<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cronauer et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.47272,70.21310</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12GRO-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8104 &#177; 383<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cronauer et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.45253,70.22152</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12GRO-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8301 &#177; 392<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cronauer et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.45253,70.22152</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12GRO-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8493 &#177; 396<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cronauer et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.45253,70.22152</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12GRO-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7594 &#177; 372<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cronauer et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.44326,70.21963</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12GRO-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7629 &#177; 354<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cronauer et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.44254,70.21516</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12GRO-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7401 &#177; 390<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cronauer et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.45955,70.21252</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12GRO-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7410 &#177; 343<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Cronauer et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.45955,70.21252</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

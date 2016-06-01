@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Marsella (1998)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>KM95-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33378 &#177; 12194<br/>
+<sup>26</sup>Al: 10598 &#177; 1251<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Marsella (1998)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.75211,66.17797</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-44</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12308 &#177; 1651<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Marsella (1998)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.71767,66.13764</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-69</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10018 &#177; 755<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Marsella (1998)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-65.56497,66.50677</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-70</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 9882 &#177; 769<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Marsella (1998)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.56497,66.50677</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-72</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11936 &#177; 1178<br/>
+<sup>26</sup>Al: 7778 &#177; 1035<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Marsella (1998)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.32867,66.52483</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-92</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11407 &#177; 1511<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Marsella (1998)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.86678,66.13231</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-118</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4341 &#177; 2078<br/>
+<sup>26</sup>Al: 5163 &#177; 696<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Marsella (1998)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.68444,66.14508</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-119</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4911 &#177; 1856<br/>
+<sup>26</sup>Al: 5315 &#177; 633<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Marsella (1998)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.68444,66.14508</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-120</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5906 &#177; 2127<br/>
+<sup>26</sup>Al: 5445 &#177; 895<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Marsella (1998)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.68444,66.14508</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-148</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20247 &#177; 7077<br/>
+<sup>26</sup>Al: 10891 &#177; 4608<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Marsella (1998)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.90694,66.08439</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

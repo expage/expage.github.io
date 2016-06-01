@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Barnard et al. (2006)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>KTM4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 806 &#177; 260<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Barnard et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.567,28.214</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KTM5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1243 &#177; 343<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Barnard et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.567,28.214</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KTM6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 718 &#177; 263<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Barnard et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.567,28.214</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KTM7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 885 &#177; 297<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Barnard et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.566,28.211</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KTM8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 912 &#177; 263<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Barnard et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.566,28.211</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KTM9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1027 &#177; 314<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Barnard et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.566,28.211</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KTM19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4524 &#177; 341<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Barnard et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.514,28.215</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KTM20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 979 &#177; 277<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Barnard et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.514,28.215</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KTM21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1375 &#177; 254<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Barnard et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.514,28.215</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KTM25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5731 &#177; 817<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Barnard et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.474,28.209</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KTM26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5188 &#177; 402<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Barnard et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.474,28.209</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

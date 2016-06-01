@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Alexanderson and Fabel (2015)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>ORM-1A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10421 &#177; 677<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Alexanderson and Fabel (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.9421,59.6805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ORM-1B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10961 &#177; 793<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Alexanderson and Fabel (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.9421,59.6805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ORM-2A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11243 &#177; 779<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Alexanderson and Fabel (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.9419,59.6805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ORM-2B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11075 &#177; 935<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Alexanderson and Fabel (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.9419,59.6805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ORM-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13924 &#177; 2571<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Alexanderson and Fabel (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.9421,59.6805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VAS-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12739 &#177; 861<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Alexanderson and Fabel (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.9685,59.6700</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VAS-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12214 &#177; 841<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Alexanderson and Fabel (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.9681,59.6706</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VAS-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11829 &#177; 730<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Alexanderson and Fabel (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.9689,59.6709</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

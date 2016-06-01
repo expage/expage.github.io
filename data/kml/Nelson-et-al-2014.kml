@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Nelson et al. (2014)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>GLX14B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10047 &#177; 473<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nelson et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-45.571,61.296</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLX15A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10539 &#177; 493<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nelson et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.546,61.343</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLX16A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10032 &#177; 473<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nelson et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.537,61.323</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLX16B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10458 &#177; 492<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nelson et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-45.537,61.323</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLX17A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10145 &#177; 515<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nelson et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.543,61.331</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLX17B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9331 &#177; 768<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nelson et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-45.543,61.331</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLX25A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10983 &#177; 542<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nelson et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.302,61.193</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLX25B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10283 &#177; 468<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nelson et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-45.302,61.193</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLX28A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9942 &#177; 594<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nelson et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.431,60.995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLX28B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9919 &#177; 495<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nelson et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-45.431,60.995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLX36A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1426 &#177; 122<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nelson et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.386,61.182</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

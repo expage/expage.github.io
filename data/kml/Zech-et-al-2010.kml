@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zech et al. (2010)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>ww11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18399 &#177; 1532<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.127,-17.313</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ww12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17715 &#177; 1053<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.127,-17.313</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ww21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15501 &#177; 932<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.128,-17.310</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ww22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15444 &#177; 996<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.128,-17.310</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ww31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13991 &#177; 851<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.124,-17.303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ww32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14052 &#177; 982<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.124,-17.303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ww41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13770 &#177; 729<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.124,-17.298</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ww42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13163 &#177; 1292<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.124,-17.298</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ww51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11908 &#177; 841<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.118,-17.289</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ww52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9922 &#177; 685<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.118,-17.289</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

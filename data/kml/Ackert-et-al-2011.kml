@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ackert et al. (2011)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>ODY-05-014</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 77459 &#177; 3794<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2011)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-114.22778,-84.72743</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ODY-05-015</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37444 &#177; 2057<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2011)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-114.22778,-84.72743</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ODY-05-056</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 429616 &#177; 24792<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2011)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-114.22933,-84.72715</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ODY-05-057</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 643831 &#177; 40484<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2011)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-114.22933,-84.72715</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ODR-05-030A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34163 &#177; 1958<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2011)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-115.79445,-84.75155</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OBN-05-025</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 146771 &#177; 7272<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2011)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-116.39530,-84.78757</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OBN-05-122</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 98069 &#177; 6568<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2011)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-116.38995,-84.78842</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OBN-05-136</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 77910 &#177; 79519<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2011)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-116.46082,-84.78617</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OBN-05-204</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27567 &#177; 1595<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2011)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-116.46040,-84.78623</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OBN-05-211</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 85928 &#177; 4647<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2011)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-116.46082,-84.78617</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTN-05-019</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 81230 &#177; 4054<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2011)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-115.96503,-84.73133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTN-05-120</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 70943 &#177; 3679<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2011)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-115.96810,-84.73100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Larsen (1996)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>SPA-O-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30769 &#177; 2515<br/>
+<sup>26</sup>Al: 27039 &#177; 2635<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Larsen (1996)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.541,40.965</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-O-2X</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25154 &#177; 1898<br/>
+<sup>26</sup>Al: 21471 &#177; 2344<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Larsen (1996)<br/>Clark et al. (1995)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.541,40.965</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-O-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30783 &#177; 3251<br/>
+<sup>26</sup>Al: 27634 &#177; 2840<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Larsen (1996)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.541,40.965</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-O-4X</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30051 &#177; 2714<br/>
+<sup>26</sup>Al: 24852 &#177; 2749<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Larsen (1996)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.541,40.965</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-O-5X</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21858 &#177; 1752<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Larsen (1996)<br/>Clark et al. (1995)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.530,40.973</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-O-5XX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25982 &#177; 2168<br/>
+<sup>26</sup>Al: 27582 &#177; 2590<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Larsen (1996)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.530,40.973</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-O-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23775 &#177; 3058<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Larsen (1996)<br/>Clark et al. (1995)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.530,40.973</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-O-6X</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25830 &#177; 1819<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Larsen (1996)<br/>Clark et al. (1995)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.530,40.973</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-O-6XX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26498 &#177; 3009<br/>
+<sup>26</sup>Al: 19075 &#177; 2922<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Larsen (1996)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.530,40.973</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SMH-B-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21908 &#177; 2623<br/>
+<sup>26</sup>Al: 21660 &#177; 1535<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Larsen (1996)<br/>Clark et al. (1995)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.528,40.964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SMH-B-9X</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23418 &#177; 1810<br/>
+<sup>26</sup>Al: 16752 &#177; 1600<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Larsen (1996)<br/>Clark et al. (1995)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.528,40.964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SMH-B-9XX</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 20075 &#177; 1700<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Larsen (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.528,40.964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-O-15</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 27978 &#177; 2858<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Larsen (1996)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.546,40.961</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-O-16X</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 23304 &#177; 2358<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Larsen (1996)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.546,40.961</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SWR-B-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24158 &#177; 2080<br/>
+<sup>26</sup>Al: 22548 &#177; 1459<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Larsen (1996)<br/>Clark et al. (1995)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.592,41.007</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SWR-B-8X</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24776 &#177; 1776<br/>
+<sup>26</sup>Al: 20997 &#177; 1772<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Larsen (1996)<br/>Clark et al. (1995)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.592,41.007</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAF-B-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23217 &#177; 2440<br/>
+<sup>26</sup>Al: 27021 &#177; 1920<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Larsen (1996)<br/>Clark et al. (1995)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.752,40.921</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAF-B-10X</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29803 &#177; 2435<br/>
+<sup>26</sup>Al: 24635 &#177; 2535<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Larsen (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.752,40.921</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAF-B-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27481 &#177; 2258<br/>
+<sup>26</sup>Al: 22779 &#177; 1864<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Larsen (1996)<br/>Clark et al. (1995)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.752,40.921</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAF-B-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26334 &#177; 2474<br/>
+<sup>26</sup>Al: 25199 &#177; 2168<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Larsen (1996)<br/>Clark et al. (1995)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.752,40.921</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAF-O-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22467 &#177; 2311<br/>
+<sup>26</sup>Al: 24793 &#177; 1713<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Larsen (1996)<br/>Clark et al. (1995)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.753,40.920</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAF-O-13X</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25173 &#177; 1984<br/>
+<sup>26</sup>Al: 32731 &#177; 2934<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Larsen (1996)<br/>Clark et al. (1995)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.753,40.920</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAF-O-13XX</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 21106 &#177; 4223<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Larsen (1996)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.753,40.920</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAF-O-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29076 &#177; 3021<br/>
+<sup>26</sup>Al: 26104 &#177; 1662<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Larsen (1996)<br/>Clark et al. (1995)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.752,40.920</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

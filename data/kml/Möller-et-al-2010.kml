@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Möller et al. (2010)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>PEA-0657</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8090 &#177; 884<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Möller et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-28.5766,83.5384</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PEA-0658</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8673 &#177; 617<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Möller et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-28.5768,83.5385</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PEA-0659</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8967 &#177; 693<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Möller et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-28.5860,83.5373</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PEA-0665</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8854 &#177; 640<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Möller et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-28.7798,83.5215</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PEA-0666</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7075 &#177; 654<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Möller et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-28.7755,83.5212</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PEA-0667</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7626 &#177; 592<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Möller et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-28.7718,83.5221</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PEA-0668</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10474 &#177; 736<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Möller et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-28.6715,83.5429</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PEA-0663</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12186 &#177; 858<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publications</u><br/>Möller et al. (2010)<br/>Larsen et al. (in press)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-29.483201,83.561666</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PEA-0691</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6068 &#177; 479<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Möller et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-28.8765,83.4995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PEA-0692</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6748 &#177; 499<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Möller et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-28.8945,83.4983</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PEA-0693</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4533 &#177; 396<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Möller et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-28.9433,83.4981</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PEA-0618</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11869 &#177; 790<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Möller et al. (2010)<br/>Larsen et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-32.167853,83.587976</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PEA-0645</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11513 &#177; 827<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Möller et al. (2010)<br/>Larsen et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-31.853778,83.594452</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PEA-0647</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12172 &#177; 901<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Möller et al. (2010)<br/>Larsen et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-31.855547,83.594438</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PEA-0625</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17612 &#177; 987<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Möller et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-32.3351,83.6147</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PEA-0632</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12708 &#177; 875<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Möller et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-32.1785,83.6108</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

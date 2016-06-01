@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bichler et al. (in press)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>DUR1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10865 &#177; 632<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bichler et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.98334,47.07643</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DUR2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25239 &#177; 2989<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bichler et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.98339,47.07577</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DUR3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15683 &#177; 2750<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bichler et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.98290,47.07436</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DUR4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10267 &#177; 1093<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bichler et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.98274,47.07374</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SON1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11965 &#177; 959<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bichler et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.98044,47.05642</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SON2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17838 &#177; 2623<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bichler et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.98045,47.05642</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SON4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5511 &#177; 701<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bichler et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.97931,47.05706</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SON6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9890 &#177; 543<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bichler et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.98145,47.05755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SON8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10263 &#177; 638<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bichler et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.98193,47.05725</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SON5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11062 &#177; 689<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bichler et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.98149,47.05756</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SON9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11050 &#177; 633<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bichler et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.98200,47.05720</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SON10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9641 &#177; 531<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bichler et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.98197,47.05566</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

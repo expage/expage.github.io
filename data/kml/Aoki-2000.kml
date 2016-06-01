@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Aoki (2000)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>SEN-C1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41215 &#177; 2119<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Aoki (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>137.814,35.779</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SEN-C2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23660 &#177; 1599<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Aoki (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>137.814,35.779</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SEN-C3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8060 &#177; 491<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Aoki (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>137.814,35.779</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SEN-C4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15499 &#177; 849<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Aoki (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>137.814,35.779</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SEN-C5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14411 &#177; 705<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Aoki (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>137.814,35.779</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NOG-T1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15811 &#177; 777<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Aoki (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>137.817,35.795</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NOG-T2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12185 &#177; 723<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Aoki (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>137.817,35.795</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NOG-T3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15128 &#177; 734<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Aoki (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>137.817,35.795</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NOG-T4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9295 &#177; 493<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Aoki (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>137.817,35.795</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NOG-T5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15137 &#177; 746<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Aoki (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>137.817,35.795</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NOG-T6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14993 &#177; 1042<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Aoki (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>137.817,35.795</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NOG-T7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15159 &#177; 828<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Aoki (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>137.817,35.795</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NOG-T8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4583 &#177; 932<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Aoki (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>137.817,35.795</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NOG-T9a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18755 &#177; 4259<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Aoki (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>137.817,35.795</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NOG-T9b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17706 &#177; 2629<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Aoki (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>137.817,35.795</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

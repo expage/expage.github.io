@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Nishiizumi et al. (1993)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Site-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18173 &#177; 1481<br/>
+<sup>26</sup>Al: 18938 &#177; 1973<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nishiizumi et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.635,37.407</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Site-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17183 &#177; 1476<br/>
+<sup>26</sup>Al: 20389 &#177; 1392<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nishiizumi et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.637,37.405</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Site-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24833 &#177; 1722<br/>
+<sup>26</sup>Al: 21679 &#177; 1571<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nishiizumi et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.628,37.413</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Site-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 123707 &#177; 8503<br/>
+<sup>26</sup>Al: 112162 &#177; 7940<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nishiizumi et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.616,37.411</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Site-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 139386 &#177; 9664<br/>
+<sup>26</sup>Al: 143832 &#177; 10992<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nishiizumi et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.613,37.419</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22135 &#177; 1588<br/>
+<sup>26</sup>Al: 20985 &#177; 1860<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nishiizumi et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.279,37.799</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17388 &#177; 1171<br/>
+<sup>26</sup>Al: 16631 &#177; 1133<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nishiizumi et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.292,37.792</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55427 &#177; 3706<br/>
+<sup>26</sup>Al: 60698 &#177; 4937<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nishiizumi et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.296,37.797</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 150460 &#177; 9915<br/>
+<sup>26</sup>Al: 125676 &#177; 10825<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nishiizumi et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.233,37.824</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CW-Erratic</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 171440 &#177; 11280<br/>
+<sup>26</sup>Al: 166622 &#177; 12774<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nishiizumi et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.206,37.524</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Dyer-Till</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 91569 &#177; 6538<br/>
+<sup>26</sup>Al: 82548 &#177; 6346<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nishiizumi et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.10,37.66</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Glasser et al. (2014)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>JRI01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13610 &#177; 761<br/>
+<sup>26</sup>Al: 13744 &#177; 1255<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-58.03217,-63.84267</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JRI03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11849 &#177; 706<br/>
+<sup>26</sup>Al: 14069 &#177; 1029<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-58.03126,-63.84306</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JRI09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9647 &#177; 539<br/>
+<sup>26</sup>Al: 9781 &#177; 605<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-58.07312,-63.85701</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JRI26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7127 &#177; 492<br/>
+<sup>26</sup>Al: 7972 &#177; 659<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.89289,-63.90809</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JRI29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6881 &#177; 499<br/>
+<sup>26</sup>Al: 6510 &#177; 833<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.81215,-63.93596</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JRI35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6737 &#177; 403<br/>
+<sup>26</sup>Al: 7370 &#177; 539<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.81549,-63.80006</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JRI49</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20400 &#177; 1326<br/>
+<sup>26</sup>Al: 17402 &#177; 2536<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.87360,-63.83208</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JRI50</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15899 &#177; 980<br/>
+<sup>26</sup>Al: 17511 &#177; 1120<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.87108,-63.83592</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JRI62</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8028 &#177; 474<br/>
+<sup>26</sup>Al: 9773 &#177; 812<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-58.10838,-63.85960</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

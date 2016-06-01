@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Fogwill et al. (2014)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>FLO-18-CJF</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21806 &#177; 1018<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-84.51798,-78.40015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLO-10-CJF</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 724317 &#177; 43688<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-84.52056,-78.40046</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLO-15-CJF</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 364688 &#177; 17947<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-84.52497,-78.40228</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLO-03-CJF</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60872 &#177; 2886<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-84.35568,-78.39880</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLO-04-CJF</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 164320 &#177; 8151<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-84.35350,-78.39905</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLO-19-CJF</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 44571 &#177; 2117<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-84.35205,-78.39850</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLO-20-CJF</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 53846 &#177; 2569<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-84.35207,-78.39850</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLO-17-CJF</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14628 &#177; 673<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-84.35203,-78.39820</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLO-01-CJF</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 363000 &#177; 17373<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-84.35223,-78.39830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLO-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5866 &#177; 350<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-83.76280,-78.54297</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLO-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5978 &#177; 311<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-83.76280,-78.54297</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLO-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5998 &#177; 289<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-83.76280,-78.54297</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLO-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6043 &#177; 304<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-83.76283,-78.54290</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLO-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5602 &#177; 286<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-83.76330,-78.54275</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLO-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7091 &#177; 372<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-83.76508,-78.54173</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLO-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6303 &#177; 343<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-83.76508,-78.54173</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UG-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 209496 &#177; 10998<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-81.10165,-79.78997</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UG-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43558 &#177; 2056<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-81.10498,-79.79048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UG-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 74614 &#177; 3546<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-81.10885,-79.79085</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UG-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39766 &#177; 1872<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-81.12033,-79.79103</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UG-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37257 &#177; 1755<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-81.12181,-79.79040</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UG-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18146 &#177; 969<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Fogwill et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-81.12763,-79.79022</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

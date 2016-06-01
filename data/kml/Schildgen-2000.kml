@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Schildgen (2000)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>99-t76</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21448 &#177; 1061<br/>
+<sup>26</sup>Al: 21023 &#177; 1484<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schildgen (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-105.558,40.003</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>99-t75</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 120903 &#177; 6065<br/>
+<sup>26</sup>Al: 120016 &#177; 8898<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schildgen (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-105.534,40.004</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>99-t74</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 21945 &#177; 10683<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schildgen (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-105.525,39.950</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>99-t68</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 155371 &#177; 8091<br/>
+<sup>26</sup>Al: 145015 &#177; 10987<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schildgen (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-105.523,39.947</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-91-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20944 &#177; 1068<br/>
+<sup>26</sup>Al: 19855 &#177; 1463<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schildgen (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.293,39.072</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-91-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20669 &#177; 1257<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schildgen (2000)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.291,39.067</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dong et al. (2014)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Nam-51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23168 &#177; 1294<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.77305,30.59839</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nam-52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19684 &#177; 1111<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.77305,30.59849</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nam-53</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24775 &#177; 1264<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.77270,30.59868</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nam-54</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25206 &#177; 1533<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.77269,30.59871</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nam-55</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20575 &#177; 980<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.77251,30.59883</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nam-56</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25513 &#177; 1225<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.77064,30.60160</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nam-57</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30065 &#177; 1453<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.77064,30.60162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nam-58</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23858 &#177; 1166<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.77070,30.60189</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nam-59</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22513 &#177; 1376<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.77067,30.60199</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nam-60</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28968 &#177; 1481<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.77064,30.60198</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nam-62</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21255 &#177; 1333<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.77416,30.61005</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nam-63</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19668 &#177; 1020<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.77418,30.61002</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nam-64</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27969 &#177; 2425<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.77417,30.61000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nam-65</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37175 &#177; 1884<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.77412,30.60966</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nam-66</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25356 &#177; 1530<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.77413,30.60998</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

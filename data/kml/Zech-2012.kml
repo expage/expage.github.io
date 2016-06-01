@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zech (2012)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>KI11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10249 &#177; 609<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.4876,40.7827</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KI12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15793 &#177; 885<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.4876,40.7827</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KI13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16781 &#177; 885<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.4869,40.7826</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KI14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15038 &#177; 968<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.4869,40.7826</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KI21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19729 &#177; 1094<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.4728,40.7874</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KI22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22147 &#177; 1213<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.4728,40.7874</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KI23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16991 &#177; 909<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.4734,40.7871</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KI24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16852 &#177; 911<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.4763,40.7840</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KI25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18926 &#177; 1033<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.4763,40.7838</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KI31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 53894 &#177; 2856<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.5025,40.7650</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KI32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57067 &#177; 3352<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.5025,40.7650</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KI33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17760 &#177; 1038<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.5024,40.7644</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KI34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28525 &#177; 1505<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.5084,40.7666</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

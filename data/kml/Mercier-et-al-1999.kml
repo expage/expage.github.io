@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Mercier et al. (1999)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Ln1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8011 &#177; 1920<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.094,48.112</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ln2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14670 &#177; 1695<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.100,48.111</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lt3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14300 &#177; 1589<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.074,48.103</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ta4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14346 &#177; 2651<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.058,48.084</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ta4bis</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14975 &#177; 1734<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.058,48.084</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>M5a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16847 &#177; 1553<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.042,48.075</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>M5b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15466 &#177; 1602<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.042,48.075</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>M5c</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16916 &#177; 1750<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.042,48.075</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>M5d</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7747 &#177; 1587<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.042,48.075</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>M5e</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15364 &#177; 1696<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.042,48.075</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A6a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21760 &#177; 2020<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.054,48.062</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A6b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24142 &#177; 2679<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.054,48.062</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14676 &#177; 1844<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.039,48.009</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13775 &#177; 1806<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.039,48.011</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12822 &#177; 3262<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.031,48.018</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17023 &#177; 2318<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.030,48.019</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15946 &#177; 1994<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.029,48.020</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10554 &#177; 1398<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.028,48.021</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14202 &#177; 1653<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.024,48.024</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14249 &#177; 1600<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.023,48.031</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14824 &#177; 1965<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Mercier et al. (1999)<br/>Braucher et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.027,48.022</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Nesje et al. (2007)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>COSMO-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55122 &#177; 4122<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>15.902,69.233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COSMO-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33577 &#177; 3095<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>15.902,69.233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COSMO-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40609 &#177; 3633<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>15.902,69.233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COSMO-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 59129 &#177; 4974<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>15.867,69.243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COSMO-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38211 &#177; 3292<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>16.038,69.261</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COSMO-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38636 &#177; 5026<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.038,69.261</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COSMO-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47513 &#177; 4794<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.038,69.261</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COSMO-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21638 &#177; 1904<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>15.966,69.219</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COSMO-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 56098 &#177; 4380<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.015,69.271</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COSMO-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47807 &#177; 3831<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>15.909,69.218</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COSMO-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16110 &#177; 1355<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.520,68.896</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COSMO-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24789 &#177; 2020<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.526,68.900</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COSMO-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26043 &#177; 2147<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.532,68.903</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COSMO-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38434 &#177; 2776<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.899,68.745</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COSMO-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 78048 &#177; 5498<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>17.133,68.610</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COSMO-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 58400 &#177; 4116<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nesje et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>17.157,68.610</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Young et al. (2011c)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>09GRO-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8636 &#177; 404<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Young et al. (2011c)<br/>Young et al. (2013a)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.769684,69.247565</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>09GRO-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8835 &#177; 415<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Young et al. (2011c)<br/>Young et al. (2013a)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.837316,69.237229</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FST08-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8062 &#177; 371<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Young et al. (2011c)<br/>Young et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.087783,69.202167</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FST08-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7655 &#177; 362<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Young et al. (2011c)<br/>Young et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.085967,69.201900</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>09GRO-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7937 &#177; 392<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Young et al. (2011c)<br/>Young et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.037061,69.113142</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>09GRO-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7974 &#177; 373<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Young et al. (2011c)<br/>Young et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.036021,69.113040</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>09GRO-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7836 &#177; 381<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Young et al. (2011c)<br/>Young et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.034417,69.112933</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>09GRO-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7997 &#177; 389<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Young et al. (2011c)<br/>Young et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.034283,69.112963</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

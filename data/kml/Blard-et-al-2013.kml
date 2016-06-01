@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Blard et al. (2013)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>UTU-6B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30013 &#177; 2022<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Blard et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.19997,-22.31302</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UTU-6D</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30887 &#177; 1589<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Blard et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.20042,-22.31307</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UTU-7C</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 59512 &#177; 6478<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Blard et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.19847,-22.31547</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UTU-8A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55577 &#177; 3013<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Blard et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.20207,-22.31775</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UTU-8D</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36235 &#177; 1866<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Blard et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.20008,-22.31682</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UTU-9A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33181 &#177; 1996<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Blard et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.20222,-22.31983</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

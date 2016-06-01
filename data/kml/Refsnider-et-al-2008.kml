@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Refsnider et al. (2008)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>NFP-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13622 &#177; 883<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Refsnider et al. (2008)<br/>Laabs et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.09423,40.59852</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NFP-2B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17714 &#177; 984<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Refsnider et al. (2008)<br/>Laabs et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.09448,40.70228</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NFP-3A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19941 &#177; 2314<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Refsnider et al. (2008)<br/>Laabs et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.09370,40.70202</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NFP-4A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19538 &#177; 1002<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Refsnider et al. (2008)<br/>Laabs et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.09270,40.59625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NFP-4B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16019 &#177; 1053<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Refsnider et al. (2008)<br/>Laabs et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.09270,40.59625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NFP-4C</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15449 &#177; 1015<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Refsnider et al. (2008)<br/>Laabs et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.09270,40.59625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NFP-4D</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21403 &#177; 1380<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Refsnider et al. (2008)<br/>Laabs et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.09270,40.59625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NFP-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17764 &#177; 901<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Refsnider et al. (2008)<br/>Laabs et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.08703,40.59462</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NFP-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18190 &#177; 958<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Refsnider et al. (2008)<br/>Laabs et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.07187,40.60062</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NFP-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18605 &#177; 973<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Refsnider et al. (2008)<br/>Laabs et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.07175,40.60073</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NFP-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19586 &#177; 1000<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Refsnider et al. (2008)<br/>Laabs et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.07325,40.60028</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NFP-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19572 &#177; 1068<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Refsnider et al. (2008)<br/>Laabs et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.07528,40.59958</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BMP-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15038 &#177; 771<br/>
+<sup>26</sup>Al: 14493 &#177; 1703<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Refsnider et al. (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-110.89925,40.68985</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BMP-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15042 &#177; 725<br/>
+<sup>26</sup>Al: 13675 &#177; 1382<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Refsnider et al. (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-110.89998,40.68957</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BMP-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17038 &#177; 3323<br/>
+<sup>26</sup>Al: 13080 &#177; 1359<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Refsnider et al. (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-110.90862,40.68677</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BMP-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16108 &#177; 914<br/>
+<sup>26</sup>Al: 13856 &#177; 1645<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Refsnider et al. (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-110.90942,40.68737</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

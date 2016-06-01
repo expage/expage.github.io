@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hodgson et al. (2012)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>DVAM1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 962664 &#177; 73301<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.1225,-82.4664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVAM2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 555115 &#177; 35664<br/>
+<sup>26</sup>Al: 323625 &#177; 27647<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.1246,-82.4651</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVAM3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1127750 &#177; 88708<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.1280,-82.4664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVAM4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 939534 &#177; 65824<br/>
+<sup>26</sup>Al: 380437 &#177; 34575<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.1275,-82.4651</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVAM5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1246766 &#177; 99722<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.1289,-82.4651</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVAM6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 436711 &#177; 27504<br/>
+<sup>26</sup>Al: 223046 &#177; 17106<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.1303,-82.4651</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVRM1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 253626 &#177; 15412<br/>
+<sup>26</sup>Al: 151285 &#177; 11955<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.0823,-82.4684</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVRM2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 555865 &#177; 37550<br/>
+<sup>26</sup>Al: 266080 &#177; 22426<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.0823,-82.4684</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVRM3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 966976 &#177; 67770<br/>
+<sup>26</sup>Al: 610267 &#177; 68554<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.0754,-82.4685</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVRM4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 836174 &#177; 57792<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.0658,-82.4682</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVRM5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1014995 &#177; 77297<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.0583,-82.4849</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVRM6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1166746 &#177; 88003<br/>
+<sup>26</sup>Al: 440986 &#177; 37532<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.0608,-82.4681</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVRM7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1000301 &#177; 72770<br/>
+<sup>26</sup>Al: 571478 &#177; 54298<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.0608,-82.4681</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVUC1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1288782 &#177; 101113<br/>
+<sup>26</sup>Al: 989821 &#177; 114703<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.9414,-82.4829</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVUC2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1070574 &#177; 79511<br/>
+<sup>26</sup>Al: 887851 &#177; 99700<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.9413,-82.4830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVUC3_1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 822392 &#177; 55679<br/>
+<sup>26</sup>Al: 143849 &#177; 11021<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.9402,-82.4830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVUC3_2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 835496 &#177; 58342<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.9402,-82.4830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVUC4A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2186039 &#177; 218422<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.9401,-82.4829</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVUC4B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2436757 &#177; 260547<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.9401,-82.4829</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVUC4JUN</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2457259 &#177; 268463<br/>
+<sup>26</sup>Al: 1397053 &#177; 225083<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.9401,-82.4829</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVUC5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 789682 &#177; 54229<br/>
+<sup>26</sup>Al: 471001 &#177; 40725<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.9399,-82.4829</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVUC6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1503356 &#177; 125228<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.9340,-82.4828</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVUC7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1897180 &#177; 182857<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hodgson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.9424,-82.4830</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

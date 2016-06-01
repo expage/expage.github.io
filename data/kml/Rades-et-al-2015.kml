@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rades et al. (2015)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>11TYB23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 113294 &#177; 6089<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rades et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.6044,31.3458</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11TYB24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22565 &#177; 1183<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rades et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.6090,31.3478</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11TYB26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52063 &#177; 2801<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rades et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.6041,31.3457</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11TYB27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 54771 &#177; 2901<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rades et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.6057,31.3461</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12TYB29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42236 &#177; 2212<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rades et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.6049,31.3460</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12TYB30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 160731 &#177; 8774<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rades et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.6053,31.3452</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12TYB31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 49958 &#177; 2632<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rades et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.6042,31.3457</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11TYB25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 169889 &#177; 9240<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rades et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.6015,31.3455</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12TYB8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18563 &#177; 981<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rades et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.5317,30.6780</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12TYB9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7977 &#177; 435<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rades et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.5318,30.6778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12TYB10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19997 &#177; 1064<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rades et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.5314,30.6772</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

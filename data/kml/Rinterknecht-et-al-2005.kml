@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rinterknecht et al. (2005)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>POM-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8425 &#177; 1052<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.6436,53.3517</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17954 &#177; 1574<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.6508,53.3661</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15426 &#177; 1286<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.7358,53.1669</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7384 &#177; 785<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.7914,52.8856</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20648 &#177; 1720<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.7914,52.8856</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15370 &#177; 1397<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.8533,53.7592</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12364 &#177; 1108<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.9544,53.0175</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17082 &#177; 1947<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>15.4369,53.6133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16453 &#177; 1652<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>15.8381,53.8906</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15459 &#177; 1331<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>16.2553,53.7117</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21225 &#177; 1721<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>19.7514,53.7236</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15727 &#177; 1301<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>19.8236,53.8444</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LES-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16561 &#177; 1762<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>19.8375,53.5222</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LES-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20393 &#177; 2390<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>19.9000,53.5111</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LES-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36716 &#177; 3021<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>19.9250,53.5528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LES-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13463 &#177; 1274<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>19.9417,53.5764</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LES-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16715 &#177; 1563<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>19.9528,53.5625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LES-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5990 &#177; 792<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.0417,53.6250</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LES-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17940 &#177; 1505<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.0611,53.6006</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LES-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41348 &#177; 3087<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.0944,53.5792</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LES-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7302 &#177; 805<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.2222,53.4806</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LES-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16130 &#177; 1369<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.2389,53.4944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LES-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23919 &#177; 2090<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.4500,53.3458</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LES-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6995 &#177; 818<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.4931,53.3875</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12914 &#177; 1069<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.8597,53.9569</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18078 &#177; 1540<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.9097,54.0861</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15891 &#177; 1491<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>21.2028,53.9006</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16787 &#177; 1641<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>21.6097,54.0681</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POL-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18100 &#177; 1809<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>21.6286,53.7739</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POL-1B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16431 &#177; 2079<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>21.6286,53.7739</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POL-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17404 &#177; 1632<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>21.8589,54.2147</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POL-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26900 &#177; 2622<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>21.9464,54.1950</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14761 &#177; 1343<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>21.9958,54.1500</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POM-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16562 &#177; 1343<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.0167,53.9006</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POL-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16851 &#177; 1633<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.7531,54.2039</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POL-5B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20727 &#177; 2635<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.7531,54.2039</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POL-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17035 &#177; 1622<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.7897,54.2358</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POL-4B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19559 &#177; 2471<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.7897,54.2358</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POL-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 86402 &#177; 7603<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.9683,54.1647</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POL-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21377 &#177; 1990<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.9700,54.1642</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POL-7B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20874 &#177; 2309<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Rinterknecht et al. (2005)<br/>Rinterknecht et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.9700,54.1642</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

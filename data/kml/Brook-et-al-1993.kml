@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Brook et al. (1993)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>KBA89-70-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 121968 &#177; 9832<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.012,-77.831</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KBA89-96</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 157439 &#177; 13862<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.010,-77.830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KBA89-99</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 108501 &#177; 11638<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>160.999,-77.828</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KBA89-97</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 192828 &#177; 15663<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.002,-77.830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KBA89-108</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10000000 &#177; 10000000<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brook et al. (1993)<br/>Brook et al. (1995a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>160.969,-77.850</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KBA89-107</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2061737 &#177; 248034<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brook et al. (1993)<br/>Brook et al. (1995a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>160.955,-77.860</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

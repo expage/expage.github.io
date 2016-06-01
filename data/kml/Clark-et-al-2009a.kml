@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Clark et al. (2009a)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>BF-04-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17580 &#177; 1397<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Clark et al. (2009a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.2810,55.1313</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BF-04-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32810 &#177; 2294<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Clark et al. (2009a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.2810,55.1313</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BF-04-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21389 &#177; 1374<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Clark et al. (2009a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.2804,55.1313</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BF-04-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20855 &#177; 1454<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Clark et al. (2009a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.2802,55.1321</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BF-04-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20866 &#177; 1608<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Clark et al. (2009a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.2802,55.1321</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BF-04-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23135 &#177; 1669<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Clark et al. (2009a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.2808,55.1311</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BF-04-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21336 &#177; 1723<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Clark et al. (2009a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.2808,55.1311</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BF-04-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21706 &#177; 1715<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Clark et al. (2009a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.2808,55.1311</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

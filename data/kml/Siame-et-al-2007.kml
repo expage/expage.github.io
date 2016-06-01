@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Siame et al. (2007)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>NHTS-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7056 &#177; 870<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Siame et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>121.445,24.367</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHTS-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20300 &#177; 4765<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Siame et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>121.445,24.366</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHTS-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11676 &#177; 1359<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Siame et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>121.445,24.364</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHTS-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6825 &#177; 2312<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Siame et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>121.447,24.364</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHTS-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8938 &#177; 1310<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Siame et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>121.445,24.369</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHTS-20b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11842 &#177; 1280<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Siame et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>121.447,24.366</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHTS-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7344 &#177; 832<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Siame et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>121.445,24.361</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHTS-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7551 &#177; 1818<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Siame et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>121.443,24.361</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHTS-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10302 &#177; 2480<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Siame et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>121.444,24.360</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHTS-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11681 &#177; 2050<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Siame et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>121.445,24.359</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHTS-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14671 &#177; 2937<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Siame et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>121.443,24.375</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHTS-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13092 &#177; 1895<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Siame et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>121.447,24.370</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHTS-12e</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7362 &#177; 2204<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Siame et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>121.465,24.350</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHTS-13a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15065 &#177; 2076<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Siame et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>121.465,24.350</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

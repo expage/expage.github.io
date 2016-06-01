@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>McCulloch et al. (2005)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>BGG-C1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27701 &#177; 2432<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>McCulloch et al. (2005)<br/>Kaplan et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.1461,-53.0714</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BGG-C2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26576 &#177; 2884<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>McCulloch et al. (2005)<br/>Kaplan et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.1444,-53.0831</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BGG-C4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25399 &#177; 1903<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>McCulloch et al. (2005)<br/>Kaplan et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.1450,-53.0808</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BI-B1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23647 &#177; 3278<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>McCulloch et al. (2005)<br/>Kaplan et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.2464,-53.5042</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BI-B2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22288 &#177; 3003<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>McCulloch et al. (2005)<br/>Kaplan et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.2325,-53.4975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BI-B3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20180 &#177; 2224<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>McCulloch et al. (2005)<br/>Kaplan et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.2483,-53.5064</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BI-B4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22328 &#177; 3201<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>McCulloch et al. (2005)<br/>Kaplan et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.2475,-53.5067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BI-C1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18268 &#177; 1762<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>McCulloch et al. (2005)<br/>Kaplan et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.4844,-53.5781</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BI-C2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18789 &#177; 2999<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>McCulloch et al. (2005)<br/>Kaplan et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.4872,-53.5808</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BI-C3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18899 &#177; 2241<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>McCulloch et al. (2005)<br/>Kaplan et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.4889,-53.5881</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

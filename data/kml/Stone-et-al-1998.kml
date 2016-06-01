@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Stone et al. (1998)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>AT-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14340 &#177; 1167<br/>
+<sup>26</sup>Al: 14474 &#177; 1340<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone et al. (1998)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-5.233,57.831</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AT-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14714 &#177; 1098<br/>
+<sup>26</sup>Al: 14300 &#177; 4543<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone et al. (1998)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-5.234,57.829</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AT-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13848 &#177; 1156<br/>
+<sup>26</sup>Al: 14120 &#177; 1726<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone et al. (1998)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-5.237,57.828</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AT-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 49370 &#177; 4246<br/>
+<sup>26</sup>Al: 46187 &#177; 5254<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone et al. (1998)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-5.264,57.827</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AT-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31054 &#177; 2592<br/>
+<sup>26</sup>Al: 25481 &#177; 2088<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone et al. (1998)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-5.262,57.827</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AT-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 58685 &#177; 4525<br/>
+<sup>26</sup>Al: 43994 &#177; 3183<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stone et al. (1998)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.259,57.825</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AT-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 54037 &#177; 4197<br/>
+<sup>26</sup>Al: 41451 &#177; 2954<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stone et al. (1998)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.259,57.825</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AT-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22440 &#177; 2134<br/>
+<sup>26</sup>Al: 22165 &#177; 9672<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone et al. (1998)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-5.244,57.816</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AT-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12130 &#177; 1147<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone et al. (1998)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-5.234,57.809</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AT-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10747 &#177; 1079<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone et al. (1998)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-5.227,57.810</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AT-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11676 &#177; 1056<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone et al. (1998)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-5.226,57.809</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AT-13rpt</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11244 &#177; 1257<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone et al. (1998)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-5.226,57.809</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Brugger (2007)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>TVP00-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22919 &#177; 1357<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Brugger (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.5947,38.9126</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TVP00-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21007 &#177; 1969<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Brugger (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.5940,38.9138</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TVP00-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21879 &#177; 1406<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Brugger (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.5901,38.9171</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TVP00-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18228 &#177; 1416<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Brugger (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.5913,38.9170</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TVP00-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18579 &#177; 2965<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Brugger (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.5952,38.9157</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TCP00-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15802 &#177; 882<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Brugger (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.5488,38.8515</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TCP00-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16930 &#177; 914<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Brugger (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.5507,38.8530</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

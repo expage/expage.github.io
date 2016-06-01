@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kong et al. (2010)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>R9201</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2869854 &#177; 286622<br/>
+<sup>26</sup>Al: 1578903 &#177; 261353<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Kong et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>75.049,-72.895</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>R9202</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1624569 &#177; 121984<br/>
+<sup>26</sup>Al: 1218043 &#177; 135643<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Kong et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>75.054,-72.894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>R9203</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2162333 &#177; 183377<br/>
+<sup>26</sup>Al: 1558057 &#177; 208432<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Kong et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>75.058,-72.8935</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>R9204</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4723615 &#177; 875877<br/>
+<sup>26</sup>Al: 2643847 &#177; 718502<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Kong et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>75.061,-72.893</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>R9205</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1992050 &#177; 154224<br/>
+<sup>26</sup>Al: 1451612 &#177; 190751<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Kong et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>75.064,-72.8925</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

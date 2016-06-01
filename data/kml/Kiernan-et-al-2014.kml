@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kiernan et al. (2014)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>DR-1A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16155 &#177; 1235<br/>
+<sup>26</sup>Al: 18698 &#177; 2389<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.288,-42.552</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR-1B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18210 &#177; 1198<br/>
+<sup>26</sup>Al: 18442 &#177; 1611<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.289,-42.552</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR-2A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17712 &#177; 1165<br/>
+<sup>26</sup>Al: 16625 &#177; 2295<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.292,-42.552</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR-2B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16531 &#177; 954<br/>
+<sup>26</sup>Al: 14219 &#177; 1411<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.2925,-42.552</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR-3A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16233 &#177; 1005<br/>
+<sup>26</sup>Al: 18495 &#177; 1956<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.293,-42.553</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR-3B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16704 &#177; 1022<br/>
+<sup>26</sup>Al: 16423 &#177; 1570<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.294,-42.553</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR-4A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17760 &#177; 1127<br/>
+<sup>26</sup>Al: 14890 &#177; 2285<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.302,-42.554</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR-4B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16541 &#177; 991<br/>
+<sup>26</sup>Al: 17019 &#177; 1573<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.3025,-42.555</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR-5A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 127596 &#177; 6620<br/>
+<sup>26</sup>Al: 126683 &#177; 12468<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.303,-42.555</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR-5B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 120559 &#177; 6154<br/>
+<sup>26</sup>Al: 123191 &#177; 11105<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.304,-42.555</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR-6A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 210453 &#177; 11804<br/>
+<sup>26</sup>Al: 205081 &#177; 18202<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.309,-42.557</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR-6B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 86655 &#177; 5407<br/>
+<sup>26</sup>Al: 96693 &#177; 9185<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.3095,-42.5575</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

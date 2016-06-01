@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Marsella et al. (2000)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>KM95-002</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26043 &#177; 1513<br/>
+<sup>26</sup>Al: 24827 &#177; 1869<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.64622,66.15067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-100</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24994 &#177; 1829<br/>
+<sup>26</sup>Al: 13099 &#177; 933<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.62325,66.13861</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-100</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15023 &#177; 2007<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.62325,66.13861</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-101</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28395 &#177; 1854<br/>
+<sup>26</sup>Al: 24860 &#177; 1703<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.62147,66.13969</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-102</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12751 &#177; 990<br/>
+<sup>26</sup>Al: 13633 &#177; 1375<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.63172,66.14042</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-103</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11076 &#177; 900<br/>
+<sup>26</sup>Al: 10244 &#177; 786<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.62425,66.14742</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-104</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11717 &#177; 1092<br/>
+<sup>26</sup>Al: 11102 &#177; 987<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.62494,66.14775</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-003</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 83922 &#177; 4183<br/>
+<sup>26</sup>Al: 75281 &#177; 4751<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.64033,66.15503</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11257 &#177; 2681<br/>
+<sup>26</sup>Al: 10559 &#177; 993<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.56039,66.13717</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-115</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13391 &#177; 1410<br/>
+<sup>26</sup>Al: 10974 &#177; 1362<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.66150,66.13814</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-116</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12116 &#177; 1428<br/>
+<sup>26</sup>Al: 11451 &#177; 1020<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.66172,66.13781</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-117</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12207 &#177; 1713<br/>
+<sup>26</sup>Al: 11457 &#177; 1086<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.66172,66.13781</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18085 &#177; 1638<br/>
+<sup>26</sup>Al: 17553 &#177; 1260<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.65939,66.13722</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-113</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14178 &#177; 1464<br/>
+<sup>26</sup>Al: 11013 &#177; 869<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.65928,66.13747</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-114</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15778 &#177; 1946<br/>
+<sup>26</sup>Al: 13595 &#177; 1165<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.66031,66.13747</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14481 &#177; 1076<br/>
+<sup>26</sup>Al: 13885 &#177; 942<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.64608,66.14300</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10728 &#177; 1137<br/>
+<sup>26</sup>Al: 11058 &#177; 753<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.64236,66.13789</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-033</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27854 &#177; 1711<br/>
+<sup>26</sup>Al: 36464 &#177; 3469<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.64108,66.13800</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-033</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27776 &#177; 1673<br/>
+<sup>26</sup>Al: 29669 &#177; 2180<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.64108,66.13800</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-034</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10916 &#177; 1582<br/>
+<sup>26</sup>Al: 11245 &#177; 785<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.64139,66.13733</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-035</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 23461 &#177; 1835<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.63828,66.12936</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-035</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25812 &#177; 1693<br/>
+<sup>26</sup>Al: 21473 &#177; 1519<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.63828,66.12936</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-036</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28342 &#177; 3314<br/>
+<sup>26</sup>Al: 25760 &#177; 1630<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.63761,66.12831</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-009</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16936 &#177; 1200<br/>
+<sup>26</sup>Al: 17946 &#177; 1230<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.56097,66.18394</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-010</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15031 &#177; 949<br/>
+<sup>26</sup>Al: 14365 &#177; 948<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.54100,66.18392</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-011</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11583 &#177; 866<br/>
+<sup>26</sup>Al: 11074 &#177; 739<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.54575,66.18422</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-012</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15219 &#177; 1308<br/>
+<sup>26</sup>Al: 14946 &#177; 1129<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.81642,66.26550</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-013</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14173 &#177; 2431<br/>
+<sup>26</sup>Al: 10705 &#177; 885<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.81642,66.26550</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-014</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16417 &#177; 2522<br/>
+<sup>26</sup>Al: 16136 &#177; 1160<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.81642,66.26550</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-015</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9960 &#177; 1576<br/>
+<sup>26</sup>Al: 11328 &#177; 1082<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.81642,66.26550</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-016</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 156887 &#177; 7916<br/>
+<sup>26</sup>Al: 115939 &#177; 6897<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.81053,66.29597</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-017</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39008 &#177; 2053<br/>
+<sup>26</sup>Al: 33048 &#177; 2132<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-65.81031,66.29600</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-018</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16751 &#177; 995<br/>
+<sup>26</sup>Al: 15339 &#177; 1022<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.80200,66.28872</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-019</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27275 &#177; 1485<br/>
+<sup>26</sup>Al: 27759 &#177; 1802<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.77319,66.26714</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-020</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12671 &#177; 929<br/>
+<sup>26</sup>Al: 14920 &#177; 1013<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.77319,66.26714</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-021</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12728 &#177; 1033<br/>
+<sup>26</sup>Al: 14433 &#177; 1112<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.78353,66.26519</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-024</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 48543 &#177; 2603<br/>
+<sup>26</sup>Al: 46720 &#177; 3075<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.69406,66.20911</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-025</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11151 &#177; 927<br/>
+<sup>26</sup>Al: 12115 &#177; 936<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.70008,66.20517</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-028</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10901 &#177; 854<br/>
+<sup>26</sup>Al: 11196 &#177; 824<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.80914,66.16689</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-029</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17069 &#177; 1352<br/>
+<sup>26</sup>Al: 17505 &#177; 1335<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.80183,66.16911</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-030</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20747 &#177; 4730<br/>
+<sup>26</sup>Al: 10742 &#177; 1578<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.80122,66.21656</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-039</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27209 &#177; 1697<br/>
+<sup>26</sup>Al: 29202 &#177; 1919<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.64053,66.11556</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-040</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30409 &#177; 1923<br/>
+<sup>26</sup>Al: 30465 &#177; 2178<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.64053,66.11556</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-105</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11502 &#177; 1052<br/>
+<sup>26</sup>Al: 11338 &#177; 888<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.69603,66.13083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-138</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17129 &#177; 1591<br/>
+<sup>26</sup>Al: 12184 &#177; 929<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.75608,65.98044</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-139</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12427 &#177; 1876<br/>
+<sup>26</sup>Al: 11039 &#177; 1353<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.74944,65.98103</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-140</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13215 &#177; 3792<br/>
+<sup>26</sup>Al: 11653 &#177; 888<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.74919,65.98186</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-141</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12727 &#177; 1130<br/>
+<sup>26</sup>Al: 12217 &#177; 928<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.74919,65.98186</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-142</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13569 &#177; 2633<br/>
+<sup>26</sup>Al: 10678 &#177; 1247<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.74653,65.97617</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM95-143</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17185 &#177; 2663<br/>
+<sup>26</sup>Al: 14608 &#177; 1437<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Marsella et al. (2000)<br/>Marsella (1998), Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.75333,65.97264</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

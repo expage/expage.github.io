@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zahno et al. (2010)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>TRU-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18980 &#177; 1457<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2228,40.0803</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16715 &#177; 1132<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2224,40.0800</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18441 &#177; 1204<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2216,40.0797</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14575 &#177; 896<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.170,40.092</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22806 &#177; 1322<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.170,40.092</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19485 &#177; 1228<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.169,40.095</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13027 &#177; 801<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.173,40.091</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14015 &#177; 761<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.173,40.091</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14155 &#177; 924<br/>
+<sup>26</sup>Al: 13676 &#177; 1176<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>29.175,40.089</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15674 &#177; 861<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.174,40.091</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21802 &#177; 1172<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.176,40.093</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16057 &#177; 1069<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.173,40.092</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14639 &#177; 1049<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.174,40.093</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17726 &#177; 1135<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.166,40.096</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18122 &#177; 1168<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.168,40.097</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18159 &#177; 1113<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.172,40.095</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23869 &#177; 1651<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.158,40.098</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24366 &#177; 1369<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.160,40.098</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22069 &#177; 1207<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.162,40.100</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18116 &#177; 1127<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Zahno et al. (2010)<br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>29.1986,40.0830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10653 &#177; 747<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Zahno et al. (2010)<br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>29.1954,40.0862</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13992 &#177; 903<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Zahno et al. (2010)<br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>29.1952,40.0862</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17429 &#177; 1149<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Zahno et al. (2010)<br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2053,40.1011</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17471 &#177; 1107<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Zahno et al. (2010)<br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2026,40.0985</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18880 &#177; 1208<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Zahno et al. (2010)<br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2028,40.0965</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18744 &#177; 1264<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Zahno et al. (2010)<br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2007,40.0947</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

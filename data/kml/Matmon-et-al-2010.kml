@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Matmon et al. (2010)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>DDDN-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17754 &#177; 955<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-145.74233,63.78428</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDDN-1-SD</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16810 &#177; 915<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.74233,63.78428</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDDN-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23482 &#177; 1264<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-145.76333,63.77765</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDDN-2-SD</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16473 &#177; 883<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.76333,63.77765</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDDN-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17720 &#177; 993<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-145.77402,63.77363</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDDN-3-SD</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16608 &#177; 883<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.77402,63.77363</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR1-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12253 &#177; 1208<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.75598,63.77718</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR1-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15677 &#177; 1474<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.75668,63.77722</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR1-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11105 &#177; 987<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.75268,63.77933</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR1-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12179 &#177; 1218<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.75262,63.77973</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR1-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63467 &#177; 6265<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.75570,63.77920</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDOC-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31560 &#177; 1756<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.71490,63.77163</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDOC-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33505 &#177; 1715<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.71490,63.77163</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFDD3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38761 &#177; 2481<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-145.77707,63.80165</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFDD4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28473 &#177; 1792<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.77707,63.80165</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDDL-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17947 &#177; 1058<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-145.78830,63.79682</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDDL-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 56985 &#177; 3071<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-145.62653,63.86178</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDDL-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55273 &#177; 2980<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-145.60462,63.84442</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDDL-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11667 &#177; 656<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-145.78083,63.80382</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDDL-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 45510 &#177; 2331<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.69163,63.76260</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDDL-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27371 &#177; 1515<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-145.68108,63.76647</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR2-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47758 &#177; 4619<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.73268,63.85380</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR2-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66152 &#177; 6261<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.72552,63.85425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR2-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40815 &#177; 4000<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.74148,63.85587</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR2-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 53184 &#177; 5158<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.73442,63.85685</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DR2-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23881 &#177; 2332<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.72395,63.85397</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDDL-4Q</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15923 &#177; 827<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.77808,63.77710</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDDL-4G</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15923 &#177; 884<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-145.77808,63.77710</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

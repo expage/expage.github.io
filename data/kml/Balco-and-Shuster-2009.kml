@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Balco and Shuster (2009)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>05-EG-118-BR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1129562 &#177; 66494<br/>
+<sup>26</sup>Al: 924558 &#177; 91618<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Balco and Shuster (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>160.9399,-77.6419</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>05-EG-119-BR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 639244 &#177; 34290<br/>
+<sup>26</sup>Al: 519898 &#177; 39438<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Balco and Shuster (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>160.9446,-77.6442</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>04-AV-001-BR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 365682 &#177; 22548<br/>
+<sup>26</sup>Al: 331796 &#177; 25030<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Balco and Shuster (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>160.9303,-77.8569</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>04-AV-005-BR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1536752 &#177; 117414<br/>
+<sup>26</sup>Al: 1179049 &#177; 127373<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Balco and Shuster (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>160.8222,-77.8806</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>04-AV-006-BR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 830730 &#177; 49000<br/>
+<sup>26</sup>Al: 649480 &#177; 52401<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Balco and Shuster (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>160.7736,-77.8866</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>04-AV-010-BR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 805717 &#177; 57792<br/>
+<sup>26</sup>Al: 695272 &#177; 57808<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Balco and Shuster (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>160.8060,-77.8882</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>04-AV-018-BR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1455484 &#177; 97607<br/>
+<sup>26</sup>Al: 1164903 &#177; 130280<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Balco and Shuster (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>160.9183,-77.8791</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>05-WO-137-BR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2569608 &#177; 270220<br/>
+<sup>26</sup>Al: 1901909 &#177; 338914<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Balco and Shuster (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.0031,-77.5055</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>05-WO-140-BR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2337446 &#177; 218661<br/>
+<sup>26</sup>Al: 1907647 &#177; 354176<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Balco and Shuster (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.0031,-77.5055</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ballantyne et al. (2013)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>GB-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11742 &#177; 1183<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ballantyne et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.416,55.173</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GB-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14392 &#177; 1155<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ballantyne et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.416,55.172</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GB-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14649 &#177; 862<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ballantyne et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.416,55.171</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GB-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14324 &#177; 1318<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ballantyne et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.416,55.173</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11227 &#177; 833<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ballantyne et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.414,55.163</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12752 &#177; 1272<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ballantyne et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.415,55.163</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11670 &#177; 1166<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ballantyne et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.415,55.163</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13846 &#177; 1024<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ballantyne et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.416,55.163</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

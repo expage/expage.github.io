@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Xu et al. (2013)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>HQLF-CRN11-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20352 &#177; 1393<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Xu et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.52512,36.88213</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HQLF-CRN11-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18914 &#177; 960<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Xu et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.52512,36.88212</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HQLF-CRN11-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17682 &#177; 900<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Xu et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.52513,36.88213</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HQLF-CRN11-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19545 &#177; 960<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Xu et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.52512,36.88213</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HQLF-CRN11-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16790 &#177; 1530<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Xu et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.53205,36.89610</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HQLF-CRN11-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18336 &#177; 929<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Xu et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.53075,36.89650</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HQLF-CRN11-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17737 &#177; 883<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Xu et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.53077,36.89649</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HQLF-CRN11-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24356 &#177; 1145<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Xu et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.53001,36.89554</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

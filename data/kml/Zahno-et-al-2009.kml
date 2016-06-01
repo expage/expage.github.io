@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zahno et al. (2009)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>TRD-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17562 &#177; 1351<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>31.327,37.631</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30834 &#177; 3558<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>31.346,37.615</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19697 &#177; 1795<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>31.350,37.615</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-07A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14562 &#177; 1309<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>31.350,37.615</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-07B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21716 &#177; 2079<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>31.350,37.615</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31306 &#177; 1883<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>31.357,37.615</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7559 &#177; 1029<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>31.347,37.620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14495 &#177; 1274<br/>
+<sup>26</sup>Al: 11980 &#177; 1180<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>31.329,37.619</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15482 &#177; 1074<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>31.329,37.618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17501 &#177; 1438<br/>
+<sup>26</sup>Al: 16670 &#177; 2203<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>31.328,37.618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17087 &#177; 1607<br/>
+<sup>26</sup>Al: 19792 &#177; 2495<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>31.328,37.618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-13A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20965 &#177; 1282<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>31.357,37.619</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-13B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25821 &#177; 1806<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>31.357,37.619</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30283 &#177; 3613<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>31.359,37.618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23112 &#177; 1557<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>31.360,37.619</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-18A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16873 &#177; 1175<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>31.348,37.616</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRD-18B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18390 &#177; 2936<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zahno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>31.348,37.616</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

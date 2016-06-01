@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Goehring et al. (2010)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>MKG-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11655 &#177; 605<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Goehring et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-24.90000,71.39470</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MKG-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14685 &#177; 810<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Goehring et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-24.90060,71.39280</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MKG-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11226 &#177; 648<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Goehring et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-24.90180,71.38490</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MKG-169</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13287 &#177; 718<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Goehring et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-26.03761,70.56357</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MKG-170</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10611 &#177; 508<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Goehring et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-26.03753,70.56351</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MKG-172</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10269 &#177; 521<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Goehring et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-26.04419,70.56240</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MKG-173</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12464 &#177; 638<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Goehring et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-26.04706,70.56131</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MKG-140</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10499 &#177; 541<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Goehring et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-26.03510,70.56771</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MKG-141</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10500 &#177; 540<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Goehring et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-26.03515,70.56749</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MKG-144</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11442 &#177; 604<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Goehring et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-26.03761,70.56357</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MKG-145</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11184 &#177; 560<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Goehring et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-26.03753,70.56351</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MKG-148</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10678 &#177; 526<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Goehring et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-26.04419,70.56240</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MKG-151</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10818 &#177; 535<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Goehring et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-26.04706,70.56131</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

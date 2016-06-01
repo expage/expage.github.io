@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Margreth et al. (2016)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>E065A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 476640 &#177; 25612<br/>
+<sup>26</sup>Al: 496140 &#177; 49609<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-64.2629,67.6691</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E066A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 348403 &#177; 18333<br/>
+<sup>26</sup>Al: 314833 &#177; 28413<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-64.2631,67.6693</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E064A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 102785 &#177; 5369<br/>
+<sup>26</sup>Al: 92760 &#177; 8264<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-63.9257,67.5961</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E042A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 89550 &#177; 4662<br/>
+<sup>26</sup>Al: 77171 &#177; 6771<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-63.0773,67.2824</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E074A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 630272 &#177; 35561<br/>
+<sup>26</sup>Al: 498956 &#177; 41876<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-61.6606,66.6973</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E222A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 200393 &#177; 10212<br/>
+<sup>26</sup>Al: 164329 &#177; 14111<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.7029,66.3620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E222A-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27479 &#177; 1423<br/>
+<sup>26</sup>Al: 14869 &#177; 1030<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.7029,66.3620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E222A-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 153805 &#177; 7659<br/>
+<sup>26</sup>Al: 129526 &#177; 10635<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.7029,66.3620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E222A-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40146 &#177; 2075<br/>
+<sup>26</sup>Al: 24345 &#177; 1815<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.7029,66.3620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E222A-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 183331 &#177; 9201<br/>
+<sup>26</sup>Al: 156972 &#177; 13068<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.7029,66.3620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E222A-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16665 &#177; 848<br/>
+<sup>26</sup>Al: 11410 &#177; 1026<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.7029,66.3620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A346A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 134256 &#177; 7255<br/>
+<sup>26</sup>Al: 108698 &#177; 9142<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.7141,66.2989</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A348A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 94792 &#177; 4921<br/>
+<sup>26</sup>Al: 84098 &#177; 6906<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.7134,66.2977</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A347A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42653 &#177; 2187<br/>
+<sup>26</sup>Al: 23176 &#177; 3528<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.7138,66.2987</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A347A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 49527 &#177; 2458<br/>
+<sup>26</sup>Al: 33976 &#177; 2407<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.7138,66.2987</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E304A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 158351 &#177; 8454<br/>
+<sup>26</sup>Al: 127492 &#177; 11086<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.8015,66.2793</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E020A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 220589 &#177; 11805<br/>
+<sup>26</sup>Al: 166040 &#177; 13872<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.8060,66.3010</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E021A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 268414 &#177; 13696<br/>
+<sup>26</sup>Al: 190990 &#177; 16744<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.8061,66.3010</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E022A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 106581 &#177; 5465<br/>
+<sup>26</sup>Al: 76243 &#177; 6388<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.7524,66.2901</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A355A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 196764 &#177; 10302<br/>
+<sup>26</sup>Al: 162567 &#177; 13720<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.5422,66.1235</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A356A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 69775 &#177; 3719<br/>
+<sup>26</sup>Al: 61545 &#177; 5376<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.5415,66.1232</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A186A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 144478 &#177; 7911<br/>
+<sup>26</sup>Al: 112182 &#177; 9244<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.5495,66.1144</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A188A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 191579 &#177; 9966<br/>
+<sup>26</sup>Al: 142851 &#177; 11999<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.5496,66.1142</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A187A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 131382 &#177; 6769<br/>
+<sup>26</sup>Al: 111378 &#177; 9162<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.5495,66.1145</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E221A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 74277 &#177; 3960<br/>
+<sup>26</sup>Al: 76115 &#177; 8055<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.5427,66.0008</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E221A-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 83057 &#177; 4107<br/>
+<sup>26</sup>Al: 55131 &#177; 4264<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.5427,66.0008</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E221A-02</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 76455 &#177; 8092<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.5427,66.0008</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E221A-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 135114 &#177; 7078<br/>
+<sup>26</sup>Al: 86839 &#177; 5653<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.5427,66.0008</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E221A-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 102150 &#177; 5378<br/>
+<sup>26</sup>Al: 89533 &#177; 7226<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Margreth et al. (2016)<br/>Margreth (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.5427,66.0008</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

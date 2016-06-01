@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Briner et al. (2009)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>CR03-81</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9729 &#177; 738<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.29,70.97</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SF07-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10743 &#177; 510<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.47,70.75</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SF07-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9018 &#177; 447<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.61,70.72</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SF07-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9511 &#177; 1640<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.01,70.63</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SF07-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9338 &#177; 1686<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.01,70.63</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SF07-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8819 &#177; 1808<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.18,70.35</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SF07-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8629 &#177; 1558<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.23,70.31</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SF07-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8426 &#177; 1317<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.27,70.28</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SF07-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8521 &#177; 929<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.31,70.24</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SF07-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8958 &#177; 1112<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.31,70.24</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SF07-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9601 &#177; 463<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.29,70.21</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SF07-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9271 &#177; 452<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.29,70.21</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SF07-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8865 &#177; 1148<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.38,70.15</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SF07-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9071 &#177; 757<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.38,70.15</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SF07-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7458 &#177; 912<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.45,70.08</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SF07-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7403 &#177; 1106<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.45,70.08</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>McCuaig (1994)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>AC-93-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 81137 &#177; 9004<br/>
+<sup>26</sup>Al: 17557 &#177; 3657<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McCuaig (1994)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.79,72.69</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AC-93-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 75804 &#177; 8401<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McCuaig (1994)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-79.89,72.89</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AC-93-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 75473 &#177; 8364<br/>
+<sup>26</sup>Al: 22379 &#177; 4672<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McCuaig (1994)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-79.27,72.97</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AC-93-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 77305 &#177; 8571<br/>
+<sup>26</sup>Al: 24254 &#177; 5069<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McCuaig (1994)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-79.58,72.83</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AC-93-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 67218 &#177; 7433<br/>
+<sup>26</sup>Al: 17639 &#177; 3674<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McCuaig (1994)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.99,72.58</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Stone and Ballantyne (2006)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>NH-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 100705 &#177; 5373<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone and Ballantyne (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-6.812,57.963</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NH-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38880 &#177; 1938<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone and Ballantyne (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-6.812,57.963</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NH-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15585 &#177; 819<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone and Ballantyne (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-6.935,57.983</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BM-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 98306 &#177; 4902<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone and Ballantyne (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-7.298,57.262</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>H-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 73465 &#177; 3616<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone and Ballantyne (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-7.272,57.290</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NH-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15687 &#177; 735<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone and Ballantyne (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-6.937,57.976</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NH-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21260 &#177; 1298<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone and Ballantyne (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-6.819,57.949</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NH-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21525 &#177; 1037<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone and Ballantyne (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-6.819,57.949</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BM-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16112 &#177; 847<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone and Ballantyne (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-7.287,57.270</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>015-NH</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16877 &#177; 822<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone and Ballantyne (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-6.828,57.832</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>016-NH</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24850 &#177; 1218<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone and Ballantyne (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-6.827,57.833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>017-NH</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19198 &#177; 910<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone and Ballantyne (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-6.740,57.893</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>019-NH</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22979 &#177; 1154<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone and Ballantyne (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-6.738,57.894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>023-NH</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17669 &#177; 865<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stone and Ballantyne (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-6.812,57.870</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

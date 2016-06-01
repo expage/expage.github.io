@@ -1,15 +1,93 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-		<title>Exposure age database</title>
-		<link rel="icon" type="image/png" href="star.ico">
-</head>
+<meta charset="UTF-8">
+		<title>expage | Intro</title>
 
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<link rel="icon" type="image/png" href="images/exp.ico">
+</head>
 <body>
-	<br>There will eventually be a lot of exposure age data here...
+
+<div class="container">
+
+	<div id="header"><img src="images/topfig_intro.jpg" width="900" height="175" border="0" usemap="#Map"> 
+		<ul class="menu">
+			<li class="selected"><a href="index.html">Intro</a></li>
+			<li><a href="data.html">Data</a></li>
+			<li><a href="references.html">References</a></li>
+			<li><a href="production.html">Production</a></li>
+			<li><a href="calculator.html">Calculator</a></li>
+		</ul>
+	</div>
+
+	<div class="content"> 
+	<p>
+	<h2>A global compilation of glacial <span class="sup">10</span>Be and <span class="sup">26</span>Al data</h2>
+	</p>
+	<p>These pages host a global compilation of published <span class="sup">10</span>Be and <span class="sup">26</span>Al data from glacial samples, with the aim of allowing easy access to data enabling recalculation of exposure ages and cosmogenic data meta-analysis. Data has been compiled from published sources and additional data sources (data directly from the authors, data from another paper, assumptions etc) are recorded.</p>
+	<p class="half-line">&nbsp;</p>
+	<p>If you find mistakes in the data or if you have more correct / new data: <a href="mailto:jakob.heyman@gu.se">jakob.heyman@gu.se</a></p>
 	<br>
+	<hr width="100%">
 	<br>
+	<h2>Data description</h2>
+	The exposure age data is presented in tab-delimited text files with the following 29 columns:<br><br>
+	<div class="numlist">
+	<div class="num1"><b>1.</div><div class="num2">Publication</b> – Primary publication presenting the data with enough detail to enable recalculation.</div>
+	<div class="num1"><b>2.</div><div class="num2">Sample type</b> – Type of sample such as boulder, bedrock, cobble, pebbles...</div>
+	<div class="num1"><b>3.</div><div class="num2">Surface ID</b> – Identifier to keep track of repeat measurements of single samples and closely spaced samples from single surfaces.</div>
+	<div class="num1"><b>4.</div><div class="num2">Group ID</b> – Identifier to keep track of groups of samples derived from single sites with one deglaciation age.</div>
+	<div class="num1"><b>5.</div><div class="num2">Sample name</b> – From the original publication.</div>
+	<div class="num1"><b>6.</div><div class="num2">Latitude</b> – Sample latitude in WGS-84 datum (DD).</div>
+	<div class="num1"><b>7.</div><div class="num2">Longitude</b> – Sample longitude in WGS-84 datum (DD).</div>
+	<div class="num1"><b>8.</div><div class="num2">Elevation</b> – Sample elevation (m a.s.l.).</div>
+	<div class="num1"><b>9.</div><div class="num2">Sample thickness</b> – (cm).</div>
+	<div class="num1"><b>10.</div><div class="num2">Sample density</b> – (g/cm<span class="sup">3</span>). Generally assumed to be 2.65 g/cm<span class="sup">3</span> when not presented in original publication.</div>
+	<div class="num1"><b>11.</div><div class="num2">Shielding</b> – Topographic/geometric shielding of the sample (unitless).</div>
+	<div class="num1"><b>12.</div><div class="num2"><span class="sup">10</span>Be concentration</b> – (atoms/g).</div>
+	<div class="num1"><b>13.</div><div class="num2"><span class="sup">10</span>Be uncertainty</b> – (atoms/g).</div>
+	<div class="num1"><b>14.</div><div class="num2"><span class="sup">10</span>Be standard</b> – Identifier for <span class="sup">10</span>Be standard material and its assumed isotope ratio. Based on <a href="http://hess.ess.washington.edu/math/docs/al_be_v22/standard_names.html">CRONUS standards</a>.</div>
+	<div class="num1"><b>15.</div><div class="num2"><span class="sup">26</span>Al concentration</b> – (atoms/g).</div>
+	<div class="num1"><b>16.</div><div class="num2"><span class="sup">26</span>Al uncertainty</b> – (atoms/g).</div>
+	<div class="num1"><b>17.</div><div class="num2"><span class="sup">26</span>Al standard</b> – Identifier for <span class="sup">26</span>Al standard material and its assumed isotope ratio. Based on <a href="http://hess.ess.washington.edu/math/docs/al_be_v22/standard_names.html">CRONUS standards</a>.</div>
+	<div class="num1"><b>18.</div><div class="num2">Sampling year</b> – Year of sample collection. Generally assumed to be two years before publication when not presented in original publication.</div>
+	<div class="num1"><b>19.</div><div class="num2">Published <span class="sup">10</span>Be exposure age</b> – (yr).</div>
+	<div class="num1"><b>20.</div><div class="num2">Published <span class="sup">10</span>Be exposure age uncertainty </b> – (yr).</div>
+	<div class="num1"><b>21.</div><div class="num2">Published <span class="sup">26</span>Al exposure age</b> – (yr).</div>
+	<div class="num1"><b>22.</div><div class="num2">Published <span class="sup">26</span>Al exposure age uncertainty </b> – (yr).</div>
+	<div class="num1"><b>23.</div><div class="num2"><span class="sup">10</span>Be exposure age</b> – Recalculated zero erosion <span class="sup">10</span>Be exposure age (yr before sampling).</div>
+	<div class="num1"><b>24.</div><div class="num2"><span class="sup">10</span>Be external uncertainty</b> – External uncertainty (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) for the recalculated <span class="sup">10</span>Be exposure age (yr).</div>
+	<div class="num1"><b>25.</div><div class="num2"><span class="sup">10</span>Be internal uncertainty</b> – Internal uncertainty (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) for the recalculated <span class="sup">10</span>Be exposure age (yr).</div>
+	<div class="num1"><b>26.</div><div class="num2"><span class="sup">26</span>Al exposure age</b> – Recalculated zero erosion <span class="sup">26</span>Al exposure age (yr before sampling).</div>
+	<div class="num1"><b>27.</div><div class="num2"><span class="sup">26</span>Al external uncertainty</b> – External uncertainty (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) for the recalculated <span class="sup">26</span>Al exposure age (yr).</div>
+	<div class="num1"><b>28.</div><div class="num2"><span class="sup">26</span>Al internal uncertainty</b> – Internal uncertainty (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) for the recalculated <span class="sup">26</span>Al exposure age (yr).</div>
+	<div class="num1"><b>29.</div><div class="num2">Extra publication</b> – Extra publication including/describing the data.</div>
+	</div>
 	<br>
-	<img src="global-10be.jpg" width="770" height="483"><br />
+	<hr width="100%">
+	<br><br>
+	<center>Contact: <a href="mailto:jakob.heyman@gu.se">jakob.heyman@gu.se</a></center>
+	</div>
+</div>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['addDownloadExtensions', "kml|kmz"]);
+  _paq.push(["setDomains", ["*.expage.github.io"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik-jakobheyman.rhcloud.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//piwik-jakobheyman.rhcloud.com/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
 </body>
 </html>

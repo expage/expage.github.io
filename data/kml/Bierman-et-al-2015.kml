@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bierman et al. (2015)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>PTD94-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62511 &#177; 3194<br/>
+<sup>26</sup>Al: 60802 &#177; 3462<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bierman et al. (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.644,44.142</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTD94-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18025 &#177; 893<br/>
+<sup>26</sup>Al: 16981 &#177; 1544<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bierman et al. (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.30483,44.26982</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTD94-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17165 &#177; 844<br/>
+<sup>26</sup>Al: 17159 &#177; 1022<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bierman et al. (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.30483,44.27004</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTMW-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26340 &#177; 1302<br/>
+<sup>26</sup>Al: 23449 &#177; 1653<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bierman et al. (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.30483,44.27049</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTMW-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63978 &#177; 3049<br/>
+<sup>26</sup>Al: 65838 &#177; 3879<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bierman et al. (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.30483,44.27049</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTMW-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 142575 &#177; 6867<br/>
+<sup>26</sup>Al: 131114 &#177; 7597<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bierman et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.30483,44.27049</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTMW-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13845 &#177; 703<br/>
+<sup>26</sup>Al: 13370 &#177; 1238<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bierman et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.29511,44.26149</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTK-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9803 &#177; 489<br/>
+<sup>26</sup>Al: 8896 &#177; 599<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bierman et al. (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.92161,45.90422</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTK-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33238 &#177; 1546<br/>
+<sup>26</sup>Al: 34768 &#177; 2037<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bierman et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.92191,45.90471</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

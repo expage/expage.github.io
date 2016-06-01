@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rother (2006)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>GW-I</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21944 &#177; 1700<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.4215,-42.6153</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GW-II</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23101 &#177; 2122<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.4215,-42.6153</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GW-III</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18351 &#177; 1159<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.4215,-42.6153</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GW-B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15338 &#177; 3205<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.4215,-42.6153</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LP-I</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17688 &#177; 1046<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.4009,-42.3778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LP-III</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16427 &#177; 1380<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.4005,-42.3771</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KH-I</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30359 &#177; 1685<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.4813,-42.6135</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

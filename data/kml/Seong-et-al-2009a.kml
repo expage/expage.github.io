@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Seong et al. (2009a)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>K2E-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1131 &#177; 82<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/>Seong et al. (2009a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.161,35.704</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2E-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 974 &#177; 77<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/>Seong et al. (2009a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.166,35.708</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2E-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 741 &#177; 102<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/>Seong et al. (2009a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.236,35.744</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2E-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 977 &#177; 68<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/>Seong et al. (2009a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.243,35.749</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2E-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 878 &#177; 89<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/>Seong et al. (2009a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.221,35.703</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2E-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 795 &#177; 59<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/>Seong et al. (2009a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.223,35.703</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2E-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1434 &#177; 88<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/>Seong et al. (2009a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.225,35.700</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2E-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1001 &#177; 80<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/>Seong et al. (2009a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.252,35.723</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2E-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1033 &#177; 78<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/>Seong et al. (2009a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.258,35.722</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2E-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1476 &#177; 115<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/>Seong et al. (2009a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.316,35.733</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2E-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1983 &#177; 382<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/>Seong et al. (2009a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.535,35.765</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2E-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 841 &#177; 80<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/>Seong et al. (2009a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.536,35.758</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2E-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2417 &#177; 156<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/>Seong et al. (2009a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.513,35.821</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2E-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1014 &#177; 111<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/>Seong et al. (2009a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.516,35.822</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

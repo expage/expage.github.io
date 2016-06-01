@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dortch et al. (2010a)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>NU-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 84454 &#177; 3930<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.620,34.570</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 65613 &#177; 4297<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.625,34.574</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46345 &#177; 2688<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.625,34.574</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 79240 &#177; 3800<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.627,34.575</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46828 &#177; 3321<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.625,34.573</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42303 &#177; 2779<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.626,34.574</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 86035 &#177; 4358<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.626,34.572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 108257 &#177; 5503<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.626,34.572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 45189 &#177; 2475<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.626,34.574</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 49285 &#177; 3312<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.626,34.574</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61210 &#177; 2955<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.638,34.545</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 45774 &#177; 2273<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.638,34.545</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27393 &#177; 1610<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.638,34.546</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46828 &#177; 2486<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.638,34.546</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30323 &#177; 1832<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.638,34.546</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33488 &#177; 1894<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.637,34.547</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 112672 &#177; 5522<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.723,34.458</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 107833 &#177; 6046<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.721,34.462</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-15A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35570 &#177; 1999<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.721,34.462</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-15B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37696 &#177; 2445<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.721,34.462</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 155896 &#177; 9308<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.720,34.462</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 138351 &#177; 6892<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.720,34.462</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 106470 &#177; 7206<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.720,34.462</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 147462 &#177; 13915<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.720,34.462</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 117483 &#177; 6225<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.723,34.458</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 114319 &#177; 5617<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.723,34.458</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 133025 &#177; 6777<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.723,34.458</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 123813 &#177; 6123<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.723,34.458</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 69159 &#177; 3663<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.563,34.545</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 85215 &#177; 4418<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010a)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.563,34.545</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

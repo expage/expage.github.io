@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>McQuinn (1996)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Fogel</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30565 &#177; 7918<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-85.6376,39.4009</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Smith-Top</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33589 &#177; 7238<br/>
+<sup>26</sup>Al: 16004 &#177; 6644<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-86.6009,40.1630</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Smith-Bottom</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23922 &#177; 4157<br/>
+<sup>26</sup>Al: 22243 &#177; 3345<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-86.6009,40.1630</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Duncan</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24722 &#177; 2759<br/>
+<sup>26</sup>Al: 16302 &#177; 1880<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-86.1368,40.2832</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Duncan-II</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22597 &#177; 1911<br/>
+<sup>26</sup>Al: 19400 &#177; 2797<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-86.1368,40.2832</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Otterbein-Bottom</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24317 &#177; 2769<br/>
+<sup>26</sup>Al: 21698 &#177; 2659<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-87.1678,40.4976</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Otterbein-Top</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20237 &#177; 2818<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-87.1678,40.4976</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IN-2-95</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28877 &#177; 5497<br/>
+<sup>26</sup>Al: 12225 &#177; 5283<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-86.9853,40.4488</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Top-of-Barnhart</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29119 &#177; 3409<br/>
+<sup>26</sup>Al: 22175 &#177; 2609<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-86.6328,40.5054</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mathia</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28115 &#177; 7079<br/>
+<sup>26</sup>Al: 18076 &#177; 4244<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-86.2230,41.5880</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Graf</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22384 &#177; 2573<br/>
+<sup>26</sup>Al: 17939 &#177; 2370<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-86.3109,41.4972</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Wann</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19244 &#177; 3123<br/>
+<sup>26</sup>Al: 12217 &#177; 1853<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-85.7566,40.3474</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Railroad</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21245 &#177; 2032<br/>
+<sup>26</sup>Al: 20053 &#177; 2361<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-87.0978,40.3461</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IN-18-95</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27903 &#177; 2385<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-86.3629,40.7318</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Andrews</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12655 &#177; 2189<br/>
+<sup>26</sup>Al: 14756 &#177; 2459<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-86.5813,40.8687</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Wabash</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16015 &#177; 3543<br/>
+<sup>26</sup>Al: 19581 &#177; 2898<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>McQuinn (1996)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-85.8601,40.7981</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

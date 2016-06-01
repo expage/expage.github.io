@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Matmon et al. (2006)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>DFCR-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12497 &#177; 589<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.82838,63.21236</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFCR-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11129 &#177; 602<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.82811,63.21145</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFCR-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12654 &#177; 696<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.82792,63.21077</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFCR-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10925 &#177; 505<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.83320,63.20795</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFCR-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12095 &#177; 643<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.83353,63.20759</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFCR-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11716 &#177; 631<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.83464,63.20625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFCR-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10913 &#177; 504<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.82865,63.20945</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFCR-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11985 &#177; 661<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.83401,63.20999</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFCR-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11905 &#177; 659<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.83424,63.21005</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFCRSD-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11259 &#177; 601<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-144.82838,63.21236</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFCRSD-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11301 &#177; 608<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-144.82865,63.20945</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFMF-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14218 &#177; 750<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.59285,63.15383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFMF-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13874 &#177; 738<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.59215,63.15359</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFMF-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13428 &#177; 724<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.59964,63.15165</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFMF-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15390 &#177; 839<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.59829,63.15169</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFMF-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12585 &#177; 695<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.59650,63.15271</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFMFSD-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10850 &#177; 584<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-144.59285,63.15383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFMFSD-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11471 &#177; 650<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-144.59650,63.15271</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFSC7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17362 &#177; 988<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.65045,63.46250</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFSC8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17047 &#177; 920<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.65396,63.46036</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFNM-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10358 &#177; 560<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-143.03392,62.61853</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFNM-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11825 &#177; 738<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-143.03430,62.61862</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFNM-1R</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12878 &#177; 683<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-143.03392,62.61853</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFTR-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13556 &#177; 827<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-142.80887,62.67497</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFTR-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15335 &#177; 809<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-142.80887,62.67497</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFTR-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16759 &#177; 880<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-142.81095,62.67037</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFTR-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9837 &#177; 549<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-142.81588,62.67180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFTR-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11322 &#177; 684<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-142.81588,62.67180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFTR-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13737 &#177; 761<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-142.81380,62.67542</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DFTR-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10605 &#177; 575<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Matmon et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-142.81380,62.67542</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

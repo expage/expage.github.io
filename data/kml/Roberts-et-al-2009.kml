@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Roberts et al. (2009)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>NAG01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 136556 &#177; 7064<br/>
+<sup>26</sup>Al: 128960 &#177; 8033<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.43188,66.46295</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAG02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 163107 &#177; 8667<br/>
+<sup>26</sup>Al: 151190 &#177; 9523<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.43093,66.46305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAG04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 115564 &#177; 6066<br/>
+<sup>26</sup>Al: 107218 &#177; 6608<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.43527,66.46348</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAG03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63000 &#177; 3535<br/>
+<sup>26</sup>Al: 59370 &#177; 3572<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.43975,66.46360</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAG05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33517 &#177; 1870<br/>
+<sup>26</sup>Al: 32852 &#177; 2018<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.44193,66.46415</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAG06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23787 &#177; 1336<br/>
+<sup>26</sup>Al: 23501 &#177; 1471<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.44427,66.46322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAG07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23100 &#177; 1299<br/>
+<sup>26</sup>Al: 23544 &#177; 1581<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.45365,66.46365</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAG08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30356 &#177; 1580<br/>
+<sup>26</sup>Al: 28778 &#177; 1790<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.43108,66.45557</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAG09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20803 &#177; 1173<br/>
+<sup>26</sup>Al: 21552 &#177; 1564<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.43503,66.45337</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAG10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18336 &#177; 978<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.44355,66.44983</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAG11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30289 &#177; 1542<br/>
+<sup>26</sup>Al: 25509 &#177; 1747<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.48862,66.46397</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAG12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20458 &#177; 1069<br/>
+<sup>26</sup>Al: 19519 &#177; 1362<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.48928,66.46372</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAG14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16811 &#177; 904<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.50308,66.46265</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAG15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15224 &#177; 1091<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.50860,66.45905</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAG16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11100 &#177; 631<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.54703,66.45422</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAG17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11565 &#177; 678<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Roberts et al. (2009)<br/>Roberts et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.53077,66.45485</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

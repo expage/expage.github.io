@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hughes et al. (2014)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>A24-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5328 &#177; 300<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hughes et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.90001,31.12032</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A26-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6589 &#177; 440<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hughes et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.89872,31.12109</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A32-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9666 &#177; 615<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hughes et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.89960,31.12150</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A25-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2050 &#177; 138<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hughes et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.89806,31.12048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A23-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6508 &#177; 491<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hughes et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.90869,31.12937</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A30-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5751 &#177; 942<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hughes et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.90669,31.12859</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A1-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4446 &#177; 329<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hughes et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.91070,31.12960</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A3-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4099 &#177; 511<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Hughes et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.90680,31.12960</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

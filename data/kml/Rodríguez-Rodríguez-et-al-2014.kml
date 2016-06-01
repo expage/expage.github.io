@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rodríguez-Rodríguez et al. (2014)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>TER01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18793 &#177; 1081<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.74708,42.15304</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TER02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21484 &#177; 1270<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.74710,42.15370</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TER03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20507 &#177; 1125<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.74726,42.15448</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TER04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20523 &#177; 1113<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.74741,42.15538</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TER05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21243 &#177; 1151<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.74002,42.15906</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MAR01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19203 &#177; 1126<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.73450,42.13399</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MAR02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20161 &#177; 1342<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.73386,42.13382</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MAR03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21826 &#177; 1379<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.73337,42.13357</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TET01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19818 &#177; 1153<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.74601,42.15962</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TET02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19156 &#177; 1051<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.74568,42.15980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TET03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19177 &#177; 1038<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.74397,42.15983</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TET04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18837 &#177; 1051<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.73841,42.16129</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TET05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17170 &#177; 947<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.73798,42.16193</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAU01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18779 &#177; 1088<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.69877,42.12219</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAU02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18540 &#177; 1064<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.69843,42.12333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAU03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17866 &#177; 1000<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.69843,42.12333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAU04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18249 &#177; 1054<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.69843,42.12333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAU05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17704 &#177; 1022<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.69843,42.12372</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAN01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20033 &#177; 1139<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.68438,42.12142</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAN02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20470 &#177; 1202<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.68438,42.12142</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAN03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18529 &#177; 1391<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.68449,42.12113</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAN04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21127 &#177; 1184<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.68442,42.12075</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAN05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20380 &#177; 1245<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodríguez-Rodríguez et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.68442,42.12075</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Balco et al. (2013)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>10-LAR-001-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28211 &#177; 1413<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-58.88529,-64.28117</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-002-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34040 &#177; 1704<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-58.88249,-64.27914</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-003-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31609 &#177; 1547<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-58.87878,-64.27712</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-004-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43921 &#177; 2127<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-58.87411,-64.27523</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-005-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9018 &#177; 438<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-58.87606,-64.27219</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-006-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6286 &#177; 340<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-58.87606,-64.27219</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-008-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7174 &#177; 349<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-59.07658,-64.26423</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-009-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7508 &#177; 369<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-59.07658,-64.26423</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-010-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22301 &#177; 1111<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-59.06788,-64.26089</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-011-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21687 &#177; 1180<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-59.07997,-64.26287</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-012-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 49183 &#177; 2373<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-59.08132,-64.26629</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-013-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7321 &#177; 372<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-59.08132,-64.26629</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-014-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55659 &#177; 2690<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-59.09754,-64.27373</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-015-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33681 &#177; 1616<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-59.09754,-64.27373</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-016-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7789 &#177; 375<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-59.08307,-64.26757</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-017-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5277 &#177; 274<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-58.97953,-64.19531</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-018-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5059 &#177; 250<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-58.97953,-64.19531</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-019-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 273 &#177; 48<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-58.97949,-64.19653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-020-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 246 &#177; 55<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-58.97949,-64.19653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-021-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 385 &#177; 232<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-58.97807,-64.19726</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-022-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4540 &#177; 312<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-58.97807,-64.19726</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-023-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3486 &#177; 653<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-58.97813,-64.19939</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-024-SJO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3557 &#177; 191<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-58.97813,-64.19939</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-025-DRY</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4498 &#177; 228<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-60.79322,-64.77248</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-028-DRY</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 83055 &#177; 3773<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.78911,-64.77303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-029-DRY</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9945 &#177; 481<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.79028,-64.77295</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-030-DRY</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 642 &#177; 68<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-60.62598,-64.70287</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-031-DRY</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 615 &#177; 71<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-60.62598,-64.70287</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-032-DRY</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 142 &#177; 51<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-60.62435,-64.70238</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-033-DRY</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6542 &#177; 357<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-60.61989,-64.70172</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-034-DRY</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5018 &#177; 329<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-60.61342,-64.70098</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-035-DRY</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5780 &#177; 312<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-60.61063,-64.69998</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10-LAR-036-DRY</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 120 &#177; 60<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Balco et al. (2013)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-60.61063,-64.69998</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

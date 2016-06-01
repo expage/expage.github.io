@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Briner et al. (2006)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>CAM02-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30397 &#177; 1591<br/>
+<sup>26</sup>Al: 26975 &#177; 1642<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.46518,70.17253</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IBP02-2a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35986 &#177; 1864<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-69.08575,70.21630</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IBP02-3a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26968 &#177; 1464<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-69.09488,70.21875</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AI1-00-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13777 &#177; 977<br/>
+<sup>26</sup>Al: 13455 &#177; 1803<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Briner et al. (2006)<br/>Briner et al. (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.51502,70.29877</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AI1-00-3</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 10659 &#177; 729<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.51547,70.29968</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR03-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17409 &#177; 956<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-67.10772,69.73462</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR03-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11422 &#177; 633<br/>
+<sup>26</sup>Al: 10704 &#177; 809<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-67.97398,69.72205</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR03-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12874 &#177; 776<br/>
+<sup>26</sup>Al: 11784 &#177; 776<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-67.51345,69.51180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR03-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9691 &#177; 735<br/>
+<sup>26</sup>Al: 10800 &#177; 889<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.43450,69.61433</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM2-01-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24846 &#177; 1495<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-69.12572,70.29533</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM2-01-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9946 &#177; 547<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-69.12572,70.29533</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF02-134</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11905 &#177; 764<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.12097,70.30772</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF02-138</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12135 &#177; 611<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.14435,70.31382</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IBP02-1a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34353 &#177; 1885<br/>
+<sup>26</sup>Al: 31746 &#177; 3373<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-69.07267,70.21218</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IBP02-1b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29933 &#177; 1504<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.07267,70.21218</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL02-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66054 &#177; 3259<br/>
+<sup>26</sup>Al: 63099 &#177; 3991<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-69.65842,70.48845</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF02-80</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 50634 &#177; 2547<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-69.21610,70.77973</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF02-179</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33421 &#177; 1670<br/>
+<sup>26</sup>Al: 30778 &#177; 2001<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.51863,70.43898</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR03-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36071 &#177; 1818<br/>
+<sup>26</sup>Al: 37637 &#177; 2432<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-67.14727,69.73898</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR03-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12304 &#177; 915<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.14538,69.73998</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CAM02-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 76069 &#177; 4185<br/>
+<sup>26</sup>Al: 65007 &#177; 3881<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.24372,70.26093</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR03-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30183 &#177; 1639<br/>
+<sup>26</sup>Al: 29337 &#177; 1979<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-67.65003,69.52625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR03-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7348 &#177; 528<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-67.65065,69.52610</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CAD02-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 86555 &#177; 4339<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Briner et al. (2006)<br/>Davis et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-67.62392,69.89220</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CAD02-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35369 &#177; 1793<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Briner et al. (2006)<br/>Davis et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-67.62393,69.89220</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PT01-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 149721 &#177; 7652<br/>
+<sup>26</sup>Al: 129736 &#177; 8116<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Briner et al. (2006)<br/>Davis et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-67.62442,69.88607</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BDFT2-01-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 108427 &#177; 6026<br/>
+<sup>26</sup>Al: 86142 &#177; 5210<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.96408,70.33028</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BDFT2-01-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10300 &#177; 506<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-68.96408,70.33028</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BDFT3-01-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 89176 &#177; 4485<br/>
+<sup>26</sup>Al: 72748 &#177; 4177<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.92525,70.31992</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BDFT3-01-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13318 &#177; 822<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.92525,70.31992</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SIV9-01-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 81093 &#177; 4041<br/>
+<sup>26</sup>Al: 70431 &#177; 4229<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.77363,70.33942</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF02-114</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 69346 &#177; 3464<br/>
+<sup>26</sup>Al: 52834 &#177; 3085<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.81118,70.35353</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL5-01-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 88464 &#177; 4418<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-69.03460,70.52010</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CAM02-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 141831 &#177; 7186<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.03970,70.01220</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CAM02-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15678 &#177; 883<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-68.03628,70.01182</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR03-88</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 48137 &#177; 2443<br/>
+<sup>26</sup>Al: 40872 &#177; 2671<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.60178,69.88155</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR03-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 179113 &#177; 10112<br/>
+<sup>26</sup>Al: 140669 &#177; 11886<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.22345,69.59592</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR03-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 123625 &#177; 6339<br/>
+<sup>26</sup>Al: 102472 &#177; 6254<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.25735,69.58733</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF02-142</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17685 &#177; 946<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.23852,70.39367</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF02-143</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20207 &#177; 1087<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.24638,70.39995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CAM02-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 105481 &#177; 7777<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.79490,69.96090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CAM02-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24527 &#177; 1209<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.18253,70.17985</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CAM02-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10282 &#177; 574<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.39745,69.96075</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CAM02-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12124 &#177; 809<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-68.39648,69.96053</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CAM02-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10951 &#177; 614<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-68.33958,70.03615</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

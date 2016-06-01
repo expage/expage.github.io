@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kiernan et al. (2010)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>AR-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 145426 &#177; 8361<br/>
+<sup>26</sup>Al: 124530 &#177; 10303<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.242,-43.110</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AR-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 125902 &#177; 6616<br/>
+<sup>26</sup>Al: 158846 &#177; 17583<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.242,-43.110</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AR-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 69878 &#177; 4421<br/>
+<sup>26</sup>Al: 55320 &#177; 10790<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.247,-43.108</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AR-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 228522 &#177; 12303<br/>
+<sup>26</sup>Al: 178820 &#177; 22007<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.253,-43.106</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AR-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 243088 &#177; 13051<br/>
+<sup>26</sup>Al: 236967 &#177; 20452<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.265,-43.122</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AR-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 268047 &#177; 14514<br/>
+<sup>26</sup>Al: 228075 &#177; 22933<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.265,-43.122</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AR-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 252540 &#177; 14286<br/>
+<sup>26</sup>Al: 220752 &#177; 21959<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.265,-43.121</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AR-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 82782 &#177; 4383<br/>
+<sup>26</sup>Al: 64122 &#177; 5948<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.262,-43.121</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AR-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 140859 &#177; 8494<br/>
+<sup>26</sup>Al: 165388 &#177; 16235<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.263,-43.122</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AR-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 111988 &#177; 6073<br/>
+<sup>26</sup>Al: 114213 &#177; 11971<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.263,-43.118</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AR-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 106885 &#177; 5741<br/>
+<sup>26</sup>Al: 99795 &#177; 12679<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.263,-43.118</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AR-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 188105 &#177; 9988<br/>
+<sup>26</sup>Al: 152843 &#177; 13239<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kiernan et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>146.269,-43.122</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ackert et al. (2008)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>PBS-04-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13189 &#177; 1104<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.63367,-50.28003</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PBN-04-60</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12026 &#177; 917<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.64387,-50.28070</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PBN-04-61</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12669 &#177; 1593<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.73407,-50.32005</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PBN-04-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12392 &#177; 1093<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.69835,-50.18623</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PBS-04-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13411 &#177; 1651<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.69798,-50.18607</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PBS-04-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11760 &#177; 986<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.72435,-50.17977</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PBN-04-62</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9937 &#177; 1312<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.69387,-50.18622</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PBN-04-66</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14272 &#177; 1418<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.68673,-50.18698</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PBN-04-67</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13909 &#177; 1430<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ackert et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.68183,-50.18732</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

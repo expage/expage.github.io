@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Putnam et al. (2013a)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>RAK-11-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17936 &#177; 860<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.631847,-43.387062</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAK-11-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17629 &#177; 824<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.628692,-43.383056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAK-11-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18107 &#177; 850<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.626590,-43.380690</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAK-11-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17181 &#177; 868<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.626522,-43.380540</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAK-11-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17693 &#177; 910<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.628256,-43.377376</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAK-11-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17565 &#177; 825<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.628420,-43.377154</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAK-11-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17855 &#177; 838<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.623158,-43.369678</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAK-11-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17702 &#177; 831<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.622372,-43.370223</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAK-11-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18951 &#177; 889<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.618219,-43.372421</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAK-11-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18329 &#177; 909<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.622657,-43.374336</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LC-11-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17215 &#177; 850<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.524420,-43.297494</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LC-11-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17083 &#177; 802<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.524675,-43.306141</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LC-11-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16287 &#177; 763<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.452228,-43.206122</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LC-11-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17097 &#177; 802<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.447722,-43.201414</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LC-11-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17763 &#177; 860<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.445379,-43.201244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LC-11-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17071 &#177; 789<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.443805,-43.200432</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LC-11-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17099 &#177; 837<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.432296,-43.189229</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAK-10-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14946 &#177; 762<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.325644,-43.299678</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAK-10-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16614 &#177; 853<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.320552,-43.298995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAK-10-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16808 &#177; 854<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.326558,-43.290959</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAK-10-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17656 &#177; 870<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.328450,-43.290008</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAK-10-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17108 &#177; 894<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.326830,-43.288986</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAK-10-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17160 &#177; 865<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.331372,-43.291859</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH-08-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16083 &#177; 855<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.110735,-43.313559</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH-08-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15974 &#177; 826<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.122540,-43.308400</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH-08-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16853 &#177; 883<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.122310,-43.308260</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH-08-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17233 &#177; 859<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.114400,-43.305180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH-08-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15561 &#177; 789<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.114400,-43.305160</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH-08-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15790 &#177; 766<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.114400,-43.305180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH-08-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14156 &#177; 729<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.113430,-43.305220</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH-08-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16462 &#177; 849<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.113940,-43.305470</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH-08-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16076 &#177; 813<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.113910,-43.305980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH-08-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14979 &#177; 783<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.113390,-43.306130</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH-08-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16142 &#177; 789<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.101290,-43.311480</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RK-11-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14902 &#177; 659<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.948087,-43.295655</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RK-11-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15136 &#177; 666<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.947799,-43.295257</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RK-11-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14187 &#177; 629<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.948563,-43.295058</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RK-11-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14508 &#177; 697<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.948523,-43.294624</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RK-11-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14026 &#177; 623<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Putnam et al. (2013a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.948515,-43.294477</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

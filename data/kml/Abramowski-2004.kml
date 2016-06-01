@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Abramowski (2004)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>MK22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 100078 &#177; 8621<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.80,28.26</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63666 &#177; 5695<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.80,28.26</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43454 &#177; 3363<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.80,28.26</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57285 &#177; 4866<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.80,28.26</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6212 &#177; 611<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.76,28.33</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2722 &#177; 421<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.76,28.33</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK43</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4704 &#177; 418<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.76,28.33</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK44</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3998 &#177; 647<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.76,28.33</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK45</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4654 &#177; 912<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.76,28.33</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31066 &#177; 2918<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.76,28.30</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14716 &#177; 1240<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.76,28.30</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK53</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28126 &#177; 2487<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.76,28.30</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK54</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24754 &#177; 2417<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.76,28.30</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK55</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15408 &#177; 1794<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.76,28.30</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK71</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26547 &#177; 2316<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.77,28.29</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK73</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16666 &#177; 2118<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.77,28.29</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK74</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15501 &#177; 1709<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.77,28.29</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MK75</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15998 &#177; 1552<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.77,28.29</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19221 &#177; 1268<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.58,28.19</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17912 &#177; 1028<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.58,28.19</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18989 &#177; 1293<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.58,28.19</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15978 &#177; 1043<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.58,28.19</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11440 &#177; 667<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.62,28.20</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10787 &#177; 631<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.62,28.20</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11939 &#177; 750<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.62,28.20</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5373 &#177; 321<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.62,28.20</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT61</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4205 &#177; 317<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.53,28.21</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT63</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4426 &#177; 299<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Abramowski (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.53,28.21</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

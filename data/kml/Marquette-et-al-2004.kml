@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Marquette et al. (2004)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>LAB-97-24A</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 12704 &#177; 1328<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Marquette et al. (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.8468,59.3200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LAB-00-17A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26933 &#177; 1587<br/>
+<sup>26</sup>Al: 23119 &#177; 1501<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Marquette et al. (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.5970,58.6397</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LAB-00-20A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13026 &#177; 806<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Marquette et al. (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.6368,58.6163</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KAU-99-02A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13183 &#177; 885<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Marquette et al. (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.0600,57.8717</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MTH-99-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11833 &#177; 769<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Marquette et al. (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.4617,56.9217</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LAB-00-16B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11072 &#177; 1071<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Marquette et al. (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.7167,58.7067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LAB-99-23-1A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10675 &#177; 1119<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Marquette et al. (2004)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.6500,59.3133</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

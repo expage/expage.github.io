@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rinterknecht et al. (2012a)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>BER-97-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 154196 &#177; 8790<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.7712,52.0596</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 99603 &#177; 5412<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.8188,52.0543</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-07-Gif</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 109103 &#177; 6583<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.8188,52.0543</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38066 &#177; 2053<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.8188,52.0543</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 86155 &#177; 5825<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.8236,52.0526</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29729 &#177; 1797<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.8771,52.0336</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40776 &#177; 3661<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.4472,52.2446</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46506 &#177; 2513<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.5575,52.0415</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60076 &#177; 5670<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.5722,52.0567</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 74667 &#177; 4863<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.5393,52.0862</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24117 &#177; 1667<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.5037,52.0289</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 130024 &#177; 5752<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.5037,52.0289</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17126 &#177; 1368<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.6505,53.3491</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16340 &#177; 1093<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.6642,53.3250</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13583 &#177; 761<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.6364,53.2814</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16493 &#177; 1209<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.6493,53.2629</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-97-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17427 &#177; 1191<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.6480,53.2640</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

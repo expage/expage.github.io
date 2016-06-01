@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Reuther (2007)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>BW-04-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 65938 &#177; 3499<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Reuther (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.13289,49.11128</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BW-04-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60246 &#177; 4455<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Reuther (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.13289,49.11128</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PT-03-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12132 &#177; 657<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Reuther (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>22.88144,45.38464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PT-03-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13957 &#177; 859<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Reuther (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>22.88144,45.38464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AK-03-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15799 &#177; 928<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reuther (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.51533,50.32453</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AK-03-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16453 &#177; 1190<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reuther (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.52028,50.32425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AK-03-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16027 &#177; 1121<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reuther (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.51931,50.32339</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CH-03-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15302 &#177; 964<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Reuther (2007)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>87.61064,50.23597</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU-03-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19871 &#177; 3115<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reuther (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.34889,50.04450</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU-03-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24860 &#177; 3901<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reuther (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.34933,50.04428</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU-03-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17866 &#177; 1113<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reuther (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.34933,50.04436</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MA-03-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40510 &#177; 2234<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reuther (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.62508,50.21694</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MA-03-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 93425 &#177; 7925<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reuther (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.62483,50.21403</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

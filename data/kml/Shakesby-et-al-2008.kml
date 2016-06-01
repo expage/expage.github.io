@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Shakesby et al. (2008)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>A1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7758 &#177; 478<br/>
+<sup>26</sup>Al: 7446 &#177; 602<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Shakesby et al. (2008)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>7.783,61.417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9103 &#177; 560<br/>
+<sup>26</sup>Al: 8659 &#177; 762<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Shakesby et al. (2008)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>7.783,61.417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9097 &#177; 579<br/>
+<sup>26</sup>Al: 9502 &#177; 902<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Shakesby et al. (2008)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>7.783,61.417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1408 &#177; 142<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Shakesby et al. (2008)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>7.750,61.750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T2</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 1331 &#177; 283<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Shakesby et al. (2008)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>7.750,61.750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1054 &#177; 323<br/>
+<sup>26</sup>Al: 1797 &#177; 382<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Shakesby et al. (2008)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>7.750,61.750</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

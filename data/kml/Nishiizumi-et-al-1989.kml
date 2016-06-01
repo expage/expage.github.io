@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Nishiizumi et al. (1989)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>W86-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15385 &#177; 2040<br/>
+<sup>26</sup>Al: 15125 &#177; 1169<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Nishiizumi et al. (1989)<br/>Phillips et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-119.2986,37.9823</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W86-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16280 &#177; 3153<br/>
+<sup>26</sup>Al: 14856 &#177; 1186<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Nishiizumi et al. (1989)<br/>Phillips et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-119.2986,37.9823</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W86-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16188 &#177; 1862<br/>
+<sup>26</sup>Al: 14053 &#177; 1155<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Nishiizumi et al. (1989)<br/>Phillips et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-118.7656,37.4211</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W86-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15927 &#177; 1989<br/>
+<sup>26</sup>Al: 15845 &#177; 1106<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Nishiizumi et al. (1989)<br/>Phillips et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-118.7688,37.4197</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W86-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16146 &#177; 2178<br/>
+<sup>26</sup>Al: 15075 &#177; 1046<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Nishiizumi et al. (1989)<br/>Phillips et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-118.7688,37.4197</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W86-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15873 &#177; 2528<br/>
+<sup>26</sup>Al: 14867 &#177; 1104<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Nishiizumi et al. (1989)<br/>Phillips et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-118.7688,37.4197</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W86-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14942 &#177; 2548<br/>
+<sup>26</sup>Al: 15307 &#177; 1196<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Nishiizumi et al. (1989)<br/>Phillips et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-120.1964,38.8708</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W86-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14932 &#177; 1874<br/>
+<sup>26</sup>Al: 15484 &#177; 1153<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Nishiizumi et al. (1989)<br/>Phillips et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-120.1973,38.8717</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W86-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16421 &#177; 4540<br/>
+<sup>26</sup>Al: 16338 &#177; 1184<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Nishiizumi et al. (1989)<br/>Phillips et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-120.1973,38.8717</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W86-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16082 &#177; 1751<br/>
+<sup>26</sup>Al: 17281 &#177; 1414<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Nishiizumi et al. (1989)<br/>Phillips et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-120.2219,38.8553</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W86-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33165 &#177; 2668<br/>
+<sup>26</sup>Al: 30504 &#177; 4761<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nishiizumi et al. (1989)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-119.0839,37.7814</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W86-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61433 &#177; 7066<br/>
+<sup>26</sup>Al: 49856 &#177; 3967<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Nishiizumi et al. (1989)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-119.0839,37.7814</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

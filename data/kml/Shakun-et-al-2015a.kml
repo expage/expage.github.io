@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Shakun et al. (2015a)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>MC-NC-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19990 &#177; 1228<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.32974,-6.98746</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-NC-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20165 &#177; 1336<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.33748,-6.98369</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-NC-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20988 &#177; 1324<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.33033,-6.98790</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-NC-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21749 &#177; 1323<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.32940,-6.98704</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-NC-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22076 &#177; 1336<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.32935,-6.98701</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-NC-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22142 &#177; 1507<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.33737,-6.98367</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-NC-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39722 &#177; 2233<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.33604,-6.98296</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-NC-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52053 &#177; 3256<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.33604,-6.98289</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-NC-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 125376 &#177; 6400<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.33604,-6.98289</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15584 &#177; 1062<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.61018,-6.90238</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17499 &#177; 1000<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.59208,-6.91700</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17995 &#177; 980<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.60506,-6.90276</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18877 &#177; 944<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.61137,-6.90411</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19140 &#177; 965<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.61465,-6.92892</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19504 &#177; 1005<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.61024,-6.90662</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20069 &#177; 982<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.60474,-6.92609</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21322 &#177; 1105<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.61593,-6.91097</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22688 &#177; 1293<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.59199,-6.94243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26583 &#177; 1334<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.60616,-6.92666</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37313 &#177; 2105<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.58921,-6.91837</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39322 &#177; 2261<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.61701,-6.91460</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-G-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16503 &#177; 776<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.30856,-6.97722</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-G-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17058 &#177; 797<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.30997,-6.88750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-G-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17732 &#177; 831<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.30831,-6.97859</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-G-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17912 &#177; 840<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.30883,-6.97675</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-G-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18005 &#177; 850<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.30881,-6.97664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-G-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18745 &#177; 950<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.30822,-6.97971</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-G-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19206 &#177; 939<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.30824,-6.97984</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-G-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20541 &#177; 1408<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.31036,-6.97761</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MC-G-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36657 &#177; 1720<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Shakun et al. (2015a)<br/>Shakun et al. (2015b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.30825,-6.97993</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

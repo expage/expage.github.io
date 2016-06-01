@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Owen et al. (2003c)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>LJ1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19276 &#177; 957<br/>
+<sup>26</sup>Al: 19569 &#177; 1309<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.231,36.378</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15351 &#177; 735<br/>
+<sup>26</sup>Al: 13001 &#177; 1137<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.231,36.378</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34544 &#177; 1657<br/>
+<sup>26</sup>Al: 32951 &#177; 1987<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.231,36.378</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12512 &#177; 648<br/>
+<sup>26</sup>Al: 12402 &#177; 1111<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.228,36.385</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ5</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 17852 &#177; 1219<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.228,36.385</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ6</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 16653 &#177; 2266<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.312,36.370</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22261 &#177; 1161<br/>
+<sup>26</sup>Al: 23241 &#177; 1372<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.312,36.370</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26455 &#177; 1299<br/>
+<sup>26</sup>Al: 26633 &#177; 1509<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.302,36.369</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64501 &#177; 3164<br/>
+<sup>26</sup>Al: 60272 &#177; 3777<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.302,36.369</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22296 &#177; 1010<br/>
+<sup>26</sup>Al: 21293 &#177; 1420<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.295,36.367</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10377 &#177; 477<br/>
+<sup>26</sup>Al: 9662 &#177; 630<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.290,36.360</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18062 &#177; 1026<br/>
+<sup>26</sup>Al: 17904 &#177; 1095<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.288,36.355</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19813 &#177; 960<br/>
+<sup>26</sup>Al: 19475 &#177; 1482<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.251,36.354</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19074 &#177; 872<br/>
+<sup>26</sup>Al: 18122 &#177; 1104<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.251,36.354</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10577 &#177; 558<br/>
+<sup>26</sup>Al: 10675 &#177; 712<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.243,36.370</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9999 &#177; 459<br/>
+<sup>26</sup>Al: 9227 &#177; 714<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.243,36.370</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LJ17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18763 &#177; 866<br/>
+<sup>26</sup>Al: 19234 &#177; 1259<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.243,36.370</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

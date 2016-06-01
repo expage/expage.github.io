@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Levy et al. (2012)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>LL0901</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6135 &#177; 300<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Levy et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.290,67.105</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL0902</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6744 &#177; 347<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Levy et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.282,67.103</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL0903</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6710 &#177; 349<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Levy et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.283,67.101</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL0904</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6645 &#177; 335<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Levy et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.294,67.092</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL0906</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6546 &#177; 315<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Levy et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.102,67.159</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL0907</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6783 &#177; 340<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Levy et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.104,67.158</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL0908</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7169 &#177; 378<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Levy et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.105,67.158</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL0909</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6282 &#177; 333<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Levy et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.119,67.161</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL0911</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6429 &#177; 322<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Levy et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.116,67.162</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

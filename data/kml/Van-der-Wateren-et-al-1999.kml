@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Van der Wateren et al. (1999)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>DW91013</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5396289 &#177; 2968000<br/>
+<sup>26</sup>Al: 5000000 &#177; 5000000<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Van der Wateren et al. (1999)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>159.793,-71.564</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DW91014</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10000000 &#177; 10000000<br/>
+<sup>26</sup>Al: 5000000 &#177; 5000000<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Van der Wateren et al. (1999)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>159.793,-71.564</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DW91016</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6168941 &#177; 3772048<br/>
+<sup>26</sup>Al: 1581718 &#177; 549251<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Van der Wateren et al. (1999)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>159.799,-71.446</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DW90108</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1062944 &#177; 78751<br/>
+<sup>26</sup>Al: 632963 &#177; 70452<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Van der Wateren et al. (1999)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>160.331,-71.669</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AV9008</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 409039 &#177; 21933<br/>
+<sup>26</sup>Al: 312083 &#177; 41491<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Van der Wateren et al. (1999)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>164.633,-71.135</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AV9009</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 98436 &#177; 14126<br/>
+<sup>26</sup>Al: 77393 &#177; 16369<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Van der Wateren et al. (1999)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>164.556,-71.185</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AV93125</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1209113 &#177; 91315<br/>
+<sup>26</sup>Al: 627617 &#177; 63784<br/><br/>
+<u>Sample</u><br/>pebble<br/><br/>
+<u>Publication</u><br/>Van der Wateren et al. (1999)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>159.142,-75.732</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DW91028</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 848635 &#177; 61689<br/>
+<sup>26</sup>Al: 500436 &#177; 56521<br/><br/>
+<u>Sample</u><br/>pebble<br/><br/>
+<u>Publication</u><br/>Van der Wateren et al. (1999)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>158.982,-75.675</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DW91029a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 225581 &#177; 15387<br/>
+<sup>26</sup>Al: 197305 &#177; 20300<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Van der Wateren et al. (1999)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>159.016,-75.669</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DW91027</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 594957 &#177; 50368<br/>
+<sup>26</sup>Al: 442165 &#177; 44554<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Van der Wateren et al. (1999)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>160.892,-75.707</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DW91031</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11966 &#177; 1585<br/><br/>
+<u>Sample</u><br/>pebble<br/><br/>
+<u>Publication</u><br/>Van der Wateren et al. (1999)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>159.037,-75.654</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

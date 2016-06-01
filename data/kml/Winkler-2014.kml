@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Winkler (2014)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>SK43</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2657 &#177; 631<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.087,-43.553</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK59</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 333 &#177; 278<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.082,-43.554</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK60</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 464 &#177; 232<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.084,-43.553</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1393 &#177; 549<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.911,-43.679</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1385 &#177; 408<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.033,-43.572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK58</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1034 &#177; 303<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.029,-43.572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 133 &#177; 386<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.023,-43.571</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK56</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 741 &#177; 242<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.029,-43.572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK57</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 826 &#177; 169<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.030,-43.572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK54</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 326 &#177; 208<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.001,-43.614</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK53</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 506 &#177; 267<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.001,-43.613</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK55</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 194 &#177; 135<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.001,-43.624</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2633 &#177; 320<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.023,-43.623</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK48</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2601 &#177; 266<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.028,-43.624</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK49</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2518 &#177; 276<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.023,-43.623</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2539 &#177; 458<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.023,-43.623</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2723 &#177; 388<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.023,-43.622</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2718 &#177; 360<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.023,-43.623</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK37a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2858 &#177; 419<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.023,-43.623</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK50</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1799 &#177; 187<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.023,-43.624</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2437 &#177; 288<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.023,-43.624</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1719 &#177; 392<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.024,-43.622</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK35a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1785 &#177; 386<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.024,-43.622</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1785 &#177; 249<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.024,-43.624</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2086 &#177; 427<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.024,-43.624</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1067 &#177; 236<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.024,-43.624</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 953 &#177; 342<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.025,-43.624</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1501 &#177; 541<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.368,-43.448</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 309 &#177; 539<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Winkler (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.371,-43.440</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

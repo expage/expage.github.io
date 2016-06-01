@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rother et al. (2015)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>WAI-Pknob-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26759 &#177; 1421<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.8871,-43.1450</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-Pknob-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23691 &#177; 1308<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.8869,-43.1448</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-Avoca-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23650 &#177; 1416<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.9033,-43.1508</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-Avoca-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24776 &#177; 1736<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.9033,-43.1513</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-Avoca-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26983 &#177; 1777<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.9066,-43.1478</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-BL-1-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23487 &#177; 1532<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.8362,-43.1448</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-BL-1-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24386 &#177; 1265<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.8372,-43.1451</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-BL-1-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16668 &#177; 1016<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.8376,-43.1462</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-OT-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15307 &#177; 856<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.9384,-43.2658</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-OT-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7463 &#177; 622<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>171.9394,-43.2666</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-OT-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23886 &#177; 1255<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.9408,-43.2672</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-BL-2-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22847 &#177; 1325<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.8460,-43.1466</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-BL-2-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18823 &#177; 1103<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.8461,-43.1472</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-BL-2-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19865 &#177; 1132<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.8451,-43.1461</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-LH-3-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19749 &#177; 1158<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.7939,-43.0771</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-LH-3-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19705 &#177; 992<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.7906,-43.0758</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-LH-3-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18898 &#177; 964<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.7924,-43.0758</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-LH-2-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20999 &#177; 1141<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>171.7960,-43.0841</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-LH-1-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19034 &#177; 1193<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.7842,-43.0616</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-LH-1-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18837 &#177; 1099<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.7841,-43.0625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-LH-1-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18816 &#177; 998<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.7841,-43.0625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-LH-1-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18816 &#177; 1090<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.7842,-43.0628</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-PRW-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17153 &#177; 871<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.7845,-43.0797</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-PRW-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16999 &#177; 1065<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.7845,-43.0797</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-PRW-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18359 &#177; 1110<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.7852,-43.0797</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-PRW-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17783 &#177; 977<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.7873,-43.0785</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-PCS-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17331 &#177; 959<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.7942,-43.0675</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-PCS-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17386 &#177; 1051<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.7925,-43.0668</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-PCS-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16046 &#177; 911<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.7923,-43.0675</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-PCS-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18125 &#177; 1095<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.7919,-43.0673</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-BL-3-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14792 &#177; 1295<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.8243,-43.1516</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-BL-3-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17000 &#177; 1086<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.8251,-43.1501</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WAI-BL-3-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17388 &#177; 980<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>171.8257,-43.1489</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

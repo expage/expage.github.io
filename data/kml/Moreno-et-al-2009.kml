@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Moreno et al. (2009)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>TP-04-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15671 &#177; 1567<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moreno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.88313,-50.96785</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TP-04-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16289 &#177; 1364<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moreno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.87667,-50.96587</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TP-04-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15020 &#177; 1445<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moreno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.88253,-50.96873</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TP-04-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15998 &#177; 2200<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moreno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.78233,-50.93013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TP-04-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11714 &#177; 1387<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moreno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.78197,-50.92838</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TP-04-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14496 &#177; 1914<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moreno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.78307,-50.92827</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TP-04-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14043 &#177; 1402<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moreno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.78678,-50.92612</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VN-05-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15230 &#177; 818<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Moreno et al. (2009)<br/>García et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.78631,-50.94702</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VN-05-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15003 &#177; 774<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Moreno et al. (2009)<br/>García et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.78786,-50.94894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TP-04-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12806 &#177; 1233<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moreno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.79363,-50.92515</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TP-04-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12586 &#177; 1204<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moreno et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.79123,-50.93218</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

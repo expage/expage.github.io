@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rodés Bolumburu (2008)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>ECH01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20806 &#177; 3619<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.087,43.087</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ECH02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62360 &#177; 44938<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.087,43.087</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ECH03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18292 &#177; 3502<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.087,43.087</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ECH04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17794 &#177; 3245<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.087,43.087</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ECH09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12438 &#177; 1899<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.093,43.076</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ECH10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4241 &#177; 4390<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.093,43.076</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ECH11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17603 &#177; 3643<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.093,43.076</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AUC01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13274 &#177; 2291<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.178,42.976</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AUC02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15902 &#177; 2906<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.178,42.976</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AUC03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15437 &#177; 3291<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.178,42.976</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AUC04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16310 &#177; 2736<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.178,42.976</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FLI01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18125 &#177; 3171<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.233,42.855</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OLI01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12332 &#177; 3094<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.229,42.826</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RLI01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10091 &#177; 1147<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-0.232,42.853</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IHH01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13650 &#177; 1907<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.238,42.840</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IHH02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8666 &#177; 1234<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rodés Bolumburu (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.238,42.840</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

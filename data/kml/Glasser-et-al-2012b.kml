@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Glasser et al. (2012b)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>AB01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19355 &#177; 1093<br/>
+<sup>26</sup>Al: 18177 &#177; 1162<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2012b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-3.68455,52.80167</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AB02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37304 &#177; 2093<br/>
+<sup>26</sup>Al: 36159 &#177; 2354<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2012b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-3.68242,52.80413</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AB03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30291 &#177; 1695<br/>
+<sup>26</sup>Al: 27432 &#177; 1769<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2012b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-3.67903,52.80858</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19429 &#177; 1117<br/>
+<sup>26</sup>Al: 19331 &#177; 1433<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2012b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-3.69045,52.78154</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22033 &#177; 1251<br/>
+<sup>26</sup>Al: 21702 &#177; 1397<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2012b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-3.69214,52.78323</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21757 &#177; 1264<br/>
+<sup>26</sup>Al: 20243 &#177; 1286<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2012b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-3.68874,52.78723</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AB06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20427 &#177; 1290<br/>
+<sup>26</sup>Al: 21250 &#177; 1996<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2012b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-3.67504,52.82060</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18435 &#177; 1158<br/>
+<sup>26</sup>Al: 18109 &#177; 1178<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2012b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-3.69905,52.77396</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

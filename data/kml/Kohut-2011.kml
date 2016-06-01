@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kohut (2011)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>DKl</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13296 &#177; 673<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.687,37.44375</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14900 &#177; 851<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.687,37.44375</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18471 &#177; 1033<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.687,37.44375</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16854 &#177; 832<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.687,37.44364</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17211 &#177; 876<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.687,37.44361</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20313 &#177; 1009<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.685,37.45417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10261 &#177; 585<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.685,37.45414</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18526 &#177; 939<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.685,37.45428</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18808 &#177; 966<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.686,37.45450</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DKl0</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24438 &#177; 1243<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.685,37.45489</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36747 &#177; 1906<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.704,37.42458</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 99417 &#177; 25781<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.704,37.42456</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42063 &#177; 36133<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.704,37.42458</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37119 &#177; 9347<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.703,37.42433</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19157 &#177; 10494<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.703,37.42425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12654 &#177; 3176<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.711,37.42992</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13917 &#177; 4748<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.711,37.42964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14088 &#177; 818<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.711,37.42953</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17762 &#177; 892<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.711,37.42972</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57117 &#177; 41595<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kohut (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.711,37.42983</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

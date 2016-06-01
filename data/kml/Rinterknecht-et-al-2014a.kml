@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rinterknecht et al. (2014a)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>MVP-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 100680 &#177; 5462<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.0350,53.3994</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 82909 &#177; 4463<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.7983,53.3875</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6696 &#177; 1198<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.5953,53.6242</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16103 &#177; 1312<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.4503,53.3272</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24846 &#177; 5810<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.2572,53.3244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18646 &#177; 1464<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.2523,53.3042</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19204 &#177; 1277<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.5828,53.7483</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18673 &#177; 1578<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.5708,53.7036</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17848 &#177; 1763<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.9508,53.6678</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14957 &#177; 1494<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.9508,53.6678</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10902 &#177; 1969<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.8275,53.8658</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18308 &#177; 1130<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.7106,53.9272</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12958 &#177; 1695<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.1439,53.5722</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18304 &#177; 2048<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.9647,53.4494</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15469 &#177; 1148<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.9647,53.4503</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19777 &#177; 1253<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.9647,53.4503</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15296 &#177; 2084<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.9778,53.6650</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17176 &#177; 1205<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.6136,53.7708</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12907 &#177; 937<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.6144,53.7708</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14695 &#177; 1046<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.6169,53.7719</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14159 &#177; 936<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.8136,54.1136</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14467 &#177; 1472<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.7811,54.1058</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MVP-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9309 &#177; 788<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.7200,54.0242</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

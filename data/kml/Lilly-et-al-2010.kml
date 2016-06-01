@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Lilly et al. (2010)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>GR12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 321106 &#177; 18296<br/>
+<sup>26</sup>Al: 238328 &#177; 18450<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>74.9097,-72.9112</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 349483 &#177; 19834<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>74.9096,-72.9115</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55765 &#177; 3703<br/>
+<sup>26</sup>Al: 40985 &#177; 4992<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>74.9096,-72.9115</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 53315 &#177; 2771<br/>
+<sup>26</sup>Al: 55124 &#177; 4450<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>74.9094,-72.9115</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 440882 &#177; 25201<br/>
+<sup>26</sup>Al: 333432 &#177; 26342<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>74.9088,-72.9115</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 170329 &#177; 10427<br/>
+<sup>26</sup>Al: 127448 &#177; 15378<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>74.9088,-72.9115</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 277932 &#177; 15412<br/>
+<sup>26</sup>Al: 310866 &#177; 29354<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>74.9079,-72.9115</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR03-r</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 287943 &#177; 16342<br/>
+<sup>26</sup>Al: 257508 &#177; 20004<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>74.9079,-72.9115</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 548643 &#177; 33058<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>74.9067,-72.9110</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR05-r</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 529601 &#177; 32088<br/>
+<sup>26</sup>Al: 477386 &#177; 42661<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>74.9067,-72.9110</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 343866 &#177; 19785<br/>
+<sup>26</sup>Al: 297836 &#177; 39461<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>74.9067,-72.9110</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 199999 &#177; 10867<br/>
+<sup>26</sup>Al: 157622 &#177; 12269<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>74.9061,-72.9108</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 562460 &#177; 33603<br/>
+<sup>26</sup>Al: 464054 &#177; 63201<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>74.9053,-72.9102</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 108080 &#177; 6088<br/>
+<sup>26</sup>Al: 82551 &#177; 9968<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>74.9044,-72.9099</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR06-r</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 115353 &#177; 6133<br/>
+<sup>26</sup>Al: 102314 &#177; 7543<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>74.9044,-72.9099</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 606094 &#177; 38355<br/>
+<sup>26</sup>Al: 507060 &#177; 43756<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>74.9045,-72.9088</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 614293 &#177; 38670<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>74.9045,-72.9088</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 333919 &#177; 19076<br/>
+<sup>26</sup>Al: 328588 &#177; 26701<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>74.9044,-72.9095</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 936466 &#177; 61458<br/>
+<sup>26</sup>Al: 781648 &#177; 74765<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>74.9045,-72.9088</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 691227 &#177; 43328<br/>
+<sup>26</sup>Al: 658839 &#177; 104639<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>74.9045,-72.9088</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1524989 &#177; 119047<br/>
+<sup>26</sup>Al: 1163564 &#177; 149723<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>74.8341,-72.9737</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1772779 &#177; 147036<br/>
+<sup>26</sup>Al: 1441593 &#177; 207079<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>74.8371,-72.9738</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1232487 &#177; 89021<br/>
+<sup>26</sup>Al: 847974 &#177; 91160<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>74.9891,-72.9257</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR82</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1825436 &#177; 153086<br/>
+<sup>26</sup>Al: 1335913 &#177; 193760<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>74.9595,-72.8738</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR29</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 388430 &#177; 30231<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>75.0443,-72.8985</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 843053 &#177; 53878<br/>
+<sup>26</sup>Al: 748403 &#177; 75875<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>75.0402,-72.8986</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2573839 &#177; 272622<br/>
+<sup>26</sup>Al: 1877283 &#177; 354411<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>75.0372,-72.8988</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2574865 &#177; 273869<br/>
+<sup>26</sup>Al: 2026411 &#177; 426116<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>75.0434,-72.8963</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GR25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4016162 &#177; 713334<br/>
+<sup>26</sup>Al: 2636420 &#177; 837853<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Lilly et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>75.0463,-72.8949</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

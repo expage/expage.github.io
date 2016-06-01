@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Reber et al. (2014a)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Reuss-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18868 &#177; 1224<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reber et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.31435,47.34763</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Reuss-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22175 &#177; 1296<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reber et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.19465,47.39520</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Reuss-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22373 &#177; 1384<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reber et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.18832,47.39550</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rigi-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16098 &#177; 963<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reber et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.46774,47.06427</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rigi-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7820 &#177; 481<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reber et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.45214,47.05581</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rigi-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13313 &#177; 954<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reber et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.45548,47.08772</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rigi-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8924 &#177; 604<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reber et al. (2014a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.45548,47.08772</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

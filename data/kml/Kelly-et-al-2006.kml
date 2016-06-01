@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kelly et al. (2006)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>GP-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11660 &#177; 900<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Kelly et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.344,46.563</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-1A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12003 &#177; 783<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Kelly et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.344,46.563</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>G111</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12815 &#177; 1189<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Kelly et al. (2006)<br/>Ivy-Ochs et al. (2006b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.349,46.568</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14255 &#177; 1374<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Kelly et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.352,46.569</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14427 &#177; 997<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Kelly et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.352,46.572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>G103</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10335 &#177; 894<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Kelly et al. (2006)<br/>Ivy-Ochs et al. (2006b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.364,46.583</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>G106</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9531 &#177; 808<br/>
+<sup>26</sup>Al: 8872 &#177; 657<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Kelly et al. (2006)<br/>Ivy-Ochs et al. (2006b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.364,46.583</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>G110</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9778 &#177; 829<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Kelly et al. (2006)<br/>Ivy-Ochs et al. (2006b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.365,46.589</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12516 &#177; 855<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Kelly et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.313,46.579</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10842 &#177; 682<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Kelly et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.313,46.579</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

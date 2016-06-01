@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Briner et al. (2003)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>SIV7-00-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 65872 &#177; 3441<br/>
+<sup>26</sup>Al: 56918 &#177; 3441<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Briner et al. (2003)<br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.80073,70.33335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SIV8-01-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 71871 &#177; 3849<br/>
+<sup>26</sup>Al: 65462 &#177; 4769<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Briner et al. (2003)<br/>Briner et al. (2006)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.77997,70.33525</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SIV7-00-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11422 &#177; 728<br/>
+<sup>26</sup>Al: 13266 &#177; 852<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Briner et al. (2003)<br/>Briner et al. (2005b, 2006)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-68.80025,70.33322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SIV7-01-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10657 &#177; 604<br/>
+<sup>26</sup>Al: 10912 &#177; 836<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Briner et al. (2003)<br/>Briner et al. (2005b, 2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.80070,70.33333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SIV8-01-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18603 &#177; 1108<br/>
+<sup>26</sup>Al: 15778 &#177; 1199<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Briner et al. (2003)<br/>Briner et al. (2005b, 2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.77912,70.33525</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PB5-01-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19354 &#177; 1238<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Briner et al. (2003)<br/>Briner et al. (2005b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.71950,70.51375</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PB5-01-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17953 &#177; 1978<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Briner et al. (2003)<br/>Briner et al. (2005b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.71661,70.50983</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PB4-00-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18497 &#177; 2036<br/>
+<sup>26</sup>Al: 19347 &#177; 2695<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Briner et al. (2003)<br/>Briner et al. (2005b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.76460,70.46947</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PB3-00-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18585 &#177; 2079<br/>
+<sup>26</sup>Al: 17917 &#177; 1807<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Briner et al. (2003)<br/>Briner et al. (2005b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.75852,70.44988</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

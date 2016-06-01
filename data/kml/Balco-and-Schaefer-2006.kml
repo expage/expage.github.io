@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Balco and Schaefer (2006)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>LD-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22227 &#177; 1150<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco and Schaefer (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.04523,41.44282</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LD-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21404 &#177; 1104<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco and Schaefer (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.04551,41.44332</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LD-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23063 &#177; 1218<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco and Schaefer (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.04704,41.44343</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LD-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21729 &#177; 1080<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco and Schaefer (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.04798,41.44357</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LD-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21811 &#177; 1214<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco and Schaefer (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.04809,41.44334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LD-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20980 &#177; 1062<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco and Schaefer (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.04958,41.44303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LD-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22672 &#177; 1202<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco and Schaefer (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.04963,41.44324</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OS-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22464 &#177; 1151<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco and Schaefer (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.04178,41.37822</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OS-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21775 &#177; 1130<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco and Schaefer (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.04221,41.37808</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OS-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21009 &#177; 1200<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco and Schaefer (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.04240,41.37829</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OS-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20738 &#177; 1044<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco and Schaefer (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.04269,41.37841</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OS-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23170 &#177; 1167<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco and Schaefer (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.03706,41.37884</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OS-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21715 &#177; 1069<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco and Schaefer (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.03851,41.37791</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OS-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22803 &#177; 1148<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Balco and Schaefer (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.03538,41.39291</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

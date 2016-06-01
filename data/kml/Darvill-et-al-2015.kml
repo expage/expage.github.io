@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Darvill et al. (2015)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>FPSS1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25653 &#177; 1328<br/>
+<sup>26</sup>Al: 24306 &#177; 1518<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Darvill et al. (2015)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-68.8310,-52.9743</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FPSS12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23862 &#177; 1336<br/>
+<sup>26</sup>Al: 22482 &#177; 1553<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Darvill et al. (2015)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-68.8310,-52.9743</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FPSS13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26391 &#177; 1619<br/>
+<sup>26</sup>Al: 23252 &#177; 1424<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Darvill et al. (2015)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-68.8310,-52.9743</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FPSS16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23861 &#177; 1317<br/>
+<sup>26</sup>Al: 24407 &#177; 1654<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Darvill et al. (2015)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-68.8310,-52.9743</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CPSS5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41110 &#177; 2068<br/>
+<sup>26</sup>Al: 27866 &#177; 1737<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Darvill et al. (2015)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-68.4244,-52.8899</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CPSS7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22757 &#177; 1186<br/>
+<sup>26</sup>Al: 25170 &#177; 1582<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Darvill et al. (2015)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-68.4244,-52.8899</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CPSS8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25660 &#177; 1313<br/>
+<sup>26</sup>Al: 25879 &#177; 1647<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Darvill et al. (2015)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-68.4244,-52.8899</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CPSS14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29675 &#177; 1494<br/>
+<sup>26</sup>Al: 29502 &#177; 1888<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Darvill et al. (2015)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-68.4244,-52.8899</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

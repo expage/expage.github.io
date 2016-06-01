@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Briner (2009)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>PC04-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22009 &#177; 1078<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.23245,38.98078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC04-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14826 &#177; 769<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-106.23245,38.98078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC04-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17000 &#177; 858<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.23405,38.98020</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC04-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23505 &#177; 1150<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-106.23405,38.98020</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC04-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24926 &#177; 1298<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.23165,38.98180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC04-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17522 &#177; 859<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-106.23245,38.98078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC04-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23979 &#177; 1176<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-106.22773,38.98645</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC04-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22886 &#177; 1081<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.22725,38.98888</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC04-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16878 &#177; 828<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-106.22695,38.99005</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC04-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16830 &#177; 825<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-106.22727,38.99167</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC04-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17959 &#177; 885<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.22863,38.99803</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC04-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17810 &#177; 877<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-106.22863,38.99803</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DCG04-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4207 &#177; 1344<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.25225,39.00750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DCG04-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 68993 &#177; 3407<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-106.25225,39.00750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DCG04-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 44942 &#177; 2134<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.25252,39.00730</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DCG04-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39965 &#177; 2024<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.25572,39.00357</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DCG04-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36241 &#177; 1952<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-106.25572,39.00357</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DCG04-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30945 &#177; 1659<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.25672,39.00208</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DCG04-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41125 &#177; 1911<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-106.25672,39.00208</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DCG04-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33834 &#177; 1571<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-106.25828,38.99242</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DCG04-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 72214 &#177; 3541<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.25677,38.98878</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DCG04-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31057 &#177; 1441<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Briner (2009)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-106.25677,38.98878</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

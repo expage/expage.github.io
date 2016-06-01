@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Carcaillet et al. (2013)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>LZ09-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16468 &#177; 1688<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.7884,8.8117</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LZ09-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14963 &#177; 1255<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.7874,8.8117</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mu09-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19409 &#177; 1073<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8279,8.8009</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mu09-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20666 &#177; 1875<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8343,8.7954</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mu09-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18276 &#177; 1427<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8270,8.7951</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mu09-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15524 &#177; 820<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8233,8.7874</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mu09-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15574 &#177; 1311<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8229,8.7850</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mu09-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18604 &#177; 1604<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8224,8.7852</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mu09-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16154 &#177; 997<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.8197,8.7790</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mu09-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16544 &#177; 983<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.8189,8.7785</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mu09-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10629 &#177; 564<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.8129,8.7667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mu09-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11103 &#177; 1023<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.8121,8.7659</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mu09-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12423 &#177; 655<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8119,8.7633</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mu09-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11467 &#177; 616<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8164,8.7689</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mu09-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11730 &#177; 1078<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8152,8.7719</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mu09-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15018 &#177; 1465<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Carcaillet et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.8161,8.7758</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

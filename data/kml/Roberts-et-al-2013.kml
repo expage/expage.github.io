@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Roberts et al. (2013)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>UBE-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24224 &#177; 1340<br/>
+<sup>26</sup>Al: 21747 &#177; 8988<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-53.664,71.042</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UBE-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38338 &#177; 2144<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-53.670,71.051</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UBE-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20771 &#177; 1161<br/>
+<sup>26</sup>Al: 4123 &#177; 310<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.689,71.067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UBE-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10701 &#177; 661<br/>
+<sup>26</sup>Al: 12020 &#177; 834<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-53.680,71.068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UBE-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27293 &#177; 1561<br/>
+<sup>26</sup>Al: 30882 &#177; 2244<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-53.638,71.057</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UBE-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 82488 &#177; 4643<br/>
+<sup>26</sup>Al: 77236 &#177; 5225<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.610,71.060</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IKE-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9893 &#177; 513<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.905,70.465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IKE-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9862 &#177; 4048<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.680,70.535</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IKE-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 77943 &#177; 4380<br/>
+<sup>26</sup>Al: 69272 &#177; 4588<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-51.382,70.513</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IKE-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32564 &#177; 3042<br/>
+<sup>26</sup>Al: 36468 &#177; 2272<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-51.385,70.514</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IKE-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9872 &#177; 579<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-51.395,70.514</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IKE-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10152 &#177; 565<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-51.406,70.515</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IKE-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8064 &#177; 417<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-51.205,70.391</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IKE-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 104462 &#177; 5757<br/>
+<sup>26</sup>Al: 105964 &#177; 7104<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-51.335,70.378</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IKE-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 105537 &#177; 5973<br/>
+<sup>26</sup>Al: 102159 &#177; 6996<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.335,70.378</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IKE-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8165 &#177; 554<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.680,70.390</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IKE-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9509 &#177; 816<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Roberts et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-52.115,70.695</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

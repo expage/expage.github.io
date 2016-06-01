@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kuhlemann et al. (2013b)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>RI-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16902 &#177; 1223<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kuhlemann et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>23.356,42.142</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RI-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16693 &#177; 1262<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kuhlemann et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>23.357,42.143</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RI-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17020 &#177; 1073<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kuhlemann et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>23.360,42.099</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RI-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16624 &#177; 1036<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kuhlemann et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>23.360,42.099</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RI-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18015 &#177; 1110<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kuhlemann et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>23.515,42.057</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RI-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19070 &#177; 1246<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kuhlemann et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>23.606,42.086</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RI-45</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18090 &#177; 1168<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kuhlemann et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>23.374,42.224</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RI-48</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14666 &#177; 1157<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kuhlemann et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>23.541,42.262</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RI-49</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18142 &#177; 1372<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kuhlemann et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>23.541,42.263</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RI-51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23061 &#177; 2124<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kuhlemann et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>23.540,42.264</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

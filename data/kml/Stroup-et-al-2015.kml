@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Stroup et al. (2015)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Q-66</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1267 &#177; 65<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8566,-13.9180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q-67</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 554 &#177; 30<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8567,-13.9181</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q-68</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1044 &#177; 54<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8575,-13.9183</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q-69</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8942 &#177; 441<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8580,-13.9187</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q-70</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1689 &#177; 80<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8584,-13.9198</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q-71</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 648 &#177; 34<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8589,-13.9227</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q-72</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 913 &#177; 45<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8543,-13.9226</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4340 &#177; 229<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.8531,-13.9299</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q-2A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5091 &#177; 267<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.8531,-13.9299</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5107 &#177; 256<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.8530,-13.9298</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

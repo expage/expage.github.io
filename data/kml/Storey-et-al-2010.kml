@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Storey et al. (2010)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>LW-11-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 933872 &#177; 58760<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.775574,-79.944887</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-09-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2346202 &#177; 223749<br/>
+<sup>26</sup>Al: 1815299 &#177; 372916<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.819482,-79.940473</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-09-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2264022 &#177; 209401<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.814498,-79.940465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-02-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 80810 &#177; 4030<br/>
+<sup>26</sup>Al: 135585 &#177; 11549<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.871575,-79.931603</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-02-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23354 &#177; 1802<br/>
+<sup>26</sup>Al: 25007 &#177; 3207<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>156.871332,-79.931604</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-15-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 662730 &#177; 41923<br/>
+<sup>26</sup>Al: 489158 &#177; 47124<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.798610,-79.922010</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-24-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 69481 &#177; 3533<br/>
+<sup>26</sup>Al: 51261 &#177; 3802<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.902134,-79.922391</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-24-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2709 &#177; 195<br/>
+<sup>26</sup>Al: 1553 &#177; 241<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.899359,-79.921614</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-23-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 750 &#177; 120<br/>
+<sup>26</sup>Al: 1174 &#177; 590<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.910941,-79.916896</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-23-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20146 &#177; 1040<br/>
+<sup>26</sup>Al: 16242 &#177; 1324<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>156.909901,-79.916975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-25-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1012 &#177; 126<br/>
+<sup>26</sup>Al: 708 &#177; 124<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.923879,-79.920096</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-25-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15625 &#177; 818<br/>
+<sup>26</sup>Al: 16293 &#177; 1871<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.925152,-79.920401</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-12-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 130582 &#177; 8930<br/>
+<sup>26</sup>Al: 111438 &#177; 9384<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.731552,-79.888833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-12-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 414223 &#177; 22588<br/>
+<sup>26</sup>Al: 338319 &#177; 29786<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.731324,-79.888829</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-13-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 80191 &#177; 4566<br/>
+<sup>26</sup>Al: 76476 &#177; 6664<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.757444,-79.890504</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-13-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 238676 &#177; 12439<br/>
+<sup>26</sup>Al: 157049 &#177; 12428<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.756229,-79.890537</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-14-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 201376 &#177; 10541<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>156.759317,-79.890668</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-14-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 435978 &#177; 24079<br/>
+<sup>26</sup>Al: 253796 &#177; 23555<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.759391,-79.890707</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-14-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16804 &#177; 1693<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>156.759278,-79.890730</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-18-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42307 &#177; 2174<br/>
+<sup>26</sup>Al: 37056 &#177; 4271<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.765033,-79.890817</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-18-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 191655 &#177; 9993<br/>
+<sup>26</sup>Al: 191372 &#177; 17406<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.764898,-79.891493</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-20-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 45578 &#177; 2547<br/>
+<sup>26</sup>Al: 46074 &#177; 3943<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.799803,-79.894074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-20-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40036 &#177; 2030<br/>
+<sup>26</sup>Al: 34538 &#177; 3003<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.802533,-79.896729</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-21-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35894 &#177; 2100<br/>
+<sup>26</sup>Al: 33852 &#177; 3824<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.818336,-79.897940</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW-21-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30833 &#177; 1584<br/>
+<sup>26</sup>Al: 31117 &#177; 2962<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Storey et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>156.818135,-79.898325</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

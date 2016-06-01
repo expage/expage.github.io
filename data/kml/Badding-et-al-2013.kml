@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Badding et al. (2013)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>10FWW-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2713 &#177; 141<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.51979,68.19317</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10FWW-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2581 &#177; 117<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.51994,68.19309</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10FWW-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2116 &#177; 106<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.51959,68.19267</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10KRV-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15425 &#177; 799<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-154.50264,68.22772</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10KRV-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14762 &#177; 691<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-154.49136,68.21104</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10KRV-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13369 &#177; 625<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.48836,68.20375</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10KRV-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13461 &#177; 628<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-154.48865,68.20383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10KRV-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13303 &#177; 622<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-154.52574,68.19965</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11TE-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3832 &#177; 199<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.76705,68.33395</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11TE-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4908 &#177; 287<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.76735,68.33423</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11TE-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4400 &#177; 205<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.76785,68.33510</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11TE-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2442 &#177; 126<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.76832,68.33532</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11RMV-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15088 &#177; 705<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-149.14107,68.30927</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11RMV-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14276 &#177; 778<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.15842,68.33232</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11RMV-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16598 &#177; 776<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-149.15790,68.33235</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11RMV-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22035 &#177; 1031<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-149.25767,68.36522</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11RMV-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 49349 &#177; 2415<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Badding et al. (2013)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-149.31113,68.38003</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

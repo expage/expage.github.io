@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Steig et al. (1998)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>96B4-1</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 16431 &#177; 2088<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Steig et al. (1998)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-63.322,67.114</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>96B4-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22657 &#177; 2709<br/>
+<sup>26</sup>Al: 17665 &#177; 3836<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Steig et al. (1998)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-63.322,67.114</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>96B4-3</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 12148 &#177; 795<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Steig et al. (1998)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-63.322,67.114</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>96B5-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26502 &#177; 4129<br/>
+<sup>26</sup>Al: 26135 &#177; 3189<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Steig et al. (1998)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-63.254,67.140</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>96B1-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 45509 &#177; 3897<br/>
+<sup>26</sup>Al: 41254 &#177; 4627<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Steig et al. (1998)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-63.259,67.172</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>96B1-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46456 &#177; 13586<br/>
+<sup>26</sup>Al: 44522 &#177; 3538<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Steig et al. (1998)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-63.259,67.172</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>96B3-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64886 &#177; 4914<br/>
+<sup>26</sup>Al: 62127 &#177; 7427<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Steig et al. (1998)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-63.200,67.175</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>96B3-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 81528 &#177; 4945<br/>
+<sup>26</sup>Al: 71875 &#177; 5081<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Steig et al. (1998)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-63.200,67.175</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

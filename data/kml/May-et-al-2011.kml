@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>May et al. (2011)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>HH12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14951 &#177; 858<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2633,-17.2241</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HH13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16295 &#177; 1165<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2633,-17.2241</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HH21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18156 &#177; 1007<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2631,-17.2148</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HL11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25767 &#177; 2017<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2655,-17.1969</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HL12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19385 &#177; 1387<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2615,-17.1959</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HL21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24235 &#177; 1495<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2606,-17.2032</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HL22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10316 &#177; 620<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2607,-17.2024</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HL31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9773 &#177; 587<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2609,-17.1991</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HL43</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21602 &#177; 1396<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2570,-17.1924</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HL51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23555 &#177; 1339<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2587,-17.1974</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HL52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29362 &#177; 2920<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2584,-17.1976</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HL61</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43767 &#177; 2530<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2569,-17.2004</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HL62</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 93974 &#177; 5375<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2567,-17.2003</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HL71</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16860 &#177; 1026<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2564,-17.1908</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HL72</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12262 &#177; 720<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2564,-17.1908</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HL83</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17270 &#177; 1141<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>May et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2602,-17.1906</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

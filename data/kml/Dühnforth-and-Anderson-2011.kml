@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dühnforth and Anderson (2011)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>GLV-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12515 &#177; 667<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dühnforth and Anderson (2011)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-105.61711,40.05433</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLV-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16513 &#177; 782<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dühnforth and Anderson (2011)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-105.63448,40.05162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLV-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15219 &#177; 883<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dühnforth and Anderson (2011)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-105.62678,40.05406</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLV-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14885 &#177; 806<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dühnforth and Anderson (2011)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-105.62338,40.05416</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLV-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10699 &#177; 611<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dühnforth and Anderson (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-105.61156,40.05559</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLV-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13476 &#177; 760<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dühnforth and Anderson (2011)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-105.61213,40.05197</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLV-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13092 &#177; 926<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dühnforth and Anderson (2011)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-105.61338,40.05063</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLV-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14299 &#177; 1082<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dühnforth and Anderson (2011)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-105.61072,40.04977</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLV-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14972 &#177; 839<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dühnforth and Anderson (2011)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-105.60674,40.04913</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLV-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15163 &#177; 752<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dühnforth and Anderson (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-105.60060,40.04664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CARA-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24681 &#177; 10110<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dühnforth and Anderson (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-105.53006,39.99784</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CARA-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19572 &#177; 1166<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dühnforth and Anderson (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-105.53058,39.99854</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CARA-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20210 &#177; 1138<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dühnforth and Anderson (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-105.53055,40.00053</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CARA-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21348 &#177; 1304<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dühnforth and Anderson (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-105.52988,39.99853</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CARA-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24703 &#177; 1625<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dühnforth and Anderson (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-105.53126,39.99798</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

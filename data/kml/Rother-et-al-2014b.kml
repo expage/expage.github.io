@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rother et al. (2014b)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>MON-D-II-I</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16572 &#177; 825<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.2083,47.6789</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-D-II-II</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16416 &#177; 819<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.2084,47.6791</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-D-II-III</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32442 &#177; 1617<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.2097,47.6780</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-D-IV-I</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21212 &#177; 1052<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.2496,47.6883</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-D-IV-II</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18512 &#177; 931<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.2500,47.6881</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-D-IV-III</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14948 &#177; 781<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.2505,47.6881</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-F-I-I</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25914 &#177; 1314<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.2618,47.6699</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-F-I-II</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27466 &#177; 1380<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.2618,47.6698</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-F-I-IV</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22715 &#177; 1138<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.2723,47.6734</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-E-III-I</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18830 &#177; 963<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>97.2808,47.7147</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-E-III-II</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18571 &#177; 975<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.2815,47.7153</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-E-III-III</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18262 &#177; 919<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.2824,47.7164</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-D-I-I</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43078 &#177; 2136<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.2098,47.6835</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-D-I-II</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21944 &#177; 1082<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.2099,47.6837</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-D-I-III</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40159 &#177; 2002<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.2098,47.6836</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-E-I-I</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40138 &#177; 2005<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.3333,47.8498</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-E-I-II</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55482 &#177; 2765<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.3334,47.8498</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-E-I-III</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30201 &#177; 2010<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.3336,47.8497</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-E-II-I</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 59178 &#177; 3077<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.3159,47.8595</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-E-II-II</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22574 &#177; 1139<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.3199,47.8587</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-E-II-III</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37510 &#177; 1880<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (2014b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.3217,47.8584</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

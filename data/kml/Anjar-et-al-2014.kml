@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Anjar et al. (2014)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>SVE0836</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3185 &#177; 175<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.52677,56.28714</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SVE0837</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17178 &#177; 1108<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.52608,56.28742</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SVE0839</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17358 &#177; 973<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.43648,55.63469</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SVE0840</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14379 &#177; 921<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.43654,55.63483</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SVE0841</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15298 &#177; 1033<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>14.27307,55.66227</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ÅL06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15870 &#177; 932<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.67445,56.51424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ÅL08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16873 &#177; 997<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.67360,56.51383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SJÖ04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17435 &#177; 984<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>14.76649,56.83936</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SJÖ05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15535 &#177; 906<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>14.79053,56.82870</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SJÖ06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15660 &#177; 927<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.79079,56.82817</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SVE0825</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10360 &#177; 592<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>15.75310,56.96211</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SVE0826</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15934 &#177; 1278<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>15.75196,56.96300</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SVE0828</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18711 &#177; 1625<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>15.75177,56.96473</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RÅ05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14685 &#177; 839<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.21104,57.23425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RÅ06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14793 &#177; 907<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.21133,57.23479</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RÅ07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14839 &#177; 887<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.20916,57.23310</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SVE0819</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14304 &#177; 801<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.93914,58.10324</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SVE0821</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13918 &#177; 877<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.93902,58.10306</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SVE0822</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33745 &#177; 1791<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>14.93838,58.10261</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SVE0831</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12624 &#177; 962<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.34830,57.60665</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SVE0833</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16023 &#177; 991<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.41134,57.61855</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SVE0834</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13653 &#177; 799<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.33168,57.34256</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SVE0835</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13128 &#177; 765<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Anjar et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.34284,57.34105</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

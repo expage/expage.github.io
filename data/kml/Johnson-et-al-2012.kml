@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Johnson et al. (2012)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>L7-1-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17476 &#177; 856<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6627,-69.4073</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L7-1-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60635 &#177; 2816<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6627,-69.4073</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L7-1-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24119 &#177; 1193<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2012)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.6472,-69.4068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L7-201-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21822 &#177; 1066<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.0180,-69.8133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L7-201-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15365 &#177; 751<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.0180,-69.8133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L7-2-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23248 &#177; 1141<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.0158,-69.6753</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L7-2-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11763 &#177; 578<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.0113,-69.6752</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L7-2-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12938 &#177; 611<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.0113,-69.6752</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L7-2-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11300 &#177; 555<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.0118,-69.6752</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

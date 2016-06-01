@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>White and Fink (2014)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>CHU-1b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9605 &#177; 501<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>White and Fink (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>48.6167,-67.9182</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU-1c</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10205 &#177; 564<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>White and Fink (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>48.6167,-67.9182</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU-1d</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10216 &#177; 557<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>White and Fink (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>48.6167,-67.9182</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU-1e</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 115575 &#177; 5810<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>White and Fink (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>48.6167,-67.9182</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHL-2b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6414 &#177; 545<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>White and Fink (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>48.5427,-67.9569</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHL-2c</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6883 &#177; 491<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>White and Fink (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>48.5427,-67.9569</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHL-2d</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7302 &#177; 551<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>White and Fink (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>48.5427,-67.9569</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHL-2e</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29391 &#177; 3723<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>White and Fink (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>48.5427,-67.9569</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDI-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9891 &#177; 1042<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>White and Fink (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>48.3343,-67.4740</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDI-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9593 &#177; 657<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>White and Fink (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>48.3343,-67.4740</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DDI-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9146 &#177; 520<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>White and Fink (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>48.3343,-67.4740</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

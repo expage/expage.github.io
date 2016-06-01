@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ivy-Ochs et al. (2006b)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>MON</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 120626 &#177; 7602<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ivy-Ochs et al. (2006b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.3169,47.2240</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>J202</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13976 &#177; 869<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ivy-Ochs et al. (2006b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.770,46.465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>J14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11756 &#177; 705<br/>
+<sup>26</sup>Al: 10229 &#177; 842<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ivy-Ochs et al. (2006b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.747,46.471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>J200</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12231 &#177; 740<br/>
+<sup>26</sup>Al: 12410 &#177; 1045<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ivy-Ochs et al. (2006b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.747,46.471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13137 &#177; 1090<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ivy-Ochs et al. (2006b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.185,47.066</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13777 &#177; 1099<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ivy-Ochs et al. (2006b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.186,47.067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12777 &#177; 805<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ivy-Ochs et al. (2006b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.186,47.067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13127 &#177; 888<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ivy-Ochs et al. (2006b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.186,47.068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11834 &#177; 1002<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ivy-Ochs et al. (2006b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.253,47.055</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11104 &#177; 718<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ivy-Ochs et al. (2006b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.255,47.054</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11806 &#177; 1066<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ivy-Ochs et al. (2006b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.251,47.054</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Owen et al. (2003d)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Q1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17889 &#177; 912<br/>
+<sup>26</sup>Al: 17574 &#177; 1085<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.762,37.441</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11231 &#177; 542<br/>
+<sup>26</sup>Al: 9986 &#177; 754<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.763,37.442</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11765 &#177; 563<br/>
+<sup>26</sup>Al: 11361 &#177; 1003<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.763,37.443</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12323 &#177; 899<br/>
+<sup>26</sup>Al: 7320 &#177; 716<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.410,37.643</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12267 &#177; 701<br/>
+<sup>26</sup>Al: 4909 &#177; 546<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.415,37.652</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14670 &#177; 779<br/>
+<sup>26</sup>Al: 14945 &#177; 949<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.415,37.652</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13534 &#177; 741<br/>
+<sup>26</sup>Al: 7428 &#177; 632<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.415,37.652</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11899 &#177; 868<br/>
+<sup>26</sup>Al: 5889 &#177; 626<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.405,37.653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22693 &#177; 1176<br/>
+<sup>26</sup>Al: 21338 &#177; 1229<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.405,37.653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16378 &#177; 1152<br/>
+<sup>26</sup>Al: 18244 &#177; 1273<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.405,37.653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19818 &#177; 961<br/>
+<sup>26</sup>Al: 20039 &#177; 1247<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.766,37.460</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19087 &#177; 1219<br/>
+<sup>26</sup>Al: 20039 &#177; 1605<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.766,37.460</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19094 &#177; 938<br/>
+<sup>26</sup>Al: 14932 &#177; 955<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.766,37.460</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20984 &#177; 1016<br/>
+<sup>26</sup>Al: 20809 &#177; 1200<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.591,37.521</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11741 &#177; 904<br/>
+<sup>26</sup>Al: 6721 &#177; 611<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.591,37.521</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16145 &#177; 849<br/>
+<sup>26</sup>Al: 10412 &#177; 901<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.591,37.521</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9294 &#177; 493<br/>
+<sup>26</sup>Al: 8389 &#177; 658<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.461,37.702</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Q23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4147 &#177; 231<br/>
+<sup>26</sup>Al: 4049 &#177; 390<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Owen et al. (2003d)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.461,37.702</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

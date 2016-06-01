@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dortch et al. (2010b)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Denali-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 473 &#177; 122<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.403,63.399</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 689 &#177; 263<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.404,63.400</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 369 &#177; 160<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.407,63.400</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 139 &#177; 165<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.410,63.400</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-5A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 573 &#177; 168<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.404,63.402</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-5B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 641 &#177; 162<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.404,63.402</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 677 &#177; 174<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.405,63.402</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1815 &#177; 232<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.414,63.393</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 310 &#177; 116<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.412,63.392</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 450 &#177; 128<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.420,63.394</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1002 &#177; 177<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.420,63.394</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 150 &#177; 230<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.379,63.335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 312 &#177; 302<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.379,63.335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 213 &#177; 81<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.379,63.335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2275 &#177; 468<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.379,63.336</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 168679 &#177; 9425<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.741,63.454</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-16A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8377 &#177; 2403<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.676,63.449</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-16B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6448 &#177; 2801<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.676,63.449</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2824 &#177; 364<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.616,63.444</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-18A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13035 &#177; 990<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.585,63.445</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-18B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32516 &#177; 1805<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.585,63.445</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-20A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 163661 &#177; 8783<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.546,65.454</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-20B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32312 &#177; 1705<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.546,65.454</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4864 &#177; 580<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.552,63.457</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6088 &#177; 523<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.874,63.453</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Denali-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11763 &#177; 952<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-150.861,63.454</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

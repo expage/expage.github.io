@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Reusche et al. (2014)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>NG1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 869 &#177; 164<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.942111,77.972622</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NG2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1326 &#177; 196<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.942233,77.973142</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NG3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3396 &#177; 293<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.942150,77.973278</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NG4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1524 &#177; 208<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.942939,77.971894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NG5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1541 &#177; 201<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.942186,77.972814</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NG6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1433 &#177; 192<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.942261,77.973075</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NG7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1972 &#177; 229<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.944533,77.971408</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NG8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 772 &#177; 161<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.943592,77.972564</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NG10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 444 &#177; 178<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.944125,77.972978</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NG11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2320 &#177; 239<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.943592,77.972564</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NG12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1058 &#177; 158<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.944564,77.973406</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LGRL-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1072 &#177; 223<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.949722,77.976944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LGRL-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2413 &#177; 562<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.949722,77.976944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LGRL-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 696 &#177; 203<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.949722,77.976944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LGRL-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1432 &#177; 240<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.949722,77.976944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LGRL-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1735 &#177; 250<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.949722,77.976944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LGRL-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2497 &#177; 707<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.949722,77.976944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12039 &#177; 702<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.923883,77.984286</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21808 &#177; 1116<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.878556,77.980078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12656 &#177; 741<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.875319,77.976264</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15034 &#177; 817<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.911617,77.985658</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11372 &#177; 680<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Reusche et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.913458,77.984489</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Fabel et al. (2002)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Alddascorru</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12629 &#177; 2088<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Fabel et al. (2002)<br/>Stroeven et al. (2002b, 2006, in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>19.4630,68.4275</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Alddascorru</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 44475 &#177; 2505<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Fabel et al. (2002)<br/>Stroeven et al. (2002b, 2006, in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>19.4630,68.4275</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Olmacohkka</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61611 &#177; 3282<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Fabel et al. (2002)<br/>Stroeven et al. (2002b, 2006, in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>19.4458,68.3900</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Favrratcohkka</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11535 &#177; 2010<br/>
+<sup>26</sup>Al: 8547 &#177; 1515<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Fabel et al. (2002)<br/>Stroeven et al. (2006, in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>19.3217,67.7736</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ailladis</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 54859 &#177; 3208<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Fabel et al. (2002)<br/>Stroeven et al. (2006, in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>19.1822,67.7431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Urtticohkka</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41069 &#177; 2480<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Fabel et al. (2002)<br/>Stroeven et al. (2006, in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.7803,67.7944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Tjuolmma-945</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7837 &#177; 1109<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Fabel et al. (2002)<br/>Harbor et al. (2006), Stroeven et al. (2006, 2011, in press), Jansen et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.8739,67.1528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Tjuolmma-920</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36070 &#177; 2422<br/>
+<sup>26</sup>Al: 24997 &#177; 1793<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Fabel et al. (2002)<br/>Harbor et al. (2006), Stroeven et al. (2006, in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.8616,67.1534</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Tjuolmma-R-920</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38779 &#177; 2339<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Fabel et al. (2002)<br/>Harbor et al. (2006), Stroeven et al. (2006, in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.8616,67.1534</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Tjuolmma-930</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10311 &#177; 1661<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Fabel et al. (2002)<br/>Harbor et al. (2006), Stroeven et al. (2006, 2011, in press), Jansen et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.8833,67.1578</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Baldavarri-900</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12854 &#177; 1286<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Fabel et al. (2002)<br/>Stroeven et al. (2006, in press)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>18.6072,67.7072</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Baldavarri-810</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17023 &#177; 2163<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Fabel et al. (2002)<br/>Stroeven et al. (2006, in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.6215,67.7140</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Balddavarri</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 51649 &#177; 2746<br/>
+<sup>26</sup>Al: 32544 &#177; 1912<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Fabel et al. (2002)<br/>Stroeven et al. (2006, in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.6228,67.7106</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

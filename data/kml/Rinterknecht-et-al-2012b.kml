@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rinterknecht et al. (2012b)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>UKR-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15707 &#177; 834<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>24.5294,48.1581</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UKR-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12359 &#177; 689<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>24.5298,48.1581</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UKR-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13957 &#177; 804<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>24.5306,48.1583</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UKR-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13938 &#177; 727<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>24.5312,48.1570</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UKR-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13417 &#177; 709<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>24.5283,48.1535</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UKR-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13990 &#177; 828<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>24.5294,48.1540</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UKR-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13343 &#177; 724<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>24.5310,48.1551</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UKR-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15357 &#177; 820<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>24.5315,48.1555</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UKR-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13872 &#177; 758<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2012b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>24.5321,48.1561</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

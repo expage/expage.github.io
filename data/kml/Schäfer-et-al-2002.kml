@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Schäfer et al. (2002)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Lit3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17705 &#177; 1661<br/>
+<sup>26</sup>Al: 18587 &#177; 1222<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schäfer et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.544,30.297</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lit4a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21728 &#177; 2096<br/>
+<sup>26</sup>Al: 18953 &#177; 1385<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schäfer et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.544,30.297</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lit4bc</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18937 &#177; 1827<br/>
+<sup>26</sup>Al: 18322 &#177; 1339<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schäfer et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.544,30.297</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lit5a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19311 &#177; 1811<br/>
+<sup>26</sup>Al: 17097 &#177; 1236<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schäfer et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.541,30.300</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lit5b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19242 &#177; 1770<br/>
+<sup>26</sup>Al: 17119 &#177; 2018<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schäfer et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.541,30.300</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lit6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19566 &#177; 1799<br/>
+<sup>26</sup>Al: 18464 &#177; 1515<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schäfer et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.544,30.300</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lit7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17056 &#177; 1603<br/>
+<sup>26</sup>Al: 17559 &#177; 2007<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schäfer et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.552,30.300</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAN2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 165864 &#177; 11637<br/>
+<sup>26</sup>Al: 166964 &#177; 9769<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schäfer et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.87,32.60</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAN4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 94006 &#177; 6477<br/>
+<sup>26</sup>Al: 72319 &#177; 4661<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schäfer et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.87,32.67</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAN5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 170231 &#177; 12373<br/>
+<sup>26</sup>Al: 157890 &#177; 9248<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schäfer et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.87,32.67</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAN7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 72029 &#177; 5107<br/>
+<sup>26</sup>Al: 66756 &#177; 4215<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schäfer et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.995,32.940</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

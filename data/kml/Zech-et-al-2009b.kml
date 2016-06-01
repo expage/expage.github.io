@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zech et al. (2009b)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>LE12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5483 &#177; 1259<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>83.642,28.624</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LE32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 338 &#177; 80<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>83.626,28.632</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LE41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4775 &#177; 545<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>83.618,28.653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LE51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4577 &#177; 718<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>83.621,28.652</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LE61</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33354 &#177; 2197<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>83.618,28.660</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LE63</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31655 &#177; 1826<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>83.618,28.660</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LE64</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34433 &#177; 1971<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>83.618,28.660</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 159 &#177; 157<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.467,28.627</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2199 &#177; 618<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.459,28.602</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1478 &#177; 405<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.459,28.602</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5339 &#177; 818<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.417,28.584</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9724 &#177; 797<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.417,28.584</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DK44</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1857 &#177; 489<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.417,28.584</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BH11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 70986 &#177; 5471<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.400,28.344</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BH12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10885 &#177; 1098<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.400,28.344</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BH13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23134 &#177; 2228<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.400,28.344</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BH14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16536 &#177; 2561<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Zech et al. (2009b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.400,28.344</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Gheorghiu et al. (2012)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18089 &#177; 5851<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.156,57.113</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15829 &#177; 5117<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.156,57.113</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13011 &#177; 699<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.156,57.113</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14931 &#177; 1125<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.220,57.056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14532 &#177; 824<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.220,57.056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12974 &#177; 707<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.239,57.065</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11480 &#177; 864<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.256,57.079</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12357 &#177; 658<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.256,57.079</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12811 &#177; 704<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.233,57.081</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12182 &#177; 726<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.233,57.081</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12669 &#177; 675<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.230,57.083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12067 &#177; 654<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.220,57.083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10833 &#177; 618<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.228,57.089</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11051 &#177; 613<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.228,57.089</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14093 &#177; 833<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-4.170,57.119</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12446 &#177; 675<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Gheorghiu et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-4.170,57.119</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

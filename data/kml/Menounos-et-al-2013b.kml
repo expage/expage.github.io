@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Menounos et al. (2013b)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>11-18A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14425 &#177; 1650<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Menounos et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1289,-54.6927</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11-18B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14071 &#177; 1573<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Menounos et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1289,-54.6927</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11-19A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12143 &#177; 788<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Menounos et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.3321,-54.6620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11-19B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12245 &#177; 1821<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Menounos et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.3321,-54.6620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11-19C</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13908 &#177; 860<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Menounos et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.3333,-54.6595</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11-19D</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13413 &#177; 831<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Menounos et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.3333,-54.6595</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11-19E</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12982 &#177; 793<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Menounos et al. (2013b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.3333,-54.6595</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11-19F</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16141 &#177; 1027<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Menounos et al. (2013b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.3321,-54.6632</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11-21A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17266 &#177; 1063<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Menounos et al. (2013b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.3313,-54.6613</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

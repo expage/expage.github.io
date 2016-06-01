@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Carlson et al. (2007)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>QC-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7208 &#177; 852<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carlson et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-78.096,53.695</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QC-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8458 &#177; 865<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carlson et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.527,53.384</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QC-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7735 &#177; 730<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carlson et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-76.497,53.538</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QC-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8268 &#177; 1028<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carlson et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.871,53.528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QC-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7439 &#177; 704<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carlson et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.479,53.552</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QC-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7138 &#177; 690<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carlson et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.500,53.834</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QC-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6979 &#177; 682<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carlson et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.678,53.849</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QC-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7041 &#177; 699<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carlson et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.057,53.984</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QC-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6773 &#177; 651<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carlson et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.788,54.042</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QC-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6919 &#177; 773<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carlson et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.479,54.195</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QC-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8012 &#177; 767<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carlson et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.580,54.474</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QC-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6857 &#177; 651<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carlson et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.273,54.688</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QC-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8594 &#177; 1212<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Carlson et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.982,54.785</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

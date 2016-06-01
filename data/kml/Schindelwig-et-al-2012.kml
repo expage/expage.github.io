@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Schindelwig et al. (2012)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>VBA-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14446 &#177; 847<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9658,46.3861</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12028 &#177; 760<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9638,46.3785</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12090 &#177; 961<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9644,46.3792</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11462 &#177; 956<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9653,46.3804</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11556 &#177; 824<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9650,46.3800</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10603 &#177; 848<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9644,46.3792</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11579 &#177; 776<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9652,46.3880</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9297 &#177; 1018<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9634,46.3806</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11954 &#177; 822<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9634,46.3806</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12785 &#177; 865<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9655,46.3853</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11249 &#177; 745<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9655,46.3853</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9588 &#177; 752<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9654,46.3925</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11103 &#177; 708<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9655,46.3914</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11659 &#177; 825<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9642,46.3822</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12242 &#177; 871<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9653,46.3839</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11364 &#177; 806<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9636,46.3816</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11546 &#177; 783<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9629,46.3811</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9954 &#177; 638<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9632,46.3872</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9884 &#177; 696<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9646,46.3896</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10073 &#177; 670<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9648,46.3907</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10295 &#177; 755<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9648,46.3907</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13514 &#177; 886<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9700,46.3735</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14106 &#177; 961<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.9947,46.3725</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14338 &#177; 823<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.9949,46.3726</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12694 &#177; 1122<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.9948,46.3726</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VBA-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12924 &#177; 931<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schindelwig et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.9948,46.3726</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

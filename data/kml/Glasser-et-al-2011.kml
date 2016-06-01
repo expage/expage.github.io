@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Glasser et al. (2011)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>LSM01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 89748 &#177; 4694<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.79489,-49.34231</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LSM02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 95119 &#177; 5352<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.79697,-49.34514</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LSM05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27974 &#177; 2115<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.91953,-49.23311</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LSM06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 59008 &#177; 4074<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.92089,-49.23264</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LSM08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37695 &#177; 2030<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.93358,-49.23950</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LSM15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34798 &#177; 1959<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.09261,-49.17392</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LSM11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23267 &#177; 1472<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.20653,-49.17833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EM02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15138 &#177; 1265<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.50422,-49.11369</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EM04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14621 &#177; 979<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.50631,-49.10964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EM06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13902 &#177; 1115<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Glasser et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.50461,-49.10903</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

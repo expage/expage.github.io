@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Mackintosh et al. (2007)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>FM-Hend-17-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62003 &#177; 3182<br/>
+<sup>26</sup>Al: 25079 &#177; 3739<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>63.03873,-67.71290</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-Hend-27-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10162 &#177; 701<br/>
+<sup>26</sup>Al: 8906 &#177; 1317<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>63.04422,-67.69348</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-Hend-14-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7309 &#177; 974<br/>
+<sup>26</sup>Al: 7187 &#177; 1302<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>63.01669,-67.68980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-NMas-4B-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13292 &#177; 762<br/>
+<sup>26</sup>Al: 12579 &#177; 1246<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>62.81856,-67.78964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-NMas-1-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7830 &#177; 464<br/>
+<sup>26</sup>Al: 6807 &#177; 1115<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>62.79958,-67.78860</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-NMas-18-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12011 &#177; 596<br/>
+<sup>26</sup>Al: 10550 &#177; 1572<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>62.82992,-67.77909</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-NMas-25-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 73216 &#177; 3376<br/>
+<sup>26</sup>Al: 69115 &#177; 5927<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>62.81827,-67.79593</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-NMas-24-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11409 &#177; 662<br/>
+<sup>26</sup>Al: 9801 &#177; 1404<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>62.80461,-67.78453</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-NMas-23-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8107 &#177; 459<br/>
+<sup>26</sup>Al: 6172 &#177; 1129<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>62.80148,-67.78230</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-NMas-20-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11409 &#177; 611<br/>
+<sup>26</sup>Al: 9511 &#177; 1470<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>62.78299,-67.78521</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-NMas-21-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8487 &#177; 515<br/>
+<sup>26</sup>Al: 8206 &#177; 1129<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>62.78943,-67.78313</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-Cmas-7-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10657 &#177; 558<br/>
+<sup>26</sup>Al: 9393 &#177; 1053<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>62.87823,-67.85162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-Cmas-5-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41738 &#177; 1955<br/>
+<sup>26</sup>Al: 39647 &#177; 3643<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>62.87063,-67.82078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-Dun-10-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38570 &#177; 1947<br/>
+<sup>26</sup>Al: 41033 &#177; 3536<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>62.46443,-67.94863</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-Dun-11-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11840 &#177; 634<br/>
+<sup>26</sup>Al: 8439 &#177; 743<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>62.46075,-67.94767</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-Hor-10-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46788 &#177; 2253<br/>
+<sup>26</sup>Al: 26983 &#177; 3099<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>62.50983,-67.92346</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-Brown-25-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24532 &#177; 1247<br/>
+<sup>26</sup>Al: 24094 &#177; 2098<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>62.40577,-68.13193</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-Brown-34-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41627 &#177; 1950<br/>
+<sup>26</sup>Al: 36387 &#177; 4364<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>62.40436,-68.12575</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-Brown-29-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14333 &#177; 743<br/>
+<sup>26</sup>Al: 13600 &#177; 1503<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>62.40055,-68.12608</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-Brown-43-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1047 &#177; 181<br/>
+<sup>26</sup>Al: 422 &#177; 190<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>62.39710,-68.12583</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FM-Brown-5-20</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 5269 &#177; 3202<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Mackintosh et al. (2007)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>62.35804,-68.08151</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

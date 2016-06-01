@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Stroeven et al. (2010)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>YK45</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 98848 &#177; 5322<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-136.685,63.413</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK46</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 110335 &#177; 5975<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-136.733,63.415</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39564 &#177; 2196<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.620,62.463</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46649 &#177; 2439<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.620,62.463</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32734 &#177; 1802<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-134.619,62.463</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK39</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5846 &#177; 338<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.624,62.466</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14644 &#177; 774<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.626,62.466</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14106 &#177; 763<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.628,62.466</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15192 &#177; 795<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.686,62.421</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK43</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22676 &#177; 1261<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.686,62.422</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK44</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 125899 &#177; 7099<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.685,62.422</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13511 &#177; 760<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-133.714,62.528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42769 &#177; 2238<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-133.713,62.528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10752 &#177; 599<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-133.710,62.527</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18033 &#177; 1014<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-133.702,62.530</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29256 &#177; 1630<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-133.701,62.529</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31205 &#177; 1678<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-133.701,62.529</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17200 &#177; 887<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-133.715,62.533</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10031 &#177; 545<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-133.717,62.533</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7764 &#177; 442<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-133.716,62.533</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30882 &#177; 1735<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-132.963,61.376</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25988 &#177; 1386<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-132.959,61.377</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21943 &#177; 1243<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-132.543,61.819</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27963 &#177; 1489<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-131.934,62.252</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12922 &#177; 794<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-132.034,61.367</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11955 &#177; 673<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-132.036,61.364</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14171 &#177; 788<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-132.037,61.364</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15975 &#177; 897<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-130.048,63.428</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20720 &#177; 1179<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.171,64.299</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16693 &#177; 981<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.175,64.298</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23065 &#177; 5333<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.166,64.300</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17579 &#177; 931<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.170,64.301</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17714 &#177; 1006<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.168,64.302</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17925 &#177; 1180<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.164,64.302</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19676 &#177; 1083<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.811,64.100</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13813 &#177; 884<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-131.992,62.139</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12665 &#177; 807<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-132.735,62.026</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15590 &#177; 852<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-132.736,62.026</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21220 &#177; 1204<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-132.736,62.026</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13532 &#177; 738<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-134.894,62.192</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13314 &#177; 728<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-134.893,62.192</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK47</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10394 &#177; 891<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-138.246,64.565</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YK48</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10159 &#177; 584<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroeven et al. (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-138.246,64.565</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

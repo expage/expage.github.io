@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Everest and Kubik (2006)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>CE1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15778 &#177; 1116<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Everest and Kubik (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.7839,57.1303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CE2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14646 &#177; 1269<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Everest and Kubik (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.7783,57.1322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CE3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16160 &#177; 1067<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Everest and Kubik (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.7767,57.1281</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CE4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16761 &#177; 1631<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Everest and Kubik (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.7847,57.1303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CE6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16942 &#177; 1366<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Everest and Kubik (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.7997,57.1064</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CE7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15322 &#177; 1274<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Everest and Kubik (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.7997,57.1033</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CE8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15256 &#177; 1243<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Everest and Kubik (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.8017,57.1006</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CE9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16658 &#177; 1178<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Everest and Kubik (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.8017,57.1011</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GGa1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13341 &#177; 1190<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Everest and Kubik (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.668,57.027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GGa2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15681 &#177; 932<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Everest and Kubik (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.667,57.026</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GGa4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15065 &#177; 1214<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Everest and Kubik (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.665,57.023</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GGb1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18091 &#177; 1195<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Everest and Kubik (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.670,57.028</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GGb2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15543 &#177; 1333<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Everest and Kubik (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.669,57.029</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GGb3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13546 &#177; 936<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Everest and Kubik (2006)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.669,57.020</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

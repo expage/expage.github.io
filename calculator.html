@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+		<title>expage | Calculator</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<link rel="icon" type="image/png" href="images/exp.ico">
+</head>
+<body>
+
+<div class="container">
+
+	<div id="header"><img src="images/topfig_calculator.jpg" width="900" height="175" border="0" usemap="#Map"> 
+		<ul class="menu">
+			<li><a href="index.html">Intro</a></li>
+			<li><a href="data.html">Data</a></li>
+			<li><a href="references.html">References</a></li>
+			<li><a href="production.html">Production</a></li>
+			<li class="selected"><a href="calculator.html">Calculator</a></li>
+		</ul>
+	</div>
+
+	<div class="content"> 
+	<p>
+	<h2>Exposure age calculator</h2>
+	</p>
+	<p>Here the exposure age calculator used to recalculate exposure ages can be downloaded. The calculator comprise a set of scripts for Octave/Matlab that can be used to calculate <span class="sup">10</span>Be and <span class="sup">26</span>Al exposure ages. The code is mainly based on the <a href="http://hess.ess.washington.edu/">CRONUS calculator</a> (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) and the LSD production rate scaling (<a href="http://dx.doi.org/10.1016/j.epsl.2013.10.052">Lifton et al. 2014</a>). The calculator also includes scripts for calculating <span class="sup">10</span>Be and <span class="sup">26</span>Al erosion rates and for calibration of reference <span class="sup">10</span>Be and <span class="sup">26</span>Al production rates.</p>
+	<p class="half-line">&nbsp;</p>
+	<p><u>Main characteristics of the calculator:</u></p>
+	<p><div class="pointlist">
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2">Numerical integration over time of the <span class="sup">10</span>Be/<span class="sup">26</span>Al production adjusted for sample thickness, topographic shielding, <span class="sup">10</span>Be/<span class="sup">26</span>Al decay, and erosion.</div>
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2">Nuclide-specific LSD spallation and muon production rate scaling based on simulated cosmic ray fluxes (<a href="http://dx.doi.org/10.1016/j.epsl.2013.10.052">Lifton et al. 2014</a>).</div>
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2">Time-dependent spallation production rate with reference <span class="sup">10</span>Be and <span class="sup">26</span>Al production rates based on global average from calibration studies published 2009-2016.</div>
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2">Time-constant muon production rate parameterization, including depth dependence for samples with an assumed erosion rate, based on Antarctica depth profile data (<a href="http://dx.doi.org/10.1016/j.quageo.2015.09.006">Phillips et al. 2016</a>).</div>
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2">Adjustment of the time-dependent production rate to the year of sampling (assuming a constant production since 2010).</div>
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2">Atmospheric pressure based on sample elevation and ERA-40 re-analysis dataset, Antarctica best-fit interpolation, or given directly.</div>
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2">Attenuation length for calculating the spallation production rate adjustments for sample thickness and erosion rate interpolated from atmospheric pressure and cutoff rigidity (<a href="http://dx.doi.org/10.1016/j.quageo.2015.09.005">Marrero et al. 2016</a>).</div>
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2"><span class="sup">10</span>Be half-life: 1.387 Ma (<a href="http://dx.doi.org/10.1016/j.nimb.2009.09.012">Chmeleff et al. 2010</a>; <a href="http://dx.doi.org/10.1016/j.nimb.2009.09.020">Korschinek et al. 2010</a>). <span class="sup">26</span>Al half-life: 0.705 Ma (<a href="http://dx.doi.org/10.1016/j.nimb.2004.04.075">Nishiizumi 2004</a>).</div>
+	<div class="pnt1">&bull;</div>
+	<div class="pnt2">Standardization of <span class="sup">10</span>Be concentrations to the 07KNSTD standard (<a href="http://dx.doi.org/10.1016/j.nimb.2007.01.297">Nishiizumi et al. 2007</a>). Standardization of <span class="sup">26</span>Al concentrations to the KNSTD standard (<a href="http://dx.doi.org/10.1016/j.nimb.2004.04.075">Nishiizumi 2004</a>).</div>
+	</div></p>
+	<br>
+	<hr width="100%">
+	<center>
+	<br>
+	<a href="data/calculator/expage-201606.zip">expage-201606.zip</a><br>
+	<br>
+	</center>
+	<hr width="100%">
+	<br><br>
+	<center>Contact: <a href="mailto:jakob.heyman@gu.se">jakob.heyman@gu.se</a></center>
+	</div>
+</div>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['addDownloadExtensions', "kml|kmz"]);
+  _paq.push(["setDomains", ["*.expage.github.io"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik-jakobheyman.rhcloud.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//piwik-jakobheyman.rhcloud.com/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+</body>
+</html>

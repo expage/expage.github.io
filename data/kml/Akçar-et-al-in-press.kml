@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Akçar et al. (in press)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>TRU-103</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 53742 &#177; 2844<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2121,40.1021</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-104</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22777 &#177; 1311<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2120,40.1032</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-105</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19351 &#177; 1114<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2124,40.1042</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-107</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21904 &#177; 1204<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2132,40.1058</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-108</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20752 &#177; 1312<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2131,40.1056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-109</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21348 &#177; 1334<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2127,40.1051</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-121</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20353 &#177; 1131<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2153,40.1084</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-122</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20578 &#177; 1093<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2149,40.1078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-123</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18319 &#177; 1104<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2147,40.1076</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-124</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19915 &#177; 1134<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2162,40.1093</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-125</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20606 &#177; 1160<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2165,40.1096</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-126</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21104 &#177; 1122<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2166,40.1097</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-127</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19779 &#177; 1311<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2165,40.1097</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-128</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21454 &#177; 1154<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2172,40.1106</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-129</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19858 &#177; 1118<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2172,40.1107</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-130</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19775 &#177; 1153<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2171,40.1106</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-131</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19130 &#177; 1313<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2174,40.1121</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-106</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19528 &#177; 1086<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2121,40.1051</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-110</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19076 &#177; 1263<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2038,40.1029</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-111</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11303 &#177; 784<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2037,40.1032</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-112</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17945 &#177; 1021<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2035,40.1035</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-113</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24030 &#177; 1263<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2023,40.1044</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-114</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25962 &#177; 1396<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.1997,40.1042</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-115</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42246 &#177; 2229<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.1985,40.1039</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-116</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40063 &#177; 2113<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>29.1965,40.1034</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-117</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28821 &#177; 1550<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>29.1903,40.1005</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-118</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34624 &#177; 1824<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.1889,40.0986</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-119</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22630 &#177; 1189<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.1892,40.0985</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-120</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37898 &#177; 1998<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>29.1882,40.0975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-132</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3458 &#177; 277<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2171,40.1137</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TRU-133</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21484 &#177; 1252<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Akçar et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2158,40.1097</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

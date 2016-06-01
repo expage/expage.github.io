@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Darnault et al. (2012)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Clap-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18384 &#177; 1054<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Darnault et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96350,44.27424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Clap-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17375 &#177; 1028<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Darnault et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96321,44.27448</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Clap-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17576 &#177; 947<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Darnault et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96536,44.27547</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Clap-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19327 &#177; 1846<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Darnault et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96650,44.27510</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Clap-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2436 &#177; 769<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Darnault et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96578,44.27454</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Clap-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14061 &#177; 727<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Darnault et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.97861,44.26870</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Clap-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13109 &#177; 691<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Darnault et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.97671,44.26510</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Clap-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13731 &#177; 1045<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Darnault et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96455,44.27559</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Clap-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20020 &#177; 5877<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Darnault et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96230,44.27468</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Clap-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9177 &#177; 954<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Darnault et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96171,44.27425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Clap-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4216 &#177; 352<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Darnault et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96152,44.27407</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fer-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5364 &#177; 612<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Darnault et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96090,44.27437</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fer-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8043 &#177; 1139<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Darnault et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96084,44.27440</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fer-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8983 &#177; 918<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Darnault et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96089,44.27443</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fer-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11975 &#177; 1969<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Darnault et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96181,44.27442</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

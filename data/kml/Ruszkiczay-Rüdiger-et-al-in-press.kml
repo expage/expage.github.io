@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ruszkiczay-Rüdiger et al. (in press)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Re13-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17673 &#177; 951<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruszkiczay-Rüdiger et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.8668,45.4007</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re13-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17114 &#177; 1198<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Ruszkiczay-Rüdiger et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>22.8668,45.4007</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re13-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17127 &#177; 908<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruszkiczay-Rüdiger et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.8668,45.4007</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re13-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12807 &#177; 1259<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruszkiczay-Rüdiger et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.8660,45.4009</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re13-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16209 &#177; 1157<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruszkiczay-Rüdiger et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.8660,45.4009</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re13-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14968 &#177; 799<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruszkiczay-Rüdiger et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.8639,45.3945</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re13-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17219 &#177; 1084<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruszkiczay-Rüdiger et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.8639,45.3945</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re13-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14990 &#177; 908<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruszkiczay-Rüdiger et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.8639,45.3945</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re13-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11926 &#177; 658<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruszkiczay-Rüdiger et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.8664,45.3708</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re13-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11746 &#177; 622<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruszkiczay-Rüdiger et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.8671,45.3710</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re13-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13194 &#177; 868<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruszkiczay-Rüdiger et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.8702,45.3744</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re13-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13679 &#177; 857<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruszkiczay-Rüdiger et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.8706,45.3748</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re13-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20108 &#177; 1133<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruszkiczay-Rüdiger et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.8959,45.4278</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re13-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19095 &#177; 1286<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruszkiczay-Rüdiger et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.8957,45.4283</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re13-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15470 &#177; 1084<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruszkiczay-Rüdiger et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.8960,45.4281</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

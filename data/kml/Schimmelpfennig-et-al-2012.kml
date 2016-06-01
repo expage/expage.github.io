@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Schimmelpfennig et al. (2012)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>ARO-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11329 &#177; 512<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46480,46.01820</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11303 &#177; 519<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46527,46.01824</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11247 &#177; 528<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.45986,46.01746</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-55</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11053 &#177; 506<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46628,46.01838</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10966 &#177; 505<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46434,46.01823</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10820 &#177; 506<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46791,46.01858</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-59</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10710 &#177; 501<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46020,46.01752</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10578 &#177; 487<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46509,46.01823</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-56</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10414 &#177; 486<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46267,46.01798</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10333 &#177; 476<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46516,46.01824</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-21_2010Apr</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11122 &#177; 549<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46405,46.01762</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11027 &#177; 522<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46405,46.01762</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-21_re</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10776 &#177; 504<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46405,46.01762</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10881 &#177; 533<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46477,46.01762</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10708 &#177; 554<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46407,46.01788</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10663 &#177; 491<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.45804,46.01692</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10579 &#177; 493<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46387,46.01777</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10507 &#177; 484<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.45834,46.01696</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10362 &#177; 518<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46347,46.01773</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3647 &#177; 168<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46504,46.01678</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3188 &#177; 146<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46577,46.01694</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3065 &#177; 151<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46498,46.01675</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 500 &#177; 25<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46910,46.01815</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 411 &#177; 23<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.46050,46.01598</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 173 &#177; 13<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.45993,46.01582</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-66</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 170 &#177; 13<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.47315,46.01923</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-63</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 148 &#177; 9<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.47057,46.01860</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-67</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 149 &#177; 11<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.47357,46.01921</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-65</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 113 &#177; 11<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.47315,46.01923</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-64</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 106 &#177; 11<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.47058,46.01863</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARO-62</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 117 &#177; 7<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Schimmelpfennig et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.47225,46.01702</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

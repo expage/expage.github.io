@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Young et al. (2009)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>FL06-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24638 &#177; 1227<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.35723,63.54898</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FL06-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10134 &#177; 617<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.36893,63.53728</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FL06-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18025 &#177; 933<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.41628,63.54522</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FL06-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17864 &#177; 897<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.42693,63.54557</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FL06-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18037 &#177; 926<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.45505,63.54443</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FL06-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18166 &#177; 912<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.46902,63.54708</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FL06-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10427 &#177; 542<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.39142,63.55167</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>US07-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16304 &#177; 944<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.52625,63.50463</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>US07-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15094 &#177; 773<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.52617,63.50472</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>US07-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14290 &#177; 716<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.52673,63.50443</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FL07-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7178 &#177; 389<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.51593,63.51025</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FL07-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12338 &#177; 626<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.51762,63.51003</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FL07-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5753 &#177; 322<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.53538,63.51110</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FL07-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8685 &#177; 571<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.53925,63.51050</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FL07-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12395 &#177; 911<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.53725,63.51040</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>US07-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12530 &#177; 1020<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.52267,63.50030</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>US07-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7569 &#177; 377<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.52340,63.49992</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FL07-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1196 &#177; 85<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.52043,63.50732</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>US07-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2588 &#177; 175<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.51847,63.49505</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>US07-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1151 &#177; 131<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.51858,63.49513</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>US07-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2637 &#177; 181<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.52225,63.49820</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>US07-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3585 &#177; 217<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.52017,63.49900</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>US07-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2276 &#177; 169<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Young et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-144.52635,63.49820</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

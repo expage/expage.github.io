@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Johnson et al. (2014)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>JF-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7425 &#177; 380<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-99.45100,-74.58883</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JF-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7257 &#177; 372<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-99.44883,-74.58933</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JF-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14526 &#177; 728<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-99.44927,-74.58905</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JF-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7236 &#177; 374<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-99.44067,-74.59050</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JF-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7039 &#177; 369<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-99.45550,-74.59667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JF-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7439 &#177; 379<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-99.45053,-74.59725</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MTM-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7251 &#177; 370<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-99.18922,-74.55078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MTM-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7265 &#177; 375<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-99.19268,-74.55053</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MTM-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7229 &#177; 363<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-99.19165,-74.55257</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MTM-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5804 &#177; 297<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-99.19919,-74.55322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MTM-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6414 &#177; 332<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-99.19657,-74.55375</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MTM-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5492 &#177; 281<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Johnson et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-99.20208,-74.55286</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

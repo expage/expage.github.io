@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Moran et al. (2016)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>KR-201</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9498 &#177; 1000<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moran et al. (2016)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.03534,46.91062</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KR-203</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10127 &#177; 1341<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moran et al. (2016)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.04295,46.90597</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KR-205</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8806 &#177; 594<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moran et al. (2016)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.04167,46.90970</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KR-303</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9230 &#177; 561<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moran et al. (2016)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.04681,46.90190</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KR-304</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9628 &#177; 635<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moran et al. (2016)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.04784,46.90065</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KR-305</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7705 &#177; 479<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moran et al. (2016)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.04458,46.90202</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KL-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10018 &#177; 668<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moran et al. (2016)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.08011,46.89581</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KL-2A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8545 &#177; 739<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moran et al. (2016)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.07842,46.89564</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KL-2B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9190 &#177; 627<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Moran et al. (2016)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.07842,46.89564</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

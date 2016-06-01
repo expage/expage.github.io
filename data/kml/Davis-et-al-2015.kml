@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Davis et al. (2015)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>PTK-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15257 &#177; 816<br/>
+<sup>26</sup>Al: 14817 &#177; 1219<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Davis et al. (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.92191,45.91028</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTK-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12472 &#177; 773<br/>
+<sup>26</sup>Al: 13167 &#177; 856<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Davis et al. (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.91852,45.90292</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTK-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13327 &#177; 739<br/>
+<sup>26</sup>Al: 14048 &#177; 918<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Davis et al. (2015)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.91327,45.90227</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTK-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17070 &#177; 989<br/>
+<sup>26</sup>Al: 17126 &#177; 1362<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davis et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.88766,45.92154</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTK-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16229 &#177; 939<br/>
+<sup>26</sup>Al: 16381 &#177; 1173<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davis et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.90772,45.92911</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTK-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19621 &#177; 1095<br/>
+<sup>26</sup>Al: 20136 &#177; 1388<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davis et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.90895,45.93019</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTK-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15122 &#177; 927<br/>
+<sup>26</sup>Al: 15282 &#177; 1141<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davis et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.90494,45.92781</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTK-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16011 &#177; 970<br/>
+<sup>26</sup>Al: 17650 &#177; 1403<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davis et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.89444,45.92381</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTK-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16310 &#177; 993<br/>
+<sup>26</sup>Al: 17199 &#177; 1195<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davis et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.89414,45.92381</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTK-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18222 &#177; 1020<br/>
+<sup>26</sup>Al: 16761 &#177; 1117<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davis et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.87747,45.91180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTK-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25905 &#177; 1327<br/>
+<sup>26</sup>Al: 27756 &#177; 1836<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davis et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.87839,45.91201</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTK-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15069 &#177; 1001<br/>
+<sup>26</sup>Al: 13856 &#177; 952<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davis et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.87870,45.91180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTK-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15607 &#177; 1246<br/>
+<sup>26</sup>Al: 14194 &#177; 1057<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davis et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.87500,45.75000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTK-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17230 &#177; 1408<br/>
+<sup>26</sup>Al: 19887 &#177; 2042<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davis et al. (2015)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.82246,44.67335</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Phillips et al. (1997)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>BRL-872</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22052 &#177; 1598<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Phillips et al. (1997)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.086,43.236</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BRL-873</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17547 &#177; 1276<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Phillips et al. (1997)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.084,43.243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BRL-874</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 121709 &#177; 6465<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Phillips et al. (1997)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.079,43.246</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WY-93-320</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 129185 &#177; 7063<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Phillips et al. (1997)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.074,43.244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BRL-875</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 140879 &#177; 7569<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Phillips et al. (1997)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.069,43.245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BRL-876</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 145927 &#177; 10017<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Phillips et al. (1997)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.067,43.247</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WY-92-144</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 350834 &#177; 19953<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Phillips et al. (1997)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.328,43.388</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BRL-877</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 309712 &#177; 19266<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Phillips et al. (1997)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.329,43.387</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WY-92-145</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 165877 &#177; 9042<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Phillips et al. (1997)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.332,43.382</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WY-91-007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 123275 &#177; 6646<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Phillips et al. (1997)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.848,42.914</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

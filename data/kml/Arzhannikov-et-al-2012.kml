@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Arzhannikov et al. (2012)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>SO7BE6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17980 &#177; 3131<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Arzhannikov et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.50675,52.6804</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO7BE7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20364 &#177; 1139<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Arzhannikov et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.509,52.68243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO7BE8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17899 &#177; 1359<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Arzhannikov et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.50875,52.68246</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO7BE9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17216 &#177; 1179<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Arzhannikov et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.50905,52.68273</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO7BE10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26084 &#177; 1670<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Arzhannikov et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.70855,52.75221</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO7BE11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24031 &#177; 1567<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Arzhannikov et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.70725,52.75213</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO7BE12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24796 &#177; 2681<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Arzhannikov et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.70508,52.7525</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO7BE13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26625 &#177; 1641<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Arzhannikov et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.63303,52.74003</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO7BE14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25597 &#177; 2334<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Arzhannikov et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.633183,52.7398</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO7BE15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43394 &#177; 3200<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Arzhannikov et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.63337,52.7397</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO7BE16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 68639 &#177; 4964<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Arzhannikov et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.718416,52.777116</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO7BE17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16899 &#177; 1242<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Arzhannikov et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.718616,52.777683</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO7BE18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17932 &#177; 1471<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Arzhannikov et al. (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.721216,52.778333</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

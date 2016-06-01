@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Stroup et al. (2014)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>JS-09-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 378 &#177; 21<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8478,-13.9001</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 487 &#177; 28<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8481,-13.9000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 383 &#177; 23<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8487,-13.9000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 524 &#177; 29<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8492,-13.9000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4698 &#177; 220<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8503,-13.9004</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 509 &#177; 27<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8503,-13.9008</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 512 &#177; 30<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8513,-13.9015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 637 &#177; 36<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8520,-13.9024</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 413 &#177; 24<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8510,-13.9043</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 635 &#177; 34<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8470,-13.9007</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 400 &#177; 22<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8481,-13.9008</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 349 &#177; 21<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8484,-13.9009</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 333 &#177; 21<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8483,-13.9012</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 815 &#177; 49<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8465,-13.9011</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 400 &#177; 27<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8491,-13.9028</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 313 &#177; 24<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8467,-13.9029</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 313 &#177; 20<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8469,-13.9029</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 297 &#177; 17<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8475,-13.9030</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 217 &#177; 11<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8465,-13.9051</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 233 &#177; 12<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8470,-13.9056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 204 &#177; 11<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8445,-13.9040</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 213 &#177; 15<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8459,-13.9053</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JS-09-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 219 &#177; 11<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stroup et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.8455,-13.9057</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

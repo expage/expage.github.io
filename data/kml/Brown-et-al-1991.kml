@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Brown et al. (1991)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>BW84-87</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 44946 &#177; 5566<br/>
+<sup>26</sup>Al: 97486 &#177; 13077<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brown et al. (1991)<br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.007,-77.830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SCW87-4-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 388635 &#177; 39519<br/>
+<sup>26</sup>Al: 225467 &#177; 24455<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brown et al. (1991)<br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.007,-77.830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BW84-134</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 143274 &#177; 16151<br/>
+<sup>26</sup>Al: 411800 &#177; 65857<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brown et al. (1991)<br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>160.985,-77.839</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BW84-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 941174 &#177; 102048<br/>
+<sup>26</sup>Al: 1079238 &#177; 284868<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brown et al. (1991)<br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>160.985,-77.839</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SCW87-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1375632 &#177; 165522<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brown et al. (1991)<br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>160.985,-77.839</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BW84-71</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 215828 &#177; 19487<br/>
+<sup>26</sup>Al: 113891 &#177; 41780<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brown et al. (1991)<br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.045,-77.826</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KBA89-41-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 337873 &#177; 43815<br/>
+<sup>26</sup>Al: 92063 &#177; 43337<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brown et al. (1991)<br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>160.970,-77.839</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KBA89-45-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1221493 &#177; 407797<br/>
+<sup>26</sup>Al: 280405 &#177; 229242<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brown et al. (1991)<br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>160.971,-77.841</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AA86-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 305327 &#177; 32336<br/>
+<sup>26</sup>Al: 337758 &#177; 98014<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brown et al. (1991)<br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.280,-77.700</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AA86-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2143774 &#177; 311142<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brown et al. (1991)<br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.011,-77.848</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AA86-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1956297 &#177; 256397<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brown et al. (1991)<br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.025,-77.842</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BW84-105</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2220377 &#177; 309885<br/>
+<sup>26</sup>Al: 1689520 &#177; 568285<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brown et al. (1991)<br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.005,-77.850</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SCW87-3-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2000132 &#177; 272042<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brown et al. (1991)<br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.025,-77.842</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AA86-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2369546 &#177; 338789<br/>
+<sup>26</sup>Al: 1171891 &#177; 287972<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Brown et al. (1991)<br/>Brook et al. (1993)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.030,-77.841</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SCW87-1-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4121323 &#177; 1131126<br/>
+<sup>26</sup>Al: 2863535 &#177; 3394448<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Brown et al. (1991)<br/>Brook et al. (1993, 1995a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>160.970,-77.861</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

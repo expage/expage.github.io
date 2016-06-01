@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Joy et al. (2014)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>BV3-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5277 &#177; 334<br/>
+<sup>26</sup>Al: 4002 &#177; 462<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>155.5278,-79.9733</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BV9-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6104 &#177; 353<br/>
+<sup>26</sup>Al: 5426 &#177; 777<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>155.4093,-79.9767</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BV4-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8177 &#177; 451<br/>
+<sup>26</sup>Al: 7538 &#177; 892<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>155.4494,-79.9780</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DV7-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5562 &#177; 343<br/>
+<sup>26</sup>Al: 4937 &#177; 847<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>155.5391,-79.9917</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DV6-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8444 &#177; 563<br/>
+<sup>26</sup>Al: 8977 &#177; 1526<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>155.5204,-79.9983</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DP1-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7204 &#177; 445<br/>
+<sup>26</sup>Al: 6241 &#177; 947<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>155.5182,-79.9827</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DP3-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7229 &#177; 489<br/>
+<sup>26</sup>Al: 6571 &#177; 676<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>155.4961,-79.9817</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DP1-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7183 &#177; 408<br/>
+<sup>26</sup>Al: 10025 &#177; 1569<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>155.4956,-79.9817</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DV5-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 132823 &#177; 6701<br/>
+<sup>26</sup>Al: 105615 &#177; 8030<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>155.5088,-79.9983</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DV3-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 134953 &#177; 8265<br/>
+<sup>26</sup>Al: 121213 &#177; 9500<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>155.4908,-80.0000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DP4-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 131356 &#177; 6816<br/>
+<sup>26</sup>Al: 118624 &#177; 9807<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>155.4890,-79.9880</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DP4-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 136450 &#177; 7499<br/>
+<sup>26</sup>Al: 126624 &#177; 10040<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>155.5091,-79.9850</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DP4-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 139782 &#177; 7494<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>155.4986,-79.9883</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DV2-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 491011 &#177; 36588<br/>
+<sup>26</sup>Al: 417472 &#177; 36493<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>155.4603,-80.0000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DP5-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 687827 &#177; 41452<br/>
+<sup>26</sup>Al: 627658 &#177; 80753<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>155.4926,-79.9893</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BV8-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1001088 &#177; 63504<br/>
+<sup>26</sup>Al: 715818 &#177; 73733<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>155.4033,-79.9867</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DV1-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1072163 &#177; 73068<br/>
+<sup>26</sup>Al: 898586 &#177; 101469<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>155.4577,-80.0067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DP6-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2189892 &#177; 196387<br/>
+<sup>26</sup>Al: 1527257 &#177; 249791<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Joy et al. (2014)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>155.4647,-79.9950</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

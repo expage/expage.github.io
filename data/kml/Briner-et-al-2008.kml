@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Briner et al. (2008)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>CR04-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4061 &#177; 479<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.18097,69.69465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR04-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5425 &#177; 560<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.24142,69.69418</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR04-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4186 &#177; 538<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.21110,69.69553</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR04-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5759 &#177; 589<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.28787,69.69362</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR04-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24029 &#177; 2285<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.74558,69.57610</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR04-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29463 &#177; 2797<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Briner et al. (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.80195,69.61392</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR04-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24207 &#177; 3680<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.74558,69.57610</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR04-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29870 &#177; 2844<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Briner et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.74558,69.57610</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

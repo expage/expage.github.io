@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dortch et al. (2010c)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Ala-126A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16369 &#177; 2200<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.777,63.610</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-126B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15689 &#177; 2096<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.777,63.610</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-127</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22318 &#177; 3363<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.799,63.606</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-128</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16242 &#177; 1863<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.799,63.605</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-130</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13666 &#177; 2490<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.800,63.603</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-132</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17450 &#177; 2677<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.799,63.599</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-133</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14078 &#177; 4313<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.799,63.598</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-134</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17084 &#177; 2340<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.799,63.597</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-119</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11880 &#177; 1875<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.842,63.675</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-120</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62793 &#177; 9014<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.842,63.675</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-121</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20927 &#177; 2964<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.841,63.676</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-122</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12311 &#177; 3670<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.872,63.701</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-123</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9184 &#177; 2874<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.886,63.699</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 824 &#177; 90<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.893,63.736</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10034 &#177; 1733<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.893,63.736</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7446 &#177; 1367<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.894,63.735</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8723 &#177; 4337<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.895,63.735</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 979 &#177; 103<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.894,63.735</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 49013 &#177; 3662<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.034,63.845</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 56688 &#177; 5207<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.025,63.848</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55458 &#177; 4863<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.025,63.848</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-157</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29041 &#177; 3274<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.043,63.855</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60757 &#177; 4596<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.000,63.834</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57765 &#177; 4761<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.000,63.833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61052 &#177; 3919<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.001,63.834</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-107</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 58317 &#177; 3798<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-148.978,63.837</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-108</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 54294 &#177; 3386<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-148.975,63.834</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-135</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13784 &#177; 1743<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.117,63.897</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-136</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16504 &#177; 2913<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.124,63.897</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-137A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 80772 &#177; 4863<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.132,63.865</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-137B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 106801 &#177; 6270<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.132,63.865</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-156</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47938 &#177; 3322<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.130,63.868</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-151</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13145 &#177; 2510<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.843,63.404</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-152</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13711 &#177; 1685<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.843,63.403</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-153</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15481 &#177; 1811<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.847,63.401</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-154</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14141 &#177; 1844<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.840,63.401</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-155</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14685 &#177; 1873<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.847,63.400</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-158</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12297 &#177; 1228<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.858,63.402</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-159</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17051 &#177; 2371<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.858,63.401</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-160</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18256 &#177; 4266<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.858,63.401</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-161</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17149 &#177; 3318<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.866,63.899</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-162</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13732 &#177; 2477<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.866,63.899</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-164</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17055 &#177; 3626<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.860,63.893</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-165</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14493 &#177; 2062<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.860,63.893</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-166</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17522 &#177; 3896<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.860,63.893</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1559 &#177; 164<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.210,63.306</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1201 &#177; 129<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.211,63.303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1718 &#177; 163<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.210,63.303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-43</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13089 &#177; 1246<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.205,63.302</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-145</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13327 &#177; 2402<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.212,63.306</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-147</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13131 &#177; 1896<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.210,63.305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-148</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13376 &#177; 2448<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-148.210,63.305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-140</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13723 &#177; 1841<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-147.778,63.238</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-141</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13324 &#177; 1691<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-147.777,63.238</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-143</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12918 &#177; 1812<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dortch et al. (2010c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-147.774,63.238</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

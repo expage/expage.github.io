@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Carrasco et al. (2013)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>ESP-08-EN-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21613 &#177; 1353<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Carrasco et al. (2013)<br/>Domínguez-Villar et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.65175,40.34073</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ESP-08-EN-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21687 &#177; 1416<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Carrasco et al. (2013)<br/>Domínguez-Villar et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.65273,40.33987</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ESP-08-EN-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29575 &#177; 1589<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Carrasco et al. (2013)<br/>Domínguez-Villar et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.65111,40.34005</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ESP-08-DU-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24849 &#177; 1463<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Carrasco et al. (2013)<br/>Domínguez-Villar et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.66465,40.30414</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ESP-08-DU-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23498 &#177; 1383<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Carrasco et al. (2013)<br/>Domínguez-Villar et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.66522,40.30430</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ESP-08-DU-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31302 &#177; 1647<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Carrasco et al. (2013)<br/>Domínguez-Villar et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.66457,40.30335</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

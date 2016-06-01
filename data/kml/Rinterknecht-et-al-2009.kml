@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rinterknecht et al. (2009)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>GRE-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19229 &#177; 5218<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-53.736,66.988</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GRE-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19268 &#177; 3672<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-53.008,67.162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GRE-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30616 &#177; 1907<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-53.008,67.162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GRE-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 103998 &#177; 6077<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2009)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-52.174,67.238</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GRE-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8985 &#177; 3601<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.369,67.323</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GRE-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7454 &#177; 1342<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.171,67.437</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GRE-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12923 &#177; 1725<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.152,67.426</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GRE-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12268 &#177; 1600<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.152,67.426</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GRE-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9663 &#177; 740<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.205,67.424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GRE-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7963 &#177; 1762<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.201,67.425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GRE-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8670 &#177; 1277<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.211,67.429</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GRE-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8953 &#177; 772<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rinterknecht et al. (2009)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.213,67.429</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

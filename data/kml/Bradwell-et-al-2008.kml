@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bradwell et al. (2008)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>ACH1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15050 &#177; 1075<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bradwell et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.2914,58.0127</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACH2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15035 &#177; 1064<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bradwell et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.2915,58.0127</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACH3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14585 &#177; 1130<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bradwell et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.2925,58.0133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LLB1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14764 &#177; 1358<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bradwell et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3236,57.8562</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LLB2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11385 &#177; 814<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bradwell et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3261,57.8570</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LLB3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7462 &#177; 717<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bradwell et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3279,57.8576</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LLB4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14894 &#177; 1330<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Bradwell et al. (2008)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3338,57.8604</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV0601</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15382 &#177; 1020<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Bradwell et al. (2008)<br/>Lukas and Bradwell (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.9812,58.1239</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV0602</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14082 &#177; 984<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Bradwell et al. (2008)<br/>Lukas and Bradwell (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.9812,58.1239</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV0603</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14773 &#177; 948<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Bradwell et al. (2008)<br/>Lukas and Bradwell (2010)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.9812,58.1239</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

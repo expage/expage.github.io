@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Brook et al. (1996)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>SK101</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12492 &#177; 1187<br/>
+<sup>26</sup>Al: 16173 &#177; 3366<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Brook et al. (1996)<br/>Goehring et al. (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.9377,61.8669</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK103</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17781 &#177; 1478<br/>
+<sup>26</sup>Al: 17159 &#177; 1946<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Brook et al. (1996)<br/>Goehring et al. (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.9507,61.8644</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK105</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27471 &#177; 2330<br/>
+<sup>26</sup>Al: 22702 &#177; 2748<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Brook et al. (1996)<br/>Goehring et al. (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.9515,61.8664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SK110</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 73184 &#177; 6915<br/>
+<sup>26</sup>Al: 77676 &#177; 7086<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Brook et al. (1996)<br/>Goehring et al. (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.9594,61.8697</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Amidon et al. (2013)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23929 &#177; 1079<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Amidon et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.0464,34.4127</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 56621 &#177; 2680<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Amidon et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.0465,34.4126</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47151 &#177; 2150<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Amidon et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.0463,34.4136</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47283 &#177; 2217<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Amidon et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.0461,34.4136</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57139 &#177; 2606<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Amidon et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.0461,34.4145</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41419 &#177; 1903<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Amidon et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.0460,34.4145</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 74787 &#177; 3473<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Amidon et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.0462,34.4145</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 72711 &#177; 3362<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Amidon et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.0476,34.4223</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 73419 &#177; 3320<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Amidon et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.0477,34.4224</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 102771 &#177; 4681<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Amidon et al. (2013)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.0520,34.4248</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

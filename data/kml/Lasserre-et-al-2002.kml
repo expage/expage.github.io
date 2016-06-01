@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Lasserre et al. (2002)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>LLL1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5908 &#177; 481<br/>
+<sup>26</sup>Al: 5261 &#177; 1079<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lasserre et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.849,37.533</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LLL2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8125 &#177; 532<br/>
+<sup>26</sup>Al: 7029 &#177; 1011<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lasserre et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.849,37.532</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LLL3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12860 &#177; 856<br/>
+<sup>26</sup>Al: 11271 &#177; 1067<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lasserre et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.850,37.530</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LLL4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7769 &#177; 511<br/>
+<sup>26</sup>Al: 7060 &#177; 701<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lasserre et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.849,37.530</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LLL5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14311 &#177; 998<br/>
+<sup>26</sup>Al: 13017 &#177; 1472<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lasserre et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.850,37.529</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LLL6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3222 &#177; 226<br/>
+<sup>26</sup>Al: 2999 &#177; 2714<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lasserre et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.850,37.529</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LLL7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4863 &#177; 420<br/>
+<sup>26</sup>Al: 5183 &#177; 472<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lasserre et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.850,37.528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LLL8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11496 &#177; 829<br/>
+<sup>26</sup>Al: 9581 &#177; 765<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lasserre et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.851,37.528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LLL9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13055 &#177; 919<br/>
+<sup>26</sup>Al: 11614 &#177; 915<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lasserre et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.851,37.528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LLL10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14326 &#177; 945<br/>
+<sup>26</sup>Al: 12054 &#177; 1157<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lasserre et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.851,37.527</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LLL10b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13655 &#177; 916<br/>
+<sup>26</sup>Al: 15250 &#177; 1303<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lasserre et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.851,37.527</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LLL11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4662 &#177; 340<br/>
+<sup>26</sup>Al: 4340 &#177; 450<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lasserre et al. (2002)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.851,37.527</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hein et al. (2011b)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>CF_118_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 948131 &#177; 58593<br/>
+<sup>26</sup>Al: 818260 &#177; 77224<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.83897,-80.32545</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_119_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1680360 &#177; 126310<br/>
+<sup>26</sup>Al: 1202713 &#177; 166688<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-28.83897,-80.32545</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_120_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 644540 &#177; 36635<br/>
+<sup>26</sup>Al: 438645 &#177; 39599<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.85522,-80.32436</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_117_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 603352 &#177; 33942<br/>
+<sup>26</sup>Al: 413528 &#177; 38694<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.89879,-80.32098</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_115_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 448410 &#177; 24161<br/>
+<sup>26</sup>Al: 344689 &#177; 25250<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.92190,-80.31669</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_70_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 174835 &#177; 9436<br/>
+<sup>26</sup>Al: 136297 &#177; 10709<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.91589,-80.29640</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_72_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 224581 &#177; 11601<br/>
+<sup>26</sup>Al: 200187 &#177; 14195<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.91589,-80.29640</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_66_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 161878 &#177; 8277<br/>
+<sup>26</sup>Al: 131385 &#177; 8798<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.91595,-80.29664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_64_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 238293 &#177; 12190<br/>
+<sup>26</sup>Al: 213029 &#177; 15373<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.91656,-80.29652</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_78_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 679967 &#177; 38933<br/>
+<sup>26</sup>Al: 560517 &#177; 45871<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.90825,-80.29568</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_77_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 163349 &#177; 8456<br/>
+<sup>26</sup>Al: 134406 &#177; 7425<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.90827,-80.29567</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_90_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 382355 &#177; 20085<br/>
+<sup>26</sup>Al: 283335 &#177; 23671<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.84511,-80.29042</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_91_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 365501 &#177; 21165<br/>
+<sup>26</sup>Al: 255520 &#177; 21323<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.84511,-80.29042</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_95_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 366250 &#177; 19391<br/>
+<sup>26</sup>Al: 285452 &#177; 24181<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.82594,-80.28870</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_36_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 782380 &#177; 45714<br/>
+<sup>26</sup>Al: 784821 &#177; 85719<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.67029,-80.29020</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_37_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1123384 &#177; 77764<br/>
+<sup>26</sup>Al: 847688 &#177; 96830<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.67029,-80.29020</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_39_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1840905 &#177; 145237<br/>
+<sup>26</sup>Al: 1042807 &#177; 132227<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.68580,-80.28596</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_40_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 745003 &#177; 47080<br/>
+<sup>26</sup>Al: 613024 &#177; 61647<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.68580,-80.28596</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_44_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1580143 &#177; 115792<br/>
+<sup>26</sup>Al: 993259 &#177; 122282<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.68849,-80.28497</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_45_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1061720 &#177; 67547<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.68849,-80.28497</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_99_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1088117 &#177; 69705<br/>
+<sup>26</sup>Al: 1196175 &#177; 165643<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.71314,-80.28009</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_100_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 931982 &#177; 57069<br/>
+<sup>26</sup>Al: 835550 &#177; 79578<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.71314,-80.28009</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_52_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1654281 &#177; 124060<br/>
+<sup>26</sup>Al: 1453204 &#177; 234316<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.70647,-80.27970</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_53_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 791536 &#177; 46830<br/>
+<sup>26</sup>Al: 555629 &#177; 53835<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.70647,-80.27970</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_105_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1465943 &#177; 103889<br/>
+<sup>26</sup>Al: 2129600 &#177; 443281<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.71603,-80.27822</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_104_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1135346 &#177; 73486<br/>
+<sup>26</sup>Al: 1004492 &#177; 105382<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.71819,-80.27812</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_196_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 759606 &#177; 44465<br/>
+<sup>26</sup>Al: 603601 &#177; 50606<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.71008,-80.27249</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_108_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 664667 &#177; 38200<br/>
+<sup>26</sup>Al: 680153 &#177; 59399<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.73442,-80.27386</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_110_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1137174 &#177; 73878<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.73442,-80.27386</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_200_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 581716 &#177; 35605<br/>
+<sup>26</sup>Al: 457039 &#177; 42080<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.71768,-80.27017</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_202_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 602624 &#177; 33777<br/>
+<sup>26</sup>Al: 443281 &#177; 40710<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.71768,-80.27017</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_138B_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 858698 &#177; 51683<br/>
+<sup>26</sup>Al: 576693 &#177; 56451<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.77463,-80.27471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_139_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 379460 &#177; 20151<br/>
+<sup>26</sup>Al: 325456 &#177; 27995<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.77379,-80.27469</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_142_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 690323 &#177; 39720<br/>
+<sup>26</sup>Al: 700819 &#177; 73605<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.77537,-80.27397</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_143_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 852315 &#177; 54894<br/>
+<sup>26</sup>Al: 626771 &#177; 63007<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.77680,-80.27383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_150_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 405461 &#177; 21685<br/>
+<sup>26</sup>Al: 272170 &#177; 22874<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.77998,-80.27216</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_147_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 537965 &#177; 29772<br/>
+<sup>26</sup>Al: 428140 &#177; 39053<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.77998,-80.27216</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_155_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 372913 &#177; 19771<br/>
+<sup>26</sup>Al: 310342 &#177; 28196<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.78135,-80.27158</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_154_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 599749 &#177; 36942<br/>
+<sup>26</sup>Al: 421107 &#177; 38219<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.78090,-80.27147</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_56_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 129900 &#177; 6598<br/>
+<sup>26</sup>Al: 117320 &#177; 9453<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.75172,-80.24772</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_57_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 390502 &#177; 21084<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.85200,-80.26012</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_58A_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29518 &#177; 1616<br/>
+<sup>26</sup>Al: 18296 &#177; 1304<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.85200,-80.26012</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_58B_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28847 &#177; 1671<br/>
+<sup>26</sup>Al: 17902 &#177; 1640<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.85200,-80.26012</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_59_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 206144 &#177; 10685<br/>
+<sup>26</sup>Al: 157773 &#177; 12821<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.84317,-80.26188</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_60_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1132244 &#177; 73297<br/>
+<sup>26</sup>Al: 878890 &#177; 101027<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-28.84317,-80.26188</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_207_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 300495 &#177; 15643<br/>
+<sup>26</sup>Al: 273013 &#177; 22705<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78078,-80.11722</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_204_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 806432 &#177; 47780<br/>
+<sup>26</sup>Al: 756718 &#177; 81376<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.77962,-80.11717</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_205_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 904190 &#177; 54533<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78078,-80.11722</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_208_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 747498 &#177; 43625<br/>
+<sup>26</sup>Al: 794034 &#177; 87181<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78078,-80.11722</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_206_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 289931 &#177; 16901<br/>
+<sup>26</sup>Al: 302939 &#177; 26443<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78078,-80.11722</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_209_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 216159 &#177; 10976<br/>
+<sup>26</sup>Al: 246963 &#177; 20628<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78073,-80.11571</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_211_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 628965 &#177; 35646<br/>
+<sup>26</sup>Al: 411793 &#177; 36829<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78122,-80.11574</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_210_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 122391 &#177; 6745<br/>
+<sup>26</sup>Al: 79380 &#177; 6319<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78122,-80.11574</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_212_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 938391 &#177; 62530<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78122,-80.11574</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_213A_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 146697 &#177; 7375<br/>
+<sup>26</sup>Al: 177270 &#177; 11971<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78703,-80.11532</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_213B_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 187297 &#177; 48514<br/>
+<sup>26</sup>Al: 179530 &#177; 14785<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78703,-80.11532</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_214_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 118557 &#177; 5980<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78703,-80.11532</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_215A_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24816 &#177; 8586<br/>
+<sup>26</sup>Al: 15786 &#177; 1372<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78313,-80.11352</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_215B_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25984 &#177; 1481<br/>
+<sup>26</sup>Al: 20764 &#177; 1689<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78313,-80.11352</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_217_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 439062 &#177; 25909<br/>
+<sup>26</sup>Al: 341183 &#177; 29670<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78313,-80.11352</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_216_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3305 &#177; 342<br/>
+<sup>26</sup>Al: 5307 &#177; 519<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78313,-80.11352</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_220_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27501 &#177; 1521<br/>
+<sup>26</sup>Al: 33807 &#177; 2901<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-25.78762,-80.11286</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_162_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 787567 &#177; 46550<br/>
+<sup>26</sup>Al: 531958 &#177; 50634<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014), Sugden et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-29.95333,-80.38188</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_160_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 850008 &#177; 54214<br/>
+<sup>26</sup>Al: 700891 &#177; 72939<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-29.95613,-80.38144</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_161_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 365013 &#177; 19324<br/>
+<sup>26</sup>Al: 132184 &#177; 10218<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-29.95613,-80.38144</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_159_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 729202 &#177; 42407<br/>
+<sup>26</sup>Al: 616766 &#177; 61394<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014), Sugden et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-29.95613,-80.38144</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_158_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 671545 &#177; 38507<br/>
+<sup>26</sup>Al: 541132 &#177; 51813<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014), Sugden et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-29.97815,-80.37932</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_157_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 847907 &#177; 50852<br/>
+<sup>26</sup>Al: 1178276 &#177; 161064<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014), Sugden et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-29.99452,-80.37860</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_184_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43939 &#177; 2417<br/>
+<sup>26</sup>Al: 20374 &#177; 1973<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-30.06789,-80.38455</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_185_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12430 &#177; 732<br/>
+<sup>26</sup>Al: 10572 &#177; 934<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-30.06789,-80.38455</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_181_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 44310 &#177; 2453<br/>
+<sup>26</sup>Al: 46858 &#177; 3989<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-30.06789,-80.38455</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_182_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3138 &#177; 559<br/>
+<sup>26</sup>Al: 4723 &#177; 895<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-30.06789,-80.38455</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CF_183_08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 154416 &#177; 8381<br/>
+<sup>26</sup>Al: 144860 &#177; 12059<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/>Hein et al. (2011b)<br/>Hein et al. (2014)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-30.06789,-80.38455</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

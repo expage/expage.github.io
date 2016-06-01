@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ivy-Ochs et al. (2008)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>AVS-03-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20012 &#177; 1353<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Ivy-Ochs et al. (2008)<br/>Reuther (2007), Reuther et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.42111,47.97465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AVS-03-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42938 &#177; 2265<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Ivy-Ochs et al. (2008)<br/>Reuther (2007), Reuther et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.40045,47.98667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AVS-03-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18501 &#177; 1309<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Ivy-Ochs et al. (2008)<br/>Reuther (2007), Reuther et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.40085,47.98626</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AVS-03-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13518 &#177; 892<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Ivy-Ochs et al. (2008)<br/>Reuther (2007), Reuther et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.40023,48.01786</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AVS-03-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17041 &#177; 1205<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Ivy-Ochs et al. (2008)<br/>Reuther (2007), Reuther et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.39898,48.02109</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AVS-03-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17214 &#177; 1231<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Ivy-Ochs et al. (2008)<br/>Reuther (2007), Reuther et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.40338,47.98646</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AVS-03-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19842 &#177; 1237<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Ivy-Ochs et al. (2008)<br/>Reuther (2007), Reuther et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.38970,47.99515</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AVS-03-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17307 &#177; 1561<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Ivy-Ochs et al. (2008)<br/>Reuther (2007), Reuther et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.39167,47.95000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AVS-03-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15296 &#177; 964<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Ivy-Ochs et al. (2008)<br/>Reuther (2007), Reuther et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.37500,48.00020</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AVS-03-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11677 &#177; 1263<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Ivy-Ochs et al. (2008)<br/>Reuther (2007)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.38732,48.03403</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AVC-04-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18602 &#177; 1392<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Ivy-Ochs et al. (2008)<br/>Reuther (2007), Reuther et al. (2011)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>11.93353,47.80961</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

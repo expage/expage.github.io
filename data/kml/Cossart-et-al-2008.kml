@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Cossart et al. (2008)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>CLA-04-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7484 &#177; 1470<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Cossart et al. (2008)<br/>Cossart et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.58778,45.02056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLA-04-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14554 &#177; 1641<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Cossart et al. (2008)<br/>Cossart et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.58458,45.02061</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLA-04-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38396 &#177; 7361<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Cossart et al. (2008)<br/>Cossart et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.54633,45.02925</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLA-04-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11695 &#177; 1953<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Cossart et al. (2008)<br/>Cossart et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.52669,45.02469</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLA-04-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11119 &#177; 1248<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Cossart et al. (2008)<br/>Cossart et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.52669,45.02469</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLA-04-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14097 &#177; 2821<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Cossart et al. (2008)<br/>Cossart et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.52825,45.05936</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLA-04-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11867 &#177; 1634<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Cossart et al. (2008)<br/>Cossart et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.51878,45.05903</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLA-04-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11971 &#177; 1419<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/>Cossart et al. (2008)<br/>Cossart et al. (2012)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.56583,45.02372</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GYR-04-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10396 &#177; 1507<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Cossart et al. (2008)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.43011,44.86586</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
