@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Nimick et al. (in press)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>LCM5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5700 &#177; 342<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nimick et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>73.12182,47.34680</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LCM6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5205 &#177; 442<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nimick et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>73.12151,47.34743</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LCM7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5559 &#177; 353<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nimick et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>73.12068,47.34809</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LCM8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5638 &#177; 471<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nimick et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>73.11213,47.34545</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLARO1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12200 &#177; 776<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nimick et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>73.11806,47.36277</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLARO2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11455 &#177; 758<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nimick et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>73.11732,47.36309</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLARO3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12591 &#177; 772<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nimick et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>73.11726,47.36292</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLARO5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12210 &#177; 874<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nimick et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>73.11698,47.36301</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARCO1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13488 &#177; 818<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nimick et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>73.21937,47.28038</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARCO3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15407 &#177; 948<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nimick et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>73.21903,47.27999</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARCO4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14372 &#177; 911<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Nimick et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>73.21852,47.27951</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
