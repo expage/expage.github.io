@@ -1,0 +1,18 @@
+expage-201610 calculator
+New parameter (SPhimu = 416.492) used as 'SPhi' in P_mu_LSD (instead of SPhiInf) to mimic the muon production rate calibration
+in CRONUScalc v 2.0 (Borchers et al. 2016; Marrero et al. 2016; Phillips et al. 2016).
+In Lifton et al. (2014) SPhiInf = 462.036 and in CRONUScalc SPhiInf = 416.492.
+This change induces a minimal (<2%) increase in the muon production.
+
+expage-201606 calculator
+10Be and 26Al exposure age calculator based on the CRONUS calculator (Balco et al. 2008) with some modifications:
+* Nuclide-specific LSD spallation and muon production rate scaling based on simulated cosmic ray fluxes (Lifton et al. 2014).
+* Time-dependent spallation production rate with reference production rates based on global average from calibration studies
+  published 2009-2016.
+* Time-constant muon production rate parameterization, including depth dependence for samples with an assumed erosion rate,
+  based on Antarctica depth profile data (Borchers et al. 2016; Marrero et al. 2016; Phillips et al. 2016).
+* Adjustment of the time-dependent production rate to the year of sampling (assuming a constant production since 2010).
+* Atmospheric pressure based on sample elevation and ERA-40 re-analysis dataset ('std'), Antarctica best-fit interpolation
+  ('ant') (Balco et al. 2008), or given directly ('pre') in hPa.
+* Attenuation length for calculating the spallation production rate adjustments for sample thickness and erosion rate
+  interpolated from atmospheric pressure and cutoff rigidity (Marrero et al. 2016).
