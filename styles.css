@@ -243,6 +243,22 @@ ul.menu li.selected {
 	margin-bottom: 3px;
 }
 
+.calclist {
+	display: -webkit-flex;
+	display: flex;
+	width: 760px;
+	height: auto;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+.calc {
+	width: 760px;
+	height: auto;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
 #header {
 	position: relative;
 	height:175px;
