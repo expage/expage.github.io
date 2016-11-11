@@ -1,3 +1,17 @@
+expage-201611 calculator
+* Muon production changes:
+  - Original solar modulation paramter SPhiInf used for P_mu_LSD.
+  - Two changes in the negative muon calculations in P_mu_LSD (lines 105-125) to remove near-surface production artifacts.
+  - Parameters fstar and sigma0 calibrated for the expage calculator based on the Beacon Heights data (Borchers et al. 2016;
+    Marrero et al. 2016; Phillips et al. 2016) using mucalib.m. This calibration is based on the CRONUScalc method and it
+    yields expage calculator values within the uncertainties of (but slightly different from) the CRONUScalc values. The code
+    and data for muon parameter calibration is included in mucalib.zip.
+* Muon production at depth interpolated from nine depth points based on simple age erosion depth for samples with erosion.
+* Several changes in the expage, erosion, and prodcalib (previously named prodcalc) codes: Reorganization and improvements
+  speeding up the calculations plus adding display of calculated values.
+* Added code for calculating simple exposure and burial durations (and optionally plotting the banana diagram) from combined
+  26Al and 10Be measurements, using a Monte Carlo simulation approach and a simplified time-constant spallation production.
+
 expage-201610 calculator
 New parameter (SPhimu = 416.492) used as 'SPhi' in P_mu_LSD (instead of SPhiInf) to mimic the muon production rate calibration
 in CRONUScalc v 2.0 (Borchers et al. 2016; Marrero et al. 2016; Phillips et al. 2016).
