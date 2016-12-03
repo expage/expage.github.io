@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Young et al. (in press)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>JAKS08-36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6305 &#177; 360<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Young et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.09630,69.13828</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAKS08-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6136 &#177; 348<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Young et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.09677,69.13715</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAKN08-41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6403 &#177; 355<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Young et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-49.97355,69.24332</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAKN08-42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6568 &#177; 370<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Young et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-49.97340,69.24298</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAKN08-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6626 &#177; 376<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Young et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.01377,69.25988</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAKN08-49</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6880 &#177; 388<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Young et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.16010,69.31260</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAKN08-50</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6859 &#177; 387<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Young et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.15958,69.31268</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAKN08-51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4810 &#177; 273<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Young et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.15293,69.31548</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

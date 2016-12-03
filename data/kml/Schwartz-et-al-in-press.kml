@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Schwartz et al. (in press)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>P4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14998 &#177; 963<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.807,45.063</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6103 &#177; 444<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80402,45.06674</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11573 &#177; 761<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80381,45.06665</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8864 &#177; 563<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80379,45.06664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8047 &#177; 616<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80497,45.06619</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8152 &#177; 559<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80433,45.06577</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11567 &#177; 749<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80449,45.06600</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9484 &#177; 611<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80458,45.06638</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13212 &#177; 715<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80435,45.06661</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1980 &#177; 238<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.79807,45.06601</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5257 &#177; 367<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.79780,45.06594</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12649 &#177; 841<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80432,45.06638</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P14-0</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11571 &#177; 800<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80229,45.06334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P14-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5222 &#177; 471<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80229,45.06334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P14-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2635 &#177; 334<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80229,45.06334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P14-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12442 &#177; 880<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80229,45.06334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P14-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6284 &#177; 588<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80229,45.06334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P14-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3567 &#177; 458<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80229,45.06334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P14-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9948 &#177; 770<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80229,45.06334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P14-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6297 &#177; 592<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.80229,45.06334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P15-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15593 &#177; 1209<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.79979,45.06329</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P15-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12366 &#177; 995<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.79979,45.06329</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P15-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16282 &#177; 1108<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Schwartz et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.79979,45.06329</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

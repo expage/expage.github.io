@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wirsig et al. (in press b)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>Gold1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4823 &#177; 404<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.977,47.048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gold2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3025 &#177; 275<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.978,47.048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gold3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 862 &#177; 158<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.978,47.048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gold4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 121 &#177; 113<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.979,47.048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gold5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1547 &#177; 197<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.981,47.047</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gold6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1516 &#177; 220<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.981,47.047</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gold7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 622 &#177; 254<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.982,47.046</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gold9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 316 &#177; 133<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.983,47.045</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gold10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 276 &#177; 242<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.982,47.046</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gold11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1072 &#177; 183<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.977,47.045</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gold12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2313 &#177; 323<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.979,47.046</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gold13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 276 &#177; 89<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.979,47.047</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gold14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 736 &#177; 134<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.980,47.047</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gold15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 140 &#177; 99<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.980,47.047</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gold16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1913 &#177; 213<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.981,47.048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gold17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7361 &#177; 528<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (in press b)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.984,47.050</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
