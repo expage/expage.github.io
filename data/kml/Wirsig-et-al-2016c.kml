@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wirsig et al. (2016c)</name>
+<description>
+<![CDATA[
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Placemark>
+<name>GELM12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21671 &#177; 1523<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.3258,46.6221</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GELM2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21856 &#177; 1611<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.3257,46.6219</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GELM1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16800 &#177; 1179<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.3257,46.6218</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GELM13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15320 &#177; 1016<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.3252,46.6216</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GELM14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14526 &#177; 875<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.3246,46.6210</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GELM5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13281 &#177; 933<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.3215,46.6185</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GELM10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13002 &#177; 863<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.3217,46.6180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GELM11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13755 &#177; 896<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.3217,46.6180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GELM4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14246 &#177; 1000<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.3211,46.6182</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GELM3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15358 &#177; 1094<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.3221,46.6178</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GrSt1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10697 &#177; 1177<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.3199,46.6027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GrSt3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14085 &#177; 1326<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.3197,46.6027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GELM6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9944 &#177; 780<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.3212,46.6151</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GELM7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11333 &#177; 1335<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.3052,46.6057</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GELM8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10340 &#177; 1049<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.3141,46.6027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GELM9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11163 &#177; 1065<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.3071,46.6136</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GELM15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10304 &#177; 1216<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Wirsig et al. (2016c)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.3059,46.6238</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
