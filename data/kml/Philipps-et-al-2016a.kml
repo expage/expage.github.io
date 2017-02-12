@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Philipps et al. (2016a)</name>
+<description>
+<![CDATA[
+Data from expage-201702<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>13GROr-73</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10119 &#177; 700<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Philipps et al. (2016a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.88698,71.06837</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GROr-75</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11290 &#177; 810<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Philipps et al. (2016a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.88530,71.06427</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GROr-76</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10079 &#177; 664<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Philipps et al. (2016a)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.88522,71.06428</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GROr-77</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10783 &#177; 706<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Philipps et al. (2016a)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.92366,71.02202</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GROr-78</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9431 &#177; 624<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Philipps et al. (2016a)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.92373,71.02202</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GRSA-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9019 &#177; 655<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Philipps et al. (2016a)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.88993,71.01771</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

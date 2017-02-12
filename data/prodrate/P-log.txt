@@ -1,12 +1,38 @@
+P-201702
+* Changed 'Surface-ID' to 'Sample-ID' and gave separate IDs to separate samples from one surface so
+  that similar Sample-ID indicate repeat measurements. This yields changes for calibration site 16
+  (Kelly et al. 2015; Phillips et al. 2016b) where some samples are separate samples collected from
+  one boulder. Changed erosion rates for Phillips et al. (2016b) samples to published values instead
+  of Kelly et al. (2015) values.This reduces the site 10Be production rate by 0.02 atoms/g/yr and
+  increases the site 26Al production rate by 0.06 atoms/g/yr.
+* Added the five missing boulder/cobble samples to site 18 (Stroeven et al. 2015). This reduces the
+  site 10Be production rate by 0.09 atoms/g/yr.
+* Sampling year updated for Kaplan et al. (2011) and Martin et al. (2015) samples. This yields some
+  minor (0.001 at/g/yr) production rate changes for individual samples but does not change the site
+  production rates.
+* 10Be and 26Al production rates calibrated for the expage-201702 calculator:
+  10Be reference production rate: 3.98 ± 0.25 atoms/g/yr
+  26Al reference production rate: 28.42 ± 1.87 atoms/g/yr
+* Added production rate calibration 10Be data (71 measurements from 12 sites) and 26Al data (48
+  measurements from 8 sites) to P-201702-origin (P-201702-refs and P-201702-comments updated as
+  well) from sites not included in the global average dataset. These are samples from studies
+  published before 2009 and from sites with less than three individual samples.
+
+----------------------------------------------------------------------------------------------------
+
 P-201611
 Same calibration data as P-201610 but recalibrated for the expage-201611 calculator.
+
+----------------------------------------------------------------------------------------------------
 
 P-201610
 Same calibration data as P-201606 but recalibrated for the expage-201610 calculator.
 
+----------------------------------------------------------------------------------------------------
+
 P-201606
-Global compilation of 10Be and 26Al production rate calibration data published 2009-2016
-with data from the following 25 sites:
+Global compilation of 10Be and 26Al production rate calibration data published 2009-2016 with data
+from the following 25 sites:
 
 Site 1 - Littleton/Birch Hill moraine, NE USA - 10Be and 26Al data
 Site 2 - Leverett spillway, NE USA - 10Be data

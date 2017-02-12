@@ -1,3 +1,10 @@
+expage-201702 calculator
+* Updated the reference production rates to use the P-201702 data.
+* Added code for depth profile exposure age (depthcalc.m) and exposure age / erosion rate simulation
+  (depthcalcET.m).
+
+----------------------------------------------------------------------------------------------------
+
 2017-01-19
 expage-201611: Fixed an error (added argument 'consts') in line 192 of burial1026.m.
 
@@ -5,38 +12,51 @@ expage-201611: Fixed an error (added argument 'consts') in line 192 of burial102
 expage-201611: Fixed an error in the report part of get_al_be_erosion.m.
 
 2017-01-02
-expage-201611: Added ' to lines 410 and 509 in prodcalib.m to fix a matrix error recognized in Octave version 4 (and probably
-Matlab as well).
+expage-201611: Added ' to lines 410 and 509 in prodcalib.m to fix a matrix error recognized in
+Octave version 4 (and probably Matlab as well).
 
 expage-201611 calculator
 * Muon production changes:
   - Original solar modulation paramter SPhiInf used for P_mu_LSD.
-  - Two changes in the negative muon calculations in P_mu_LSD (lines 105-125) to remove near-surface production artifacts.
-  - Parameters fstar and sigma0 calibrated for the expage calculator based on the Beacon Heights data (Borchers et al. 2016;
-    Marrero et al. 2016; Phillips et al. 2016) using mucalib.m. This calibration is based on the CRONUScalc method and it
-    yields expage calculator values within the uncertainties of (but slightly different from) the CRONUScalc values. The code
-    and data for muon parameter calibration is included in mucalib.zip.
-* Muon production at depth interpolated from nine depth points based on simple age erosion depth for samples with erosion.
-* Several changes in the expage, erosion, and prodcalib (previously named prodcalc) codes: Reorganization and improvements
-  speeding up the calculations plus adding display of calculated values.
-* Added code for calculating simple exposure and burial durations (and optionally plotting the banana diagram) from combined
-  26Al and 10Be measurements, using a Monte Carlo simulation approach and a simplified time-constant spallation production.
+  - Two changes in the negative muon calculations in P_mu_LSD (lines 105-125) to remove near-surface
+    production artifacts.
+  - Parameters fstar and sigma0 calibrated for the expage calculator based on the Beacon Heights
+    data (Borchers et al. 2016; Marrero et al. 2016; Phillips et al. 2016) using mucalib.m. This
+    calibration is based on the CRONUScalc method and it yields expage calculator values within the
+    uncertainties of (but slightly different from) the CRONUScalc values. The code and data for muon
+    parameter calibration is included in mucalib.zip.
+* Muon production at depth interpolated from nine depth points based on simple age erosion depth for
+  samples with erosion.
+* Several changes in the expage, erosion, and prodcalib (previously named prodcalc) codes:
+  Reorganization and improvements speeding up the calculations plus adding display of calculated
+  values.
+* Added code for calculating simple exposure and burial durations (and optionally plotting the
+  banana diagram) from combined 26Al and 10Be measurements, using a Monte Carlo simulation approach
+  and a simplified time-constant spallation production.
+
+----------------------------------------------------------------------------------------------------
 
 expage-201610 calculator
-New parameter (SPhimu = 416.492) used as 'SPhi' in P_mu_LSD (instead of SPhiInf) to mimic the muon production rate calibration
-in CRONUScalc v 2.0 (Borchers et al. 2016; Marrero et al. 2016; Phillips et al. 2016).
-In Lifton et al. (2014) SPhiInf = 462.036 and in CRONUScalc SPhiInf = 416.492.
-This change induces a minimal (<2%) increase in the muon production.
+New parameter (SPhimu = 416.492) used as 'SPhi' in P_mu_LSD (instead of SPhiInf) to mimic the muon
+production rate calibration in CRONUScalc v 2.0 (Borchers et al. 2016; Marrero et al. 2016; Phillips
+et al. 2016). In Lifton et al. (2014) SPhiInf = 462.036 and in CRONUScalc SPhiInf = 416.492. This
+change induces a minimal (<2%) increase in the muon production.
+
+----------------------------------------------------------------------------------------------------
 
 expage-201606 calculator
-10Be and 26Al exposure age calculator based on the CRONUS calculator (Balco et al. 2008) with some modifications:
-* Nuclide-specific LSD spallation and muon production rate scaling based on simulated cosmic ray fluxes (Lifton et al. 2014).
-* Time-dependent spallation production rate with reference production rates based on global average from calibration studies
-  published 2009-2016.
-* Time-constant muon production rate parameterization, including depth dependence for samples with an assumed erosion rate,
-  based on Antarctica depth profile data (Borchers et al. 2016; Marrero et al. 2016; Phillips et al. 2016).
-* Adjustment of the time-dependent production rate to the year of sampling (assuming a constant production since 2010).
-* Atmospheric pressure based on sample elevation and ERA-40 re-analysis dataset ('std'), Antarctica best-fit interpolation
-  ('ant') (Balco et al. 2008), or given directly ('pre') in hPa.
-* Attenuation length for calculating the spallation production rate adjustments for sample thickness and erosion rate
-  interpolated from atmospheric pressure and cutoff rigidity (Marrero et al. 2016).
+10Be and 26Al exposure age calculator based on the CRONUS calculator (Balco et al. 2008) with some
+modifications:
+* Nuclide-specific LSD spallation and muon production rate scaling based on simulated cosmic ray
+  fluxes (Lifton et al. 2014).
+* Time-dependent spallation production rate with reference production rates based on global average
+  from calibration studies published 2009-2016.
+* Time-constant muon production rate parameterization, including depth dependence for samples with
+  an assumed erosion rate, based on Antarctica depth profile data (Borchers et al. 2016; Marrero et
+  al. 2016; Phillips et al. 2016).
+* Adjustment of the time-dependent production rate to the year of sampling (assuming a constant
+  production since 2010).
+* Atmospheric pressure based on sample elevation and ERA-40 re-analysis dataset ('std'), Antarctica
+  best-fit interpolation ('ant') (Balco et al. 2008), or given directly ('pre') in hPa.
+* Attenuation length for calculating the spallation production rate adjustments for sample thickness
+  and erosion rate interpolated from atmospheric pressure and cutoff rigidity (Marrero et al. 2016).

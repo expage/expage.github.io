@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Gump et al. (2017)</name>
+<description>
+<![CDATA[
+Data from expage-201702<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>14NOR-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15973 &#177; 1049<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.252955,59.542892</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14677 &#177; 967<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.255194,59.542065</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-53</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14293 &#177; 948<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.250267,59.541294</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14576 &#177; 1065<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.260775,59.391308</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16702 &#177; 1314<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.260714,59.390672</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15399 &#177; 1011<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.258725,59.390875</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15573 &#177; 1032<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.256700,59.390214</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16388 &#177; 1103<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.282492,59.199449</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19691 &#177; 1285<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.281770,59.199594</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16169 &#177; 1095<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.283430,59.201700</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15314 &#177; 1020<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.429401,59.218904</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16123 &#177; 1065<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.428367,59.219771</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15125 &#177; 994<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.427794,59.219593</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15764 &#177; 1100<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.383928,59.175612</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17229 &#177; 1138<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.383096,59.175839</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16170 &#177; 1745<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.383574,59.174793</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15575 &#177; 1028<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.383542,59.175052</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14731 &#177; 993<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.511976,59.300926</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16012 &#177; 1052<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.512094,59.300727</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14994 &#177; 997<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.511777,59.298978</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13926 &#177; 986<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.511916,59.298889</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14839 &#177; 974<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.511158,59.298647</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16286 &#177; 1127<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.497384,59.285367</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16177 &#177; 1078<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.497428,59.285000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15768 &#177; 1043<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.499575,59.286162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15972 &#177; 1104<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.501113,59.286810</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-43</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15562 &#177; 1022<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.727570,59.382090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-46</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15664 &#177; 1028<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.730150,59.384670</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-47</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15520 &#177; 1019<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.728860,59.384050</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14NOR-50</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15625 &#177; 1026<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gump et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.728110,59.382920</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Smedley et al. (2017)</name>
+<description>
+<![CDATA[
+Data from expage-201702<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>T4SHI01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23652 &#177; 1858<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Smedley et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.360,49.965</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T4SCI01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26189 &#177; 1896<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Smedley et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.379,49.957</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T4SCI02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42528 &#177; 2945<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Smedley et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.379,49.957</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T4SCI03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24659 &#177; 1831<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Smedley et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.379,49.957</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T4TRE01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 50505 &#177; 3493<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Smedley et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.345,49.967</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T4TRE02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29739 &#177; 2138<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Smedley et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.349,49.965</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T4TRE03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24981 &#177; 1816<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Smedley et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-6.349,49.965</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
