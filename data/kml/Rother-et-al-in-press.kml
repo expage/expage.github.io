@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rother et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201703<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>DC-VIII-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 178267 &#177; 12744<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.4400,35.3963</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-VIII-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 174942 &#177; 12477<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.4415,35.3983</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-III-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 135186 &#177; 9687<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.4250,35.4133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-VIII-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 105313 &#177; 7385<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.4430,35.4034</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-VIII-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 129122 &#177; 36863<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.4417,35.4050</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-III-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 88481 &#177; 6157<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.4250,35.4100</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-VI-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 97721 &#177; 6839<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.5058,35.3858</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-VI-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 107715 &#177; 7555<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.5063,35.3858</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-VI-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 134979 &#177; 9534<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.5117,35.3880</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-I-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 68959 &#177; 4804<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.3600,35.3713</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-I-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 88516 &#177; 6191<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.3602,35.3713</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-II-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62073 &#177; 4327<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.3633,35.3650</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-IX-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 56813 &#177; 3925<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.6947,35.4180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-IX-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 68600 &#177; 4769<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.6985,35.4127</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-X-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43582 &#177; 3001<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.7000,35.3970</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-X-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 70977 &#177; 4935<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.7113,35.4023</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-X-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 141612 &#177; 9986<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.7222,35.4170</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-X-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 73037 &#177; 5152<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.7165,35.4115</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-V-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46481 &#177; 3258<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.4317,35.4467</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-V-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41272 &#177; 2886<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.4310,35.4512</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-V-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46489 &#177; 3210<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.4287,35.4577</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-V-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 58448 &#177; 4050<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.4360,35.4528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-V-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 158250 &#177; 11233<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Rother et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>98.4333,35.4483</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
