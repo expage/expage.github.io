@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Stübner et al. (2017)</name>
+<description>
+<![CDATA[
+Data from expage-201704<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>13TMS001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15833 &#177; 1032<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stübner et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>72.48845,37.34544</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13TMS002</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24357 &#177; 1673<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stübner et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>72.48967,37.34557</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13TMS004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30356 &#177; 1962<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stübner et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>72.49158,37.34625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13TMS007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 128640 &#177; 8671<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stübner et al. (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>71.66220,37.52906</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13TMS008</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 120813 &#177; 7956<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stübner et al. (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>71.66247,37.52940</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13TMS009</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61649 &#177; 4065<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stübner et al. (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>71.76934,37.64037</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13TMS010</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66610 &#177; 4457<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Stübner et al. (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>71.76916,37.64048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13TMS011</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34858 &#177; 2255<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stübner et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>71.72102,37.55609</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13TMS012</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15470 &#177; 1011<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stübner et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>71.72105,37.55596</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13TMS013</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36691 &#177; 2414<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stübner et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>71.72124,37.55683</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13TMS016</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14960 &#177; 975<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stübner et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>71.68182,37.36363</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13TMS017</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32208 &#177; 2109<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stübner et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>71.68139,37.36386</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13TMS020</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14600 &#177; 974<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stübner et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>71.68196,37.36347</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13TMS018</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47731 &#177; 3101<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stübner et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>71.68089,37.36360</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13TMS019</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 48748 &#177; 3165<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stübner et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>71.68062,37.36354</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

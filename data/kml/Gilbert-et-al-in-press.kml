@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Gilbert et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201704<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>M09-B158R</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3186 &#177; 393<br/>
+<sup>26</sup>Al: 2172 &#177; 264<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Gilbert et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-73.67190,70.41780</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>M09-B160R</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5366 &#177; 590<br/>
+<sup>26</sup>Al: 4062 &#177; 416<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Gilbert et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-73.67580,70.41570</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>M09-B164R</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3951 &#177; 620<br/>
+<sup>26</sup>Al: 1406 &#177; 303<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gilbert et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.69470,70.42270</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>M09-B15R</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32240 &#177; 2217<br/>
+<sup>26</sup>Al: 23146 &#177; 2923<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Gilbert et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.16063,70.57971</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>M09-B19R</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47277 &#177; 3170<br/>
+<sup>26</sup>Al: 32844 &#177; 2926<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Gilbert et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.83885,70.49137</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>B09-B147S</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1042 &#177; 257<br/>
+<sup>26</sup>Al: 336 &#177; 103<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Gilbert et al. (in press)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-73.75790,70.41940</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
