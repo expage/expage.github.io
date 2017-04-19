@@ -6,15 +6,11 @@ body {
 	position: relative;
 	padding: 0px 0px;
 	background: rgb(245,245,245);
-	margin-left: auto;
 	margin: 0;
 	width: 100%;
+	min-width: 1000px;
+	height: auto;
 	min-height: 100%;
-}
-
-.topfig {
-	width: 100%;
-	display: block;
 }
 
 .container { 
@@ -24,19 +20,23 @@ body {
 	font-family: Verdana, Arial, sans-serif;
 	background: transparent; 
 	position: relative;
+	display: block;
 	margin-right: auto;
 	margin-left: auto;
 	width: 1000px; 
 	height: 100%; 
-	visibility: visible; 
-	display: block;
+	visibility: visible;
 }
 
 .content  {
 	padding: 70px 15px 90px 15px;
 	background: rgb(245,245,245);
-/*	margin-bottom: 70px; */
 	min-height: 280px;
+}
+
+.topfig {
+	width: 100%;
+	display: block;
 }
 
 .gradient { 
@@ -78,22 +78,13 @@ ul.menu li {
 	float: left;
 	margin-right: 20px;
 	padding: 3px 10px 3px 10px;
-/*	background: rgb(220,220,220); */
-/*	-moz-border-radius: 4px 4px 4px 4px; */
-/*	-webkit-border-radius: 4px 4px 4px 4px; */
-/*	border-radius: 4px 4px 4px 4px; */
 	font-weight: bold;
 }
 ul.menu li.selected {
-/*	border: 3px solid #f00; */
 	border-top: 4px double rgb(245,245,245);
 	border-left: 4px double rgb(245,245,245);
 	border-right: 4px double rgb(245,245,245);
 	margin-top: -4px;
-/*	font-weight: bold; */
-/*	background: rgb(245,245,245); */
-/*	border-bottom: 3px solid #f00; */
-/*	padding: 3px 10px 5px 10px; */
 }
 
 .sup {
@@ -282,31 +273,12 @@ reftext {
 	margin-bottom: 5px;
 }
 
-#header {
-	position: relative;
-	height:175px;
-	background: transparent;
-	visibility: visible;
-	display: block;
-	z-index:2;
-	left: 0px;
-
-}
-
 H2 { font-family: Verdana, Geneva, Arial, sans-serif;
 	font-size:17px;
 	font-weight:bold;
 	font-color:#333;
 	text-align:
-}
-
-H3 { font-family: Verdana, Geneva, Arial, sans-serif;
-	font-size:12px;
-	font-weight:bold;
-	font-color:#333;
-	text-align:
-}
-	
+}	
 	
 table
 { 
