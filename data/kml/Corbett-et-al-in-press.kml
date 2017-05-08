@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Corbett et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201705<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>SAF-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26696 &#177; 1861<br/>
+<sup>26</sup>Al: 24851 &#177; 1808<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.74992,40.92176</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAF-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27408 &#177; 1893<br/>
+<sup>26</sup>Al: 24512 &#177; 1794<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.74992,40.92176</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAF-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28449 &#177; 2192<br/>
+<sup>26</sup>Al: 29189 &#177; 2434<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.74992,40.92176</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAF-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25587 &#177; 1797<br/>
+<sup>26</sup>Al: 24632 &#177; 2166<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.75086,40.92088</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAF-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29422 &#177; 2126<br/>
+<sup>26</sup>Al: 26755 &#177; 2411<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.74943,40.92104</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SMH-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23551 &#177; 1687<br/>
+<sup>26</sup>Al: 21794 &#177; 1670<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.52785,40.96378</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SMH-9-DUP</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22729 &#177; 1632<br/>
+<sup>26</sup>Al: 22508 &#177; 1848<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.52785,40.96378</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26725 &#177; 1940<br/>
+<sup>26</sup>Al: 24563 &#177; 1897<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.53888,40.96619</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28056 &#177; 1990<br/>
+<sup>26</sup>Al: 26218 &#177; 2060<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.53888,40.96619</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26542 &#177; 1851<br/>
+<sup>26</sup>Al: 23179 &#177; 2089<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.53888,40.96619</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26868 &#177; 1899<br/>
+<sup>26</sup>Al: 24496 &#177; 1860<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.53888,40.96619</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24642 &#177; 1734<br/>
+<sup>26</sup>Al: 21570 &#177; 1643<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.52339,40.97425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26579 &#177; 1868<br/>
+<sup>26</sup>Al: 17484 &#177; 1362<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.52339,40.97425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-6-DUP</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24689 &#177; 1762<br/>
+<sup>26</sup>Al: 20711 &#177; 2053<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.52339,40.97425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29990 &#177; 2131<br/>
+<sup>26</sup>Al: 25275 &#177; 2153<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.54465,40.96227</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SPA-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29819 &#177; 2107<br/>
+<sup>26</sup>Al: 29404 &#177; 2191<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.54465,40.96227</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SWR-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24658 &#177; 2008<br/>
+<sup>26</sup>Al: 23937 &#177; 1957<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.60282,40.99768</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SWR-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24299 &#177; 1935<br/>
+<sup>26</sup>Al: 23881 &#177; 1954<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Corbett et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.60282,40.99768</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

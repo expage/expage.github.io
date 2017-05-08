@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sugden et al. (2017)</name>
+<description>
+<![CDATA[
+Data from expage-201705<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>PH12-122</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 389383 &#177; 29728<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-81.43299,-80.31977</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH12-71</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18131 &#177; 1301<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-81.39357,-80.32449</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH12-72</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8289 &#177; 693<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-81.39488,-80.32383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH12-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 109249 &#177; 7590<br/>
+<sup>26</sup>Al: 89701 &#177; 7263<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-81.36269,-80.33135</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH12-69</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38275 &#177; 2756<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-81.39823,-80.32606</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH12-62</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 520880 &#177; 40627<br/>
+<sup>26</sup>Al: 345466 &#177; 31372<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-81.34184,-80.33863</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH12-64</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 440962 &#177; 34284<br/>
+<sup>26</sup>Al: 332340 &#177; 30500<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-81.34166,-80.33902</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH14-CORE1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43033 &#177; 3074<br/>
+<sup>26</sup>Al: 36273 &#177; 2878<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-81.26245,-80.33947</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH12-55</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27867 &#177; 2044<br/>
+<sup>26</sup>Al: 26362 &#177; 2210<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-82.03945,-80.28942</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH14-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15054 &#177; 1086<br/>
+<sup>26</sup>Al: 13377 &#177; 1065<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-82.19332,-80.26540</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH14-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19313 &#177; 1377<br/>
+<sup>26</sup>Al: 13834 &#177; 1088<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-82.19332,-80.26540</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH14-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 154222 &#177; 11284<br/>
+<sup>26</sup>Al: 154303 &#177; 12729<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-82.05342,-80.29465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH14-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 190954 &#177; 14070<br/>
+<sup>26</sup>Al: 212228 &#177; 18322<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-82.10605,-80.29280</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH14-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 613267 &#177; 49965<br/>
+<sup>26</sup>Al: 739235 &#177; 84463<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-82.12307,-80.29077</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH14-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 292392 &#177; 22111<br/>
+<sup>26</sup>Al: 272340 &#177; 23882<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-82.10860,-80.28788</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH14-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 53214 &#177; 3755<br/>
+<sup>26</sup>Al: 52974 &#177; 4240<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-82.07622,-80.28402</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH14-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5889 &#177; 419<br/>
+<sup>26</sup>Al: 5723 &#177; 453<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-82.17280,-80.26757</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH14-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16255 &#177; 1184<br/>
+<sup>26</sup>Al: 16744 &#177; 1378<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-82.17030,-80.26730</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH14-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 268311 &#177; 20154<br/>
+<sup>26</sup>Al: 173868 &#177; 14724<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-82.21225,-80.26705</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH14-34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 440540 &#177; 34671<br/>
+<sup>26</sup>Al: 483339 &#177; 46788<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-82.15450,-80.27493</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH14-35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5156 &#177; 405<br/>
+<sup>26</sup>Al: 5175 &#177; 438<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-82.15465,-80.27515</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH14-40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 570552 &#177; 45946<br/>
+<sup>26</sup>Al: 703071 &#177; 74752<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-82.17530,-80.26027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH14-41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 697248 &#177; 58505<br/>
+<sup>26</sup>Al: 715889 &#177; 80716<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Sugden et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-82.17542,-80.26027</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

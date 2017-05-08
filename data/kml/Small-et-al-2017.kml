@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Small et al. (2017)</name>
+<description>
+<![CDATA[
+Data from expage-201705<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>T7CAR02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20092 &#177; 1431<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.9234,56.4552</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T7CAR05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19309 &#177; 1355<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.9227,56.4546</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T7CAR07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19835 &#177; 1409<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.9188,56.4524</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T7TMC01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16387 &#177; 1152<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.3443,56.2879</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T7TMC05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16877 &#177; 1182<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.3429,56.2872</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T7TMC06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17085 &#177; 1208<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.3411,56.2862</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16941 &#177; 1326<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.0509,55.9176</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15937 &#177; 1265<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.0512,55.9172</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14466 &#177; 1199<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.0522,55.9176</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T7MIN02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18348 &#177; 1266<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.6306,56.8210</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T7MIN03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21087 &#177; 1459<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-7.6306,56.8210</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T7MIN04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16996 &#177; 1162<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.6317,56.8200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T7MIN06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18573 &#177; 1268<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.6379,56.8152</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T7MIN07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20147 &#177; 1383<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-7.6379,56.8152</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T7SGU02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16662 &#177; 1195<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.4493,57.0526</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T7SGU03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18935 &#177; 1333<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.4496,57.0527</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T7SGU04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16353 &#177; 1174<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Small et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.4511,57.0535</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

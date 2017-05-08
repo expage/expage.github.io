@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Stansell et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201705<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>DRPE14-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13374 &#177; 864<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.32154,-9.83394</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13220 &#177; 848<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.31933,-9.83425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12838 &#177; 819<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.31820,-9.83406</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12730 &#177; 828<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.31853,-9.83399</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12463 &#177; 805<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.31919,-9.83399</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12379 &#177; 799<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.32137,-9.83401</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10006 &#177; 673<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.30528,-9.82233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9872 &#177; 636<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.30401,-9.82256</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9730 &#177; 680<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.30611,-9.82175</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16589 &#177; 1190<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.30389,-9.82013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10020 &#177; 746<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.30384,-9.82049</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9739 &#177; 637<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.30378,-9.82104</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9203 &#177; 617<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.30350,-9.82104</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9170 &#177; 628<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.30383,-9.81999</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9863 &#177; 635<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.29560,-9.81644</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9766 &#177; 651<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.29372,-9.81498</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9505 &#177; 616<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.29470,-9.81614</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9417 &#177; 615<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.29517,-9.81621</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8833 &#177; 572<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.29549,-9.81634</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8595 &#177; 564<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.29420,-9.81546</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8603 &#177; 558<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.27495,-9.81533</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8084 &#177; 519<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.27519,-9.81472</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8029 &#177; 520<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.27505,-9.81507</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5819 &#177; 382<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.27246,-9.81362</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3157 &#177; 214<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.27231,-9.81374</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2012 &#177; 132<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.27232,-9.81379</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 205 &#177; 23<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.27235,-9.81383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3671 &#177; 238<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.26404,-9.79775</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1342 &#177; 88<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.26401,-9.79763</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 556 &#177; 37<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.26408,-9.79780</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DRPE14-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 245 &#177; 18<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Stansell et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-77.26443,-9.79834</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
