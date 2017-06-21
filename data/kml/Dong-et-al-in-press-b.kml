@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dong et al. (in press b)</name>
+<description>
+<![CDATA[
+Data from expage-201706<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>14XZ1-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 776 &#177; 186<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.68991,30.82430</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14XZ1-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 379 &#177; 106<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.69001,30.82429</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14XZ1-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 312 &#177; 82<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.69048,30.82388</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14XZ1-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 422 &#177; 102<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.69046,30.82395</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14XZ3-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61 &#177; 46<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.68933,30.82247</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14XZ3-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 364 &#177; 133<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.68917,30.82236</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14XZ3-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 313 &#177; 96<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.68924,30.82243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14XZ3-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 137 &#177; 70<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press b)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.68904,30.82234</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

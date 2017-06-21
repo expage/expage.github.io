@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dong et al. (in press a)</name>
+<description>
+<![CDATA[
+Data from expage-201706<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>NQDGL15-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20360 &#177; 1864<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.06389,29.85056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQDGL15-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2107 &#177; 265<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.06394,29.85053</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQDGL15-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19269 &#177; 1807<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.06444,29.85169</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQDGL15-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18230 &#177; 1518<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.06469,29.85097</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQDGL15-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19729 &#177; 1859<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.06444,29.85039</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQDGL15-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19039 &#177; 1476<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.06400,29.84264</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQDGL15-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19668 &#177; 1629<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.06403,29.84244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQDGL15-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20470 &#177; 1482<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.06386,29.84256</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQDGL15-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20440 &#177; 1583<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.06383,29.84258</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQDGL15-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19971 &#177; 1507<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Dong et al. (in press a)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.06361,29.84244</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
