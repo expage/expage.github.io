@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Porreca (2017)</name>
+<description>
+<![CDATA[
+Data from expage-201708<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>73-15MI-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 50698 &#177; 3364<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Porreca (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.84906,43.03967</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>73-15M1-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25279 &#177; 1721<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Porreca (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.84917,43.03985</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>73-15MI-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26693 &#177; 1746<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Porreca (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.84788,43.03899</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>73-15M1-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21907 &#177; 1473<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Porreca (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.84753,43.03896</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>73-15M1-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40271 &#177; 2641<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Porreca (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.84657,43.03909</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>74-15M1-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25334 &#177; 1671<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Porreca (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.84720,43.03955</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>74-15M1-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15324 &#177; 1010<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Porreca (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.84746,43.04027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>74-15MI-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17324 &#177; 1142<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Porreca (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.84764,43.04050</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>80-16M1-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15355 &#177; 1023<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Porreca (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.84870,43.04075</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>80-16M1-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13658 &#177; 907<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Porreca (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.84845,43.04067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>80-16M1-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15795 &#177; 1132<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Porreca (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.84870,43.04068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>80-16M1-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17250 &#177; 1147<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Porreca (2017)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-74.84622,43.03938</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

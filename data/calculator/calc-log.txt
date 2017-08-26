@@ -1,27 +1,42 @@
+Log file for the expage 10Be and 26Al exposure age calculator
+
+====================================================================================================
+
+expage-201708 calculator
+Several changes in the output (primarily) and input, plus some changes for calculations with extreme
+concentrations (standard calculations are the same as in expage-201702). Major changes include:
+* Input erosion rate now taken as mm/ka instead of cm/yr.
+* Input for depthcalc.m/depthcalET now taken from input.txt.
+* Name changes: prodcalc.m -> prodrate.m and burial1026.m -> burial.m.
+* Minimum/maximum exposure ages/erosion rates calculated for one-sided saturated samples.
+* Maximum exposure ages calculated for zero age samples.
+* Output including both 10Be and 26Al data (if included in input) and including sample names and
+  header saved in out-expage/out-erosion/out-prodrate/out-preexpE. Samples with no input data (0)
+  yield '-' in output.
+* Plotting of exposure ages possible with points and external uncertainties or probability density
+  curves (for single group samples).
+
+====================================================================================================
+
 2017-07-07
 expage-201702: Minor edit to preexpE.m to fix output for samples with erosion rate >300 mm/ka.
                Minor edit to burial1026.m for nicer plotting.
 
-----------------------------------------------------------------------------------------------------
-
 2017-03-21
 expage-201702: Minor edit of make_al_be_consts.m (added 'STD11' to the 10Be standards).
 
-----------------------------------------------------------------------------------------------------
-
 2017-02-28
 expage-201702: Added code (preexpE.m) for calculating the depth of erosion for the burial episode in
-the case of an exposure-burial-exposure history with defined age1 (time of initial exposure), age2
-(time of initial burial), and age3 (time of last exposure / end of burial).
-
-----------------------------------------------------------------------------------------------------
+               the case of an exposure-burial-exposure history with defined age1 (time of initial
+               exposure), age2 (time of initial burial), and age3 (time of last exposure / end of
+               burial).
 
 expage-201702 calculator
 * Updated the reference production rates to use the P-201702 data.
 * Added code for depth profile exposure age (depthcalc.m) and exposure age / erosion rate simulation
   (depthcalcET.m).
 
-----------------------------------------------------------------------------------------------------
+====================================================================================================
 
 2017-01-19
 expage-201611: Fixed an error (added argument 'consts') in line 192 of burial1026.m.
@@ -31,7 +46,7 @@ expage-201611: Fixed an error in the report part of get_al_be_erosion.m.
 
 2017-01-02
 expage-201611: Added ' to lines 410 and 509 in prodcalib.m to fix a matrix error recognized in
-Octave version 4 (and probably Matlab as well).
+               Octave version 4 (and probably Matlab as well).
 
 expage-201611 calculator
 * Muon production changes:
@@ -52,7 +67,7 @@ expage-201611 calculator
   banana diagram) from combined 26Al and 10Be measurements, using a Monte Carlo simulation approach
   and a simplified time-constant spallation production.
 
-----------------------------------------------------------------------------------------------------
+====================================================================================================
 
 expage-201610 calculator
 New parameter (SPhimu = 416.492) used as 'SPhi' in P_mu_LSD (instead of SPhiInf) to mimic the muon
@@ -60,7 +75,7 @@ production rate calibration in CRONUScalc v 2.0 (Borchers et al. 2016; Marrero e
 et al. 2016). In Lifton et al. (2014) SPhiInf = 462.036 and in CRONUScalc SPhiInf = 416.492. This
 change induces a minimal (<2%) increase in the muon production.
 
-----------------------------------------------------------------------------------------------------
+====================================================================================================
 
 expage-201606 calculator
 10Be and 26Al exposure age calculator based on the CRONUS calculator (Balco et al. 2008) with some

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Godbout et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201708<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>13-PMG-02-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9144 &#177; 638<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Godbout et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-78.93556,49.22640</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-PMG-02-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10328 &#177; 701<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Godbout et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-78.93529,49.22666</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-PMG-02-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9249 &#177; 645<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Godbout et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-78.93519,49.22658</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-PMG-03-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10026 &#177; 700<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Godbout et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-79.55013,49.14309</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-PMG-03-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9758 &#177; 681<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Godbout et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-79.55063,49.14247</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-PMG-03-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11375 &#177; 891<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Godbout et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-79.55115,49.14232</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14-PMG-07-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9866 &#177; 669<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Godbout et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-78.86851,48.92992</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14-PMG-07-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10325 &#177; 700<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Godbout et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-78.86778,48.93010</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14-PMG-07-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9447 &#177; 630<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Godbout et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-78.86706,48.93062</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-PMG-04-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15525 &#177; 1085<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Godbout et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-80.41727,49.24764</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-PMG-04-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17116 &#177; 1197<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Godbout et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-80.41731,49.24775</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-PMG-04-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15864 &#177; 1109<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Godbout et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-80.41560,49.24748</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14-PMG-08-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10894 &#177; 862<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Godbout et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-78.40414,48.33950</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14-PMG-08-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13968 &#177; 921<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Godbout et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-78.40424,48.33940</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14-PMG-08-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15178 &#177; 1030<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Godbout et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-78.40442,48.33941</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

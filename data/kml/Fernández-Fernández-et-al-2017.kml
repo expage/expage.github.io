@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Fernández-Fernández et al. (2017)</name>
+<description>
+<![CDATA[
+Data from expage-201708<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>MEN-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8063 &#177; 631<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.3121,42.1890</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MEN-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6181 &#177; 470<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.3109,42.1894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MEN-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6047 &#177; 682<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.3106,42.1895</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MEN-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7090 &#177; 535<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.3103,42.1898</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MEN-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5859 &#177; 518<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.3112,42.1907</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MEN-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6066 &#177; 444<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.3123,42.1900</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MEN-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6540 &#177; 510<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.3103,42.1918</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MEN-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6251 &#177; 463<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.3086,42.1919</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LOR-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19392 &#177; 3507<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.9645,42.2439</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LOR-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16734 &#177; 1431<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.9638,42.2439</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LOR-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16639 &#177; 1573<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.9634,42.2440</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LOR-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8798 &#177; 849<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.9618,42.2423</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LOR-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16234 &#177; 1802<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.9601,42.2411</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LOR-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10507 &#177; 821<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.9591,42.2417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LOR-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15622 &#177; 1249<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.9592,42.2420</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LOR-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17945 &#177; 2470<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.9575,42.2403</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LOR-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7483 &#177; 699<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Fernández-Fernández et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.9596,42.2430</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
