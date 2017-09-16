@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Terrizzano et al. (2017)</name>
+<description>
+<![CDATA[
+Data from expage-201709<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>AL52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 384937 &#177; 29081<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.77072,-31.66716</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 78702 &#177; 5341<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.77275,-31.66717</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Al41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 192428 &#177; 13357<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.78458,-31.66126</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52675 &#177; 3583<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-69.78393,-31.66207</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL43</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 426798 &#177; 31177<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.78218,-31.66395</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL44</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52275 &#177; 4565<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-69.78218,-31.66395</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL45</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 138200 &#177; 10025<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.77634,-31.67038</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Al46</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 273718 &#177; 19393<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.77470,-31.67099</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL47</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 68563 &#177; 5558<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-69.77470,-31.67099</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26691 &#177; 2046<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.76155,-31.68160</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 84965 &#177; 5938<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.77534,-31.67439</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25537 &#177; 1816<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.77718,-31.67220</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 187620 &#177; 12891<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.78789,-31.66249</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Al34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19052 &#177; 1503<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.78926,-31.66078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Al35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20728 &#177; 1507<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.79005,-31.65835</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17234 &#177; 1255<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.79187,-31.65989</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17389 &#177; 1250<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.79243,-31.65892</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Al21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19057 &#177; 1672<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Terrizzano et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.79171,-31.66204</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

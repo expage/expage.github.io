@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Chevalier et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201709<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>ZDG-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15970 &#177; 1123<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.851290,32.109997</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZDG-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16991 &#177; 1221<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.851279,32.110398</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZDG-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19653 &#177; 1271<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.851023,32.112183</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZDG-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21491 &#177; 1397<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.851143,32.112113</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZDG-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22733 &#177; 1475<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.851186,32.114641</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZDG-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24659 &#177; 1604<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.851970,32.115006</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZDG-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20062 &#177; 1308<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.852399,32.114519</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZDG-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21347 &#177; 1515<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.852038,32.117665</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZDG-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23648 &#177; 1537<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.852347,32.118361</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZDG-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17209 &#177; 1216<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>98.852780,32.119341</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GZ-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52305 &#177; 3372<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.579100,31.728473</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GZ-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33127 &#177; 2137<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.579118,31.728449</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GZ-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25267 &#177; 1642<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.577947,31.728569</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GZ-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 99977 &#177; 6490<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.577378,31.728672</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GZ-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10044 &#177; 681<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.576364,31.728657</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GZ-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14867 &#177; 977<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.575935,31.728642</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GZ-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 65887 &#177; 4254<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.573827,31.728826</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GZ-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 67417 &#177; 4351<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.580608,31.731137</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GZ-10B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52017 &#177; 3440<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.581753,31.731971</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GZ-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 101654 &#177; 6892<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.581215,31.731592</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GZ-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 81609 &#177; 5516<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.580712,31.731267</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GZ-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40578 &#177; 2677<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Chevalier et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.581215,31.731492</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

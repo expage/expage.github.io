@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Crump et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201709<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>SC13-TH01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3606 &#177; 264<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.89688,66.46016</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-TH03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1122 &#177; 93<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.89609,66.46016</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-TH05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1744 &#177; 130<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.89278,66.45971</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-TH07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4466 &#177; 315<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.89264,66.45926</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-TH08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2580 &#177; 188<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.89284,66.45953</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-TH09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2016 &#177; 141<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.89352,66.45956</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-TH10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3358 &#177; 229<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.89622,66.45896</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-TH11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1010 &#177; 81<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.89617,66.45895</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-TH12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2146 &#177; 154<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.89553,66.45878</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-TH13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1932 &#177; 142<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.89555,66.45875</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-TH14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1061 &#177; 78<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.89398,66.45878</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-TH15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1115 &#177; 95<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.89324,66.45838</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-SC01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2267 &#177; 168<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.05571,67.64759</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-SC02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8212 &#177; 623<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.05516,67.64778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-SC03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1660 &#177; 133<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.05536,67.64801</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-SC04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4843 &#177; 340<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.05415,67.64818</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-SC05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4953 &#177; 394<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.05485,67.64831</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-SC07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5575 &#177; 378<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.05311,67.64826</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-SC08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1567 &#177; 121<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.05289,67.64839</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-SC09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10044 &#177; 674<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.05156,67.64924</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-SC10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3272 &#177; 226<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.05116,67.64951</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-SC11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2752 &#177; 202<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.05121,67.64950</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-SC12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5173 &#177; 351<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.05050,67.64924</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC13-SC13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9373 &#177; 749<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.05047,67.64927</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC14-SC02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7633 &#177; 505<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.05253,67.64848</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC14-SC07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1280 &#177; 89<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.05250,67.64773</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC14-SC09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16444 &#177; 1086<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.05005,67.64793</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC14-SC13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10987 &#177; 734<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Crump et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.04528,67.65230</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
