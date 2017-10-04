@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Baroni et al. (2017)</name>
+<description>
+<![CDATA[
+Data from expage-201710<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>LAM-13-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11625 &#177; 837<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Baroni et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.672,46.424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LAM-14-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10192 &#177; 1048<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Baroni et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.682,46.423</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LAM-14-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9986 &#177; 813<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Baroni et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.683,46.422</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LAM-13-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10040 &#177; 893<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Baroni et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.674,46.424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LAM-13-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10531 &#177; 1066<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Baroni et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.674,46.423</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LAM-13-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10562 &#177; 841<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Baroni et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.671,46.426</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LAM-13-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9731 &#177; 778<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Baroni et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.671,46.426</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LAM-13-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9296 &#177; 703<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Baroni et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.672,46.425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POVE-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9635 &#177; 741<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Baroni et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.697,46.417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POVE-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8899 &#177; 704<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Baroni et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.684,46.420</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>POVE-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10130 &#177; 765<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Baroni et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.685,46.420</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
