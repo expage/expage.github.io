@@ -103,22 +103,16 @@
 </div>
 <div class="footer">Contact: <a href="mailto:jakob.heyman@gu.se">jakob.heyman@gu.se</a></div>
 
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['addDownloadExtensions', "kml|kmz"]);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking', true]);
-  (function() {
-    var u="https://35.195.52.204/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '4']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109658021-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109658021-1');
 </script>
-<noscript><p><img src="https://35.195.52.204/piwik.php?idsite=4&rec=1" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
+<!-- End Google Analytics -->
 
 </body>
 </html>

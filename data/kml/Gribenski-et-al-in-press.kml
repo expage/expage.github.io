@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Gribenski et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201711<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>KC13-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18692 &#177; 1256<br/>
+<sup>26</sup>Al: 19952 &#177; 1439<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gribenski et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.0231,48.7111</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KC13-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19191 &#177; 1305<br/>
+<sup>26</sup>Al: 20313 &#177; 1473<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gribenski et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.0232,48.7108</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KC13-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19430 &#177; 1296<br/>
+<sup>26</sup>Al: 19529 &#177; 1425<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gribenski et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.0239,48.7110</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KC13-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11903 &#177; 809<br/>
+<sup>26</sup>Al: 12146 &#177; 887<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gribenski et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.0143,48.6931</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KC13-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21523 &#177; 1439<br/>
+<sup>26</sup>Al: 21799 &#177; 1583<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gribenski et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.0143,48.6934</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KC13-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21597 &#177; 1428<br/>
+<sup>26</sup>Al: 20446 &#177; 1471<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gribenski et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.0134,48.6919</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KC13-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 245412 &#177; 16749<br/>
+<sup>26</sup>Al: 230720 &#177; 17667<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gribenski et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.0300,48.7032</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KC13-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 48099 &#177; 3176<br/>
+<sup>26</sup>Al: 48625 &#177; 3498<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gribenski et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.0311,48.7031</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KC13-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22363 &#177; 1478<br/>
+<sup>26</sup>Al: 21627 &#177; 1579<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gribenski et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.0332,48.7024</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KC13-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 68968 &#177; 4480<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gribenski et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.0562,48.6930</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KC13-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17243 &#177; 1226<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gribenski et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.0562,48.6933</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KC13-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63359 &#177; 4136<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Gribenski et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.0555,48.6939</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

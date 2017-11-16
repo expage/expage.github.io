@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Romundset et al. (2017)</name>
+<description>
+<![CDATA[
+Data from expage-201711<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>PORS-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17354 &#177; 1386<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.1306,70.6848</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PORS-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14287 &#177; 1119<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.1555,70.6849</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PORS-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13710 &#177; 1076<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2963,70.7014</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PORS-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13862 &#177; 1093<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.2933,70.7017</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NKJA-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12495 &#177; 1047<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>26.1834,70.6144</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NSKO-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11704 &#177; 888<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.7770,69.7971</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NSKO-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13676 &#177; 1079<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.7737,69.7954</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NSKO-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11418 &#177; 930<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.7746,69.7952</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NSKO-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11457 &#177; 909<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.7834,69.7945</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NSKO-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6457 &#177; 561<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.8255,69.7448</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NSKO-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5930 &#177; 650<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.8260,69.7447</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NSKO-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12393 &#177; 1008<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.8200,69.7423</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NSKO-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11442 &#177; 942<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.8222,69.7384</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NSKO-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11697 &#177; 912<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.9444,69.7157</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NSKO-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10278 &#177; 820<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.9406,69.7175</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NSKO-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11434 &#177; 987<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.9276,69.7186</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NVAR-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 140213 &#177; 10114<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>30.8142,70.3339</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NVAR-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13633 &#177; 1072<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>30.8910,70.3335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NVAR-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13192 &#177; 980<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>30.8857,70.3322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NVAR-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15545 &#177; 1230<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>30.8881,70.3350</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NVAR-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13561 &#177; 1200<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>30.8892,70.3356</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NVAR-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11489 &#177; 1017<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Romundset et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>30.9041,70.3460</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

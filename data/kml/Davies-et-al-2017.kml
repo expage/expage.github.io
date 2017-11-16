@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Davies et al. (2017)</name>
+<description>
+<![CDATA[
+Data from expage-201711<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>L12-202-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8980 &#177; 727<br/>
+<sup>26</sup>Al: 8484 &#177; 744<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davies et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.4298,-70.8271</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L12-206-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6214 &#177; 499<br/>
+<sup>26</sup>Al: 6084 &#177; 546<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davies et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.3447,-70.8399</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L12-215-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2918 &#177; 274<br/>
+<sup>26</sup>Al: 2605 &#177; 259<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davies et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.4805,-70.8207</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L12-216-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9296 &#177; 715<br/>
+<sup>26</sup>Al: 10329 &#177; 901<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davies et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.5103,-70.8208</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L12-224-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3656 &#177; 444<br/>
+<sup>26</sup>Al: 3772 &#177; 440<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davies et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.3643,-70.8389</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L12-225-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16621 &#177; 1374<br/>
+<sup>26</sup>Al: 36348 &#177; 14851<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davies et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.3675,-70.8382</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L12-226-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7594 &#177; 572<br/>
+<sup>26</sup>Al: 7793 &#177; 657<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davies et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.3337,-70.8443</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L12-231-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3570 &#177; 520<br/>
+<sup>26</sup>Al: 5789 &#177; 2352<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davies et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.4896,-70.8208</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L12-232-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19874 &#177; 1401<br/>
+<sup>26</sup>Al: 18345 &#177; 1406<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davies et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.5018,-70.8217</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L12-238-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10465 &#177; 817<br/>
+<sup>26</sup>Al: 10514 &#177; 845<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davies et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.4186,-70.7862</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L12-244-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4799 &#177; 554<br/>
+<sup>26</sup>Al: 4138 &#177; 408<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davies et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.4049,-70.7953</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L12-245-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8230 &#177; 668<br/>
+<sup>26</sup>Al: 8288 &#177; 737<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davies et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.3156,-70.8667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L12-247-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6462 &#177; 621<br/>
+<sup>26</sup>Al: 5258 &#177; 541<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davies et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.3490,-70.8610</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L12-249-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13435 &#177; 939<br/>
+<sup>26</sup>Al: 12703 &#177; 1225<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davies et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.3924,-70.8601</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>L12-253-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4311 &#177; 622<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Davies et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.5357,-70.8219</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
