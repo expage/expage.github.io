@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Le Roy et al. (2017)</name>
+<description>
+<![CDATA[
+Data from expage-201712<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>RAT01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2350 &#177; 216<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.285005,45.018202</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAT06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2610 &#177; 342<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.284280,45.016990</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAT02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2149 &#177; 201<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.285001,45.018125</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAT10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2575 &#177; 529<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.285508,45.018670</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAT04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2991 &#177; 277<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.285259,45.018282</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAT05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2151 &#177; 215<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.284437,45.016606</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAT07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2940 &#177; 280<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.284831,45.017344</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAT08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3195 &#177; 386<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.286424,45.019633</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RAT09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3689 &#177; 506<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.286780,45.020154</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LAU01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1348 &#177; 189<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Le Roy et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.350837,45.013394</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BON00</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3673 &#177; 507<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Le Roy et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.325778,44.935358</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BON02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4371 &#177; 382<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.324149,44.935748</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BON03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4669 &#177; 602<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.324073,44.935888</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BON04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4322 &#177; 503<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.324965,44.935833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BON05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3636 &#177; 352<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.324488,44.935540</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BON06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3699 &#177; 349<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.323495,44.935798</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BON07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3678 &#177; 416<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Le Roy et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.325607,44.935262</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BON08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2203 &#177; 361<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Le Roy et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.322237,44.936101</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BON09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2080 &#177; 249<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Le Roy et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.321760,44.936275</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BON10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3559 &#177; 318<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Le Roy et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.321639,44.936307</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BON11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5678 &#177; 836<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Le Roy et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.325250,44.935287</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BON12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4226 &#177; 478<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Le Roy et al. (2017)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.325597,44.935227</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ETA01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 908 &#177; 163<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.259764,44.909085</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ETA02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 920 &#177; 151<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/>Le Roy et al. (2017)<br/>Le Roy (2012)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.259700,44.909090</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
