@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Lesnek and Briner (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201801<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>14GROR-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10135 &#177; 676<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.7284,65.8354</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15134 &#177; 1070<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.7282,65.8352</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10167 &#177; 665<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.6145,65.8634</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10173 &#177; 672<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.2542,65.6747</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9520 &#177; 647<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.2558,65.6747</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9964 &#177; 840<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.2727,65.6744</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9786 &#177; 678<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.2842,65.6780</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10187 &#177; 673<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.3626,65.6584</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9532 &#177; 659<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.3555,65.6618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9005 &#177; 596<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.6153,65.8555</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9115 &#177; 607<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.6320,65.8472</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8951 &#177; 605<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.6904,65.8245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9383 &#177; 617<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.3503,65.6512</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9761 &#177; 648<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.3502,65.6509</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8392 &#177; 551<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.3573,65.6515</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9118 &#177; 602<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.3561,65.6512</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8478 &#177; 560<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.3503,65.6512</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8682 &#177; 572<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.3504,65.6511</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8754 &#177; 572<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.3504,65.6510</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9084 &#177; 612<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.3502,65.6509</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8816 &#177; 576<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.3501,65.6508</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8573 &#177; 564<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.3740,65.6521</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8833 &#177; 575<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.3736,65.6523</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GROR-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8728 &#177; 576<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Lesnek and Briner (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.3722,65.6520</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

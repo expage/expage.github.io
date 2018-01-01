@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kronig et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201801<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>VT1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 374 &#177; 149<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kronig et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.83863,45.99993</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VT2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1161 &#177; 164<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kronig et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.83753,46.00067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VT3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2877 &#177; 258<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kronig et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.83790,46.00226</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VT4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10818 &#177; 824<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Kronig et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.83804,46.00317</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VT5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10486 &#177; 793<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kronig et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.83283,46.00387</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VT6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11566 &#177; 794<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Kronig et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.83226,46.00430</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VT7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1473 &#177; 259<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kronig et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.82900,46.00427</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VT8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 959 &#177; 229<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kronig et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.82874,46.00430</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VT10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9447 &#177; 713<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Kronig et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.82301,46.00099</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VT11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10459 &#177; 746<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kronig et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.82301,46.00099</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VT12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 885 &#177; 128<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Kronig et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.80545,46.00291</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
