@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Orr et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201802<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>LATO-1416</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 328 &#177; 39<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.5921,33.6822</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO-1417</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 487 &#177; 35<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.5920,33.6826</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO-1418</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 327 &#177; 26<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.5921,33.6826</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO-1419</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3792 &#177; 348<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.5920,33.6827</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO-1409</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28167 &#177; 1890<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.5953,33.6851</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO-1410</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2684 &#177; 208<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.5953,33.6851</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO-1411</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3762 &#177; 345<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.5952,33.6851</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO-1412</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 486 &#177; 45<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.5957,33.6850</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO-1413</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 931 &#177; 66<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.5957,33.6849</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO-1414</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 646 &#177; 52<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.5954,33.6851</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO-1415</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1363 &#177; 95<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.5920,33.6822</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1405</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1459 &#177; 1317<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6211,33.6805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1408</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1448 &#177; 304<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6211,33.6907</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1426</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13539 &#177; 905<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6635,33.6911</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1427</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13746 &#177; 981<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6662,33.6903</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1428</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19777 &#177; 1372<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6665,33.6905</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1429</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16286 &#177; 1069<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6697,33.6730</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1422</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43091 &#177; 2821<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6537,33.6904</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1423</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39075 &#177; 2580<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6540,33.6904</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1401</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 88097 &#177; 5777<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6710,33.7012</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1402</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52264 &#177; 4018<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6678,33.7017</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1403</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1564 &#177; 944<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6643,33.7021</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZK51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 185159 &#177; 12308<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.7228,34.6780</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZK52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 148569 &#177; 11022<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.7228,33.6780</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZK53</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 74053 &#177; 5849<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.7226,33.6780</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZK54</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 192354 &#177; 13168<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.7222,33.6780</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1420</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14284 &#177; 982<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.6081,33.6914</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1421</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14392 &#177; 945<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.6083,33.6913</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1601</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15579 &#177; 1016<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.6086,33.6911</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1432</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16363 &#177; 1695<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6792,33.6745</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZK58</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24141 &#177; 1668<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6792,33.6747</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZK59</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7648 &#177; 666<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6793,33.6746</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZK60</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26374 &#177; 1795<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6793,33.6749</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LATO1433</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 74224 &#177; 5418<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6933,33.6754</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZK55</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 92124 &#177; 6069<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6945,33.6753</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZK56</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 58902 &#177; 6412<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6949,33.6752</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ZK57</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 84525 &#177; 6730<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Orr et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.6949,33.6749</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

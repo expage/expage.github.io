@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wüthrich et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201802<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>BS1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8521 &#177; 835<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wüthrich et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.4633,46.9144</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18898 &#177; 1848<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wüthrich et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.4886,46.8859</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16375 &#177; 1282<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wüthrich et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.5059,46.9424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15294 &#177; 1075<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wüthrich et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.5156,46.9397</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18073 &#177; 1249<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wüthrich et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.5264,46.9393</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18363 &#177; 1252<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wüthrich et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.5305,46.9400</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GS1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20367 &#177; 2112<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wüthrich et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.4716,46.8664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GS2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7634 &#177; 530<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wüthrich et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.4740,46.8527</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GS3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19525 &#177; 1523<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wüthrich et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.4744,46.8515</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GS4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13185 &#177; 898<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wüthrich et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.4747,46.8512</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GS5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17889 &#177; 1214<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Wüthrich et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.4764,46.8494</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
