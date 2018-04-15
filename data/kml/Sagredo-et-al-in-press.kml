@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sagredo et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201804<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>PC13-01-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12930 &#177; 868<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.359,-47.4936</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC13-01-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13393 &#177; 902<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.357,-47.4894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC13-01-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13604 &#177; 1099<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3569,-47.4873</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC13-01-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13770 &#177; 917<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3559,-47.4837</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC13-01-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12659 &#177; 878<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3778,-47.4809</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC14-01-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12929 &#177; 859<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3780,-47.4816</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC14-01-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13697 &#177; 908<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3834,-47.4929</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC14-01-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14335 &#177; 973<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3836,-47.4933</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC10-01-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13469 &#177; 940<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3728,-47.4754</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC10-01-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12296 &#177; 863<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3735,-47.4760</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC10-01-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13041 &#177; 880<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3740,-47.4803</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC10-01-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16762 &#177; 1118<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3773,-47.4857</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC10-01-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12864 &#177; 855<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3711,-47.4807</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC10-01-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13773 &#177; 968<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3770,-47.4887</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC10-01-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13282 &#177; 929<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3778,-47.4890</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC10-01-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20401 &#177; 1383<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3782,-47.4892</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC10-01-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13472 &#177; 966<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3719,-47.4836</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC10-01-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12867 &#177; 878<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3702,-47.484</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC10-01-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13113 &#177; 863<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3705,-47.4840</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC13-01-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12131 &#177; 864<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3785,-47.4952</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC13-01-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11205 &#177; 802<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3800,-47.4960</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC13-01-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14917 &#177; 993<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3566,-47.4881</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC13-01-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16080 &#177; 1070<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3566,-47.4881</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC14-01-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18702 &#177; 1411<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Sagredo et al. (in press)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3819,-47.4891</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bierman et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201804<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>KLR1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3210 &#177; 351<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bierman et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.68152,67.00760</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KLR2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5400 &#177; 373<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bierman et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.68236,67.00759</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KLR3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5809 &#177; 394<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bierman et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.68344,67.00764</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KLR4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6476 &#177; 442<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bierman et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.68493,67.00760</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLX30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10157 &#177; 730<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bierman et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-45.42644,60.98943</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLX30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10455 &#177; 712<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bierman et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-45.42644,60.98943</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLX31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10049 &#177; 680<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bierman et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-45.42264,60.99129</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLX32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9097 &#177; 615<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bierman et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-45.41969,60.99198</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLX33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8441 &#177; 577<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/>Bierman et al. (in press)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-45.42014,60.99249</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
