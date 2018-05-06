@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ruleman et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201805<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>CR-CO-LN-01-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18010 &#177; 1208<br/>
+<sup>26</sup>Al: 17697 &#177; 1265<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruleman et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.346184,39.275027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-LN-02-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19039 &#177; 1251<br/>
+<sup>26</sup>Al: 18695 &#177; 1337<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruleman et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.347121,39.274890</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-LN-03-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17408 &#177; 1244<br/>
+<sup>26</sup>Al: 17350 &#177; 1274<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruleman et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.348754,39.276025</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-HR-06-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15590 &#177; 1074<br/>
+<sup>26</sup>Al: 16541 &#177; 1313<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruleman et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.370884,39.355012</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-LN-01-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17225 &#177; 1170<br/>
+<sup>26</sup>Al: 17160 &#177; 1297<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruleman et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.368624,39.341505</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-LN-02-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21671 &#177; 1425<br/>
+<sup>26</sup>Al: 21209 &#177; 1528<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruleman et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.340185,39.320923</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-LN-03-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28856 &#177; 1908<br/>
+<sup>26</sup>Al: 27874 &#177; 2063<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruleman et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.341468,39.323125</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-LN-04-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18108 &#177; 1177<br/>
+<sup>26</sup>Al: 17797 &#177; 1280<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruleman et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.354525,39.331840</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-LN-05-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16732 &#177; 1150<br/>
+<sup>26</sup>Al: 16297 &#177; 1211<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Ruleman et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.356820,39.330552</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

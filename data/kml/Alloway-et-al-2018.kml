@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Alloway et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201805<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>LD-02-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17024 &#177; 1833<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Alloway et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.0662,-41.6430</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LD-02-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18606 &#177; 1622<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Alloway et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.0647,-41.6423</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LD-02-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27069 &#177; 2310<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Alloway et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.0659,-41.6421</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LD-02-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18994 &#177; 1658<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Alloway et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.0657,-41.6427</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LD-02-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17561 &#177; 1805<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Alloway et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.0624,-41.6489</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LD-02-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16609 &#177; 1362<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Alloway et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.0621,-41.6478</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LD-02-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18106 &#177; 1480<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/>Alloway et al. (2018)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.0625,-41.6484</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
