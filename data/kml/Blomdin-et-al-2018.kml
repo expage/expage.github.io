@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Blomdin et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201806<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>AL-13-C-017</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32633 &#177; 2194<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.40385,49.77054</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-13-C-018</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 50483 &#177; 3394<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.40565,49.76913</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-13-C-019</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15624 &#177; 1061<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.40622,49.76882</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-13-C-020</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25706 &#177; 1717<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.41248,49.76534</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-13-C-013</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52521 &#177; 3468<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.43187,49.75391</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-13-C-014</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13960 &#177; 959<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.43191,49.75413</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-13-C-015</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20818 &#177; 1365<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.43125,49.75259</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-13-C-016</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33640 &#177; 2226<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.43105,49.75964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL14-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43687 &#177; 2949<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.921409,49.947775</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL14-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43789 &#177; 2920<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.922182,49.948340</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL14-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47592 &#177; 3173<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.922412,49.948138</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL14-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 56145 &#177; 3700<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.922181,49.948703</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL14-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 45468 &#177; 3045<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.922640,49.948907</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL14-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20623 &#177; 2039<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.915207,49.956899</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL14-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26154 &#177; 1909<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.915207,49.956899</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL14-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26113 &#177; 1879<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.913611,49.955990</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL14-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22253 &#177; 1498<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.913397,49.955955</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL14-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18708 &#177; 1320<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Blomdin-et-al-2018.txt">Blomdin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.912388,49.955327</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

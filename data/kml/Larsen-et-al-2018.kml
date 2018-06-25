@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Larsen et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201806<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>GL1623</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10457 &#177; 761<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-18.402,78.620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1625</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11264 &#177; 788<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-18.403,78.620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1626</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10960 &#177; 782<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-18.401,78.621</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1627</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11658 &#177; 810<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-19.091,78.066</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1628</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11896 &#177; 1151<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-19.091,78.066</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1629</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12034 &#177; 881<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-19.092,78.065</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1543</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13856 &#177; 1172<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-19.131,77.544</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1544</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11018 &#177; 1311<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-19.131,77.544</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1545</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21572 &#177; 2004<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-19.131,77.544</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1546</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15314 &#177; 1088<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-19.133,77.544</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1522</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11975 &#177; 898<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-23.093,79.636</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1523</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9184 &#177; 3202<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-23.104,79.637</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1524</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14443 &#177; 1981<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-23.102,79.637</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1518</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11224 &#177; 896<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.381,79.142</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1519</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 50656 &#177; 3672<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.406,79.143</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1520</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11284 &#177; 993<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.412,79.144</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1521</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11683 &#177; 1126<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.410,79.144</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1620</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10003 &#177; 831<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-20.900,79.101</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1622</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10369 &#177; 921<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-20.889,79.100</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1675</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10815 &#177; 913<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-20.776,78.782</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1676</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10054 &#177; 798<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-20.778,78.781</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1677</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12315 &#177; 980<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-20.779,78.782</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1539</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14837 &#177; 1308<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.505,78.067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1540</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12393 &#177; 998<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.505,78.067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1541</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13208 &#177; 1095<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.504,78.067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1614</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12159 &#177; 900<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-19.523,79.600</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1616</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9927 &#177; 728<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-19.524,79.601</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1617</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10371 &#177; 952<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Larsen-et-al-2018.txt">Larsen et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-19.525,79.600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dyke et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201806<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>MF1101</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10526 &#177; 775<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dyke-et-al-in-press.txt">Dyke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-34.980,66.347</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MF1102</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8919 &#177; 668<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dyke-et-al-in-press.txt">Dyke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-34.979,66.347</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MF1103</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9385 &#177; 699<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dyke-et-al-in-press.txt">Dyke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-34.980,66.347</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IK1101</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9494 &#177; 724<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dyke-et-al-in-press.txt">Dyke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-39.228,65.467</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IK1102</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10942 &#177; 965<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dyke-et-al-in-press.txt">Dyke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-39.228,65.467</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KB1103</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10759 &#177; 801<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dyke-et-al-in-press.txt">Dyke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-40.076,64.970</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KB1105</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8878 &#177; 682<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dyke-et-al-in-press.txt">Dyke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-40.076,64.970</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KB1106</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10114 &#177; 760<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dyke-et-al-in-press.txt">Dyke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-40.076,64.970</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GY1107</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9496 &#177; 755<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dyke-et-al-in-press.txt">Dyke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-40.323,64.361</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GY1108</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9721 &#177; 745<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dyke-et-al-in-press.txt">Dyke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-40.321,64.361</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GY1109</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10758 &#177; 786<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dyke-et-al-in-press.txt">Dyke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-40.321,64.361</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

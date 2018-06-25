@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dubé-Loubert et al (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201806<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>13HDL01-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7483 &#177; 566<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.28583,57.50111</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13HDL01-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7618 &#177; 515<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.28639,57.50111</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13HDL01-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7495 &#177; 503<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.28667,57.50083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13HDL01-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7282 &#177; 484<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.28668,57.50083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13HDL04-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7381 &#177; 522<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.20083,57.46027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13HDL04-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8588 &#177; 590<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.20139,57.46027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13HDL04-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7957 &#177; 541<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.20138,57.46027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13HDL04-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14105 &#177; 929<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.20137,57.46027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13HDL06-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7623 &#177; 522<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.69655,56.27122</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13HDL06-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8142 &#177; 557<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.69675,56.27128</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13HDL06-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8235 &#177; 576<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.69689,56.27157</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13HDL06-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7208 &#177; 499<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.69701,56.27181</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13HDL07-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7436 &#177; 533<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.72228,56.60120</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13HDL07-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7322 &#177; 526<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.72236,56.60110</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13HDL07-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7188 &#177; 499<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.72215,56.60095</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13HDL07-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7879 &#177; 533<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.72236,56.60096</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14HDLPF-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7528 &#177; 501<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.26167,57.10722</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14HDLPF-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9494 &#177; 628<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.26194,57.10500</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14HDLPF-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7954 &#177; 549<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.26194,57.10472</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14HDLPF-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8099 &#177; 1549<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.26195,57.10472</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14HDLPF-R-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7944 &#177; 524<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2018.txt">Dubé-Loubert et al (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.31310,57.10210</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

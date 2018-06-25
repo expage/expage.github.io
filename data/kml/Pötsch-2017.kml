@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Pötsch (2017)</name>
+<description>
+<![CDATA[
+Data from expage-201806<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>DBN-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 91819 &#177; 6658<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.343361,47.416833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33347 &#177; 2443<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.346861,47.419361</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34877 &#177; 2559<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.352611,47.416808</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 70553 &#177; 5116<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.355194,47.420278</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19508 &#177; 1487<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.340917,47.405694</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19729 &#177; 1508<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.277250,47.413056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12846 &#177; 996<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.274639,47.414194</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16489 &#177; 1255<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.247694,47.411417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 100513 &#177; 7295<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.215028,47.425028</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24092 &#177; 1823<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.214111,47.424861</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 92288 &#177; 6715<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.369417,47.404306</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 72184 &#177; 5232<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.368389,47.430389</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46746 &#177; 3399<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.274333,47.420361</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35101 &#177; 2573<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.300222,47.392250</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 135746 &#177; 9914<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.300611,47.386278</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 139239 &#177; 10159<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.274889,47.427694</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39755 &#177; 2897<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.279139,47.429194</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DBN-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41481 &#177; 2984<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.308528,47.414806</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23985 &#177; 1758<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.56281,49.69939</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15707 &#177; 1188<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.56378,49.69972</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 76921 &#177; 5546<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.56364,49.70114</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 53906 &#177; 3908<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.56606,49.70194</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19505 &#177; 1490<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.61472,49.75086</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22400 &#177; 1719<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.63586,49.76056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22379 &#177; 1722<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.64014,49.75947</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20882 &#177; 1569<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.64392,49.74675</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19174 &#177; 1420<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.59161,49.71772</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18962 &#177; 1429<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.59297,49.71836</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34127 &#177; 2475<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.59031,49.71625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25265 &#177; 1848<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.58475,49.71564</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 78827 &#177; 5690<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.58444,49.71506</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12700 &#177; 966<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>91.48942,49.71661</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13268 &#177; 1000<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>91.48839,49.71686</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20970 &#177; 1570<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.61628,49.71342</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21986 &#177; 1633<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.60967,49.71003</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25018 &#177; 1829<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>91.60542,49.70703</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14389 &#177; 1276<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>91.507509,49.706756</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OTT-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14708 &#177; 1209<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>91.508568,49.707155</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mon-A-08-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19798 &#177; 1469<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.817833,47.185567</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mon-A-08-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17390 &#177; 1313<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.82105,47.20210</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mon-A-08-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25646 &#177; 1888<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.82105,47.20210</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mon-A-08-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18744 &#177; 1392<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.826467,47.200183</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mon-A-08-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24670 &#177; 1825<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.82195,47.19815</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mon-A-08-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24456 &#177; 1791<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.82110,47.19795</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mon-A-08-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 48724 &#177; 3523<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.802783,47.202417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mon-A-08-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34505 &#177; 2515<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.80310,47.20170</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mon-A-08-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24086 &#177; 1773<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Pötsch-2017.txt">Pötsch (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.80315,47.20140</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

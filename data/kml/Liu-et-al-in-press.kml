@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Liu et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201806<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>XBDN-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2530 &#177; 521<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.745,32.704</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3847 &#177; 499<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.743,32.708</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6818 &#177; 590<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.742,32.708</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9761 &#177; 690<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.743,32.708</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13697 &#177; 1297<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.742,32.710</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13967 &#177; 2288<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.742,32.710</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13792 &#177; 1019<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.742,32.710</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10565 &#177; 699<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.741,32.712</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14515 &#177; 1055<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.741,32.712</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12498 &#177; 1123<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.758,32.726</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12135 &#177; 1110<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.758,32.727</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15067 &#177; 1076<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.757,32.726</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10886 &#177; 1700<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.760,32.733</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12031 &#177; 3089<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.760,32.732</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14596 &#177; 1134<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.759,32.731</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16684 &#177; 1254<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.759,32.731</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13238 &#177; 1477<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.759,32.730</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13814 &#177; 1083<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.756,32.742</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDN-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15037 &#177; 2072<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.758,32.745</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDS-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1624 &#177; 135<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.823,32.663</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDS-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1641 &#177; 116<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.823,32.663</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDS-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2049 &#177; 146<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.823,32.663</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XBDS-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12825 &#177; 854<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liu-et-al-in-press.txt">Liu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>103.815,32.657</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

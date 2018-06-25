@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Farnsworth et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201806<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>NIC-12-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22264 &#177; 1468<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.3256,76.8223</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NIC-12-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39810 &#177; 2635<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.3257,76.8226</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NIC-12-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24122 &#177; 1599<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.3271,76.8229</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NIC-12-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 56768 &#177; 3790<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-67.3308,76.8230</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NIC-12-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16817 &#177; 1159<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.3302,76.8235</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NIC-12-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33573 &#177; 2230<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.3316,76.8235</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NIC-12-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55196 &#177; 3685<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-67.3325,76.8235</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18704 &#177; 1249<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.1123,76.8383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47318 &#177; 3129<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.8870,76.8389</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 79853 &#177; 5294<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.8861,76.8391</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27969 &#177; 1852<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.8864,76.8387</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14880 &#177; 974<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.9005,76.8552</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 69536 &#177; 4652<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-66.9005,76.8552</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5938 &#177; 398<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.9927,76.8235</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5879 &#177; 412<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.9921,76.8253</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2467 &#177; 178<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.9883,76.8233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3070 &#177; 217<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.9883,76.8233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2008 &#177; 145<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.9876,76.8232</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3756 &#177; 263<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.9818,76.8225</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2679 &#177; 186<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.9837,76.8229</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7851 &#177; 526<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.1136,76.8186</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2172 &#177; 170<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.1136,76.8186</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6537 &#177; 429<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.1136,76.8186</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1206 &#177; 79<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.8850,76.8594</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1130 &#177; 74<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.8850,76.8594</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2129 &#177; 141<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.8834,76.8589</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 520 &#177; 36<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.8834,76.8588</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NT-14-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61185 &#177; 4014<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Farnsworth-et-al-2018.txt">Farnsworth et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.8841,76.8592</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

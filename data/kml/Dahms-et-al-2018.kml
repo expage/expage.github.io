@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dahms et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201806<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>TableMtn-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 276441 &#177; 32284<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.760,42.754</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TableMtn-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 114928 &#177; 10688<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.762,42.754</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TableMtn-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 212862 &#177; 16715<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.763,42.753</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TableMtn-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 141925 &#177; 14616<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.765,42.753</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TableMtn-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 205089 &#177; 19981<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.764,42.750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TableMtn-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 319653 &#177; 31085<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.766,42.747</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EastTable-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 218311 &#177; 16057<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.737,42.758</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EastTable-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 159265 &#177; 12085<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.740,42.759</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DeerSpring</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 239904 &#177; 17752<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.810,42.737</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nicholas-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 103151 &#177; 7369<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.789,42.772</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nicholas-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 124321 &#177; 8928<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.791,42.778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nicholas-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 78981 &#177; 6569<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.782,42.773</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pinedale2-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19655 &#177; 1335<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.823,42.741</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pinedale2-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21293 &#177; 1490<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.822,42.740</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pinedale2-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21630 &#177; 1470<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.825,42.740</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pinedale3-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18718 &#177; 1215<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.841,42.735</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pinedale3-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20029 &#177; 1360<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.841,42.733</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PineBar-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23274 &#177; 1726<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.9022,42.86517</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PineBar-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22508 &#177; 1692<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.9022,42.86517</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DickinsonPk1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26079 &#177; 1868<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.0455,42.80728</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DickinsonPk2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16078 &#177; 1187<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.0457,42.80690</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CT7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16962 &#177; 1181<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.1853,42.7762</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CT8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14223 &#177; 1076<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.1853,42.7762</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CT9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14403 &#177; 1033<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.1798,42.7762</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HelenTL-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13229 &#177; 1056<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.004,42.632</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HelenTL-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16307 &#177; 1192<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.005,42.632</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CT1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15099 &#177; 1048<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.2182,42.76833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CT2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14403 &#177; 1028<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.2176,42.76828</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CT5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14533 &#177; 1021<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.2111,42.7766</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CT6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15445 &#177; 1085<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.2130,42.7766</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HelenAl-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12946 &#177; 1058<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.006,42.630</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HelenAl-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12122 &#177; 801<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.006,42.631</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CT3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10755 &#177; 758<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.2229,42.76873</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CT4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11838 &#177; 885<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.2229,42.76873</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-109</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 65506 &#177; 4709<br/>
+<sup>26</sup>Al: 50769 &#177; 4625<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-108.9017,42.7314</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-100</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 24999 &#177; 2117<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-109.0202,42.6494</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-50</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16699 &#177; 1234<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-109.0187,42.6503</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17449 &#177; 1453<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-109.0179,42.6511</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-55</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17307 &#177; 1268<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-109.0147,42.6519</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-57</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15673 &#177; 1157<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-109.0149,42.6523</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-59</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16230 &#177; 1211<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-109.0109,42.6518</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-62</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12021 &#177; 958<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-109.0037,42.6506</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-63</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12901 &#177; 1006<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-109.0035,42.6504</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-66</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14052 &#177; 966<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-109.0011,42.6501</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-68</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17045 &#177; 1207<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-108.9981,42.6495</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-75</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17488 &#177; 1226<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-109.0144,42.6447</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-76</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16045 &#177; 1636<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-109.0138,42.6449</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-78</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15285 &#177; 1111<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-109.0127,42.6447</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-80</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16774 &#177; 1268<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-109.0045,42.6438</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-97</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14038 &#177; 963<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-108.9988,42.6464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-90</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 14864 &#177; 1181<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.9989,42.6550</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97-91</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 14999 &#177; 1218<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dahms-et-al-2018.txt">Dahms et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.9972,42.6525</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

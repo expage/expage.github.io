@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ivy-Ochs et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201806<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>MA1a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19926 &#177; 1537<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ivy-Ochs-et-al-in-press.txt">Ivy-Ochs et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.2959,45.1229</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19585 &#177; 2324<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ivy-Ochs-et-al-in-press.txt">Ivy-Ochs et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.2815,45.0928</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CO4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17924 &#177; 2615<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ivy-Ochs-et-al-in-press.txt">Ivy-Ochs et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.2842,45.1306</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TR1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24203 &#177; 2095<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ivy-Ochs-et-al-in-press.txt">Ivy-Ochs et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.4127,45.0453</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TR2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21212 &#177; 2483<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ivy-Ochs-et-al-in-press.txt">Ivy-Ochs et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.4087,45.0473</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RE1b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26822 &#177; 2659<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ivy-Ochs-et-al-in-press.txt">Ivy-Ochs et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.4301,45.0424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29447 &#177; 2491<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ivy-Ochs-et-al-in-press.txt">Ivy-Ochs et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.3118,45.0857</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26402 &#177; 2078<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ivy-Ochs-et-al-in-press.txt">Ivy-Ochs et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.3113,45.0859</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CO1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38707 &#177; 3010<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ivy-Ochs-et-al-in-press.txt">Ivy-Ochs et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.2737,45.1279</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CO2a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32586 &#177; 2503<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ivy-Ochs-et-al-in-press.txt">Ivy-Ochs et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.2740,45.1279</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CO3a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28144 &#177; 2307<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ivy-Ochs-et-al-in-press.txt">Ivy-Ochs et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.2740,45.1277</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CO3b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27083 &#177; 2009<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ivy-Ochs-et-al-in-press.txt">Ivy-Ochs et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.2740,45.1277</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
