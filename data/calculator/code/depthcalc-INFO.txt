@@ -1,0 +1,93 @@
+Information for depthcalc.m and depthcalcET.m calculating 10Be and 26Al depth profile exposure ages.
+The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2017 mainly based on the CRONUS
+calculator (Balco et al. 2008) and the LSD production rate scaling (Lifton et al. 2014).
+
+depthcalc.m:
+Depth profile calculator for calculating the best-fit 10Be and/or 26Al exposure age.
+
+depthcalcET.m
+Depth profile calculator for calculating the best-fit 10Be and/or 26Al erosion rate / exposure age
+chi-square domain for a range of defined erosion rates and exposure durations.
+
+
+TO USE THE CALCULATORS (depthcalc.m / depthcalcET.m):
+1. Run depthcalc.m / depthcalcET.m in Octave or Matlab.
+2. Best-fit exposure ages and plots (if on) are displayed.
+
+
+General information for both calculators:
+* Nuclide-specific LSD spallation and muon production rate scaling based on simulated cosmic ray
+  fluxes (Lifton et al. 2014) similar to the other expage scripts.
+* Time-dependent spallation production rate with reference production rates based on global average
+  from calibration studies published 2009-2016 calibrated using prodrate.m.
+* Time-constant muon production rate parameterization (modified to reduce near-surface artifacts),
+  including depth dependence for samples with an assumed erosion rate, based on Antarctica depth
+  profile data (Borchers et al. 2016; Marrero et al. 2016; Phillips et al. 2016; Balco 2017) with
+  fstar and sigma0 calibrated using muclib.m.
+* Adjustment of the time-dependent production rate to the year of sampling (assuming a constant
+  production since 2010).
+* Atmospheric pressure based on sample elevation and ERA-40 re-analysis dataset ('std'), Antarctica
+  best-fit interpolation ('ant') (Balco et al. 2008), or given directly ('pre') in hPa.
+* Attenuation length for calculating the spallation production rate adjustments for sample thickness
+  and erosion rate interpolated from atmospheric pressure and cutoff rigidity (Marrero et al. 2016).
+
+depthcalc.m:
+* Depth profile exposure age calculated using chi-square minimization of simulated and measured
+  sample concentrations (10Be and/or 26Al).
+* Internal uncertainty based on best-fit individual sample exposure ages and uncertainties (weighted
+  average). Reference production rate uncertainty added in quadrature to derive external
+  uncertainty.
+
+depthcalcET.m:
+* Calculation of 10Be and/or 26Al concentration reduced chi-square values for a mesh of erosion
+  rates and exposure ages defined by Emin-Emax and Tmin-Tmax (number of grid points defined by
+  ETgrid at line 31).
+* Spline interpolation of the chi-square matrix (to 1000 x 1000 points) to smooth the surface,
+  identification of the minimum chi-square value and associated E and T, and plotting of that best-
+  fit point plus contours for the minimum reduced chi-square value plus the values in vector cl
+  (line 261).
+
+
+INPUT INSTRUCTIONS:
+The input is similar to the input for the CRONUS calcuator version 2 (Balco et al. 2008), with
+sample thickness changed to to mid-point sample depth, changed unit for erosion rate, and the
+addition of sampling year. Each row in input.txt is one sample and should contain 16 columns with
+the following information:
+1. Sample name - (strange characters may cause problems).
+2. Latitude [DD (WGS84)] - North latitudes are positive. South latitudes are negative.
+3. Longitude [DD (WGS84)] - East longitudes are positive. West longitudes are negative.
+4. Elevation/pressure [m a.s.l. / hPa].
+5. Elevation/pressure flag - std/ant/pre (ERA40 elev interpol/Antarctica elev/atmospheric pressure).
+6. Sample thickness [cm].
+7. Sample density [g/cm3].
+8. Correction factor - Unitless factor used for topo/geom shielding correction (no shielding -> 1).
+9. Erosion rate [mm/ka]. NOTE: other unit than in the CRONUS calculator (not used in depthcalcET.m).
+10. 10Be concentration [atoms/g] - (if no 10Be measurement: use 0).
+11. 10Be concentration uncertainty [atoms/g] - (if no 10Be measurement: use 0).
+12. 10Be standardization - See make_al_be_consts.m lines 51-55 for acceptable names and values.
+13. 26Al concentration [atoms/g] - (if no 26Al measurement: use 0).
+14. 26Al concentration uncertainty [atoms/g] - (if no 26Al measurement: use 0).
+15. 26Al standardization - See make_al_be_consts.m lines 58-59 for acceptable names and values.
+16. Sampling year [CE].
+
+Only in depthcalcET.m (rows 16-23) =================================================================
+Tmin - Minimum exposure age to test (yr before sampling).
+Tmax - Maximum exposure age to test (yr before sampling).
+Emin - Minimum erosion rate to test (mm/ka).
+Emax - Maximum erosion rate to test (mm/ka).
+ETgrid - Number of E and T points to make an ET mesh for testing the fit to measured concentrations.
+====================================================================================================
+
+
+OUTPUT depthcalc.m:
+The calculator displays the best-fit exposure age (internal uncertainty in parenthesis), reduced
+chi-square value, and associated P-value. If plotting is on, a pĺot with individual sample
+concentrations (red points) and best-fit depth profile concentration (black line) is displayed for
+the 10Be and/or 26Al data. No output file is saved.
+
+OUTPUT depthcalcET.m:
+The calculator displays the range of exposure duration (T-range) and erosion (E-range), the best-fit
+erosion (E), exposure age (T), reduced chi-square value (Rchi2), and associated P-value for the 10Be
+and/or 26Al data. A plot with the best-fit E and T value (point) and contour lines for the minimum
+reduced chi-square value plus [0.05 0.5 1.0 2.0] (defined by cl at line 261) is displayed for the
+10Be and/or 26Al data. No output file is saved.

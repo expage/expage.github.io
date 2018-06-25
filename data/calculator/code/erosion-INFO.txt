@@ -1,0 +1,59 @@
+Information for erosion.m calculating 10Be and 26Al erosion rates.
+The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2018 mainly based on the CRONUS
+calculator (Balco et al. 2008) and the LSD production rate scaling (Lifton et al. 2014).
+
+
+TO USE THE CALCULATOR:
+1. Fix the input.txt file (see below).
+2. Run erosion.m in Octave or Matlab.
+3. 10Be and/or 26Al erosion rates (m/Ma) are saved in out-erosion.txt.
+
+
+The calculator is based on the CRONUS calculator (Balco et al. 2008) with some modifications:
+* Nuclide-specific LSD spallation and muon production rate scaling based on simulated cosmic ray
+  fluxes (Lifton et al. 2014).
+* Time-dependent spallation production rate with reference production rates based on global average
+  from calibration studies published 2009-2016 calibrated using prodrate.m.
+* Time-constant muon production rate parameterization (modified to reduce near-surface artifacts)
+  based on Antarctica depth profile data (Borchers et al. 2016; Marrero et al. 2016; Phillips et al.
+  2016; Balco 2017) with fstar and sigma0 calibrated using muclib.m.
+* Adjustment of the time-dependent production rate to the year of sampling (assuming a constant
+  production since 2010).
+* Atmospheric pressure based on sample elevation and ERA-40 re-analysis dataset ('std'), Antarctica
+  best-fit interpolation ('ant') (Balco et al. 2008), or given directly ('pre') in hPa.
+* Attenuation length for calculating the spallation production rate adjustments for sample thickness
+  and erosion rate interpolated from atmospheric pressure and cutoff rigidity (Marrero et al. 2016).
+* Maximum erosion rates calculated for saturated samples based on conc-unc (saved as uncertainty).
+
+
+INPUT INSTRUCTIONS:
+The input is similar to the input for the CRONUS calcuator version 2 (Balco et al. 2008), with the
+addition of sampling year. Each row in input.txt is one sample and should contain 15 or 16 columns
+with the following information:
+1. Sample name - (strange characters may cause problems).
+2. Latitude [DD (WGS84)] - North latitudes are positive. South latitudes are negative.
+3. Longitude [DD (WGS84)] - East longitudes are positive. West longitudes are negative.
+4. Elevation/pressure [m a.s.l. / hPa].
+5. Elevation/pressure flag - std/ant/pre (ERA40 elev interpol/Antarctica elev/atmospheric pressure).
+6. Sample thickness [cm].
+7. Sample density [g/cm3].
+8. Correction factor - Unitless factor used for topo/geom shielding correction (no shielding -> 1).
+9. 10Be concentration [atoms/g] - (if no 10Be measurement: use 0).
+10. 10Be concentration uncertainty [atoms/g] - (if no 10Be measurement: use 0).
+11. 10Be standardization - See make_al_be_consts.m lines 51-55 for acceptable names and values.
+12. 26Al concentration [atoms/g] - (if no 26Al measurement: use 0).
+13. 26Al concentration uncertainty [atoms/g] - (if no 26Al measurement: use 0).
+14. 26Al standardization - See make_al_be_consts.m lines 58-59 for acceptable names and values.
+15. Sampling year [CE].
+If using 16 columns:
+9. Any number (not used - option included to allow for standard expage input)
+10-16. See 9-15 above.
+
+
+OUTPUT INFORMATION:
+The calculator saves 10Be and/or 26Al erosion rates in the file out-erosion.txt.
+Erosion rates (mm/ka) are saved with external and internal uncertainties (Balco et al. 2008).
+Saturated samples yield erosion rates of 0.
+Samples with 0/0 concentration/uncertainty yield '-' in the output.
+If all input 10Be concentration/uncertainty are 0/0 no 10Be erosion rates are saved.
+If all input 26Al concentration/uncertainty are 0/0 no 26Al erosion rates are saved.

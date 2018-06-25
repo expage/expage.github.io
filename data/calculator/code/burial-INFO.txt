@@ -1,0 +1,62 @@
+Information for burial.m calculating simple exposure and burial durations for combined 10Be and 26Al
+measurements. The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2017 mainly based on
+the CRONUS calculator (Balco et al. 2008) and the LSD production rate scaling (Lifton et al. 2014).
+
+
+TO USE THE CALCULATOR:
+1. Fix the input.txt file (see below).
+2. Set plot option parameters in lines 15-20 for banana plot (1 or 0).
+3. Run burial.m in Octave or Matlab.
+4. Simple exposure and burial durations (yr) are saved in out-burial.txt
+
+
+The calculator is based on the CRONUS calculator (Balco et al. 2008) with some modifications:
+* Nuclide-specific LSD spallation and muon production rate scaling based on simulated cosmic ray
+  fluxes (Lifton et al. 2014).
+* Time-constant spallation production rate based on RcEst value with expage global average reference
+  production rates. Note that this is different from the expage exposure age calculator using a
+  time-dependent spallation production rate. As the 26/10 exposure and burial uncertainties are
+  generally large, the error introduced by this simplification is insignificant.
+* Time-constant muon production rate parameterization (modified to reduce near-surface artifacts)
+  based on Antarctica depth profile data (Borchers et al. 2016; Marrero et al. 2016; Phillips et al.
+  2016) with fstar and sigma0 calibrated using muclib.m.
+* Atmospheric pressure based on sample elevation and ERA-40 re-analysis dataset ('std'), Antarctica
+  best-fit interpolation ('ant') (Balco et al. 2008), or given directly ('pre') in hPa.
+* Attenuation length for calculating the spallation production rate adjustments for sample thickness
+  and erosion rate interpolated from atmospheric pressure and cutoff rigidity (Marrero et al. 2016).
+* A simple history is assumed with one constant (zero erosion) duration of exposure followed by one
+  period of burial (until sampling). To get the burial duration the 26/10 ratio is back-projected to
+  the simple exposure line. Burial is calculated from -10 Ma to 10 Ma, where sample 26/10 ratios
+  above the simple exposure line yield negative burial durations. The projected 10Be concentration
+  is used to calculate the simple exposure duration. To estimate the burial and simple exposure
+  duration uncertainties a Monte Carlo simulation approach (100000 mc runs) is adopted including the
+  10Be and 26Al concentration uncertainties and the reference production rate uncertainties.
+
+
+INPUT INSTRUCTIONS:
+The input is similar to the input for the CRONUS calcuator version 2 (Balco et al. 2008), with the
+addition of sampling year. Each row in input.txt is one sample and should contain 16 columns with
+the following information:
+1. Sample name - (strange characters may cause problems).
+2. Latitude [DD (WGS84)] - North latitudes are positive. South latitudes are negative.
+3. Longitude [DD (WGS84)] - East longitudes are positive. West longitudes are negative.
+4. Elevation/pressure [m a.s.l. / hPa].
+5. Elevation/pressure flag - std/ant/pre (ERA40 elev interpol/Antarctica elev/atmospheric pressure).
+6. Sample thickness [cm].
+7. Sample density [g/cm3].
+8. Correction factor - Unitless factor used for topo/geom shielding correction (no shielding -> 1).
+9. Erosion rate [mm/ka]. NOTE: different unit than in the CRONUS calculator. NOT USED HERE!
+10. 10Be concentration [atoms/g] - (if no 10Be measurement: use 0).
+11. 10Be concentration uncertainty [atoms/g] - (if no 10Be measurement: use 0).
+12. 10Be standardization - See make_al_be_consts.m lines 51-55 for acceptable names and values.
+13. 26Al concentration [atoms/g] - (if no 26Al measurement: use 0).
+14. 26Al concentration uncertainty [atoms/g] - (if no 26Al measurement: use 0).
+15. 26Al standardization - See make_al_be_consts.m lines 58-59 for acceptable names and values.
+16. Sampling year [CE].
+
+
+OUTPUT INFORMATION:
+The calculator saves simple exposure and burial durations (yr) in the file out-burial.txt.
+Samples with 10Be and/or 26Al concentration = 0 yield '-' in the output.
+If normNout = 1 (line 23 in burial.m), the calculator will also save sample concentrations and
+uncertainties normalized to the sample production rate (for later plotting).

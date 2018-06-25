@@ -1,0 +1,25 @@
+Information for mucalib.m calibrating muon parameters fstar and sigma0 for the expage calculator.
+The code is assembled and fixed by Jakob Heyman (jakob.heyman@gu.se) 2016-2018 based on CRONUScalc
+code (Marrero et al. 2016) from https://bitbucket.org/cronusearth/cronus-calc.
+
+This code calibrates fstar and sigma0 for 10Be and 26Al production by muons using the CRONUScalc
+calibration method with the Levenberg-Marquardt algorithm to fit the seven parameters below to
+measured 10Be and 26Al depth profile data. The code is setup for calibration of data from four
+sites:
+Beacon Heights (Borchers et al. 2016; Marrero et al. 2016; Phillips et al. 2016; Balco 2017)
+Leymon High (Braucher et al. 2013; Balco 2017)
+Leymon Low (Braucher et al. 2013; Balco 2017)
+La Ciotat (Braucher et al. 2011; Balco 2017)
+
+Parameters:
+* erosion rate ([g/cm2]/ka)
+* attenuation length for 10-Be (g/cm2)
+* attenuation length for 26-Al (g/cm2)
+* fstar10 (scaled by 1.0e-3)
+* sigma010 (scaled by 1.0e-30)
+* fstar26 (scaled by 1.0e-3)
+* sigma026 (scaled by 1.0e-30)
+
+TO USE THE CODE:
+1. Choose site in mucalib.m, line 14
+2. Run mucalib.m
