@@ -15,9 +15,9 @@ ver = '201806';
 % do choices here ==================================================================================
 % min and max Pref (atoms/g/yr)
 Pmin10 = 3;
-Pmax10 = 5;
+Pmax10 = 6;
 Pmin26 = 20;
-Pmax26 = 40;
+Pmax26 = 50;
 
 % plotting / cluster test?
 plotting = 1; % plot Pref probability curves (1 = yes)
@@ -97,7 +97,7 @@ calage10 = []; calunc10 = []; calage26 = []; calunc26 = [];
 % number of 10Be and 26Al samples
 num10 = 0;
 num26 = 0;
-OKsample = []; % variable for outlier removal
+OKsample = []; OK10 = []; OK26 = []; % variables for outlier removal
 
 % fix for output
 output(1,1) = {'sample'};
@@ -342,7 +342,7 @@ if num10 > 1;
         cl.maxoutratio=maxoutratio; cl.mingroupn=mingroupn; cl.chiprob=chiprob;
         
         % find clustered Pref by removing outliers
-        [Pref,Prefunc,rchisq,Pvalue,OKsample] = get_cluster(cl);
+        [Pref,Prefunc,rchisq,Pvalue,OKsample,OK10] = get_cluster(cl);
         
         % mark OK samples in output
         output(OKsample+1,outn(3)) = {'X'};
@@ -370,7 +370,7 @@ if num10 > 1;
     
     % do plotting here...
     if plotting == 1;
-        plot_Pref(Pmin10-0.5,Pmax10+0.5,0.01,Pref10v',Punc10v',Pref,Prefunc,'^{10}Be',OKsample);
+        plot_Pref(Pmin10-0.5,Pmax10+0.5,0.01,Pref10v',Punc10v',Pref,Prefunc,'^{10}Be',OK10);
     end;
 end;
 
@@ -387,7 +387,7 @@ if num26 > 1;
         cl.maxoutratio=maxoutratio; cl.mingroupn=mingroupn; cl.chiprob=chiprob;
         
         % find clustered Pref by removing outliers
-        [Pref,Prefunc,rchisq,Pvalue,OKsample] = get_cluster(cl);
+        [Pref,Prefunc,rchisq,Pvalue,OKsample,OK26] = get_cluster(cl);
         
         % mark OK samples in output
         output(OKsample+1,outn(6)) = {'X'};
@@ -415,7 +415,7 @@ if num26 > 1;
     
     % do plotting here...
     if plotting == 1;
-        plot_Pref(Pmin26-5,Pmax26+5,0.02,Pref26v',Punc26v',Pref,Prefunc,'^{26}Al',OKsample);
+        plot_Pref(Pmin26-5,Pmax26+5,0.02,Pref26v',Punc26v',Pref,Prefunc,'^{26}Al',OK26);
     end;
 end;
 
@@ -552,9 +552,10 @@ function [Pref,Prefunc,rchisq,Pvalue] = get_Pref(age,unc,calage,calunc,Pvect);
 
 
 % subfunction get_cluster ==========================================================================
-function [Pref,Prefunc,rchisq,Pvalue,OKsample] = get_cluster(cl);
+function [Pref,Prefunc,rchisq,Pvalue,OKsample,OKnucl] = get_cluster(cl);
     % in variables
     inPref = cl.Pref; inPrefunc = cl.Prefunc; inrchisq = cl.rchisq; inPvalue = cl.Pvalue;
+    OKnucl = (1:1:numel(cl.Prowv));
     
     % define maximum number of outliers
     remove = floor(cl.num*cl.maxoutratio);
@@ -571,7 +572,8 @@ function [Pref,Prefunc,rchisq,Pvalue,OKsample] = get_cluster(cl);
         % remove outlier
         cl.age(rmv_idx,:) = []; cl.unc(rmv_idx,:) = [];
         cl.calage(rmv_idx,:) = []; cl.calunc(rmv_idx,:) = [];
-        cl.Prefv(rmv_idx) = []; cl.Puncv(rmv_idx) = []; cl.Prowv(rmv_idx) = [];
+        cl.Prefv(rmv_idx) = []; cl.Puncv(rmv_idx) = [];
+        cl.Prowv(rmv_idx) = []; OKnucl(rmv_idx) = [];
         
         % calculate Pref
         [cl.Pref,cl.Prefunc,cl.rchisq,cl.Pvalue] = ...
@@ -582,7 +584,7 @@ function [Pref,Prefunc,rchisq,Pvalue,OKsample] = get_cluster(cl);
     
     % if not well-clustered: use input variables and remove row numbers
     if cl.Pvalue < cl.chiprob || numel(cl.Prowv) < cl.mingroupn;
-        cl.Prowv = [];
+        cl.Prowv = []; OKnucl = [];
         % use input variables
         cl.Pref = inPref; cl.Prefunc = inPrefunc; cl.rchisq = inrchisq; cl.Pvalue = inPvalue;
     end;

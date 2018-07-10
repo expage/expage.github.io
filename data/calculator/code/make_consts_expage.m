@@ -46,13 +46,13 @@ consts.al_stds_cfs = [1 0.9134 1 1.021 1.021 1 1]';
 % 10Be production rates are referenced to 07KNSTD.
 % 26Al production rates are referenced to KNSTD.
 
-% Be-10 production rates - global expage-201708 ref prod rate
+% Be-10 production rates - global expage-201806 ref prod rate
 consts.P10_ref_nu = 3.98;
-consts.delP10_ref_nu = 0.25;
+consts.delP10_ref_nu = 0.22;
 consts.P10_ref_sp = 4; % not properly calibrated!
 consts.delP10_ref_sp = 0.3; % not properly calibrated!
 
-% Al-26 production rates - global expage-201708 ref prod rate
+% Al-26 production rates - global expage-201806 ref prod rate
 consts.P26_ref_nu = 28.42;
 consts.delP26_ref_nu = 1.87;
 consts.P26_ref_sp = 29; % not properly calibrated!
