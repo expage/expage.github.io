@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Schweinsberg et al. (2018a)</name>
+<description>
+<![CDATA[
+Data from expage-201807<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>16NUS-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 259 &#177; 21<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.015,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 275 &#177; 31<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.016,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2809 &#177; 170<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.016,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 249 &#177; 24<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.013,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2204 &#177; 132<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.013,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 308 &#177; 26<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.014,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 613 &#177; 45<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.015,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 505 &#177; 44<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.015,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 469 &#177; 32<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.016,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1055 &#177; 91<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.019,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 926 &#177; 70<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.018,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 534 &#177; 43<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.017,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1006 &#177; 65<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.017,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4215 &#177; 251<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.014,70.314</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 166915 &#177; 9777<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.015,70.314</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 834 &#177; 53<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.016,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1150 &#177; 83<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.017,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 990 &#177; 73<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.018,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 774 &#177; 51<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.018,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 807 &#177; 62<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.018,70.315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1250 &#177; 78<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.014,70.314</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 857 &#177; 72<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.014,70.314</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 802 &#177; 73<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-52.015,70.314</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10945 &#177; 670<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.490,70.197</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16NUS-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8463 &#177; 575<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.491,70.197</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GROR-66</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10919 &#177; 641<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.463,70.338</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GROR-67</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10213 &#177; 591<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.465,70.338</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GROR-68</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11881 &#177; 698<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-2018a.txt">Schweinsberg et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-51.495,70.341</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
