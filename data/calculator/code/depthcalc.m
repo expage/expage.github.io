@@ -362,7 +362,11 @@ function [age,ageunc_int,ageunc_ext] = ...
     age = tvint(idx);
     
     % estimate depth profile age uncertainty
-    ageunc_int = sqrt(1./sum(deltt.^-2) .* 1./(numel(N)-1) .* sum((age-tt).^2./deltt.^2));
+    ageunc_int = sqrt(1./sum((deltt./tt).^-2) .* 1./(numel(N)-1) .* ...
+        sum((age-tt).^2./(deltt./tt).^2));
+    if absunc == 1;
+        ageunc_int = sqrt(1./sum(deltt.^-2) .* 1./(numel(N)-1) .* sum((age-tt).^2./deltt.^2));
+    end;
     ageunc_ext = sqrt(ageunc_int.^2 + (delPref./Pref.*age).^2);
     
     Rchi2 = chimin./(numel(N)-1);
