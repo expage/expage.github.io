@@ -98,9 +98,10 @@ Plotting choices (lines 75-95): various settings for the plots.
 OUTPUT INFORMATION:
 The calculator can plot various data plus saves an output file out-glacialE.txt.
 For glacEcalc = 1, the output contains the erosion rate/step plus positive and negative uncertainty
-(including production rate uncertainty), plus the full erosion depth at 100 ka and 1 Ma (if <mt).
+(including production rate uncertainty), plus the full erosion depth at 100 ka and 1 Ma (if <=mt).
 For range1nucl = 1 and/or range2nucl = 1, the output contains possible min and max values for the
-parameters glacial erosion, non-glacial erosion, and LR04 break values.
+parameters glacial erosion, non-glacial erosion, and LR04 break values, plus the full erosion depth
+at 100 ka and 1 Ma (if <=mt).
 Samples with 0 concentration yield '-' in the output.
 If all input 10Be concentration/uncertainty are 0/0 no 10Be erosion data will be saved.
 If all input 26Al concentration/uncertainty are 0/0 no 26Al erosion data will be saved.

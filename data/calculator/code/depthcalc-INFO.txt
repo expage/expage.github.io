@@ -32,8 +32,10 @@ General information for both calculators:
   and erosion rate interpolated from atmospheric pressure and cutoff rigidity (Marrero et al. 2016).
 
 depthcalc.m:
-* Depth profile exposure age calculated using chi-square minimization of simulated and measured
-  sample concentrations (10Be and/or 26Al).
+* Depth profile exposure age estimated with error minimization of simulated and measured sample
+  concentrations (10Be and/or 26Al) using relative concentration uncertainties as weights. Standard
+  chi-square minimization (with absolute concentration uncertainties as weights) can be used by
+  setting absunc = 1 in line 19.
 * Internal uncertainty based on best-fit individual sample exposure ages and uncertainties (weighted
   average). Reference production rate uncertainty added in quadrature to derive external
   uncertainty.

@@ -24,9 +24,9 @@ mt = 1E6;
 glacErate = 1;
 
 % which calculation(s) to do? 1 = yes, 0 = no
-glacEcalc = 1;  % simple glacial erosion rate calculation (single nuclides)
-range1nucl = 0; % calculate possible ranges for parameters (single nuclides)
-range2nucl = 0; % calculate possible ranges for parameters (10Be + 26Al)
+glacEcalc = 0;  % simple glacial erosion rate calculation (single nuclides)
+range1nucl = 1; % calculate possible ranges for parameters (single nuclides)
+range2nucl = 1; % calculate possible ranges for parameters (10Be + 26Al)
 
 % depth of burial when sampled - for surface samples this is 0
 burialdepth = 0; % cm
@@ -209,8 +209,7 @@ if sum(samplein.N10)>0 && glacEcalc==1;
     else; % if using erosion steps
         output(1,end+1:end+3) = {'10E(cm/glac)','10E+(cm/glac)','10E-(cm/glac)'};
     end;
-    outn(1) = max(outn)+1;
-    outn(2) = max(outn)+2;
+    outn(1) = max(outn)+1; outn(2) = max(outn)+2;
     if mt >= 1E5;
         output(1,end+1) = {'10E-100ka(m)'};
         outn(3) = max(outn)+1;
@@ -226,8 +225,7 @@ if sum(samplein.N26)>0 && glacEcalc==1;
     else; % if using erosion steps
         output(1,end+1:end+3) = {'26E(cm/glac)','26E+(cm/glac)','26E-(cm/glac)'};
     end;
-    outn(5) = max(outn)+1;
-    outn(6) = max(outn)+2;
+    outn(5) = max(outn)+1; outn(6) = max(outn)+2;
     if mt >= 1E5;
         output(1,end+1) = {'26E-100ka(m)'};
         outn(7) = max(outn)+1;
@@ -245,8 +243,15 @@ if sum(samplein.N10)>0 && range1nucl == 1;
         output(1,end+1:end+6) = {'glacEmin10(cm/glac)','glacEmax10(cm/glac)',...
             'nonglacEmin10(mm/ka)','nonglacEmax10(mm/ka)','LR04min10(‰)','LR04max10(‰)'};
     end;
-    outn(9) = max(outn)+1;
-    outn(10) = max(outn)+5;
+    outn(9) = max(outn)+1; outn(10) = max(outn)+5;
+    if mt >= 1E5;
+        output(1,end+1:end+2) = {'10Emin-100ka(m)','10Emax-100ka(m)'};
+        outn(11) = max(outn)+1; outn(12) = max(outn)+1;
+    end;
+    if mt >= 1E6;
+        output(1,end+1:end+2) = {'10Emin-1Ma(m)','10Emax-1Ma(m)'};
+        outn(13) = max(outn)+1; outn(14) = max(outn)+1;
+    end;
 end;
 if sum(samplein.N26)>0 && range1nucl == 1;
     if glacErate == 1; % if using erosion rate
@@ -256,8 +261,15 @@ if sum(samplein.N26)>0 && range1nucl == 1;
         output(1,end+1:end+6) = {'glacEmin26(cm/glac)','glacEmax26(cm/glac)',...
             'nonglacEmin26(mm/ka)','nonglacEmax26(mm/ka)','LR04min26(‰)','LR04max26(‰)'};
     end;
-    outn(11) = max(outn)+1;
-    outn(12) = max(outn)+5;
+    outn(15) = max(outn)+1; outn(16) = max(outn)+5;
+    if mt >= 1E5;
+        output(1,end+1:end+2) = {'26Emin-100ka(m)','26Emax-100ka(m)'};
+        outn(17) = max(outn)+1; outn(18) = max(outn)+1;
+    end;
+    if mt >= 1E6;
+        output(1,end+1:end+2) = {'26Emin-1Ma(m)','26Emax-1Ma(m)'};
+        outn(19) = max(outn)+1; outn(20) = max(outn)+1;
+    end;
 end;
 if sum(samplein.N10.*samplein.N26)>0 && range2nucl == 1;
     if glacErate == 1; % if using erosion rate
@@ -267,8 +279,15 @@ if sum(samplein.N10.*samplein.N26)>0 && range2nucl == 1;
         output(1,end+1:end+6) = {'glacEmin1026(cm/glac)','glacEmax1026(cm/glac)',...
             'nonglacEmin1026(mm/ka)','nonglacEmax1026(mm/ka)','LR04min1026(‰)','LR04max10(‰)'};
     end;
-    outn(13) = max(outn)+1;
-    outn(14) = max(outn)+5;
+    outn(21) = max(outn)+1; outn(22) = max(outn)+5;
+    if mt >= 1E5;
+        output(1,end+1:end+2) = {'1026Emin-100ka(m)','1026Emax-100ka(m)'};
+        outn(23) = max(outn)+1; outn(24) = max(outn)+1;
+    end;
+    if mt >= 1E6;
+        output(1,end+1:end+2) = {'1026Emin-1Ma(m)','1026Emax-1Ma(m)'};
+        outn(25) = max(outn)+1; outn(26) = max(outn)+1;
+    end;
 end;
 
 % pick out samples one by one
@@ -969,12 +988,18 @@ for i = 1:numel(samplein.lat);
                 % fix for output and plotting
                 if min(find(looptest==0)) == 1;
                     outnr1 = outn(9); outnr2 = outn(10);
+                    if mt >= 1E5; outnr3 = outn(11); outnr4 = outn(12); end;
+                    if mt >= 1E6; outnr5 = outn(13); outnr6 = outn(14); end;
                     plr = pl(3); % fix for plotting
                 elseif min(find(looptest==0)) == 2;
-                    outnr1 = outn(11); outnr2 = outn(12);
+                    outnr1 = outn(15); outnr2 = outn(16);
+                    if mt >= 1E5; outnr3 = outn(17); outnr4 = outn(18); end;
+                    if mt >= 1E6; outnr5 = outn(19); outnr6 = outn(20); end;
                     plr = pl(4); % fix for plotting
                 elseif min(find(looptest==0)) == 3;
-                    outnr1 = outn(13); outnr2 = outn(14);
+                    outnr1 = outn(21); outnr2 = outn(22);
+                    if mt >= 1E5; outnr3 = outn(23); outnr4 = outn(24); end;
+                    if mt >= 1E6; outnr5 = outn(25); outnr6 = outn(26); end;
                     plr = pl(5); % fix for plotting
                 end;
                 % write output
@@ -989,8 +1014,22 @@ for i = 1:numel(samplein.lat);
                     '\nglacE: %.2f-%.2f %s   nonglacE: %.2f-%.2f mm/ka   LR04: %.2f-%.2f ‰',...
                     min(glacEok),max(glacEok),glacEunit,min(nonglacEok),max(nonglacEok),...
                     min(LR04ok),max(LR04ok));
+                    
+                    % calculate and write depth history
+                    if max(tv) >= 1E5; % d(m) 100 ka
+                        ddm_min = min(ddmok')./1E2; % min sample depth (m)
+                        ddm_max = max(ddmok')./1E2; % max sample depth (m)
+                        output(i+1,outnr3) = {num2str(interp1(tv,ddm_min,1E5,'pchip'),'%.2f')};
+                        output(i+1,outnr4) = {num2str(interp1(tv,ddm_max,1E5,'pchip'),'%.2f')};
+                    end;
+                    if max(tv) >= 1E6; % d(m) 1 Ma
+                        output(i+1,outnr5) = {num2str(interp1(tv,ddm_min,1E6,'pchip'),'%.2f')};
+                        output(i+1,outnr6) = {num2str(interp1(tv,ddm_max,1E6,'pchip'),'%.2f')};
+                    end;
                 else;
                     output(i+1,outnr1:outnr2) = {'nohit'};
+                    if max(tv) >= 1E5; output(i+1,outnr3:outnr4) = {'nohit'}; end;
+                    if max(tv) >= 1E6; output(i+1,outnr5:outnr6) = {'nohit'}; end;
                     fprintf(1,'\nno hits possible!');
                 end;
                 

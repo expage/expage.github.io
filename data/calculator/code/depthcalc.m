@@ -1,8 +1,9 @@
 function depthcalc()
 
-% Depth profile 10Be/26Al exposure age calculator calculating the best fit depth profile exposure
-% age. The calculation is done using the expage calculator production rates (nuclide-specific LSD
-% scaling). At least two concentrations must be given for the calculator to work.
+% Depth profile 10Be/26Al exposure age calculator calculating the best-fit depth profile exposure
+% age calculated using relative concentration uncertainties (absolute unertainties can be used - see
+% lines 18-19 below). The calculation is done using the expage calculator production rates (nuclide-
+% specific LSD scaling). At least two concentrations must be given for the calculator to work.
 % This is free software: you can use/copy/modify/distribute as long as you keep it free/open.
 % Jakob Heyman - 2015-2018 (jakob.heyman@gu.se)
 
@@ -13,7 +14,11 @@ tic();
 % What version is this?
 ver = '201806';
 
-% plotting? (1 = yes) ==============================================================================
+% make choices here ================================================================================
+% use absolute concentration uncertainties for depth profile matching (1 = yes)
+absunc = 0;
+
+% plotting? (1 = yes)
 plotting = 1; % disabling plotting speeds up the function
 % ==================================================================================================
 
@@ -149,7 +154,7 @@ end;
 % muon production
 if erosion > 0;
     % depth vector for Pmu calculation
-    derosion = linspace(min(depth),1e7.*erosion + max(depth),50);
+    derosion = linspace(min(depth),1e7.*erosion + max(depth) + 1,50);
     
     % calculate Pmu for depth vector
     P_mu = P_mu_LSD(derosion.*rho,atm,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
@@ -206,7 +211,7 @@ if nucl10 == 1; % if 10Be exists
     
     % calculate best dpeth profile age
     [age10,ageunc_int10,ageunc_ext10] = ...
-        get_depthage(tv,l,N,delN,Psp,Pmu,Lsp,sample,Pref,delPref,nstr);
+        get_depthage(tv,l,N,delN,Psp,Pmu,Lsp,sample,Pref,delPref,absunc,nstr);
 end;
 
 if nucl26 == 1; % if 26Al exists
@@ -223,7 +228,7 @@ if nucl26 == 1; % if 26Al exists
     
     % calculate best dpeth profile age
     [age26,ageunc_int26,ageunc_ext26] = ...
-        get_depthage(tv,l,N,delN,Psp,Pmu,Lsp,sample,Pref,delPref,nstr);
+        get_depthage(tv,l,N,delN,Psp,Pmu,Lsp,sample,Pref,delPref,absunc,nstr);
 end;
 
 
@@ -236,8 +241,8 @@ if plotting == 1 && nucl10+nucl26 >= 1;
     if erosion > 0;
         % pick out oldest age of 10/26
         agetest = [];
-        if nucl10 == 1; agetest(end+1) = age10 + age10unc_ext; end;
-        if nucl26 == 1; agetest(end+1) = age26 + age26unc_ext; end;
+        if nucl10 == 1; agetest(end+1) = age10 + ageunc_ext10; end;
+        if nucl26 == 1; agetest(end+1) = age26 + ageunc_ext26; end;
         agemax = max(agetest);
         
         %make depth vect for mu
@@ -297,7 +302,7 @@ toc()
 
 % subfunction get_depthage =========================================================================
 function [age,ageunc_int,ageunc_ext] = ...
-    get_depthage(tv,l,N,delN,Psp,Pmu,Lsp,sample,Pref,delPref,nstr);
+    get_depthage(tv,l,N,delN,Psp,Pmu,Lsp,sample,Pref,delPref,absunc,nstr);
     dcf = exp(-tv.*l); % decay factor;
     for i = 1:numel(N);
         Ntv(i,:) = cumtrapz(tv,(Psp(i,:).*dcf + Pmu(i,:).*dcf)); % potential N back in time
@@ -340,8 +345,18 @@ function [age,ageunc_int,ageunc_ext] = ...
     delNm = repmat(delN,1,numel(tvint));
     chi2v = sum((Ntvm-Nm).^2 ./ delNm.^2);
     
+    % calculate chi square vector for relative N uncertainties
+    delNm_rel = repmat(delN./N,1,numel(tvint));
+    chi2v_rel = sum((Ntvm-Nm).^2 ./ delNm_rel.^2);
+    
     % find minimum chi square and index
-    [chimin,idx] = min(chi2v);
+    [chimin_rel,idx] = min(chi2v_rel);
+    chimin = chi2v(idx);
+    
+    if absunc == 1;
+        % find minimum chi square and index
+        [chimin,idx] = min(chi2v);
+    end;
     
     % find best fit age (depth profile age)
     age = tvint(idx);
