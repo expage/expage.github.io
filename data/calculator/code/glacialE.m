@@ -24,9 +24,9 @@ mt = 1E6;
 glacErate = 1;
 
 % which calculation(s) to do? 1 = yes, 0 = no
-glacEcalc = 0;  % simple glacial erosion rate calculation (single nuclides)
-range1nucl = 1; % calculate possible ranges for parameters (single nuclides)
-range2nucl = 1; % calculate possible ranges for parameters (10Be + 26Al)
+glacEcalc = 1;  % simple glacial erosion rate calculation (single nuclides)
+range1nucl = 0; % calculate possible ranges for parameters (single nuclides)
+range2nucl = 0; % calculate possible ranges for parameters (10Be + 26Al)
 
 % depth of burial when sampled - for surface samples this is 0
 burialdepth = 0; % cm
@@ -1010,6 +1010,8 @@ for i = 1:numel(samplein.lat);
                         num2str(max(LR04ok),'%.2f')};
                     % display limits
                     if glacErate == 1; glacEunit = 'mm/ka'; else; glacEunit = 'cm/glac'; end;
+                    % if you get a character error here: change the end of the string below and
+                    % check that it is ended with a proper quotation mark: '
                     fprintf(1,...
                     '\nglacE: %.2f-%.2f %s   nonglacE: %.2f-%.2f mm/ka   LR04: %.2f-%.2f ‰',...
                     min(glacEok),max(glacEok),glacEunit,min(nonglacEok),max(nonglacEok),...

@@ -174,8 +174,8 @@ else; % no erosion
     P_mu = P_mu_LSD(depth.*rho,atm,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
     
     % pick out Pmu if data exists
-    if nucl10 == 1; Pmu10 = P_mu.Be'(n10test) .* shield; end;
-    if nucl26 == 1; Pmu26 = P_mu.Al'(n26test) .* shield; end;
+    if nucl10 == 1; Pmu10 = P_mu.Be(n10test)' .* shield; end;
+    if nucl26 == 1; Pmu26 = P_mu.Al(n26test)' .* shield; end;
 end;
 
 % spallation surface production scaling
@@ -461,14 +461,14 @@ function depthplot(tv,l,Psp0n,Pmun,Lsp,rho,shield,erosion,dplot,dplotmu,N,delN,d
     box on;
     
     % plot uncertainty areas
-    patch(Nextunc_x,N_y,'facecolor',[0.9 0.9 0.9],'EdgeColor','none');
-    patch(Nintunc_x,N_y,'facecolor',[0.75 0.75 0.75],'EdgeColor','none');
+    patch(Nextunc_x,N_y,[0.9 0.9 0.9],'EdgeColor','none');
+    patch(Nintunc_x,N_y,[0.75 0.75 0.75],'EdgeColor','none');
     
     % plot standard depth profile
     plot(Nplot_tt,dplot,'color','black');
     plot(N,dv,'.','color','red','markersize',15);
     for i = 1:numel(N);
-        plot([N(i)-delN(i),N(i)+delN(i)],[dv(i),dv(i)],'r');
+        plot([N(i)-delN(i),N(i)+delN(i)],[dv(i),dv(i)],'color','red');
     end;
     
     axis('ij');
