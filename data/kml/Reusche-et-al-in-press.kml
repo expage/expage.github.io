@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Reusche et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201808<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>PG-PBM-001-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 260 &#177; 70<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.16595,79.89890</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-PBM-002-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 295 &#177; 91<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.16507,79.89909</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-PBM-003-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 401 &#177; 147<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.16254,79.89925</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-PBM-004-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 94 &#177; 135<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.16254,79.89930</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-PBM-005-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1257 &#177; 113<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.16056,79.89949</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-PBM-006-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 200 &#177; 52<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.17158,79.89835</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-PBM-007-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 363 &#177; 73<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.17200,79.89837</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-PBMO-002-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 193 &#177; 82<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.14326,79.90038</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-PBMO-003-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3138 &#177; 258<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.13525,79.90057</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-PBMO-004-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 142 &#177; 88<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.13225,79.90069</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-PBMO-006-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 218 &#177; 90<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.12825,79.90079</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-PBMO-007-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 392 &#177; 67<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.15991,79.89980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-PBMO-008-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 376 &#177; 176<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.16179,79.89954</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-PBMO-009-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 71 &#177; 79<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.16211,79.89950</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-WM-001-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7320 &#177; 474<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.75527,79.92294</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-WM-002-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8089 &#177; 566<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.75500,79.92296</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-WM-003-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10966 &#177; 936<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.75896,79.92256</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-WM-004-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8438 &#177; 572<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.75846,79.92259</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-WM-005-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7617 &#177; 486<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.74754,79.92263</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-WM-006-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10784 &#177; 907<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.73957,79.92242</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-RLO-002-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 292 &#177; 123<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.84115,80.66804</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-RLO-003-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 308 &#177; 117<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.85122,80.66808</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-RLO-004-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 266 &#177; 92<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.82240,80.66804</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-RLO-001-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3024 &#177; 225<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.83541,80.66801</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-RLO-005-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2620 &#177; 408<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.81484,80.66837</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-RLO-006-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2459 &#177; 377<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.80894,80.66861</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-ILL-001-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6953 &#177; 446<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.46758,80.28454</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-ILL-005-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8981 &#177; 949<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.02584,80.41133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-ILL-007-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 406 &#177; 111<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.04908,80.41530</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-OLL-001-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 552 &#177; 130<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.99876,80.40543</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-OLL-003-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 120 &#177; 50<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.03484,80.41221</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-OLL-004-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 157 &#177; 81<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.03578,80.41232</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-LB-002-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 421 &#177; 53<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reusche-et-al-in-press.txt">Reusche et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.34514,80.24560</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

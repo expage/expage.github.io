@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Chiverrell et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201808<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>T3CREG01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20499 &#177; 1301<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chiverrell-et-al-in-press.txt">Chiverrell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-4.77349,54.07156</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T3CREG02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20219 &#177; 1245<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chiverrell-et-al-in-press.txt">Chiverrell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-4.77349,54.07156</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T3BARR01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24183 &#177; 1520<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chiverrell-et-al-in-press.txt">Chiverrell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.66770,54.15090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T3BARR02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18466 &#177; 1149<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chiverrell-et-al-in-press.txt">Chiverrell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.65480,54.15070</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T3BC02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17222 &#177; 1131<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chiverrell-et-al-in-press.txt">Chiverrell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.35291,54.25763</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T3BC03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23591 &#177; 1487<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chiverrell-et-al-in-press.txt">Chiverrell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.35315,54.25768</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T3BC05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21020 &#177; 1337<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chiverrell-et-al-in-press.txt">Chiverrell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.35308,54.25798</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T3BC06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21632 &#177; 1410<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chiverrell-et-al-in-press.txt">Chiverrell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.35303,54.25698</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

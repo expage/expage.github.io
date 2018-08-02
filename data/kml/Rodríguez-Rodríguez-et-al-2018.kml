@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rodríguez-Rodríguez et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201808<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>RUN-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21898 &#177; 1403<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.2835,43.0368</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RUN-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21612 &#177; 1393<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.2832,43.0364</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RUN-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20739 &#177; 1416<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.2825,43.0357</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RUN-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20792 &#177; 1526<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.2814,43.0347</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RUN-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18962 &#177; 1284<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.2807,43.0338</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ROB-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20205 &#177; 1294<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3224,43.0233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ROB-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24112 &#177; 1547<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3196,43.0218</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ROB-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35818 &#177; 2297<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3196,43.0218</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ROB-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23558 &#177; 1512<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3196,43.0218</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ROB-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18477 &#177; 1205<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3196,43.0218</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RES-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36616 &#177; 2348<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3701,43.0234</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RES-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30148 &#177; 1958<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3696,43.0233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RES-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26020 &#177; 1719<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3698,43.0233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RES-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 101987 &#177; 6640<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3698,43.0233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RES-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16593 &#177; 1071<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3696,43.0231</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SIL-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47205 &#177; 3034<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3025,43.0253</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SIL-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 51472 &#177; 3605<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3027,43.0251</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SIL-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12199 &#177; 885<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3020,43.0245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SIL-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14392 &#177; 999<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3020,43.0246</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SIL-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12034 &#177; 963<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rodríguez-Rodríguez-et-al-2018.txt">Rodríguez-Rodríguez et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.3013,43.0232</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

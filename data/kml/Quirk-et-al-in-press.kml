@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Quirk et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201808<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>14MBLL01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20342 &#177; 1328<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.7260,40.6321</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14MBLL02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20758 &#177; 1332<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.7257,40.6319</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14MBLL04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21440 &#177; 1423<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.7253,40.6317</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14MBLL06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21197 &#177; 1383<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.7241,40.6311</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MBBR01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18865 &#177; 1195<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-111.7236,40.6338</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SR-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16384 &#177; 1021<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.5912,40.6148</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SR-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18968 &#177; 1256<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.5898,40.6159</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SR-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16144 &#177; 1046<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.5911,40.6150</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SR1704</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16422 &#177; 1174<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.5889,40.6158</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SR1705</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15504 &#177; 1060<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.5910,40.6136</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14LB01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15636 &#177; 940<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-111.6986,40.6058</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14LB02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15460 &#177; 962<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-111.6968,40.6063</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GS-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 139933 &#177; 8462<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-111.7454,40.6245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GS-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 140955 &#177; 8985<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-111.7455,40.6246</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GS-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 138033 &#177; 8370<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-111.7456,40.6245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GS-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 136144 &#177; 8238<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-111.7451,40.6242</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 71254 &#177; 4316<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-in-press.txt">Quirk et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.7513,40.6238</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
