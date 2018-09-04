@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Martin et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201809<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>MB6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16852 &#177; 1134<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1330,-16.191547</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MB7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16719 &#177; 1071<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1326,-16.191817</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MB8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15971 &#177; 1231<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1325,-16.191760</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MB1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16773 &#177; 1784<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1328,-16.1932</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MB2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16672 &#177; 1217<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1320,-16.1933</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MB4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33649 &#177; 3391<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1317,-16.1933</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAM-2G</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14050 &#177; 957<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.6387,-19.8490</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAM-2D</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9465 &#177; 601<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.6199,-19.8688</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAM-102-A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15251 &#177; 975<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.6332,-19.8483</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAM-102-B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14445 &#177; 1086<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.6422,-19.8377</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAM-102-C</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17660 &#177; 1314<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.6440,-19.8337</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAM-11-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17077 &#177; 1069<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.6392,-19.8479</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAM-12A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13734 &#177; 856<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-66.5547,-19.8700</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAM-12B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14111 &#177; 897<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-66.5547,-19.8700</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAM-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14580 &#177; 880<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-66.5650,-19.8733</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AZA-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17044 &#177; 1194<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.7402,-18.9360</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AZA-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26284 &#177; 1815<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.7419,-18.9334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AZA-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31127 &#177; 2058<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.7442,-18.9255</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AZA-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14835 &#177; 948<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-66.7169,-18.9465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AZA-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14291 &#177; 938<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.7116,-18.9486</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AZA-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17653 &#177; 1128<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2018.txt">Martin et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.7119,-18.9494</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
