@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Luna et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201809<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>LL030215-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 89374 &#177; 5630<br/>
+<sup>26</sup>Al: 81524 &#177; 6507<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Luna-et-al-2018.txt">Luna et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-66.80299,-24.41061</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL030215-02A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 70611 &#177; 4255<br/>
+<sup>26</sup>Al: 58004 &#177; 4508<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Luna-et-al-2018.txt">Luna et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.80383,-24.41263</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL030215-02B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40081 &#177; 2412<br/>
+<sup>26</sup>Al: 36401 &#177; 2899<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Luna-et-al-2018.txt">Luna et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.80392,-24.41265</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL030215-02C</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38082 &#177; 2288<br/>
+<sup>26</sup>Al: 35380 &#177; 2764<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Luna-et-al-2018.txt">Luna et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.80386,-24.41275</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL030215-03A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 91052 &#177; 5605<br/>
+<sup>26</sup>Al: 80164 &#177; 6482<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Luna-et-al-2018.txt">Luna et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.80778,-24.41544</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL030215-03B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 102411 &#177; 6194<br/>
+<sup>26</sup>Al: 94260 &#177; 7515<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Luna-et-al-2018.txt">Luna et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.80794,-24.41563</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL030215-03C</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 175035 &#177; 10885<br/>
+<sup>26</sup>Al: 151299 &#177; 12506<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Luna-et-al-2018.txt">Luna et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.80800,-24.41574</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL030215-03D</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 189978 &#177; 11722<br/>
+<sup>26</sup>Al: 171746 &#177; 14188<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Luna-et-al-2018.txt">Luna et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.80880,-24.41631</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL030215-03E</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 283003 &#177; 17953<br/>
+<sup>26</sup>Al: 272152 &#177; 23421<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Luna-et-al-2018.txt">Luna et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.80934,-24.41708</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL032215-01A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43354 &#177; 5587<br/>
+<sup>26</sup>Al: 33194 &#177; 8783<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Luna-et-al-2018.txt">Luna et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.78946,-24.35500</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL032215-01B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43040 &#177; 2587<br/>
+<sup>26</sup>Al: 41353 &#177; 3256<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Luna-et-al-2018.txt">Luna et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.78952,-24.35516</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL032215-01C</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37647 &#177; 2290<br/>
+<sup>26</sup>Al: 34669 &#177; 2832<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Luna-et-al-2018.txt">Luna et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.78972,-24.35525</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

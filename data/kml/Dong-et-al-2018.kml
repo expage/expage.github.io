@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dong et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201809<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>15XZ01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57249 &#177; 3282<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.71026,30.81755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15XZ02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57701 &#177; 3307<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.71053,30.81741</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55726 &#177; 3198<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.71117,30.81718</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 48864 &#177; 2844<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.71161,30.81736</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Knob-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46739 &#177; 2717<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70508,30.81749</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Knob-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41216 &#177; 2371<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70504,30.81769</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Knob-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40707 &#177; 2361<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70511,30.81782</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Knob-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41007 &#177; 2385<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70560,30.81758</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Knob-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42108 &#177; 2414<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70531,30.81782</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14XZ5-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32912 &#177; 1969<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70355,30.81960</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14XZ5-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31516 &#177; 2194<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70357,30.81961</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15XZ03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30859 &#177; 1795<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70420,30.82011</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15XZ04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32934 &#177; 1901<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70362,30.81965</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30946 &#177; 1766<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70383,30.81982</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30241 &#177; 1743<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70285,30.81956</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32958 &#177; 1884<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70316,30.81961</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34621 &#177; 1991<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70326,30.81986</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33896 &#177; 1964<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70306,30.81969</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34679 &#177; 2011<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70290,30.81982</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34298 &#177; 1976<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70292,30.81973</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32090 &#177; 1852<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70261,30.81970</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30774 &#177; 1776<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70254,30.81978</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32344 &#177; 1861<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70261,30.81977</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30504 &#177; 1827<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70274,30.81959</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15XZ10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30000 &#177; 1736<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70190,30.82029</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30469 &#177; 1770<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70142,30.81981</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30501 &#177; 1780<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70161,30.82006</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30521 &#177; 1768<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70087,30.81942</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29148 &#177; 1695<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70085,30.81942</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15XZ07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28769 &#177; 1654<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70083,30.81965</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15XZ08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25938 &#177; 1571<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70074,30.81961</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15XZ09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27905 &#177; 1655<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70067,30.81955</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 99535 &#177; 5646<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70096,30.81966</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22676 &#177; 1312<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70063,30.81975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15179 &#177; 918<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70081,30.81989</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19056 &#177; 1122<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70076,30.81980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17848 &#177; 1053<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70080,30.81981</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18379 &#177; 1063<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70073,30.81991</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15085 &#177; 875<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70074,30.82038</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13577 &#177; 815<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70067,30.82032</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13762 &#177; 804<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70055,30.82021</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16020 &#177; 949<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70055,30.82027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16XZ22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12643 &#177; 751<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2018.txt">Dong et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.70047,30.82023</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

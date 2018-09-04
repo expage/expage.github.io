@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Glasser et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201809<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>AV1201</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20989 &#177; 1315<br/>
+<sup>26</sup>Al: 20568 &#177; 1676<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Glasser-et-al-in-press.txt">Glasser et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.042848,52.288332</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AV1202</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20451 &#177; 1329<br/>
+<sup>26</sup>Al: 19432 &#177; 1793<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Glasser-et-al-in-press.txt">Glasser et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.047836,52.249909</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BB1201</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17272 &#177; 1672<br/>
+<sup>26</sup>Al: 16359 &#177; 5114<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Glasser-et-al-in-press.txt">Glasser et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.889437,52.180370</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BB1202</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19003 &#177; 1233<br/>
+<sup>26</sup>Al: 18426 &#177; 1997<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Glasser-et-al-in-press.txt">Glasser et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.902756,52.189138</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CT1201</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20694 &#177; 1379<br/>
+<sup>26</sup>Al: 20540 &#177; 2261<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Glasser-et-al-in-press.txt">Glasser et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.977533,52.114032</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MP1201</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14847 &#177; 1165<br/>
+<sup>26</sup>Al: 19577 &#177; 3485<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Glasser-et-al-in-press.txt">Glasser et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.087965,52.063093</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TP1203</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16903 &#177; 1085<br/>
+<sup>26</sup>Al: 17483 &#177; 1729<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Glasser-et-al-in-press.txt">Glasser et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-3.766834,52.293819</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TV1201</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16018 &#177; 994<br/>
+<sup>26</sup>Al: 15610 &#177; 1274<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Glasser-et-al-in-press.txt">Glasser et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.915155,52.288467</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YST1201</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15294 &#177; 972<br/>
+<sup>26</sup>Al: 17108 &#177; 1421<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Glasser-et-al-in-press.txt">Glasser et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.761616,52.340828</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YST1202</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18339 &#177; 1133<br/>
+<sup>26</sup>Al: 19497 &#177; 1629<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Glasser-et-al-in-press.txt">Glasser et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.761660,52.340809</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

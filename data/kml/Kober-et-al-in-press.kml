@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kober et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201809<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>RM01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1023 &#177; 100<br/><br/>
+<u>Sample</u><br/>sediment<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kober-et-al-in-press.txt">Kober et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>8.330,46.659</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RM02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1100 &#177; 121<br/><br/>
+<u>Sample</u><br/>sediment<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kober-et-al-in-press.txt">Kober et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>8.328,46.659</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SL8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3173 &#177; 238<br/><br/>
+<u>Sample</u><br/>sediment<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kober-et-al-in-press.txt">Kober et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>8.249,46.649</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

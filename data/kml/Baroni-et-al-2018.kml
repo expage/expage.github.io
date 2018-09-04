@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Baroni et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201809<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>BOS-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20419 &#177; 1717<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2018.txt">Baroni et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.038,44.441</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CED-14-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16250 &#177; 1564<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2018.txt">Baroni et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.115,44.403</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CED-14-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17298 &#177; 1343<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2018.txt">Baroni et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.115,44.403</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CED-14-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18271 &#177; 1299<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2018.txt">Baroni et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.114,44.402</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CED-14-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17541 &#177; 1613<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2018.txt">Baroni et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.113,44.402</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CED-14-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19486 &#177; 1504<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2018.txt">Baroni et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.108,44.397</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CED-14-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17845 &#177; 1313<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2018.txt">Baroni et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.121,44.383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SUC-01-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20476 &#177; 1396<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2018.txt">Baroni et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.177,44.355</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SUC-02-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14891 &#177; 1135<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2018.txt">Baroni et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.177,44.355</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SUC-04-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16443 &#177; 1250<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2018.txt">Baroni et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.181,44.360</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NUD-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17777 &#177; 1410<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2018.txt">Baroni et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.212,44.293</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NUD-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16799 &#177; 1724<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2018.txt">Baroni et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.212,44.293</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NUD-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16036 &#177; 1534<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2018.txt">Baroni et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.217,44.301</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NUD-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15323 &#177; 1397<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2018.txt">Baroni et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.215,44.299</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tulenko et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201809<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>16SR1-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 59078 &#177; 3497<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.540,61.47381</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR1-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62000 &#177; 3580<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.543,61.47426</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR1-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55968 &#177; 3216<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.556,61.47673</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR1-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 58675 &#177; 3372<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.583,61.48068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR1-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61260 &#177; 3547<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.507,61.47031</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR1-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55453 &#177; 3203<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.503,61.47004</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR1-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 51760 &#177; 2990<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.503,61.46986</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR1-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55127 &#177; 3193<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.501,61.46981</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR1-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61353 &#177; 3566<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.489,61.46777</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR1-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61102 &#177; 3535<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.490,61.46767</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17450 &#177; 1063<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.534,61.47854</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24071 &#177; 1444<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.597,61.49005</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20919 &#177; 1295<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.573,61.48498</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20933 &#177; 1236<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.556,61.48217</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20786 &#177; 1223<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.553,61.48180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19941 &#177; 1184<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.535,61.48095</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16396 &#177; 983<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.575,61.48576</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18435 &#177; 1084<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.567,61.48565</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19244 &#177; 1134<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.551,61.48450</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19809 &#177; 1166<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.551,61.48392</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14642 &#177; 864<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.575,61.49388</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13342 &#177; 792<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.548,61.48802</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21186 &#177; 1331<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.528,61.48323</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26493 &#177; 1644<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.527,61.49344</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18710 &#177; 1118<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.527,61.49380</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19584 &#177; 1152<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.522,61.49131</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17337 &#177; 1020<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.528,61.49681</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16971 &#177; 998<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.526,61.49519</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17031 &#177; 1002<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.519,61.49200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27678 &#177; 1616<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.514,61.49027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24191 &#177; 1499<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.513,61.49023</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16SR2-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18100 &#177; 1050<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2018.txt">Tulenko et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-154.511,61.48983</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
