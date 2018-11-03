@@ -10,7 +10,7 @@ close all;
 tic();
 
 % What version is this?
-ver = '201806';
+ver = '201810';
 
 % do choices here ==================================================================================
 % min and max Pref (atoms/g/yr)
@@ -201,30 +201,30 @@ for i = 1:fulln;
         
     % Production from muons
     if sample.E <= 0;
-        P_mu = P_mu_LSD(sample.thick.*sample.rho./2,sample.pressure,LSDfix.RcEst,...
+        P_mu = P_mu_expage(sample.thick.*sample.rho./2,sample.pressure,LSDfix.RcEst,...
             consts.SPhiInf,nucl10,nucl26,consts,'no');
-        if nucl10 == 1; sample.mu10 = P_mu.Be .* sample.othercorr; end;
-        if nucl26 == 1; sample.mu26 = P_mu.Al .* sample.othercorr; end;
+        if nucl10 == 1; sample.mu10 = P_mu.mu10 .* sample.othercorr; end;
+        if nucl26 == 1; sample.mu26 = P_mu.mu26 .* sample.othercorr; end;
     else;
         tv_z = (tv.*sample.E + sample.thick./2) .* sample.rho; % time - depth vect (g/cm^2)
         if nucl10 == 1;
             aged10 = sample.E .* tsimple10; % depth at t simple
             mu_z10 = [(linspace(0,aged10,9) + sample.thick./2).*sample.rho max(tv_z)];
-            P_mu_d10 = P_mu_LSD(mu_z10,sample.pressure,LSDfix.RcEst,consts.SPhiInf,1,0,...
+            P_mu_d10 = P_mu_expage(mu_z10,sample.pressure,LSDfix.RcEst,consts.SPhiInf,1,0,...
                 consts,'no'); % Pmu at d
-            sample.mu10 = interp1(mu_z10,P_mu_d10.Be,tv_z,'pchip') .* sample.othercorr; % P_mu
+            sample.mu10 = interp1(mu_z10,P_mu_d10.mu10,tv_z,'pchip') .* sample.othercorr; % P_mu
         end;
         if nucl26 == 1;
             aged26 = sample.E .* tsimple26; % depth at t simple
             mu_z26 = [(linspace(0,aged26,9) + sample.thick./2).*sample.rho max(tv_z)];
-            P_mu_d26 = P_mu_LSD(mu_z26,sample.pressure,LSDfix.RcEst,consts.SPhiInf,0,1,...
+            P_mu_d26 = P_mu_expage(mu_z26,sample.pressure,LSDfix.RcEst,consts.SPhiInf,0,1,...
                 consts,'no'); % Pmu at d
-            sample.mu26 = interp1(mu_z26,P_mu_d26.Al,tv_z,'pchip') .* sample.othercorr; % P_mu
+            sample.mu26 = interp1(mu_z26,P_mu_d26.mu26,tv_z,'pchip') .* sample.othercorr; % P_mu
         end;
     end;
     
     % spallation production scaling
-    LSDnu = LSDspal(sample.pressure,Rc,SPhi,LSDfix.w,nucl10,nucl26,consts);
+    Psp = LSDspal(sample.pressure,Rc,SPhi,LSDfix.w,nucl10,nucl26,consts);
     
     % interpolate Lsp using CRONUScalc method (Sato 2008; Marrero et al. 2016)
     sample.Lsp = rawattenuationlength(sample.pressure,Rc);
@@ -246,7 +246,7 @@ for i = 1:fulln;
         dcf10 = exp(-tv.*l10); % decay factor;
         
         % sample surface spallation production rate over time including decay and erosion
-        sample.sp = bsxfun(@times,LSDnu.Be'.*dcf10'.*dpfs'.*thickSF'.*sample.othercorr,Pvect10);
+        sample.sp = bsxfun(@times,Psp.sp10'.*dcf10'.*dpfs'.*thickSF'.*sample.othercorr,Pvect10);
         
         % sample muon P
         sample.mu = repmat(sample.mu10'.*dcf10',1,numel(Pvect10));
@@ -285,7 +285,7 @@ for i = 1:fulln;
         dcf26 = exp(-tv.*l26); % decay factor;
         
         % sample surface spallation production rate over time including decay and erosion
-        sample.sp = bsxfun(@times,LSDnu.Al'.*dcf26'.*dpfs'.*thickSF'.*sample.othercorr,Pvect26);
+        sample.sp = bsxfun(@times,Psp.sp26'.*dcf26'.*dpfs'.*thickSF'.*sample.othercorr,Pvect26);
         
         % sample muon P
         sample.mu = repmat(sample.mu26'.*dcf26',1,numel(Pvect26));

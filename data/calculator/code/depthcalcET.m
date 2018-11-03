@@ -23,7 +23,7 @@ Emax = 50; % mm/ka
 ETgrid = 100;
 
 % What version is this?
-ver = '201806';
+ver = '201810';
 
 % read input file
 % NOTE! sample thickness in standard input is here changed to sample mid-point depth (cm)
@@ -162,19 +162,19 @@ dz = linspace(mind,maxd,100);
 
 % muon production
 fprintf(1,'calculating muon P...');
-P_mu = P_mu_LSD(dz.*rho,atm,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
+P_mu = P_mu_expage(dz.*rho,atm,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
 fprintf(1,' done!\n');
 
 % pick out Pmu if data exists
-if nucl10 == 1; Pmu10 = P_mu.Be .* shield; end;
-if nucl26 == 1; Pmu26 = P_mu.Al .* shield; end;
+if nucl10 == 1; Pmu10 = P_mu.mu10 .* shield; end;
+if nucl26 == 1; Pmu26 = P_mu.mu26 .* shield; end;
 
 % spallation surface production scaling
 Psp0 = LSDspal(atm,Rc,SPhi,LSDfix.w,nucl10,nucl26,consts);
 
 % pick out Psp if data exists
-if nucl10 == 1; Psp010 = Psp0.Be .* shield; end;
-if nucl26 == 1; Psp026 = Psp0.Al .* shield; end;
+if nucl10 == 1; Psp010 = Psp0.sp10 .* shield; end;
+if nucl26 == 1; Psp026 = Psp0.sp26 .* shield; end;
 
 % interpolate Lsp using CRONUScalc method (Sato 2008; Marrero et al. 2016)
 Lsp = rawattenuationlength(atm,Rc);

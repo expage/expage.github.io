@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Levy et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201810<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>LL1103</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7116 &#177; 447<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.535,67.045</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL1104</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7192 &#177; 454<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.536,67.045</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL1105</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7159 &#177; 440<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.536,67.045</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL1107</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7078 &#177; 439<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.537,67.048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL1108</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7073 &#177; 432<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.537,67.048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL1109</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6922 &#177; 421<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.539,67.049</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL1134</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6924 &#177; 408<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.518,67.043</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL1135a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7195 &#177; 426<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.521,67.044</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL1136a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7293 &#177; 447<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-50.522,67.044</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBC1006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6281 &#177; 392<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.271,67.090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBC1007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6452 &#177; 397<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.273,67.090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL1133</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6278 &#177; 387<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.060,67.156</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL1130</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 186 &#177; 17<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.061,67.157</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL1131</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4734 &#177; 285<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.061,67.157</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL1137</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 69 &#177; 12<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.098,67.163</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL1139</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 106 &#177; 11<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2018.txt">Levy et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-50.098,67.163</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

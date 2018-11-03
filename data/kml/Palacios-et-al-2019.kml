@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Palacios et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201810<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>NAUT-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 131534 &#177; 9561<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Palacios-et-al-2019.txt">Palacios et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.330472,37.019611</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAUT-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52772 &#177; 4038<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Palacios-et-al-2019.txt">Palacios et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.330361,37.020111</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAUT-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43222 &#177; 3488<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Palacios-et-al-2019.txt">Palacios et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.329778,37.021250</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NAUT-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 126376 &#177; 9107<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Palacios-et-al-2019.txt">Palacios et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.328667,37.022556</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SN-11-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 302 &#177; 127<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Palacios-et-al-2019.txt">Palacios et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.365694,37.059583</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SN-11-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 595 &#177; 181<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Palacios-et-al-2019.txt">Palacios et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.367472,37.060583</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SN-11-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 351 &#177; 114<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Palacios-et-al-2019.txt">Palacios et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.368972,37.060694</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

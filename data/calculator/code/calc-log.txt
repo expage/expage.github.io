@@ -2,6 +2,28 @@ Log file for the expage 10Be and 26Al exposure age calculator
 
 ====================================================================================================
 
+expage-201810 calculator
+Several changes in the code including a change of the production rate from muons.
+Major changes include:
+* Change name of muon production rate function to P_mu_expage.
+* Further change from P_mu_totalLSD:
+  Linear extrapolation of range/energy/energy loss values to a minimum range of 0.1 g cm-2. This
+  reduces the near-surface productiona rate artifacts futher.
+* Recalibration of spallation and muon production rates with the new muon function yields no changes
+  to the global production rate parameters.
+* Modification of burial.m to enable calculation of simple exposure plus burial and/or constant
+  erosion rate plus burial. Calculations based on back-calculating the burial, based on 26Al/10Be
+  ratio, to simple exposure line and/or erosion end-point line, and then calculating the simple
+  exposure and/or erosion rate. Calculation of internal and/or external uncertainties based on Monte
+  Carlo approach. Potential plotting for burial.m updated to also plot burial pathway plus burial
+  lines (0.5-3 Ma burial) for constant erosion rate.
+* Modification of glacialE.m with changes updated calculation method of concentration buildup in
+  subfunctions nucl1_buildup and N1026calc. Added plotting of concentration buildup uncertainties
+  for simpleEcalc. Changed plotting of 26Al/10Be ratio path in banana plot - now plotting 100
+  individual ratio paths (including paths yielding min and max ending ratio).
+
+====================================================================================================
+
 2018-07-25
 Minor edits in depthcalc.m and glacialE.m for better compatibility with Matlab.
 
@@ -87,7 +109,7 @@ expage-201611: Added ' to lines 410 and 509 in prodcalib.m to fix a matrix error
 expage-201611 calculator
 * Muon production changes:
   - Original solar modulation paramter SPhiInf used for P_mu_LSD.
-  - Two changes in the negative muon calculations in P_mu_LSD (lines 105-125) to remove near-surface
+  - Two changes in the negative muon calculations in P_mu_LSD (lines 105-125) to reduce near-surface
     production artifacts.
   - Parameters fstar and sigma0 calibrated for the expage calculator based on the Beacon Heights
     data (Borchers et al. 2016; Marrero et al. 2016; Phillips et al. 2016) using mucalib.m. This

@@ -13,7 +13,7 @@ function erosion();
 tic();
 
 % What version is this?
-ver = '201806';
+ver = '201810';
 
 % count number of input columns in line 1 of input
 inid = fopen('input.txt','r');
@@ -166,27 +166,28 @@ for i = 1:numel(samplein.lat);
     end;
 
     % spallation production scaling
-    LSDnu = LSDspal(sample.pressure,Rc,SPhi,LSDfix.w,nucl10,nucl26,consts);
+    Psp = LSDspal(sample.pressure,Rc,SPhi,LSDfix.w,nucl10,nucl26,consts);
 
     % muon production
-    P_mu_full = P_mu_LSD(0,sample.pressure,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,'yes');
+    P_mu_full = P_mu_expage(0,sample.pressure,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,...
+        'yes');
     
     % Precompute P_mu(z) to ~200,000 g/cm2
     % This log-spacing setup for the step size has relative accuracy near 
     % 1e-3 at 1000 m/Myr erosion rate. 
     % start at the mid-depth of the sample.
     sample.z_mu = [0 logspace(0,5.3,100)]+(sample.thick.*sample.rho./2);
-    P_mu_z = P_mu_LSD(sample.z_mu,sample.pressure,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,...
+    P_mu_z = P_mu_expage(sample.z_mu,sample.pressure,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,...
         consts,'no');
     
     % if there is N10: do erosion rate calculation and report results
     if nucl10 == 1;
         % sample- and nuclide-specific parameters
         Nspec.N = sample.N10; Nspec.delN = sample.delN10;
-        Nspec.Psps = LSDnu.Be;
+        Nspec.Psps = Psp.sp10;
         Nspec.P_fast = P_mu_full.P_fast10;
         Nspec.P_neg = P_mu_full.P_neg10;
-        Nspec.Pmu_z = P_mu_z.Be .* sample.othercorr;
+        Nspec.Pmu_z = P_mu_z.mu10 .* sample.othercorr;
         
         % nuclide-specific constants
         Nspec.Pref = Pref10; Nspec.delPref = delPref10;
@@ -212,10 +213,10 @@ for i = 1:numel(samplein.lat);
     if nucl26 == 1;
         % sample- and nuclide-specific parameters
         Nspec.N = sample.N26; Nspec.delN = sample.delN26;
-        Nspec.Psps = LSDnu.Al;
+        Nspec.Psps = Psp.sp26;
         Nspec.P_fast = P_mu_full.P_fast26;
         Nspec.P_neg = P_mu_full.P_neg26;
-        Nspec.Pmu_z = P_mu_z.Al .* sample.othercorr;
+        Nspec.Pmu_z = P_mu_z.mu26 .* sample.othercorr;
         
         % nuclide-specific constants
         Nspec.Pref = Pref26; Nspec.delPref = delPref26;

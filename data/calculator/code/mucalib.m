@@ -9,7 +9,7 @@ clear all;
 close all;
 
 % What version is this?
-ver = '201806';
+ver = '201810';
 
 % Choose site. Options: Beacon, LeymonHigh, LeymonLow, LaCiotat
 site = 'Beacon';
@@ -113,8 +113,8 @@ mucal.dcf26 = exp(-tv.*l26);
 
 % surface spallation production
 Psp = LSDspal(atm,Rc,SPhi,LSDfix.w,1,1,consts);
-mucal.Psp10 = Psp.Be .* Pref10;
-mucal.Psp26 = Psp.Al .* Pref26;
+mucal.Psp10 = Psp.sp10 .* Pref10;
+mucal.Psp26 = Psp.sp26 .* Pref26;
 
 % muon production (without sigma0 and fstar!!)
 % This is pre-computed and the data is included in mucalib_depthcalc_precalc.m to save time
@@ -155,10 +155,10 @@ fprintf(1,'Chi2 = %f   p-value = %f\n',[chi2; pvalue]);
 fprintf(1,'Erosion Rate = %f ± %f ((g/cm2)/ka)\n',pstar(1),sigmapstar(1));
 fprintf(1,'10Be Lsp = %f ± %f (g/cm2)\n',pstar(2),sigmapstar(2));
 fprintf(1,'26Al Lsp = %f ± %f (g/cm2)\n',pstar(3),sigmapstar(3));
-fprintf(1,'fstar10 = %f ± %f E-30\n',pstar(4),sigmapstar(4));
-fprintf(1,'sigma010 = %f ± %f E-3\n',pstar(5),sigmapstar(5));
-fprintf(1,'fstar26 = %f ± %f E-30\n',pstar(6),sigmapstar(6));
-fprintf(1,'sigma026 = %f ± %f E-3\n',pstar(7),sigmapstar(7));
+fprintf(1,'fstar10 = %f ± %f E-3\n',pstar(4),sigmapstar(4));
+fprintf(1,'sigma010 = %f ± %f E-30\n',pstar(5),sigmapstar(5));
+fprintf(1,'fstar26 = %f ± %f E-3\n',pstar(6),sigmapstar(6));
+fprintf(1,'sigma026 = %f ± %f E-30\n',pstar(7),sigmapstar(7));
 
 
 % plotting =========================================================================================

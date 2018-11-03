@@ -35,8 +35,8 @@ The calculator is based on the CRONUS calculator (Balco et al. 2008) with some m
 
 INPUT INSTRUCTIONS:
 The input is similar to the input for the CRONUS calcuator version 2 (Balco et al. 2008), with the
-addition of sampling year. Each row in input.txt is one sample and should contain 16 columns with
-the following information:
+addition of sampling year. Each row in input.txt is one sample and should contain 15 or 16 columns
+with the following information:
 1. Sample name - (strange characters may cause problems).
 2. Latitude [DD (WGS84)] - North latitudes are positive. South latitudes are negative.
 3. Longitude [DD (WGS84)] - East longitudes are positive. West longitudes are negative.
@@ -45,18 +45,24 @@ the following information:
 6. Sample thickness [cm].
 7. Sample density [g/cm3].
 8. Correction factor - Unitless factor used for topo/geom shielding correction (no shielding -> 1).
-9. Erosion rate [mm/ka]. NOTE: different unit than in the CRONUS calculator. NOT USED HERE!
-10. 10Be concentration [atoms/g] - (if no 10Be measurement: use 0).
-11. 10Be concentration uncertainty [atoms/g] - (if no 10Be measurement: use 0).
-12. 10Be standardization - See make_al_be_consts.m lines 51-55 for acceptable names and values.
-13. 26Al concentration [atoms/g] - (if no 26Al measurement: use 0).
-14. 26Al concentration uncertainty [atoms/g] - (if no 26Al measurement: use 0).
-15. 26Al standardization - See make_al_be_consts.m lines 58-59 for acceptable names and values.
-16. Sampling year [CE].
+9. 10Be concentration [atoms/g] - (if no 10Be measurement: use 0).
+10. 10Be concentration uncertainty [atoms/g] - (if no 10Be measurement: use 0).
+11. 10Be standardization - See make_al_be_consts.m lines 51-55 for acceptable names and values.
+12. 26Al concentration [atoms/g] - (if no 26Al measurement: use 0).
+13. 26Al concentration uncertainty [atoms/g] - (if no 26Al measurement: use 0).
+14. 26Al standardization - See make_al_be_consts.m lines 58-59 for acceptable names and values.
+15. Sampling year [CE].
+If using 16 columns:
+9. Any number (NOT USED - option included to allow for standard expage input)
+10-16. See 9-15 above.
 
 
 OUTPUT INFORMATION:
-The calculator saves simple exposure and burial durations (yr) in the file out-burial.txt.
+The calculator saves simple exposure plus burial durations and/or simple erosion rates plus burial
+durations in the file out-burial.txt.
+If exposure_burial = 1 (line 20 in burial.m): simple exposure and burial durations (yr).
+If erosion_burial = 1 (line 21 in burial.m): simple erosionrates (mm/ka) and burial durations (yr).
+Samples with no simple exposure/erosion solution yield '-' in the output.
 Samples with 10Be and/or 26Al concentration = 0 yield '-' in the output.
-If normNout = 1 (line 23 in burial.m), the calculator will also save sample concentrations and
+If normNout = 1 (line 32 in burial.m), the calculator will also save sample concentrations and
 uncertainties normalized to the sample production rate (for later plotting).

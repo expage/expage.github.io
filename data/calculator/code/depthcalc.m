@@ -12,7 +12,7 @@ close all;
 tic();
 
 % What version is this?
-ver = '201806';
+ver = '201810';
 
 % make choices here ================================================================================
 % use absolute concentration uncertainties for depth profile matching (1 = yes)
@@ -157,25 +157,25 @@ if erosion > 0;
     derosion = linspace(min(depth),1e7.*erosion + max(depth) + 1,50);
     
     % calculate Pmu for depth vector
-    P_mu = P_mu_LSD(derosion.*rho,atm,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
+    P_mu = P_mu_expage(derosion.*rho,atm,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
     
     % interpolate Pmu for individual samples
     if nucl10 == 1;
         for i = 1:numel(dv10);
-            Pmu10(i,:) = interp1(derosion,P_mu.Be,dv10(i)+tv.*erosion,'pchip') .* shield;
+            Pmu10(i,:) = interp1(derosion,P_mu.mu10,dv10(i)+tv.*erosion,'pchip') .* shield;
         end;
     end;
     if nucl26 == 1;
         for i = 1:numel(dv26);
-            Pmu26(i,:) = interp1(derosion,P_mu.Al,dv26(i)+tv.*erosion,'pchip') .* shield;
+            Pmu26(i,:) = interp1(derosion,P_mu.mu26,dv26(i)+tv.*erosion,'pchip') .* shield;
         end;
     end;
 else; % no erosion
-    P_mu = P_mu_LSD(depth.*rho,atm,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
+    P_mu = P_mu_expage(depth.*rho,atm,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
     
     % pick out Pmu if data exists
-    if nucl10 == 1; Pmu10 = P_mu.Be(n10test)' .* shield; end;
-    if nucl26 == 1; Pmu26 = P_mu.Al(n26test)' .* shield; end;
+    if nucl10 == 1; Pmu10 = P_mu.mu10(n10test)' .* shield; end;
+    if nucl26 == 1; Pmu26 = P_mu.mu26(n26test)' .* shield; end;
 end;
 
 % spallation surface production scaling
@@ -187,12 +187,12 @@ Lsp = rawattenuationlength(atm,Rc);
 % pick out Psp if data exists
 if nucl10 == 1;
     for i = 1:numel(N10);
-        Psp10(i,:) = Psp0.Be .* Pref10 .* shield .* exp(-rho.*(tv.*erosion+dv10(i))./Lsp);
+        Psp10(i,:) = Psp0.sp10 .* Pref10 .* shield .* exp(-rho.*(tv.*erosion+dv10(i))./Lsp);
     end;
 end;
 if nucl26 == 1;
     for i = 1:numel(N26);
-        Psp26(i,:) = Psp0.Al .* Pref26 .* shield .* exp(-rho.*(tv.*erosion+dv26(i))./Lsp);
+        Psp26(i,:) = Psp0.sp26 .* Pref26 .* shield .* exp(-rho.*(tv.*erosion+dv26(i))./Lsp);
     end;
 end;
 
@@ -211,7 +211,7 @@ if nucl10 == 1; % if 10Be exists
     
     % calculate best dpeth profile age
     [age10,ageunc_int10,ageunc_ext10] = ...
-        get_depthage(tv,l,N,delN,Psp,Pmu,Lsp,sample,Pref,delPref,absunc,nstr);
+        get_depthage(tv,l,N,delN,Psp,Pmu,Lsp,sample,Pref,delPref,1E7,absunc,nstr);
 end;
 
 if nucl26 == 1; % if 26Al exists
@@ -228,7 +228,7 @@ if nucl26 == 1; % if 26Al exists
     
     % calculate best dpeth profile age
     [age26,ageunc_int26,ageunc_ext26] = ...
-        get_depthage(tv,l,N,delN,Psp,Pmu,Lsp,sample,Pref,delPref,absunc,nstr);
+        get_depthage(tv,l,N,delN,Psp,Pmu,Lsp,sample,Pref,delPref,6E6,absunc,nstr);
 end;
 
 
@@ -254,7 +254,7 @@ if plotting == 1 && nucl10+nucl26 >= 1;
     
     % muon production for depth profile points
     fprintf('calculating depth profile P from muons...');
-    Pmuplot = P_mu_LSD(dplotmu.*rho,atm,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
+    Pmuplot = P_mu_expage(dplotmu.*rho,atm,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
     fprintf(' done!\n');
     
     if nucl10 == 1; % if 10Be exists and plotting = 1
@@ -262,8 +262,8 @@ if plotting == 1 && nucl10+nucl26 >= 1;
         N = N10;
         delN = delN10;
         l = l10;
-        Psp0n = Psp0.Be;
-        Pmun = Pmuplot.Be;
+        Psp0n = Psp0.sp10;
+        Pmun = Pmuplot.mu10;
         dv = dv10;
         age = age10;
         ageunc_int = ageunc_int10;
@@ -281,8 +281,8 @@ if plotting == 1 && nucl10+nucl26 >= 1;
         N = N26;
         delN = delN26;
         l = l26;
-        Psp0n = Psp0.Al;
-        Pmun = Pmuplot.Al;
+        Psp0n = Psp0.sp26;
+        Pmun = Pmuplot.mu26;
         dv = dv26;
         age = age26;
         ageunc_int = ageunc_int26;
@@ -302,29 +302,30 @@ toc()
 
 % subfunction get_depthage =========================================================================
 function [age,ageunc_int,ageunc_ext] = ...
-    get_depthage(tv,l,N,delN,Psp,Pmu,Lsp,sample,Pref,delPref,absunc,nstr);
+    get_depthage(tv,l,N,delN,Psp,Pmu,Lsp,sample,Pref,delPref,maxtt,absunc,nstr);
     dcf = exp(-tv.*l); % decay factor;
     for i = 1:numel(N);
         Ntv(i,:) = cumtrapz(tv,(Psp(i,:).*dcf + Pmu(i,:).*dcf)); % potential N back in time
         % test saturation
         if N(i) <= max(Ntv(i,:)); % if not saturated
             tt(i) = interp1(Ntv(i,:),tv,N(i)); % individual sample exposure age
+            
+            % uncertainty estimate
+            % A with integrated average Lsp
+            if tt(i) > 0;
+                Lsp_avg = interp1(tv,cumtrapz(tv,Lsp.*exp(-l.*tv)),min(tt(i),max(tv)))/...
+                    interp1(tv,cumtrapz(tv,exp(-l.*tv)),min(tt(i),max(tv)));
+                A = l./Lsp_avg;
+                FP = (N(i).*A)./(1 - exp(-A.*tt(i)));
+                dtdN = 1./(FP - N(i).*A);
+                deltt(i) = sqrt(dtdN.^2 * delN(i).^2);
+            else; % t = 0, estimate uncertainty based on conc + unc
+                deltt(i) = interp1(Ntv(i,:),tv,N(i)+delN(i));
+            end;
         else;
             fprintf(1,'Sample %s appears to be saturated in %s!\n',sample{i},nstr);
-            tt(i) = 1E7;
-        end;
-        
-        % uncertainty estimate
-        % A with integrated average Lsp
-        if tt(i) > 0;
-            Lsp_avg = interp1(tv,cumtrapz(tv,Lsp.*exp(-l.*tv)),min(tt(i),max(tv)))/...
-                interp1(tv,cumtrapz(tv,exp(-l.*tv)),min(tt(i),max(tv)));
-            A = l./Lsp_avg;
-            FP = (N(i).*A)./(1 - exp(-A.*tt(i)));
-            dtdN = 1./(FP - N(i).*A);
-            deltt(i) = sqrt(dtdN.^2 * delN(i).^2);
-        else; % t = 0, estimate uncertainty based on conc + unc
-            deltt(i) = interp1(Ntv(i,:),tv,N(i)+delN(i));
+            tt(i) = maxtt;
+            deltt(i) = maxtt;
         end;
     end;
     

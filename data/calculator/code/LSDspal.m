@@ -57,11 +57,11 @@ PSite = Protons(h,Rc,SPhi,consts,nucl10,nucl26);
 
 %Nuclide-specific scaling factors as f(Rc)
 if nucl10 == 1
-    Site.Be = (NSite.P10n + PSite.P10p)./BeRef;
+    Site.sp10 = (NSite.P10n + PSite.P10p)./BeRef;
 end
 
 if nucl26 == 1
-    Site.Al = (NSite.P26n + PSite.P26p)./AlRef;
+    Site.sp26 = (NSite.P26n + PSite.P26p)./AlRef;
 end
 
 %if nuclide == 3

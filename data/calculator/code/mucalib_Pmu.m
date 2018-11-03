@@ -39,9 +39,7 @@ function out = mucalib_Pmu(z,h,Rc,SPhi,nucl10,nucl26,consts)
 % General Public License, version 3, as published by the Free Software Foundation (www.fsf.org).
 
 % what version is this?
-ver = '201806';
-
-% if nargin < 6; dflag='no'; end; - original
+ver = '201810';
 
 % remember what direction the z vector came in
 in_size = size(z);
@@ -59,6 +57,14 @@ mfluxRef = consts.mfluxRef;
 
 phi_site = (mflux.neg(1,:) + mflux.pos(1,:));
 phiRef = (mfluxRef.neg + mfluxRef.pos);
+
+% changed from P_mu_totalLSD.m
+% linear extrapolation of mflux.E, phi_site, and phiRef (see E2R below)
+phi_site_d = (phi_site(1)-phi_site(2))/(mflux.E(1)-mflux.E(2));
+phiRef_d = (phiRef(1)-phiRef(2))/(mflux.E(1)-mflux.E(2));
+mflux.E = [5.710 mflux.E];
+phi_site = [(mflux.E(1)-mflux.E(2))*phi_site_d+phi_site(1) phi_site];
+phiRef = [(mflux.E(1)-mflux.E(2))*phiRef_d+phiRef(1) phiRef];
 
 % find the vertical flux at SLHL
 a = 258.5*(100.^2.66);
@@ -78,25 +84,25 @@ phi_vert_slhl = (a./((z+21000).*(((z+1000).^1.66) + b))).*exp(-5.5e-6 .* z);
 Temp = E2R(mflux.E); 
 RTemp = Temp.R;
 
+% find the stopping rate of vertical muons at site
+SFmu = phi_site./phiRef;
+
+% Prevent depths less than the minimum range in E2R to be used below
+%z(z < min(RTemp)) = min(RTemp);
+ztemp = z; % changed from P_mu_totalLSD.m to reduce near-surface production artifacts
+ztemp(ztemp < min(RTemp)) = min(RTemp);
+
+% Find scaling factors appropriate for energies associated with stopping muons at depths z
+%Rz = interp1(RTemp,SFmu,z);
+Rz = interp1(RTemp,SFmu,ztemp); % changed to reduce near-surface production artifacts
+
 % Set upper limit to stopping range to test comparability with measurements
 %StopLimit = 10;
 % find the stopping rate of vertical muons at site
 % find all ranges <10 g/cm2
 %stopindex = find(RTemp<StopLimit,1,'last');
-SFmu = phi_site./phiRef;
-
 %SFmuslow = sum(phi_site(1:stopindex))./sum(phiRef(1:stopindex));
-SFmuslow = sum(phi_site(1))./sum(phiRef(1)); % changed to reduce strange near-surface production
-
-% Prevent depths less than the minimum range in E2R to be used below
-%z(z < min(RTemp)) = min(RTemp);
-ztemp = z; % changed to reduce near-surface production artifact
-ztemp(ztemp < min(RTemp)) = min(RTemp);
-
-% Find scaling factors appropriate for energies associated with stopping
-% muons at depths z
-Rz = interp1(RTemp,SFmu,ztemp);
-
+SFmuslow = phi_site(1)./phiRef(1); % changed to reduce near-surface production artifacts
 Rz(Rz>SFmuslow) = SFmuslow;
 
 RzSpline = spline(RTemp, SFmu);
@@ -114,8 +120,7 @@ for a = 1:length(z);
     % integrate
     % ends at 200,001 g/cm2 to avoid being asked for an zero
     % range of integration -- 
-    % get integration tolerance -- want relative tolerance around
-    % 1 part in 10^4. 
+    % get integration tolerance -- want relative tolerance around 1 part in 10^4. 
     tol = phi_vert_slhl(a) * 1e-4;
     [temp,fcnt] = quad(@(x) Rv0(x).*ppval(RzSpline,x),z(a),(2e5+1),tol);
     % second variable assignment here to preserve fcnt if needed
@@ -165,7 +170,6 @@ Ebar = 7.6 + 321.7.*(1 - exp(-8.059e-6.*z)) + 50.7.*(1-exp(-5.05e-7.*z));
 % internally defined constants
 %if nuclide == 14
 %	Natoms = consts.Natoms14;
-%	k_neg = consts.k_neg14;
 %	k_negpartial = consts.k_negpartial14;
 %	sigma0sp = consts.sigma0_14sp;
 %	sigma0nu = consts.sigma0_14nu;
@@ -173,7 +177,6 @@ Ebar = 7.6 + 321.7.*(1 - exp(-8.059e-6.*z)) + 50.7.*(1-exp(-5.05e-7.*z));
 %	fstar_nu = consts.fstar14nu;
 %elseif nuclide == 26
 %	Natoms = consts.Natoms26;
-%	k_neg = consts.k_neg26;
 %	k_negpartial = consts.k_negpartial26;
 %	sigma0sp = consts.sigma0_26sp;
 %	sigma0nu = consts.sigma0_26nu;
@@ -181,7 +184,6 @@ Ebar = 7.6 + 321.7.*(1 - exp(-8.059e-6.*z)) + 50.7.*(1-exp(-5.05e-7.*z));
 %	fstar_nu = consts.fstar26nu;
 %else %defaults to 10Be
 %	Natoms = consts.Natoms10;
-%	k_neg = consts.k_neg10;
 %	k_negpartial = consts.k_negpartial10;
 %	sigma0sp = consts.sigma0_10sp;
 %	sigma0nu = consts.sigma0_10nu;
@@ -191,7 +193,6 @@ Ebar = 7.6 + 321.7.*(1 - exp(-8.059e-6.*z)) + 50.7.*(1-exp(-5.05e-7.*z));
 
 if nucl10 == 1
 	Natoms10 = consts.Natoms10;
-	k_neg10 = consts.k_neg10;
 	k_negpartial10 = consts.k_negpartial10;
 %	sigma0nu10 = consts.sigma0_10nu;
 %	fstar_nu10 = consts.fstar10nu;
@@ -205,7 +206,6 @@ end
 
 if nucl26 == 1
 	Natoms26 = consts.Natoms26;
-	k_neg26 = consts.k_neg26;
 	k_negpartial26 = consts.k_negpartial26;
 %	sigma0nu26 = consts.sigma0_26nu;
 %	fstar_nu26 = consts.fstar26nu;
@@ -264,7 +264,8 @@ function out = E2R(x)
 % table for muons in standard rock
 % http://pdg.lbl.gov/2010/AtomicNuclearProperties/ Table 281
 
-data = [1.0e1 8.400e-1 6.619
+data = [5.710 0.1 8.162
+    1.0e1 8.400e-1 6.619
     1.4e1 1.530e0 5.180
     2.0e1 2.854e0 4.057
     3.0e1 5.687e0 3.157
@@ -301,7 +302,8 @@ data = [1.0e1 8.400e-1 6.619
 
 % deal with zero situation
 
-too_low = find(x < 10);
+%too_low = find(x < 10);
+too_low = find(x < 5.710); % changed to match extrapolation of data
 x(too_low) = ones(size(too_low));
 
 % obtain ranges

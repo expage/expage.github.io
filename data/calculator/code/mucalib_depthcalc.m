@@ -8,13 +8,9 @@ tic();
 % Choose site. Options: Beacon, LeymonHigh, LeymonLow, LaCiotat
 site = 'Beacon';
 
-% run and load al_be constants
-make_al_be_consts;
-load al_be_consts;
-
-% make consts_LSD
-make_consts_LSD;
-load consts_LSD;
+% run and load expage constants
+make_consts_expage;
+load consts_expage;
 
 % display site
 fprintf(1,'Site: %s\n',site);

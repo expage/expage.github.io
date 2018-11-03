@@ -14,19 +14,19 @@ close all;
 tic();
 
 % What version is this?
-ver = '201806';
+ver = '201810';
 
 % =============== MAKE CHOICES HERE ================================================================
 % max time (determines the start of the simulation - max 1E7)
-mt = 1E6;
+mt = 2588000;
 
 % use glacial erosion rate (1) or incremental erosion depth steps (0)?
 glacErate = 1;
 
 % which calculation(s) to do? 1 = yes, 0 = no
-glacEcalc = 1;  % simple glacial erosion rate calculation (single nuclides)
-range1nucl = 0; % calculate possible ranges for parameters (single nuclides)
-range2nucl = 0; % calculate possible ranges for parameters (10Be + 26Al)
+simpleEcalc = 1;  % simple glacial erosion rate calculation (single nuclides)
+range1calc = 0; % calculate possible ranges for parameters (single nuclides)
+range2calc = 0; % calculate possible ranges for parameters (10Be + 26Al)
 
 % depth of burial when sampled - for surface samples this is 0
 burialdepth = 0; % cm
@@ -45,12 +45,12 @@ burialdepth = 0; % cm
 %fix_ice = [40000 70000]; % yr  [min max]
 %fix_nonice = [10000 23000]; % yr  [min max]
 
-% glacEcalc parameters ===============================================
+% simpleEcalc parameters =============================================
 % LR04 per mill break value for determining ice cover history
-LR04ice = 4.8;
-glacEcalcunc = 1; % plot uncertainties? 1 = yes
+LR04ice = 4.5;
+simpleEcalcunc = 1; % plot uncertainties? 1 = yes
 
-% range parameters (range1nucl and/or range2nucl) ====================
+% range parameters (range1calc and/or range2calc) ====================
 % glacial erosion - unit depending on glacErate above
 glacEmin = 0; % mm/ka or cm/glac - min value
 glacEmax = 1000; % mm/ka or cm/glac - max value
@@ -77,10 +77,11 @@ color10 = 'red'; % color for 10Be
 color26 = 'blue'; % color for 26Al
 
 % plot choices
-pl_glacEcalc_buildup = 1; % plot nuclide build-up for simple glacial erosion (glacEcalc = 1)
-pl_glacEcalc_depth = 1;   % plot sample depth for simple glacial erosion (glacEcalc = 1)
+pl_simpleEcalc_buildup = 1; % plot nuclide build-up for simple glacial erosion (simpleEcalc = 1)
+pl_simpleEcalc_depth = 1;   % plot sample depth for simple glacial erosion (simpleEcalc = 1)
 pl_range_depth = 1;   % plot sample depth for range calculation(s) (rangeXnulc = 1)
 pl_range_banana = 1;  % plot 26/10 banana for range calculation(s) (range2nulc = 1)
+ratiopathN = 100; % number of OK sample 26Al/10Be ratio paths to plot in banana
 
 % max time for plotting (yr)
 pl_maxt = 1E6;
@@ -155,14 +156,14 @@ samplein.pressure(pre_v) = samplein.elv(pre_v);
 [LR04_tv,d18Oin] = textread('glacialE_LR04.txt','%n %n','commentstyle','matlab');
 
 % glacial erosion vectors
-if glacEcalc==1 && glacErate==1; % if using erosion rate;
+if simpleEcalc==1 && glacErate==1; % if using erosion rate;
     Eglacv = [(0:2:28) logspace(1.48,3,35)]; % mm/ka
-elseif glacEcalc==1 && glacErate==0; % if using incremental erosion depth per glaciation (cm/glac)
+elseif simpleEcalc==1 && glacErate==0; % if using incremental erosion depth per glaciation (cm/glac)
     Eglacv = [(0:1:6) (8:2:20) (25:5:60) (70:10:190) (200:25:300) (350:50:500) (600:100:1000) 3000];
 end;
 
 % fix parameters for range calculations
-if range1nucl == 1 || range2nucl == 1;
+if range1calc == 1 || range2calc == 1;
     % input parameter limits
     glacEmin_in = glacEmin;
     glacEmax_in = glacEmax;
@@ -183,13 +184,13 @@ end;
 
 % for plotting
 pl(1:6) = 0;
-if pl_glacEcalc_buildup==1 && glacEcalc==1; pl(1) = max(pl)+1; end;
-if pl_glacEcalc_depth==1 && glacEcalc==1; pl(2) = max(pl)+1; end;
-if pl_range_depth==1 && range1nucl==1 && sum(samplein.N10)>0; pl(3) = max(pl)+1; end;
-if pl_range_depth==1 && range1nucl==1 && sum(samplein.N26)>0; pl(4) = max(pl)+1; end;
-if pl_range_depth==1 && range2nucl==1 && sum(samplein.N10.*samplein.N26)>0; pl(5) = max(pl)+1; end;
-if pl_range_banana==1 && range2nucl==1 && sum(samplein.N10.*samplein.N26)>0; pl(6) = max(pl)+1; end;
-pl10b = 0; pl10d = 0; pl26b = 0; pl26d = 0;
+if pl_simpleEcalc_buildup==1 && simpleEcalc==1; pl(1) = max(pl)+1; end;
+if pl_simpleEcalc_depth==1 && simpleEcalc==1; pl(2) = max(pl)+1; end;
+if pl_range_depth==1 && range1calc==1 && sum(samplein.N10)>0; pl(3) = max(pl)+1; end;
+if pl_range_depth==1 && range1calc==1 && sum(samplein.N26)>0; pl(4) = max(pl)+1; end;
+if pl_range_depth==1 && range2calc==1 && sum(samplein.N10.*samplein.N26)>0; pl(5) = max(pl)+1; end;
+if pl_range_banana==1 && range2calc==1 && sum(samplein.N10.*samplein.N26)>0; pl(6) = max(pl)+1; end;
+pl10b = 1; pl10d = 1; pl26b = 1; pl26d = 1;
 pldepth2 = []; pldepth3 = []; pldepth4 = []; pldepth5 = [];
 plicemin3 = []; plicemax3 = []; plicemin4 = []; plicemax4 = []; plicemin5 = []; plicemax5 = [];
 legh1 = []; legin1 = {}; legh2 = []; legin2 = {};
@@ -203,7 +204,7 @@ clrv = ...
 % fix for output
 output(1,1) = {'sample'};
 outn(1) = 1;
-if sum(samplein.N10)>0 && glacEcalc==1;
+if sum(samplein.N10)>0 && simpleEcalc==1;
     if glacErate == 1; % if using erosion rate
         output(1,end+1:end+3) = {'10E(mm/ka)','10E+(mm/ka)','10E-(mm/ka)'};
     else; % if using erosion steps
@@ -219,7 +220,7 @@ if sum(samplein.N10)>0 && glacEcalc==1;
         outn(4) = max(outn)+1;
     end;
 end;
-if sum(samplein.N26)>0 && glacEcalc==1;
+if sum(samplein.N26)>0 && simpleEcalc==1;
     if glacErate == 1; % if using erosion rate
         output(1,end+1:end+3) = {'26E(mm/ka)','26E+(mm/ka)','26E-(mm/ka)'};
     else; % if using erosion steps
@@ -235,7 +236,7 @@ if sum(samplein.N26)>0 && glacEcalc==1;
         outn(8) = max(outn)+1;
     end;
 end;
-if sum(samplein.N10)>0 && range1nucl == 1;
+if sum(samplein.N10)>0 && range1calc == 1;
     if glacErate == 1; % if using erosion rate
         output(1,end+1:end+6) = {'glacEmin10(mm/ka)','glacEmax10(mm/ka)',...
             'nonglacEmin10(mm/ka)','nonglacEmax10(mm/ka)','LR04min10(‰)','LR04max10(‰)'};
@@ -253,7 +254,7 @@ if sum(samplein.N10)>0 && range1nucl == 1;
         outn(13) = max(outn)+1; outn(14) = max(outn)+1;
     end;
 end;
-if sum(samplein.N26)>0 && range1nucl == 1;
+if sum(samplein.N26)>0 && range1calc == 1;
     if glacErate == 1; % if using erosion rate
         output(1,end+1:end+6) = {'glacEmin26(mm/ka)','glacEmax26(mm/ka)',...
             'nonglacEmin26(mm/ka)','nonglacEmax26(mm/ka)','LR04min26(‰)','LR04max26(‰)'};
@@ -271,7 +272,7 @@ if sum(samplein.N26)>0 && range1nucl == 1;
         outn(19) = max(outn)+1; outn(20) = max(outn)+1;
     end;
 end;
-if sum(samplein.N10.*samplein.N26)>0 && range2nucl == 1;
+if sum(samplein.N10.*samplein.N26)>0 && range2calc == 1;
     if glacErate == 1; % if using erosion rate
         output(1,end+1:end+6) = {'glacEmin1026(mm/ka)','glacEmax1026(mm/ka)',...
             'nonglacEmin1026(mm/ka)','nonglacEmax1026(mm/ka)','LR04min1026(‰)','LR04max1026(‰)'};
@@ -315,7 +316,7 @@ for i = 1:numel(samplein.lat);
     if sample.N10 > 0; nucl10 = 1; end;
     if sample.N26 > 0; nucl26 = 1; end;
     
-    if nucl10+nucl26==0 || (glacEcalc==0 && range1nucl==0 && nucl10*nucl26==0);
+    if nucl10+nucl26==0 || (simpleEcalc==0 && range1calc==0 && nucl10*nucl26==0);
         continue;
     end;
     
@@ -351,7 +352,7 @@ for i = 1:numel(samplein.lat);
     % Precompute P_mu(z) to ~200,000 g/cm2
     % start at the mid-depth of the sample.
     sample.z_mu = [0 logspace(0,5.3,100)];
-    P_mu_z = P_mu_LSD(sample.z_mu+(sample.thick.*sample.rho./2),sample.pressure,LSDfix.RcEst,...
+    P_mu_z = P_mu_expage(sample.z_mu+(sample.thick.*sample.rho./2),sample.pressure,LSDfix.RcEst,...
         consts.SPhiInf,nucl10,nucl26,consts,'no');
     
     % spallation production scaling
@@ -374,8 +375,8 @@ for i = 1:numel(samplein.lat);
         iceidx = min(find(tv >= sample.deglac));
     end;
     
-    % if calculating single nuclide erosion ========================================================
-    if glacEcalc == 1;
+    % if calculating single nuclide erosion using interpolation ====================================
+    if simpleEcalc == 1;
         % fix ice cover record
         icev = (d18O >= LR04ice);
         icev = double(icev); % fix for matlab
@@ -483,7 +484,7 @@ for i = 1:numel(samplein.lat);
         % 10Be single nuclide calculations
         if nucl10 == 1;
             % calculate N(t) for matrix
-            Nend10 = Ncalc(fulldm,noicem,tv,Psp.Be,Pref10,P_mu_z.Be,l10,sample);
+            Nend10 = Ncalc(fulldm,noicem,tv,Psp.sp10,Pref10,P_mu_z.mu10,l10,sample);
             
             % calculate erosion and uncertainties (and display output)
             out10 = fix_output1(sample.N10,sample.delN10,Pref10,delPref10,Nend10,Eglacv,...
@@ -492,17 +493,26 @@ for i = 1:numel(samplein.lat);
             
             % plot nuclide buildup
             if pl(1) > 0;
-                pl10b = pl10b+1;
-                N10v = nucl1_buildup(Eglacv,fulldm,out10.erosion,sample,Psp.Be,P_mu_z.Be,noicev,...
-                    tv,l10);
+                if isfield(out10,'mindelE');
+                    N10v = nucl1_buildup(Eglacv,fulldm,out10.erosion,sample,Psp.sp10,P_mu_z.mu10,...
+                        noicev,tv,l10,out10.mindelE,out10.maxdelE);
+                else;
+                    N10v = nucl1_buildup(Eglacv,fulldm,out10.erosion,sample,Psp.sp10,P_mu_z.mu10,...
+                        noicev,tv,l10);
+                end;
                 
                 figure(pl(1)),set(pl(1),'visible','off');
                 hold on;
-                if pl10b ~= 1;
-                    plot(tv./1E3,N10v,'color',color10);
+                if pl10b == 0;
+                    plot(tv'./1E3,N10v.mid,'color',color10);
                 else;
-                    legh1(end+1) = plot(tv./1E3,N10v,'color',color10);
+                    legh1(end+1) = plot(tv'./1E3,N10v.mid,'color',color10);
                     legin1(end+1) = {'^{10}Be'};
+                    pl10b = 0;
+                end;
+                % plot uncertainties
+                if simpleEcalcunc==1 && isfield(N10v,'unc');
+                    plot(tv'./1E3,N10v.unc,'color',color10,'linestyle','--');
                 end;
             end;
             
@@ -517,18 +527,18 @@ for i = 1:numel(samplein.lat);
             
             % plot depth history
             if pl(2) > 0;
-                pl10d = pl10d+1; % counter for 10Be samples
                 pldepth2(end+1) = interp1(tv,dv10,min(pl_maxt,max(tv)),'pchip'); % add d for y axis
                 figure(pl(2)),set(pl(2),'visible','off');
                 hold on;
-                if pl10d ~= 1;
+                if pl10d == 0;
                     plot(tv./1E3,dv10,'color',color10);
                 else;
                     legh2(end+1) = plot(tv./1E3,dv10,'color',color10);
                     legin2(end+1) = {'^{10}Be'};
+                    pl10d = 0;
                 end;
                 % plot uncertainties
-                if glacEcalcunc==1 && isfield(out10,'maxdelE'); % interpret max depth (m)
+                if simpleEcalcunc==1 && isfield(out10,'mindelE'); % interpret max depth (m)
                     pluncmin10 = interp1(Eglacv',ddm',out10.erosion-out10.mindelE,'pchip')./1E2;
                     pluncmax10 = interp1(Eglacv',ddm',out10.erosion+out10.maxdelE,'pchip')./1E2;
                     pldepth2(end+1) = interp1(tv,pluncmax10,pl_maxt,'pchip'); % max d for y-axis
@@ -541,7 +551,7 @@ for i = 1:numel(samplein.lat);
         % 26Al single nuclide calculations
         if nucl26 == 1;
             % calculate N(t) for matrix
-            Nend26 = Ncalc(fulldm,noicem,tv,Psp.Al,Pref26,P_mu_z.Al,l26,sample);
+            Nend26 = Ncalc(fulldm,noicem,tv,Psp.sp26,Pref26,P_mu_z.mu26,l26,sample);
             
             % calculate erosion and uncertainties (and display output)
             out26 = fix_output1(sample.N26,sample.delN26,Pref26,delPref26,Nend26,Eglacv,...
@@ -550,19 +560,46 @@ for i = 1:numel(samplein.lat);
             
             % plot nuclide buildup
             if pl(1) > 0;
-                pl26b = pl26b+1;
-                N26v = nucl1_buildup(Eglacv,fulldm,out26.erosion,sample,Psp.Al,P_mu_z.Al,noicev,...
-                    tv,l26);
+                if isfield(out26,'mindelE');
+                    N26v = nucl1_buildup(Eglacv,fulldm,out26.erosion,sample,Psp.sp26,P_mu_z.mu26,...
+                        noicev,tv,l26,out26.mindelE,out26.maxdelE);
+                else;
+                    N26v = nucl1_buildup(Eglacv,fulldm,out26.erosion,sample,Psp.sp26,P_mu_z.mu26,...
+                        noicev,tv,l26);
+                end;
                 
                 figure(pl(1)),set(pl(1),'visible','off');
                 hold on;
-                if pl26b ~= 1;
+                if pl26b == 0;
+                    plot(tv'./1E3,N26v.mid,'color',color26);
+                else;
+                    legh1(end+1) = plot(tv'./1E3,N26v.mid,'color',color26);
+                    legin1(end+1) = {'^{26}Be'};
+                    pl26b = 0;
+                end;
+                % plot uncertainties
+                if simpleEcalcunc==1 && isfield(N26v,'unc');
+                    plot(tv'./1E3,N26v.unc,'color',color26,'linestyle','--');
+                end;
+            end;
+            
+            %{
+            % plot nuclide buildup
+            if pl(1) > 0;
+                N26v = nucl1_buildup(Eglacv,fulldm,out26.erosion,sample,Psp.sp26,P_mu_z.mu26,...
+                    noicev,tv,l26);
+                
+                figure(pl(1)),set(pl(1),'visible','off');
+                hold on;
+                if pl26b == 0;
                     plot(tv./1E3,N26v,'color',color26);
                 else;
                     legh1(end+1) = plot(tv./1E3,N26v,'color',color26);
                     legin1(end+1) = {'^{26}Al'};
+                    pl26b = 0;
                 end;
             end;
+            %}
             
             % calculate depth history
             dv26 = interp1(Eglacv',ddm',out26.erosion,'pchip')./1E2; % interpolated depth (m)
@@ -575,18 +612,18 @@ for i = 1:numel(samplein.lat);
             
             % plot depth history
             if pl(2) > 0;
-                pl26d = pl26d+1; % counter for 26Al samples
                 pldepth2(end+1) = interp1(tv,dv26,min(pl_maxt,max(tv)),'pchip'); % add d for y axis
                 figure(pl(2)),set(pl(2),'visible','off');
                 hold on;
-                if pl26d ~= 1;
+                if pl26d == 0;
                     plot(tv./1E3,dv26,'color',color26);
                 else;
                     legh2(end+1) = plot(tv./1E3,dv26,'color',color26);
                     legin2(end+1) = {'^{26}Al'};
+                    pl26d = 0;
                 end;
                 % plot uncertainties
-                if glacEcalcunc==1 && isfield(out26,'maxdelE'); % interpret max depth (m)
+                if simpleEcalcunc==1 && isfield(out26,'mindelE'); % interpret max depth (m)
                     pluncmin26 = interp1(Eglacv',ddm',out26.erosion-out26.mindelE,'pchip')./1E2;
                     pluncmax26 = interp1(Eglacv',ddm',out26.erosion+out26.maxdelE,'pchip')./1E2;
                     pldepth2(end+1) = interp1(tv,pluncmax26,pl_maxt,'pchip'); % max d for y-axis
@@ -595,27 +632,27 @@ for i = 1:numel(samplein.lat);
                 end;
             end;
         end; % end 26Al calculations
-    end; % end glacEcalc
+    end; % end simpleEcalc
     % ==============================================================================================
     
     % if calculating ranges ========================================================================
-    if range1nucl==1 || (range2nucl==1 && nucl10==1 && nucl26==1);      
+    if range1calc==1 || (range2calc==1 && nucl10==1 && nucl26==1);      
         % matrix/vectors to be filled in while loop
         ddmok = []; glacEok = []; nonglacEok = []; LR04ok = []; Ndiffok = [];
-        P10ok = []; P26ok = []; nhit = 0;
+        P10ok = []; P26ok = []; N10ok = []; N26ok = []; nhit = 0;
         
         % parameter test
         partest(1:6) = 0;
         
         % fix looptest parameter
         looptest = [1 1 1];
-        if nucl10 == 1 && range1nucl == 1;
+        if nucl10 == 1 && range1calc == 1;
             looptest(1) = 0;
         end;
-        if nucl26 == 1 && range1nucl == 1;
+        if nucl26 == 1 && range1calc == 1;
             looptest(2) = 0;
         end;
-        if nucl10 == 1 && nucl26 == 1 && range2nucl == 1;
+        if nucl10 == 1 && nucl26 == 1 && range2calc == 1;
             looptest(3) = 0;
         end;
         
@@ -756,7 +793,7 @@ for i = 1:numel(samplein.lat);
             % do calculation and pick out runs that yield OK conc
             if looptest(1) == 0; % 10Be single nuclide range
                 % calculate N(t) for matrix
-                Nend = Ncalc(fulldm,noicem,tv,Psp.Be,Pref10,P_mu_z.Be,l10,sample);
+                Nend = Ncalc(fulldm,noicem,tv,Psp.sp10,Pref10,P_mu_z.mu10,l10,sample);
                 
                 % pick out concentrations within measured uncertainty
                 Ndiff = abs(Nend-sample.N10);
@@ -766,7 +803,7 @@ for i = 1:numel(samplein.lat);
                 ddmok(:,end+1:end+numel(hitidx)) = ddm(:,hitidx);
             elseif looptest(2) == 0; % 26Al single nuclide range
                 % calculate N(t) for matrix
-                Nend = Ncalc(fulldm,noicem,tv,Psp.Al,Pref26,P_mu_z.Al,l26,sample);
+                Nend = Ncalc(fulldm,noicem,tv,Psp.sp26,Pref26,P_mu_z.mu26,l26,sample);
                 
                 % pick out concentrations within measured uncertainty
                 Ndiff = abs(Nend-sample.N26);
@@ -776,18 +813,22 @@ for i = 1:numel(samplein.lat);
                 ddmok(:,end+1:end+numel(hitidx)) = ddm(:,hitidx);
             elseif looptest(3) == 0; % 26Al/10Be nuclide range
                 % calculate N(t) for matrix
-                Nend10 = Ncalc(fulldm,noicem,tv,Psp.Be,Pref10,P_mu_z.Be,l10,sample);
-                Nend26 = Ncalc(fulldm,noicem,tv,Psp.Al,Pref26,P_mu_z.Al,l26,sample);
+                Nend10 = Ncalc(fulldm,noicem,tv,Psp.sp10,Pref10,P_mu_z.mu10,l10,sample);
+                Nend26 = Ncalc(fulldm,noicem,tv,Psp.sp26,Pref26,P_mu_z.mu26,l26,sample);
                 
                 % calculate P10 and P26 for matrix
-                P1026m = Pcalc1026(fulldm,noicem,tv,Psp.Be,Psp.Al,Pref10,Pref26,P_mu_z.Be,...
-                    P_mu_z.Al,l10,l26,sample);
+                P1026m = Pcalc1026(fulldm,noicem,tv,Psp.sp10,Psp.sp26,Pref10,Pref26,P_mu_z.mu10,...
+                    P_mu_z.mu26,l10,l26,sample);
                 
                 % pick out concentrations within measured uncertainty
                 Ndiff = abs(Nend10-sample.N10)./sample.delN10 + ...
                     abs(Nend26-sample.N26)./sample.delN26;
                 hitidx = find((abs(Nend10-sample.N10) <= sample.delN10) .* ...
                     (abs(Nend26-sample.N26) <= sample.delN26) == 1);
+                
+                % pick out concentrations (for ratio path plot selection)
+                N10ok(end+1:end+numel(hitidx)) = Nend10(hitidx);
+                N26ok(end+1:end+numel(hitidx)) = Nend26(hitidx);
                 
                 % pick out OK depth vectors from ddm
                 ddmok(:,end+1:end+numel(hitidx)) = ddm(:,hitidx);
@@ -1036,7 +1077,7 @@ for i = 1:numel(samplein.lat);
                 end;
                 
                 % plot sample depth history
-                if pl_range_depth==1 && nhit>1 && (range1nucl==1 || range2nucl==1);
+                if pl_range_depth==1 && nhit>1 && (range1calc==1 || range2calc==1);
                     ddm_min = min(ddmok');
                     ddm_max = max(ddmok');
                     if ishandle(plr);
@@ -1073,10 +1114,10 @@ for i = 1:numel(samplein.lat);
                 % plot banana
                 if min(find(looptest==0))==3 && pl_range_banana==1;
                     % calculate normalized P
-                    Psp10 = Psp.Be.*Pref10.*sample.thickSF.*sample.othercorr; % surface spal P10
-                    Pmu10 = P_mu_z.Be(1).*sample.othercorr; % surface muon P10
-                    Psp26 = Psp.Al.*Pref26.*sample.thickSF.*sample.othercorr; % surface spal P26
-                    Pmu26 = P_mu_z.Al(1).*sample.othercorr; % surface muon P26
+                    Psp10 = Psp.sp10.*Pref10.*sample.thickSF.*sample.othercorr; % surface spal P10
+                    Pmu10 = P_mu_z.mu10(1).*sample.othercorr; % surface muon P10
+                    Psp26 = Psp.sp26.*Pref26.*sample.thickSF.*sample.othercorr; % surface spal P26
+                    Pmu26 = P_mu_z.mu26(1).*sample.othercorr; % surface muon P26
                     P0avg10 = trapz(tv,(Psp10+Pmu10).*exp(-l10.*tv))/trapz(tv,exp(-l10.*tv));
                     P0avg26 = trapz(tv,(Psp26+Pmu26).*exp(-l26.*tv))/trapz(tv,exp(-l26.*tv));
                     
@@ -1113,12 +1154,25 @@ for i = 1:numel(samplein.lat);
                     semilogx(sigmal.x,sigmal.y,'color',clr);
                     
                     if nhit > 0; % if any hits
+                        % pick out case with min and max ratio
+                        [rmin rmini] = min(N26ok./N10ok);
+                        [rmax rmaxi] = max(N26ok./N10ok);
+                        P10r = P10ok(:,[rmini rmaxi]);
+                        P26r = P26ok(:,[rmini rmaxi]);
+                        % remove from Pok
+                        P10ok(:,[rmini rmaxi]) = [];
+                        P26ok(:,[rmini rmaxi]) = [];
+                        % pick out up to ratiopathN random paths
+                        rnum = min(ratiopathN-2,size(P10ok,2)); % number of further P to pick out
+                        ridx = ceil(rand(1,rnum).*size(P10ok,2)); % idx to pick out
+                        P10r(:,end+1:end+rnum) = P10ok(:,ridx);
+                        P26r(:,end+1:end+rnum) = P26ok(:,ridx);
+                        
                         % calculate normalized N26/N10 ratios
-                        [N10vmin N10vmax minN2610 maxN2610] = N1026calc(P10ok,P26ok,tv,l10,l26,...
-                            P0avg10,P0avg26);
+                        [N10path N26path] = N1026calc(tv,P10r,P26r,l10,l26,P0avg10,P0avg26);
+                        
                         % plot 26/10 ratios against N10
-                        semilogx(N10vmin,minN2610,'color',clr);
-                        semilogx(N10vmax,maxN2610,'color',clr);
+                        semilogx(N10path,N26path./N10path,'color',clr);
                     end;
                     
                     % fix for Eline
@@ -1212,6 +1266,7 @@ if pl(2)>0 && any(figh==pl(2));
     
     % determine maxy for axis
     if max(pldepth2) > maxmaxy; maxy = maxmaxy; else; maxy = max(pldepth2); end;
+    if maxy == 0; maxy = 1; end; % fix for zero erosion case
     
     % plot ice cover
     if size(plice,1) > 1; plicev = (sum(plice==1) > 0); else; plicev = (plice == 1); end;
@@ -1387,52 +1442,64 @@ function out = Pcalc1026(fulldm,noicem,tv,Psp10,Psp26,Pref10,Pref26,P_mu_z10,P_m
 
 
 % subfunction N1026calc ============================================================================
-function [N10vmin N10vmax minN2610 maxN2610] = N1026calc(P10ok,P26ok,tv,l10,l26,P0avg10,P0avg26);
+function [N10m N26m] = N1026calc(tv,P10,P26,l10,l26,P0avg10,P0avg26);
     % fix flipped full prod matrices and tv matrix
-    Pfull10m = flip(P10ok);
-    Pfull26m = flip(P26ok);
+    P10m = flip(P10);
+    P26m = flip(P26);
     tvflip = flip(tv);
     
-    % do concentration calculation
-    N10m = zeros(1,size(P10ok,2));
-    N26m = zeros(1,size(P26ok,2));
-    for j = 1:numel(tv)-1;
-        N10m(end+1,:) = (N10m(end,:) + mean(Pfull10m(j:j+1,:)).*(tvflip(j)-tvflip(j+1))) ...
-            .* exp(-(tvflip(j)-tvflip(j+1)).*l10);
-        N26m(end+1,:) = (N26m(end,:) + mean(Pfull26m(j:j+1,:)).*(tvflip(j)-tvflip(j+1))) ...
-            .* exp(-(tvflip(j)-tvflip(j+1)).*l26);
+    Pmean10 = (P10m(1:end-1,:)+P10m(2:end,:))./2;
+    Pmean26 = (P26m(1:end-1,:)+P26m(2:end,:))./2;
+    dtv = tvflip(1:end-1) - tvflip(2:end);
+    fidx = min(find(dtv(1:end-1)-dtv(2:end)==0));
+    
+    N10m(1,size(P10m,2)) = 0;
+    N26m(1,size(P26m,2)) = 0;
+    
+    % for loop used for first part with varying time steps
+    if fidx > 1;
+        for i = 1:fidx-1;
+            N10m(i+1,:) = (N10m(end,:) + Pmean10(i).*(tvflip(i)-tvflip(i+1))) .* ...
+                exp(-(tvflip(i)-tvflip(i+1)).*l10);
+            N26m(i+1,:) = (N26m(end,:) + Pmean26(i).*(tvflip(i)-tvflip(i+1))) .* ...
+                exp(-(tvflip(i)-tvflip(i+1)).*l26);
+        end;
+        % remove calculated steps
+        tvflip(1:fidx-1) = [];
+        dtv(1:fidx-1) = [];
+        Pmean10(1:fidx-1,:) = [];
+        Pmean26(1:fidx-1,:) = [];
     end;
     
-    % transpose and divide with average surface P
+    % while loop used for filtering parts with constant time step
+    while numel(tvflip) > 1;
+        widx = max(find(dtv==dtv(1)));
+        Ptemp10 = Pmean10(1:widx,:).*dtv(1);
+        Ptemp10(2:end+1,:) = Ptemp10;
+        Ptemp10(1,:) = N10m(end,:);
+        decay10 = -exp(-l10.*dtv(1));
+        Ntemp10 = filter(1,[1,decay10],Ptemp10);
+        N10m(end+1:end+widx,:) = Ntemp10(2:end,:);
+        Ptemp26 = Pmean26(1:widx,:).*dtv(1);
+        Ptemp26(2:end+1,:) = Ptemp26;
+        Ptemp26(1,:) = N26m(end,:);
+        decay26 = -exp(-l26.*dtv(1));
+        Ntemp26 = filter(1,[1,decay26],Ptemp26);
+        N26m(end+1:end+widx,:) = Ntemp26(2:end,:);
+        % remove calculated steps
+        tvflip(1:widx) = [];
+        dtv(1:widx) = [];
+        Pmean10(1:widx,:) = [];
+        Pmean26(1:widx,:) = [];
+    end;
+    
+    % flip back and divide with average surface P
+    N10m = flip(N10m);
+    N26m = flip(N26m);
     N10m = N10m./P0avg10;
     N26m = N26m./P0avg26;
-    N10m = N10m(2:end,:); % skip row 1 to avoid division by 0
-    N26m = N26m(2:end,:); % skip row 1 to avoid division by 0
-    N2610m = N26m./N10m;
-    
-    % find mina and max ending 26/10 ratios and N10
-    [minN2610end,minendidx] = min(N2610m(end,:));
-    [maxN2610end,maxendidx] = max(N2610m(end,:));
-    
-    % make N10 vectors to interpolate to
-    N10vmin = logspace(log10(1E2),log10(N10m(end,minendidx)),1E3);
-    N10vmax = logspace(log10(1E2),log10(N10m(end,maxendidx)),1E3);
-    
-    % interpolate N2610 to new N10 vectors
-    minidx = find(N10m(end,:) < N10m(end,minendidx));
-    maxidx = find(N10m(end,:) < N10m(end,maxendidx));
-    N10mtempmin = N10m;
-    N10mtempmin(end,minidx) = N10mtempmin(end,minendidx);
-    N10mtempmax = N10m;
-    N10mtempmax(end,maxidx) = N10mtempmax(end,maxendidx);
-    for j = 1:size(N2610m,2);
-        N2610mmin(:,j) = interp1(N10mtempmin(:,j),N2610m(:,j),N10vmin');
-        N2610mmax(:,j) = interp1(N10mtempmax(:,j),N2610m(:,j),N10vmax');
-    end;
-    
-    % find min and max 26/10 ratios
-    minN2610 = min(N2610mmin');
-    maxN2610 = max(N2610mmax');
+    N10m(end,:) = []; % skip end row to avoid division by 0
+    N26m(end,:) = []; % skip end row to avoid division by 0
 % end subfunction N1026calc ========================================================================
 
 
@@ -1507,19 +1574,67 @@ function results = fix_output1(N,delN,Pref,delPref,Nend,Eglacv,glacErate,nuclstr
 
 
 % subfunction nucl1_buildup ========================================================================
-function Nv = nucl1_buildup(Eglacv,fulldm,eros,sample,Psp0,P_mu_z,noicev,tv,l);
-    fulldv = interp1(Eglacv',fulldm',eros,'pchip'); % interpolated depth vector (g/cm2)
+function out = nucl1_buildup(Eglacv,fulldm,eros,sample,Psp0,P_mu_z,noicev,tv,l,mindelE,maxdelE);
+    % calculate P through time
+    fulldv = interp1(Eglacv',fulldm',eros,'pchip'); % interpolate depth (g/cm2)
     dpfs = exp(-fulldv./sample.Lsp); % spallation depth dependence
     Pspv = Psp0 .* sample.othercorr .* dpfs .* noicev; % spallation prod
     Pmuv = interp1(sample.z_mu,P_mu_z,fulldv,'pchip') .* sample.othercorr .* noicev;
-    Pfullv = flip(Pspv + Pmuv); % full prod
-    tvflip = flip(tv);
-    Nv = 0;
-    for j = 1:numel(Pfullv)-1;
-        Nv(end+1) = (Nv(end) + mean(Pfullv(j:j+1)).*(tvflip(j)-tvflip(j+1))) .*...
-            exp(-(tvflip(j)-tvflip(j+1)).*l);
+    Pfull = Pspv' + Pmuv'; % full prod
+    % same for min and max uncertainties
+    if exist('mindelE');
+        mindv = interp1(Eglacv',fulldm',eros-mindelE,'pchip'); % interpolate depth (g/cm2)
+        mindpfs = exp(-mindv./sample.Lsp); % spallation depth dependence
+        minPspv = Psp0 .* sample.othercorr .* mindpfs .* noicev; % spallation prod
+        minPmuv = interp1(sample.z_mu,P_mu_z,mindv,'pchip') .* sample.othercorr .* noicev;
+        Pfull(:,2) = minPspv' + minPmuv'; % full prod
+        maxdv = interp1(Eglacv',fulldm',eros+maxdelE,'pchip'); % (g/cm2)
+        maxdpfs = exp(-maxdv./sample.Lsp); % spallation depth dependence
+        maxPspv = Psp0 .* sample.othercorr .* maxdpfs .* noicev; % spallation prod
+        maxPmuv = interp1(sample.z_mu,P_mu_z,maxdv,'pchip') .* sample.othercorr .* noicev;
+        Pfull(:,3) = maxPspv' + maxPmuv'; % full prod
     end;
-    Nv = flip(Nv)./Nv(end).*1E2;
+    
+    tvflip = flip(tv');
+    Pflip = flip(Pfull);
+    Pmean = (Pflip(1:end-1,:)+Pflip(2:end,:))./2;
+    dtv = tvflip(1:end-1) - tvflip(2:end);
+    fidx = min(find(dtv(1:end-1)-dtv(2:end)==0));
+    
+    N(1,size(Pflip,2)) = 0;
+    
+    % for loop used for first part with varying time steps
+    if fidx > 1;
+        for i = 1:fidx-1;
+            N(i+1,:) = (N(end,:) + Pmean(i).*(tvflip(i)-tvflip(i+1))) .* ...
+                exp(-(tvflip(i)-tvflip(i+1)).*l);
+        end;
+        % remove calculated steps
+        tvflip(1:fidx-1) = [];
+        Pmean(1:fidx-1,:) = [];
+        dtv(1:fidx-1) = [];
+    end;
+    
+    % while loop used for filtering parts with constant time step
+    while numel(tvflip) > 1;
+        widx = max(find(dtv==dtv(1)));
+        Ptemp = Pmean(1:widx,:).*dtv(1);
+        Ptemp(2:end+1,:) = Ptemp;
+        Ptemp(1,:) = N(end,:);
+        decay = -exp(-l.*dtv(1));
+        Ntemp = filter(1,[1,decay],Ptemp);
+        N(end+1:end+widx,:) = Ntemp(2:end,:);
+        % remove calculated steps
+        tvflip(1:widx) = [];
+        Pmean(1:widx,:) = [];
+        dtv(1:widx) = [];
+    end;
+    
+    N = flip(N);
+    out.mid = N(:,1)./N(1,1).*1E2;
+    if exist('mindelE');
+        out.unc = N(:,2:3)./repmat(N(1,2:3),size(tvflip)).*1E2;
+    end;
 % end subfunction nucl1_buildup ====================================================================
 
 
@@ -1596,9 +1711,9 @@ function [x,y] = Eline(plEl,consts);
     % Precompute P_mu(z) to ~200,000 g/cm2 - start at the average sample mid-depth.
     z_sp = [0 logspace(0,5.3,100)];
     z_mu = z_sp+(mean(plEl.thick_rho)./2);
-    P_mu_z = P_mu_LSD(z_mu,mean(plEl.atm),mean(plEl.RcEst),consts.SPhiInf,1,1,consts,'no');
-    P_mu_z10 = P_mu_z.Be.*mean(plEl.othercorr);
-    P_mu_z26 = P_mu_z.Al.*mean(plEl.othercorr);
+    P_mu_z = P_mu_expage(z_mu,mean(plEl.atm),mean(plEl.RcEst),consts.SPhiInf,1,1,consts,'no');
+    P_mu_z10 = P_mu_z.mu10.*mean(plEl.othercorr);
+    P_mu_z26 = P_mu_z.mu26.*mean(plEl.othercorr);
     P10sp_z = mean(plEl.P10sp).*exp(-z_sp./mean(plEl.Lsp));
     P26sp_z = mean(plEl.P26sp).*exp(-z_sp./mean(plEl.Lsp));
     

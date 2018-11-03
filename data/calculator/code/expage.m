@@ -14,7 +14,7 @@ clear;
 tic();
 
 % What version is this?
-ver = '201806';
+ver = '201810';
 
 % plotting? (1 = yes) ==============================================================================
 plotpointages = 0; % plots exposure ages as points
@@ -163,10 +163,10 @@ for i = 1:numel(samplein.lat);
     
     % Production from muons
     if sample.E <= 0;
-        P_mu = P_mu_LSD(sample.thick.*sample.rho./2,sample.pressure,LSDfix.RcEst,...
+        Pmu = P_mu_expage(sample.thick.*sample.rho./2,sample.pressure,LSDfix.RcEst,...
             consts.SPhiInf,nucl10,nucl26,consts,'no');
-        if nucl10 == 1; sample.mu10 = P_mu.Be .* sample.othercorr; end;
-        if nucl26 == 1; sample.mu26 = P_mu.Al .* sample.othercorr; end;
+        if nucl10 == 1; sample.mu10 = Pmu.mu10 .* sample.othercorr; end;
+        if nucl26 == 1; sample.mu26 = Pmu.mu26 .* sample.othercorr; end;
     else;
         tv_z = (tv.*sample.E + sample.thick./2) .* sample.rho; % time - depth vect (g/cm^2)
         if nucl10 == 1;
@@ -178,7 +178,7 @@ for i = 1:numel(samplein.lat);
     end;
     
     % spallation production scaling
-    LSDnu = LSDspal(sample.pressure,Rc,SPhi,LSDfix.w,nucl10,nucl26,consts);
+    Psp = LSDspal(sample.pressure,Rc,SPhi,LSDfix.w,nucl10,nucl26,consts);
     
     % interpolate Lsp using CRONUScalc method (Sato 2008; Marrero et al. 2016)
     sample.Lsp = rawattenuationlength(sample.pressure,Rc);
@@ -197,7 +197,7 @@ for i = 1:numel(samplein.lat);
     
     if nucl10 == 1;
         % sample surface spallation production rate over time
-        sample.sp = LSDnu.Be.*Pref10.*thickSF.*sample.othercorr;
+        sample.sp = Psp.sp10.*Pref10.*thickSF.*sample.othercorr;
         
         % sample muon P
         sample.mu = sample.mu10;
@@ -223,7 +223,7 @@ for i = 1:numel(samplein.lat);
     
     if nucl26 == 1;
         % sample surface spallation production rate over time
-        sample.sp = LSDnu.Al.*Pref26.*thickSF.*sample.othercorr;
+        sample.sp = Psp.sp26.*Pref26.*thickSF.*sample.othercorr;
         
         % sample muon P
         sample.mu = sample.mu26;
@@ -322,8 +322,8 @@ function [tsimple,mt] = get_mt(sample,Pref,P_St_SF,l,Lsp1,N);
 function out = get_PmuE(sample,tv_z,tsimple,RcEst,consts,nucl10,nucl26);
     aged = sample.E .* tsimple; % depth at t simple
     mu_z = [(linspace(0,aged,9) + sample.thick./2).*sample.rho max(tv_z)];
-    P_mu_d = P_mu_LSD(mu_z,sample.pressure,RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
-    if nucl10 == 1; Pmud = P_mu_d.Be; elseif nucl26 == 1; Pmud = P_mu_d.Al; end;
+    Pmu_d = P_mu_expage(mu_z,sample.pressure,RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
+    if nucl10 == 1; Pmud = Pmu_d.mu10; elseif nucl26 == 1; Pmud = Pmu_d.mu26; end;
     out = interp1(mu_z,Pmud,tv_z,'pchip') .* sample.othercorr; % P_mu
 % end subfunction get_PmuE =========================================================================
 
@@ -337,30 +337,32 @@ function results = get_1026_age(sample,maxage);
     % Look for saturation
     if sample.N <= max(N_nu); % if not saturated
         t_nu = min(interp1(N_nu,sample.tv,sample.N),maxage); % get age by reverse-interpolation
-    else;
+        
+        % uncertainty propagation based on CRONUS v. 2 ====================================
+        if t_nu > 0;
+            % A with integrated average Lsp
+            Lsp_avg = interp1(sample.tv,cumtrapz(sample.tv,sample.Lsp.*...
+                exp(-sample.l.*sample.tv)),min(t_nu,max(sample.tv)))/interp1(sample.tv,...
+                cumtrapz(sample.tv,exp(-sample.l.*sample.tv)),min(t_nu,max(sample.tv)));
+            A = sample.l + sample.rho * sample.E ./Lsp_avg;
+            % do most of computation
+            FP = (sample.N.*A)./(1 - exp(-A.*t_nu));
+            delFP = (sample.delPref/sample.Pref) * FP;
+            dtdN = 1./(FP - sample.N.*A);
+            dtdP = -sample.N./(FP.*FP - sample.N.*A.*FP);
+            % make respective delt's
+            delt_ext_nu = sqrt(dtdN.^2 * sample.delN.^2 + dtdP.^2 * delFP.^2);
+            delt_int_nu = sqrt(dtdN.^2 * sample.delN.^2);
+            FP_nu10 = FP;
+        else; % t = 0, estimate uncertainty based on conc + unc
+            delt_int_nu = interp1(N_nu,sample.tv,sample.N+sample.delN);
+            delt_ext_nu = delt_int_nu * (1 + sample.delPref/sample.Pref);
+        end; % end uncertainty block ======================================================
+    else; % if saturated: use maxage for age and uncertainties
         t_nu = maxage;
+        delt_int_nu = maxage;
+        delt_ext_nu = maxage;
     end;
-    
-    % uncertainty propagation based on CRONUS v. 2 =============================
-    if t_nu > 0;
-        % A with integrated average Lsp
-        Lsp_avg = interp1(sample.tv,cumtrapz(sample.tv,sample.Lsp.*exp(-sample.l.*sample.tv)),...
-            min(t_nu,max(sample.tv)))/interp1(sample.tv,cumtrapz(sample.tv,...
-            exp(-sample.l.*sample.tv)),min(t_nu,max(sample.tv)));
-        A = sample.l + sample.rho * sample.E ./Lsp_avg;
-        % do most of computation
-        FP = (sample.N.*A)./(1 - exp(-A.*t_nu));
-        delFP = (sample.delPref/sample.Pref) * FP;
-        dtdN = 1./(FP - sample.N.*A);
-        dtdP = -sample.N./(FP.*FP - sample.N.*A.*FP);
-        % make respective delt's
-        delt_ext_nu = sqrt(dtdN.^2 * sample.delN.^2 + dtdP.^2 * delFP.^2);
-        delt_int_nu = sqrt(dtdN.^2 * sample.delN.^2);
-        FP_nu10 = FP;
-    else; % t = 0, estimate uncertainty based on conc + unc
-        delt_int_nu = interp1(N_nu,sample.tv,sample.N+sample.delN);
-        delt_ext_nu = delt_int_nu * (1 + sample.delPref/sample.Pref);
-    end; % end uncertainty block ================================================
     
     % fix results
     results.num(1) = round(t_nu);
