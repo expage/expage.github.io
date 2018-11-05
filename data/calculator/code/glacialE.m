@@ -1441,9 +1441,9 @@ function [N10m N26m] = N1026calc(tv,P10,P26,l10,l26,P0avg10,P0avg26);
     % for loop used for first part with varying time steps
     if fidx > 1;
         for i = 1:fidx-1;
-            N10m(i+1,:) = (N10m(end,:) + Pmean10(i).*(tvflip(i)-tvflip(i+1))) .* ...
+            N10m(i+1,:) = (N10m(end,:) + Pmean10(i,:).*(tvflip(i)-tvflip(i+1))) .* ...
                 exp(-(tvflip(i)-tvflip(i+1)).*l10);
-            N26m(i+1,:) = (N26m(end,:) + Pmean26(i).*(tvflip(i)-tvflip(i+1))) .* ...
+            N26m(i+1,:) = (N26m(end,:) + Pmean26(i,:).*(tvflip(i)-tvflip(i+1))) .* ...
                 exp(-(tvflip(i)-tvflip(i+1)).*l26);
         end;
         % remove calculated steps
@@ -1588,7 +1588,7 @@ function out = nucl1_buildup(Eglacv,fulldm,eros,sample,Psp0,P_mu_z,noicev,tv,l,m
     % for loop used for first part with varying time steps
     if fidx > 1;
         for i = 1:fidx-1;
-            N(i+1,:) = (N(end,:) + Pmean(i).*(tvflip(i)-tvflip(i+1))) .* ...
+            N(i+1,:) = (N(end,:) + Pmean(i,:).*(tvflip(i)-tvflip(i+1))) .* ...
                 exp(-(tvflip(i)-tvflip(i+1)).*l);
         end;
         % remove calculated steps
