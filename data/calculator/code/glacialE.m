@@ -583,24 +583,6 @@ for i = 1:numel(samplein.lat);
                 end;
             end;
             
-            %{
-            % plot nuclide buildup
-            if pl(1) > 0;
-                N26v = nucl1_buildup(Eglacv,fulldm,out26.erosion,sample,Psp.sp26,P_mu_z.mu26,...
-                    noicev,tv,l26);
-                
-                figure(pl(1)),set(pl(1),'visible','off');
-                hold on;
-                if pl26b == 0;
-                    plot(tv./1E3,N26v,'color',color26);
-                else;
-                    legh1(end+1) = plot(tv./1E3,N26v,'color',color26);
-                    legin1(end+1) = {'^{26}Al'};
-                    pl26b = 0;
-                end;
-            end;
-            %}
-            
             % calculate depth history
             dv26 = interp1(Eglacv',ddm',out26.erosion,'pchip')./1E2; % interpolated depth (m)
             if max(tv) >= 1E5;
