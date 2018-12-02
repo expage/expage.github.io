@@ -18,8 +18,8 @@ tic();
 
 % make choices here ================================================================================
 % exposure + burial and/or erosion + burial? (1 = yes)
-exposure_burial = 1; % calculate burial assuming prior surface exposure
-erosion_burial = 0; % calculate burial assuming prior constant erosion
+exposure_burial = 0; % calculate burial assuming prior surface exposure
+erosion_burial = 1; % calculate burial assuming prior constant erosion
 
 % calculate external and/or internal uncertainties? (1 = yes)
 extunc = 1;
@@ -36,7 +36,7 @@ pl.sigma2line = 0; % plot sample 2 sigma line
 pl.probcontours = 0; % plot probability contour lines
 
 % write normalized conc data? (for later plotting)
-normNout = 0;
+normNout = 1;
 % ==================================================================================================
 
 % What version is this?
@@ -503,7 +503,9 @@ burtestmc = burlim+1; % parameter for while loop
 loopN = 1; % for first round in while loop
 while mean(min(abs(burtestmc)))>burlim;
     % fix time matrix
-    expvmc = linspace(mintmc,maxtmc,tN)';
+    %expvmc = linspace(mintmc,maxtmc,tN)'; % does not work in Matlab...
+    expvmc = repmat((0:tN-1)',size(mintmc)).*repmat((maxtmc-mintmc)./(tN-1),tN,1) + ...
+        repmat(mintmc,tN,1);
     
     % calculate N after expv
     N10expmc = P10mc./l10mc.*(1-exp(-l10mc.*expvmc));
@@ -609,8 +611,8 @@ while min(abs(burtest))>burlim;
     P26fix(:,idx0) = repmat(P26(1),numel(sample.z),numel(idx0));
     dcf10 = exp(-tv.*l10);
     dcf26 = exp(-tv.*l26);
-    N10ero = trapz(tv,P10fix.*dcf10);
-    N26ero = trapz(tv,P26fix.*dcf26);
+    N10ero = trapz_m(tv,P10fix.*dcf10);
+    N26ero = trapz_m(tv,P26fix.*dcf26);
     
     % calculate burial needed to reach N10ero/N26ero
     bur10 = log(N10./N10ero)./-l10;
@@ -702,15 +704,22 @@ function [erosion_unc burial_unc] = erobur_mc(z,N10mc,N26mc,l10mc,l26mc,P10mc,P2
 burtestmc = burlim+1; % parameter for while loop
 loopN = 1; % for first round in while loop
 while mean(min(abs(burtestmc)))>burlim;
-    % fix erosion vectors
+    % fix erosion matrix
     if min(minemc) > 0;
-        erovmc = 1E1.^linspace(log10(maxemc),log10(minemc),eN)';
+        %erovmc = 1E1.^linspace(log10(maxemc),log10(minemc),eN)'; % does not work in Matlab...
+        erovmc = 1E1.^(repmat((0:eN-1)',size(minemc)).*...
+            repmat((log10(minemc)-log10(maxemc))./(eN-1),eN,1)+repmat(log10(maxemc),eN,1));
     else;
         mc1idx = find(minemc>0);
         mc0idx = find(minemc==0);
-        erovmc(:,mc1idx) = 1E1.^linspace(log10(maxemc(mc1idx)),log10(minemc(mc1idx)),eN)';
-        erovmc(1:end-1,mc0idx) = 1E1.^linspace(log10(maxemc(mc0idx)),...
-            log10(maxemc(mc0idx).*1E-4),eN-1)';
+        %erovmc(:,mc1idx) = 1E1.^linspace(log10(maxemc(mc1idx)),log10(minemc(mc1idx)),eN)';
+        erovmc(:,mc1idx) = 1E1.^(repmat((0:eN-1)',size(minemc(mc1idx))).*repmat((log10(minemc...
+            (mc1idx))-log10(maxemc(mc1idx)))./(eN-1),eN,1)+repmat(log10(maxemc(mc1idx)),eN,1));
+        %erovmc(1:end-1,mc0idx) = 1E1.^linspace(log10(maxemc(mc0idx)),...
+            %log10(maxemc(mc0idx).*1E-4),eN-1)'; % does not work in Matlab...
+        erovmc(1:end-1,mc0idx) = 1E1.^(repmat((0:eN-2)',size(maxemc(mc0idx))).*...
+            repmat((log10(maxemc(mc0idx).*1E-4)-log10(maxemc(mc0idx)))./(eN-2),eN-1,1)+...
+            repmat(log10(maxemc(mc0idx)),eN-1,1));
         erovmc(end,mc0idx) = 0;
     end;
     
@@ -728,8 +737,8 @@ while mean(min(abs(burtestmc)))>burlim;
         P26mcfix(:,idx0) = repmat(P26mc(1,idx0),size(z));
         dcf10mc = exp(-tvmc.*repmat(l10mc(j,:),size(z)));
         dcf26mc = exp(-tvmc.*repmat(l26mc(j,:),size(z)));
-        N10eromc(j,:) = trapz(tvmc,P10mcfix.*dcf10mc);
-        N26eromc(j,:) = trapz(tvmc,P26mcfix.*dcf26mc);
+        N10eromc(j,:) = trapz_m(tvmc,P10mcfix.*dcf10mc);
+        N26eromc(j,:) = trapz_m(tvmc,P26mcfix.*dcf26mc);
     end;
     
     % calculate burial needed to reach N10ero/N26ero
@@ -798,7 +807,7 @@ if pl.expline > 0;
     al_be_low = al_be.*(1 - albe_P_del);
     
     % plot ratio uncertainty area and simple exposure line
-    patch([be flip(be)],[al_be_high flip(al_be_low)],'facecolor',[0.9 0.9 0.9],'edgecolor','none');
+    patch([be flip(be)],[al_be_high flip(al_be_low)],[0.9 0.9 0.9],'EdgeColor','none');
     semilogx(be,al_be,'color','black');
     
     if pl.exposure_burial == 1;
@@ -864,8 +873,8 @@ if pl.eline > 0;
     tvm = zm./repmat(tempe,size(z));
     dcf10 = exp(-tvm.*consts.l10);
     dcf26 = exp(-tvm.*consts.l26);
-    N10tv = trapz(tvm,repmat(P10z,size(tempe)).*dcf10);
-    N26tv = trapz(tvm,repmat(P26z,size(tempe)).*dcf26);
+    N10tv = trapz_m(tvm,repmat(P10z,size(tempe)).*dcf10);
+    N26tv = trapz_m(tvm,repmat(P26z,size(tempe)).*dcf26);
     bee = N10tv./P10z(1);
     ale = N26tv./P26z(1);
     bee(1,2:end+1) = bee;
@@ -906,8 +915,8 @@ if pl.eline > 0;
         tvm = zm./repmat(pathv,size(z));
         dcf10 = exp(-tvm.*consts.l10);
         dcf26 = exp(-tvm.*consts.l26);
-        N10p = trapz(tvm,repmat(P10z,size(pathv)).*dcf10);
-        N26p = trapz(tvm,repmat(P26z,size(pathv)).*dcf26);
+        N10p = trapz_m(tvm,repmat(P10z,size(pathv)).*dcf10);
+        N26p = trapz_m(tvm,repmat(P26z,size(pathv)).*dcf26);
         beep = N10p./P10z(1);
         alep = N26p./P26z(1);
         path_bee1 = (1/consts.l10)*(1-exp(-consts.l10*1E7)).*exp(-consts.l10.*burv);
@@ -1049,3 +1058,17 @@ set(gca,'XScale','log'); % fix for matlab
 set(gcf,'visible','on'); % display plot
 hold off;
 % end subfunction plotting =========================================================================
+
+
+% subfunction trapz_m ==============================================================================
+function z = trapz_m(x,y);
+    dim = 1;
+    nd = ndims(y);
+    sz = size(y);
+    n = sz(dim);
+    idx1 = repmat ({':'}, [nd, 1]);
+    idx2 = idx1;
+    idx1{dim} = 2 : n;
+    idx2{dim} = 1 : (n - 1);
+    z = 0.5 * sum (diff (x, 1, dim) .* (y(idx1{:}) + y(idx2{:})), dim);
+% end subfunction trapz_m ==========================================================================

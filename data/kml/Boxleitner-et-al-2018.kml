@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Boxleitner et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201811<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>Fellital-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11232 &#177; 864<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Boxleitner-et-al-2018.txt">Boxleitner et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.64709,46.7362</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fellital-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6887 &#177; 637<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Boxleitner-et-al-2018.txt">Boxleitner et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.64054,46.7413</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Arnisee-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13059 &#177; 994<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Boxleitner-et-al-2018.txt">Boxleitner et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.64048,46.7713</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Arnisee-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11555 &#177; 951<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Boxleitner-et-al-2018.txt">Boxleitner et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.63882,46.7713</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Arnisee-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14343 &#177; 1204<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Boxleitner-et-al-2018.txt">Boxleitner et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.63839,46.7706</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Arnisee-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13147 &#177; 964<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Boxleitner-et-al-2018.txt">Boxleitner et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.63821,46.7707</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Erstfeld-Sackberg</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13502 &#177; 2076<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Boxleitner-et-al-2018.txt">Boxleitner et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.63430,46.8323</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Schattdorf-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12920 &#177; 1073<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Boxleitner-et-al-2018.txt">Boxleitner et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.68148,46.8560</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Schattdorf-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6151 &#177; 580<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Boxleitner-et-al-2018.txt">Boxleitner et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.69288,46.8546</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zhang et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-201811<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>13GDS5-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 289 &#177; 93<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69510,29.81817</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS5-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 264 &#177; 32<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69497,29.81828</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS5-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 270 &#177; 33<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69493,29.81837</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS5-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 288 &#177; 45<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69494,29.81838</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS5-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 293 &#177; 40<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69492,29.81838</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GDS1-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 429 &#177; 32<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69476,29.81988</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GDS1-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 419 &#177; 35<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69494,29.81974</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GDS1-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 379 &#177; 33<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69493,29.81971</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GDS1-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 398 &#177; 32<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69496,29.81974</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS6-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 293 &#177; 100<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69688,29.81849</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS6-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 508 &#177; 168<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69686,29.81848</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS6-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1210 &#177; 184<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69686,29.81848</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS6-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 417 &#177; 135<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69680,29.81858</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS7-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 426 &#177; 114<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69875,29.81911</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS7-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 268 &#177; 125<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69881,29.81949</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS7-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 317 &#177; 129<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69893,29.81945</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS7-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 378 &#177; 89<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69896,29.81948</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS7-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 753 &#177; 167<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.69889,29.81958</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS8-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1946 &#177; 134<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.70292,29.81915</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS8-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1966 &#177; 134<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.70354,29.81942</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS8-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2055 &#177; 138<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.70364,29.81953</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS8-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1791 &#177; 123<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.70292,29.81915</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS9-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2720 &#177; 886<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.70638,29.82054</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS9-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2981 &#177; 199<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.70617,29.82050</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS9-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2676 &#177; 199<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.70672,29.82063</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS9-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1783 &#177; 222<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.70596,29.82021</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS9-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1914 &#177; 171<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.70584,29.82006</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS10-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7531 &#177; 445<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.71455,29.81895</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS10-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11441 &#177; 672<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.71452,29.81598</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS10-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10787 &#177; 630<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.71399,29.81930</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS10-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18991 &#177; 1092<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.71463,29.81950</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS10-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11807 &#177; 681<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.71428,29.81911</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GDS2-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20224 &#177; 1351<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.71911,29.81306</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GDS2-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19248 &#177; 1174<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.71894,29.81290</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GDS2-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19572 &#177; 1147<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.71895,29.81276</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GDS2-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20988 &#177; 1227<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.71900,29.81282</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14GDS2-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21020 &#177; 1213<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.71900,29.81288</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS11-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21819 &#177; 1256<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.72538,29.81345</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS11-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26516 &#177; 1530<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.72537,29.81336</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS11-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13640 &#177; 785<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.72543,29.81332</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS11-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24162 &#177; 1399<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.72538,29.81345</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS4-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41180 &#177; 2524<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.72955,29.81765</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS4-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27887 &#177; 1706<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.72849,29.81825</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS1-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12472 &#177; 1048<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.75864,29.77514</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13GDS1-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28589 &#177; 2143<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.75797,29.77471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GDS-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 156090 &#177; 10907<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.82224,29.72618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GDS-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 234122 &#177; 16494<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhang-et-al-2018.txt">Zhang et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>84.82206,29.72566</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

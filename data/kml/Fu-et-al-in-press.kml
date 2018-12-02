@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Fu et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201811<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>TB-09-95</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23502 &#177; 1585<br/>
+<sup>26</sup>Al: 26091 &#177; 2376<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fu-et-al-in-press.txt">Fu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>100.23720,29.36888</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TB-09-97</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20356 &#177; 1324<br/>
+<sup>26</sup>Al: 23140 &#177; 2070<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fu-et-al-in-press.txt">Fu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>100.23843,29.37080</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TB-09-96</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21046 &#177; 1233<br/>
+<sup>26</sup>Al: 22034 &#177; 1911<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fu-et-al-in-press.txt">Fu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.23717,29.36877</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TB-09-98</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13754 &#177; 998<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fu-et-al-in-press.txt">Fu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.23843,29.37080</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TB-09-103</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 131060 &#177; 7830<br/>
+<sup>26</sup>Al: 136434 &#177; 15131<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fu-et-al-in-press.txt">Fu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>99.98970,29.40332</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TB-09-105</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 140517 &#177; 8623<br/>
+<sup>26</sup>Al: 147362 &#177; 13665<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fu-et-al-in-press.txt">Fu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>100.04247,29.40835</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TB-09-115</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16421 &#177; 1327<br/>
+<sup>26</sup>Al: 17463 &#177; 1632<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fu-et-al-in-press.txt">Fu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>100.09108,29.41868</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TB-11-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24510 &#177; 1460<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fu-et-al-in-press.txt">Fu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>100.18385,29.45046</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TB-11-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 90574 &#177; 5562<br/>
+<sup>26</sup>Al: 96287 &#177; 7188<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fu-et-al-in-press.txt">Fu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>100.17905,29.42608</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TB-11-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14831 &#177; 874<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fu-et-al-in-press.txt">Fu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.20301,29.45900</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TB-11-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14526 &#177; 841<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fu-et-al-in-press.txt">Fu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.20301,29.45900</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TB-11-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15723 &#177; 965<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fu-et-al-in-press.txt">Fu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.19632,29.46493</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TB-11-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15227 &#177; 903<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fu-et-al-in-press.txt">Fu et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.19634,29.46473</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

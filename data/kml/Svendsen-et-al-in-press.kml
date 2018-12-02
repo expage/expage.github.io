@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Svendsen et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201811<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>ICEHUS-09-5031</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34915 &#177; 2070<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.37200,67.83197</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5032</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15176 &#177; 931<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.37257,67.83195</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-6013</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13870 &#177; 1010<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.37200,67.83197</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5037</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22526 &#177; 1425<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.12121,67.98975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5038</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18197 &#177; 1150<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.12124,67.98981</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5034</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18346 &#177; 1134<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.20575,67.96728</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5035</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10683 &#177; 674<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.20575,67.96728</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5049</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30438 &#177; 1793<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.25590,67.76336</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5050</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13016 &#177; 803<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.25614,67.76383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5051</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12548 &#177; 774<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.25550,67.76499</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-07-5016</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21330 &#177; 1412<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.23415,67.76743</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-07-5018</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4939 &#177; 463<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.23990,67.77237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-07-7032</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60772 &#177; 3607<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.22214,67.75375</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5042</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18209 &#177; 1069<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.11918,67.79360</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5043</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8625 &#177; 505<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.11879,67.79344</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5044</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25293 &#177; 1488<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.11607,67.79394</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5057</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21425 &#177; 1257<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.11227,67.79253</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5060</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13785 &#177; 809<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.12361,67.79038</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5061</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21163 &#177; 1253<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.11441,67.78952</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5062</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16340 &#177; 949<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.11480,67.78951</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-5063</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18990 &#177; 1119<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.12251,67.78862</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-6003</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22614 &#177; 1430<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.27107,67.81299</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-6004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25399 &#177; 1608<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.27213,67.81285</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-6005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16867 &#177; 1065<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.27656,67.81036</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-6006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25545 &#177; 1617<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.27888,67.80989</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-6007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22903 &#177; 1449<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.28013,67.80958</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-6010</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60895 &#177; 3889<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.34100,67.80500</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-6012</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 176478 &#177; 10784<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.33460,67.81738</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-07-7024</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8472 &#177; 693<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.53364,67.80831</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-07-7025</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55812 &#177; 3395<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.54906,67.81100</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-07-7026</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19522 &#177; 1200<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.48694,67.80125</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-07-5002</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57653 &#177; 3510<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.43952,67.80275</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-07-5004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6639 &#177; 441<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.42968,67.79662</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-07-5005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3003 &#177; 351<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.28620,67.78205</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-07-5006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2500 &#177; 190<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.28640,67.78207</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-7013</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35141 &#177; 2151<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.96895,67.72601</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-09-7014</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28501 &#177; 1753<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>66.93859,67.73603</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-98-0034</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 72503 &#177; 4204<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>65.73000,68.12600</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ICEHUS-98-0035</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22951 &#177; 1465<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Svendsen-et-al-in-press.txt">Svendsen et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>65.73000,68.12600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
