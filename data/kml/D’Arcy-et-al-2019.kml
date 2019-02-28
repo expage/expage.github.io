@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>D’Arcy et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201902<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>ACON-M1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19868 &#177; 1341<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.0884,-27.1648</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACON-M2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28536 &#177; 1836<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.0881,-27.1648</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACON-M3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 54936 &#177; 3547<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.0873,-27.1652</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACON-M4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33406 &#177; 2158<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.0839,-27.1653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACON-M5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36397 &#177; 2352<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.0865,-27.1654</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACON-M6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23690 &#177; 1541<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.0869,-27.1654</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACON-MB1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21264 &#177; 1422<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.0860,-27.1633</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACON-MB2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19860 &#177; 1321<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.0865,-27.1632</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACON-MB3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19269 &#177; 1255<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.0866,-27.1632</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACON-MB4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15872 &#177; 1051<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.0878,-27.1628</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACON-MV1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10194 &#177; 711<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.0852,-27.1707</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACON-MV2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10346 &#177; 699<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.0882,-27.1701</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACON-MV3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11662 &#177; 794<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.0873,-27.1702</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACON-MV5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10766 &#177; 718<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.0860,-27.1706</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YAR03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12292 &#177; 828<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.1732,-27.2615</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YAR04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12700 &#177; 837<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.1732,-27.2615</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YAR05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10998 &#177; 743<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.1731,-27.2615</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YAR07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11408 &#177; 772<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.1682,-27.2621</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YAR08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10086 &#177; 701<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.1686,-27.2630</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YAR09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10874 &#177; 720<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.1697,-27.2624</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YAR-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6595 &#177; 475<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.1575,-27.2598</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YAR-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6982 &#177; 506<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/D’Arcy-et-al-2019.txt">D’Arcy et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.1603,-27.2595</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

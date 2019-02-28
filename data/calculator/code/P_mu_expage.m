@@ -52,7 +52,7 @@ function out = P_mu_expage(z,h,Rc,SPhi,nucl10,nucl26,consts,dflag)
 % General Public License, version 3, as published by the Free Software Foundation (www.fsf.org).
 
 % what version is this?
-ver = '201810';
+ver = '201902';
 
 % remember what direction the z vector came in
 in_size = size(z);

@@ -10,7 +10,7 @@ close all;
 tic();
 
 % What version is this?
-ver = '201810';
+ver = '201902';
 
 % do choices here ==================================================================================
 % min and max Pref (atoms/g/yr)
@@ -274,7 +274,7 @@ for i = 1:fulln;
         % display Pref
         fprintf(1,' \tP10 = %s ± %s at/g/yr',output{i+1,outn(1)},output{i+1,outn(2)});
         
-        % fill Pref vector for plotting and cluster analysis
+        % fill Pref vector for uncertainty estimation, plotting, and cluster analysis
         Pref10v(num10) = Prefi;
         Punc10v(num10) = sqrt(Prefiunc^2 - (sample.calageunc/sample.calage*Prefi)^2);
         Prow10v(num10) = i; % input row number
@@ -313,7 +313,7 @@ for i = 1:fulln;
         % display Pref
         fprintf(1,' \tP26 = %s ± %s at/g/yr',output{i+1,outn(4)},output{i+1,outn(5)});
         
-        % fill Pref vector for plotting and cluster analysis
+        % fill Pref vector for uncertainty estimation, plotting, and cluster analysis
         Pref26v(num26) = Prefi;
         Punc26v(num26) = sqrt(Prefiunc^2 - (sample.calageunc/sample.calage*Prefi)^2);
         Prow26v(num26) = i; % input row number
@@ -331,7 +331,7 @@ end;
 
 % calculate group Pref10
 if num10 > 1;
-    [Pref,Prefunc,rchisq,Pvalue] = get_Pref(age10,unc10,calage10,calunc10,Pvect10);
+    [Pref,Prefunc,rchisq,Pvalue] = get_Pref(age10,unc10,calage10,calunc10,Pvect10,Pref10v,Punc10v);
     
     % if doing cluster analysis
     if Pcluster == 1;
@@ -376,7 +376,7 @@ end;
 
 % calculate group Pref26
 if num26 > 1;
-    [Pref,Prefunc,rchisq,Pvalue] = get_Pref(age26,unc26,calage26,calunc26,Pvect26);
+    [Pref,Prefunc,rchisq,Pvalue] = get_Pref(age26,unc26,calage26,calunc26,Pvect26,Pref26v,Punc26v);
     
     % if doing cluster analysis
     if Pcluster == 1;
@@ -511,7 +511,7 @@ function [age,ageunc,Pref,Prefunc] = get_ages(sample,nuclstr);
 
 
 % subfunction get_Pref =============================================================================
-function [Pref,Prefunc,rchisq,Pvalue] = get_Pref(age,unc,calage,calunc,Pvect);
+function [Pref,Prefunc,rchisq,Pvalue] = get_Pref(age,unc,calage,calunc,Pvect,Prefv,Puncv);
     % calculate weighted ages for ages minus calage
     agetest = sum((age - calage)./unc.^2)./sum(1./unc.^2);
     
@@ -530,18 +530,9 @@ function [Pref,Prefunc,rchisq,Pvalue] = get_Pref(age,unc,calage,calunc,Pvect);
     % calculate P value
     Pvalue = 1 - chi2cdf(rchisq.*(size(age,1)-1),size(age,1)-1);
     
-    % calculate reduced chi square for full Pvect
-    rchiv = 1/(size(age,1)-1) .* sum(((age - calage)./unc).^2);
-    
-    % find minimum chi square and index
-    [chimin,idx] = min(rchiv);
-    
-    % find low and high point of Pref based on chi square + 1
-    lowP = interp1(rchiv(1:idx),Pvect(1:idx),rchisq+1,'pchip');
-    highP = interp1(rchiv(idx:end),Pvect(idx:end),rchisq+1,'pchip');
-    
-    % calculate ref prod rate unc (not including calib age unc) from low and high Pref values
-    Puncint = (highP-lowP)/2;
+    % calculate ref prod rate unc (not including calib age unc) - unbiased estimator
+    Puncint = sqrt(sum(1./Puncv.^2.*(Prefv-Pref).^2)/...
+        (sum(1./Puncv.^2)-(sum((1./Puncv.^2).^2)/sum(1./Puncv.^2))));
     
     % calculate calib age unc part
     calage_unc = mean(calunc(:,1)./calage(:,1));
@@ -577,7 +568,7 @@ function [Pref,Prefunc,rchisq,Pvalue,OKsample,OKnucl] = get_cluster(cl);
         
         % calculate Pref
         [cl.Pref,cl.Prefunc,cl.rchisq,cl.Pvalue] = ...
-            get_Pref(cl.age,cl.unc,cl.calage,cl.calunc,cl.Pvect);
+            get_Pref(cl.age,cl.unc,cl.calage,cl.calunc,cl.Pvect,cl.Prefv,cl.Puncv);
         
         r = r + 1; % add 1 to outlier
     end;

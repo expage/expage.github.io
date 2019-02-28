@@ -8,9 +8,9 @@ function out = make_consts_expage();
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 3, as published by the Free Software Foundation (www.fsf.org).
 %
-% Jakob Heyman - 2018 (jakob.heyman@gu.se)
+% Jakob Heyman - 2018-2019 (jakob.heyman@gu.se)
 
-consts.version = '201810';
+consts.version = '201902';
 consts.prepdate = fix(clock);
 
 % Be-10 decay constant -- new Euro value
@@ -46,14 +46,14 @@ consts.al_stds_cfs = [1 0.9134 1 1.021 1.021 1 1]';
 % 10Be production rates are referenced to 07KNSTD.
 % 26Al production rates are referenced to KNSTD.
 
-% Be-10 production rates - global expage-201809 ref prod rate
-consts.P10_ref_nu = 3.98;
+% Be-10 production rates - global expage-201902 ref prod rate
+consts.P10_ref_nu = 3.97;
 consts.delP10_ref_nu = 0.22;
 consts.P10_ref_sp = 4; % not properly calibrated!
 consts.delP10_ref_sp = 0.3; % not properly calibrated!
 
-% Al-26 production rates - global expage-201809 ref prod rate
-consts.P26_ref_nu = 28.42;
+% Al-26 production rates - global expage-201902 ref prod rate
+consts.P26_ref_nu = 28.47;
 consts.delP26_ref_nu = 1.87;
 consts.P26_ref_sp = 29; % not properly calibrated!
 consts.delP26_ref_sp = 3; % not properly calibrated!
@@ -65,13 +65,13 @@ consts.Natoms3 = 2.006e22; % not used in present version
 consts.Natoms14 = 2.006e22; % not used in present version
 
 % sigma0 and fstar calibrated for the expage calculator using mucalib.m
-% (ref prodrate expage-201809)
+% (ref prodrate expage-201902)
 consts.sigma0_10nu = 0.251E-30;
-consts.sigma0_26nu = 4.03E-30;
+consts.sigma0_26nu = 4.02E-30;
 consts.delsigma0_10nu = 0.008E-30;
 consts.delsigma0_26nu = 0.37E-30;
 consts.fstar10nu = 1.84E-3;
-consts.fstar26nu = 12.1E-3;
+consts.fstar26nu = 12.2E-3;
 consts.delfstar10nu = 0.10E-3;
 consts.delfstar26nu = 1.2E-3;
 

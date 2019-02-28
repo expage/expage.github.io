@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Corbett et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201902<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>MM-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14880 &#177; 878<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.817,44.530</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15529 &#177; 931<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.817,44.531</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14291 &#177; 843<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.817,44.534</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14420 &#177; 851<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.817,44.533</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14324 &#177; 845<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.817,44.535</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14797 &#177; 873<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.817,44.536</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14319 &#177; 857<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.817,44.536</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18251 &#177; 1075<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.814,44.544</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24081 &#177; 1421<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.815,44.543</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16891 &#177; 1022<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.816,44.543</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15765 &#177; 928<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.815,44.542</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18726 &#177; 1119<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.818,44.544</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15238 &#177; 897<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.821,44.544</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14173 &#177; 901<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.823,44.543</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14693 &#177; 865<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.826,44.542</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13377 &#177; 905<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.830,44.519</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15089 &#177; 981<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.831,44.519</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13757 &#177; 887<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.827,44.524</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MMB-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14702 &#177; 1028<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.858,44.506</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MMB-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14332 &#177; 983<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Corbett-et-al-2019.txt">Corbett et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.861,44.506</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

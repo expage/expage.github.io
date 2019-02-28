@@ -1,5 +1,14 @@
 Log file for the expage 10Be and 26Al exposure age calculator
 
+expage-201902 calculator
+* Updated reference production rates (prodrate-201902) and recalibrated muon parameters (sigma0 and
+  fstar - very similar to previous values).
+* Modification of prodrate.m to calculate sample group production rate uncertainty using an unbiased
+  estimator of the weighted production rate uncertainty.
+* Multiple changes of glacialE.m including guided Monte Carlo runs to find potential solutions. The
+  updated code may not work properly in Matlab (only in Octave).
+* Added function for calculating topographic shielding from DEM (shielding.m).
+
 ====================================================================================================
 
 2018-11-30

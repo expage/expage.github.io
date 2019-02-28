@@ -1,13 +1,13 @@
 Information for glacialE.m calculating erosion depth based on 10Be and/or 26Al data from sites with
 a known or assumed ice cover history. The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se)
-2017-2018 with production rate (and other) calculations to a large degree based on the CRONUS
+2017-2019 with production rate (and other) calculations to a large degree based on the CRONUS
 calculator (Balco et al. 2008) and the LSD production rate scaling (Lifton et al. 2014).
 
 
 TO USE THE CALCULATOR:
 1. Fix the input.txt file (see below).
-2. Fix parameters in glacialE.m lines 19-90.
-3. Run glacialE.m in Octave or Matlab.
+2. Fix parameters in glacialE.m lines 21-102.
+3. Run glacialE.m in Octave (for use in Matlab: try version 201810 of glacialE).
 4. Output (see below) is saved in out-glacialE.txt
 
 
@@ -15,7 +15,7 @@ The calculator is based on the CRONUS calculator (Balco et al. 2008) with modifi
 * Nuclide-specific LSD spallation and muon production rate scaling based on simulated cosmic ray
   fluxes (Lifton et al. 2014).
 * Time-dependent spallation production rate with reference production rates based on global average
-  from calibration studies published 2009-2016 calibrated using prodrate.m.
+  from calibration studies published 2009-2019 calibrated using prodrate.m.
 * Time-constant muon production rate parameterization (modified to reduce near-surface artifacts)
   based on Antarctica depth profile data (Borchers et al. 2016; Marrero et al. 2016; Phillips et al.
   2016; Balco 2017) with fstar and sigma0 calibrated using muclib.m.
@@ -29,8 +29,8 @@ The calculator is based on the CRONUS calculator (Balco et al. 2008) with modifi
 
 INPUT INSTRUCTIONS:
 The input is similar to the input for the CRONUS calcuator version 2.2, with the addition of
-sampling year and age1, age2, age3. Each row in input.txt is one sample and should contain 16 or 17
-columns with the following information:
+sampling year and deglaciation age (optional). Each row in input.txt is one sample and should
+contain 16 or 17 columns with the following information:
 1. Sample name - (strange characters may cause problems).
 2. Latitude [DD (WGS84)] - North latitudes are positive. South latitudes are negative.
 3. Longitude [DD (WGS84)] - East longitudes are positive. West longitudes are negative.
@@ -39,25 +39,25 @@ columns with the following information:
 6. Sample thickness [cm].
 7. Sample density [g/cm3].
 8. Correction factor - Unitless factor used for topo/geom shielding correction (no shielding -> 1).
-9. Erosion rate [mm/ka] - Non-glacial erosion rate used only in simple calculations (glacEcalc = 1).
+9. Erosion rate [mm/ka] - Non-glacial erosion rate used only in simple calc (simpleEcalc = 1).
 10. 10Be concentration [atoms/g] - (if no 10Be measurement: use 0).
 11. 10Be concentration uncertainty [atoms/g] - (if no 10Be measurement: use 0).
-12. 10Be standardization - See make_al_be_consts.m lines 51-55 for acceptable names and values.
+12. 10Be standardization - See make_consts_expage.m lines 34-38 for acceptable names and values.
 13. 26Al concentration [atoms/g] - (if no 26Al measurement: use 0).
 14. 26Al concentration uncertainty [atoms/g] - (if no 26Al measurement: use 0).
-15. 26Al standardization - See make_al_be_consts.m lines 58-59 for acceptable names and values.
+15. 26Al standardization - See make_consts_expage.m lines 41-42 for acceptable names and values.
 16. Sampling year [CE].
 17. Deglaciation [yr before sampling] - Time of last deglaciation (optional parameter).
 
 
 glacialE.m SETTINGS:
-In lines 19-90 there are a range of parameters and settings that controls the simulation. Here are
+In lines 21-102 there are a range of parameters and settings that controls the simulation. Here are
 some brief explanations for these settings.
 mt - Max time (years before 2010) for the start of the erosion simulation.
 glacErate - Determines if using a glacial erosion rate (1) or fixed incremental erosion depth steps
             (0) at the end of each ice cover period for the glacial erosion to determine.
-glacEcalc - (1 or 0) Run simple glacial erosion calculation for single nuclides based on surface
-            concentrations interpolated for a range of erosion rates/steps.
+simpleEcalc - (1 or 0) Run simple glacial erosion calculation for single nuclides based on surface
+              concentrations interpolated for a range of erosion rates/steps.
 range1nucl - (1 or 0) Run simulation finding the range (within bounds) of nonglacial erosion,
              glacial erosion, and LR04 break values that can yield the measured 10Be and/or 26Al
              concentrations.
@@ -65,21 +65,21 @@ range2nucl - (1 or 0) Run simulation finding the range (within bounds) of nongla
              glacial erosion, and LR04 break values that can yield the combined measured 10Be and
              26Al concentrations.
 burialdepth - Sample depth below surface (cm) at the time of sampling.
-Fixed parameters for specific time period(s) (lines 34-41):
+Fixed parameters for specific time period(s) (lines 36-43):
     Here specific values can be set for specific time periods for the non-glacial erosion and
     glacial erosion. The values set here overrides the values set in input or the values to find.
     Various values for various time periods can be set by using multiple rows in the corresponding
     time vectors (tv) and parameters. For the glacial erosion parameters, both fixed glacial erosion
     rates and glacial erosion incremental steps can be set and these are independent of glacErate
     set above.
-Fixed ice-cover and icefree for specific time period(s) (lines 43-46)
+Fixed ice-cover and icefree for specific time period(s) (lines 45-48)
     Here specific periods with ice cover (fix_ice) and ice-free periods (fix_nonice) can be set that
     overrides the ice cover periods and ice-free periods determined by the LR04 values and the
     optional input deglaciation age.
-Parameters for glacEcalc (lines 48-51 - only relevant if glacEcalc = 1)
+Parameters for simpleEcalc (lines 50-53 - only relevant if simpleEcalc = 1)
 LR04ice - Break value (per mil) for the glacialE_LR04.txt record to determine ice cover periods.
-glacEcalcunc - (1 or 0) Plot uncertainty lines in the erosion plots.
-Range parameters (lines 53-73 - only relevant if range1nucl and/or range2nucl = 1)
+simpleEcalcunc - (1 or 0) Plot uncertainty lines in the erosion plots.
+Range parameters (lines 55-81 - only relevant if range1nucl and/or range2nucl = 1)
 glacEmin - Min glacial erosion rate/step (mm/ka or cm/glac) to test.
 glacEmax - Max glacial erosion rate/step (mm/ka or cm/glac) to test.
 glacEstlim - Maximum size step to use for glacial erosion when finding range of values.
@@ -89,15 +89,19 @@ nonglacEstlim - Maximum size step to use for non-glacial erosion when finding ra
 LR04min - Min break value (per mil) for the glacialE_LR04.txt record to test.
 LR04max - Max break value (per mil) for the glacialE_LR04.txt record to test.
 LR04stlim - Maximum size step to use for the glacialE_LR04.txt record when finding range of values.
-parn - Number paramameter values to test in each iteration of the range calculations.
+parn - Number of parameter values to test in each iteration of the range calculations.
 Punc - (1 or 0) Add production rate uncertainty to the 10Be and/or 26Al measurements as a simple
        way to include this uncertainty in the calculations.
-Plotting choices (lines 75-95): various settings for the plots.
+rand1lim - Number of first random runs for each individual parameter.
+randhitN - Minimum number of random parameter hits required after iterative parameter optimization.
+randrunsz - Size of random run vectors.
+randnummax - Maximum number of random runs (overrules randhitN).
+Plotting choices (lines 83-101): various settings for the plots.
 
 
 OUTPUT INFORMATION:
 The calculator can plot various data plus saves an output file out-glacialE.txt.
-For glacEcalc = 1, the output contains the erosion rate/step plus positive and negative uncertainty
+For simpleEcalc = 1, the output contains the erosion rate/step plus positive and negative uncertainty
 (including production rate uncertainty), plus the full erosion depth at 100 ka and 1 Ma (if <=mt).
 For range1nucl = 1 and/or range2nucl = 1, the output contains possible min and max values for the
 parameters glacial erosion, non-glacial erosion, and LR04 break values, plus the full erosion depth

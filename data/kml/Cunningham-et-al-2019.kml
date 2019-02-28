@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Cunningham et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201902<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>VMR-14-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16349 &#177; 946<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Cunningham-et-al-2019.txt">Cunningham et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-83.48929,9.50002</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VMR-14-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17124 &#177; 1003<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Cunningham-et-al-2019.txt">Cunningham et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-83.48961,9.49980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VMR-14-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16493 &#177; 966<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Cunningham-et-al-2019.txt">Cunningham et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-83.48659,9.49426</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VMR-14-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17130 &#177; 1030<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Cunningham-et-al-2019.txt">Cunningham et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-83.49237,9.50518</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VMR-14-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17696 &#177; 1024<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Cunningham-et-al-2019.txt">Cunningham et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-83.49303,9.50620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VTL-14-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16621 &#177; 962<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Cunningham-et-al-2019.txt">Cunningham et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-83.50319,9.45346</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MCH-14-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20159 &#177; 1182<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Cunningham-et-al-2019.txt">Cunningham et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-83.49130,9.48582</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MCH-14-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8154 &#177; 526<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Cunningham-et-al-2019.txt">Cunningham et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-83.48900,9.48461</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MCH-14-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14689 &#177; 860<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Cunningham-et-al-2019.txt">Cunningham et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-83.48698,9.48320</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

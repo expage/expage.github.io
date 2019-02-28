@@ -1,5 +1,5 @@
 Information for depthcalc.m and depthcalcET.m calculating 10Be and 26Al depth profile exposure ages.
-The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2017 mainly based on the CRONUS
+The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2019 mainly based on the CRONUS
 calculator (Balco et al. 2008) and the LSD production rate scaling (Lifton et al. 2014).
 
 depthcalc.m:
@@ -19,7 +19,7 @@ General information for both calculators:
 * Nuclide-specific LSD spallation and muon production rate scaling based on simulated cosmic ray
   fluxes (Lifton et al. 2014) similar to the other expage scripts.
 * Time-dependent spallation production rate with reference production rates based on global average
-  from calibration studies published 2009-2016 calibrated using prodrate.m.
+  from calibration studies published 2009-2019 calibrated using prodrate.m.
 * Time-constant muon production rate parameterization (modified to reduce near-surface artifacts),
   including depth dependence for samples with an assumed erosion rate, based on Antarctica depth
   profile data (Borchers et al. 2016; Marrero et al. 2016; Phillips et al. 2016; Balco 2017) with
@@ -66,10 +66,10 @@ the following information:
 9. Erosion rate [mm/ka]. NOTE: other unit than in the CRONUS calculator (not used in depthcalcET.m).
 10. 10Be concentration [atoms/g] - (if no 10Be measurement: use 0).
 11. 10Be concentration uncertainty [atoms/g] - (if no 10Be measurement: use 0).
-12. 10Be standardization - See make_al_be_consts.m lines 51-55 for acceptable names and values.
+12. 10Be standardization - See make_consts_expage.m lines 34-38 for acceptable names and values.
 13. 26Al concentration [atoms/g] - (if no 26Al measurement: use 0).
 14. 26Al concentration uncertainty [atoms/g] - (if no 26Al measurement: use 0).
-15. 26Al standardization - See make_al_be_consts.m lines 58-59 for acceptable names and values.
+15. 26Al standardization - See make_consts_expage.m lines 41-42 for acceptable names and values.
 16. Sampling year [CE].
 
 Only in depthcalcET.m (rows 16-23) =================================================================

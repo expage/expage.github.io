@@ -9,7 +9,7 @@ clear all;
 close all;
 
 % What version is this?
-ver = '201810';
+ver = '201902';
 
 % Choose site. Options: Beacon, LeymonHigh, LeymonLow, LaCiotat
 site = 'Beacon';

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Becker et al. (2018b)</name>
+<description>
+<![CDATA[
+Data from expage-201902<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>C2-Boulder1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15114 &#177; 865<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.21545,37.79927</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C2-Boulder2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14317 &#177; 864<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.21551,37.79964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UpLy-12-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13573 &#177; 783<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.21601,37.79902</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14552 &#177; 845<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.26107,37.77796</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LoLy-11-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14776 &#177; 897<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.26350,37.80048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14337 &#177; 833<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.26223,37.79127</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15222 &#177; 902<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.26229,37.79449</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13828 &#177; 796<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.26256,37.79741</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13646 &#177; 825<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.26339,37.80099</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14306 &#177; 833<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.26567,37.80535</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15990 &#177; 931<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.30659,37.86468</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13546 &#177; 799<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.39292,37.88017</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15495 &#177; 902<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.39346,37.88028</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21293 &#177; 1263<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.39328,37.88072</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14886 &#177; 860<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.40054,37.90074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13597 &#177; 800<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.34608,37.88201</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14576 &#177; 850<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.34530,37.88387</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15335 &#177; 890<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018b.txt">Becker et al. (2018b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.34521,37.88412</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

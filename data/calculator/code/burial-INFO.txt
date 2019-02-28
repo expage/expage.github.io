@@ -1,5 +1,5 @@
 Information for burial.m calculating simple exposure and burial durations for combined 10Be and 26Al
-measurements. The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2017 mainly based on
+measurements. The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2019 mainly based on
 the CRONUS calculator (Balco et al. 2008) and the LSD production rate scaling (Lifton et al. 2014).
 
 
@@ -47,10 +47,10 @@ with the following information:
 8. Correction factor - Unitless factor used for topo/geom shielding correction (no shielding -> 1).
 9. 10Be concentration [atoms/g] - (if no 10Be measurement: use 0).
 10. 10Be concentration uncertainty [atoms/g] - (if no 10Be measurement: use 0).
-11. 10Be standardization - See make_al_be_consts.m lines 51-55 for acceptable names and values.
+11. 10Be standardization - See make_consts_expage.m lines 34-38 for acceptable names and values.
 12. 26Al concentration [atoms/g] - (if no 26Al measurement: use 0).
 13. 26Al concentration uncertainty [atoms/g] - (if no 26Al measurement: use 0).
-14. 26Al standardization - See make_al_be_consts.m lines 58-59 for acceptable names and values.
+14. 26Al standardization - See make_consts_expage.m lines 41-42 for acceptable names and values.
 15. Sampling year [CE].
 If using 16 columns:
 9. Any number (NOT USED - option included to allow for standard expage input)

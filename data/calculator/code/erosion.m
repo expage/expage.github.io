@@ -13,7 +13,7 @@ function erosion();
 tic();
 
 % What version is this?
-ver = '201810';
+ver = '201902';
 
 % count number of input columns in line 1 of input
 inid = fopen('input.txt','r');

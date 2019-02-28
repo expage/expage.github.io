@@ -23,7 +23,7 @@ Emax = 50; % mm/ka
 ETgrid = 100;
 
 % What version is this?
-ver = '201810';
+ver = '201902';
 
 % read input file
 % NOTE! sample thickness in standard input is here changed to sample mid-point depth (cm)

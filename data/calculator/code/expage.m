@@ -14,7 +14,7 @@ clear;
 tic();
 
 % What version is this?
-ver = '201810';
+ver = '201902';
 
 % plotting? (1 = yes) ==============================================================================
 plotpointages = 0; % plots exposure ages as points

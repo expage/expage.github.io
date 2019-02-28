@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Becker et al. (2018a)</name>
+<description>
+<![CDATA[
+Data from expage-201902<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>RSP-16-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22832 &#177; 1355<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.18263,37.47792</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RSP-16-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22949 &#177; 1358<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.18275,37.47763</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RSP-16-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22251 &#177; 1321<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.18290,37.47758</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RSP-16-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21232 &#177; 1264<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.18269,37.47821</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RSP-16-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22165 &#177; 1339<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.19255,37.47588</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RSP-16-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22229 &#177; 1398<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-119.19260,37.47582</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RCH-16-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21779 &#177; 1388<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-119.10944,37.37229</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RCH-16-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23106 &#177; 1358<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-119.10818,37.37145</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RCH-16-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21130 &#177; 1293<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-119.10699,37.37230</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RCH-16-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19335 &#177; 1166<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-119.10686,37.37201</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MCM-16-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21217 &#177; 1235<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.99281,37.35631</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MCM-16-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19299 &#177; 1208<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.99287,37.35629</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LEM-16-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18999 &#177; 1123<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.99899,37.38022</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LEM-16-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4699 &#177; 333<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.99895,37.38041</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LEM-16-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19813 &#177; 1153<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.99882,37.38055</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UCL-14-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16460 &#177; 1003<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.90295,37.42334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UCL-14-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17227 &#177; 1001<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.90128,37.42340</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UCL-16-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17161 &#177; 994<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.89805,37.42365</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UCL-16-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16932 &#177; 983<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.89993,37.42340</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UCL-16-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17788 &#177; 1029<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.90195,37.42330</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UCL-16-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17478 &#177; 1014<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.90321,37.42346</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LEM-14-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16157 &#177; 974<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.97843,37.38440</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LEM-14-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15154 &#177; 912<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.97890,37.38251</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MR-13-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15202 &#177; 948<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.91431,37.41201</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MR-13-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19007 &#177; 1098<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.87306,37.42074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MR-14-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17644 &#177; 1012<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.86990,37.42120</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MR-14-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14456 &#177; 862<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.79807,37.44579</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MR-14-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15800 &#177; 932<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.81073,37.44408</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MR-14-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15361 &#177; 880<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.80101,37.46809</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MR-14-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15062 &#177; 891<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.80935,37.48041</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MR-14-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14575 &#177; 841<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.79774,37.47586</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UMC-16-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12337 &#177; 722<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.80675,37.39538</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UMC-16-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13291 &#177; 772<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.80690,37.39510</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UMC-16-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12059 &#177; 704<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.80714,37.39488</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UMC-16-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10218 &#177; 598<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-118.80672,37.39541</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UMC-16-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13689 &#177; 789<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.80794,37.39443</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-16-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12566 &#177; 734<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-118.79858,37.38759</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-16-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12889 &#177; 764<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Becker-et-al-2018a.txt">Becker et al. (2018a)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-118.79850,37.38766</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

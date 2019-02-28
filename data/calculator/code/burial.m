@@ -18,11 +18,11 @@ tic();
 
 % make choices here ================================================================================
 % exposure + burial and/or erosion + burial? (1 = yes)
-exposure_burial = 0; % calculate burial assuming prior surface exposure
-erosion_burial = 1; % calculate burial assuming prior constant erosion
+exposure_burial = 1; % calculate burial assuming prior surface exposure
+erosion_burial = 0; % calculate burial assuming prior constant erosion
 
 % calculate external and/or internal uncertainties? (1 = yes)
-extunc = 1;
+extunc = 0;
 intunc = 1;
 % Monte Carlo size for uncertainty estimate
 mc = 1E5;
@@ -40,7 +40,7 @@ normNout = 1;
 % ==================================================================================================
 
 % What version is this?
-ver = '201810';
+ver = '201902';
 
 % count number of input columns in line 1 of input
 inid = fopen('input.txt','r');

@@ -1,11 +1,11 @@
 Information for prodrate.m calibrating reference 10Be and 26Al production rates.
-The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2017 mainly based on the CRONUS
+The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2019 mainly based on the CRONUS
 calculator (Balco et al. 2008) and the LSD production rate scaling (Lifton et al. 2014).
 
 
 TO USE THE CALCULATOR:
 1. Fix the input.txt file (see below).
-2. Adjust Pmin10/Pmin26 and Pmax10/Pmax26 in rows 25-28 in prodrate.m.
+2. Adjust Pmin10/Pmin26 and Pmax10/Pmax26 in rows 17-20 in prodrate.m.
    Pmin and Pmax defines the range of reference production rates that is tested and all individual
    samples in input.txt must yield reference production rates falling between these values for the
    code to work.
@@ -28,9 +28,11 @@ The calculator is based on the CRONUS calculator (Balco et al. 2008) with some m
 * Sample group reference production rate calibration based on chi-square minimization, adjusting the
   reference production rate to derive the best match with the calibration age for the full set of
   samples.
+* Sample group reference production rate uncertainty calculated using an unbiased estimator of the
+  weighted production rate uncertainty.
 * The calibration age uncertainty, which is not an independent variable for each sample of a
   calibration site, is added in quadrature to the sample group reference production rate (and to
-  each sample reference production rate).
+  each sample reference production rate uncertainty).
 * If Pcluster = 1 (line 24), outliers are removed in an attempt to achieve a well-clustered
   reference production rate. Parameters for this (lines 27-29) are minimum number of well-clustered
   samples, maximum outlier ratio of full group size, and p-value limit for clustering test.
@@ -52,10 +54,10 @@ the following information:
 9. Erosion rate [mm/ka]. NOTE: different unit than in the CRONUS calculator.
 10. 10Be concentration [atoms/g] - (if no 10Be measurement: use 0).
 11. 10Be concentration uncertainty [atoms/g] - (if no 10Be measurement: use 0).
-12. 10Be standardization - See make_al_be_consts.m lines 51-55 for acceptable names and values.
+12. 10Be standardization - See make_consts_expage.m lines 34-38 for acceptable names and values.
 13. 26Al concentration [atoms/g] - (if no 26Al measurement: use 0).
 14. 26Al concentration uncertainty [atoms/g] - (if no 26Al measurement: use 0).
-15. 26Al standardization - See make_al_be_consts.m lines 58-59 for acceptable names and values.
+15. 26Al standardization - See make_consts_expage.m lines 41-42 for acceptable names and values.
 16. Sampling year [CE].
 17. Calibration age [yr before sampling] - Independently known exposure age.
 18. Calibration age uncertainty [yr].

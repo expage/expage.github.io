@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Putnamn et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201902<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>RM-10-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13349 &#177; 838<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Putnamn-et-al-2019.txt">Putnamn et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.77118,56.63340</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RM-10-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12161 &#177; 763<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Putnamn-et-al-2019.txt">Putnamn et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.77133,56.63338</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RM-10-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12313 &#177; 773<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Putnamn-et-al-2019.txt">Putnamn et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.77312,56.63369</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RM-10-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12517 &#177; 785<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Putnamn-et-al-2019.txt">Putnamn et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.77660,56.63377</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RM-10-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11858 &#177; 744<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Putnamn-et-al-2019.txt">Putnamn et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.77492,56.63592</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RM-10-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11850 &#177; 743<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Putnamn-et-al-2019.txt">Putnamn et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.77294,56.63633</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RM-10-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12161 &#177; 763<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Putnamn-et-al-2019.txt">Putnamn et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.77544,56.63385</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RM-10-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11708 &#177; 758<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Putnamn-et-al-2019.txt">Putnamn et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.78123,56.63459</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RM-10-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11901 &#177; 747<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Putnamn-et-al-2019.txt">Putnamn et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.77243,56.63520</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RM-10-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12791 &#177; 803<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Putnamn-et-al-2019.txt">Putnamn et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.77524,56.63391</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RM-10-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12407 &#177; 778<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Putnamn-et-al-2019.txt">Putnamn et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.77674,56.63407</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RM-10-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12167 &#177; 768<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Putnamn-et-al-2019.txt">Putnamn et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.77869,56.63414</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
