@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Brugger et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201903<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>UC-03-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17924 &#177; 1089<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.2358,39.1642</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UC-04-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18365 &#177; 1196<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.2352,39.1643</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UC-01-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18701 &#177; 1170<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.2271,39.1667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UC-02-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21308 &#177; 1289<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.2346,39.1643</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TMC-01-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21908 &#177; 1349<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.0885,39.1313</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TMC-02-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30506 &#177; 2000<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.0887,39.1295</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IG-04-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20183 &#177; 1313<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.2819,39.2229</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IG-05-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22004 &#177; 1377<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.2772,39.2169</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IG-06-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22452 &#177; 1362<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.2775,39.2170</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IG-03-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22665 &#177; 1408<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.2795,39.2234</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IG-02-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 118251 &#177; 7525<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.2860,39.2225</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IG-01-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 123349 &#177; 7513<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.2872,39.2219</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FMC-1-2015</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14363 &#177; 816<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.0670,39.1948</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FMC-2-2015</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21771 &#177; 1258<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.0632,39.1926</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FMC-4-2015</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24428 &#177; 1386<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.0718,39.1799</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FMC-3-2015</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61422 &#177; 3509<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.0724,39.1813</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-1-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18658 &#177; 1734<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-in-press.txt">Brugger et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>106.0689,39.3132</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Khandsuren et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201903<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>YES001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37287 &#177; 2123<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.82036,48.58441</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YES002</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19614 &#177; 1117<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.82268,48.58480</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YES003</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19401 &#177; 1106<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.82246,48.58399</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YES004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19603 &#177; 1118<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.82290,48.58256</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YES005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19064 &#177; 1085<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.82430,48.58213</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YES006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18147 &#177; 1038<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.82634,48.58250</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YES007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18903 &#177; 1076<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.82654,48.58259</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YES008</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17727 &#177; 1012<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.78499,48.56504</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YES009</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24727 &#177; 1406<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.78657,48.56398</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YES010</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27058 &#177; 1550<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.78801,48.56357</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YES011</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 69396 &#177; 4053<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.78740,48.56331</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YES012</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19910 &#177; 1152<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.78799,48.56307</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YES013</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15378 &#177; 878<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.78786,48.56315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YES014</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23865 &#177; 1359<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.78868,48.56297</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHA015</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14806 &#177; 842<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.89701,48.42052</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHA016</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17773 &#177; 1010<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.89893,48.42061</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHA017</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25071 &#177; 1424<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.89885,48.42157</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHA018</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21586 &#177; 1225<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.89915,48.42154</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHA019</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20950 &#177; 1190<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.89940,48.42159</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHA020</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20857 &#177; 1185<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.89977,48.42145</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHA021</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17822 &#177; 1013<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.90074,48.42202</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHD022</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12369 &#177; 704<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.98063,48.45423</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHD023</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25784 &#177; 1464<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.98064,48.45414</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHD024</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32410 &#177; 1843<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.98068,48.45415</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHD025</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12190 &#177; 693<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.98074,48.45412</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHD026</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20499 &#177; 1164<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.98110,48.45414</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHA027</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17532 &#177; 996<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.94897,48.44224</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHA028</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20121 &#177; 1142<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.94888,48.44220</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHA029</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15237 &#177; 867<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.94873,48.44226</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHA030</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10805 &#177; 620<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.94876,48.44231</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHA031</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34965 &#177; 1988<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.94473,48.43805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHA032</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15845 &#177; 901<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.94670,48.43706</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHA033</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13544 &#177; 771<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.94519,48.43770</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KHA034</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20258 &#177; 1152<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-in-press.txt">Khandsuren et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>107.94510,48.43776</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
