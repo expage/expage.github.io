@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ceperley et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201904<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>WI-AL-01-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20386 &#177; 1308<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.39990,44.43230</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-03-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34062 &#177; 2013<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.46730,44.44830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-05-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 53393 &#177; 3169<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.46290,44.35130</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-08-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34848 &#177; 2055<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.46990,44.35550</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-09-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 58912 &#177; 3452<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.47640,44.42490</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-11-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33737 &#177; 1949<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.47490,44.42460</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-12-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 83964 &#177; 4846<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.47550,44.33300</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-14-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 50224 &#177; 2975<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.47250,44.33620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-15-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 51623 &#177; 3054<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.47480,44.45570</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-18-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31649 &#177; 1864<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.46950,44.39930</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-19-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25369 &#177; 1608<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.46580,44.46730</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-22-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28769 &#177; 1835<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.45610,44.49910</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-23-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41219 &#177; 2432<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.45450,44.50100</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-24-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34490 &#177; 2062<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.47020,44.33480</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-27-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39183 &#177; 2320<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.46800,44.34130</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-29-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40086 &#177; 2390<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.46790,44.34360</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WI-AM-30-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33846 &#177; 2189<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-in-press.txt">Ceperley et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.46850,44.39360</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
