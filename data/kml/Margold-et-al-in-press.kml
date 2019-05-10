@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Margold et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201905<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>ALT-MM-15-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18133 &#177; 1123<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-112.22257,49.10033</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALT-MM-15-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15151 &#177; 944<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.65136,49.77851</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALT-MM-15-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15184 &#177; 951<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.65108,49.77830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALT-MM-15-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16040 &#177; 999<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.68919,49.96253</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALT-MM-15-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15389 &#177; 981<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.83725,49.95547</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALT-MM-15-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8584 &#177; 537<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.83614,49.95588</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALT-MM-15-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14624 &#177; 905<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.83578,49.95591</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALT-MM-15-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15150 &#177; 966<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.78622,50.10248</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALT-MM-15-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 177398 &#177; 11094<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.75736,50.13659</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALT-MM-15-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16011 &#177; 992<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.87193,50.30623</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALT-MM-15-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14666 &#177; 925<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.87212,50.30870</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALT-MM-15-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15554 &#177; 992<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.13990,50.53131</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALT-MM-15-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14869 &#177; 948<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.47863,51.63497</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALT-MM-15-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24010 &#177; 1534<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.86999,52.17495</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALT-MM-15-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15508 &#177; 989<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.88195,52.18727</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALT-MM-15-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16058 &#177; 1024<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Margold-et-al-in-press.txt">Margold et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-116.78810,53.38068</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
