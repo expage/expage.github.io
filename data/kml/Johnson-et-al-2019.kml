@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Johnson et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201906<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>P11.10.1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 253803 &#177; 15427<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.55615,-74.41088</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.10.9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 228313 &#177; 13605<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.54507,-74.41257</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.11.2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 260831 &#177; 16413<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.47893,-74.57140</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.11.3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 260414 &#177; 17526<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.47970,-74.57103</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.11.4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 442530 &#177; 31210<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.48075,-74.57352</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.11.5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 188827 &#177; 12478<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.48167,-74.57395</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.11.6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 168325 &#177; 11066<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.48167,-74.57395</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.14.2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 184210 &#177; 10908<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.48402,-74.57412</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.14.4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 381030 &#177; 23620<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.48407,-74.57402</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.14.5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 141296 &#177; 8240<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.48312,-74.57420</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.14.1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 96240 &#177; 5808<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.48812,-74.57452</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.12.3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 224462 &#177; 14072<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.47033,-74.55353</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.12.4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 444303 &#177; 29309<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.47023,-74.55363</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.12.5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 451880 &#177; 31947<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.47023,-74.55363</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.12.6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 526070 &#177; 33830<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.47200,-74.55322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.8.1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 151188 &#177; 9252<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.47062,-74.55333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.8.3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 742551 &#177; 52968<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.47162,-74.55303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.13.1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 647182 &#177; 42984<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.59057,-74.54987</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.13.2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 230234 &#177; 13933<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.59057,-74.54987</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.13.9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 214938 &#177; 12769<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.59088,-74.55033</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.13.5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 289663 &#177; 17500<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.59190,-74.54652</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.13.7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 218342 &#177; 13314<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.59338,-74.54567</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.13.8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 83251 &#177; 4784<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.59338,-74.54567</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.15.3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 337620 &#177; 20725<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.58247,-74.32927</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.15.5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 280578 &#177; 17049<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.60282,-74.32803</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.15.7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 314365 &#177; 19149<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.60778,-74.33068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.17.4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19855 &#177; 1158<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.03957,-74.26462</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.17.5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 163242 &#177; 9634<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.04163,-74.26372</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.17.6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 285709 &#177; 17216<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.04312,-74.26347</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.6.3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 340135 &#177; 21843<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-62.42967,-74.54750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.6.4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 187334 &#177; 11570<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.42967,-74.54750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.6.6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 164116 &#177; 9622<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.42358,-74.54470</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.6.7A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 237111 &#177; 14831<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.42290,-74.54342</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P11.6.7B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 293800 &#177; 18644<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Johnson-et-al-2019.txt">Johnson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-62.42290,-74.54342</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

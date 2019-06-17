@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bradwell et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201906<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>T8AIR01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24512 &#177; 1532<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.22625,58.45795</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8AIR03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28322 &#177; 1928<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.22628,58.45770</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8AIR02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24698 &#177; 1656<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.22646,58.45807</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8AIR04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35040 &#177; 2116<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.21942,58.45162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8WRA01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23643 &#177; 1497<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.998,58.622</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8WRA02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23559 &#177; 1543<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.997,58.621</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8WRA04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21369 &#177; 1317<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.99459,58.61913</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8WRA03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22601 &#177; 1380<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.99747,58.61884</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8GEI02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21360 &#177; 1487<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.21429,58.37526</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8GEI03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20475 &#177; 1308<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.21415,58.37485</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8GEI05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21505 &#177; 1336<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.22187,58.37406</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8RAI01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18166 &#177; 1141<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.39124,58.13438</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8RAI04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17452 &#177; 1295<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.39079,58.13488</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8RAI02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17081 &#177; 1107<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.39109,58.13454</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8STO01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15035 &#177; 1124<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.366,58.245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8STO02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13795 &#177; 1227<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.362,58.245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8STO03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17251 &#177; 1306<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.360,58.243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8CLA01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16214 &#177; 1111<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.33658,58.22231</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8CLA02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15035 &#177; 1010<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.33472,58.22365</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8CLA03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16477 &#177; 1088<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-5.33539,58.22400</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8RAA01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16131 &#177; 1039<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.00351,57.47645</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8RAA02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16073 &#177; 1039<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.00384,57.47804</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8RAA03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13358 &#177; 878<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.00630,57.48013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8RAB01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15041 &#177; 1044<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.058,57.387</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8RAB02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15171 &#177; 1004<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.058,57.387</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T8RAB03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16493 &#177; 1103<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-2019.txt">Bradwell et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.058,57.387</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sinclair et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201906<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>NU-13-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7784 &#177; 450<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.514,64.778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-13-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8231 &#177; 478<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.514,64.778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-13-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7877 &#177; 462<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.514,64.778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-13-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7622 &#177; 453<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.514,64.778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-13-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8987 &#177; 527<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.514,64.778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU-13-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8217 &#177; 504<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.583,64.742</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQ-13-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 420 &#177; 41<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.525,61.013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQ-13-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 782 &#177; 77<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.525,61.013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQ-13-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 652 &#177; 48<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.528,61.013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQ-13-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 401 &#177; 36<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.528,61.013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQ-13-36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1236 &#177; 80<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.528,61.013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQ-13-38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 729 &#177; 52<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.528,61.013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQ-13-41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 501 &#177; 48<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.526,61.014</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QA-14-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 281 &#177; 70<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.525,61.015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QA-14-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2145 &#177; 156<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.525,61.015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QA-14-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 488 &#177; 61<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.527,61.015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QA-14-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 434 &#177; 57<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.527,61.014</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QA-14-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 717 &#177; 99<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.526,61.015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QA-14-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1017 &#177; 128<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.525,61.015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QA-14-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1768 &#177; 169<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.525,61.015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QA-14-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 543 &#177; 163<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.525,61.015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QA-14-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 530 &#177; 74<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.527,61.015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QA-14-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1558 &#177; 172<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.526,61.015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KS-16-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8896 &#177; 661<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.027,61.078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KS-16-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11026 &#177; 685<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.027,61.078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KS-16-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3337 &#177; 220<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.026,61.076</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KS-16-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4025 &#177; 429<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.025,61.074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KS-16-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3447 &#177; 215<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.025,61.074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KS-16-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7620 &#177; 499<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.025,61.074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JB-16-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 635 &#177; 87<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.028,60.916</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JB-16-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 508 &#177; 43<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.029,60.917</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JB-16-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 310 &#177; 34<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.026,60.916</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JB-16-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 250 &#177; 42<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.024,60.916</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TU-16-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11029 &#177; 647<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.288,60.381</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TU-16-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14423 &#177; 847<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.288,60.381</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TU-16-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11869 &#177; 703<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.287,60.381</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TU-16-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10475 &#177; 623<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.288,60.381</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TU-16-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12017 &#177; 717<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.287,60.381</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TU-16-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9630 &#177; 565<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.286,60.382</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TU-16-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5026 &#177; 311<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.274,60.388</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TU-16-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1402 &#177; 147<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.274,60.388</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TU-16-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1025 &#177; 125<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.273,60.389</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TU-16-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 618 &#177; 79<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.273,60.389</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TU-16-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 268 &#177; 58<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.273,60.389</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TU-16-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 775 &#177; 63<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.273,60.389</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NK-16-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 616 &#177; 47<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.932,60.323</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NK-16-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 617 &#177; 50<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.932,60.323</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NK-16-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6310 &#177; 383<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.934,60.322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NK-16-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 680 &#177; 53<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.933,60.322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NK-16-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 851 &#177; 80<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.933,60.323</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NK-16-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1467 &#177; 127<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sinclair-et-al-2019.txt">Sinclair et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.933,60.323</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

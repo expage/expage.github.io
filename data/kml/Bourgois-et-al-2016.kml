@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bourgois et al. (2016)</name>
+<description>
+<![CDATA[
+Data from expage-201906<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 893757 &#177; 78722<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bourgois-et-al-2016.txt">Bourgois et al. (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.48831,-46.40539</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20952 &#177; 8701<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bourgois-et-al-2016.txt">Bourgois et al. (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.03344,-46.54217</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>69</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20213 &#177; 2880<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bourgois-et-al-2016.txt">Bourgois et al. (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.03781,-46.58997</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 398742 &#177; 59290<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bourgois-et-al-2016.txt">Bourgois et al. (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.01194,-46.54208</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32023 &#177; 9943<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bourgois-et-al-2016.txt">Bourgois et al. (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.79133,-46.58131</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13636 &#177; 3637<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bourgois-et-al-2016.txt">Bourgois et al. (2016)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.86733,-46.55819</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>45</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17882 &#177; 3913<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bourgois-et-al-2016.txt">Bourgois et al. (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.80544,-46.84008</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23846 &#177; 4274<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bourgois-et-al-2016.txt">Bourgois et al. (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.83100,-46.97617</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>55</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19027 &#177; 5249<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bourgois-et-al-2016.txt">Bourgois et al. (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.86167,-46.98069</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>65</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19255 &#177; 3161<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bourgois-et-al-2016.txt">Bourgois et al. (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.60531,-46.66394</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
