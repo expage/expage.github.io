@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Fleming (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201907<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>SRSA-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19174 &#177; 1338<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-117.5934,41.6766</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SRSA-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17800 &#177; 1192<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-117.5935,41.6765</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SRSA-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18388 &#177; 1290<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-117.5937,41.6764</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SRSA-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18310 &#177; 1214<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-117.5937,41.6763</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SRSA-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19690 &#177; 1458<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-117.5934,41.6764</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SRSA-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16638 &#177; 1144<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-117.5922,41.6749</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SRSA-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16898 &#177; 1149<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-117.5921,41.6749</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SRSA-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17651 &#177; 1153<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-117.5931,41.6753</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SRSA-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17915 &#177; 1277<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-117.5932,41.6753</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SRSA-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16877 &#177; 1157<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-117.5931,41.6749</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SRSA-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16017 &#177; 1028<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-117.5932,41.6749</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PF-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22295 &#177; 1375<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.7223,41.6821</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PF-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22155 &#177; 1364<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.7222,41.6824</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PF-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20986 &#177; 1290<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.7221,41.6835</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PF-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22439 &#177; 1402<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.7219,41.6836</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PF-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33701 &#177; 2038<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.7219,41.6838</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PF-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18570 &#177; 1155<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fleming-2019.txt">Fleming (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.7167,41.6809</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
