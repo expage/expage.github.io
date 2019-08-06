@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Marr et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201908<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>DanBed1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12782 &#177; 870<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Marr-et-al-2019.txt">Marr et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.274044,62.047639</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DanBed2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11038 &#177; 1045<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Marr-et-al-2019.txt">Marr et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.275275,62.049925</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DanBed3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13417 &#177; 905<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Marr-et-al-2019.txt">Marr et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.270258,62.049314</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DanBo</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17101 &#177; 1158<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Marr-et-al-2019.txt">Marr et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.274839,62.044505</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DanBed5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10389 &#177; 715<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Marr-et-al-2019.txt">Marr et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>7.287856,62.048295</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BlaBed</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41634 &#177; 2751<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Marr-et-al-2019.txt">Marr et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>9.284407,61.897524</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BlaBo</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19829 &#177; 1350<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Marr-et-al-2019.txt">Marr et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.284238,61.897700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Strand et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201908<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>PL-13-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32941 &#177; 1949<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.233473,-43.876201</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42354 &#177; 2456<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.233102,-43.876828</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42307 &#177; 2452<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.233088,-43.877056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37747 &#177; 2238<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.233572,-43.878254</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41349 &#177; 2454<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.233555,-43.878260</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43540 &#177; 2582<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.233944,-43.879095</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40403 &#177; 2395<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.234087,-43.879528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42453 &#177; 2510<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.233979,-43.879611</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 44742 &#177; 2612<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.233922,-43.879641</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41759 &#177; 2466<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.233742,-43.872932</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38024 &#177; 2246<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.232373,-43.877225</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40172 &#177; 2396<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.231938,-43.877370</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40348 &#177; 2395<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.230656,-43.878251</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42196 &#177; 2494<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.231804,-43.877820</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40505 &#177; 2358<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.230958,-43.870895</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37091 &#177; 2166<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.229980,-43.873985</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34395 &#177; 2013<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.230170,-43.874429</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39136 &#177; 2275<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.230089,-43.874652</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34537 &#177; 2002<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.230412,-43.874730</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34254 &#177; 1976<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.228861,-43.882768</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35843 &#177; 2092<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.229226,-43.883078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24812 &#177; 1474<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.226015,-43.890272</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30253 &#177; 1779<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.225782,-43.890325</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25951 &#177; 1543<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.225062,-43.890502</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27088 &#177; 1603<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.225790,-43.870827</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21611 &#177; 1327<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.227115,-43.876710</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-55</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26614 &#177; 1559<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.231212,-43.906866</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19091 &#177; 1137<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.221827,-43.895474</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19102 &#177; 1135<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.221952,-43.896212</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19724 &#177; 1174<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.223600,-43.897526</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18857 &#177; 1111<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.218723,-43.900818</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20118 &#177; 1190<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.214590,-43.883040</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19369 &#177; 1173<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.215875,-43.874833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20676 &#177; 1220<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.219196,-43.868273</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-39</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19802 &#177; 1170<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.221449,-43.870311</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18135 &#177; 1074<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.210644,-43.893391</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-46</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17948 &#177; 1119<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.222989,-43.919443</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-47</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17743 &#177; 1057<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.226477,-43.928471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-56</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17348 &#177; 1021<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.221823,-43.930890</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-13-58</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17382 &#177; 1029<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2019.txt">Strand et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.222584,-43.929074</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
