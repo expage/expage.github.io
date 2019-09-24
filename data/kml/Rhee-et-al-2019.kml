@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rhee et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201909<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>JBG001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 153556 &#177; 9758<br/>
+<sup>26</sup>Al: 124417 &#177; 13626<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.19303,-74.59935</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG002</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 85910 &#177; 5800<br/>
+<sup>26</sup>Al: 72070 &#177; 6780<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.19303,-74.59935</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG003</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 108085 &#177; 7047<br/>
+<sup>26</sup>Al: 97881 &#177; 7714<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.19902,-74.59912</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 86956 &#177; 6276<br/>
+<sup>26</sup>Al: 78456 &#177; 14163<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.19902,-74.59912</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 56503 &#177; 4126<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.19925,-74.59910</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 67316 &#177; 4477<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.19925,-74.59910</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 91383 &#177; 6013<br/>
+<sup>26</sup>Al: 72036 &#177; 7490<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.19925,-74.59910</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG010</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 89252 &#177; 6167<br/>
+<sup>26</sup>Al: 78958 &#177; 6778<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.20768,-74.60113</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG011</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32786 &#177; 2795<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.20768,-74.60113</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG012</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 123765 &#177; 7913<br/>
+<sup>26</sup>Al: 97423 &#177; 9375<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.20728,-74.60135</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG013</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 106902 &#177; 6863<br/>
+<sup>26</sup>Al: 96820 &#177; 9352<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.20728,-74.60135</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG014</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 130772 &#177; 8409<br/>
+<sup>26</sup>Al: 98610 &#177; 10800<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.20728,-74.60135</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG015</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 136589 &#177; 8627<br/>
+<sup>26</sup>Al: 106011 &#177; 8204<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.20728,-74.60135</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG016</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 200092 &#177; 12651<br/>
+<sup>26</sup>Al: 159190 &#177; 15375<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.20947,-74.60595</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG017</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 132134 &#177; 9084<br/>
+<sup>26</sup>Al: 126348 &#177; 27815<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.20958,-74.60593</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG018</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 196678 &#177; 12337<br/>
+<sup>26</sup>Al: 114000 &#177; 9169<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.20930,-74.60602</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG019</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 174464 &#177; 11060<br/>
+<sup>26</sup>Al: 141234 &#177; 16589<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.20927,-74.60592</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG020</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 273032 &#177; 17430<br/>
+<sup>26</sup>Al: 179996 &#177; 15313<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.20928,-74.60603</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG021</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 53512 &#177; 3861<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.20597,-74.60593</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG022</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 76497 &#177; 5331<br/>
+<sup>26</sup>Al: 73177 &#177; 14167<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.20943,-74.60600</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG023</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37731 &#177; 2981<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.21878,-74.61300</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG024</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15712 &#177; 1619<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.21895,-74.61298</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG025</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36868 &#177; 2873<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.21983,-74.61248</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG026</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6322 &#177; 1003<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.22002,-74.61242</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG027</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33024 &#177; 2584<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.21983,-74.61215</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG028</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19259 &#177; 1769<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.22033,-74.61225</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG029</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18633 &#177; 1748<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.22013,-74.61245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG030</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15257 &#177; 1474<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.22058,-74.61263</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG031</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8592 &#177; 1085<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.23032,-74.61823</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG032</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7973 &#177; 1177<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.23033,-74.61823</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG033</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11158 &#177; 1326<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.23027,-74.61832</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG034</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11721 &#177; 1857<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.23023,-74.61832</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG035</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19682 &#177; 1960<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.23015,-74.61850</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG036</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 56768 &#177; 4214<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.23047,-74.61857</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG037</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36076 &#177; 2934<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.23037,-74.61857</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG038</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8483 &#177; 1089<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.23040,-74.61857</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG039</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5531 &#177; 1036<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.23302,-74.62043</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG040</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4586 &#177; 806<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.23302,-74.62043</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG041</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6446 &#177; 989<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.23322,-74.62047</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG042</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7908 &#177; 1183<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.23322,-74.62047</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JBG043</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6461 &#177; 1002<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2019.txt">Rhee et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>164.23312,-74.62047</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Fame et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201909<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>NHR1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16448 &#177; 1246<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fame-et-al-2019.txt">Fame et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.14474,44.33126</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHR2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20639 &#177; 1349<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fame-et-al-2019.txt">Fame et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.16850,44.30504</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHR3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14152 &#177; 1145<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fame-et-al-2019.txt">Fame et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.17649,44.29005</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHR4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22145 &#177; 1426<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fame-et-al-2019.txt">Fame et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.17030,44.27596</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHR5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35567 &#177; 2400<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fame-et-al-2019.txt">Fame et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.30605,44.27504</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHR6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18445 &#177; 1417<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fame-et-al-2019.txt">Fame et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.31705,44.29205</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHR7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 125519 &#177; 7455<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fame-et-al-2019.txt">Fame et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.31983,44.30955</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

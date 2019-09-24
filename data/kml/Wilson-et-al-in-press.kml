@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wilson et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201909<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>ALN-1701</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11738 &#177; 898<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-in-press.txt">Wilson et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.696130,62.436408</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALN-1702</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12479 &#177; 867<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-in-press.txt">Wilson et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.696220,62.436391</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALN-1703</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12420 &#177; 807<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-in-press.txt">Wilson et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.696301,62.436463</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VAL-1701</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11152 &#177; 727<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-in-press.txt">Wilson et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.418317,62.303881</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VAL-1702</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12020 &#177; 821<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-in-press.txt">Wilson et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.420533,62.302452</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VAL-1703</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9183 &#177; 749<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-in-press.txt">Wilson et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.420753,62.301575</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

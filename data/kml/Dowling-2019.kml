@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dowling (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201909<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>DU-28-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 326 &#177; 25<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.61706,-44.48045</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DU-28-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 269 &#177; 23<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.61768,-44.47954</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DU-28-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 346 &#177; 29<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.61793,-44.47915</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DU-28-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 274 &#177; 25<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.61802,-44.47904</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DU-28-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 388 &#177; 28<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.62057,-44.47259</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DU-28-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 328 &#177; 29<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.62064,-44.47273</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DL-23-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 272 &#177; 26<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.58084,-44.49569</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DL-23-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 328 &#177; 27<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.58081,-44.49575</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DL-23-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 368 &#177; 29<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.58076,-44.49580</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DL-23-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 267 &#177; 28<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.58081,-44.49582</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DL-23-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 331 &#177; 28<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.58125,-44.49489</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DH-24-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7655 &#177; 499<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.56055,-44.52188</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DH-24-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7463 &#177; 462<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.56087,-44.52197</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DH-24-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8043 &#177; 499<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.55989,-44.52247</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DH-24-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7382 &#177; 458<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.55997,-44.52254</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DH-24-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7176 &#177; 446<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dowling-2019.txt">Dowling (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>168.55806,-44.52160</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

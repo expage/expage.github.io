@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Saha et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201909<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>S19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8204 &#177; 519<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.2783,32.3833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S20a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1869 &#177; 206<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.2783,32.3833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11632 &#177; 768<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.2783,32.3833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15718 &#177; 1076<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.2783,32.3833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S23a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1271 &#177; 140<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.2783,32.3833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S24a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1244 &#177; 1600<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.2783,32.3833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12413 &#177; 950<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.2850,32.4000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13320 &#177; 934<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.2850,32.4000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11078 &#177; 833<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.2850,32.4000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13424 &#177; 799<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.2850,32.4000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 507 &#177; 186<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.3067,32.4233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 769 &#177; 86<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.3067,32.4233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PAR1601</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 194 &#177; 23<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>75.9998,34.0835</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PAR1602</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 116 &#177; 29<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>76.0001,34.0844</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PAR1603</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 250 &#177; 22<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>76.0002,34.0846</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PAR1606</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 261 &#177; 45<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Saha-et-al-2019.txt">Saha et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>76.0004,34.0850</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
