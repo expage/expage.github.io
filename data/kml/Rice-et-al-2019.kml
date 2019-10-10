@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rice et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201910<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>16-PTA-058</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7097 &#177; 434<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rice-et-al-2019.txt">Rice et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-64.207,55.843</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-PTA-078</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9006 &#177; 531<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rice-et-al-2019.txt">Rice et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-64.515,55.821</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15PTA-081</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8349 &#177; 2823<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rice-et-al-2019.txt">Rice et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-64.189,55.810</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15PTA-081E</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5702 &#177; 1920<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rice-et-al-2019.txt">Rice et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.189,55.810</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15PTA-077</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6447 &#177; 2666<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rice-et-al-2019.txt">Rice et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.080,55.810</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15PTA-077E</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15101 &#177; 3559<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rice-et-al-2019.txt">Rice et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.080,55.810</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PTA-070</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21504 &#177; 1265<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rice-et-al-2019.txt">Rice et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.251,55.784</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PTA-053</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7721 &#177; 462<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rice-et-al-2019.txt">Rice et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.709,55.867</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-PTA-083</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8485 &#177; 499<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rice-et-al-2019.txt">Rice et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.721,55.772</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15PTA-021</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7199 &#177; 1670<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rice-et-al-2019.txt">Rice et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.729,55.838</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

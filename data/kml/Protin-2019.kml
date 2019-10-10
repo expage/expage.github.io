@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Protin (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201910<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>MDG-15-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4296 &#177; 378<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.91870,45.94491</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MDG-15-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 579 &#177; 112<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.91849,45.94469</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MDG-15-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 573 &#177; 65<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.91909,45.93163</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MDG-15-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 437 &#177; 68<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.91915,45.93076</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MDG-15-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 370 &#177; 66<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.91992,45.93133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MDG-15-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2307 &#177; 264<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.92125,45.93013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MDG-15-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2174 &#177; 160<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.92125,45.93013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MDG-15-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 120 &#177; 88<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.92190,45.93024</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SMG-16-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66 &#177; 74<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.92389,45.92872</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SMG-16-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 84 &#177; 85<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.92389,45.92872</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARG-15-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 365 &#177; 80<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.94210,45.97459</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARG-15-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 517 &#177; 127<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.94278,45.97511</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARG-15-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 507 &#177; 163<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.93878,45.97758</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARG-16-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 82 &#177; 19<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96650,45.96430</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARG-16-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10 &#177; 10<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96580,45.96540</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARG-15-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43 &#177; 72<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96620,45.96460</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 58 &#177; 18<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96646,45.96646</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAR-16-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46 &#177; 12<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.96763,45.96772</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JDT-16-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 119 &#177; 21<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.98334,45.91951</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JDT-16-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 434 &#177; 34<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.98539,45.92028</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JDT-16-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 515 &#177; 39<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Protin-2019.txt">Protin (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.98534,45.92028</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
