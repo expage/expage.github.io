@@ -8,82 +8,122 @@ function expage()
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 2, as published by the Free Software Foundation (www.fsf.org).
 %
-% Jakob Heyman - 2015-2018 (jakob.heyman@gu.se)
+% Jakob Heyman - 2015-2019 (jakob.heyman@gu.se)
 
 clear;
 tic();
 
 % What version is this?
-ver = '201902';
+ver = '201912';
 
 % plotting? (1 = yes) ==============================================================================
 plotpointages = 0; % plots exposure ages as points
 plotprobdens = 0; % plots exposure ages as probability density curves (for single groups of ages)
 % ==================================================================================================
 
+% fix input ========================================================================================
+% variable names for input with variable names in first line
+varnames = {'sample','Pflag','std10','std26','isostP','lat','long','elv','thick','dens','shield',...
+    'erosion','N10','N10unc','N26','N26unc','samplingyr','pressure'};
+vartypes = {'%s','%s','%s','%s','%s','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n',...
+    '%n'};
 % read input file
-[samplein.sample_name,samplein.lat,samplein.long,samplein.elv,samplein.aa,samplein.thick,...
-    samplein.rho,samplein.othercorr,samplein.E,samplein.N10,samplein.delN10,samplein.be_stds,...
-    samplein.N26,samplein.delN26,samplein.al_stds,samplein.samplingyr] = ...
-    textread('input.txt','%s %n %n %n %s %n %n %n %n %n %n %s %n %n %s %n','commentstyle','matlab');
+fid = fopen('input.txt');
+varsin = strsplit(fgetl(fid)); % read first line
+if(ismember(varsin,varnames)); % if first line contain only variable names
+    [testi,vari] = ismember(varsin,varnames); % find index of varnames
+    typestr = vartypes{vari(1)}; % fix type string
+    for i = 2:numel(vari); % fix type string
+        typestr = [typestr ' ' vartypes{vari(i)}];
+    end;
+elseif numel(varsin) == 16; % if no variable names in first line
+    frewind(fid); % read from first line
+    varsin = {'sample','lat','long','elv','Pflag','thick','dens','shield','erosion','N10',...
+        'N10unc','std10','N26','N26unc','std26','samplingyr'};
+    typestr = '%s %n %n %n %s %n %n %n %n %n %n %s %n %n %s %n';
+else;
+    fprintf(1,'ERROR! Something is wrong with the input\n');
+    return;
+end;
+indata = textscan(fid,typestr,'CommentStyle','%'); % scan data
+for i = 1:numel(varsin); % fix variables
+    samplein.(varsin{i}) = indata{i};
+end;
+fclose(fid);
+% ==================================================================================================
 
 % run and load expage constants
 make_consts_expage;
 load consts_expage;
 
-% constants
-Pref10 = consts.P10_ref_nu; delPref10 = consts.delP10_ref_nu;
-Pref26 = consts.P26_ref_nu; delPref26 = consts.delP26_ref_nu;
-% Decay constant
-l10 = consts.l10; dell10 = consts.dell10;
-l26 = consts.l26; dell26 = consts.dell26;
+% decay constant
+l10 = consts.l10; l10unc = consts.l10unc;
+l26 = consts.l26; l26unc = consts.l26unc;
+
+% if there is no erosion in input: assume zero erosion
+if isfield(samplein,'erosion') == 0; samplein.erosion(1:numel(samplein.sample),1) = 0; end;
+
+% if there is no N10 or N26 in input: fill with 0
+if isfield(samplein,'N10') == 0; samplein.N10(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'N10unc') == 0; samplein.N10unc(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'std10') == 0; samplein.std10(1:numel(samplein.sample),1) = {'0'}; end;
+if isfield(samplein,'N26') == 0; samplein.N26(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'N26unc') == 0; samplein.N26unc(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'std26') == 0; samplein.std26(1:numel(samplein.sample),1) = {'0'}; end;
 
 % convert 10Be concentrations according to standards
-for i = 1:numel(samplein.N10);
-    be_mult(i,1) = consts.be_stds_cfs(strcmp(samplein.be_stds(i),consts.be_stds_names));
-end;
-samplein.N10 = samplein.N10 .* be_mult;
-samplein.delN10 = samplein.delN10 .* be_mult;
+[testi,stdi] = ismember(samplein.std10,consts.std10); % find index of standard conversion factors
+mult10 = consts.std10_cf(stdi); % pick out conversion factor
+samplein.N10 = samplein.N10 .* mult10;
+samplein.N10unc = samplein.N10unc .* mult10;
 
 % convert 26Al concentrations according to standards
-for i = 1:numel(samplein.N26);
-    al_mult(i,1) = consts.al_stds_cfs(strcmp(samplein.al_stds(i),consts.al_stds_names));
-end;
-samplein.N26 = samplein.N26 .* al_mult;
-samplein.delN26 = samplein.delN26 .* al_mult;
+[testi,stdi] = ismember(samplein.std26,consts.std26); % find index of standard conversion factors
+mult26 = consts.std26_cf(stdi); % pick out conversion factor
+samplein.N26 = samplein.N26 .* mult26;
+samplein.N26unc = samplein.N26unc .* mult26;
 
 % fix longitude values
 samplein.long(find(samplein.long < 0)) = samplein.long(find(samplein.long < 0)) + 360;
 
 % fix sample pressure
-std_v = strcmp(samplein.aa,'std');
-ant_v = strcmp(samplein.aa,'ant');
-pre_v = strcmp(samplein.aa,'pre');
-samplein.pressure(std_v) = ERA40atm(samplein.lat(std_v),samplein.long(std_v),samplein.elv(std_v));
-samplein.pressure(ant_v) = antatm(samplein.elv(ant_v));
-samplein.pressure(pre_v) = samplein.elv(pre_v);
+if isfield(samplein,'pressure') == 0;
+    % if there is no pressure flag: use std
+    if isfield(samplein,'Pflag') == 0; samplein.Pflag(1:numel(samplein.sample),1) = {'std'}; end;
+    stdv = strcmp(samplein.Pflag,'std');
+    antv = strcmp(samplein.Pflag,'ant');
+    prev = strcmp(samplein.Pflag,'pre');
+    samplein.pressure(stdv) = ERA40atm(samplein.lat(stdv),samplein.long(stdv),samplein.elv(stdv));
+    samplein.pressure(antv) = antatm(samplein.elv(antv));
+    samplein.pressure(prev) = samplein.elv(prev);
+end;
 
 % fix erosion rate unit (mm/ka -> cm/yr)
-samplein.E = samplein.E .* 1E-4;
+samplein.erosion = samplein.erosion .* 1E-4;
 
+% fix isostatic adjustment input
+if isfield(samplein,'isostP');
+    samplein.isostP = isost_data_load(samplein.isostP);
+end;
+            
 % initial Lsp for simple age calculation
 Lsp1 = consts.Lsp;
 
 % fix simple thickness scaling factor
 thick_v = find(samplein.thick > 0);
 samplein.thickSF1(1:numel(samplein.thick),1) = 1;
-samplein.thickSF1(thick_v) = (Lsp1./(samplein.rho(thick_v).*samplein.thick(thick_v))).*...
-    (1 - exp(((-1.*samplein.rho(thick_v).*samplein.thick(thick_v))./Lsp1)));
+samplein.thickSF1(thick_v) = (Lsp1./(samplein.dens(thick_v).*samplein.thick(thick_v))).*...
+    (1 - exp(((-1.*samplein.dens(thick_v).*samplein.thick(thick_v))./Lsp1)));
 
 % fix for output
 output(1,1) = {'sample'};
 outn(1) = 1;
-if sum(samplein.N10+samplein.delN10) > 0;
+if sum(samplein.N10+samplein.N10unc) > 0;
     output(1,end+1:end+3) = {'10age(yr)','10uncext(yr)','10uncint(yr)'};
     outn(1) = max(outn)+1;
     outn(2) = max(outn)+2;
 end;
-if sum(samplein.N26+samplein.delN26) > 0;
+if sum(samplein.N26+samplein.N26unc) > 0;
     output(1,end+1:end+3) = {'26age(yr)','26uncext(yr)','26uncint(yr)'};
     outn(3) = max(outn)+1;
     outn(4) = max(outn)+2;
@@ -91,40 +131,51 @@ end;
 
 % pick out samples one by one
 for i = 1:numel(samplein.lat);
-    sample.sample_name = samplein.sample_name(i);
+    sample.sample = samplein.sample(i);
     sample.lat = samplein.lat(i);
     sample.long = samplein.long(i);
     sample.thick = samplein.thick(i);
-    sample.rho = samplein.rho(i);
-    sample.othercorr = samplein.othercorr(i);
-    sample.E = samplein.E(i);
+    sample.dens = samplein.dens(i);
+    sample.shield = samplein.shield(i);
+    sample.erosion = samplein.erosion(i);
     sample.N10 = samplein.N10(i);
-    sample.delN10 = samplein.delN10(i);
-    sample.be_stds = samplein.be_stds(i);
+    sample.N10unc = samplein.N10unc(i);
     sample.N26 = samplein.N26(i);
-    sample.delN26 = samplein.delN26(i);
-    sample.al_stds = samplein.al_stds(i);
+    sample.N26unc = samplein.N26unc(i);
     sample.samplingyr = samplein.samplingyr(i);
     sample.pressure = samplein.pressure(i);
     sample.thickSF1 = samplein.thickSF1(i);
+    if isfield(samplein,'isostP');
+        sample.isostP = samplein.isostP{i};
+        sample.elv = samplein.elv(i);
+        sample.Pflag = samplein.Pflag(i);
+        if strcmp(sample.isostP,'-') || strcmp(sample.Pflag,'pre');
+            sample = rmfield(sample,'isostP');
+        end;
+    end;
     
     % write sample name to output
-    output(i+1,1) = sample.sample_name;
+    output(i+1,1) = sample.sample;
     
     % Set nucl and mt to 0 for both 10/26 and check if there is N10/N26
     nucl10 = 0; nucl26 = 0; mt10 = 0; mt26 = 0;
-    if (sample.N10 + sample.delN10) > 0; nucl10 = 1; end;
-    if (sample.N26 + sample.delN26) > 0; nucl26 = 1; end;
+    if (sample.N10 + sample.N10unc) > 0; nucl10 = 1; end;
+    if (sample.N26 + sample.N26unc) > 0; nucl26 = 1; end;
     
+    % if no 10Be or 26Al: move on
     if nucl10 + nucl26 == 0;
         continue;
     end;
     
+    % Prefs
+    Pref10 = consts.Pref10; Pref10unc = consts.Pref10unc;
+    Pref26 = consts.Pref26; Pref26unc = consts.Pref26unc;
+    
     % display sample name
-    fprintf(1,'%.0f. %s',i,sample.sample_name{1});
+    fprintf(1,'%.0f. %s',i,sample.sample{1});
     
     % Find P scaling factor according to Stone/Lal
-    P_St_SF = stone2000(sample.lat,sample.pressure,1) * sample.thickSF1 * sample.othercorr;
+    P_St_SF = stone2000(sample.lat,sample.pressure,1) * sample.thickSF1 * sample.shield;
     
     % if 10Be measured: calculate max time
     if nucl10 == 1;
@@ -142,33 +193,20 @@ for i = 1:numel(samplein.lat);
     % Age Relative to t0=2010 - LSD tv from LSDfix
     % tv = [0:10:50 60:100:50060 51060:1000:2000060 logspace(log10(2001060),7,200)];
     
-    % Fix w,Rc,SPhi, for sp and mu prod rate scaling
-    LSDfix = LSD_fix(sample.lat,sample.long,mt,-1,consts);
+    % Fix tv, Rc, RcEst, SPhi, and w for sp and mu prod rate scaling
+    LSDfix = LSD_fix(sample.lat,sample.long,mt,-1,sample.samplingyr,consts);
     
-    % time vector tv1
-    tv1 = LSDfix.tv;
-    
-    % adjust tv, Rc, and SPhi to sampling year
-    if sample.samplingyr <= 2010;
-        clipidx = min(find(tv1 > 2010-sample.samplingyr));
-        tv = [2010-sample.samplingyr tv1(clipidx:end)];
-        Rc = interp1(tv1,LSDfix.Rc,tv);
-        SPhi = interp1(tv1,LSDfix.SPhi,tv);
-        tv = tv - 2010 + sample.samplingyr;
-    else; % assume 2010 value for all years >2010
-        Rc = [LSDfix.Rc(1) LSDfix.Rc];
-        SPhi = [LSDfix.SPhi(1) LSDfix.SPhi];
-        tv = [0 (tv1 + sample.samplingyr - 2010)];
-    end;
+    % include tv in sample
+    sample.tv = LSDfix.tv;
     
     % Production from muons
-    if sample.E <= 0;
-        Pmu = P_mu_expage(sample.thick.*sample.rho./2,sample.pressure,LSDfix.RcEst,...
+    if sample.erosion <= 0;
+        Pmu = P_mu_expage(sample.thick.*sample.dens./2,sample.pressure,LSDfix.RcEst,...
             consts.SPhiInf,nucl10,nucl26,consts,'no');
-        if nucl10 == 1; sample.mu10 = Pmu.mu10 .* sample.othercorr; end;
-        if nucl26 == 1; sample.mu26 = Pmu.mu26 .* sample.othercorr; end;
+        if nucl10 == 1; sample.mu10 = Pmu.mu10 .* sample.shield; end;
+        if nucl26 == 1; sample.mu26 = Pmu.mu26 .* sample.shield; end;
     else;
-        tv_z = (tv.*sample.E + sample.thick./2) .* sample.rho; % time - depth vect (g/cm^2)
+        tv_z = (sample.tv.*sample.erosion + sample.thick./2) .* sample.dens; % T-d vect (g/cm^2)
         if nucl10 == 1;
             sample.mu10 = get_PmuE(sample,tv_z,tsimple10,LSDfix.RcEst,consts,1,0);
         end;
@@ -177,34 +215,47 @@ for i = 1:numel(samplein.lat);
         end;
     end;
     
+    % fix atmospheric pressure if using isostatic adjustment
+    if isfield(sample,'isostP');
+        % calculate elevation development
+        sample.elvv = isost_elv(sample.isostP,sample);
+        % calculate atmospheric pressure
+        if strcmp(sample.Pflag,'std');
+            sample.pressure = ERA40atm(sample.lat,sample.long,sample.elvv);
+        elseif strcmp(sample.Pflag,'ant');
+            sample.pressure = antatm(sample.elvv);
+        end;
+        % change Pref to isostatic calibration values
+        Pref10 = consts.Pref10iso; Pref10unc = consts.Pref10isounc;
+    end;
+    
     % spallation production scaling
-    Psp = LSDspal(sample.pressure,Rc,SPhi,LSDfix.w,nucl10,nucl26,consts);
+    Psp = P_sp_expage(sample.pressure,LSDfix.Rc,LSDfix.SPhi,LSDfix.w,consts,nucl10,nucl26);
     
     % interpolate Lsp using CRONUScalc method (Sato 2008; Marrero et al. 2016)
-    sample.Lsp = rawattenuationlength(sample.pressure,Rc);
+    sample.Lsp = rawattenuationlength(sample.pressure,LSDfix.Rc);
     
     % Thickness scaling factor.
     if sample.thick > 0;
-        thickSF = (sample.Lsp./(sample.rho.*sample.thick)).*...
-            (1 - exp(((-1.*sample.rho.*sample.thick)./sample.Lsp)));
+        thickSF = (sample.Lsp./(sample.dens.*sample.thick)).*...
+            (1 - exp(((-1.*sample.dens.*sample.thick)./sample.Lsp)));
     else;
         thickSF = 1;
     end;
     
-    % include in sample
-    sample.tv = tv;
-    sample.dpfs = exp(-tv.*sample.E.*sample.rho./sample.Lsp); % spallation depth dependence
+    % spallation depth dependence
+    sample.dpfs = exp(-sample.tv.*sample.erosion.*sample.dens./sample.Lsp);
     
     if nucl10 == 1;
         % sample surface spallation production rate over time
-        sample.sp = Psp.sp10.*Pref10.*thickSF.*sample.othercorr;
+        sample.sp = Psp.sp10.*Pref10.*thickSF.*sample.shield;
         
         % sample muon P
         sample.mu = sample.mu10;
         
         % various parameters
-        sample.N = sample.N10; sample.delN = sample.delN10;
-        sample.Pref = Pref10; sample.delPref = delPref10;
+        sample.N = sample.N10; sample.Nunc = sample.N10unc;
+        sample.Pref = Pref10; sample.Prefunc = Pref10unc;
         sample.l = l10;
         
         % get age
@@ -223,14 +274,14 @@ for i = 1:numel(samplein.lat);
     
     if nucl26 == 1;
         % sample surface spallation production rate over time
-        sample.sp = Psp.sp26.*Pref26.*thickSF.*sample.othercorr;
+        sample.sp = Psp.sp26.*Pref26.*thickSF.*sample.shield;
         
         % sample muon P
         sample.mu = sample.mu26;
         
         % various parameters
-        sample.N = sample.N26; sample.delN = sample.delN26;
-        sample.Pref = Pref26; sample.delPref = delPref26;
+        sample.N = sample.N26; sample.Nunc = sample.N26unc;
+        sample.Pref = Pref26; sample.Prefunc = Pref26unc;
         sample.l = l26;
         
         % get age
@@ -252,7 +303,7 @@ for i = 1:numel(samplein.lat);
 end;
 
 % fix and save output ==============================================================================
-if sum(samplein.N10 + samplein.delN10 + samplein.N26 + samplein.delN26) > 0;
+if sum(samplein.N10 + samplein.N10unc + samplein.N26 + samplein.N26unc) > 0;
     % fix output string
     outstr = '%s';
     for j = 1:size(output,2)-1;
@@ -284,10 +335,10 @@ if plotpointages == 1;
 end;
 if plotprobdens == 1;
     if exist('plotm10');
-        plot_probdens(plotm10,10,Pref10,delPref10);
+        plot_probdens(plotm10,10,Pref10,Pref10unc);
     end;
     if exist('plotm26');
-        plot_probdens(plotm26,26,Pref26,delPref26);
+        plot_probdens(plotm26,26,Pref26,Pref26unc);
     end;
 end;
 % =================================================
@@ -302,7 +353,7 @@ function [tsimple,mt] = get_mt(sample,Pref,P_St_SF,l,Lsp1,N);
     % Find P according to Stone/Lal - no muon production here!
     % Pref used as ref prod rate
     P_St = Pref * P_St_SF;
-    A = l + sample.rho * sample.E / Lsp1;
+    A = l + sample.dens * sample.erosion / Lsp1;
     if (N < (P_St./A)); % if not saturated: do calculation
         tsimple = (-1/A)*log(1-(N * A / P_St));
         mt = tsimple .* 2;
@@ -320,11 +371,13 @@ function [tsimple,mt] = get_mt(sample,Pref,P_St_SF,l,Lsp1,N);
 
 % subfunction get_PmuE =============================================================================
 function out = get_PmuE(sample,tv_z,tsimple,RcEst,consts,nucl10,nucl26);
-    aged = sample.E .* tsimple; % depth at t simple
-    mu_z = [(linspace(0,aged,9) + sample.thick./2).*sample.rho max(tv_z)];
+    agez = sample.erosion .* tsimple .* sample.dens; % shielding depth at t simple
+    agezv = [0 25 50 75 125 250]; % shielding depth break values for number of mu_z points (5-10)
+    idx = find(agez>agezv,1,'last');
+    mu_z = [(linspace(0,agez,idx+3) + sample.thick.*sample.dens./2) max(tv_z)];
     Pmu_d = P_mu_expage(mu_z,sample.pressure,RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
     if nucl10 == 1; Pmud = Pmu_d.mu10; elseif nucl26 == 1; Pmud = Pmu_d.mu26; end;
-    out = interp1(mu_z,Pmud,tv_z,'pchip') .* sample.othercorr; % P_mu
+    out = interp1(mu_z,Pmud,tv_z,'pchip') .* sample.shield; % P_mu
 % end subfunction get_PmuE =========================================================================
 
 
@@ -344,19 +397,19 @@ function results = get_1026_age(sample,maxage);
             Lsp_avg = interp1(sample.tv,cumtrapz(sample.tv,sample.Lsp.*...
                 exp(-sample.l.*sample.tv)),min(t_nu,max(sample.tv)))/interp1(sample.tv,...
                 cumtrapz(sample.tv,exp(-sample.l.*sample.tv)),min(t_nu,max(sample.tv)));
-            A = sample.l + sample.rho * sample.E ./Lsp_avg;
+            A = sample.l + sample.dens * sample.erosion ./Lsp_avg;
             % do most of computation
             FP = (sample.N.*A)./(1 - exp(-A.*t_nu));
-            delFP = (sample.delPref/sample.Pref) * FP;
+            delFP = (sample.Prefunc/sample.Pref) * FP;
             dtdN = 1./(FP - sample.N.*A);
             dtdP = -sample.N./(FP.*FP - sample.N.*A.*FP);
             % make respective delt's
-            delt_ext_nu = sqrt(dtdN.^2 * sample.delN.^2 + dtdP.^2 * delFP.^2);
-            delt_int_nu = sqrt(dtdN.^2 * sample.delN.^2);
+            delt_ext_nu = sqrt(dtdN.^2 * sample.Nunc.^2 + dtdP.^2 * delFP.^2);
+            delt_int_nu = sqrt(dtdN.^2 * sample.Nunc.^2);
             FP_nu10 = FP;
         else; % t = 0, estimate uncertainty based on conc + unc
-            delt_int_nu = interp1(N_nu,sample.tv,sample.N+sample.delN);
-            delt_ext_nu = delt_int_nu * (1 + sample.delPref/sample.Pref);
+            delt_int_nu = interp1(N_nu,sample.tv,sample.N+sample.Nunc);
+            delt_ext_nu = delt_int_nu * (1 + sample.Prefunc/sample.Pref);
         end; % end uncertainty block ======================================================
     else; % if saturated: use maxage for age and uncertainties
         t_nu = maxage;
@@ -426,7 +479,7 @@ function plot_points(plotm,nucl);
 
 
 % subfunction plot_probdens ========================================================================
-function plot_probdens(plotm,nucl,Pref,delPref);
+function plot_probdens(plotm,nucl,Pref,Prefunc);
     % This subfunction plots probability density curves
     % red curves: single age probability density curves using internal uncertainty
     % black curve: summed probability density curve
@@ -447,7 +500,7 @@ function plot_probdens(plotm,nucl,Pref,delPref);
     % find number of saturated samples
     nsat = numel(find(plotm(:,3) < 0));
 
-    % remove saturated samples and samples without n10
+    % remove saturated samples and samples without N
     rmidx = find(plotm(:,3) <= 0);
     plotm(rmidx,:) = [];
 
@@ -467,9 +520,8 @@ function plot_probdens(plotm,nucl,Pref,delPref);
 
     if numel(ages)>1;
         % calculate weigthed mean age
-        wage = sum(ages./uncs.^2)/sum(1./uncs.^2);
-        wunc = (sum(1./uncs.^2.*(ages-wage).^2)/sum(1./uncs.^2)*(numel(ages)-1)/numel(ages))^0.5;
-        wunc = sqrt(wunc^2 + (wage*delPref/Pref)^2); % add prodrate uncertainty
+        [wage,wunc] = evm(ages',uncs');
+        wunc = sqrt(wunc^2 + (wage*Prefunc/Pref)^2); % add prodrate uncertainty
         
         % plot grey age uncertainty region
         uncage = linspace(max(wage-wunc,agemin),min(wage+wunc,agemax),100);
@@ -484,9 +536,7 @@ function plot_probdens(plotm,nucl,Pref,delPref);
     end;
 
     % plot individual sample prob dens curves
-    for i = 1:size(probdensmatr,1);
-        plot(timev,probdensmatr(i,:),'color','red');
-    end
+    plot(timev',probdensmatr','color','red');
 
     if numel(ages)>1;
         % plot summed prob dens curve
@@ -509,3 +559,31 @@ function plot_probdens(plotm,nucl,Pref,delPref);
     end;
     hold off;
 % end subfunction plot_probdens ====================================================================
+
+
+% subfunction evm ==================================================================================
+function [wage,wunc] = evm(agev,uncv);
+    % this subfunction calculates weighted average and uncertainty using the expected value method
+    % (Birch and Singh 2014)
+    % fix data (make matrices)
+    agem = repmat(agev,numel(agev),1);
+    uncm = repmat(uncv,numel(uncv),1);
+    xm = repmat(agev',1,numel(agev));
+    
+    % calculate probability for each sample age
+    Mui = sum(sqrt(2./(pi.*(2.*uncm).^2)).*exp(-(xm-agem).^2./(2.*uncm.^2)))./numel(agev);
+    
+    % calculate summed probability for all samples
+    Muj = sum(Mui);
+    
+    % calculate sample weights
+    wi = Mui./Muj;
+    
+    % calculate weighted mean age
+    wage = sum(wi.*agev);
+    
+    % uncertainty estimation
+    uncint = sqrt(sum(wi.^2.*uncv.^2));
+    uncext = sqrt(sum(wi.*(agev-wage).^2));
+    wunc = max(uncint,uncext);
+% end subfunction evm ==============================================================================

@@ -1,5 +1,39 @@
 Log file for the expage 10Be and 26Al exposure age calculator
 
+====================================================================================================
+
+expage-201912 calculator
+* Multiple changes in several functions.
+* New input option with header line specifying the variables in the columns.
+* Updated LSD_fix.m function that adjusts tv, Rc, and SPhi to the sampling year.
+* New function for calculation of spallation scaling factors (P_sp_expage.m - based on Neutrons.m,
+  Protons.m, and LSDscaling.m) updated to calculate scaling factors with variable input atmospheric
+  pressure.
+* Changed production rate calibration calculation in prodrate.m with direct calculation of sample
+  reference production rate (sample production rate uncertainty based on exposure age uncertainty
+  estimation) and weighted site reference production rate instead of chi-square minimization. It is
+  now also possible to calculate the reference production rate for multiple sites if using a header
+  line and specifying the sites.
+* Option to include submergence and shielding by water in production rate calibration (used for site
+  18 in the production rate calibration dataset with the Billingen_uplift.txt data).
+* Option to calculate exposure ages and production rates using isostatic adjustments of the
+  elevation and associated atmospheric pressure. The elevation change can be calculated from the
+  ICE6G data (Argus et al. 2014; Peltier et al. 2015) globally, the PD2015 model (Påsse and Daniels
+  2015) model for Fennoscandia, or from the data in a self-provided file. Reference production rates
+  used when employing the isostatic adjustment option have been calibrated using the updated
+  prodrate.m function with the Billingen_uplift.txt data for site 18, PD2015 data for sites 6,7,11,
+  12 in Fennoscandia, and ICE6G data for all other calibration sites.
+* Changed mu_z in subfunctions get_PmuE to use 5-10 points depending on simple age erosion depth
+  instead of 10 (speeds up the calculation somewhat).
+* Changed the log step shielding depth vector in erosion.m, glacialE.m, and burial.m from
+  [0 logspace(0,5.3,100)] to [(0:3:27) logspace(1.48,5.3,70)] to speed up the calculations slightly.
+* Changed the plotting in burial.m to plot internal and/or external (including production rate
+  uncertainties) normalized cosmogenic nuclide concentrations. The normalized concentration
+  uncertainties can be plotted either as lines or as semi-transparent areas.
+* Major changes of glacialE.m - see glacialE-INFO.txt for more information.
+
+====================================================================================================
+
 expage-201902 calculator
 * Updated reference production rates (prodrate-201902) and recalibrated muon parameters (sigma0 and
   fstar - very similar to previous values).

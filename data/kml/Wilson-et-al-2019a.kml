@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wilson et al. (2019a)</name>
+<description>
+<![CDATA[
+Data from expage-201912<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>ROS-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17906 &#177; 1151<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.8430,55.2269</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ROS-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20422 &#177; 1465<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.8406,55.2252</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ROS-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18137 &#177; 1150<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-7.84055,55.22412</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22072 &#177; 1487<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-7.37255,55.38112</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19631 &#177; 1263<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-7.37716,55.38156</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MH-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24359 &#177; 2158<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-7.37458,55.38033</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16530 &#177; 1175<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.10675,55.01505</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15574 &#177; 1122<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.10653,55.01495</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12512 &#177; 930<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.10572,55.01498</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GCS-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15533 &#177; 1098<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.7610,54.7079</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GCS-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16547 &#177; 1159<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.7589,54.7076</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GCS-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15755 &#177; 1105<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.7589,54.7076</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12692 &#177; 981<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.1132,54.7228</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14936 &#177; 1045<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.1140,54.7225</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14488 &#177; 1022<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.1165,54.7231</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14058 &#177; 891<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wilson-et-al-2019a.txt">Wilson et al. (2019a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-8.1150,54.7225</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,17 +1,14 @@
 function mflux = Muons(h,Rc,s)
 
-% Sato et al. (2008) Neutron Spectrum
-% Analytical Function Approximation (PARMA)
-% Implemented in MATLAB by Nat Lifton, 2013
-% Purdue University, nlifton@purdue.edu
+% Sato et al. (2008) Neutron Spectrum Analytical Function Approximation (PARMA)
+% Implemented in MATLAB by Nat Lifton, 2013, Purdue University, nlifton@purdue.edu
+% Modified by Jakob Heyman (jakob.heyman@gu.se) 2019
 
 % Copyright 2013, Purdue University
-% All rights reserved
 % Developed in part with funding from the National Science Foundation.
 %
-% This program is free software; you can redistribute it and/or modify
-% it under the terms of the GNU General Public License, version 3,
-% as published by the Free Software Foundation (www.fsf.org).
+% This program is free software; you can redistribute it and/or modify it under the terms of the GNU
+% General Public License, version 3, as published by the Free Software Foundation (www.fsf.org).
 
 x = h.*1.019716; % Convert pressure (hPa) to atm depth (g/cm2)
 
@@ -25,7 +22,6 @@ c = 3.0e8; % speed of light, in m/s
 p = sqrt((E.^2 + 2.*E.*Emu)); % in MeV/c
 
 % Flatten low rigidities
-
 lowRc = find(Rc < 1.0);
 Rc(lowRc) = 1.0 + zeros(size(lowRc));
 
@@ -36,7 +32,6 @@ Phimu = zeros(length(Rc),length(E));
 
 
 % Negative muon coefficients
-
 u1n = 5.8214e9;
 u2n = 3.6228e-3;
 u3n = 1.0240;
@@ -382,117 +377,119 @@ h63p = 7.4700e-4;
 h64p = 3.7200;
 h65p = 1.9700;
 
+%Negative Muons
+v11nmin = w111nmin + w112nmin.*Rc + w113nmin./(1 + exp((Rc - w114nmin)./w115nmin));
+v11nmax = w111nmax + w112nmax.*Rc + w113nmax./(1 + exp((Rc - w114nmax)./w115nmax));
+v12nmin = w121nmin + w122nmin.*Rc + w123nmin./(1 + exp((Rc - w124nmin)./w125nmin));
+v12nmax = w121nmax + w122nmax.*Rc + w123nmax./(1 + exp((Rc - w124nmax)./w125nmax));
+v13nmin = w131nmin + w132nmin.*Rc + w133nmin./(1 + exp((Rc - w134nmin)./w135nmin));
+v13nmax = w131nmax + w132nmax.*Rc + w133nmax./(1 + exp((Rc - w134nmax)./w135nmax));
+v14nmin = w141nmin + w142nmin.*Rc + w143nmin./(1 + exp((Rc - w144nmin)./w145nmin));
+v14nmax = w141nmax + w142nmax.*Rc + w143nmax./(1 + exp((Rc - w144nmax)./w145nmax));
+v15nmin = w151nmin + w152nmin.*Rc + w153nmin./(1 + exp((Rc - w154nmin)./w155nmin));
+v15nmax = w151nmax + w152nmax.*Rc + w153nmax./(1 + exp((Rc - w154nmax)./w155nmax));
+v21nmin = w211nmin + w212nmin.*Rc + w213nmin./(1 + exp((Rc - w214nmin)./w215nmin));
+v21nmax = w211nmax + w212nmax.*Rc + w213nmax./(1 + exp((Rc - w214nmax)./w215nmax));
+v22nmin = w221nmin + w222nmin.*Rc + w223nmin./(1 + exp((Rc - w224nmin)./w225nmin));
+v22nmax = w221nmax + w222nmax.*Rc + w223nmax./(1 + exp((Rc - w224nmax)./w225nmax));
+v23nmin = w231nmin + w232nmin.*Rc + w233nmin./(1 + exp((Rc - w234nmin)./w235nmin));
+v23nmax = w231nmax + w232nmax.*Rc + w233nmax./(1 + exp((Rc - w234nmax)./w235nmax));
+v24nmin = w241nmin + w242nmin.*Rc + w243nmin./(1 + exp((Rc - w244nmin)./w245nmin));
+v24nmax = w241nmax + w242nmax.*Rc + w243nmax./(1 + exp((Rc - w244nmax)./w245nmax));
+v25nmin = w251nmin + w252nmin.*Rc + w253nmin./(1 + exp((Rc - w254nmin)./w255nmin));
+v25nmax = w251nmax + w252nmax.*Rc + w253nmax./(1 + exp((Rc - w254nmax)./w255nmax));
+v31nmin = w311nmin + w312nmin.*Rc + w313nmin./(1 + exp((Rc - w314nmin)./w315nmin));
+v31nmax = w311nmax + w312nmax.*Rc + w313nmax./(1 + exp((Rc - w314nmax)./w315nmax));
+v32nmin = w321nmin + w322nmin.*Rc + w323nmin./(1 + exp((Rc - w324nmin)./w325nmin));
+v32nmax = w321nmax + w322nmax.*Rc + w323nmax./(1 + exp((Rc - w324nmax)./w325nmax));
+v33nmin = w331nmin + w332nmin.*Rc + w333nmin./(1 + exp((Rc - w334nmin)./w335nmin));
+v33nmax = w331nmax + w332nmax.*Rc + w333nmax./(1 + exp((Rc - w334nmax)./w335nmax));
+v34nmin = w341nmin + w342nmin.*Rc + w343nmin./(1 + exp((Rc - w344nmin)./w345nmin));
+v34nmax = w341nmax + w342nmax.*Rc + w343nmax./(1 + exp((Rc - w344nmax)./w345nmax));
+v35nmin = w351nmin + w352nmin.*Rc + w353nmin./(1 + exp((Rc - w354nmin)./w355nmin));
+v35nmax = w351nmax + w352nmax.*Rc + w353nmax./(1 + exp((Rc - w354nmax)./w355nmax));
+
+t1nmin = v11nmin + v12nmin.*x + v13nmin.*x.^2 + v14nmin.*x.^3 + v15nmin.*x.^4;
+t1nmax = v11nmax + v12nmax.*x + v13nmax.*x.^2 + v14nmax.*x.^3 + v15nmax.*x.^4;
+t2nmin = v21nmin + v22nmin.*x + v23nmin.*x.^2 + v24nmin.*x.^3 + v25nmin.*x.^4;
+t2nmax = v21nmax + v22nmax.*x + v23nmax.*x.^2 + v24nmax.*x.^3 + v25nmax.*x.^4;
+t3nmin = v31nmin + v32nmin.*x + v33nmin.*x.^2 + v34nmin.*x.^3 + v35nmin.*x.^4;
+t3nmax = v31nmax + v32nmax.*x + v33nmax.*x.^2 + v34nmax.*x.^3 + v35nmax.*x.^4;
+
+g5n = h51n + h52n.*Rc + h53n./(1 + exp((Rc - h54n)./h55n));
+g6n = h61n + h62n.*Rc + h63n./(1 + exp((Rc - h64n)./h65n));
+
+f3n = g5n + g6n.*x;
+
+%Positive Muons
+v11pmin = w111pmin + w112pmin.*Rc + w113pmin./(1 + exp((Rc - w114pmin)./w115pmin));
+v11pmax = w111pmax + w112pmax.*Rc + w113pmax./(1 + exp((Rc - w114pmax)./w115pmax));
+v12pmin = w121pmin + w122pmin.*Rc + w123pmin./(1 + exp((Rc - w124pmin)./w125pmin));
+v12pmax = w121pmax + w122pmax.*Rc + w123pmax./(1 + exp((Rc - w124pmax)./w125pmax));
+v13pmin = w131pmin + w132pmin.*Rc + w133pmin./(1 + exp((Rc - w134pmin)./w135pmin));
+v13pmax = w131pmax + w132pmax.*Rc + w133pmax./(1 + exp((Rc - w134pmax)./w135pmax));
+v14pmin = w141pmin + w142pmin.*Rc + w143pmin./(1 + exp((Rc - w144pmin)./w145pmin));
+v14pmax = w141pmax + w142pmax.*Rc + w143pmax./(1 + exp((Rc - w144pmax)./w145pmax));
+v15pmin = w151pmin + w152pmin.*Rc + w153pmin./(1 + exp((Rc - w154pmin)./w155pmin));
+v15pmax = w151pmax + w152pmax.*Rc + w153pmax./(1 + exp((Rc - w154pmax)./w155pmax));
+v21pmin = w211pmin + w212pmin.*Rc + w213pmin./(1 + exp((Rc - w214pmin)./w215pmin));
+v21pmax = w211pmax + w212pmax.*Rc + w213pmax./(1 + exp((Rc - w214pmax)./w215pmax));
+v22pmin = w221pmin + w222pmin.*Rc + w223pmin./(1 + exp((Rc - w224pmin)./w225pmin));
+v22pmax = w221pmax + w222pmax.*Rc + w223pmax./(1 + exp((Rc - w224pmax)./w225pmax));
+v23pmin = w231pmin + w232pmin.*Rc + w233pmin./(1 + exp((Rc - w234pmin)./w235pmin));
+v23pmax = w231pmax + w232pmax.*Rc + w233pmax./(1 + exp((Rc - w234pmax)./w235pmax));
+v24pmin = w241pmin + w242pmin.*Rc + w243pmin./(1 + exp((Rc - w244pmin)./w245pmin));
+v24pmax = w241pmax + w242pmax.*Rc + w243pmax./(1 + exp((Rc - w244pmax)./w245pmax));
+v25pmin = w251pmin + w252pmin.*Rc + w253pmin./(1 + exp((Rc - w254pmin)./w255pmin));
+v25pmax = w251pmax + w252pmax.*Rc + w253pmax./(1 + exp((Rc - w254pmax)./w255pmax));
+v31pmin = w311pmin + w312pmin.*Rc + w313pmin./(1 + exp((Rc - w314pmin)./w315pmin));
+v31pmax = w311pmax + w312pmax.*Rc + w313pmax./(1 + exp((Rc - w314pmax)./w315pmax));
+v32pmin = w321pmin + w322pmin.*Rc + w323pmin./(1 + exp((Rc - w324pmin)./w325pmin));
+v32pmax = w321pmax + w322pmax.*Rc + w323pmax./(1 + exp((Rc - w324pmax)./w325pmax));
+v33pmin = w331pmin + w332pmin.*Rc + w333pmin./(1 + exp((Rc - w334pmin)./w335pmin));
+v33pmax = w331pmax + w332pmax.*Rc + w333pmax./(1 + exp((Rc - w334pmax)./w335pmax));
+v34pmin = w341pmin + w342pmin.*Rc + w343pmin./(1 + exp((Rc - w344pmin)./w345pmin));
+v34pmax = w341pmax + w342pmax.*Rc + w343pmax./(1 + exp((Rc - w344pmax)./w345pmax));
+v35pmin = w351pmin + w352pmin.*Rc + w353pmin./(1 + exp((Rc - w354pmin)./w355pmin));
+v35pmax = w351pmax + w352pmax.*Rc + w353pmax./(1 + exp((Rc - w354pmax)./w355pmax));
+
+t1pmin = v11pmin + v12pmin.*x + v13pmin.*x.^2 + v14pmin.*x.^3 + v15pmin.*x.^4;
+t1pmax = v11pmax + v12pmax.*x + v13pmax.*x.^2 + v14pmax.*x.^3 + v15pmax.*x.^4;
+t2pmin = v21pmin + v22pmin.*x + v23pmin.*x.^2 + v24pmin.*x.^3 + v25pmin.*x.^4;
+t2pmax = v21pmax + v22pmax.*x + v23pmax.*x.^2 + v24pmax.*x.^3 + v25pmax.*x.^4;
+t3pmin = v31pmin + v32pmin.*x + v33pmin.*x.^2 + v34pmin.*x.^3 + v35pmin.*x.^4;
+t3pmax = v31pmax + v32pmax.*x + v33pmax.*x.^2 + v34pmax.*x.^3 + v35pmax.*x.^4;
+
+g5p = h51p + h52p.*Rc + h53p./(1 + exp((Rc - h54p)./h55p));
+g6p = h61p + h62p.*Rc + h63p./(1 + exp((Rc - h64p)./h65p));
+
+f3p = g5p + g6p.*x;
+
 for a = 1:length(Rc)
     %Negative Muons
-    v11nmin = w111nmin + w112nmin.*Rc(a) + w113nmin./(1 + exp((Rc(a) - w114nmin)./w115nmin));
-    v11nmax = w111nmax + w112nmax.*Rc(a) + w113nmax./(1 + exp((Rc(a) - w114nmax)./w115nmax));
-    v12nmin = w121nmin + w122nmin.*Rc(a) + w123nmin./(1 + exp((Rc(a) - w124nmin)./w125nmin));
-    v12nmax = w121nmax + w122nmax.*Rc(a) + w123nmax./(1 + exp((Rc(a) - w124nmax)./w125nmax));
-    v13nmin = w131nmin + w132nmin.*Rc(a) + w133nmin./(1 + exp((Rc(a) - w134nmin)./w135nmin));
-    v13nmax = w131nmax + w132nmax.*Rc(a) + w133nmax./(1 + exp((Rc(a) - w134nmax)./w135nmax));
-    v14nmin = w141nmin + w142nmin.*Rc(a) + w143nmin./(1 + exp((Rc(a) - w144nmin)./w145nmin));
-    v14nmax = w141nmax + w142nmax.*Rc(a) + w143nmax./(1 + exp((Rc(a) - w144nmax)./w145nmax));
-    v15nmin = w151nmin + w152nmin.*Rc(a) + w153nmin./(1 + exp((Rc(a) - w154nmin)./w155nmin));
-    v15nmax = w151nmax + w152nmax.*Rc(a) + w153nmax./(1 + exp((Rc(a) - w154nmax)./w155nmax));
-    v21nmin = w211nmin + w212nmin.*Rc(a) + w213nmin./(1 + exp((Rc(a) - w214nmin)./w215nmin));
-    v21nmax = w211nmax + w212nmax.*Rc(a) + w213nmax./(1 + exp((Rc(a) - w214nmax)./w215nmax));
-    v22nmin = w221nmin + w222nmin.*Rc(a) + w223nmin./(1 + exp((Rc(a) - w224nmin)./w225nmin));
-    v22nmax = w221nmax + w222nmax.*Rc(a) + w223nmax./(1 + exp((Rc(a) - w224nmax)./w225nmax));
-    v23nmin = w231nmin + w232nmin.*Rc(a) + w233nmin./(1 + exp((Rc(a) - w234nmin)./w235nmin));
-    v23nmax = w231nmax + w232nmax.*Rc(a) + w233nmax./(1 + exp((Rc(a) - w234nmax)./w235nmax));
-    v24nmin = w241nmin + w242nmin.*Rc(a) + w243nmin./(1 + exp((Rc(a) - w244nmin)./w245nmin));
-    v24nmax = w241nmax + w242nmax.*Rc(a) + w243nmax./(1 + exp((Rc(a) - w244nmax)./w245nmax));
-    v25nmin = w251nmin + w252nmin.*Rc(a) + w253nmin./(1 + exp((Rc(a) - w254nmin)./w255nmin));
-    v25nmax = w251nmax + w252nmax.*Rc(a) + w253nmax./(1 + exp((Rc(a) - w254nmax)./w255nmax));
-    v31nmin = w311nmin + w312nmin.*Rc(a) + w313nmin./(1 + exp((Rc(a) - w314nmin)./w315nmin));
-    v31nmax = w311nmax + w312nmax.*Rc(a) + w313nmax./(1 + exp((Rc(a) - w314nmax)./w315nmax));
-    v32nmin = w321nmin + w322nmin.*Rc(a) + w323nmin./(1 + exp((Rc(a) - w324nmin)./w325nmin));
-    v32nmax = w321nmax + w322nmax.*Rc(a) + w323nmax./(1 + exp((Rc(a) - w324nmax)./w325nmax));
-    v33nmin = w331nmin + w332nmin.*Rc(a) + w333nmin./(1 + exp((Rc(a) - w334nmin)./w335nmin));
-    v33nmax = w331nmax + w332nmax.*Rc(a) + w333nmax./(1 + exp((Rc(a) - w334nmax)./w335nmax));
-    v34nmin = w341nmin + w342nmin.*Rc(a) + w343nmin./(1 + exp((Rc(a) - w344nmin)./w345nmin));
-    v34nmax = w341nmax + w342nmax.*Rc(a) + w343nmax./(1 + exp((Rc(a) - w344nmax)./w345nmax));
-    v35nmin = w351nmin + w352nmin.*Rc(a) + w353nmin./(1 + exp((Rc(a) - w354nmin)./w355nmin));
-    v35nmax = w351nmax + w352nmax.*Rc(a) + w353nmax./(1 + exp((Rc(a) - w354nmax)./w355nmax));
-
-    t1nmin = v11nmin + v12nmin.*x + v13nmin.*x.^2 + v14nmin.*x.^3 + v15nmin.*x.^4;
-    t1nmax = v11nmax + v12nmax.*x + v13nmax.*x.^2 + v14nmax.*x.^3 + v15nmax.*x.^4;
-    t2nmin = v21nmin + v22nmin.*x + v23nmin.*x.^2 + v24nmin.*x.^3 + v25nmin.*x.^4;
-    t2nmax = v21nmax + v22nmax.*x + v23nmax.*x.^2 + v24nmax.*x.^3 + v25nmax.*x.^4;
-    t3nmin = v31nmin + v32nmin.*x + v33nmin.*x.^2 + v34nmin.*x.^3 + v35nmin.*x.^4;
-    t3nmax = v31nmax + v32nmax.*x + v33nmax.*x.^2 + v34nmax.*x.^3 + v35nmax.*x.^4;
-
-    phimunmin = Phimn.*(E + (t1nmin + t2nmin.*log10(E))./(Beta.^t3nmin)).^-alpha3;
-    phimunmax = Phimn.*(E + (t1nmax + t2nmax.*log10(E))./(Beta.^t3nmax)).^-alpha3;
-
-    g5n = h51n + h52n.*Rc(a) + h53n./(1 + exp((Rc(a) - h54n)./h55n));
-    g6n = h61n + h62n.*Rc(a) + h63n./(1 + exp((Rc(a) - h64n)./h65n));
-
-    f3n = g5n + g6n.*x;
-    f2n = (phimunmin - phimunmax)./(smin.^f3n - smax.^f3n);
-    f1n = phimunmin - f2n.*smin.^f3n;
-
-    phimun = f1n + f2n.*s(a).^f3n;
+    phimunmin = Phimn.*(E + (t1nmin(a) + t2nmin(a).*log10(E))./(Beta.^t3nmin(a))).^-alpha3;
+    phimunmax = Phimn.*(E + (t1nmax(a) + t2nmax(a).*log10(E))./(Beta.^t3nmax(a))).^-alpha3;
+    
+    f2n = (phimunmin - phimunmax)./(smin.^f3n(a) - smax.^f3n(a));
+    f1n = phimunmin - f2n.*smin.^f3n(a);
+    
+    phimun = f1n + f2n.*s(a).^f3n(a);
     
     %Positive Muons
-    v11pmin = w111pmin + w112pmin.*Rc(a) + w113pmin./(1 + exp((Rc(a) - w114pmin)./w115pmin));
-    v11pmax = w111pmax + w112pmax.*Rc(a) + w113pmax./(1 + exp((Rc(a) - w114pmax)./w115pmax));
-    v12pmin = w121pmin + w122pmin.*Rc(a) + w123pmin./(1 + exp((Rc(a) - w124pmin)./w125pmin));
-    v12pmax = w121pmax + w122pmax.*Rc(a) + w123pmax./(1 + exp((Rc(a) - w124pmax)./w125pmax));
-    v13pmin = w131pmin + w132pmin.*Rc(a) + w133pmin./(1 + exp((Rc(a) - w134pmin)./w135pmin));
-    v13pmax = w131pmax + w132pmax.*Rc(a) + w133pmax./(1 + exp((Rc(a) - w134pmax)./w135pmax));
-    v14pmin = w141pmin + w142pmin.*Rc(a) + w143pmin./(1 + exp((Rc(a) - w144pmin)./w145pmin));
-    v14pmax = w141pmax + w142pmax.*Rc(a) + w143pmax./(1 + exp((Rc(a) - w144pmax)./w145pmax));
-    v15pmin = w151pmin + w152pmin.*Rc(a) + w153pmin./(1 + exp((Rc(a) - w154pmin)./w155pmin));
-    v15pmax = w151pmax + w152pmax.*Rc(a) + w153pmax./(1 + exp((Rc(a) - w154pmax)./w155pmax));
-    v21pmin = w211pmin + w212pmin.*Rc(a) + w213pmin./(1 + exp((Rc(a) - w214pmin)./w215pmin));
-    v21pmax = w211pmax + w212pmax.*Rc(a) + w213pmax./(1 + exp((Rc(a) - w214pmax)./w215pmax));
-    v22pmin = w221pmin + w222pmin.*Rc(a) + w223pmin./(1 + exp((Rc(a) - w224pmin)./w225pmin));
-    v22pmax = w221pmax + w222pmax.*Rc(a) + w223pmax./(1 + exp((Rc(a) - w224pmax)./w225pmax));
-    v23pmin = w231pmin + w232pmin.*Rc(a) + w233pmin./(1 + exp((Rc(a) - w234pmin)./w235pmin));
-    v23pmax = w231pmax + w232pmax.*Rc(a) + w233pmax./(1 + exp((Rc(a) - w234pmax)./w235pmax));
-    v24pmin = w241pmin + w242pmin.*Rc(a) + w243pmin./(1 + exp((Rc(a) - w244pmin)./w245pmin));
-    v24pmax = w241pmax + w242pmax.*Rc(a) + w243pmax./(1 + exp((Rc(a) - w244pmax)./w245pmax));
-    v25pmin = w251pmin + w252pmin.*Rc(a) + w253pmin./(1 + exp((Rc(a) - w254pmin)./w255pmin));
-    v25pmax = w251pmax + w252pmax.*Rc(a) + w253pmax./(1 + exp((Rc(a) - w254pmax)./w255pmax));
-    v31pmin = w311pmin + w312pmin.*Rc(a) + w313pmin./(1 + exp((Rc(a) - w314pmin)./w315pmin));
-    v31pmax = w311pmax + w312pmax.*Rc(a) + w313pmax./(1 + exp((Rc(a) - w314pmax)./w315pmax));
-    v32pmin = w321pmin + w322pmin.*Rc(a) + w323pmin./(1 + exp((Rc(a) - w324pmin)./w325pmin));
-    v32pmax = w321pmax + w322pmax.*Rc(a) + w323pmax./(1 + exp((Rc(a) - w324pmax)./w325pmax));
-    v33pmin = w331pmin + w332pmin.*Rc(a) + w333pmin./(1 + exp((Rc(a) - w334pmin)./w335pmin));
-    v33pmax = w331pmax + w332pmax.*Rc(a) + w333pmax./(1 + exp((Rc(a) - w334pmax)./w335pmax));
-    v34pmin = w341pmin + w342pmin.*Rc(a) + w343pmin./(1 + exp((Rc(a) - w344pmin)./w345pmin));
-    v34pmax = w341pmax + w342pmax.*Rc(a) + w343pmax./(1 + exp((Rc(a) - w344pmax)./w345pmax));
-    v35pmin = w351pmin + w352pmin.*Rc(a) + w353pmin./(1 + exp((Rc(a) - w354pmin)./w355pmin));
-    v35pmax = w351pmax + w352pmax.*Rc(a) + w353pmax./(1 + exp((Rc(a) - w354pmax)./w355pmax));
-
-    t1pmin = v11pmin + v12pmin.*x + v13pmin.*x.^2 + v14pmin.*x.^3 + v15pmin.*x.^4;
-    t1pmax = v11pmax + v12pmax.*x + v13pmax.*x.^2 + v14pmax.*x.^3 + v15pmax.*x.^4;
-    t2pmin = v21pmin + v22pmin.*x + v23pmin.*x.^2 + v24pmin.*x.^3 + v25pmin.*x.^4;
-    t2pmax = v21pmax + v22pmax.*x + v23pmax.*x.^2 + v24pmax.*x.^3 + v25pmax.*x.^4;
-    t3pmin = v31pmin + v32pmin.*x + v33pmin.*x.^2 + v34pmin.*x.^3 + v35pmin.*x.^4;
-    t3pmax = v31pmax + v32pmax.*x + v33pmax.*x.^2 + v34pmax.*x.^3 + v35pmax.*x.^4;
-
-    phimupmin = Phimp.*(E + (t1pmin + t2pmin.*log10(E))./(Beta.^t3pmin)).^-alpha3;
-    phimupmax = Phimp.*(E + (t1pmax + t2pmax.*log10(E))./(Beta.^t3pmax)).^-alpha3;
-
-    g5p = h51p + h52p.*Rc(a) + h53p./(1 + exp((Rc(a) - h54p)./h55p));
-    g6p = h61p + h62p.*Rc(a) + h63p./(1 + exp((Rc(a) - h64p)./h65p));
-
-    f3p = g5p + g6p.*x;
-    f2p = (phimupmin - phimupmax)./(smin.^f3p - smax.^f3p);
-    f1p = phimupmin - f2p.*smin.^f3p;
-
-    phimup = f1p + f2p.*s(a).^f3p;
-
+    phimupmin = Phimp.*(E + (t1pmin(a) + t2pmin(a).*log10(E))./(Beta.^t3pmin(a))).^-alpha3;
+    phimupmax = Phimp.*(E + (t1pmax(a) + t2pmax(a).*log10(E))./(Beta.^t3pmax(a))).^-alpha3;
+    
+    f2p = (phimupmin - phimupmax)./(smin.^f3p(a) - smax.^f3p(a));
+    f1p = phimupmin - f2p.*smin.^f3p(a);
+    
+    phimup = f1p + f2p.*s(a).^f3p(a);
+    
     % Total Ground-Level Flux
-
     Phimu(a,:) = phimun + phimup;
-
+    
     clipindex = 1;
     
     % Total integral flux 
-
     mflux.total(a) = trapz(E(clipindex:end),Phimu(a,clipindex:end));
     % Differential fluxes for negative and positive muons
     mflux.neg(a,:) = phimun;
@@ -503,4 +500,3 @@ for a = 1:length(Rc)
     mflux.E = E;
     mflux.p = p;
 end
-

@@ -20,7 +20,7 @@ rigiditycutoff = rigiditycutoff .* (rigiditycutoff > 0);
 %
 % Convert pressure (hPa) to atmospheric depth (g/cm^2).
 %
-atmdepth=pressure*1.019716;
+atmdepth=pressure.*1.019716;
 %
 % Sato Table.
 %
@@ -35,7 +35,8 @@ cutoffs=[0; 4; 8; 12; 16; 20];
 %
 % interpolate from the table.
 %
-l=interp2(depths,cutoffs,T,atmdepth,rigiditycutoff)';
+l=interp2(depths,cutoffs,T,atmdepth,rigiditycutoff);
+l = l(:)';
 %
 % Check for NaN.
 %

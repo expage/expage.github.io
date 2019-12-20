@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Lehmann et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201912<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>MBAM1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12862 &#177; 912<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lehmann-et-al-in-press.txt">Lehmann et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.9527,45.9094</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MBAM2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12496 &#177; 875<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lehmann-et-al-in-press.txt">Lehmann et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.9521,45.9087</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MBAM3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12897 &#177; 918<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lehmann-et-al-in-press.txt">Lehmann et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.9507,45.9082</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MBTP2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15636 &#177; 1092<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lehmann-et-al-in-press.txt">Lehmann et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.9319,45.9086</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MBTP5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20834 &#177; 1482<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lehmann-et-al-in-press.txt">Lehmann et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.9324,45.9112</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MBTP9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11259 &#177; 849<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lehmann-et-al-in-press.txt">Lehmann et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.9330,45.9124</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MBTP11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14940 &#177; 1018<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lehmann-et-al-in-press.txt">Lehmann et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>6.9315,45.9108</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

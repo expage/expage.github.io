@@ -22,7 +22,7 @@ mucal = mucalib_data(site);
 atm = ERA40atm(mucal.lat,mucal.lon,mucal.elv);
 
 % Fix RcEst for muon calculation
-LSDfix = LSD_fix(mucal.lat,mucal.lon,1E7,-1,consts);
+LSDfix = LSD_fix(mucal.lat,mucal.lon,1E7,-1,mucal.samplingyr,consts);
 
 % muon production (without sigma0 and fstar!)
 fprintf(1,'calculating muon P (up to %.0f)\n',mucal.dz(end));

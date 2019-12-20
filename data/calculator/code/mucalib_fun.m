@@ -4,7 +4,7 @@ function r=mucalib_fun(p,mucal)
 % erosion rate, and the muon production parameters for 10-Be and 26-Al.  
 %
 % Based on corefun1026.m from CRONUScalc: https://bitbucket.org/cronusearth/cronus-calc
-% Jakob Heyman - 2016-2018 (jakob.heyman@gu.se)
+% Jakob Heyman - 2016-2019 (jakob.heyman@gu.se)
 %
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 2, as published by the Free Software Foundation (www.fsf.org).
@@ -53,6 +53,6 @@ N10v = trapz(mucal.tv',Pfull10lm); % calculated N10
 N26v = trapz(mucal.tv',Pfull26lm); % calculated N26
 
 % calculate residuals
-r10 = (N10v-mucal.N10')./mucal.delN10';
-r26 = (N26v-mucal.N26')./mucal.delN26';
+r10 = (N10v-mucal.N10')./mucal.N10unc';
+r26 = (N26v-mucal.N26')./mucal.N26unc';
 r = [r10 r26]';

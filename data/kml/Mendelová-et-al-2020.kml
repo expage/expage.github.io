@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Mendelová et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-201912<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>LB1614</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24808 &#177; 1555<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.9233,-47.9046</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1615</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22409 &#177; 1387<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.9266,-47.8972</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1616</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24667 &#177; 1504<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.9264,-47.8983</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1617</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23699 &#177; 1451<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.9315,-47.9173</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1618</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17985 &#177; 1152<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.9332,-47.9180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1619</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25430 &#177; 1596<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.9343,-47.9196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1612</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22341 &#177; 1539<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.9871,-47.8203</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1632</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17838 &#177; 1157<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.9790,-47.8197</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1630</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16522 &#177; 1144<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.9823,-47.8870</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1620</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24958 &#177; 1542<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.9251,-47.9222</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1621</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25543 &#177; 1699<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.9251,-47.9222</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1622</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23641 &#177; 1500<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.9251,-47.9222</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1623</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35749 &#177; 2265<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.9251,-47.9222</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1624</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23219 &#177; 1537<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.9251,-47.9223</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1637</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 71845 &#177; 4428<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.7192,-48.0646</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1638</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 84072 &#177; 5086<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.7192,-48.0646</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1639</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 65428 &#177; 4025<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.7192,-48.0646</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1640</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 77904 &#177; 4808<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.7192,-48.0646</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1641</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 73882 &#177; 4554<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.7192,-48.0646</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LB1642</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 70368 &#177; 4338<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mendelová-et-al-2020.txt">Mendelová et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.7162,-48.0629</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

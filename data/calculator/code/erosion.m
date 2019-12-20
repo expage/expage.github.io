@@ -8,45 +8,54 @@ function erosion();
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 2, as published by the Free Software Foundation (www.fsf.org).
 %
-% Jakob Heyman - 2015-2018 (jakob.heyman@gu.se)
+% Jakob Heyman - 2015-2019 (jakob.heyman@gu.se)
 
 tic();
 
 % What version is this?
-ver = '201902';
+ver = '201912';
 
-% count number of input columns in line 1 of input
-inid = fopen('input.txt','r');
-line1 = fgets(inid);
-line1 = regexprep(line1,' +',' ');
-numcols = numel(strfind(line1,' ')) + numel(strfind(line1,sprintf('\t',''))) + 1;
-fclose(inid);
-
+% fix input ========================================================================================
+% variable names for input with variable names in first line
+varnames = {'sample','Pflag','std10','std26','lat','long','elv','thick','dens','shield','N10',...
+    'N10unc','N26','N26unc','samplingyr','pressure'};
+vartypes = {'%s','%s','%s','%s','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n'};
 % read input file
-if numcols == 15; % if no erosion rate in input
-    [samplein.sample_name,samplein.lat,samplein.long,samplein.elv,samplein.aa,samplein.thick,...
-        samplein.rho,samplein.othercorr,samplein.N10,samplein.delN10,samplein.be_stds,...
-        samplein.N26,samplein.delN26,samplein.al_stds,samplein.samplingyr] = ...
-        textread('input.txt','%s %n %n %n %s %n %n %n %n %n %s %n %n %s %n','commentstyle',...
-        'matlab');
-else; % has to be 16 columns!
-    [samplein.sample_name,samplein.lat,samplein.long,samplein.elv,samplein.aa,samplein.thick,...
-        samplein.rho,samplein.othercorr,samplein.E,samplein.N10,samplein.delN10,samplein.be_stds,...
-        samplein.N26,samplein.delN26,samplein.al_stds,samplein.samplingyr] = ...
-        textread('input.txt','%s %n %n %n %s %n %n %n %n %n %n %s %n %n %s %n','commentstyle',...
-        'matlab');
+fid = fopen('input.txt');
+varsin = strsplit(fgetl(fid)); % read first line
+if(ismember(varsin,varnames)); % if first line contain only variable names
+    [testi,vari] = ismember(varsin,varnames); % find index of varnames
+    typestr = vartypes{vari(1)}; % fix type string
+    for i = 2:numel(vari); % fix type string
+        typestr = [typestr ' ' vartypes{vari(i)}];
+    end;
+elseif numel(varsin) == 15; % if no variable names in first line
+    frewind(fid); % read from first line
+    varsin = {'sample','lat','long','elv','Pflag','thick','dens','shield','N10','N10unc','std10',...
+        'N26','N26unc','std26','samplingyr'};
+    typestr = '%s %n %n %n %s %n %n %n %n %n %s %n %n %s %n';
+else;
+    fprintf(1,'ERROR! Something is wrong with the input\n');
+    return;
 end;
+indata = textscan(fid,typestr,'CommentStyle','%'); % scan data
+for i = 1:numel(varsin); % fix variables
+    samplein.(varsin{i}) = indata{i};
+end;
+fclose(fid);
+% ==================================================================================================
 
 % run and load expage constants
 make_consts_expage;
 load consts_expage;
 
-% constants
-Pref10 = consts.P10_ref_nu; delPref10 = consts.delP10_ref_nu;
-Pref26 = consts.P26_ref_nu; delPref26 = consts.delP26_ref_nu;
-% Decay constant
-l10 = consts.l10; dell10 = consts.dell10;
-l26 = consts.l26; dell26 = consts.dell26;
+% Prefs
+Pref10 = consts.Pref10; Pref10unc = consts.Pref10unc;
+Pref26 = consts.Pref26; Pref26unc = consts.Pref26unc;
+% decay constant
+l10 = consts.l10; l10unc = consts.l10unc;
+l26 = consts.l26; l26unc = consts.l26unc;
+
 % muon parameters 10
 sigma010 = consts.sigma0_10nu; delsigma010 = consts.delsigma0_10nu;
 k_negpartial10 = consts.k_negpartial10; delk_negpartial10 = consts.delk_negpartial10;
@@ -56,30 +65,40 @@ sigma026 = consts.sigma0_26nu; delsigma026 = consts.delsigma0_26nu;
 k_negpartial26 = consts.k_negpartial26; delk_negpartial26 = consts.delk_negpartial26;
 fstar26 = consts.fstar26nu; delfstar26 = consts.delfstar26nu;
 
+% if there is no N10 or N26 in input: fill with 0
+if isfield(samplein,'N10') == 0; samplein.N10(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'N10unc') == 0; samplein.N10unc(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'std10') == 0; samplein.std10(1:numel(samplein.sample),1) = {'0'}; end;
+if isfield(samplein,'N26') == 0; samplein.N26(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'N26unc') == 0; samplein.N26unc(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'std26') == 0; samplein.std26(1:numel(samplein.sample),1) = {'0'}; end;
+
 % convert 10Be concentrations according to standards
-for i = 1:numel(samplein.N10);
-    be_mult(i,1) = consts.be_stds_cfs(strcmp(samplein.be_stds(i),consts.be_stds_names));
-end;
-samplein.N10 = samplein.N10 .* be_mult;
-samplein.delN10 = samplein.delN10 .* be_mult;
+[testi,stdi] = ismember(samplein.std10,consts.std10); % find index of standard conversion factors
+mult10 = consts.std10_cf(stdi); % pick out conversion factor
+samplein.N10 = samplein.N10 .* mult10;
+samplein.N10unc = samplein.N10unc .* mult10;
 
 % convert 26Al concentrations according to standards
-for i = 1:numel(samplein.N26);
-    al_mult(i,1) = consts.al_stds_cfs(strcmp(samplein.al_stds(i),consts.al_stds_names));
-end;
-samplein.N26 = samplein.N26 .* al_mult;
-samplein.delN26 = samplein.delN26 .* al_mult;
+[testi,stdi] = ismember(samplein.std26,consts.std26); % find index of standard conversion factors
+mult26 = consts.std26_cf(stdi); % pick out conversion factor
+samplein.N26 = samplein.N26 .* mult26;
+samplein.N26unc = samplein.N26unc .* mult26;
 
 % fix longitude values
 samplein.long(find(samplein.long < 0)) = samplein.long(find(samplein.long < 0)) + 360;
 
 % fix sample pressure
-std_v = strcmp(samplein.aa,'std');
-ant_v = strcmp(samplein.aa,'ant');
-pre_v = strcmp(samplein.aa,'pre');
-samplein.pressure(std_v) = ERA40atm(samplein.lat(std_v),samplein.long(std_v),samplein.elv(std_v));
-samplein.pressure(ant_v) = antatm(samplein.elv(ant_v));
-samplein.pressure(pre_v) = samplein.elv(pre_v);
+if isfield(samplein,'pressure') == 0;
+    % if there is no pressure flag: use std
+    if isfield(samplein,'Pflag') == 0; samplein.Pflag(1:numel(samplein.sample),1) = {'std'}; end;
+    stdv = strcmp(samplein.Pflag,'std');
+    antv = strcmp(samplein.Pflag,'ant');
+    prev = strcmp(samplein.Pflag,'pre');
+    samplein.pressure(stdv) = ERA40atm(samplein.lat(stdv),samplein.long(stdv),samplein.elv(stdv));
+    samplein.pressure(antv) = antatm(samplein.elv(antv));
+    samplein.pressure(prev) = samplein.elv(prev);
+end;
 
 % fix for output
 output(1,1) = {'sample'};
@@ -97,25 +116,21 @@ end;
 
 % pick out samples one by one
 for i = 1:numel(samplein.lat);
-    sample.sample_name = samplein.sample_name(i);
+    sample.sample = samplein.sample(i);
     sample.lat = samplein.lat(i);
     sample.long = samplein.long(i);
-    sample.elv = samplein.elv(i);
-    sample.aa = samplein.aa(i);
     sample.thick = samplein.thick(i);
-    sample.rho = samplein.rho(i);
-    sample.othercorr = samplein.othercorr(i);
+    sample.dens = samplein.dens(i);
+    sample.shield = samplein.shield(i);
     sample.N10 = samplein.N10(i);
-    sample.delN10 = samplein.delN10(i);
-    sample.be_stds = samplein.be_stds(i);
+    sample.N10unc = samplein.N10unc(i);
     sample.N26 = samplein.N26(i);
-    sample.delN26 = samplein.delN26(i);
-    sample.al_stds = samplein.al_stds(i);
+    sample.N26unc = samplein.N26unc(i);
     sample.samplingyr = samplein.samplingyr(i);
     sample.pressure = samplein.pressure(i);
     
     % write sample name to output
-    output(i+1,1) = sample.sample_name;
+    output(i+1,1) = sample.sample;
     
     % check if there is any N10 or N26
     nucl10 = 0; nucl26 = 0;
@@ -127,77 +142,65 @@ for i = 1:numel(samplein.lat);
     end;
     
     % display sample name
-    fprintf(1,'%.0f. %s',i,sample.sample_name{1});
+    fprintf(1,'%.0f. %s',i,sample.sample{1});
 
-    % Fix w,Rc,SPhi, for sp and nu prod rate scaling 10 Ma back in time
-    LSDfix = LSD_fix(sample.lat,sample.long,1E7,-1,consts);
+    % Fix tv, Rc, SPhi, and w for sp and mu prod rate scaling 10 Ma back in time
+    LSDfix = LSD_fix(sample.lat,sample.long,1E7,-1,sample.samplingyr,consts);
     
     % Age Relative to t0=2010 - LSD tv from LSD_fix
     % tv = [0:10:50 60:100:50060 51060:1000:2000060 logspace(log10(2001060),7,200)];
     
-    % time vector tv1
-    tv1 = LSDfix.tv;
-
-    % adjust tv, Rc, and SPhi to sampling year
-    if sample.samplingyr <= 2010;
-        clipidx = min(find(tv1 > 2010-sample.samplingyr));
-        tv = [2010-sample.samplingyr tv1(clipidx:end)];
-        Rc = interp1(tv1,LSDfix.Rc,tv);
-        SPhi = interp1(tv1,LSDfix.SPhi,tv);
-        tv = tv - 2010 + sample.samplingyr;
-    else; % assume 2010 value for all years >2010
-        Rc = [LSDfix.Rc(1) LSDfix.Rc];
-        SPhi = [LSDfix.SPhi(1) LSDfix.SPhi];
-        tv = [0 (tv1 + sample.samplingyr - 2010)];
-    end;
-    sample.tv = tv;
+    % include tv in sample
+    sample.tv = LSDfix.tv;
     
     % interpolate Lsp (Sato 2008; Marrero et al. 2016)
-    sample.Lsp = rawattenuationlength(sample.pressure,Rc);
-    sample.LspAv = trapz(tv,sample.Lsp)./tv(end); % pick out average
+    sample.Lsp = rawattenuationlength(sample.pressure,LSDfix.Rc);
+    sample.LspAv = trapz(sample.tv,sample.Lsp)./sample.tv(end); % pick out average
 
     % thickness scaling factor.
     if sample.thick > 0;
-        sample.thickSF = (sample.Lsp./(sample.rho.*sample.thick)).*...
-            (1 - exp(((-1.*sample.rho.*sample.thick)./sample.Lsp)));
+        sample.thickSF = (sample.Lsp./(sample.dens.*sample.thick)).*...
+            (1 - exp(((-1.*sample.dens.*sample.thick)./sample.Lsp)));
     else;
         sample.thickSF = 1;
-        if numel(tv) > 1; sample.thickSF(1:numel(tv)) = 1; end;
+        if numel(sample.tv) > 1; sample.thickSF(1:numel(sample.tv)) = 1; end;
     end;
-
+    
     % spallation production scaling
-    Psp = LSDspal(sample.pressure,Rc,SPhi,LSDfix.w,nucl10,nucl26,consts);
-
+    Psp = P_sp_expage(sample.pressure,LSDfix.Rc,LSDfix.SPhi,LSDfix.w,consts,nucl10,nucl26);
+    
     % muon production
     P_mu_full = P_mu_expage(0,sample.pressure,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,...
         'yes');
     
     % Precompute P_mu(z) to ~200,000 g/cm2
-    % This log-spacing setup for the step size has relative accuracy near 
-    % 1e-3 at 1000 m/Myr erosion rate. 
+    % log-spacing setup for the step size with a relative accuracy near 1E-3 at 1000 m/Ma E-rate.
+    % z_mu from CRONUS calculator changed in the upper 30 g/cm2 to reduce steps from 101 to 80. 
     % start at the mid-depth of the sample.
-    sample.z_mu = [0 logspace(0,5.3,100)]+(sample.thick.*sample.rho./2);
+    sample.z_mu = [(0:3:27) logspace(1.48,5.3,70)]+(sample.thick.*sample.dens./2);
     P_mu_z = P_mu_expage(sample.z_mu,sample.pressure,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,...
         consts,'no');
     
     % if there is N10: do erosion rate calculation and report results
     if nucl10 == 1;
         % sample- and nuclide-specific parameters
-        Nspec.N = sample.N10; Nspec.delN = sample.delN10;
+        Nspec.N = sample.N10; Nspec.delN = sample.N10unc;
         Nspec.Psps = Psp.sp10;
         Nspec.P_fast = P_mu_full.P_fast10;
         Nspec.P_neg = P_mu_full.P_neg10;
-        Nspec.Pmu_z = P_mu_z.mu10 .* sample.othercorr;
+        Nspec.Pmu_z = P_mu_z.mu10 .* sample.shield;
         
         % nuclide-specific constants
-        Nspec.Pref = Pref10; Nspec.delPref = delPref10;
-        Nspec.l = l10; Nspec.dell = dell10;
+        Nspec.Pref = Pref10; Nspec.Prefunc = Pref10unc;
+        Nspec.l = l10; Nspec.lunc = l10unc;
         Nspec.sigma0 = sigma010; Nspec.delsigma0 = delsigma010;
         Nspec.k_negpartial = k_negpartial10; Nspec.delk_negpartial = delk_negpartial10;
         Nspec.fstar = fstar10; Nspec.delfstar = delfstar10;
         
         % get erosion and uncertainty
+        warning('off'); % turn off warnings
         results = get_1026_erosion(sample,Nspec);
+        warning('on');
         
         % fill output
         output(i+1,outn(1):outn(2)) = results.outstr;
@@ -212,21 +215,23 @@ for i = 1:numel(samplein.lat);
     % if there is N26: do erosion rate calculation and report results
     if nucl26 == 1;
         % sample- and nuclide-specific parameters
-        Nspec.N = sample.N26; Nspec.delN = sample.delN26;
+        Nspec.N = sample.N26; Nspec.delN = sample.N26unc;
         Nspec.Psps = Psp.sp26;
         Nspec.P_fast = P_mu_full.P_fast26;
         Nspec.P_neg = P_mu_full.P_neg26;
-        Nspec.Pmu_z = P_mu_z.mu26 .* sample.othercorr;
+        Nspec.Pmu_z = P_mu_z.mu26 .* sample.shield;
         
         % nuclide-specific constants
-        Nspec.Pref = Pref26; Nspec.delPref = delPref26;
-        Nspec.l = l26; Nspec.dell = dell26;
+        Nspec.Pref = Pref26; Nspec.Prefunc = Pref26unc;
+        Nspec.l = l26; Nspec.lunc = l26unc;
         Nspec.sigma0 = sigma026; Nspec.delsigma0 = delsigma026;
         Nspec.k_negpartial = k_negpartial26; Nspec.delk_negpartial = delk_negpartial26;
         Nspec.fstar = fstar26; Nspec.delfstar = delfstar26;
         
         % get erosion and uncertainty
+        warning('off'); % turn off warnings
         results = get_1026_erosion(sample,Nspec);
+        warning('on');
         
         % fill output
         output(i+1,outn(3):outn(4)) = results.outstr;
@@ -271,11 +276,11 @@ clear;
 
 % subfunction get_1026_erosion - calculates erosion and uncertainty ================================
 function results = get_1026_erosion(sample,Nspec);
-P_nu = Nspec.Psps.*Nspec.Pref.*sample.othercorr;
-P_mu = (Nspec.P_fast + Nspec.P_neg) .* sample.othercorr;
-P_fast = Nspec.P_fast .* sample.othercorr;
-P_neg = Nspec.P_neg .* sample.othercorr;
-P_mu_z = Nspec.Pmu_z .* sample.othercorr;
+P_nu = Nspec.Psps.*Nspec.Pref.*sample.shield;
+P_mu = (Nspec.P_fast + Nspec.P_neg) .* sample.shield;
+P_fast = Nspec.P_fast .* sample.shield;
+P_neg = Nspec.P_neg .* sample.shield;
+P_mu_z = Nspec.Pmu_z .* sample.shield;
 
 % initial guess
 % average P_nu
@@ -286,14 +291,14 @@ x0 = E_lal;
 
 % constants block for subfunction ET_objective
 c3.tv = sample.tv;
-c3.z_mu = sample.z_mu-(sample.thick.*sample.rho./2); % take 1/2 depth away so t will match P
+c3.z_mu = sample.z_mu-(sample.thick.*sample.dens./2); % take 1/2 depth away so t will match P
 c3.P_mu_z = P_mu_z;
 c3.l = Nspec.l;
 c3.tsf = sample.thickSF;
 c3.L = sample.Lsp;
 
 % test saturation and ask fzero for the erosion rates.
-P_mud = interp1(sample.z_mu,P_mu_z,sample.thick.*sample.rho./2,'pchip'); % P_mu at 1/2 sample d
+P_mud = interp1(sample.z_mu,P_mu_z,sample.thick.*sample.dens./2,'pchip'); % P_mu at 1/2 sample d
 % zero erosion N
 Ntest = trapz(sample.tv,(P_nu.*exp(-sample.tv.*Nspec.l) + P_mud.*exp(-sample.tv.*Nspec.l)));
 
@@ -318,7 +323,7 @@ L = sample.LspAv;
 
 % SF - varying variable assignments
 diag = diag_nu;
-rel_delP0 = Nspec.delPref./Nspec.Pref;
+rel_delP0 = Nspec.Prefunc./Nspec.Pref;
 
 % Conditional on having a low enough N+Ndel (saturation check)
 if Nspec.N+Nspec.delN <= Ntest;
@@ -332,15 +337,15 @@ if Nspec.N+Nspec.delN <= Ntest;
     % Find the derivatives with respect to the uncertain parameters.  
     % Here we're calculating centered derivatives using fzero and
     % the subfunction E_simple.
-    dEdN = (1e4./(sample.rho.*2.*Nspec.delN)) .* ...
+    dEdN = (1e4./(sample.dens.*2.*Nspec.delN)) .* ...
         ( (fzero(@(y) E_simple(y,Psp0,Pmu0,L,Lmu,Nspec.l,(Nspec.N+Nspec.delN)),x_nu)) - ...
         (fzero(@(y) E_simple(y,Psp0,Pmu0,L,Lmu,Nspec.l,(Nspec.N-Nspec.delN)),x_nu)) );
     
-    dEdPsp0 = (1e4./(sample.rho.*2.*delPsp0)) .* ...
+    dEdPsp0 = (1e4./(sample.dens.*2.*delPsp0)) .* ...
         ( (fzero(@(y) E_simple(y,(Psp0+delPsp0),Pmu0,L,Lmu,Nspec.l,Nspec.N),x_nu)) - ...
         (fzero(@(y) E_simple(y,(Psp0-delPsp0),Pmu0,L,Lmu,Nspec.l,Nspec.N),x_nu)) );
     
-    dEdPmu0 = (1e4./(sample.rho.*2.*delPmu0)) .* ...
+    dEdPmu0 = (1e4./(sample.dens.*2.*delPmu0)) .* ...
         ( (fzero(@(y) E_simple(y,Psp0,(Pmu0+delPmu0),L,Lmu,Nspec.l,Nspec.N),x_nu)) - ...
         (fzero(@(y) E_simple(y,Psp0,(Pmu0-delPmu0),L,Lmu,Nspec.l,Nspec.N),x_nu)) );
     
@@ -351,17 +356,17 @@ else;
     x_nu = 0;
     delEintN = Nspec.N-Nspec.delN;
     [delE_int,fval_nu,exitflag_nu,output] = fzero(@(x) ET_objective(x,c3,delEintN),x0,opts);
-    delEextN = Nspec.N-sqrt(Nspec.delN^2 + (Nspec.N.*Nspec.delPref./Nspec.Pref)^2);
+    delEextN = Nspec.N-sqrt(Nspec.delN^2 + (Nspec.N.*Nspec.Prefunc./Nspec.Pref)^2);
     [delE_ext,fval_nu,exitflag_nu,output] = fzero(@(x) ET_objective(x,c3,delEextN),x0,opts);
-    delE_int =  max(0,delE_int*1e4/sample.rho); % convert to m/Ma
-    delE_ext =  max(0,delE_ext*1e4/sample.rho); % convert to m/Ma
+    delE_int =  max(0,delE_int*1e4/sample.dens); % convert to m/Ma
+    delE_ext =  max(0,delE_ext*1e4/sample.dens); % convert to m/Ma
 end;
 % end of uncertainty block ==================================================================
 
 % report
 results.Pmu0 = Pmu0; % Surface production rate due to muons;
 results.Egcm2yr = [x_nu]; % erosion rate in gcm2/yr
-results.EmMyr = results.Egcm2yr * 1e4 / sample.rho;    % erosion rate in m/Ma
+results.EmMyr = results.Egcm2yr * 1e4 / sample.dens;    % erosion rate in m/Ma
 results.delE_int = [delE_int]; % internal error in m/Ma
 results.delE_ext = [delE_ext]; % external error in m/Ma
 % diagnostics

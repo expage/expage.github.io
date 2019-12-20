@@ -36,13 +36,13 @@
 		<div class="pnt1">&bull;</div>
 		<div class="pnt2">The <span class="sup">10</span>Be and <span class="sup">26</span>Al concentrations from single sample repeat measurements have been combined as uncertainty-weighted means. To account for interlaboratory measurement uncertainties (<a href="http://dx.doi.org/10.1016/j.quageo.2013.09.003">Jull et al. 2015</a>), the highest of the reported (or uncertainty-weighted) concentration uncertainty or 2.9% (<span class="sup">10</span>Be) and 4.9% (<span class="sup">26</span>Al) of the concentration is used for the calibration.</div>
 		<div class="pnt1">&bull;</div>
-		<div class="pnt2">For all calibration sites with at least three separate samples, a reference production rate is derived for the expage calculator using chi-square minimization. The calibration age uncertainty, which is not an independent variable for each sample of a calibration site, is added in quadrature to the site reference production rate.</div>
+		<div class="pnt2">For all calibration sites with at least three separate samples, an uncertainty-weighted site reference production rate is calculated for the expage calculator (prodrate.m). The calibration age uncertainty, which is not an independent variable for each sample of a calibration site, is added in quadrature to the initial site reference production rate.</div>
 		<div class="pnt1">&bull;</div>
-		<div class="pnt2">To avoid data affected by prior and/or incomplete exposure, well-clustered site production rates are combined into a global <span class="sup">10</span>Be and <span class="sup">26</span>Al reference production rate. For scattered site production rates, with chi-square statistics p-value < 0.1 for the hypothesis that all sample production rates are drawn from one normal distribution, a maximum of 1/3 of the samples are excluded as outliers (still requiring a minimum of three separate samples). The site production rates that cannot pass this clustering test after outlier rejection are not included in the global reference production rate.</div>
+		<div class="pnt2">To avoid data affected by prior and/or incomplete exposure, well-clustered site production rates are combined into a global <span class="sup">10</span>Be and <span class="sup">26</span>Al reference production rate. For scattered site production rates, with chi-square statistics p-value < 0.05 for the hypothesis that all sample production rates are drawn from one normal distribution, a maximum of 1/3 of the samples are excluded as outliers (still requiring a minimum of three separate samples). The site production rates that cannot pass this clustering test after outlier rejection are not included in the global reference production rate.</div>
 		<div class="pnt1">&bull;</div>
 		<div class="pnt2">The reference <span class="sup">10</span>Be production rate of calibration site 2 is significantly higher than all other site reference production rates with no overlap within 2σ. With both Peirce’s criterion and Chauvenet’s criterion this reference production rate is identified as an outlier, and it is therefore excluded from the global reference <span class="sup">10</span>Be production rate.</div>
 		<div class="pnt1">&bull;</div>
-		<div class="pnt2">For global average production rates, the arithmetic mean of the well-clustered site reference production rates are used. To estimate the production rate uncertainty the root-mean-square deviation of all single sample production rates included in the well-clustered sites is used. This yields the global reference <span class="sup">10</span>Be (3.97 ± 0.22 atoms g<span class="sup">–1</span> yr<span class="sup">–1</span>) and <span class="sup">26</span>Al (28.47 ± 1.87 atoms g<span class="sup">–1</span> yr<span class="sup">–1</span>) production rates.</div>
+		<div class="pnt2">For global average production rates, the arithmetic mean of the well-clustered site reference production rates are used. To estimate the production rate uncertainty the root-mean-square deviation of all single sample production rates included in the well-clustered sites is used. This yields the global reference <span class="sup">10</span>Be (3.98 ± 0.22 atoms g<span class="sup">–1</span> yr<span class="sup">–1</span>) and <span class="sup">26</span>Al (28.44 ± 1.90 atoms g<span class="sup">–1</span> yr<span class="sup">–1</span>) production rates.</div>
 	</div></p>
 	<br>
 	<hr width="100%">
@@ -65,6 +65,11 @@
 	To display special characters in the text files correctly, use UTF-8 (unicode) encoding.<br>
 	<br>
 	<div class="prodlist">
+    <div class="pro1"><a href="data/prodrate/P-201912-sites.txt">P-201912-sites</a></div>
+	<div class="pro2"><a href="data/prodrate/P-201912-calib.txt">P-201912-calib</a></div>
+	<div class="pro3"><a href="data/prodrate/P-201912-origin.txt">P-201912-origin</a></div>
+	<div class="pro4"><a href="data/prodrate/P-201912-comments.txt">P-201912-comments</a></div>
+	<div class="pro5"><a href="data/prodrate/P-201912-refs.txt">P-201912-refs</a></div>
     <div class="pro1"><a href="data/prodrate/P-201902-sites.txt">P-201902-sites</a></div>
 	<div class="pro2"><a href="data/prodrate/P-201902-calib.txt">P-201902-calib</a></div>
 	<div class="pro3"><a href="data/prodrate/P-201902-origin.txt">P-201902-origin</a></div>
@@ -110,7 +115,7 @@
 	<br>
 	<hr width="100%">
 	<br><br>
-	<center><img src="data/prodrate/prodrate.png" width="970" height="835"></center>
+	<center><img src="data/prodrate/prodrate.png" width="970" height="842"></center>
 	<br><br>
 	<hr width="100%">
 	<br><br>

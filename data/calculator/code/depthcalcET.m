@@ -13,60 +13,109 @@ close all;
 tic();
 
 % age and erosion ranges to test ===================================================================
-Tmin = 1; % yr
+Tmin = 200000; % yr (must be larger than 0!)
 Tmax = 500000; % yr
 Emin = 0; % mm/ka
-Emax = 50; % mm/ka
+Emax = 3; % mm/ka
 % ==================================================================================================
 
 % number of E and T points for the test grid
 ETgrid = 100;
 
 % What version is this?
-ver = '201902';
+ver = '201912';
 
+% fix input ========================================================================================
+% variable names for input with variable names in first line
+varnames = {'sample','Pflag','std10','std26','isostP','lat','long','elv','depth','dens','shield',...
+    'erosion','N10','N10unc','N26','N26unc','samplingyr','pressure'};
+vartypes = {'%s','%s','%s','%s','%s','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n',...
+    '%n'};
 % read input file
-% NOTE! sample thickness in standard input is here changed to sample mid-point depth (cm)
-% erosion is included to have the same input as for depthcalc.m but it is not used here
-[sample_name,lat,long,elv,aa,depth,rho,othercorr,erosion,N10,delN10,be_stds,N26,delN26,al_stds,...
-    samplingyr] = textread('input.txt','%s %n %n %n %s %n %n %n %n %n %n %s %n %n %s %n',...
-    'commentstyle','matlab');
+fid = fopen('input.txt');
+varsin = strsplit(fgetl(fid)); % read first line
+if(ismember(varsin,varnames)); % if first line contain only variable names
+    [testi,vari] = ismember(varsin,varnames); % find index of varnames
+    typestr = vartypes{vari(1)}; % fix type string
+    for i = 2:numel(vari); % fix type string
+        typestr = [typestr ' ' vartypes{vari(i)}];
+    end;
+elseif numel(varsin) == 16; % if no variable names in first line
+    frewind(fid); % read from first line
+    varsin = {'sample','lat','long','elv','Pflag','depth','dens','shield','erosion','N10',...
+        'N10unc','std10','N26','N26unc','std26','samplingyr'};
+    typestr = '%s %n %n %n %s %n %n %n %n %n %n %s %n %n %s %n';
+else;
+    fprintf(1,'ERROR! Something is wrong with the input\n');
+    return;
+end;
+indata = textscan(fid,typestr,'CommentStyle','%'); % scan data
+for i = 1:numel(varsin); % fix variables
+    samplein.(varsin{i}) = indata{i};
+end;
+fclose(fid);
+% ==================================================================================================
+
+% input fix
+sample = samplein.sample;
+lat = samplein.lat;
+long = samplein.long;
+depth = samplein.depth;
+dens = samplein.dens;
+shield = samplein.shield;
+samplingyr = samplein.samplingyr;
+if isfield(samplein,'elv');
+    elv = samplein.elv;
+    Pflag = samplein.Pflag;
+end;
 
 % run and load expage constants
 make_consts_expage;
 load consts_expage;
 
-% constants
-Pref10 = consts.P10_ref_nu; delPref10 = consts.delP10_ref_nu;
-Pref26 = consts.P26_ref_nu; delPref26 = consts.delP26_ref_nu;
-% Decay constant
-l10 = consts.l10; dell10 = consts.dell10;
-l26 = consts.l26; dell26 = consts.dell26;
+% Prefs
+Pref10 = consts.Pref10; Pref10unc = consts.Pref10unc;
+Pref26 = consts.Pref26; Pref26unc = consts.Pref26unc;
+% decay constant
+l10 = consts.l10; l10unc = consts.l10unc;
+l26 = consts.l26; l26unc = consts.l26unc;
+
+% if there is no N10 or N26 in input: fill with 0
+if isfield(samplein,'N10'); N10 = samplein.N10; else; N10(1:numel(sample),1) = 0; end;
+if isfield(samplein,'N10unc'); N10unc = samplein.N10unc; else; N10unc(1:numel(sample),1) = 0; end;
+if isfield(samplein,'std10'); std10 = samplein.std10; else; std10(1:numel(sample),1) = {'0'}; end;
+if isfield(samplein,'N26'); N26 = samplein.N26; else; N26(1:numel(sample),1) = 0; end;
+if isfield(samplein,'N26unc'); N26unc = samplein.N26unc; else; N26unc(1:numel(sample),1) = 0; end;
+if isfield(samplein,'std26'); std26 = samplein.std26; else; std26(1:numel(sample),1) = {'0'}; end;
 
 % convert 10Be concentrations according to standards
-for i = 1:numel(N10);
-    mult10(i,1) = consts.be_stds_cfs(strcmp(be_stds(i),consts.be_stds_names));
-end;
+[testi,stdi] = ismember(std10,consts.std10); % find index of standard conversion factors
+mult10 = consts.std10_cf(stdi); % pick out conversion factor
 N10 = N10 .* mult10;
-delN10 = delN10 .* mult10;
+N10unc = N10unc .* mult10;
 
 % convert 26Al concentrations according to standards
-for i = 1:numel(N26);
-    mult26(i,1) = consts.al_stds_cfs(strcmp(al_stds(i),consts.al_stds_names));
-end;
+[testi,stdi] = ismember(std26,consts.std26); % find index of standard conversion factors
+mult26 = consts.std26_cf(stdi); % pick out conversion factor
 N26 = N26 .* mult26;
-delN26 = delN26 .* mult26;
+N26unc = N26unc .* mult26;
 
 % fix longitude values
 long(find(long < 0)) = long(find(long < 0)) + 360;
 
 % fix sample pressure
-std_v = strcmp(aa,'std');
-ant_v = strcmp(aa,'ant');
-pre_v = strcmp(aa,'pre');
-pressure(std_v) = ERA40atm(lat(std_v),long(std_v),elv(std_v));
-pressure(ant_v) = antatm(elv(ant_v));
-pressure(pre_v) = elv(pre_v);
+if isfield(sample,'pressure') == 0;
+    % if there is no pressure flag: use std
+    if isfield(sample,'Pflag') == 0; Pflag(1:numel(sample),1) = {'std'}; end;
+    stdv = strcmp(Pflag,'std');
+    antv = strcmp(Pflag,'ant');
+    prev = strcmp(Pflag,'pre');
+    pressure(stdv) = ERA40atm(lat(stdv),long(stdv),elv(stdv));
+    pressure(antv) = antatm(elv(antv));
+    pressure(prev) = elv(prev);
+else;
+    pressure = samplein.pressure;
+end;
 
 % check and fix inputs =============================================================================
 diffstr = '';
@@ -84,10 +133,10 @@ if sum(elv ~= elv(1)) > 0;
         diffstr = [diffstr,' elevation'];
     end;
 end;
-if sum(rho ~= rho(1)) > 0;
+if sum(dens ~= dens(1)) > 0;
     diffstr = [diffstr,' density'];
 end;
-if sum(othercorr ~= othercorr(1)) > 0;
+if sum(shield ~= shield(1)) > 0;
     diffstr = [diffstr,' shielding'];
 end;
 
@@ -101,8 +150,8 @@ end;
 lat = mean(lat);
 long = mean(long);
 elv = mean(elv);
-shield = mean(othercorr);
-rho = mean(rho);
+shield = mean(shield);
+dens = mean(dens);
 samplingyr = mean(samplingyr);
 % ==================================================================================================
 
@@ -113,8 +162,8 @@ atm = mean(pressure);
 nucl10 = 0; nucl26 = 0;
 
 % Check and count if 10Be and 26Al is measured
-n10 = sum(N10+delN10 > 0);
-n26 = sum(N26+delN26 > 0);
+n10 = sum(N10+N10unc > 0);
+n26 = sum(N26+N26unc > 0);
 if n10>1; nucl10 = 1; end;
 if n26>1; nucl26 = 1; end;
 
@@ -136,24 +185,13 @@ j26 = 0;
 % Age Relative to t0=2010 - LSD tv from LSDfix
 % tv = [0:10:50 60:100:50060 51060:1000:2000060 logspace(log10(2001060),7,200)];
 
-% Fix w,Rc,SPhi, for sp and mu prod rate scaling
-LSDfix = LSD_fix(lat,long,Tmax+2010-samplingyr,-1,consts);
+% Fix tv, Rc, RcEst, SPhi, and w for sp and mu prod rate scaling
+LSDfix = LSD_fix(lat,long,Tmax,-1,samplingyr,consts);
 
-% time vector tv1
-tv1 = LSDfix.tv;
-
-% adjust tv, Rc, and SPhi to sampling year
-if samplingyr <= 2010;
-    clipidx = min(find(tv1 > 2010-samplingyr));
-    tv = [2010-samplingyr tv1(clipidx:end)];
-    Rc = interp1(tv1,LSDfix.Rc,tv);
-    SPhi = interp1(tv1,LSDfix.SPhi,tv);
-    tv = tv - 2010 + samplingyr;
-else; % assume 2010 value for all years >2010
-    Rc = [LSDfix.Rc(1) LSDfix.Rc];
-    SPhi = [LSDfix.SPhi(1) LSDfix.SPhi];
-    tv = [0 (tv1 + samplingyr - 2010)];
-end;
+% fix variables
+tv = LSDfix.tv;
+Rc = LSDfix.Rc;
+SPhi = LSDfix.SPhi;
 
 % calculate min and max depth (cm) and make shielding depth vector
 mind = min(depth);
@@ -162,15 +200,15 @@ dz = linspace(mind,maxd,100);
 
 % muon production
 fprintf(1,'calculating muon P...');
-P_mu = P_mu_expage(dz.*rho,atm,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
+Pmu = P_mu_expage(dz.*dens,atm,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
 fprintf(1,' done!\n');
 
 % pick out Pmu if data exists
-if nucl10 == 1; Pmu10 = P_mu.mu10 .* shield; end;
-if nucl26 == 1; Pmu26 = P_mu.mu26 .* shield; end;
+if nucl10 == 1; Pmu10 = Pmu.mu10 .* shield; end;
+if nucl26 == 1; Pmu26 = Pmu.mu26 .* shield; end;
 
 % spallation surface production scaling
-Psp0 = LSDspal(atm,Rc,SPhi,LSDfix.w,nucl10,nucl26,consts);
+Psp0 = P_sp_expage(atm,Rc,SPhi,LSDfix.w,consts,nucl10,nucl26);
 
 % pick out Psp if data exists
 if nucl10 == 1; Psp010 = Psp0.sp10 .* shield; end;
@@ -211,7 +249,7 @@ for i = 1:numel(Tvect);
         % add depth of sample
         depthm = depthmT + depth(j);
         
-        if N10(j)+delN10(j) > 0;
+        if N10(j)+N10unc(j) > 0;
             % add 1 to counter
             j10 = j10+1;
             
@@ -220,7 +258,7 @@ for i = 1:numel(Tvect);
             
             % calculate Psp over time for all E
             Psp10m = repmat(Psp010T.*Pref10,numel(Evect),1)' .* ...
-                exp(-rho.*depthm./repmat(Lsp2,numel(Evect),1))';
+                exp(-dens.*depthm./repmat(Lsp2,numel(Evect),1))';
             
             % decay matrix
             dcf10m = repmat(exp(-tv2.*l10),numel(Evect),1)';
@@ -229,10 +267,10 @@ for i = 1:numel(Tvect);
             N10T = trapz(tv2',Psp10m.*dcf10m + Pmu10m.*dcf10m);
             
             % calculate N diff for all E
-            N10diff(j10,:) = ((N10(j)-N10T) ./ delN10(j)).^2;
+            N10diff(j10,:) = ((N10(j)-N10T) ./ N10unc(j)).^2;
         end;
         
-        if N26(j)+delN26(j) > 0;
+        if N26(j)+N26unc(j) > 0;
             % add 1 to counter
             j26 = j26+1;
             
@@ -241,7 +279,7 @@ for i = 1:numel(Tvect);
             
             % calculate Psp over time for all E
             Psp26m = repmat(Psp026T.*Pref26,numel(Evect),1)' .* ...
-                exp(-rho.*depthm./repmat(Lsp2,numel(Evect),1))';
+                exp(-dens.*depthm./repmat(Lsp2,numel(Evect),1))';
             
             % decay matrix
             dcf26m = repmat(exp(-tv2.*l26),numel(Evect),1)';
@@ -250,14 +288,14 @@ for i = 1:numel(Tvect);
             N26T = trapz(tv2',Psp26m.*dcf26m + Pmu26m.*dcf26m);
             
             % calculate N diff for all E
-            N26diff(j26,:) = (N26(j)-N26T).^2 ./ delN26(j).^2;
+            N26diff(j26,:) = (N26(j)-N26T).^2 ./ N26unc(j).^2;
         end;
     end;
     
     % calculate Rchi2 for all E and clear Ndiff
     if nucl10 == 1;
         Rchi2m10(i,:) = sum(N10diff) ./ (n10-1);
-        clear N10diff;
+        clear N10diff; j10 = 0;
     end;
     if nucl26 == 1;
         Rchi2m26(i,:) = sum(N26diff) ./ (n26-1);

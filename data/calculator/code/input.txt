@@ -1,5 +1,4 @@
 Example of input for expage.m, burial.m, erosion.m, prodrate.m, depthcalc.m/depthcalcET.m, glacialE.m.
-The input file should contain only input rows (remove all other rows).
 
 
 Input example for expage.m (also works for burial.m)
@@ -11,7 +10,7 @@ W86-6	37.4197	-118.7688	3565	std	1	2.65	0.72	0	573000	73000	KNSTD	3270000	150000
 W86-8	37.4197	-118.7688	3565	std	1	2.65	0.72	0	563000	86000	KNSTD	3220000	170000	KNSTD	1986
 
 
-Input example for erosion.m (erosion rate column can be added for compatibility with standard input format)
+Input example for erosion.m (also works for burial.m)
 NAM-01	-22.73294	17.12524	2025	std	5	2.65	1	4770000	190000	KNSTD	26880000	1230000	KNSTD	1998
 NAM-02	-22.73304	17.12522	2025	std	5	2.65	1	4110000	100000	KNSTD	22800000	980000	KNSTD	1998
 NAM-03	-22.73344	17.12483	2025	std	5	2.65	1	3210000	100000	KNSTD	18220000	850000	KNSTD	1998
@@ -46,7 +45,9 @@ BC07-48g	-47.26627	-70.9632	583	std	100	2.4	1	0	381000	10000	07KNSTD	0	0	0	2007
 BC07-48h	-47.26627	-70.9632	583	std	150	2.4	1	0	184000	6000	07KNSTD	0	0	0	2007
 
 
-Input example for glacialE.m (with deglaciation age in last column - can be removed)
-99-01	67.6772	23.0725	360	std	4	2.7	1	0	470742	24710	NIST_Certified	2965550	175728	KNSTD	1999	10157
-99-04	67.6814	23.1953	300	std	4	2.7	1	0	367096	21434	NIST_Certified	2169092	172099	KNSTD	1999	10170
-99-06	67.7069	23.2794	350	std	4	2.7	1	0	227315	14893	NIST_Certified	0	0	0	1999	10184
+Input example for glacialE.m
+sample	lat	long	elv	thick	dens	densunc	shield	N10	N10unc	std10	N26	N26unc	std26	samplingyr	deglac	deglacunc	erosion	erosionunc	icevalue	icevalueunc
+99-01	67.6772	23.0725	360	4	2.7	0.135	1	470742	24710	NIST_Certified	2965550	175728	KNSTD	1999	10238	1000	5	5	4.3	0.1
+99-04	67.6814	23.1953	300	4	2.7	0.135	1	367096	21434	NIST_Certified	2169092	172099	KNSTD	1999	10257	1000	5	5	4.3	0.1
+99-06	67.7069	23.2794	350	4	2.7	0.135	1	227315	14893	NIST_Certified	0	0	0	1999	10277	1000	5	5	4.3	0.1
+99-07	67.7519	22.7722	280	3	2.7	0.135	1	63810	11710	NIST_Certified	440857	67705	KNSTD	1999	10230	1000	5	5	4.3	0.1

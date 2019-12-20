@@ -1,15 +1,15 @@
 % script for calibrating muogenic 10Be and 26Al production parameters based on depth profile data
 % based on calbhcore.m from CRONUScalc: https://bitbucket.org/cronusearth/cronus-calc
-% Jakob Heyman - 2016-2018
 %
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 2, as published by the Free Software Foundation (www.fsf.org).
+% Jakob Heyman - 2016-2019 (jakob.heyman@gu.se)
 
 clear all;
 close all;
 
 % What version is this?
-ver = '201902';
+ver = '201912';
 
 % Choose site. Options: Beacon, LeymonHigh, LeymonLow, LaCiotat
 site = 'Beacon';
@@ -26,22 +26,24 @@ fprintf(1,'Site: %s\n',site);
 mucal = mucalib_data(site);
 
 % convert 10Be concentrations according to standards
-Nmult10 = consts.be_stds_cfs(strcmp(mucal.std10,consts.be_stds_names));
-mucal.N10 = mucal.N10 .* Nmult10;
-mucal.delN10 = mucal.delN10 .* Nmult10;
+[testi,stdi] = ismember(mucal.std10,consts.std10); % find index of standard conversion factors
+mult10 = consts.std10_cf(stdi); % pick out conversion factor
+mucal.N10 = mucal.N10 .* mult10;
+mucal.N10unc = mucal.N10unc .* mult10;
 
 % convert 26Al concentrations according to standards
-Nmult26 = consts.al_stds_cfs(strcmp(mucal.std26,consts.al_stds_names));
-mucal.N26 = mucal.N26 .* Nmult26;
-mucal.delN26 = mucal.delN26 .* Nmult26;
+[testi,stdi] = ismember(mucal.std26,consts.std26); % find index of standard conversion factors
+mult26 = consts.std26_cf(stdi); % pick out conversion factor
+mucal.N26 = mucal.N26 .* mult26;
+mucal.N26unc = mucal.N26unc .* mult26;
 
 % set uncertainty to minimum 2.9% (10Be) or 4.9% (26Al)
-unchigh10 = mucal.delN10./mucal.N10 > 0.029;
+unchigh10 = mucal.N10unc./mucal.N10 > 0.029;
 unclow10 = (unchigh10 < 1);
-mucal.delN10 = mucal.delN10.*unchigh10 + mucal.N10.*unclow10.*0.029;
-unchigh26 = mucal.delN26./mucal.N26 > 0.049;
+mucal.N10unc = mucal.N10unc.*unchigh10 + mucal.N10.*unclow10.*0.029;
+unchigh26 = mucal.N26unc./mucal.N26 > 0.049;
 unclow26 = (unchigh26 < 1);
-mucal.delN26 = mucal.delN26.*unchigh26 + mucal.N26.*unclow26.*0.049;
+mucal.N26unc = mucal.N26unc.*unchigh26 + mucal.N26.*unclow26.*0.049;
 
 % initial guess at the parameters
 pinit = mucal.pinit;
@@ -76,8 +78,8 @@ l10 = consts.l10;
 l26 = consts.l26;
 
 % Prefs
-Pref10 = consts.P10_ref_nu;
-Pref26 = consts.P26_ref_nu;
+Pref10 = consts.Pref10;
+Pref26 = consts.Pref26;
 
 % calculate atmospheric pressure
 atm = ERA40atm(mucal.lat,mucal.lon,mucal.elv);
@@ -86,40 +88,22 @@ atm = ERA40atm(mucal.lat,mucal.lon,mucal.elv);
 % tv = [0:10:50 60:100:50060 51060:1000:2000060 logspace(log10(2001060),7,200)];
 
 % Fix w,Rc,SPhi, for sp and nu prod rate scaling 10 Ma back in time
-LSDfix = LSD_fix(mucal.lat,mucal.lon,1E7,-1,consts);
+LSDfix = LSD_fix(mucal.lat,mucal.lon,1E7,-1,mucal.samplingyr,consts);
 
-% adjust to year of sampling
-% time vector tv1
-tv1 = LSDfix.tv;
-
-% adjust tv, Rc, and SPhi to sampling year
-if mucal.samplingyr <= 2010;
-    clipidx = min(find(tv1 > 2010-mucal.samplingyr));
-    tv = [2010-mucal.samplingyr tv1(clipidx:end)];
-    Rc = interp1(tv1,LSDfix.Rc,tv);
-    SPhi = interp1(tv1,LSDfix.SPhi,tv);
-    tv = tv - 2010 + mucal.samplingyr;
-else; % assume 2010 value for all years >2010
-    Rc = [LSDfix.Rc(1) LSDfix.Rc];
-    SPhi = [LSDfix.SPhi(1) LSDfix.SPhi];
-    tv = [0 (tv1 + mucal.samplingyr - 2010)];
-end;
-
-mucal.tv = tv;
+mucal.tv = LSDfix.tv;
 
 % decay factors
-mucal.dcf10 = exp(-tv.*l10);
-mucal.dcf26 = exp(-tv.*l26);
+mucal.dcf10 = exp(-mucal.tv.*l10);
+mucal.dcf26 = exp(-mucal.tv.*l26);
 
 % surface spallation production
-Psp = LSDspal(atm,Rc,SPhi,LSDfix.w,1,1,consts);
+Psp = P_sp_expage(atm,LSDfix.Rc,LSDfix.SPhi,LSDfix.w,consts,1,1);
 mucal.Psp10 = Psp.sp10 .* Pref10;
 mucal.Psp26 = Psp.sp26 .* Pref26;
 
-% muon production (without sigma0 and fstar!!)
+% muon production (without sigma0 and fstar!)
 % This is pre-computed and the data is included in mucalib_depthcalc_precalc.m to save time
 %
-%mucal.dz = linspace(0,8000,8001);
 %Pmud = mucalib_Pmu(mucal.dz,atm,LSDfix.RcEst,consts.SPhiInf,1,1,consts);
 %mucal.Pfast10d = Pmud.P_fast10';
 %mucal.Pneg10d = Pmud.P_neg10';
@@ -207,9 +191,7 @@ Nneg10 = trapz(mucal.tv',Pneg10lm); % calculated N10
 Nneg26 = trapz(mucal.tv',Pneg26lm); % calculated N26
 
 % plot 10Be figure
-figure;
-hold on;
-box on;
+figure; hold on; box on;
 semilogx(Nsp10,plotz,'color','red');
 semilogx(Nneg10,plotz,'color','green');
 semilogx(Nfast10,plotz,'color','blue');
@@ -224,9 +206,7 @@ axis([1E3 1E8 0 7000],'ij');
 hold off;
 
 % plot 26Al figure
-figure;
-hold on;
-box on;
+figure; hold on; box on;
 semilogx(Nsp26,plotz,'color','red');
 semilogx(Nneg26,plotz,'color','green');
 semilogx(Nfast26,plotz,'color','blue');

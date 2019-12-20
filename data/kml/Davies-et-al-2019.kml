@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Davies et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-201912<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>SO2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16968 &#177; 1050<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Davies-et-al-2019.txt">Davies et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.581499,54.487168</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21294 &#177; 1344<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Davies-et-al-2019.txt">Davies et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.587767,54.489200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23073 &#177; 1446<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Davies-et-al-2019.txt">Davies et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.588967,54.485099</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16353 &#177; 994<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Davies-et-al-2019.txt">Davies et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-2.006968,54.540683</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23084 &#177; 1405<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Davies-et-al-2019.txt">Davies et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-2.007834,54.540733</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17062 &#177; 1027<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Davies-et-al-2019.txt">Davies et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.071783,54.554633</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16137 &#177; 989<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Davies-et-al-2019.txt">Davies et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-2.071083,54.554733</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20589 &#177; 1253<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Davies-et-al-2019.txt">Davies et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.075017,54.556750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32713 &#177; 1951<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Davies-et-al-2019.txt">Davies et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.978683,54.630817</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24491 &#177; 1463<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Davies-et-al-2019.txt">Davies et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-1.986517,54.630117</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18152 &#177; 1106<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Davies-et-al-2019.txt">Davies et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.996283,54.628117</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

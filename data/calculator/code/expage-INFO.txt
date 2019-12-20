@@ -1,11 +1,11 @@
-Information for expage.m calculating 10Be and 26Al exposure ages.
+Information for expage.m (version 201912) calculating 10Be and 26Al exposure ages.
 The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2019 mainly based on the CRONUS
 calculator (Balco et al. 2008) and the LSD production rate scaling (Lifton et al. 2014).
 
 
 TO USE THE CALCULATOR:
 1. Fix the input.txt file (see below).
-2. Run expage.m in Octave or Matlab.
+2. Run expage.m in Octave (Matlab might work as well).
 3. 10Be and/or 26Al exposure ages (yr) are saved in out-expages.txt.
 
 
@@ -27,9 +27,13 @@ The calculator is based on the CRONUS calculator (Balco et al. 2008) with some m
 
 
 INPUT INSTRUCTIONS:
-The input is similar to the input for the CRONUS calcuator version 2 (Balco et al. 2008), with
-changed unit for erosion rate and the addition of sampling year. Each row in input.txt is one sample
-(rows can be commented out with '%') and should contain 16 columns with the following information:
+The input is given in the file input.txt and the format can be one of two options. For both options
+the data for each sample is specified in one row (rows can be commented out with '%').
+
+Option 1:
+Similar input as for the CRONUS calcuator version 2 (Balco et al. 2008), with changed unit for
+erosion rate and the addition of sampling year. The input should contain 16 columns with the
+following information:
 1. Sample name - (strange characters may cause problems).
 2. Latitude [DD (WGS84)] - North latitudes are positive. South latitudes are negative.
 3. Longitude [DD (WGS84)] - East longitudes are positive. West longitudes are negative.
@@ -46,6 +50,34 @@ changed unit for erosion rate and the addition of sampling year. Each row in inp
 14. 26Al concentration uncertainty [atoms/g] - (if no 26Al measurement: use 0).
 15. 26Al standardization - See make_consts_expage.m lines 41-42 for acceptable names and values.
 16. Sampling year [CE].
+
+Option 2:
+Data in columns with row 1 specifying the data of each columns. The following specifiers are
+allowed (the order of the data/columns is irrelevant):
+sample - Sample name - (strange characters may cause problems).
+lat - Latitude [DD (WGS84)] - North latitudes are positive. South latitudes are negative.
+long - Longitude [DD (WGS84)] - East longitudes are positive. West longitudes are negative.
+elv - Elevation/pressure [m a.s.l. / hPa].
+Pflag - Elevation/pressure flag - std/ant/pre (see above). If not specified std will be used.
+thick - Sample thickness [cm].
+dens - Sample density [g/cm3].
+shield - Correction factor - Unitless factor used for topo/geom shielding correction.
+erosion - Erosion rate [mm/ka]. If not specified a zero erosion rate is assumed.
+N10 - 10Be concentration [atoms/g].
+N10unc - 10Be concentration uncertainty [atoms/g].
+std10 - 10Be standardization - See make_consts_expage.m lines 34-38 for acceptable names and values.
+N26 - 26Al concentration [atoms/g].
+N26unc - 26Al concentration uncertainty [atoms/g].
+std26 - 26Al standardization - See make_consts_expage.m lines 41-42 for acceptable names and values.
+samplingyr - Sampling year [CE].
+pressure - Atmospheric pressure [hPa] - If pressure is included, data in elv is not used.
+isostP - String specifying the isostatic adjustment method for atmospheric pressure adjustments.
+For isostP the following strings can be used:
+ICE6G - Isostatic adjustment using the global ICE6G data (Argus et al. 2014; Peltier et al. 2015).
+ANU2017 - Isostatic adjustment using the data from Lambeck et al. (2017) for North America.
+PD2015 - Isostatic adjustment using the Påsse and Daniels (2015) data for Fennoscandia.
+filename - Name of file with isostatic adjustment data (tv, delv or shoreline, and yr0).
+If a sample has the string '-' for isostP or isostsubm, no isostatic adjustment is carried out.
 
 
 OUTPUT INFORMATION:

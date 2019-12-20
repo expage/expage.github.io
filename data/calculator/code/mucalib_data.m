@@ -52,7 +52,7 @@ if strcmp(site,'Beacon');
     % data include primary data (Phillips et al. 2016) from UW/LLNL
     % data source: supplementary material from Balco (2017)
     % samples marked with * have error-weighted mean 10/26 concentrations from double measurements
-    % {sample_name  dz10(g/cm2)  N10(at/g)  delN10(at/g)  dz26(g/cm2)  N26(at/g)  delN26(at/g)}
+    % {sample_name  dz10(g/cm2)  N10(at/g)  N10unc(at/g)  dz26(g/cm2)  N26(at/g)  N26unc(at/g)}
     depth_profile = ...
     {'09-DV-001-BCO*'	1.6	59000224	162102	1.6	228938540	829349
     '0.02-0.03*'	5.8	57243780	383158	5.8	230764098	370523
@@ -98,7 +98,7 @@ elseif strcmp(site,'LeymonHigh');
     out.std26 = 'SMAL11';
     
     % depth profile 10Be and 26Al concentrations and depths
-    % {sample_name  dz10(g/cm2)  N10(at/g)  delN10(at/g)  dz26(g/cm2)  N26(at/g)  delN26(at/g)}
+    % {sample_name  dz10(g/cm2)  N10(at/g)  N10unc(at/g)  dz26(g/cm2)  N26(at/g)  N26unc(at/g)}
     depth_profile = ...
     {'L-H-1'	2.64	339400	8700	2.64	2149900	110000
     'L-H-33'	85.14	224600	6500	85.14	1513300	77300
@@ -133,7 +133,7 @@ elseif strcmp(site,'LeymonLow');
     out.std26 = 'SMAL11';
     
     % depth profile 10Be and 26Al concentrations and depths
-    % {sample_name  dz10(g/cm2)  N10(at/g)  delN10(at/g)  dz26(g/cm2)  N26(at/g)  delN26(at/g)}
+    % {sample_name  dz10(g/cm2)  N10(at/g)  N10unc(at/g)  dz26(g/cm2)  N26(at/g)  N26unc(at/g)}
     depth_profile = ...
     {'L-L-1'	2.63	667700	21200	2.63	3362600	182000
     'L-L-32'	82.56	448000	13000	82.56	1522100	89400
@@ -169,7 +169,7 @@ elseif strcmp(site,'LaCiotat');
     out.std26 = 'SMAL11';
     
     % depth profile 10Be concentrations and depths
-    % {sample_name  dz10(g/cm2)  N10(at/g)  delN10(at/g)}
+    % {sample_name  dz10(g/cm2)  N10(at/g)  N10unc(at/g)}
     depth_profile10 = ...
     {'CIOT-01'	17.46	116700	17000
     'CIOT-02'	124.37	67900	3300
@@ -187,7 +187,7 @@ elseif strcmp(site,'LaCiotat');
     'CIOT-17'	2706.84	8600	900};
     
     % depth profile 26Al concentrations and depths
-    % {sample_name  dz26(g/cm2)  N26(at/g)  delN26(at/g)}
+    % {sample_name  dz26(g/cm2)  N26(at/g)  N26unc(at/g)}
     depth_profile26 = ...
     {'CIOT-02'	124.37	512500	36600
     'CIOT-03'	233.66	273000	25300
@@ -206,17 +206,17 @@ if exist('depth_profile');
     out.sample_name = depth_profile(:,1);       % sample name
     out.Nz10 = cell2mat(depth_profile(:,2));    % sample midpoint depth (g/cm2)
     out.N10 = cell2mat(depth_profile(:,3));     % 10Be conc (atoms/g)
-    out.delN10 = cell2mat(depth_profile(:,4));  % 10Be conc uncertainty (atoms/g)
+    out.N10unc = cell2mat(depth_profile(:,4));  % 10Be conc uncertainty (atoms/g)
     out.Nz26 = cell2mat(depth_profile(:,5));    % sample midpoint depth (g/cm2)
     out.N26 = cell2mat(depth_profile(:,6));     % 26Al conc (atoms/g)
-    out.delN26 = cell2mat(depth_profile(:,7));  % 26Al conc uncertainty (atoms/g)
+    out.N26unc = cell2mat(depth_profile(:,7));  % 26Al conc uncertainty (atoms/g)
 else;
     out.sample_name10 = depth_profile10(:,1);     % sample name
     out.Nz10 = cell2mat(depth_profile10(:,2));    % sample midpoint depth (g/cm2)
     out.N10 = cell2mat(depth_profile10(:,3));     % 10Be conc (atoms/g)
-    out.delN10 = cell2mat(depth_profile10(:,4));  % 10Be conc uncertainty (atoms/g)
+    out.N10unc = cell2mat(depth_profile10(:,4));  % 10Be conc uncertainty (atoms/g)
     out.sample_name26 = depth_profile26(:,1);     % sample name
     out.Nz26 = cell2mat(depth_profile26(:,2));    % sample midpoint depth (g/cm2)
     out.N26 = cell2mat(depth_profile26(:,3));     % 26Al conc (atoms/g)
-    out.delN26 = cell2mat(depth_profile26(:,4));  % 26Al conc uncertainty (atoms/g)
+    out.N26unc = cell2mat(depth_profile26(:,4));  % 26Al conc uncertainty (atoms/g)
 end;

@@ -10,19 +10,19 @@ function out = make_consts_expage();
 %
 % Jakob Heyman - 2018-2019 (jakob.heyman@gu.se)
 
-consts.version = '201902';
+consts.version = '201912';
 consts.prepdate = fix(clock);
 
 % Be-10 decay constant -- new Euro value
 consts.l10 = -log(0.5)./1.387e6; % Chmeleff/Korschinek value
 dldt = -log(0.5).*(1.387e6^-2);
-consts.dell10 = sqrt((dldt.*0.012e6)^2); % Chmeleff/Korschinek value
+consts.l10unc = sqrt((dldt.*0.012e6)^2); % Chmeleff/Korschinek value
 
 % Al-26 decay constant -- value compatible with Nishiizumi standards
 % lambda = 9.83e-7 --> t(1/2) = 0.705e6 yr
 % See Nishiizumi (2004) for details.
 consts.l26 = 9.83e-7; 
-consts.dell26 = 2.5e-8;
+consts.l26unc = 2.5e-8;
 
 % Effective attenuation length for spallation in rock
 % Commonly accepted value: 160 g/cm2 (Gosse and Phillips 2001)
@@ -31,30 +31,34 @@ consts.Lsp = 160;
 
 % Be-10 standardization info.
 % Standards comparison/conversion lookup table. A zero placeholder is allowed.
-consts.be_stds_names = {'07KNSTD','KNSTD','NIST_Certified','NIST_30000','NIST_30200',...
-    'NIST_30300','NIST_30500','NIST_30600','NIST_27900','LLNL31000','LLNL10000','LLNL3000',...
-    'LLNL1000','LLNL300','S555','S2007','BEST433','S555N','S2007N','BEST433N','STD11','0'};
-consts.be_stds_cfs = [1 0.9042 1.0425 0.9313 0.9251 0.9221 0.9157 0.9130 1 0.8761 0.9042 ...
-    0.8644 0.9313 0.8562 0.9124 0.9124 0.9124 1 1 1 1 1]';
+consts.std10 = {'07KNSTD','KNSTD','NIST_Certified','NIST_30000','NIST_30200','NIST_30300',...
+    'NIST_30500','NIST_30600','NIST_27900','LLNL31000','LLNL10000','LLNL3000','LLNL1000',...
+    'LLNL300','S555','S2007','BEST433','S555N','S2007N','BEST433N','STD11','0'};
+consts.std10_cf = [1 0.9042 1.0425 0.9313 0.9251 0.9221 0.9157 0.9130 1 0.8761 0.9042 0.8644 ...
+    0.9313 0.8562 0.9124 0.9124 0.9124 1 1 1 1 1]';
 
 % Same for Al-26. A zero placeholder is allowed.
-consts.al_stds_names = {'KNSTD','ZAL94','ZAL94N','SMAL11','ASTER','Z92-0222','0'};
-consts.al_stds_cfs = [1 0.9134 1 1.021 1.021 1 1]';
+consts.std26 = {'KNSTD','ZAL94','ZAL94N','SMAL11','ASTER','Z92-0222','0'};
+consts.std26_cf = [1 0.9134 1 1.021 1.021 1 1]';
 
 % Reference production rates at SLHL for spallation. Letter codes sp and nu refer to the LSD
 % spallation scaling and the LSD nuclide-specific scaling of Lifton et al. (2014), respectively.
 % 10Be production rates are referenced to 07KNSTD.
 % 26Al production rates are referenced to KNSTD.
 
-% Be-10 production rates - global expage-201902 ref prod rate
-consts.P10_ref_nu = 3.97;
-consts.delP10_ref_nu = 0.22;
+% Be-10 production rates - global expage-201912 ref prod rate
+consts.Pref10 = 3.98;
+consts.Pref10unc = 0.22;
+consts.Pref10iso = 4.01;
+consts.Pref10isounc = 0.23;
 consts.P10_ref_sp = 4; % not properly calibrated!
 consts.delP10_ref_sp = 0.3; % not properly calibrated!
 
-% Al-26 production rates - global expage-201902 ref prod rate
-consts.P26_ref_nu = 28.47;
-consts.delP26_ref_nu = 1.87;
+% Al-26 production rates - global expage-201912 ref prod rate
+consts.Pref26 = 28.44;
+consts.Pref26unc = 1.90;
+consts.Pref26iso = 28.41;
+consts.Pref26isounc = 2.05;
 consts.P26_ref_sp = 29; % not properly calibrated!
 consts.delP26_ref_sp = 3; % not properly calibrated!
 
@@ -65,13 +69,13 @@ consts.Natoms3 = 2.006e22; % not used in present version
 consts.Natoms14 = 2.006e22; % not used in present version
 
 % sigma0 and fstar calibrated for the expage calculator using mucalib.m
-% (ref prodrate expage-201902)
+% (ref prodrate expage-201912)
 consts.sigma0_10nu = 0.251E-30;
-consts.sigma0_26nu = 4.02E-30;
+consts.sigma0_26nu = 4.03E-30;
 consts.delsigma0_10nu = 0.008E-30;
 consts.delsigma0_26nu = 0.37E-30;
 consts.fstar10nu = 1.84E-3;
-consts.fstar26nu = 12.2E-3;
+consts.fstar26nu = 12.1E-3;
 consts.delfstar10nu = 0.10E-3;
 consts.delfstar26nu = 1.2E-3;
 

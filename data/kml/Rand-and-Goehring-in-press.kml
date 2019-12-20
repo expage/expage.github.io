@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rand and Goehring (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201912<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>EG10-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 407 &#177; 99<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rand-and-Goehring-in-press.txt">Rand and Goehring (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.77321,66.68997</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EG10-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8906 &#177; 511<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rand-and-Goehring-in-press.txt">Rand and Goehring (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.77235,66.68996</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EG10-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1357 &#177; 95<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rand-and-Goehring-in-press.txt">Rand and Goehring (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.77007,66.68966</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EG10-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8929 &#177; 613<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rand-and-Goehring-in-press.txt">Rand and Goehring (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.76658,66.68918</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EG10-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 208 &#177; 137<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rand-and-Goehring-in-press.txt">Rand and Goehring (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.76990,66.69263</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EG10-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 495 &#177; 168<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rand-and-Goehring-in-press.txt">Rand and Goehring (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.76488,66.69223</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EG10-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 471 &#177; 115<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rand-and-Goehring-in-press.txt">Rand and Goehring (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.76289,66.69195</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EG10-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 583 &#177; 274<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rand-and-Goehring-in-press.txt">Rand and Goehring (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.76057,66.69182</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EG10-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 217 &#177; 100<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rand-and-Goehring-in-press.txt">Rand and Goehring (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.76057,66.69182</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

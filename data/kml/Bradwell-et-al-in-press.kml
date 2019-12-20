@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bradwell et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-201912<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>T1DAL01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17007 &#177; 1090<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.27866,59.92799</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1DAL06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16819 &#177; 1087<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.28494,59.92950</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1DAL08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17971 &#177; 1123<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.28494,59.92964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1FOU01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10303 &#177; 773<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.07151,60.12014</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1FOU02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14879 &#177; 1004<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.07165,60.11866</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1FOU04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9293 &#177; 622<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.06065,60.12434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1FOU05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15692 &#177; 1013<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.05984,60.12487</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1HAM01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16232 &#177; 1065<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.46268,60.36609</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1HAM02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17151 &#177; 1134<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.46268,60.36609</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1HAM03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16468 &#177; 1269<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.46016,60.36227</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1HAM06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13796 &#177; 901<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.45906,60.36215</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1LUN01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15621 &#177; 991<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.93968,60.70791</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1LUN02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11130 &#177; 711<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.93843,60.70772</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1LUN03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12535 &#177; 881<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.93939,60.70745</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1MAA01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14493 &#177; 921<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.41646,60.56319</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1MAA02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15961 &#177; 1070<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.41467,60.56390</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1MAA03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13484 &#177; 966<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.41467,60.56390</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1MAA04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16706 &#177; 1164<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.41467,60.56390</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1MAA05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15536 &#177; 1019<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.41467,60.56390</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1OSE01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13966 &#177; 922<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.74678,60.42831</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1OSW01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16729 &#177; 1052<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.78120,60.41977</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1OSW03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16611 &#177; 1067<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.78076,60.41937</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1OSW04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15293 &#177; 973<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.78011,60.41939</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1PAP04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14959 &#177; 1003<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.67399,60.33484</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1PAP05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16358 &#177; 1070<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.67248,60.33501</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1PAP06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15419 &#177; 1013<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.67361,60.33362</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1PAP07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15957 &#177; 1017<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.67334,60.33373</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T1PAP08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15485 &#177; 1015<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.67388,60.33419</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BGS_BR1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17565 &#177; 1595<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.32650,60.38830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BGS_BR2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16440 &#177; 1880<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-1.33110,60.39000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BGS_WH1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21193 &#177; 1670<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.82940,60.80510</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BGS_WH2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20390 &#177; 1522<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bradwell-et-al-in-press.txt">Bradwell et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-0.82940,60.80510</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

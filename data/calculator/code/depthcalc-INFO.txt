@@ -1,6 +1,7 @@
-Information for depthcalc.m and depthcalcET.m calculating 10Be and 26Al depth profile exposure ages.
-The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2019 mainly based on the CRONUS
-calculator (Balco et al. 2008) and the LSD production rate scaling (Lifton et al. 2014).
+Information for depthcalc.m and depthcalcET.m (version 201912) calculating 10Be and 26Al depth
+profile exposure ages. The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2019 mainly
+based on the CRONUS calculator (Balco et al. 2008) and the LSD production rate scaling (Lifton et
+al. 2014).
 
 depthcalc.m:
 Depth profile calculator for calculating the best-fit 10Be and/or 26Al exposure age.
@@ -11,13 +12,14 @@ chi-square domain for a range of defined erosion rates and exposure durations.
 
 
 TO USE THE CALCULATORS (depthcalc.m / depthcalcET.m):
-1. Run depthcalc.m / depthcalcET.m in Octave or Matlab.
-2. Best-fit exposure ages and plots (if on) are displayed.
+1. Fix the input.txt file (see below).
+2. Run depthcalc.m / depthcalcET.m in Octave or Matlab.
+3. Best-fit exposure ages and plots (if on) are displayed.
 
 
 General information for both calculators:
 * Nuclide-specific LSD spallation and muon production rate scaling based on simulated cosmic ray
-  fluxes (Lifton et al. 2014) similar to the other expage scripts.
+  fluxes (Lifton et al. 2014) similar to the other expage calculators.
 * Time-dependent spallation production rate with reference production rates based on global average
   from calibration studies published 2009-2019 calibrated using prodrate.m.
 * Time-constant muon production rate parameterization (modified to reduce near-surface artifacts),
@@ -43,18 +45,20 @@ depthcalc.m:
 depthcalcET.m:
 * Calculation of 10Be and/or 26Al concentration reduced chi-square values for a mesh of erosion
   rates and exposure ages defined by Emin-Emax and Tmin-Tmax (number of grid points defined by
-  ETgrid at line 31).
+  ETgrid at line 23).
 * Spline interpolation of the chi-square matrix (to 1000 x 1000 points) to smooth the surface,
   identification of the minimum chi-square value and associated E and T, and plotting of that best-
   fit point plus contours for the minimum reduced chi-square value plus the values in vector cl
-  (line 261).
+  (line 312).
 
 
 INPUT INSTRUCTIONS:
-The input is similar to the input for the CRONUS calcuator version 2 (Balco et al. 2008), with
-sample thickness changed to to mid-point sample depth, changed unit for erosion rate, and the
-addition of sampling year. Each row in input.txt is one sample and should contain 16 columns with
-the following information:
+The input is given in the file input.txt and the format can be one of two options. For both options
+the data for each sample is specified in one row (rows can be commented out with '%').
+
+Option 1:
+Similar input as for the CRONUS calcuator version 2 (Balco et al. 2008) with the addition of
+sampling year. The input should contain 15 columns with the following information:
 1. Sample name - (strange characters may cause problems).
 2. Latitude [DD (WGS84)] - North latitudes are positive. South latitudes are negative.
 3. Longitude [DD (WGS84)] - East longitudes are positive. West longitudes are negative.
@@ -63,7 +67,7 @@ the following information:
 6. Sample thickness [cm].
 7. Sample density [g/cm3].
 8. Correction factor - Unitless factor used for topo/geom shielding correction (no shielding -> 1).
-9. Erosion rate [mm/ka]. NOTE: other unit than in the CRONUS calculator (not used in depthcalcET.m).
+9. Erosion rate [mm/ka]. NOTE: different unit than in the CRONUS calculator.
 10. 10Be concentration [atoms/g] - (if no 10Be measurement: use 0).
 11. 10Be concentration uncertainty [atoms/g] - (if no 10Be measurement: use 0).
 12. 10Be standardization - See make_consts_expage.m lines 34-38 for acceptable names and values.
@@ -71,6 +75,27 @@ the following information:
 14. 26Al concentration uncertainty [atoms/g] - (if no 26Al measurement: use 0).
 15. 26Al standardization - See make_consts_expage.m lines 41-42 for acceptable names and values.
 16. Sampling year [CE].
+
+Option 2:
+Data in columns with row 1 specifying the data of each columns. The following specifiers are
+allowed (the order of the data/columns is irrelevant):
+sample - Sample name - (strange characters may cause problems).
+lat - Latitude [DD (WGS84)] - North latitudes are positive. South latitudes are negative.
+long - Longitude [DD (WGS84)] - East longitudes are positive. West longitudes are negative.
+elv - Elevation/pressure [m a.s.l. / hPa].
+Pflag - Elevation/pressure flag - std/ant/pre (see above). If not specified std will be used.
+thick - Sample thickness [cm].
+dens - Sample density [g/cm3].
+shield - Correction factor - Unitless factor used for topo/geom shielding correction.
+erosion - Erosion rate [mm/ka]. If not specified a zero erosion rate is assumed.
+N10 - 10Be concentration [atoms/g].
+N10unc - 10Be concentration uncertainty [atoms/g].
+std10 - 10Be standardization - See make_consts_expage.m lines 34-38 for acceptable names and values.
+N26 - 26Al concentration [atoms/g].
+N26unc - 26Al concentration uncertainty [atoms/g].
+std26 - 26Al standardization - See make_consts_expage.m lines 41-42 for acceptable names and values.
+samplingyr - Sampling year [CE].
+pressure - Atmospheric pressure [hPa] - If pressure is included, data in elv is not used.
 
 Only in depthcalcET.m (rows 16-23) =================================================================
 Tmin - Minimum exposure age to test (yr before sampling).
@@ -91,5 +116,5 @@ OUTPUT depthcalcET.m:
 The calculator displays the range of exposure duration (T-range) and erosion (E-range), the best-fit
 erosion (E), exposure age (T), reduced chi-square value (Rchi2), and associated P-value for the 10Be
 and/or 26Al data. A plot with the best-fit E and T value (point) and contour lines for the minimum
-reduced chi-square value plus [0.05 0.5 1.0 2.0] (defined by cl at line 261) is displayed for the
+reduced chi-square value plus [0.05 0.5 1.0 2.0] (defined by cl at line 312) is displayed for the
 10Be and/or 26Al data. No output file is saved.

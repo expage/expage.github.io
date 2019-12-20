@@ -22,7 +22,7 @@ function out = mucalib_Pmu(z,h,Rc,SPhi,nucl10,nucl26,consts)
 % Production rate parameterization with fstar and sigma0 is based on the CRONUScalc calculator
 % (Marrero et al. 2016; Phillips et al. 2016) calibration based on Antarctica depth profile.
 % 
-% Modified by Jakob Heyman (jakob.heyman@gu.se) 2015-2018
+% Modified by Jakob Heyman (jakob.heyman@gu.se) 2015-2019
 %
 % Modified by Nat Lifton -- Purdue University 
 % nlifton@purdue.edu
@@ -39,7 +39,7 @@ function out = mucalib_Pmu(z,h,Rc,SPhi,nucl10,nucl26,consts)
 % General Public License, version 3, as published by the Free Software Foundation (www.fsf.org).
 
 % what version is this?
-ver = '201902';
+ver = '201912';
 
 % remember what direction the z vector came in
 in_size = size(z);
@@ -146,12 +146,10 @@ phi_temp = phi_vert_site.*2.*pi./(nofz+1);
 phi = phi_temp*60*60*24*365;
 
 % find the total stopping rate of muons at site
-R_temp = (2.*pi./(nofz+1)).*R_vert_site ... 
-    - phi_vert_site.*(-2.*pi.*((nofz+1).^-2)).*dndz;
+R_temp = (2.*pi./(nofz+1)).*R_vert_site - phi_vert_site.*(-2.*pi.*((nofz+1).^-2)).*dndz;
     
 % that was in total muons/g/s
 % convert to negative muons/g/yr
-
 R = R_temp*0.44*60*60*24*365;
 
 % Attenuation lengths
@@ -257,12 +255,14 @@ out = -5.401e7 .* (b.*c.*dadz - a.*(c.*dbdz + b.*dcdz))./(b.^2 .* c.^2);
 
 function out = E2R(x)
 
-% this subfunction returns the range and energy loss values for
-% muons of energy E in MeV
+% this subfunction returns the range and energy loss values for muons of energy E in MeV
 
 % define range/energy/energy loss relation
 % table for muons in standard rock
 % http://pdg.lbl.gov/2010/AtomicNuclearProperties/ Table 281
+
+% changed from P_mu_totalLSD.m:
+% first line added based on linear extrapolation to get a minimum range of 0.1 g cm-2
 
 data = [5.710 0.1 8.162
     1.0e1 8.400e-1 6.619

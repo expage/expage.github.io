@@ -10,11 +10,13 @@ function burial();
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 2, as published by the Free Software Foundation (www.fsf.org).
 %
-% Jakob Heyman - 2015-2018 (jakob.heyman@gu.se)
+% Jakob Heyman - 2015-2019 (jakob.heyman@gu.se)
 
-clear;
-close all;
+clear; close all;
 tic();
+
+% What version is this?
+ver = '201912';
 
 % make choices here ================================================================================
 % exposure + burial and/or erosion + burial? (1 = yes)
@@ -22,51 +24,67 @@ exposure_burial = 1; % calculate burial assuming prior surface exposure
 erosion_burial = 0; % calculate burial assuming prior constant erosion
 
 % calculate external and/or internal uncertainties? (1 = yes)
-extunc = 0;
-intunc = 1;
+extunc = 1;
+intunc = 0;
 % Monte Carlo size for uncertainty estimate
 mc = 1E5;
 
 % plotting? (1 = yes)
-pl.expline = 1; % plot simple exposure line (and burial paths/lines)
-pl.eline = 1; % plot erosion end point line (and burial paths/lines)
-pl.points = 1; % plot sample points
-pl.sigma1line = 1; % plot sample 1 sigma line
-pl.sigma2line = 0; % plot sample 2 sigma line
-pl.probcontours = 0; % plot probability contour lines
+pl.expline = 1;       % plot simple exposure line (and burial paths/lines)
+pl.eline = 1;         % plot erosion end point line (and burial paths/lines)
+pl.points = 1;        % plot sample points
+pl.sigma1line = 1;    % plot sample 1 sigma line
+pl.sigma2line = 0;    % plot sample 2 sigma line
+pl.probcontours = 0;  % plot probability contour line
+pl.extunc = 1;        % plot external uncertainty (including prod rate unc) for sample conc
+pl.intunc = 0;        % plot internal uncertainty (excluding prod rate unc) for sample conc
+pl.uncarea = 1;       % plot uncertainties as semi-transparent polygons
+pl.sampleclr = 'red'; % color for sample conc
 
 % write normalized conc data? (for later plotting)
 normNout = 1;
 % ==================================================================================================
 
-% What version is this?
-ver = '201902';
-
-% count number of input columns in line 1 of input
-inid = fopen('input.txt','r');
-line1 = fgets(inid);
-line1 = regexprep(line1,' +',' ');
-numcols = numel(strfind(line1,' ')) + numel(strfind(line1,sprintf('\t',''))) + 1;
-fclose(inid);
-
+% fix input ========================================================================================
+% variable names for input with variable names in first line
+varnames = {'sample','lat','long','elv','Pflag','thick','dens','shield','erosion','N10','N10unc',...
+    'std10','N26','N26unc','std26','samplingyr','pressure'};
+vartypes = {'%s','%n','%n','%n','%s','%n','%n','%n','%n','%n','%n','%s','%n','%n','%s','%n','%n'};
 % read input file
-if numcols == 16; % if erosion rate in input
-    [samplein.sample_name,samplein.lat,samplein.long,samplein.elv,samplein.aa,samplein.thick,...
-        samplein.rho,samplein.othercorr,samplein.E,samplein.N10,samplein.delN10,samplein.be_stds,...
-        samplein.N26,samplein.delN26,samplein.al_stds,samplein.samplingyr] = ...
-        textread('input.txt','%s %n %n %n %s %n %n %n %n %n %n %s %n %n %s %n','commentstyle',...
-        'matlab');
-else; % has to be 15 columns!
-    [samplein.sample_name,samplein.lat,samplein.long,samplein.elv,samplein.aa,samplein.thick,...
-        samplein.rho,samplein.othercorr,samplein.N10,samplein.delN10,samplein.be_stds,...
-        samplein.N26,samplein.delN26,samplein.al_stds,samplein.samplingyr] = ...
-        textread('input.txt','%s %n %n %n %s %n %n %n %n %n %s %n %n %s %n','commentstyle',...
-        'matlab');
+fid = fopen('input.txt');
+varsin = strsplit(fgetl(fid)); % read first line
+if(ismember(varsin,varnames)); % if first line contain only variable names
+    [testi,vari] = ismember(varsin,varnames); % find index of varnames
+    typestr = vartypes{vari(1)}; % fix type string
+    for i = 2:numel(vari); % fix type string
+        typestr = [typestr ' ' vartypes{vari(i)}];
+    end;
+elseif numel(varsin) == 15; % if no variable names in first line
+    frewind(fid); % read from first line
+    varsin = {'sample','lat','long','elv','Pflag','thick','dens','shield','N10','N10unc','std10',...
+        'N26','N26unc','std26','samplingyr'};
+    typestr = '%s %n %n %n %s %n %n %n %n %n %s %n %n %s %n';
+else;
+    fprintf(1,'ERROR! Something is wrong with the input\n');
+    return;
 end;
+indata = textscan(fid,typestr,'CommentStyle','%'); % scan data
+for i = 1:numel(varsin); % fix variables
+    samplein.(varsin{i}) = indata{i};
+end;
+fclose(fid);
+% ==================================================================================================
 
 % run and load expage constants
 make_consts_expage;
 load consts_expage;
+
+% Prefs
+Pref10 = consts.Pref10; Pref10unc = consts.Pref10unc;
+Pref26 = consts.Pref26; Pref26unc = consts.Pref26unc;
+% decay constant
+l10 = consts.l10; dell10 = consts.l10unc;
+l26 = consts.l26; dell26 = consts.l26unc;
 
 % display external/internal uncertainty info
 if extunc == 1 && intunc == 1;
@@ -77,45 +95,46 @@ elseif intunc == 1;
     fprintf(1,'internal uncertainties\n');
 end;
 
+% if there is no N10 or N26 in input: fill with 0
+if isfield(samplein,'N10') == 0; samplein.N10(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'N10unc') == 0; samplein.N10unc(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'std10') == 0; samplein.std10(1:numel(samplein.sample),1) = {'0'}; end;
+if isfield(samplein,'N26') == 0; samplein.N26(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'N26unc') == 0; samplein.N26unc(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'std26') == 0; samplein.std26(1:numel(samplein.sample),1) = {'0'}; end;
+
 % convert 10Be concentrations according to standards
-for i = 1:numel(samplein.N10);
-    be_mult(i,1) = consts.be_stds_cfs(strcmp(samplein.be_stds(i),consts.be_stds_names));
-end;
-samplein.N10 = samplein.N10 .* be_mult;
-samplein.delN10 = samplein.delN10 .* be_mult;
+[testi,stdi] = ismember(samplein.std10,consts.std10); % find index of standard conversion factors
+mult10 = consts.std10_cf(stdi); % pick out conversion factor
+samplein.N10 = samplein.N10 .* mult10;
+samplein.N10unc = samplein.N10unc .* mult10;
 
 % convert 26Al concentrations according to standards
-for i = 1:numel(samplein.N26);
-    al_mult(i,1) = consts.al_stds_cfs(strcmp(samplein.al_stds(i),consts.al_stds_names));
-end;
-samplein.N26 = samplein.N26 .* al_mult;
-samplein.delN26 = samplein.delN26 .* al_mult;
+[testi,stdi] = ismember(samplein.std26,consts.std26); % find index of standard conversion factors
+mult26 = consts.std26_cf(stdi); % pick out conversion factor
+samplein.N26 = samplein.N26 .* mult26;
+samplein.N26unc = samplein.N26unc .* mult26;
 
 % fix longitude values
 samplein.long(find(samplein.long < 0)) = samplein.long(find(samplein.long < 0)) + 360;
 
 % fix sample pressure
-std_v = strcmp(samplein.aa,'std');
-ant_v = strcmp(samplein.aa,'ant');
-pre_v = strcmp(samplein.aa,'pre');
-samplein.pressure(std_v) = ERA40atm(samplein.lat(std_v),samplein.long(std_v),samplein.elv(std_v));
-samplein.pressure(ant_v) = antatm(samplein.elv(ant_v));
-samplein.pressure(pre_v) = samplein.elv(pre_v);
-
-% fix erosion rate unit (mm/ka -> cm/yr)
-samplein.E = samplein.E .* 1E-4;
-
-% constants
-Pref10 = consts.P10_ref_nu; delPref10 = consts.delP10_ref_nu;
-Pref26 = consts.P26_ref_nu; delPref26 = consts.delP26_ref_nu;
-% decay constants
-l10 = consts.l10; dell10 = consts.dell10;
-l26 = consts.l26; dell26 = consts.dell26;
+if isfield(samplein,'pressure') == 0;
+    % if there is no pressure flag: use std
+    if isfield(samplein,'Pflag') == 0; samplein.Pflag(1:numel(samplein.sample),1) = {'std'}; end;
+    stdv = strcmp(samplein.Pflag,'std');
+    antv = strcmp(samplein.Pflag,'ant');
+    prev = strcmp(samplein.Pflag,'pre');
+    samplein.pressure(stdv) = ERA40atm(samplein.lat(stdv),samplein.long(stdv),samplein.elv(stdv));
+    samplein.pressure(antv) = antatm(samplein.elv(antv));
+    samplein.pressure(prev) = samplein.elv(prev);
+end;
 
 % declare pl parameters
-pl.N10n = []; pl.delN10n = []; pl.N26n = []; pl.delN26n = [];
+pl.N10n = []; pl.N10uncintn = []; pl.N10uncextn = [];
+pl.N26n = []; pl.N26uncintn = []; pl.N26uncextn = [];
 pl.P10sp = []; pl.P26sp = []; pl.P_mu10 = []; pl.P_mu26 = []; pl.P10z = []; pl.P26z = [];
-pl.Lsp = []; pl.RcEst = []; pl.SPhiAv = []; pl.thick_rho = []; pl.atm = []; pl.othercorr = [];
+pl.Lsp = []; pl.RcEst = []; pl.SPhiAv = []; pl.thick_dens = []; pl.atm = []; pl.shield = [];
 
 % fix for output
 output(1,1) = {'sample'};
@@ -139,33 +158,33 @@ if sum(samplein.N10+samplein.N26) > 0;
     end;
     if normNout == 1; % if writing normalized conc data
         output(1,end+1) = {'N10norm'}; outn(13) = max(outn)+1;
-        output(1,end+1) = {'N10unc'}; outn(14) = max(outn)+1;
-        output(1,end+1) = {'N26norm'}; outn(15) = max(outn)+1;
-        output(1,end+1) = {'N26unc'}; outn(16) = max(outn)+1;
+        if extunc == 1; output(1,end+1) = {'N10uncext'}; outn(14) = max(outn)+1; end;
+        if intunc == 1; output(1,end+1) = {'N10uncint'}; outn(15) = max(outn)+1; end;
+        output(1,end+1) = {'N26norm'}; outn(16) = max(outn)+1;
+        if extunc == 1; output(1,end+1) = {'N26uncext'}; outn(17) = max(outn)+1; end;
+        if intunc == 1; output(1,end+1) = {'N26uncint'}; outn(18) = max(outn)+1; end;
     end;
 end;
 
 % pick out samples one by one
 for i = 1:numel(samplein.lat);
-    sample.sample_name = samplein.sample_name(i);
+    sample.sample = samplein.sample(i);
     sample.lat = samplein.lat(i);
     sample.long = samplein.long(i);
-    sample.pressure = samplein.pressure(i);
     sample.thick = samplein.thick(i);
-    sample.rho = samplein.rho(i);
-    sample.othercorr = samplein.othercorr(i);
-    sample.E = samplein.E(i);
+    sample.dens = samplein.dens(i);
+    sample.shield = samplein.shield(i);
     sample.N10 = samplein.N10(i);
-    sample.delN10 = samplein.delN10(i);
-    sample.be_stds = samplein.be_stds(i,:);
+    sample.N10unc = samplein.N10unc(i);
+    sample.std10 = samplein.std10(i,:);
     sample.N26 = samplein.N26(i);
-    sample.delN26 = samplein.delN26(i);
-    sample.al_stds = samplein.al_stds(i,:);
+    sample.N26unc = samplein.N26unc(i);
+    sample.std26 = samplein.std26(i,:);
     sample.samplingyr = samplein.samplingyr(i);
     sample.pressure = samplein.pressure(i);
     
     % write sample name to output
-    output(i+1,1) = sample.sample_name;
+    output(i+1,1) = sample.sample;
     
     % check that there is 10Be and 26Al data
     if sample.N10 .* sample.N26 <= 0;
@@ -173,18 +192,18 @@ for i = 1:numel(samplein.lat);
     end;
     
     % display sample name
-    fprintf(1,'%.0f. %s',i,sample.sample_name{1});
+    fprintf(1,'%.0f. %s',i,sample.sample{1});
     
-    % fix Rc SPhi and tv
-    LSDfix = LSD_fix(sample.lat,sample.long,1E7,-1,consts);
+    % Fix tv, Rc, RcEst, SPhi, and w for sp and mu prod rate scaling
+    LSDfix = LSD_fix(sample.lat,sample.long,1E7,-1,sample.samplingyr,consts);
     
     % interpolate Lsp (Sato, 2008; Marrero et al., 2016)
     sample.Lsp = rawattenuationlength(sample.pressure,LSDfix.RcEst);
     
     % thickness scaling factor.
     if sample.thick > 0;
-        thickSF = (sample.Lsp./(sample.rho.*sample.thick)).* ...
-            (1-exp(((-1.*sample.rho.*sample.thick)./sample.Lsp)));
+        thickSF = (sample.Lsp./(sample.dens.*sample.thick)).* ...
+            (1-exp(((-1.*sample.dens.*sample.thick)./sample.Lsp)));
     else 
         thickSF = 1;
     end;
@@ -192,8 +211,8 @@ for i = 1:numel(samplein.lat);
     % if calculating uncertainties
     if extunc+intunc >= 1;
         % randomized 10Be and 26Al concentrations for mc simulation
-        sample.N10mc = normrnd(sample.N10,sample.delN10,[1 mc]);
-        sample.N26mc = normrnd(sample.N26,sample.delN26,[1 mc]);
+        sample.N10mc = normrnd(sample.N10,sample.N10unc,[1 mc]);
+        sample.N26mc = normrnd(sample.N26,sample.N26unc,[1 mc]);
         % too low N not allowed!
         sample.N10mc(sample.N10mc<1) = 1;
         sample.N26mc(sample.N26mc<1) = 1;
@@ -203,36 +222,39 @@ for i = 1:numel(samplein.lat);
     end;
     
     % spallation production scaling
-    Psp = LSDspal(sample.pressure,LSDfix.RcEst,consts.SPhiInf,LSDfix.w,1,1,consts);
+    Psp = P_sp_expage(sample.pressure,LSDfix.RcEst,consts.SPhiInf,LSDfix.w,consts,1,1);
     
     % randomized ref prod rates for Monte Carlo simulation
-    Pref10mc = normrnd(Pref10,delPref10,[1 mc]);
-    Pref26mc = normrnd(Pref26,delPref26,[1 mc]);
+    Pref10mc = normrnd(Pref10,Pref10unc,[1 mc]);
+    Pref26mc = normrnd(Pref26,Pref26unc,[1 mc]);
     
     % spallation prod rates
-    sample.Psp10 = Psp.sp10.*Pref10.*thickSF.*sample.othercorr;
-    sample.Psp26 = Psp.sp26.*Pref26.*thickSF.*sample.othercorr;
-    sample.Psp10mc = Psp.sp10.*Pref10mc.*thickSF.*sample.othercorr;
-    sample.Psp26mc = Psp.sp26.*Pref26mc.*thickSF.*sample.othercorr;
+    sample.Psp10 = Psp.sp10.*Pref10.*thickSF.*sample.shield;
+    sample.Psp26 = Psp.sp26.*Pref26.*thickSF.*sample.shield;
+    sample.Psp10mc = Psp.sp10.*Pref10mc.*thickSF.*sample.shield;
+    sample.Psp26mc = Psp.sp26.*Pref26mc.*thickSF.*sample.shield;
     
     % fix shielding depth vector z (g/cm2/yr)
     if erosion_burial == 1;
         sample.z = [0 logspace(0,5.3,100)]';
+        %sample.z = [(0:3:27) logspace(1.48,5.3,70)]';
     else;
         sample.z = 0;
     end;
-    zmu = sample.z + sample.thick.*sample.rho./2; % add half sample depth
+    zmu = sample.z + sample.thick.*sample.dens./2; % add half sample depth
     
     % muon production
     P_mu = P_mu_expage(zmu,sample.pressure,LSDfix.RcEst,consts.SPhiInf,1,1,consts,'no');
-    sample.Pmu10 = P_mu.mu10'.*sample.othercorr;
-    sample.Pmu26 = P_mu.mu26'.*sample.othercorr;
+    sample.Pmu10 = P_mu.mu10'.*sample.shield;
+    sample.Pmu26 = P_mu.mu26'.*sample.shield;
     
     % normalized N (sent out in results for plotting)
     N10norm = sample.N10./(sample.Psp10+sample.Pmu10(1));
-    N10norm_del = sample.delN10./(sample.Psp10+sample.Pmu10(1));
+    N10norm_uncint = sample.N10unc./(sample.Psp10+sample.Pmu10(1));
+    N10norm_uncext = sqrt(N10norm_uncint.^2 + (Pref10unc./Pref10.*N10norm).^2);
     N26norm = sample.N26./(sample.Psp26+sample.Pmu26(1));
-    N26norm_del = sample.delN26./(sample.Psp26+sample.Pmu26(1));
+    N26norm_uncint = sample.N26unc./(sample.Psp26+sample.Pmu26(1));
+    N26norm_uncext = sqrt(N26norm_uncint.^2 + (Pref26unc./Pref26.*N26norm).^2);
     
     % calculate exposure + burial
     if exposure_burial == 1;
@@ -270,6 +292,9 @@ for i = 1:numel(samplein.lat);
             end;
         else;
             fprintf(1,' \tno solution!');
+            output(i+1,outn(1)) = {'-'}; output(i+1,outn(4)) = {'-'};
+            if extunc == 1; output(i+1,outn(2)) = {'-'}; output(i+1,outn(5)) = {'-'}; end;
+            if intunc == 1; output(i+1,outn(3)) = {'-'}; output(i+1,outn(6)) = {'-'}; end;
         end;
     end;
     
@@ -280,28 +305,16 @@ for i = 1:numel(samplein.lat);
         % write to output
         if erobur.erosion>0.1;
             output(i+1,outn(7)) = {num2str(erobur.erosion,'%.2f')};
-            if extunc == 1;
-                output(i+1,outn(8)) = {num2str(erobur.erosion_uncext,'%.2f')};
-            end;
-            if intunc == 1;
-                output(i+1,outn(9)) = {num2str(erobur.erosion_uncint,'%.2f')};
-            end;
+            if extunc == 1; output(i+1,outn(8)) = {num2str(erobur.erosion_uncext,'%.2f')}; end;
+            if intunc == 1; output(i+1,outn(9)) = {num2str(erobur.erosion_uncint,'%.2f')}; end;
         else;
             output(i+1,outn(7)) = {num2str(erobur.erosion,'%.3f')};
-            if extunc == 1;
-                output(i+1,outn(8)) = {num2str(erobur.erosion_uncext,'%.3f')};
-            end;
-            if intunc == 1;
-                output(i+1,outn(9)) = {num2str(erobur.erosion_uncint,'%.3f')};
-            end;
+            if extunc == 1; output(i+1,outn(8)) = {num2str(erobur.erosion_uncext,'%.3f')}; end;
+            if intunc == 1; output(i+1,outn(9)) = {num2str(erobur.erosion_uncint,'%.3f')}; end;
         end;
         output(i+1,outn(10)) = {num2str(erobur.burial,'%.0f')};
-        if extunc == 1;
-            output(i+1,outn(11)) = {num2str(erobur.burial_uncext,'%.0f')};
-        end;
-        if intunc == 1;
-            output(i+1,outn(12)) = {num2str(erobur.burial_uncint,'%.0f')};
-        end;
+        if extunc == 1; output(i+1,outn(11)) = {num2str(erobur.burial_uncext,'%.0f')}; end;
+        if intunc == 1; output(i+1,outn(12)) = {num2str(erobur.burial_uncint,'%.0f')}; end;
         
         % display erosion/burial and fix output if no solution
         if exposure_burial == 1; fprintf(1,'\n'); end; % separate lines if both exposure/erosion
@@ -323,15 +336,20 @@ for i = 1:numel(samplein.lat);
             end;
         else;
             fprintf(1,' \tno solution!');
+            output(i+1,outn(7)) = {'-'}; output(i+1,outn(10)) = {'-'};
+            if extunc == 1; output(i+1,outn(8)) = {'-'}; output(i+1,outn(11)) = {'-'}; end;
+            if intunc == 1; output(i+1,outn(9)) = {'-'}; output(i+1,outn(12)) = {'-'}; end;
         end;
     end;
     
     % if writing normalized conc data
     if normNout > 0;
         output(i+1,outn(13)) = {num2str(N10norm,'%.6f')};
-        output(i+1,outn(14)) = {num2str(N10norm_del,'%.6f')};
-        output(i+1,outn(15)) = {num2str(N26norm,'%.6f')};
-        output(i+1,outn(16)) = {num2str(N26norm_del,'%.6f')};
+        if extunc == 1; output(i+1,outn(14)) = {num2str(N10norm_uncext,'%.6f')}; end;
+        if intunc == 1; output(i+1,outn(15)) = {num2str(N10norm_uncint,'%.6f')}; end;
+        output(i+1,outn(16)) = {num2str(N26norm,'%.6f')};
+        if extunc == 1; output(i+1,outn(17)) = {num2str(N26norm_uncext,'%.6f')}; end;
+        if intunc == 1; output(i+1,outn(18)) = {num2str(N26norm_uncint,'%.6f')}; end;
     end;
     
     % new line
@@ -339,18 +357,20 @@ for i = 1:numel(samplein.lat);
     
     % for plotting
     pl.N10n(end+1,1) = N10norm;
-    pl.delN10n(end+1,1) = N10norm_del;
+    pl.N10uncintn(end+1,1) = N10norm_uncint;
+    pl.N10uncextn(end+1,1) = N10norm_uncext;
     pl.N26n(end+1,1) = N26norm;
-    pl.delN26n(end+1,1) = N26norm_del;
+    pl.N26uncintn(end+1,1) = N26norm_uncint;
+    pl.N26uncextn(end+1,1) = N26norm_uncext;
     pl.P10sp(end+1,1) = sample.Psp10;
     pl.P26sp(end+1,1) = sample.Psp26;
     pl.P_mu10(end+1,1) = sample.Pmu10(1);
     pl.P_mu26(end+1,1) = sample.Pmu26(1);
     pl.Lsp(end+1,1) = sample.Lsp;
     pl.RcEst(end+1,1) = LSDfix.RcEst;
-    pl.thick_rho(end+1,1) = sample.thick * sample.rho;
+    pl.thick_dens(end+1,1) = sample.thick * sample.dens;
     pl.atm(end+1,1) = sample.pressure;
-    pl.othercorr(end+1,1) = sample.othercorr;
+    pl.shield(end+1,1) = sample.shield;
     
     clear sample;
 end;
@@ -663,7 +683,7 @@ if extunc == 1;
         [out.erosion_uncext out.burial_uncext] = erobur_mc(sample.z,N10mc,N26mc,l10mce,l26mce,...
             P10mce,P26mce,minemc,maxemc,mc,eN,burlim,out.erosion,out.burial);
         % convert erosion to mm/ka
-        out.erosion_uncext = out.erosion_uncext./sample.rho.*1E4;
+        out.erosion_uncext = out.erosion_uncext./sample.dens.*1E4;
     else;
         out.erosion_uncext = -1;
         out.burial_uncext = -1;
@@ -685,7 +705,7 @@ if intunc == 1;
         [out.erosion_uncint out.burial_uncint] = erobur_mc(sample.z,N10mc,N26mc,l10mci,l26mci,...
             P10mci,P26mci,minemc,maxemc,mc,eN,burlim,out.erosion,out.burial);
         % convert erosion to mm/ka
-        out.erosion_uncint = out.erosion_uncint./sample.rho.*1E4;
+        out.erosion_uncint = out.erosion_uncint./sample.dens.*1E4;
     else;
         out.erosion_uncint = -1;
         out.burial_uncint = -1;
@@ -693,13 +713,14 @@ if intunc == 1;
 end;
 % convert erosion to mm/ka
 if out.erosion >= 0;
-    out.erosion = out.erosion./sample.rho.*1E4;
+    out.erosion = out.erosion./sample.dens.*1E4;
 end;
 % end subfunction get_erosion_burial ===============================================================
 
 
 % subfunction erobur_mc ============================================================================
-function [erosion_unc burial_unc] = erobur_mc(z,N10mc,N26mc,l10mc,l26mc,P10mc,P26mc,minemc,maxemc,mc,eN,burlim,ero_mid,bur_mid);
+function [erosion_unc burial_unc] = erobur_mc(z,N10mc,N26mc,l10mc,l26mc,P10mc,P26mc,minemc,...
+    maxemc,mc,eN,burlim,ero_mid,bur_mid);
 % this function calculates the mc uncertainties for erosion+burial
 burtestmc = burlim+1; % parameter for while loop
 loopN = 1; % for first round in while loop
@@ -795,19 +816,54 @@ box on;
 
 % simple exposure line,
 if pl.expline > 0;
+    pl_expline(pl,consts);
+end;
+
+% erosion line
+if pl.eline > 0;
+    pl_eline(pl,consts);
+end;
+
+% probability contours
+if pl.probcontours > 0;
+    if pl.intunc == 1; pl_probcontours(pl,pl.N10uncintn,pl.N26uncintn); end;
+    if pl.extunc == 1; pl_probcontours(pl,pl.N10uncextn,pl.N26uncextn); end;
+end;
+
+% sigma lines
+if pl.sigma1line+pl.sigma2line > 0;
+    if pl.intunc == 1; pl_sigmalines(pl,pl.N10uncintn,pl.N26uncintn); end;
+    if pl.extunc == 1; pl_sigmalines(pl,pl.N10uncextn,pl.N26uncextn); end;
+end;
+
+% sample points
+if pl.points > 0;
+    plot(pl.N10n,pl.N26n./pl.N10n,'.','color',pl.sampleclr,'markersize',15);
+end;
+
+% fix and display plot
+% fix axis
+axis([1000 3000000 0.2 1.2]);
+xlabel('[^{10}Be]*');
+ylabel('[^{26}Al]*/[^{10}Be]*');
+
+set(gca,'layer','top'); % plot axis on top
+set(gca,'XScale','log'); % fix for matlab
+set(gcf,'visible','on'); % display plot
+hold off;
+% end subfunction plotting =========================================================================
+
+
+% subfunction pl_expline ===========================================================================
+function pl_expline(pl,consts);
     % create data for the simple-exposure line including ratio uncertainties
     tempt = logspace(0,7,100);
+    tempt = [1 (100:100:900) logspace(3,7,60)];
     be = (1/consts.l10)*(1-exp(-consts.l10*tempt));
     al = (1/consts.l26)*(1-exp(-consts.l26*tempt));
     al_be = al./be;
     
-    albe_P_del = sqrt((consts.delP10_ref_nu./consts.P10_ref_nu)^2 + ...
-        (consts.delP26_ref_nu./consts.P26_ref_nu)^2);
-    al_be_high = al_be.*(1 + albe_P_del);
-    al_be_low = al_be.*(1 - albe_P_del);
-    
-    % plot ratio uncertainty area and simple exposure line
-    patch([be flip(be)],[al_be_high flip(al_be_low)],[0.9 0.9 0.9],'EdgeColor','none');
+    % plot simple exposure line
     semilogx(be,al_be,'color','black');
     
     if pl.exposure_burial == 1;
@@ -850,18 +906,19 @@ if pl.expline > 0;
         semilogx(path_be1000,path_al1000./path_be1000,'linestyle','--','color','black');
         semilogx(path_be10000,path_al10000./path_be10000,'linestyle','--','color','black');
     end;
-end;
+% end subfunction pl_expline =======================================================================
 
-% erosion line
-if pl.eline > 0;
+
+% subfunction pl_eline =============================================================================
+function pl_eline(pl,consts);
     fprintf(1,'calculating erosion end-point line...');
     % Precompute P_mu(z) to ~200,000 g/cm2 
     % start at the average sample mid-depth.
     z = [0 logspace(0,5.3,100)]';
-    z_mu = z+(mean(pl.thick_rho)./2);
+    z_mu = z+(mean(pl.thick_dens)./2);
     P_mu_z = P_mu_expage(z_mu,mean(pl.atm),mean(pl.RcEst),consts.SPhiInf,1,1,consts,'no');
-    P_mu_z10 = P_mu_z.mu10'.*mean(pl.othercorr);
-    P_mu_z26 = P_mu_z.mu26'.*mean(pl.othercorr);
+    P_mu_z10 = P_mu_z.mu10'.*mean(pl.shield);
+    P_mu_z26 = P_mu_z.mu26'.*mean(pl.shield);
     P10sp_z = mean(pl.P10sp).*exp(-z./mean(pl.Lsp));
     P26sp_z = mean(pl.P26sp).*exp(-z./mean(pl.Lsp));
     P10z = (P_mu_z10+P10sp_z);
@@ -937,47 +994,49 @@ if pl.eline > 0;
         semilogx(path_bee4,path_ale4./path_bee4,'linestyle','--','color','blue');
         semilogx(path_bee5,path_ale5./path_bee5,'linestyle','--','color','blue');
     end;
-end;
+% end subfunction pl_eline =========================================================================
 
-% probability contours
-if pl.probcontours > 0;
+
+% subfunction pl_probcontours ======================================================================
+function pl_probcontours(pl,N10unc,N26unc);
     % Estimate range and create mesh
     Rv = pl.N26n./pl.N10n;
-    delRv = sqrt((pl.delN26n./pl.N26n).^2 + (pl.delN10n./pl.N10n).^2);
+    delRv = sqrt((N26unc./pl.N26n).^2 + (N10unc./pl.N10n).^2);
     
-    xmin = min(pl.N10n - 4.*pl.delN10n);
-    xmax = max(pl.N10n + 4.*pl.delN10n);
+    xmin = min(pl.N10n - 4.*N10unc);
+    xmax = max(pl.N10n + 4.*N10unc);
     Rmin = min(Rv.*(1 - 4.*delRv));
     Rmax = max(Rv.*(1 + 4.*delRv));
     
-    [xa,ya] = meshgrid(xmin:0.1 * mean(pl.delN10n):xmax,Rmin:0.1.*mean(Rv).*mean(delRv):Rmax);
+    [xa,ya] = meshgrid(xmin:0.1 * mean(N10unc):xmax,Rmin:0.1.*mean(Rv).*mean(delRv):Rmax);
     
     Proba = zeros(size(xa));
     
     for j = 1:numel(pl.N10n(:,1));
         % calculate PDF
-        Proba1 = xa.*exp(-0.5.*(((ya.*xa-pl.N26n(j))./pl.delN26n(j)).^2+((xa-pl.N10n(j))./...
-            pl.delN10n(j)).^2));
+        Proba1 = xa.*exp(-0.5.*(((ya.*xa-pl.N26n(j))./N26unc(j)).^2+((xa-pl.N10n(j))./...
+            N10unc(j)).^2));
         Proba = Proba + Proba1;
     end;
     
     contour(xa,ya,Proba);
-end;
+% end subfunction pl_probcontours ==================================================================
 
-% sigma lines
-if pl.sigma1line+pl.sigma2line > 0;
+
+% subfunction pl_sigmalines ========================================================================
+function pl_sigmalines(pl,N10unc,N26unc);
     % loop for each sample with al/be data
     for j = 1:numel(pl.N10n);
         % Estimate range and create mesh
         R = (pl.N26n(j)/pl.N10n(j));
-        delR = sqrt((pl.delN26n(j) / pl.N26n(j))^2 + (pl.delN10n(j) / pl.N10n(j))^2);
+        delR = sqrt((N26unc(j) / pl.N26n(j))^2 + (N10unc(j) / pl.N10n(j))^2);
         
-        [x,y] = meshgrid((pl.N10n(j) - 4*pl.delN10n(j)):(0.1*pl.delN10n(j)):(pl.N10n(j) +...
-            4*pl.delN10n(j)),(R*(1 - 4*delR)):(0.1*R*delR):(R*(1 + 4*delR)));
+        [x,y] = meshgrid((pl.N10n(j) - 4*N10unc(j)):(0.1*N10unc(j)):(pl.N10n(j) +...
+            4*N10unc(j)),(R*(1 - 4*delR)):(0.1*R*delR):(R*(1 + 4*delR)));
         
         % calculate PDF
-        Prob = x.*exp(-0.5.*((((y.*x) - pl.N26n(j))./pl.delN26n(j)).^2 + ...
-            ((x - pl.N10n(j))./pl.delN10n(j)).^2));
+        Prob = x.*exp(-0.5.*((((y.*x) - pl.N26n(j))./N26unc(j)).^2 + ...
+            ((x - pl.N10n(j))./N10unc(j)).^2));
         
         % Now find the 68% probability contour.
         % Normalize to volume = 1
@@ -1020,7 +1079,12 @@ if pl.sigma1line+pl.sigma2line > 0;
                 contourSizes(contourToPlot)));
             
             % plot 1 sigma uncertainty
-            sd1 = plot(x1,y1,'color','red');
+            if pl.uncarea == 1;
+                sd1 = patch(x1,y1,pl.sampleclr,'EdgeColor','none','FaceAlpha',...
+                    min(0.8./numel(N10unc),0.4));
+            else;
+                sd1 = plot(x1,y1,'color',pl.sampleclr);
+            end;
         end;
         
         if pl.sigma2line > 0;
@@ -1035,29 +1099,14 @@ if pl.sigma1line+pl.sigma2line > 0;
                 contourSizes(contourToPlot)));
             
             % plot 2 sigma uncertainty
-            sd2 = plot(x2,y2,'color','red');
+            if pl.uncarea == 1;
+                sd2 = patch(x2,y2,pl.sampleclr,'EdgeColor','none','FaceAlpha',0.8./numel(N10unc));
+            else;
+                sd2 = plot(x2,y2,'color',pl.sampleclr);
+            end;
         end;
     end;
-end;
-
-% sample points
-if pl.points > 0;
-    for j = 1:numel(pl.N10n);
-        plot(pl.N10n(j),pl.N26n(j)/pl.N10n(j),'.','color','red','markersize',15);
-    end;
-end;
-
-% fix and display plot
-% fix axis
-axis([1000 3000000 0.2 1.2]);
-xlabel('[^{10}Be]*');
-ylabel('[^{26}Al]*/[^{10}Be]*');
-
-set(gca,'layer','top'); % plot axis on top
-set(gca,'XScale','log'); % fix for matlab
-set(gcf,'visible','on'); % display plot
-hold off;
-% end subfunction plotting =========================================================================
+% end subfunction pl_sigmalines ====================================================================
 
 
 % subfunction trapz_m ==============================================================================
