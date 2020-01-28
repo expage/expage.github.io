@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Braakhekke et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-202001<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>Colma-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18317 &#177; 1669<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braakhekke-et-al-in-press.txt">Braakhekke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.376,45.835</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Colma-23a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13790 &#177; 1176<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braakhekke-et-al-in-press.txt">Braakhekke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.379,45.840</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Grassona-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19024 &#177; 1521<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braakhekke-et-al-in-press.txt">Braakhekke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.370,45.818</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Antenna-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8534 &#177; 881<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braakhekke-et-al-in-press.txt">Braakhekke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.381,45.814</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Briallo-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24263 &#177; 3001<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braakhekke-et-al-in-press.txt">Braakhekke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.379,45.778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Curlera-35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12296 &#177; 1462<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braakhekke-et-al-in-press.txt">Braakhekke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.387,45.769</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bugnate-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22771 &#177; 1823<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braakhekke-et-al-in-press.txt">Braakhekke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.395,45.754</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Buccone-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23065 &#177; 1825<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braakhekke-et-al-in-press.txt">Braakhekke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.434,45.766</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Armeno-39</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19510 &#177; 1523<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braakhekke-et-al-in-press.txt">Braakhekke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.436,45.813</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Carcegna-50</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27632 &#177; 2454<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braakhekke-et-al-in-press.txt">Braakhekke et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.423,45.812</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

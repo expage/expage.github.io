@@ -1,0 +1,20 @@
+Publication	Sample-type	Sample-ID	Group-ID	Sample	Lat(DD)	Long(DD)	Elev(masl)	Thickn(cm)	Density(g/cm3)	Shield	10Be-conc(at/g)	10Be-unc(at/g)	10Be-std	26Al-conc(at/g)	26Al-unc(at/g)	26Al-std	Sampl-year	Publ-10-age(yr)	Publ-10-unc(yr)	Publ-26-age(yr)	Publ-26-unc(yr)	10Be-age(yr)	10-ext-unc(yr)	10-int-unc(yr)	26Al-age(yr)	26-ext-unc(yr)	26-int-unc(yr)	Extra-publ
+Orr et al. (2019)	sediments	Orr2019-1	Orr2019-A	Gsup1	30.9000	79.0910	4315	5	2	0.98	11000	2000	07KNSTD	0	0	0	2017	-	-	-	-	317	60	58	-	-	-	-
+Orr et al. (2019)	sediments	Orr2019-2	Orr2019-A	Gsup2	30.9050	79.0890	4280	5	2	0.98	16000	3000	07KNSTD	0	0	0	2017	-	-	-	-	469	92	88	-	-	-	-
+Orr et al. (2019)	sediments	Orr2019-3	Orr2019-B	Gsup3	30.9000	79.0940	4325	5	2	0.98	27000	3000	07KNSTD	0	0	0	2017	-	-	-	-	761	94	85	-	-	-	-
+Orr et al. (2019)	sediments	Orr2019-4	Orr2019-B	Gsup4	30.9060	79.0910	4285	5	2	0.98	25000	3000	07KNSTD	0	0	0	2017	-	-	-	-	721	95	87	-	-	-	-
+Orr et al. (2019)	sediments	Orr2019-5	Orr2019-B	Gsup5	30.9200	79.0830	4130	5	2	0.98	26000	3000	07KNSTD	0	0	0	2017	-	-	-	-	802	103	93	-	-	-	-
+Orr et al. (2019)	sediments	Orr2019-6	Orr2019-C	Gsup6	30.9210	79.0850	4130	5	2	0.97	15000	4000	07KNSTD	0	0	0	2017	-	-	-	-	478	130	128	-	-	-	-
+
+Reference:
+Orr EN, Owen LA, Saha S, Caffee MW, 2019. Rates of rockwall slope erosion in the upper Bhagirathi catchment, Garhwal Himalaya. Earth Surface Processes and Landforms 44, 3108-3127.
+
+Data comments:
+Sample coordinates estimated based on Figure 2B.
+Sample thickness assumed to be 5 cm.
+Sample density assumed to be 2 g/cm3.
+Topographic shielding factors calculated from SRTM 30 m dem using the shielding.m function in the expage calculator.
+10Be standard assumed to be 07KNSTD.
+Sampling year assumed to be 2017.
+
+expage.github.io - data from expage-202001
