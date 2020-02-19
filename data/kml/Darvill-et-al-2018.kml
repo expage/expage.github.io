@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Darvill et al. (2018)</name>
+<description>
+<![CDATA[
+Data from expage-202002<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>16-CAL-19-BUX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18967 &#177; 1441<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.02376,51.58799</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-20-BUX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17006 &#177; 1592<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.02325,51.58850</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-21-BUX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18210 &#177; 1067<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.02283,51.58823</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-22-BUX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18589 &#177; 1267<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.02187,51.58754</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-23-BUX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18304 &#177; 1059<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-128.02553,51.58860</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-15-SI</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18273 &#177; 1234<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.07446,51.48955</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-16-SI</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18505 &#177; 1239<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.07445,51.48962</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-17-SI</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17422 &#177; 1012<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.07439,51.48964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-18-SI</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17828 &#177; 1102<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.07422,51.48961</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-02-HUN</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17157 &#177; 1316<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.19583,51.96000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-03-HUN</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17856 &#177; 1047<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-128.19585,51.96006</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-04-HUN</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15058 &#177; 858<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.19528,51.96028</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-05-HUN</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17142 &#177; 1021<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.19679,51.95959</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-06-HUN</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16132 &#177; 1069<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.19696,51.95924</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-CAL-12-BUX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18848 &#177; 2103<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.03066,51.59385</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-CAL-13-BUX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16123 &#177; 1124<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.03146,51.59396</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-CAL-14-BUX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16208 &#177; 1087<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.03186,51.59376</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-CAL-15-BUX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16783 &#177; 1121<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.03145,51.59389</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-CAL-16-BUX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17332 &#177; 1214<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-128.03145,51.59389</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-CAL-06-HEC</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15543 &#177; 1203<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.06392,51.66651</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-CAL-07-HEC</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13273 &#177; 921<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.06392,51.66651</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-CAL-08-HEC</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14211 &#177; 1248<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.06404,51.66602</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-CAL-09-HEC</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14625 &#177; 995<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-128.06462,51.66533</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-CAL-10-HEC</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26078 &#177; 1727<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-128.06590,51.66371</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-CAL-11-HEC</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22240 &#177; 1455<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-128.06590,51.66371</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-08-KING</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14010 &#177; 1214<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-127.88663,52.03553</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-09-KING</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15466 &#177; 884<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-127.88640,52.03619</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-10-KING</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15500 &#177; 1181<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-127.88646,52.03622</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-11-KING</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13879 &#177; 986<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-127.88649,52.03623</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-12-RIV</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13823 &#177; 1011<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-127.58189,51.62722</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-13-RIV</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13918 &#177; 862<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-127.58035,51.62640</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-CAL-14-RIV</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14264 &#177; 849<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2018.txt">Darvill et al. (2018)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-127.58035,51.62640</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

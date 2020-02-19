@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ceperley et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202002<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>PG-FI-001-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24507 &#177; 1570<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.7306,80.6355</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-FI-002-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12863 &#177; 792<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.7323,80.6363</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-FI-003-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16933 &#177; 1032<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.7321,80.6365</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-FI-004-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17196 &#177; 1109<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.7337,80.6370</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-FI-005-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21524 &#177; 1460<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.7271,80.6365</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-FI-006-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20695 &#177; 1249<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.7296,80.6360</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-JI-001-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32841 &#177; 2127<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.51956,81.25072</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-JI-002-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10681 &#177; 729<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.5257,81.2516</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-JI-003-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15271 &#177; 979<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.5275,81.2513</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-JI-004-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9227 &#177; 638<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.5277,81.2513</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-KI-001-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7777 &#177; 509<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.1939,80.4874</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-KI-003-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7940 &#177; 531<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.2095,80.4908</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-KI-004-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8797 &#177; 568<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.2088,80.4911</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-KI-005-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9165 &#177; 705<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.2098,80.4915</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-KI-006-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7203 &#177; 736<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-67.2086,80.4944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-WC-001-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18518 &#177; 1152<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.4816,80.5391</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-WC-003-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22515 &#177; 1365<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.4846,80.5384</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-WC-004-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19156 &#177; 1369<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.4829,80.5385</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-WC-005-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20478 &#177; 1254<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.2154,80.5656</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-001-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21229 &#177; 1304<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.7900,80.2944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-002-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20438 &#177; 1250<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.7907,80.2942</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-003-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6626 &#177; 474<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.7859,80.2939</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-004-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46950 &#177; 2802<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.7344,80.3199</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-008-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7354 &#177; 478<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.9115,80.3686</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-009-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7514 &#177; 537<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.9226,80.3697</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-010-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18642 &#177; 1163<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.3150,80.4792</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-013-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10396 &#177; 663<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.3169,80.4801</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-014-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7980 &#177; 546<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.3129,80.4791</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-015-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13097 &#177; 836<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.7322,80.4720</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-016-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18418 &#177; 1180<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.7473,80.4728</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-020-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14415 &#177; 905<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.8538,80.1778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-021-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16317 &#177; 1011<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.8391,80.1772</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-022-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17919 &#177; 1165<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.8253,80.1746</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-024-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64103 &#177; 3754<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-63.8621,80.1771</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-027-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 74034 &#177; 5231<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.4486,80.3516</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-028-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29649 &#177; 1875<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.4556,80.3542</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-029-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23737 &#177; 1405<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.2289,80.2048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-030-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52574 &#177; 3074<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.2203,80.2026</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-033-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13818 &#177; 850<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.2377,80.2009</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-037-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 84018 &#177; 4900<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.0316,80.0904</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-038-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17228 &#177; 1050<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.0408,80.0867</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-039-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35429 &#177; 2082<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.8195,80.1827</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-041-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10550 &#177; 660<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.8248,80.1828</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-042-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8138 &#177; 517<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.8313,80.1815</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-043-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12389 &#177; 780<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.1781,80.5369</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-046-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27735 &#177; 1643<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.1682,80.5364</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-047-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14371 &#177; 930<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.1605,80.5397</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-049-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7784 &#177; 516<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.4407,80.5593</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-INT-051-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52371 &#177; 3167<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-61.4536,80.5575</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-003-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10023 &#177; 709<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.2813,80.4109</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-005-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9288 &#177; 613<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.2791,80.4105</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-004-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15576 &#177; 1065<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.1671,80.4133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-010-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8425 &#177; 580<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.2073,80.3909</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-012-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7651 &#177; 538<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.1417,80.4278</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-013-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11694 &#177; 825<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.1512,80.4292</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-015-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7314 &#177; 516<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.1564,80.4300</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-017-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12493 &#177; 849<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.1613,80.4305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-021-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7529 &#177; 534<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.1157,80.4238</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-023-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12356 &#177; 834<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.0913,80.4213</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-025-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9053 &#177; 650<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.0999,80.4127</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-028-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7210 &#177; 630<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.1158,80.4169</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-029-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7407 &#177; 538<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.1171,80.4169</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-031-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8833 &#177; 604<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.1174,80.4219</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-033-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8908 &#177; 600<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.9611,80.3964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-034-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7649 &#177; 577<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.9500,80.3937</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-037-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19366 &#177; 1299<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.9532,80.3890</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-038-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8337 &#177; 585<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.9477,80.3878</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-039-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8544 &#177; 675<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.9366,80.3889</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG-TRA-041-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7587 &#177; 557<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ceperley-et-al-2020.txt">Ceperley et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.9892,80.4001</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

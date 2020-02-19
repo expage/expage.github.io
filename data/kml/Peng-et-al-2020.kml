@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Peng et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202002<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>YDT15-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 159 &#177; 16<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.99504,28.28508</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT15-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2391 &#177; 143<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.99490,28.28515</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT15-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 508 &#177; 47<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.99380,28.28378</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT15-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 999 &#177; 242<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.99367,28.28374</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT15-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 517 &#177; 124<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.99375,28.28371</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT15-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 542 &#177; 74<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.99385,28.28367</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT15-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 188 &#177; 33<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.99351,28.28325</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-60</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1195 &#177; 71<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9901,28.2799</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-61</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1285 &#177; 79<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9898,28.2786</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-62</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1295 &#177; 78<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9899,28.2789</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-63</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1156 &#177; 68<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9897,28.2782</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-64</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1183 &#177; 72<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9895,28.2776</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-65</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1645 &#177; 95<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9897,28.2809</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-66</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1492 &#177; 88<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9897,28.2792</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-67</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2178 &#177; 127<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9893,28.2780</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-68</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1737 &#177; 99<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9889,28.2767</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-69</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1096 &#177; 65<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9889,28.2764</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-45</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2291 &#177; 563<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9895,28.2797</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-46</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2139 &#177; 147<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9895,28.2798</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-47</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2672 &#177; 157<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9894,28.2789</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-48</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2369 &#177; 154<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9893,28.2786</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-49</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1825 &#177; 109<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9888,28.2769</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2988 &#177; 331<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9891,28.2803</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3455 &#177; 262<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9891,28.2799</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2905 &#177; 341<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9891,28.2811</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-43</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3392 &#177; 197<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9891,28.2814</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YDT14-44</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3580 &#177; 215<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peng-et-al-2020.txt">Peng et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.9890,28.2817</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

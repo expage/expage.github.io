@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dong et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202002<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>AET1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19573 &#177; 1203<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.383920,48.084272</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AET2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20692 &#177; 1219<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.384076,48.084358</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AET3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19881 &#177; 1172<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.384285,48.084301</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AET4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19729 &#177; 1208<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.383491,48.084129</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AET5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16925 &#177; 1039<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.383662,48.084291</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AET6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22440 &#177; 1332<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.387160,48.087718</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AET7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19286 &#177; 1185<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.392232,48.089491</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AET8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14611 &#177; 993<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.391049,48.089460</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AET9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20284 &#177; 1201<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.389067,48.088517</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AET10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30575 &#177; 1842<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.390022,48.089150</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19AET01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37634 &#177; 2541<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.388630,48.088162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19AET02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33114 &#177; 4043<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.388550,48.088130</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19AET03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17817 &#177; 1077<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.388210,48.088050</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19AET04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34643 &#177; 2121<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.388167,48.087985</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19AET05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37652 &#177; 2216<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.387717,48.087763</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19AET06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37277 &#177; 2239<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.387468,48.087663</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19AET07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16739 &#177; 1074<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.387230,48.087653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19AET08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38885 &#177; 2340<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.389540,48.088705</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19AET09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17496 &#177; 1054<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.392965,48.089412</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19AET10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34268 &#177; 2209<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2020.txt">Dong et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.394005,48.089323</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
