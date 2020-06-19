@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>García-Ruiz et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202006<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>NEG-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13284 &#177; 1046<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/García-Ruiz-et-al-2020.txt">García-Ruiz et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-2.7538,42.0440</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NEG-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17123 &#177; 1107<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/García-Ruiz-et-al-2020.txt">García-Ruiz et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.7491,42.0449</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NEG-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19664 &#177; 1256<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/García-Ruiz-et-al-2020.txt">García-Ruiz et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.7493,42.0458</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NEG-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16721 &#177; 1067<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/García-Ruiz-et-al-2020.txt">García-Ruiz et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.7488,42.0479</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NEG-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18178 &#177; 1230<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/García-Ruiz-et-al-2020.txt">García-Ruiz et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.7507,42.0483</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NEG-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16188 &#177; 1048<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/García-Ruiz-et-al-2020.txt">García-Ruiz et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.7506,42.0466</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NEG-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16317 &#177; 1057<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/García-Ruiz-et-al-2020.txt">García-Ruiz et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.7507,42.0466</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NEG-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16626 &#177; 1061<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/García-Ruiz-et-al-2020.txt">García-Ruiz et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-2.7504,42.0483</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

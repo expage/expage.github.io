@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Goodfellow et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-202006<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>TROLL-16-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6755 &#177; 1350<br/>
+<sup>26</sup>Al: 10285 &#177; 1829<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2019.txt">Goodfellow et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.40736,58.38628</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TROLL-16-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9791 &#177; 1334<br/>
+<sup>26</sup>Al: 7028 &#177; 1391<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2019.txt">Goodfellow et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.40434,58.38768</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TROLL-17-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8103 &#177; 586<br/>
+<sup>26</sup>Al: 8901 &#177; 871<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2019.txt">Goodfellow et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.40623,58.38333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TROLL-16-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10381 &#177; 908<br/>
+<sup>26</sup>Al: 10089 &#177; 1236<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2019.txt">Goodfellow et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.53526,58.31751</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TROLL-16-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11149 &#177; 852<br/>
+<sup>26</sup>Al: 10249 &#177; 1075<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2019.txt">Goodfellow et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.53526,58.31751</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TROLL-16-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13045 &#177; 1128<br/>
+<sup>26</sup>Al: 14258 &#177; 1340<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2019.txt">Goodfellow et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.33619,58.28199</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TROLL-16-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13221 &#177; 1031<br/>
+<sup>26</sup>Al: 13102 &#177; 1289<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2019.txt">Goodfellow et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.33622,58.28200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TROLL-16-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11838 &#177; 942<br/>
+<sup>26</sup>Al: 13734 &#177; 1385<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2019.txt">Goodfellow et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.33628,58.28198</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TROLL-17-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 44595 &#177; 2785<br/>
+<sup>26</sup>Al: 46314 &#177; 3559<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2019.txt">Goodfellow et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.30083,58.27873</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TROLL-17-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13351 &#177; 1000<br/>
+<sup>26</sup>Al: 11855 &#177; 1621<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2019.txt">Goodfellow et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.30108,58.27849</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

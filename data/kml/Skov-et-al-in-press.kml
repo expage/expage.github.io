@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Skov et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-202006<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>GL1644</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62784 &#177; 3671<br/>
+<sup>26</sup>Al: 49883 &#177; 6232<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-18.9101,76.4625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1645</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 59864 &#177; 3473<br/>
+<sup>26</sup>Al: 48550 &#177; 6047<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-18.9101,76.4625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1646</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 44869 &#177; 2623<br/>
+<sup>26</sup>Al: 36050 &#177; 4488<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-18.9100,76.4625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1649</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 171122 &#177; 10304<br/>
+<sup>26</sup>Al: 146597 &#177; 19132<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-19.0633,76.4946</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1647</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13277 &#177; 809<br/>
+<sup>26</sup>Al: 10954 &#177; 1158<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-19.0633,76.4946</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1648</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 207386 &#177; 12382<br/>
+<sup>26</sup>Al: 166061 &#177; 17816<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-19.0633,76.4946</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1650</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12654 &#177; 891<br/>
+<sup>26</sup>Al: 11432 &#177; 1422<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-18.9655,76.6338</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1651</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12504 &#177; 922<br/>
+<sup>26</sup>Al: 11554 &#177; 1472<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-18.9653,76.6338</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1652</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12783 &#177; 989<br/>
+<sup>26</sup>Al: 11495 &#177; 1524<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-18.9652,76.6338</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1653</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11803 &#177; 832<br/>
+<sup>26</sup>Al: 11188 &#177; 1410<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-18.9659,76.6337</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1660</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9416 &#177; 636<br/>
+<sup>26</sup>Al: 8608 &#177; 1138<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-21.4635,76.8851</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1661</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10300 &#177; 1228<br/>
+<sup>26</sup>Al: 8266 &#177; 1238<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-21.4651,76.8855</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1662</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8907 &#177; 596<br/>
+<sup>26</sup>Al: 8832 &#177; 946<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-21.4653,76.8857</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1663</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11377 &#177; 946<br/>
+<sup>26</sup>Al: 9470 &#177; 1320<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-21.2417,76.8881</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1664</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10260 &#177; 733<br/>
+<sup>26</sup>Al: 9730 &#177; 1043<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-21.2407,76.8876</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1665</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8839 &#177; 700<br/>
+<sup>26</sup>Al: 9489 &#177; 998<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-21.2402,76.8881</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1666</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30026 &#177; 1805<br/>
+<sup>26</sup>Al: 24673 &#177; 2504<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-21.1433,76.8975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1667</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39650 &#177; 2434<br/>
+<sup>26</sup>Al: 34026 &#177; 3574<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-21.1417,76.8988</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1668</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57555 &#177; 3385<br/>
+<sup>26</sup>Al: 39597 &#177; 4047<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-21.1412,76.8988</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1669</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25832 &#177; 1667<br/>
+<sup>26</sup>Al: 21868 &#177; 2213<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-20.9239,76.8800</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1670</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12446 &#177; 903<br/>
+<sup>26</sup>Al: 10986 &#177; 1163<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-20.9239,76.8800</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1671</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26405 &#177; 1600<br/>
+<sup>26</sup>Al: 21142 &#177; 2637<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-20.9246,76.8799</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1672</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12533 &#177; 829<br/>
+<sup>26</sup>Al: 12207 &#177; 1554<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-20.9234,76.8799</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1674</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21360 &#177; 1285<br/>
+<sup>26</sup>Al: 19958 &#177; 2028<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-20.9243,76.8798</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1643</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13399 &#177; 842<br/>
+<sup>26</sup>Al: 13241 &#177; 1459<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Skov-et-al-in-press.txt">Skov et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-18.7663,76.2901</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Lesnek et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202006<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>17JB028</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17260 &#177; 1068<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.1921,56.0881</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17JB042</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11266 &#177; 757<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.1887,56.0845</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17JB043</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12719 &#177; 814<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.1888,56.0848</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16JB051</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14186 &#177; 894<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-132.9668,55.4074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17JB027</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15695 &#177; 966<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-132.7576,55.0881</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17JB040</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16642 &#177; 1010<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-132.7596,55.1015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17JB041</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16654 &#177; 995<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-132.7580,55.1023</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16JB045</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12090 &#177; 734<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-133.4987,56.2424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16JB048</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14652 &#177; 861<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-133.4331,56.2135</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17JB029</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15175 &#177; 905<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-132.7000,56.2914</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17JB030</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14852 &#177; 871<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-132.6999,56.2915</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17SEAK-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11187 &#177; 677<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-132.6989,56.2910</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17SEAK-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11062 &#177; 685<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-132.6991,56.2905</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17SEAK-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14502 &#177; 911<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-131.7723,56.0764</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17SEAK-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14446 &#177; 867<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-131.7724,56.0756</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17JB026</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14554 &#177; 901<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-131.1585,54.9265</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17SEAK-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6575 &#177; 411<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-131.6732,56.4935</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17SEAK-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9880 &#177; 592<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-131.6764,56.4929</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17SEAK-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12344 &#177; 753<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-131.6765,56.4928</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17SEAK-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5357 &#177; 352<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-131.6115,56.3159</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17SEAK-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7707 &#177; 474<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-131.6129,56.3161</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17SEAK-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6652 &#177; 432<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-131.6136,56.3166</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17SEAK-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9644 &#177; 606<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-131.4056,55.6515</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17SEAK-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11121 &#177; 702<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-131.4057,55.6514</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17SEAK-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11851 &#177; 775<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-131.4272,55.6302</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17SEAK-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11919 &#177; 823<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-131.4286,55.6301</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17SEAK-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11196 &#177; 825<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lesnek-et-al-2020.txt">Lesnek et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-131.5708,55.3626</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

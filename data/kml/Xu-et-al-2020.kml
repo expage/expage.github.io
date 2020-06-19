@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Xu et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202006<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>NQPGL15-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16561 &#177; 969<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Xu-et-al-2020.txt">Xu et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.1173,29.9202</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQPGL15-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17090 &#177; 992<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Xu-et-al-2020.txt">Xu et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.1172,29.9202</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQPGL15-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16879 &#177; 990<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Xu-et-al-2020.txt">Xu et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.1175,29.9202</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQPGL15-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16743 &#177; 980<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Xu-et-al-2020.txt">Xu et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.1160,29.9198</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQPGL15-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16555 &#177; 966<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Xu-et-al-2020.txt">Xu et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.1163,29.9199</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQPGL15-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14562 &#177; 855<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Xu-et-al-2020.txt">Xu et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.1135,29.9213</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQPGL15-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21299 &#177; 1237<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Xu-et-al-2020.txt">Xu et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.1131,29.9211</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQPGL15-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31960 &#177; 1831<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Xu-et-al-2020.txt">Xu et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.1129,29.9210</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQPGL15-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14411 &#177; 856<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Xu-et-al-2020.txt">Xu et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.1128,29.9211</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQPGL15-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15404 &#177; 903<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Xu-et-al-2020.txt">Xu et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.1133,29.9211</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQPGL15-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12739 &#177; 763<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Xu-et-al-2020.txt">Xu et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.1098,29.9228</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQPGL15-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13352 &#177; 799<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Xu-et-al-2020.txt">Xu et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.1098,29.9228</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQPGL15-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12750 &#177; 764<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Xu-et-al-2020.txt">Xu et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.1097,29.9228</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQPGL15-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1540 &#177; 114<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Xu-et-al-2020.txt">Xu et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.1096,29.9237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NQPGL15-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11408 &#177; 680<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Xu-et-al-2020.txt">Xu et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.1095,29.9233</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

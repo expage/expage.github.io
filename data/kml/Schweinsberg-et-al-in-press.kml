@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Schweinsberg et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-202006<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>72-15TL-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 112171 &#177; 6453<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.297,39.065</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>72-15TL-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 110351 &#177; 6318<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.297,39.064</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>72-15TL-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 123002 &#177; 7068<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.294,39.066</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>72-15TL-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 120544 &#177; 6922<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.293,39.066</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>92-17CC-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 123860 &#177; 7064<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.276,39.030</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>92-17CC-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 154927 &#177; 8905<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.273,39.031</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>92-17CC-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 168457 &#177; 9716<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.267,39.032</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>92-17CC-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40280 &#177; 2250<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.259,39.031</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>72-15TL-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21091 &#177; 1210<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.292,39.067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>72-15TL-02A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21753 &#177; 1245<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.291,39.068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>72-15TL-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21353 &#177; 1221<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.301,39.066</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>72-15TL-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21557 &#177; 1221<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.283,39.074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>72-15TL-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21667 &#177; 1241<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.285,39.072</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>72-15TL-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21217 &#177; 1209<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.286,39.072</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>72-15TL-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21163 &#177; 1214<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.285,39.073</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>74-15TL-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20773 &#177; 1200<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.290,39.075</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>74-15TL-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21534 &#177; 1258<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.292,39.073</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>74-15TL-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21023 &#177; 1196<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.294,39.071</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>74-15TL-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21213 &#177; 1206<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.300,39.070</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>74-15TL-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21704 &#177; 1239<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.298,39.070</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>74-15TL-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21289 &#177; 1216<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.301,39.069</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>74-15TL-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21303 &#177; 1217<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.303,39.070</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>90-17TL-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22238 &#177; 1303<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.301,39.071</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>90-17TL-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21638 &#177; 1295<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.297,39.073</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>90-17TL-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22840 &#177; 1337<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.297,39.072</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>90-17TL-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22417 &#177; 1314<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.294,39.074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>92-17TL-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23224 &#177; 1395<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.294,39.075</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>92-17TL-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22416 &#177; 1309<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.297,39.074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>92-17TL-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21739 &#177; 1278<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.302,39.072</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>92-17TL-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21733 &#177; 1301<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.300,39.073</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>76-15TL-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16477 &#177; 945<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.362,39.088</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>90-17TL-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17148 &#177; 990<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.355,39.084</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>90-17TL-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16010 &#177; 940<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.353,39.081</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>90-17TL-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15473 &#177; 911<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.358,39.075</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>90-17TL-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17082 &#177; 1004<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.360,39.073</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>75-LKCK-15-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14528 &#177; 829<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.531,39.158</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>76-LKCK-15-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15354 &#177; 882<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.532,39.158</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>76-LKCK-15-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14692 &#177; 837<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.528,39.152</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>76-LKCK-15-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14411 &#177; 832<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schweinsberg-et-al-in-press.txt">Schweinsberg et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.524,39.149</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

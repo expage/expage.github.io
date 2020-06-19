@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Anderson et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202006<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>EP01P01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3392 &#177; 224<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>159.51527,-78.59132</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP01P02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14703 &#177; 914<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>159.51527,-78.59132</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP01H03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3448 &#177; 231<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>159.51527,-78.59132</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP02H04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2160 &#177; 149<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>159.50967,-78.59562</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP02P05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18590 &#177; 1210<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>159.50967,-78.59562</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP02P06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16503 &#177; 1033<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>159.50967,-78.59562</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP04P09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9352 &#177; 590<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>159.51747,-78.59255</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP05P10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 192680 &#177; 12243<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>159.51602,-78.59278</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP06P11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62985 &#177; 3902<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>159.49173,-78.59880</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP06P12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 100464 &#177; 6188<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>159.49173,-78.59880</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP06H13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 174038 &#177; 10899<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>159.49173,-78.59880</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP17H28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11642 &#177; 731<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>159.49022,-78.59538</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP18H29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 73090 &#177; 4490<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>159.51623,-78.59095</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP18P30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 93916 &#177; 5841<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>159.51623,-78.59095</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP07P14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14320 &#177; 889<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>159.54512,-78.58340</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP08P16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40390 &#177; 2468<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>159.54678,-78.58345</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP09P18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14800 &#177; 910<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>159.54785,-78.58342</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP10P20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24365 &#177; 1497<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>159.55703,-78.58378</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP23H37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43251 &#177; 2678<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2020.txt">Anderson et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>159.50547,-78.60235</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

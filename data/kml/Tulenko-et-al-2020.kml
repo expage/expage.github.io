@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tulenko et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202006<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>17CC-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16195 &#177; 926<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2020.txt">Tulenko et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.35680,39.00270</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17CC-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15884 &#177; 902<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2020.txt">Tulenko et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.36590,38.99920</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17CC-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15710 &#177; 893<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2020.txt">Tulenko et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.37550,38.99720</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17CC-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15409 &#177; 902<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2020.txt">Tulenko et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.41250,38.98970</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17CC-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15198 &#177; 863<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2020.txt">Tulenko et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.42410,38.98970</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18CC-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14872 &#177; 871<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2020.txt">Tulenko et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.45814,38.94677</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18CC-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14992 &#177; 878<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2020.txt">Tulenko et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.45944,38.93217</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18CC-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14431 &#177; 845<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2020.txt">Tulenko et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.46294,38.91955</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18PC-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16682 &#177; 997<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2020.txt">Tulenko et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.27515,38.96590</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18PC-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15326 &#177; 897<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2020.txt">Tulenko et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.33513,38.94764</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18PC-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14946 &#177; 874<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2020.txt">Tulenko et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.36673,38.91623</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18PC-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16116 &#177; 958<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tulenko-et-al-2020.txt">Tulenko et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-106.36528,38.91648</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

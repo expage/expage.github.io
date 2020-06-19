@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Jones et al. (2017)</name>
+<description>
+<![CDATA[
+Data from expage-202006<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>AN35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 131546 &#177; 8548<br/>
+<sup>26</sup>Al: 97422 &#177; 9100<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2017.txt">Jones et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>159.7335,-78.5474</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HN36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6350 &#177; 736<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2017.txt">Jones et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.0501,-78.4243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 273518 &#177; 17799<br/>
+<sup>26</sup>Al: 178079 &#177; 18564<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2017.txt">Jones et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>159.4857,-78.6410</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EP25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 308034 &#177; 19935<br/>
+<sup>26</sup>Al: 244042 &#177; 21495<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2017.txt">Jones et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>159.5558,-78.6189</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CB38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 942450 &#177; 72503<br/>
+<sup>26</sup>Al: 528893 &#177; 55675<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2017.txt">Jones et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.5931,-78.5063</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NN32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 312075 &#177; 21250<br/>
+<sup>26</sup>Al: 240489 &#177; 21187<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2017.txt">Jones et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>160.9909,-78.3054</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NN31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1063264 &#177; 88298<br/>
+<sup>26</sup>Al: 580466 &#177; 54188<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2017.txt">Jones et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>160.9917,-78.3053</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NN33a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 711420 &#177; 53769<br/>
+<sup>26</sup>Al: 561595 &#177; 50198<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2017.txt">Jones et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>160.9895,-78.3059</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NN33b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 716621 &#177; 54158<br/>
+<sup>26</sup>Al: 549176 &#177; 55437<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2017.txt">Jones et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>160.9895,-78.3059</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NN33c</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 529257 &#177; 38705<br/>
+<sup>26</sup>Al: 444730 &#177; 37856<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2017.txt">Jones et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>160.9895,-78.3059</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NN33d</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 720382 &#177; 54496<br/>
+<sup>26</sup>Al: 577928 &#177; 56230<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2017.txt">Jones et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>160.9895,-78.3059</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NN30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1044483 &#177; 86296<br/>
+<sup>26</sup>Al: 680570 &#177; 72099<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2017.txt">Jones et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>160.9898,-78.3051</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

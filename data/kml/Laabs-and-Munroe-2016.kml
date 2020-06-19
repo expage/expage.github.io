@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Laabs and Munroe (2016)</name>
+<description>
+<![CDATA[
+Data from expage-202006<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>BCR-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20826 &#177; 1417<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-and-Munroe-2016.txt">Laabs and Munroe (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.78936,40.56673</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCR-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25078 &#177; 1643<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-and-Munroe-2016.txt">Laabs and Munroe (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.78958,40.56674</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCR-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23471 &#177; 1473<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-and-Munroe-2016.txt">Laabs and Munroe (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.79041,40.56687</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCLR-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17215 &#177; 1155<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-and-Munroe-2016.txt">Laabs and Munroe (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.79162,40.56338</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCLR-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18261 &#177; 1150<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-and-Munroe-2016.txt">Laabs and Munroe (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-111.79162,40.56338</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12588 &#177; 862<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-and-Munroe-2016.txt">Laabs and Munroe (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.9146,39.8062</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19774 &#177; 1315<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-and-Munroe-2016.txt">Laabs and Munroe (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.9160,39.8081</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20117 &#177; 1351<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-and-Munroe-2016.txt">Laabs and Munroe (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.9159,39.8079</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20427 &#177; 1361<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-and-Munroe-2016.txt">Laabs and Munroe (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.9150,39.8064</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32117 &#177; 5581<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-and-Munroe-2016.txt">Laabs and Munroe (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.9152,39.8079</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DL-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17648 &#177; 1239<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-and-Munroe-2016.txt">Laabs and Munroe (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.2724,38.9355</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DL-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20094 &#177; 1315<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-and-Munroe-2016.txt">Laabs and Munroe (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.2724,38.9361</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DL-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17089 &#177; 1191<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-and-Munroe-2016.txt">Laabs and Munroe (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.2731,38.9364</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DL-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14350 &#177; 983<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-and-Munroe-2016.txt">Laabs and Munroe (2016)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.2734,38.9367</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

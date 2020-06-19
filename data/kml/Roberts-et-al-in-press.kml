@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Roberts et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-202006<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>T5BH01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13429 &#177; 1167<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.27667,53.14528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5BH02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16289 &#177; 1495<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.27883,53.14528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5BH03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11542 &#177; 1087<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.27833,53.14362</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5CL01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14550 &#177; 1701<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-10.13000,53.53500</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5CL02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16724 &#177; 1070<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-10.13040,53.53720</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5CL03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16470 &#177; 1062<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-10.12610,53.53950</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5CL04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16607 &#177; 1068<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-10.12700,53.53820</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5CL06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17945 &#177; 2030<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-10.16470,53.55333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5CL07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15939 &#177; 1814<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-10.16440,53.55467</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5IE01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13937 &#177; 1186<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.66740,53.48133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5IE02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18608 &#177; 1548<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.66740,53.48136</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5IE03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17594 &#177; 1365<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.66740,53.48150</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5IE04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10051 &#177; 854<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.66735,53.48148</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5IM01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16458 &#177; 1316<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.60805,53.06722</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5IM02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18261 &#177; 1428<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.61278,53.07805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5IM03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21525 &#177; 1390<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.61260,53.07830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5IM04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19272 &#177; 1522<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.61028,53.07972</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5KK01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16379 &#177; 1057<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.76940,53.31180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5KK02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16737 &#177; 1194<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-9.76970,53.31140</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5KK03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16831 &#177; 1204<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-9.76980,53.31100</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5KK04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18619 &#177; 1257<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.68250,53.39730</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5KK05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16063 &#177; 1055<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.68220,53.39760</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5KK06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16912 &#177; 1074<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.68320,53.39920</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5MOY01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15397 &#177; 1001<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.18910,53.31550</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5MOY02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15262 &#177; 1054<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.18855,53.31518</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5MOY03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15908 &#177; 1071<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.18877,53.31572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5MOY04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16693 &#177; 1144<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.18915,53.31473</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5MOY05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17222 &#177; 1110<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.18890,53.31540</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5OU04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15774 &#177; 1781<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.51862,53.28083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5OU05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13163 &#177; 1480<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-9.51722,53.28278</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T5OU06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18073 &#177; 1256<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Roberts-et-al-in-press.txt">Roberts et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-9.51305,53.28333</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
