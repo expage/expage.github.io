@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Biette et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-202007<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>Cla-47</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9905 &#177; 805<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.35874,74.37658</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-48</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10341 &#177; 874<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.35753,74.37688</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zack-40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1096 &#177; 106<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.32545,74.37823</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-54b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1262 &#177; 256<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.33118,74.37618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zack-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13875 &#177; 1884<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.42090,74.35748</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10774 &#177; 708<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.41951,74.35464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zack-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11674 &#177; 1316<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.41866,74.35442</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zack-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10218 &#177; 862<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.41811,74.35457</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10657 &#177; 1065<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.36865,74.35247</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 610 &#177; 82<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.36820,74.35233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11449 &#177; 798<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.36747,74.35243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10882 &#177; 956<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.39568,74.34530</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-39b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10376 &#177; 812<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.39603,74.34531</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2253 &#177; 206<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.34460,74.35098</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3238 &#177; 298<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.37832,74.35189</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zack-35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2985 &#177; 299<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.39367,74.35231</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1285 &#177; 154<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.38057,74.35190</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 833 &#177; 179<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.39346,74.35162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1013 &#177; 111<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.39345,74.35160</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zack-34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1207 &#177; 168<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.39080,74.35239</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 343 &#177; 44<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.39168,74.35033</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3235 &#177; 282<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.39216,74.35065</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15223 &#177; 1290<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.41426,74.34456</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18394 &#177; 1266<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.39952,74.34265</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15295 &#177; 973<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.40132,74.34234</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13642 &#177; 881<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.36619,74.33805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9814 &#177; 1130<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.36666,74.33799</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 440 &#177; 69<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.35240,74.33566</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 456 &#177; 79<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.35280,74.33559</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 200 &#177; 29<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Biette-et-al-in-press.txt">Biette et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.35772,74.33564</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

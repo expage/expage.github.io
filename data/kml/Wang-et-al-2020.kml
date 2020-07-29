@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wang et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202007<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>F302</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20301 &#177; 1209<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2020.txt">Wang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.3890,27.92420</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F303</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16384 &#177; 979<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2020.txt">Wang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.3891,27.92464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F305</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16986 &#177; 994<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2020.txt">Wang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.3881,27.92452</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F306</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18661 &#177; 1094<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2020.txt">Wang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.3881,27.92497</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F308</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15006 &#177; 902<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2020.txt">Wang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.3870,27.92443</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F309</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14638 &#177; 891<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2020.txt">Wang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.3873,27.92425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FP201</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10801 &#177; 705<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2020.txt">Wang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.4463,28.05417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FP202</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12041 &#177; 710<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2020.txt">Wang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.4464,28.05427</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FP203</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12644 &#177; 747<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2020.txt">Wang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.4468,28.05422</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FP204</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12314 &#177; 890<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2020.txt">Wang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.4468,28.05411</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FP205</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10188 &#177; 727<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2020.txt">Wang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.4465,28.05444</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FP206</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11506 &#177; 745<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2020.txt">Wang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.4481,28.05365</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FP207</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10856 &#177; 686<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2020.txt">Wang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.4481,28.05350</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FP208</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10562 &#177; 625<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2020.txt">Wang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.4482,28.05326</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FP209</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9573 &#177; 602<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2020.txt">Wang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.4483,28.05333</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

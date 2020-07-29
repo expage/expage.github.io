@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Laabs et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202007<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>LT-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 151733 &#177; 12368<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.48637,40.69709</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 151285 &#177; 12591<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.48641,40.69697</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 148300 &#177; 11747<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.48695,40.69638</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 145107 &#177; 9556<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.48111,40.69793</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 143806 &#177; 9389<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.48390,40.69653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 136467 &#177; 9050<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.48627,40.69680</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 121088 &#177; 8229<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.48237,40.69920</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 117811 &#177; 8029<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.48654,40.69842</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 117714 &#177; 7420<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.48250,40.69920</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 108483 &#177; 6654<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.48267,40.69718</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 83619 &#177; 7157<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.49799,40.67583</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 51190 &#177; 3326<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.50086,40.67757</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 89866 &#177; 10636<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.50154,40.67799</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 102632 &#177; 7797<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.50185,40.67841</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 119589 &#177; 17122<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.50252,40.67904</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC12-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19197 &#177; 1260<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-110.50390,45.51451</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC12-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17136 &#177; 1205<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-110.51204,45.52291</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DC12-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18941 &#177; 1268<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-110.51921,45.52643</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CC12-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17655 &#177; 1613<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-110.54493,45.46883</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CC12-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17927 &#177; 2393<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-110.54278,45.46664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BTC-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19208 &#177; 1548<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-107.25046,44.12383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BTC-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14675 &#177; 936<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-107.25047,44.12374</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BTC-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15492 &#177; 1008<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-107.25102,44.12319</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BTC-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17843 &#177; 1142<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-107.25191,44.12277</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BTC-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39657 &#177; 2547<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-107.25301,44.12233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BTC-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 159018 &#177; 10707<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-107.25405,44.12310</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BTC-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19389 &#177; 1310<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-107.25395,44.12347</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BTC-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55066 &#177; 3389<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-107.25360,44.12376</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BH13-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15278 &#177; 1019<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.98186,44.34196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BH13-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36051 &#177; 2158<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.98179,44.34207</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BH13-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15366 &#177; 1014<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.98193,44.34340</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BH13-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23384 &#177; 1428<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.98332,44.34420</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BH13-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18755 &#177; 1212<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.98123,44.34111</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BH13-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43066 &#177; 2607<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.98243,44.34106</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BH13-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25665 &#177; 1995<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.98421,44.34090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BH13-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23192 &#177; 1419<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.98095,44.34111</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BH13-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17863 &#177; 1692<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-107.01688,44.35419</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BH13-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20240 &#177; 1226<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Laabs-et-al-2020.txt">Laabs et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-107.03504,44.35158</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Voisine et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-202007<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>16DDU10A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30297 &#177; 2312<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Voisine-et-al-in-press.txt">Voisine et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>139.905178,-66.688922</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16DDU10B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4051 &#177; 651<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Voisine-et-al-in-press.txt">Voisine et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>139.905175,-66.688878</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16DDU10D</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 436 &#177; 63<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Voisine-et-al-in-press.txt">Voisine et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>139.905114,-66.688783</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16DDU10E</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 648 &#177; 90<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Voisine-et-al-in-press.txt">Voisine et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>139.905144,-66.688903</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16DDU10G</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 561 &#177; 85<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Voisine-et-al-in-press.txt">Voisine et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>139.905147,-66.688731</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NL1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4454 &#177; 523<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Voisine-et-al-in-press.txt">Voisine et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>141.355903,-66.847453</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NL2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10255 &#177; 1614<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Voisine-et-al-in-press.txt">Voisine et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>141.356236,-66.848442</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NL3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2792 &#177; 396<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Voisine-et-al-in-press.txt">Voisine et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>141.355836,-66.847186</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NL4A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2007 &#177; 340<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Voisine-et-al-in-press.txt">Voisine et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>141.356125,-66.839058</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NL9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29186 &#177; 2645<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Voisine-et-al-in-press.txt">Voisine et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>141.362600,-66.847453</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NL10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14381 &#177; 1428<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Voisine-et-al-in-press.txt">Voisine et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>141.364839,-66.850286</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NL13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9284 &#177; 1402<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Voisine-et-al-in-press.txt">Voisine et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>141.355922,-66.847453</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

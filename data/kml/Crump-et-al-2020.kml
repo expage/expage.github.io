@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Crump et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202007<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>15BBS-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16608 &#177; 1056<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.230293,67.524712</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BBS-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13432 &#177; 864<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.230379,67.523281</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BBS-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19496 &#177; 1203<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.230509,67.523181</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BBS-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9229 &#177; 679<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.230200,67.524527</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BBS-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9054 &#177; 591<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.230529,67.523187</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BBS-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8329 &#177; 661<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.234197,67.526259</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BBS-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8522 &#177; 560<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.234767,67.526187</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BBS-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9571 &#177; 622<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.234455,67.525344</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BBS-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9188 &#177; 621<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.234547,67.525162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BBS-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8838 &#177; 654<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.234655,67.526130</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BBS-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8167 &#177; 536<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.234773,67.526023</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNK-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8753 &#177; 581<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.081133,67.440336</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNK-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9007 &#177; 613<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.086233,67.438459</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNK-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7915 &#177; 572<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.068267,67.443648</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNK-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8307 &#177; 549<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.067680,67.443980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNK-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8683 &#177; 582<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.055670,67.442710</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNK-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 82963 &#177; 4951<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.074030,67.440970</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNK-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10150 &#177; 870<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.061220,67.443040</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNK-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8969 &#177; 698<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.061290,67.442930</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNP-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9562 &#177; 643<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.590101,67.725978</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNP-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8025 &#177; 733<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.589063,67.725031</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNP-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10016 &#177; 667<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.589955,67.728061</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNP-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6870 &#177; 485<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.587514,67.728620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNP-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8315 &#177; 627<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.587545,67.728558</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNP-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6924 &#177; 498<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.587632,67.728505</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNP-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7877 &#177; 779<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.593449,67.729958</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNP-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16650 &#177; 1238<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.593500,67.730089</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNP-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7364 &#177; 700<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.592952,67.730398</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BNP-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8184 &#177; 790<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.590364,67.732426</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>2-M14-B128</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7899 &#177; 464<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.697848,67.506388</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>2-M14-B129</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7647 &#177; 458<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.690049,67.501747</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>2-M14-B130</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63446 &#177; 3696<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.690259,67.501032</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>2-M14-B131</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13788 &#177; 810<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.690609,67.500886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BOK-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10800 &#177; 643<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.74335,67.95261</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BOK-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10544 &#177; 631<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.74307,67.95267</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BOK-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12358 &#177; 722<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.74319,67.95274</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BMK-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10133 &#177; 591<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.28902,67.32599</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BMK-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10216 &#177; 592<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.28960,67.32607</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BMK-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10826 &#177; 658<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Crump-et-al-2020.txt">Crump et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-64.28609,67.32571</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Brugger et al. (2019b)</name>
+<description>
+<![CDATA[
+Data from expage-202007<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>CM-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17978 &#177; 1118<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-2019b.txt">Brugger et al. (2019b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.425817,39.210594</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CM-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20081 &#177; 1220<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-2019b.txt">Brugger et al. (2019b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.396164,39.218011</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-MM-01-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20667 &#177; 1248<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-2019b.txt">Brugger et al. (2019b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.387173,39.220262</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-MM-02-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20903 &#177; 1298<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-2019b.txt">Brugger et al. (2019b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.387173,39.220262</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-MM-18-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19620 &#177; 1158<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-2019b.txt">Brugger et al. (2019b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.399469,39.215122</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-MM-19-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25528 &#177; 1514<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-2019b.txt">Brugger et al. (2019b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.399418,39.214651</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-MM-20-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22438 &#177; 1282<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-2019b.txt">Brugger et al. (2019b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.385773,39.216883</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-MM-03-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20642 &#177; 1227<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-2019b.txt">Brugger et al. (2019b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.344353,39.273237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-MM-21-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17677 &#177; 1018<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-2019b.txt">Brugger et al. (2019b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.388594,39.186135</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-MM-22-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16131 &#177; 935<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-2019b.txt">Brugger et al. (2019b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.388948,39.186323</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-CO-MM-23-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16835 &#177; 981<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Brugger-et-al-2019b.txt">Brugger et al. (2019b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-106.389270,39.187173</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

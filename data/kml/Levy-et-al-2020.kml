@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Levy et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202007<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>GL1444</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11291 &#177; 745<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-41.20967,63.28564</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1445</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10867 &#177; 714<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-41.21099,63.28552</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1446</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10845 &#177; 720<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-41.21091,63.28549</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1424</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10232 &#177; 879<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-41.88709,63.43792</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1425</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11950 &#177; 911<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-41.88680,63.43785</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1426</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9924 &#177; 863<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-41.88674,63.43775</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1427a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10941 &#177; 724<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-41.88756,63.43800</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1428a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11548 &#177; 744<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-41.88770,63.43803</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1429a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11476 &#177; 845<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-41.88750,63.43798</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1401</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11144 &#177; 730<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-42.19278,62.52005</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1403</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11230 &#177; 727<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-42.19304,62.52015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1405</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9131 &#177; 596<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-42.19244,62.52137</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL13-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1752 &#177; 151<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.19429,62.72615</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL13-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1802 &#177; 182<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.19475,62.72628</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL13-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1852 &#177; 157<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.19500,62.72630</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1469</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12281 &#177; 795<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.25823,60.46437</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1471</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12105 &#177; 801<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.25954,60.46445</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1470a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12224 &#177; 809<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-43.25824,60.46439</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1474a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12106 &#177; 791<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-43.26035,60.46468</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1476a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11445 &#177; 744<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-44.05767,60.57901</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1477a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11558 &#177; 753<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-44.05537,60.57802</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1479</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10600 &#177; 815<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.18913,60.07418</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1481</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11339 &#177; 1054<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.18528,60.07351</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1483</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12224 &#177; 957<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.18585,60.07365</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1485</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5545 &#177; 719<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.75278,60.15483</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1488</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6164 &#177; 671<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.75301,60.15483</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1490</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10506 &#177; 743<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-43.75274,60.15508</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1495</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10426 &#177; 753<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.06681,60.18274</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1496</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10676 &#177; 699<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.06681,60.18274</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1491</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9681 &#177; 658<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.06525,60.18508</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1492</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11813 &#177; 895<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.06525,60.18508</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL1493</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9788 &#177; 900<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.06525,60.18508</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL14107</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13360 &#177; 1050<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.37967,59.95695</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL14109</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12677 &#177; 1077<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.38002,59.95714</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL14112</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12560 &#177; 964<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-44.37923,59.95724</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL14113</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14668 &#177; 1147<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.19828,60.12506</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL14114</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14894 &#177; 1208<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.19712,60.12557</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GL14115</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13762 &#177; 1038<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-45.19691,60.12500</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QQ13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11698 &#177; 1204<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.05523,60.71455</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QQ14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12276 &#177; 1147<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.05538,60.71466</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QQ15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11889 &#177; 1105<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Levy-et-al-2020.txt">Levy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-46.05513,60.71463</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Whitmore (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202007<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>MM-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5937 &#177; 624<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.02873,-76.18348</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 48376 &#177; 2992<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.02745,-76.18335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4287 &#177; 1330<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.02745,-76.18335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 0 &#177; 654<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.02745,-76.18335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5857 &#177; 455<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.01981,-76.18433</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6004 &#177; 553<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.017429,-76.183967</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 49002 &#177; 2913<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.017429,-76.183967</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5453 &#177; 729<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.017429,-76.183967</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39565 &#177; 2313<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.017429,-76.183967</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5752 &#177; 376<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.015793,-76.183668</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5304 &#177; 399<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.014447,-76.18388</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6267 &#177; 540<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.014447,-76.18388</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3162 &#177; 247<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.94259,-76.19123</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 0 &#177; 1053<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.94341,-76.190125</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3573 &#177; 655<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.954678,-76.191635</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25311 &#177; 1613<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.95593,-76.191329</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37304 &#177; 2608<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.956141,-76.191107</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2634 &#177; 192<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.941493,-76.192301</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MG-16-01B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40828 &#177; 2395<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.9415,-76.1923</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32219 &#177; 1990<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.94259,-76.19123</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5856 &#177; 599<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.942187,-76.190104</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52662 &#177; 3181<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.94341,-76.190125</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HM-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 77475 &#177; 4885<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>169.662239,-72.534624</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HM-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30706 &#177; 1892<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>169.663370,-72.534502</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HM-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16211 &#177; 1034<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>169.664533,-72.534464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HM-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37427 &#177; 2379<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>169.664389,-72.534399</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HM-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 101728 &#177; 6186<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>169.663801,-72.533957</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HM-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28039 &#177; 1765<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>169.663939,-72.533609</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HM-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 73849 &#177; 4546<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>169.665698,-72.533501</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HM-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20387 &#177; 1284<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>169.664947,-72.533236</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HM-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63681 &#177; 3807<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>169.665185,-72.533203</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HM-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41553 &#177; 2505<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>169.665888,-72.532830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TN-BR-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 172722 &#177; 10312<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>159.60379,-75.4710</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BR-16-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61565 &#177; 3629<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>168.5342,-72.4471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BR-16-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 185654 &#177; 11071<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>168.5342,-72.4471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CC-16-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26113 &#177; 1578<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>169.9549,-72.2776</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CC-16-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28723 &#177; 1707<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Whitmore-2020.txt">Whitmore (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>169.9549,-72.2830</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
