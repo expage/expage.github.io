@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Martin et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202010<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>MB9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15418 &#177; 1195<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1179,-16.2321</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MB10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14848 &#177; 945<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1178,-16.2322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MB11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12379 &#177; 823<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1177,-16.2329</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MB12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20973 &#177; 1552<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1177,-16.2330</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MB13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10672 &#177; 899<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1177,-16.2330</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MB14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14789 &#177; 1110<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1177,-16.2330</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zong-13-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8359 &#177; 557<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1199,-16.2302</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zong-13-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8160 &#177; 548<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1201,-16.2301</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zong-13-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6071 &#177; 445<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1225,-16.2281</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zong-13-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9825 &#177; 694<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1200,-16.2300</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11642 &#177; 971<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1158,-16.2751</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11084 &#177; 720<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1158,-16.2751</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11285 &#177; 729<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1160,-16.2750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10613 &#177; 737<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1162,-16.2750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11057 &#177; 756<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1159,-16.2750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9221 &#177; 602<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1192,-16.2749</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10348 &#177; 685<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1193,-16.2748</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9967 &#177; 639<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1191,-16.2748</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10207 &#177; 841<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1190,-16.2748</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8993 &#177; 603<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1192,-16.2748</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9505 &#177; 613<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1148,-16.2814</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9940 &#177; 697<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1190,-16.2748</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9159 &#177; 593<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martin-et-al-2020.txt">Martin et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.1144,-16.2814</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

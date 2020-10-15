@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Heath et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202010<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>JL-16-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20254 &#177; 1272<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.48513,44.70016</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11316 &#177; 711<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.48566,44.69931</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13931 &#177; 869<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.48554,44.69930</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14833 &#177; 883<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-100.48527,44.69906</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12978 &#177; 769<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.48506,44.69894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7287 &#177; 476<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.48389,44.69625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14364 &#177; 846<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.48441,44.69716</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19720 &#177; 1215<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.48624,44.70198</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20435 &#177; 1201<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.43952,44.75233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17019 &#177; 1000<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.43890,44.75252</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15040 &#177; 947<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.43949,44.75274</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17811 &#177; 1053<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.43708,44.75324</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11523 &#177; 692<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-100.43722,44.75323</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18254 &#177; 1075<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.43672,44.75347</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14954 &#177; 884<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.43632,44.75360</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15629 &#177; 912<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.43612,44.75362</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18129 &#177; 1066<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.43594,44.75370</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15341 &#177; 1020<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.01944,44.71288</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21272 &#177; 1372<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-100.01934,44.71292</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-39</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14757 &#177; 974<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-99.73464,44.83749</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13405 &#177; 783<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-99.73467,44.83739</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16373 &#177; 942<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-99.73984,44.83743</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17408 &#177; 1034<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-99.26794,44.48734</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-44</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15445 &#177; 913<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-99.26947,44.48771</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-46</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16796 &#177; 985<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-99.27230,44.48787</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-47</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17074 &#177; 1020<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-99.27395,44.48833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-48</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16443 &#177; 1039<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-99.27473,44.48803</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16040 &#177; 1045<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-99.26767,44.48021</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-53</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16756 &#177; 986<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-99.26978,44.48100</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-54</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16771 &#177; 974<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-99.26991,44.48135</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-55</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16892 &#177; 1200<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-99.27017,44.48130</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-57</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16049 &#177; 1090<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-99.27070,44.48052</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JL-16-58</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12207 &#177; 728<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Heath-et-al-2020.txt">Heath et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-99.27147,44.48014</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

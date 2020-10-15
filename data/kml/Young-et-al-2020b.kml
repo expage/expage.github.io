@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Young et al. (2020b)</name>
+<description>
+<![CDATA[
+Data from expage-202010<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>17GRO-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8486 &#177; 558<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.56120,64.75141</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8491 &#177; 559<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.55141,64.75278</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8896 &#177; 585<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.54660,64.77811</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-49</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10435 &#177; 664<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.51587,63.97643</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9325 &#177; 603<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.51407,63.97548</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-53</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16142 &#177; 1018<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.69950,63.91561</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-54</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7577 &#177; 491<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.67972,63.90542</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-46</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10151 &#177; 636<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.45530,64.45596</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-47</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9938 &#177; 619<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.45560,64.45605</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-48</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10201 &#177; 646<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.45563,64.45573</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10874 &#177; 725<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.44410,64.45831</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9121 &#177; 574<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.44398,64.45847</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9367 &#177; 628<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.43946,64.45937</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9354 &#177; 586<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.43322,64.45869</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14231 &#177; 863<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.43517,64.45899</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11342 &#177; 702<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.43216,64.45869</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20022 &#177; 1199<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.42881,64.46225</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9178 &#177; 577<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.42605,64.46424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16441 &#177; 994<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.42405,64.46506</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9035 &#177; 569<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.42298,64.46567</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9046 &#177; 569<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.43287,64.46509</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9486 &#177; 596<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.43473,64.46796</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9296 &#177; 583<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.43491,64.46804</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9878 &#177; 654<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.43700,64.46714</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8731 &#177; 522<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.43781,64.46686</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-39</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9403 &#177; 574<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.44123,64.46519</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9339 &#177; 586<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.44231,64.46251</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9468 &#177; 590<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.44788,64.46290</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9956 &#177; 618<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.45117,64.46244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-44</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9879 &#177; 639<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.44620,64.46081</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-45</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9080 &#177; 572<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.44607,64.46078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9029 &#177; 561<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.42904,64.46959</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9163 &#177; 569<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.43203,64.46943</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9133 &#177; 584<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.43845,64.46996</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9804 &#177; 590<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.48825,64.28653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10097 &#177; 608<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.48830,64.28651</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12644 &#177; 900<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.48794,64.28658</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-61</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11260 &#177; 708<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.80013,64.28960</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-69</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10971 &#177; 692<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.79993,64.29240</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-70</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10074 &#177; 694<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.79569,64.29148</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-56</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9970 &#177; 693<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.78128,64.29505</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-58</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11053 &#177; 702<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.79294,64.29417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-59</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10317 &#177; 672<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.79568,64.29485</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-62</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5370 &#177; 374<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.80750,64.29332</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-63</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6683 &#177; 410<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.80329,64.29415</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-64</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10280 &#177; 687<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.80260,64.29420</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-66</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9664 &#177; 602<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.79980,64.29460</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-67</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10080 &#177; 638<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.80284,64.29749</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-68</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10101 &#177; 630<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.80359,64.29739</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17187 &#177; 1060<br/>
+<sup>26</sup>Al: 16242 &#177; 1240<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.48321,64.28653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16881 &#177; 1033<br/>
+<sup>26</sup>Al: 17131 &#177; 1201<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.47899,64.28315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12747 &#177; 770<br/>
+<sup>26</sup>Al: 12486 &#177; 940<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.47035,64.28052</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9781 &#177; 593<br/>
+<sup>26</sup>Al: 10170 &#177; 822<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.46340,64.28105</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23598 &#177; 1412<br/>
+<sup>26</sup>Al: 22314 &#177; 1664<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.45737,64.28090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14939 &#177; 919<br/>
+<sup>26</sup>Al: 12606 &#177; 1000<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.45633,64.28094</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19550 &#177; 1154<br/>
+<sup>26</sup>Al: 18986 &#177; 1393<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.45694,64.28088</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-71</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6771 &#177; 409<br/>
+<sup>26</sup>Al: 6981 &#177; 563<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.45657,64.28185</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-72</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6883 &#177; 413<br/>
+<sup>26</sup>Al: 6729 &#177; 520<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.58746,64.22263</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-73</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6691 &#177; 403<br/>
+<sup>26</sup>Al: 6538 &#177; 549<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.58950,64.22220</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-74</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6462 &#177; 385<br/>
+<sup>26</sup>Al: 6605 &#177; 514<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.58567,64.22466</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17GRO-75</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6516 &#177; 447<br/>
+<sup>26</sup>Al: 6413 &#177; 518<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2020b.txt">Young et al. (2020b)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-49.58792,64.22476</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Linge et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202010<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>ØYB-1301</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8841 &#177; 553<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.07355,61.92930</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1302</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10912 &#177; 677<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.07355,61.92930</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1303</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10170 &#177; 622<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.07451,61.92908</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1304</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10690 &#177; 659<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.08535,61.92949</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1305</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10284 &#177; 683<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.08845,61.93031</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1306</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9829 &#177; 638<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.03356,61.92940</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1307</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9393 &#177; 764<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.03375,61.92934</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1308</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9220 &#177; 654<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.03401,61.92968</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1201</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10778 &#177; 708<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.06649,61.92157</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1202</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10423 &#177; 704<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.06673,61.92166</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1203</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10723 &#177; 728<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.06693,61.92149</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1204</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9673 &#177; 710<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.07121,61.92086</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1205</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10464 &#177; 796<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.07121,61.92086</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1206</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10377 &#177; 734<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.07002,61.92128</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1207</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11127 &#177; 816<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.06968,61.92127</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1208</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10884 &#177; 731<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.06968,61.92127</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ØYB-1309</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10857 &#177; 702<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Linge-et-al-2020.txt">Linge et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.06974,61.92059</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Jackson et al. (2019)</name>
+<description>
+<![CDATA[
+Data from expage-202010<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>RZ-12-46 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18091 &#177; 1076<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.94410,0.26167</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-12-47 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17779 &#177; 1059<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.94438,0.26152</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-12-50 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18386 &#177; 1098<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.94524,0.26089</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-12-54 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17791 &#177; 1075<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.94724,0.25812</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-16-46a </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17936 &#177; 1073<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96118,0.34734</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-16-46 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18132 &#177; 1094<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96118,0.34734</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-16-47a </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16482 &#177; 1021<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96118,0.34734</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-16-47 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19474 &#177; 1140<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96118,0.34734</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-16-48a </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17091 &#177; 1105<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96119,0.34735</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-16-48 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16487 &#177; 978<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96119,0.34735</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-12-08a </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20219 &#177; 1187<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96804,0.34985</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-12-02a </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21996 &#177; 1275<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96798,0.34597</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-13-63 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23296 &#177; 1367<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96927,0.34327</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-13-64 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25349 &#177; 1488<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96972,0.34398</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-13-66 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25013 &#177; 1469<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.97026,0.34471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-13-67 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25942 &#177; 1504<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.97071,0.34528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-16-49 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25377 &#177; 1498<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96863,0.34090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-16-50 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26446 &#177; 1627<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96863,0.34098</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-16-52 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24532 &#177; 1499<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96870,0.34102</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-16-54 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24996 &#177; 1494<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96819,0.34059</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-16-55 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25964 &#177; 1513<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96819,0.34059</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RZ-16-56 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26249 &#177; 1530<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jackson-et-al-2019.txt">Jackson et al. (2019)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>29.96873,0.34121</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

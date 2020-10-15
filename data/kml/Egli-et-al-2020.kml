@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Egli et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202010<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>DIP-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 322572 &#177; 22632<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Egli-et-al-2020.txt">Egli et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.056,42.824</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DIP-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 330694 &#177; 22982<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Egli-et-al-2020.txt">Egli et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.056,42.825</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DIP-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 117001 &#177; 7711<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Egli-et-al-2020.txt">Egli et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.045,42.828</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DIP-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 114241 &#177; 7512<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Egli-et-al-2020.txt">Egli et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.041,42.827</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DIP-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 124745 &#177; 8313<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Egli-et-al-2020.txt">Egli et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.044,42.824</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DIP-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46147 &#177; 3032<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Egli-et-al-2020.txt">Egli et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.036,42.825</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DIP-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18996 &#177; 1294<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Egli-et-al-2020.txt">Egli et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.037,42.824</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DIP-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16970 &#177; 1183<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Egli-et-al-2020.txt">Egli et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.040,42.822</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

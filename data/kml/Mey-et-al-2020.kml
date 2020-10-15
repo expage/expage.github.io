@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Mey et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202010<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>NC01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17690 &#177; 1010<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.7001,-24.0529</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 50849 &#177; 2921<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.6915,-24.0536</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19055 &#177; 1102<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.6834,-24.0269</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42436 &#177; 2439<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.6824,-24.0279</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30260 &#177; 1734<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.6829,-24.0312</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16784 &#177; 964<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.6851,-24.0315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25610 &#177; 1496<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.6863,-24.0326</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16821 &#177; 976<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.6841,-24.0371</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19376 &#177; 1135<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.6694,-24.0335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20072 &#177; 1178<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.6712,-24.0326</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14262 &#177; 890<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.7015,-24.0556</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15697 &#177; 1005<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.6976,-24.0671</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15042 &#177; 881<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.6975,-24.0681</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37087 &#177; 2181<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.6906,-24.0669</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 70192 &#177; 4153<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.7017,-24.0414</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10443 &#177; 603<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.7415,-24.0474</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16308 &#177; 948<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.7636,-24.0360</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15104 &#177; 881<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.7630,-24.0363</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15339 &#177; 880<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.7654,-24.0310</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NC34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32879 &#177; 1877<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mey-et-al-2020.txt">Mey et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.7600,-24.0263</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

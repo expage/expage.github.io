@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rhee et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202010<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>IEI039</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10764 &#177; 1009<br/>
+<sup>26</sup>Al: 10315 &#177; 1376<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.63877,-74.86866</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI040</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30943 &#177; 2115<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.64007,-74.86873</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI041</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8223 &#177; 835<br/>
+<sup>26</sup>Al: 7933 &#177; 921<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.63935,-74.86891</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI042</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 238397 &#177; 14713<br/>
+<sup>26</sup>Al: 155689 &#177; 12290<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.63848,-74.86896</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI043</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 144724 &#177; 8943<br/>
+<sup>26</sup>Al: 110291 &#177; 8770<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.63926,-74.86922</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI044</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9837 &#177; 936<br/>
+<sup>26</sup>Al: 10650 &#177; 1317<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.63969,-74.86840</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI045</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 92569 &#177; 5784<br/>
+<sup>26</sup>Al: 78262 &#177; 7678<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.64663,-74.87168</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI046</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9401 &#177; 1479<br/>
+<sup>26</sup>Al: 6741 &#177; 4803<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.64752,-74.87193</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI047</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6979 &#177; 721<br/>
+<sup>26</sup>Al: 7330 &#177; 870<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.64780,-74.87182</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI048</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8269 &#177; 759<br/>
+<sup>26</sup>Al: 8185 &#177; 808<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.64691,-74.87139</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI049</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9311 &#177; 932<br/>
+<sup>26</sup>Al: 10221 &#177; 1444<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.64622,-74.87194</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI050</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8154 &#177; 812<br/>
+<sup>26</sup>Al: 8795 &#177; 917<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.64580,-74.87164</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI051</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 97790 &#177; 6195<br/>
+<sup>26</sup>Al: 87621 &#177; 6996<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.65641,-74.87392</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI052</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9160 &#177; 796<br/>
+<sup>26</sup>Al: 10075 &#177; 1053<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.65716,-74.87381</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI053</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 422465 &#177; 26973<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.65782,-74.87422</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI054</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31669 &#177; 2336<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.65807,-74.87381</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI055</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 96074 &#177; 6082<br/>
+<sup>26</sup>Al: 84647 &#177; 6382<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.65781,-74.87345</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI056</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13576 &#177; 1207<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.65665,-74.87365</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI030</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 105068 &#177; 6706<br/>
+<sup>26</sup>Al: 73286 &#177; 5579<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.66423,-74.87375</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI031</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66492 &#177; 4155<br/>
+<sup>26</sup>Al: 74229 &#177; 6233<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.66490,-74.87346</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI032</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 59746 &#177; 3885<br/>
+<sup>26</sup>Al: 41988 &#177; 6021<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.66502,-74.87366</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI033</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8217 &#177; 804<br/>
+<sup>26</sup>Al: 8051 &#177; 1831<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.66593,-74.87367</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI034</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 113923 &#177; 7218<br/>
+<sup>26</sup>Al: 102737 &#177; 7764<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.66543,-74.87328</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI035</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63162 &#177; 4223<br/>
+<sup>26</sup>Al: 53298 &#177; 4210<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.66626,-74.87341</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI036</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 189953 &#177; 15191<br/>
+<sup>26</sup>Al: 58336 &#177; 9661<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.66664,-74.87369</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI037</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 133330 &#177; 8240<br/>
+<sup>26</sup>Al: 115896 &#177; 8906<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.66546,-74.87392</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI023</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 108151 &#177; 7021<br/>
+<sup>26</sup>Al: 72693 &#177; 5517<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.66954,-74.87524</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI024</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 49341 &#177; 3381<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.66850,-74.87569</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI025</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31752 &#177; 2186<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.66976,-74.87568</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI026</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7217 &#177; 838<br/>
+<sup>26</sup>Al: 6803 &#177; 827<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.67063,-74.87560</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI027</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33972 &#177; 3049<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.67047,-74.87673</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI028</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25840 &#177; 1821<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.66953,-74.87654</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI029</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8242 &#177; 1097<br/>
+<sup>26</sup>Al: 7626 &#177; 1152<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.67029,-74.87639</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI016</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30432 &#177; 2284<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.69538,-74.88324</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI017</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13625 &#177; 1283<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.69450,-74.88259</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI018</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7218 &#177; 814<br/>
+<sup>26</sup>Al: 6732 &#177; 835<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.69364,-74.88254</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI019</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30001 &#177; 2194<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.69298,-74.88290</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI020</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 327322 &#177; 20565<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.69179,-74.88323</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI021</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6706 &#177; 782<br/>
+<sup>26</sup>Al: 8598 &#177; 1015<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.69218,-74.88256</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI022</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19736 &#177; 1517<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.69116,-74.88286</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI009</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7137 &#177; 868<br/>
+<sup>26</sup>Al: 8770 &#177; 1319<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.70580,-74.88730</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI010</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33049 &#177; 2415<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.70355,-74.88701</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI011</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 106188 &#177; 6709<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.70553,-74.88676</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI012</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5608 &#177; 818<br/>
+<sup>26</sup>Al: 7212 &#177; 1310<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.70446,-74.88706</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI013</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16481 &#177; 3809<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.70420,-74.88740</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI014</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27592 &#177; 2126<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.70664,-74.88704</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI015</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24977 &#177; 1851<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.70760,-74.88644</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66267 &#177; 4251<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.72452,-74.89207</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI002</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40808 &#177; 2904<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.72318,-74.89223</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI003</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24039 &#177; 2066<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.72270,-74.89212</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 44660 &#177; 3022<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.72260,-74.89208</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 154170 &#177; 9669<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.72193,-74.89190</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25563 &#177; 1944<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.71918,-74.89195</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42754 &#177; 2992<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.71593,-74.89273</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IEI008</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32684 &#177; 2568<br/><br/>
+<u>Sample</u><br/>boulder/cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2020.txt">Rhee et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>163.71558,-74.89278</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

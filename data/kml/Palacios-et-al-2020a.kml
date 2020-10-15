@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Palacios et al. (2020a)</name>
+<description>
+<![CDATA[
+Data from expage-202010<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>MOSCA-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13351 &#177; 850<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Palacios-et-al-2020a.txt">Palacios et al. (2020a)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-3.31463,37.06117</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MOSCA-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13989 &#177; 892<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Palacios-et-al-2020a.txt">Palacios et al. (2020a)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-3.31405,37.05963</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MOSCA-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9609 &#177; 711<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Palacios-et-al-2020a.txt">Palacios et al. (2020a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.31539,37.05897</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MOSCA-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23064 &#177; 1643<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Palacios-et-al-2020a.txt">Palacios et al. (2020a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.31581,37.05916</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MOSCA-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12436 &#177; 883<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Palacios-et-al-2020a.txt">Palacios et al. (2020a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.31681,37.05989</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MOSCA-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16162 &#177; 1189<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Palacios-et-al-2020a.txt">Palacios et al. (2020a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.31669,37.05972</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MOSCA-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10020 &#177; 641<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Palacios-et-al-2020a.txt">Palacios et al. (2020a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.31763,37.05749</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

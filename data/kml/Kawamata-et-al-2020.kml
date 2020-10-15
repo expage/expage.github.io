@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kawamata et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202010<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>16012401</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15058 &#177; 1101<br/>
+<sup>26</sup>Al: 13507 &#177; 1045<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>39.65092,-69.48786</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16012403</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9527 &#177; 829<br/>
+<sup>26</sup>Al: 8064 &#177; 639<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>39.68361,-69.49919</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16012503</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8231 &#177; 616<br/>
+<sup>26</sup>Al: 9259 &#177; 1456<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>39.68361,-69.49917</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16012501</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10177 &#177; 848<br/>
+<sup>26</sup>Al: 8719 &#177; 758<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>39.74389,-69.50853</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16012402</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7966 &#177; 579<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>39.66167,-69.49141</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16012404</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7237 &#177; 510<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>39.70919,-69.49946</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16012201</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6910 &#177; 487<br/>
+<sup>26</sup>Al: 7653 &#177; 880<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>39.78306,-69.46583</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16012301</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7020 &#177; 494<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>39.74639,-69.46417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18010904</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9304 &#177; 603<br/>
+<sup>26</sup>Al: 8289 &#177; 678<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.59438,-69.43032</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18010905</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22313 &#177; 1403<br/>
+<sup>26</sup>Al: 22375 &#177; 1628<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>39.59438,-69.43032</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18010906</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7859 &#177; 543<br/>
+<sup>26</sup>Al: 8352 &#177; 662<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.59867,-69.43002</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18010911</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8185 &#177; 577<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.60410,-69.43018</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18010914</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7605 &#177; 580<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.60612,-69.42968</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18010916</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7446 &#177; 532<br/>
+<sup>26</sup>Al: 7296 &#177; 581<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.60873,-69.42877</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18010919</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7063 &#177; 507<br/>
+<sup>26</sup>Al: 8451 &#177; 666<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.61507,-69.42957</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18010924</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6743 &#177; 429<br/>
+<sup>26</sup>Al: 6738 &#177; 506<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.61962,-69.43007</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18010929</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7480 &#177; 492<br/>
+<sup>26</sup>Al: 7581 &#177; 669<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.62663,-69.42982</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17121703</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7699 &#177; 564<br/>
+<sup>26</sup>Al: 9038 &#177; 703<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.57958,-69.47290</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17121801</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7983 &#177; 537<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.58793,-69.47510</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17121804</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8271 &#177; 591<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.59053,-69.47553</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15123101</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7204 &#177; 529<br/>
+<sup>26</sup>Al: 7057 &#177; 582<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>39.44306,-69.67750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15123102</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6833 &#177; 546<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>39.44306,-69.67750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17122702</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6883 &#177; 484<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.47650,-69.67857</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18012706</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6313 &#177; 473<br/>
+<sup>26</sup>Al: 6868 &#177; 554<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.48178,-69.67747</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18012709</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1613 &#177; 188<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.48262,-69.67283</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18012805</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7602 &#177; 574<br/>
+<sup>26</sup>Al: 7894 &#177; 646<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.44163,-69.64633</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16010601</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8023 &#177; 577<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>39.45250,-69.64640</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18012812</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5684 &#177; 490<br/>
+<sup>26</sup>Al: 6191 &#177; 482<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>39.46400,-69.64830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16010901</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4350 &#177; 311<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>39.70597,-69.65344</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16010902</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6955 &#177; 471<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>39.71253,-69.65150</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16011201</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 638 &#177; 132<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>39.68597,-69.65092</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16011202</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 176 &#177; 113<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Kawamata-et-al-2020.txt">Kawamata et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>39.68617,-69.65169</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

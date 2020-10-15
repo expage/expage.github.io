@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Braumann et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202010<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>GrKB-18-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10201 &#177; 597<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>10.1126,46.8616</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GrKB-18-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10063 &#177; 607<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>10.1137,46.8590</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GrK-17-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9258 &#177; 564<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1127,46.8610</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GrK-17-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9152 &#177; 536<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1126,46.8609</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GrK-17-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8632 &#177; 505<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1128,46.8609</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GrK-17-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9024 &#177; 531<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1128,46.8609</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OcG-15-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9614 &#177; 562<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1049,46.8802</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OcG-17-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8718 &#177; 504<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1020,46.8775</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OcG-15-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5759 &#177; 337<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1025,46.8792</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OcG-15-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1434 &#177; 89<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1032,46.8800</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OcG-17-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 373 &#177; 30<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1104,46.8741</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OcG-17-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 277 &#177; 43<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1039,46.8650</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OcG-17-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 271 &#177; 42<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1028,46.8795</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OcG-15-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 264 &#177; 22<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1056,46.8799</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OcG-15-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 235 &#177; 26<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1054,46.8800</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OcG-17-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 208 &#177; 15<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1083,46.8774</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OcG-17-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 170 &#177; 26<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1027,46.8747</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>OcG-17-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 141 &#177; 11<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Braumann-et-al-2020.txt">Braumann et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>10.1042,46.8644</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
