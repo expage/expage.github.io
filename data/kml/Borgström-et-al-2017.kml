@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Borgström et al. (2017)</name>
+<description>
+<![CDATA[
+Data from expage-202012<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>Lang-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34689 &#177; 3104<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.323,62.123</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lang-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33500 &#177; 2947<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.322,62.125</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lang-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41091 &#177; 3544<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.324,62.124</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lang-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14953 &#177; 2636<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.322,62.124</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lang-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32388 &#177; 7013<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.348,62.094</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lang-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 44554 &#177; 5818<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.340,62.099</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lang-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20991 &#177; 1842<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.337,62.093</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lang-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 54937 &#177; 9201<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.328,62.106</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lang-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34221 &#177; 2611<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.5,62.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lang-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 49592 &#177; 4296<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.4,62.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lang-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38748 &#177; 4293<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.4,62.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fulu-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23064 &#177; 1437<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.779,61.543</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fulu-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27001 &#177; 1637<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.783,61.543</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fulu-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32070 &#177; 3233<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.786,61.542</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fulu-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27855 &#177; 1649<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.767,61.545</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fulu-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18240 &#177; 1120<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.800,61.600</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fulu-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25144 &#177; 5628<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.811,61.555</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fulu-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19702 &#177; 2076<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.800,61.600</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fulu-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26009 &#177; 3300<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.771,61.594</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fulu-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29600 &#177; 6345<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.771,61.594</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fulu-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18300 &#177; 1645<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.799,61.589</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fulu-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41299 &#177; 3947<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.798,61.590</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>StNip-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 72654 &#177; 12910<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.967,61.943</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>StNip-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18495 &#177; 1219<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.951,61.939</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>StNip-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25727 &#177; 2969<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.878,61.891</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lill-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 71930 &#177; 9054<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.905,62.553</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lill-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31723 &#177; 2293<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.945,62.542</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lill-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42034 &#177; 4479<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.945,62.542</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lill-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13673 &#177; 1414<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>12.945,62.542</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lill-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11744 &#177; 1069<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.945,62.542</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lill-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23613 &#177; 3598<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.893,62.580</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lill-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12936 &#177; 3661<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>12.933,62.566</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ved-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 86124 &#177; 10328<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.171,61.961</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ved-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11444 &#177; 1611<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.171,61.961</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ved-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 118174 &#177; 10491<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.2,62.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ved-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30934 &#177; 1995<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.239,61.943</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ved-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10197 &#177; 790<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.240,61.939</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ved-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9141 &#177; 579<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.235,61.937</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ved-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18985 &#177; 2300<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.277,62.005</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ved-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12657 &#177; 924<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.277,62.003</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>San-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47295 &#177; 3303<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.480,62.285</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>San-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40878 &#177; 2461<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.479,62.281</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>San-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 84407 &#177; 5018<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.478,62.289</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>San-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41368 &#177; 2422<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.468,62.283</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>San-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 115854 &#177; 6882<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.468,62.283</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Glot-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26510 &#177; 3081<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>13.556,62.146</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Glot-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34760 &#177; 2592<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>13.556,62.146</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Vem-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38845 &#177; 3617<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.000,62.436</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Vem-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31249 &#177; 8214<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.013,62.430</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Vem-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29940 &#177; 2156<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Borgström-et-al-2017.txt">Borgström et al. (2017)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>14.006,62.421</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

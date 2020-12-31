@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Batbaatar et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202012<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>XCS-120a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16478 &#177; 1154<br/>
+<sup>26</sup>Al: 18665 &#177; 1773<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.872500,47.461089</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XCS-120b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17373 &#177; 1186<br/>
+<sup>26</sup>Al: 15906 &#177; 1602<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.872500,47.461089</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XCS-121</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21243 &#177; 2051<br/>
+<sup>26</sup>Al: 21502 &#177; 1943<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.799444,47.461111</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-111a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 74066 &#177; 4649<br/>
+<sup>26</sup>Al: 75436 &#177; 6402<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.878286,42.926951</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-111b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 45310 &#177; 2902<br/>
+<sup>26</sup>Al: 47441 &#177; 4099<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.878286,42.926951</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-112</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17648 &#177; 1546<br/>
+<sup>26</sup>Al: 18649 &#177; 2025<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.975944,43.021187</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15040 &#177; 1084<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.921588,43.118820</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17726 &#177; 1287<br/>
+<sup>26</sup>Al: 16290 &#177; 1492<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.920044,43.119510</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-11b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22059 &#177; 1525<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.944619,43.110396</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-12a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18825 &#177; 1439<br/>
+<sup>26</sup>Al: 19315 &#177; 1781<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.944619,43.110396</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 451 &#177; 249<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.823378,43.115863</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1537 &#177; 243<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.823378,43.115863</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-7b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15854 &#177; 1130<br/>
+<sup>26</sup>Al: 14547 &#177; 1445<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.841379,43.115561</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XCS-101</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35252 &#177; 2310<br/>
+<sup>26</sup>Al: 35142 &#177; 2917<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.440977,43.158827</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XCS-102</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20407 &#177; 1357<br/>
+<sup>26</sup>Al: 19285 &#177; 1629<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.440259,43.159011</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XCS-103</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 49993 &#177; 3254<br/>
+<sup>26</sup>Al: 44765 &#177; 3736<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.450239,43.157513</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XCS-104</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27940 &#177; 2182<br/>
+<sup>26</sup>Al: 38383 &#177; 3339<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.449078,43.156896</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XCS-105</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38159 &#177; 2852<br/>
+<sup>26</sup>Al: 39263 &#177; 3412<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.449078,43.156896</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>XCS-106</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22606 &#177; 1446<br/>
+<sup>26</sup>Al: 23132 &#177; 1895<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.449078,43.156896</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CAT-02C</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1511 &#177; 157<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>93.74186,39.31450</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CH-DU-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 102812 &#177; 6267<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.28808,37.85994</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CH-DU-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 127315 &#177; 7978<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.28636,37.85203</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CH-DU-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 111619 &#177; 7115<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.28833,37.86278</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QS-GG-001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11359 &#177; 758<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.45208,37.69356</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QS-GG-002</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13499 &#177; 859<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.45208,37.69356</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QS-GG-003</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14398 &#177; 927<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.45319,37.69417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QS-GG-004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14710 &#177; 917<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.45319,37.69417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QS-GG-005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3906 &#177; 325<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.45319,37.69417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QS-GG-006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3168 &#177; 252<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.45417,37.69444</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QS-GG-007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12226 &#177; 803<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.45194,37.69111</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QS-GG-008</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18453 &#177; 1371<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.42669,37.66339</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QS-GG-009</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17544 &#177; 1127<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.42669,37.66339</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QS-GG-010</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15073 &#177; 1223<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.42356,37.66050</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QS-GG-011</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13337 &#177; 997<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.42356,37.66050</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QS-GG-012</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17946 &#177; 1654<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.41586,37.65486</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QS-GG-013</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12078 &#177; 817<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>101.43286,37.65825</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AG1-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33511 &#177; 2301<br/>
+<sup>26</sup>Al: 32512 &#177; 2723<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.342924,35.396624</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AG1-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20833 &#177; 1330<br/>
+<sup>26</sup>Al: 24180 &#177; 2075<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.342841,35.396498</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AG1-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15538 &#177; 941<br/>
+<sup>26</sup>Al: 14019 &#177; 1219<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.372183,35.399382</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AG1-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35496 &#177; 2161<br/>
+<sup>26</sup>Al: 30207 &#177; 3333<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.372183,35.399382</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AG1-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 141146 &#177; 9177<br/>
+<sup>26</sup>Al: 154261 &#177; 14360<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.365537,35.397271</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KG1-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 65486 &#177; 4081<br/>
+<sup>26</sup>Al: 63433 &#177; 5277<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.656801,36.443171</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KG1-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21253 &#177; 1387<br/>
+<sup>26</sup>Al: 19809 &#177; 1628<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.654708,36.441957</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KG1-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 182 &#177; 42<br/>
+<sup>26</sup>Al: 139 &#177; 31<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.656412,36.447400</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KG1-13</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 29013 &#177; 2385<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.657254,36.445056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KG1-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 245607 &#177; 16319<br/>
+<sup>26</sup>Al: 233267 &#177; 28955<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.664098,36.416655</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KG1-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 89756 &#177; 5984<br/>
+<sup>26</sup>Al: 91365 &#177; 8107<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.675471,36.423231</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KG1-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14575 &#177; 945<br/>
+<sup>26</sup>Al: 12877 &#177; 1038<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.644597,36.445540</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KG1-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 69816 &#177; 4658<br/>
+<sup>26</sup>Al: 72777 &#177; 6158<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.643945,36.426161</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KG1-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61266 &#177; 3891<br/>
+<sup>26</sup>Al: 62363 &#177; 5313<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.643945,36.426161</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KG1-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 78672 &#177; 5025<br/>
+<sup>26</sup>Al: 76310 &#177; 6510<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.652659,36.430244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KG1-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64487 &#177; 4017<br/>
+<sup>26</sup>Al: 66429 &#177; 5593<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.652289,36.432432</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KG2-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66039 &#177; 4495<br/>
+<sup>26</sup>Al: 70588 &#177; 8146<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.682155,36.436852</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KG2-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 72546 &#177; 4649<br/>
+<sup>26</sup>Al: 74811 &#177; 8680<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.699141,36.428208</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KG2-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 75985 &#177; 4790<br/>
+<sup>26</sup>Al: 79082 &#177; 7603<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.709399,36.427203</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LIA-K-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 82 &#177; 353<br/>
+<sup>26</sup>Al: 141 &#177; 175<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.647201,36.438978</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LIA-K-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6930 &#177; 464<br/>
+<sup>26</sup>Al: 6513 &#177; 543<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.647278,36.440245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LIA-K-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10208 &#177; 733<br/>
+<sup>26</sup>Al: 10702 &#177; 881<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.647184,36.439890</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LIA-K-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 343 &#177; 59<br/>
+<sup>26</sup>Al: 258 &#177; 34<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.647201,36.438978</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS-001A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 378 &#177; 81<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.705683,41.883233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS-002A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 608 &#177; 126<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.705683,41.883233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS-002B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 407 &#177; 81<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.705683,41.883233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS-004A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1262 &#177; 176<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.706100,41.882883</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS-007A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15149 &#177; 930<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.734067,41.870167</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS-007B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14990 &#177; 912<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.734067,41.870167</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS-007C</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17530 &#177; 1221<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.735633,41.869750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BS-007D</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12021 &#177; 1293<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.735633,41.869750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-001A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20962 &#177; 1322<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>76.70089,42.70139</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-001B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22199 &#177; 1439<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>76.70089,42.70139</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-001C</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20084 &#177; 1263<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>76.70089,42.70139</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-002A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 313 &#177; 74<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>76.69540,42.74965</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-002D</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 321 &#177; 97<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>76.69513,42.75083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-002E</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 308 &#177; 71<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>76.69513,42.75083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-003A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14736 &#177; 946<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>76.69392,42.74775</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-003C</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14615 &#177; 922<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>76.69392,42.74775</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CR-003D</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15217 &#177; 972<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>76.69433,42.74707</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15497 &#177; 1563<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.124200,42.038917</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21429 &#177; 1342<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.120567,42.038283</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21085 &#177; 1337<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.124017,42.038217</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-002A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17167 &#177; 1089<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.199600,42.011470</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-002C</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15613 &#177; 1121<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.198330,42.010700</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-002D</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16645 &#177; 1051<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.202020,42.012380</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-003A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17105 &#177; 1158<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.199267,42.014317</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-003B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16088 &#177; 1313<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.199267,42.014317</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-003C</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17627 &#177; 1078<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.198217,42.014467</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-004A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13395 &#177; 1041<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.142083,42.038133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP-004B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 44198 &#177; 3215<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.142083,42.038133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16232 &#177; 1556<br/>
+<sup>26</sup>Al: 18436 &#177; 1292<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.906078,41.785713</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17382 &#177; 1411<br/>
+<sup>26</sup>Al: 15065 &#177; 1513<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.905010,41.791486</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19018 &#177; 1412<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.956576,41.774707</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25418 &#177; 4354<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.958736,41.772879</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO-CS-001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19123 &#177; 1257<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.80538,41.70825</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO-CS-002A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13929 &#177; 956<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.81050,41.70142</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SO-CS-002B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20565 &#177; 1406<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.81050,41.70142</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7015 &#177; 894<br/>
+<sup>26</sup>Al: 5239 &#177; 547<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.483762,41.602144</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13658 &#177; 1128<br/>
+<sup>26</sup>Al: 11649 &#177; 1069<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.459588,41.654803</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CS-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9531 &#177; 1603<br/>
+<sup>26</sup>Al: 10879 &#177; 1250<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Batbaatar-et-al-2020.txt">Batbaatar et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>80.469842,41.630557</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

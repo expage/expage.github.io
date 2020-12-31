@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Anjar et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-202012<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>Fin15-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14802 &#177; 1059<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>27.6406,71.0897</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18973 &#177; 1355<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>27.6385,71.0862</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14336 &#177; 1081<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>27.9109,71.0354</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13441 &#177; 1013<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>27.9118,71.0351</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13904 &#177; 1165<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>27.9109,71.0354</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13201 &#177; 1026<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>28.2161,71.0756</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 51944 &#177; 3309<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>28.1970,71.0800</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16136 &#177; 1154<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>27.4876,70.7321</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13461 &#177; 913<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>27.4876,70.7321</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14815 &#177; 1013<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>27.4882,70.7318</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12061 &#177; 900<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>27.0963,70.4560</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11295 &#177; 809<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>27.0963,70.4558</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13336 &#177; 1044<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>26.0308,71.1179</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14284 &#177; 1026<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>26.0312,71.1186</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12293 &#177; 946<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>27.3627,70.0313</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-16B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15648 &#177; 8003<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>27.3631,70.0309</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13680 &#177; 1014<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>27.3627,70.0305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34214 &#177; 2320<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>27.1972,69.2653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9699 &#177; 960<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>26.9422,68.9210</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10328 &#177; 1505<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>26.9343,68.9180</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10545 &#177; 919<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>26.9370,68.9193</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12838 &#177; 955<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>27.2261,69.6007</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fin15-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12244 &#177; 1167<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anjar-et-al-in-press.txt">Anjar et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>27.2268,69.6015</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

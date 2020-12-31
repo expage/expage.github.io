@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Lane et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202012<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>BR1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11268 &#177; 698<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.2765,62.2721</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BR2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11504 &#177; 730<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.2775,62.2741</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BR3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11108 &#177; 718<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.2799,62.2765</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BR4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8859 &#177; 1149<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.2828,62.2777</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSD1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11527 &#177; 729<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.2899,62.3418</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSD2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9987 &#177; 1217<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.2893,62.3419</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSD3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11971 &#177; 750<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.2892,62.3417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSD4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11002 &#177; 663<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.2900,62.3416</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Expo1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11387 &#177; 1035<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>9.3466,62.3599</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Expo3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11501 &#177; 777<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.3466,62.3599</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Expo17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11255 &#177; 713<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.3505,62.3607</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Expo18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18015 &#177; 1134<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>9.3534,62.3623</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Expo4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11061 &#177; 716<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.3271,62.3587</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Expo5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11252 &#177; 718<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.3271,62.3587</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Expo6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7446 &#177; 464<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>9.3271,62.3587</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Expo8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10661 &#177; 699<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>9.3012,62.3498</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Expo9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12010 &#177; 750<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>9.3012,62.3498</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Expo10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16298 &#177; 1008<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>9.2762,62.3469</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Expo11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16021 &#177; 976<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.2645,62.3405</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Expo12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11835 &#177; 758<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>9.2641,62.3411</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Expo20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11337 &#177; 750<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lane-et-al-2020.txt">Lane et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>9.3778,62.3648</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

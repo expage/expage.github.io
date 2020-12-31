@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Liang et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202012<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>083-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 45343 &#177; 8239<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liang-et-al-2020.txt">Liang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>73.703,-69.747</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LSM109-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24328 &#177; 1824<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liang-et-al-2020.txt">Liang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>76.117,-69.424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LSM158-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27925 &#177; 2435<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liang-et-al-2020.txt">Liang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>76.100,-69.426</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LSM43-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15658 &#177; 1453<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liang-et-al-2020.txt">Liang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>76.385,-69.373</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LSM44-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 82026 &#177; 5213<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liang-et-al-2020.txt">Liang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>76.378,-69.374</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LSM44-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 73442 &#177; 6938<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liang-et-al-2020.txt">Liang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>76.378,-69.374</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LSM45-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57301 &#177; 3495<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liang-et-al-2020.txt">Liang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>76.389,-69.374</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LSM45-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52783 &#177; 4453<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Liang-et-al-2020.txt">Liang et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>76.389,-69.374</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

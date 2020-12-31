@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Orr et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-202012<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>GGop1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2756 &#177; 181<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.4570,33.9865</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GStk1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 942 &#177; 137<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.4684,33.9668</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GAmd1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1493 &#177; 106<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.5910,33.6833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GAmd2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1288 &#177; 84<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.5909,33.6837</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GKar1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23270 &#177; 1373<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>78.1775,32.9668</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GKar2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23309 &#177; 1367<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>78.1776,32.9665</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GKar3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27390 &#177; 2043<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>78.1776,32.9663</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GMen1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3898 &#177; 269<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>78.2107,32.9332</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GUrg1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 541 &#177; 85<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.7646,32.8990</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GUrg2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 276 &#177; 33<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>76.7635,32.8999</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPan1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4661 &#177; 1536<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.3020,32.7244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GSht1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1335 &#177; 247<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.1049,32.4159</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GBat1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6407 &#177; 428<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.6012,32.3628</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GBat2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 943 &#177; 136<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.5981,32.3609</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GCht1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1006 &#177; 145<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.5283,32.2639</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GCht2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1112 &#177; 125<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.5283,32.2635</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GCht3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1182 &#177; 404<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.5285,32.2629</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GCht4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 500 &#177; 69<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.5287,32.2621</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GCht5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 328 &#177; 36<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.5282,32.2611</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GHam1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 489 &#177; 49<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.3583,32.2643</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GHam2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 687 &#177; 98<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.3579,32.2640</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GHam3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 473 &#177; 107<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.3585,32.2635</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GHam4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 293 &#177; 57<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.3582,32.2626</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GBea1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 235 &#177; 34<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.0858,32.3543</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GBea2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 336 &#177; 58<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.0863,32.3536</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GBea3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 204 &#177; 33<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Orr-et-al-in-press.txt">Orr et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>77.0864,32.3534</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
