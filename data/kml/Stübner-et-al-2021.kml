@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Stübner et al. (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202103<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>F11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 146413 &#177; 9515<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stübner-et-al-2021.txt">Stübner et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>72.34910,38.32630</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 118331 &#177; 7348<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stübner-et-al-2021.txt">Stübner et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>72.34975,38.32212</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>B21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 109144 &#177; 6765<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stübner-et-al-2021.txt">Stübner et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>72.34648,38.30822</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>B22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 176863 &#177; 11149<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stübner-et-al-2021.txt">Stübner et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>72.34648,38.30822</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 75567 &#177; 4824<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stübner-et-al-2021.txt">Stübner et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>72.36198,38.30492</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 71749 &#177; 4577<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stübner-et-al-2021.txt">Stübner et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>72.36332,38.30312</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29317 &#177; 1786<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stübner-et-al-2021.txt">Stübner et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>72.36428,38.30213</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 71000 &#177; 4528<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stübner-et-al-2021.txt">Stübner et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>72.36493,38.30143</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 59285 &#177; 3770<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stübner-et-al-2021.txt">Stübner et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>72.36240,38.30073</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>B51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 94545 &#177; 5837<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stübner-et-al-2021.txt">Stübner et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>72.38158,38.30997</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>B61</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 145187 &#177; 9433<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stübner-et-al-2021.txt">Stübner et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>72.45305,38.30843</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>B62</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 175463 &#177; 10858<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stübner-et-al-2021.txt">Stübner et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>72.45032,38.30587</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>B63</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 168789 &#177; 11033<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stübner-et-al-2021.txt">Stübner et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>72.44677,38.30390</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>B64</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 177850 &#177; 11231<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stübner-et-al-2021.txt">Stübner et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>72.42825,38.30182</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

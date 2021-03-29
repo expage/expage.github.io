@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Baroni et al. (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202103<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>GP01.17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9505 &#177; 707<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2021.txt">Baroni et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.341,45.585</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP02.17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12159 &#177; 817<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2021.txt">Baroni et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.341,45.585</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP16.18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13126 &#177; 877<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2021.txt">Baroni et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.317,45.579</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP19.18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10592 &#177; 751<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2021.txt">Baroni et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.310,45.570</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP28.18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10190 &#177; 698<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2021.txt">Baroni et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.094,45.511</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP05.17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10634 &#177; 790<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2021.txt">Baroni et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.236,45.540</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP06.17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 74016 &#177; 4557<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2021.txt">Baroni et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.234,45.539</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP34.18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12650 &#177; 825<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2021.txt">Baroni et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.232,45.549</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP11.17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10948 &#177; 896<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2021.txt">Baroni et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.236,45.542</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP24.18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11509 &#177; 825<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2021.txt">Baroni et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.214,45.514</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP31.18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12934 &#177; 816<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2021.txt">Baroni et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.248,45.574</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP36.18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10058 &#177; 647<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2021.txt">Baroni et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.230,45.531</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GP37.18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9313 &#177; 731<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Baroni-et-al-2021.txt">Baroni et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.230,45.531</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

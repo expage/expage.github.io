@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Valentino et al. (in press)</name>
+<description>
+<![CDATA[
+Data from expage-202103<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>CHU1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 688 &#177; 121<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Valentino-et-al-in-press.txt">Valentino et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.7221,61.1682</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17587 &#177; 1387<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Valentino-et-al-in-press.txt">Valentino et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.7028,61.1370</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18314 &#177; 1772<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Valentino-et-al-in-press.txt">Valentino et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-145.7188,61.1318</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13548 &#177; 979<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Valentino-et-al-in-press.txt">Valentino et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.7270,61.1382</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12931 &#177; 1166<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Valentino-et-al-in-press.txt">Valentino et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.7329,61.1384</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22182 &#177; 2195<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Valentino-et-al-in-press.txt">Valentino et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-146.0241,61.5606</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11367 &#177; 751<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Valentino-et-al-in-press.txt">Valentino et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.7586,61.1959</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13981 &#177; 1663<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Valentino-et-al-in-press.txt">Valentino et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.7586,61.1959</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13366 &#177; 1068<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Valentino-et-al-in-press.txt">Valentino et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.7630,61.0879</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13818 &#177; 1087<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Valentino-et-al-in-press.txt">Valentino et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-145.7626,61.0875</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU67</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25303 &#177; 2815<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Valentino-et-al-in-press.txt">Valentino et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.6395,61.1376</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU69</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16911 &#177; 2347<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Valentino-et-al-in-press.txt">Valentino et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.6462,61.1375</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU126</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40380 &#177; 2928<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Valentino-et-al-in-press.txt">Valentino et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.6231,61.0626</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHU127</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 54288 &#177; 3771<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Valentino-et-al-in-press.txt">Valentino et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-149.6248,61.0625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ala-54</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 79437 &#177; 5735<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Valentino-et-al-in-press.txt">Valentino et al. (in press)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-149.6695,61.0898</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
