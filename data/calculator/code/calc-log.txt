@@ -19,10 +19,11 @@ expage-201912 calculator
 * Option to calculate exposure ages and production rates using isostatic adjustments of the
   elevation and associated atmospheric pressure. The elevation change can be calculated from the
   ICE6G data (Argus et al. 2014; Peltier et al. 2015) globally, the PD2015 model (Påsse and Daniels
-  2015) model for Fennoscandia, or from the data in a self-provided file. Reference production rates
-  used when employing the isostatic adjustment option have been calibrated using the updated
-  prodrate.m function with the Billingen_uplift.txt data for site 18, PD2015 data for sites 6,7,11,
-  12 in Fennoscandia, and ICE6G data for all other calibration sites.
+  2015) for Fennoscandia, the ANU2017 model (Lambeck et al. 2017) for North America or from the data
+  in a self-provided file. Reference production rates used when employing the isostatic adjustment
+  option have been calibrated using the updated prodrate.m function with the Billingen_uplift.txt
+  data for site 18, PD2015 data for sites 6,7,11,12 in Fennoscandia, and ICE6G data for all other
+  calibration sites.
 * Changed mu_z in subfunctions get_PmuE to use 5-10 points depending on simple age erosion depth
   instead of 10 (speeds up the calculation somewhat).
 * Changed the log step shielding depth vector in erosion.m, glacialE.m, and burial.m from
