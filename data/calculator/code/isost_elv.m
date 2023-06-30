@@ -2,17 +2,17 @@ function elv = isost_elv(isost,sample);
 
 % Function for calculating isostatic elevation development.
 % This is free software: you can use/copy/modify/distribute as long as you keep it free/open.
-% Jakob Heyman (jakob.heyman@gu.se) 2019
+% Jakob Heyman (jakob.heyman@gu.se) 2019-2021
 
-% check method to use (ICE6G, ANU2017, PD2015, or data from file) and fix elv
-if isfield(isost,'delv_500'); % ICE6G or ANU2017
+% check method to use (ICE7G, ICE6G, ANU2017, PD2015, Gowan2021, or data from file) and fix elv
+if isfield(isost,'delv_2500'); % ICE7G or ICE6G or ANU2017 or Gowan2021
     elv = isost_interp(isost,sample.lat,sample.long,sample.elv,sample.tv,sample.samplingyr);
 elseif isfield(isost,'Bv'); % Påsse and Daniels (2015)
     elv = isost_PD2015(isost,sample.lat,sample.long,sample.elv,sample.tv,sample.samplingyr);
 elseif isfield(isost,'tv'); % data from file
     elv = isost_file(isost,sample.tv,sample.elv,sample.samplingyr);
 else;
-    fprintf(1,'\nIsostatic adjustment input ERROR!\n');
+    fprintf(1,'\nNo isostatic adjustment - input ERROR?\n');
     elv = sample.elv;
 end;
 
@@ -31,21 +31,28 @@ function elv = isost_interp(indata,lat,long,elv0,tv,samplingyr);
     % field names for loops below
     Tnames = indata.Tnames;
     % fix for coordinates
-    if strcmp(indata.name,'ICE6G');
+    if strcmp(indata.name,'Gowan2021') && long>180; % fix for Gowan2021 longitudes
+        long = long - 360;
+    end;
+    if strcmp(indata.name,'ICE7G') || strcmp(indata.name,'ICE6G'); % fix for edges
         [indata,lat,long] = latlongfix(indata,Tnames,lat,long);
     elseif lat<min(indata.lat) || lat>max(indata.lat) || ...
         long<min(indata.lon) || long>max(indata.lon);
         fprintf(1,'\nthe sample is located outside the %s domain!\n',indata.name);
         elv = elv0; return;
     end;
-    % interpret uplift
+    % interpolate uplift
     delv = [0];
     for i = 1:numel(Tnames);
-        delv(end+1) = interp2(indata.lon,indata.lat,indata.(Tnames{i}),long,lat,'pchip');
+        delv(end+1) = interp2(indata.lon,indata.lat,indata.(Tnames{i}),long,lat,'cubic');
     end;
-    % find index of tv within indata.tv (0-26 ka BP) and add interpolated elevation difference
-    tvidx = find(tv>=indata.tv(1) & tv<=indata.tv(end));
-    elv(tvidx) = elv(tvidx) + interp1(indata.tv,delv,tv(tvidx),'pchip');
+    % find index of tv within or younger than indata.tv
+    tvidx = find(tv <= indata.tv(end));
+    % interpolate elev diff (extrapolate for tv younger than indata.tv) and relate to samplingyr
+    delv2 = interp1(indata.tv,delv,tv(tvidx),'pchip','extrap');
+    delv2 = delv2 - delv2(1);
+    % add interpolated elevation difference to elevation
+    elv(tvidx) = elv(tvidx) + delv2;
 % end subfunction isost_interp ======================================================================
 
 
@@ -59,10 +66,10 @@ function elv = isost_PD2015(PD2015,lat,long,elv0,tv,samplingyr);
         elv = elv0; return;
     end;
     % interpolate A,T,Bv,Be
-    A = interp2(PD2015.Xv,PD2015.Yv,PD2015.A,X,Y,'pchip');
-    T = interp2(PD2015.Xv,PD2015.Yv,PD2015.T,X,Y,'pchip');
-    Bv = interp2(PD2015.Xv,PD2015.Yv,PD2015.Bv,X,Y,'pchip');
-    Be = interp2(PD2015.Xv,PD2015.Yv,PD2015.Be,X,Y,'pchip');
+    A = interp2(PD2015.Xv,PD2015.Yv,PD2015.A,X,Y,'cubic');
+    T = interp2(PD2015.Xv,PD2015.Yv,PD2015.T,X,Y,'cubic');
+    Bv = interp2(PD2015.Xv,PD2015.Yv,PD2015.Bv,X,Y,'cubic');
+    Be = interp2(PD2015.Xv,PD2015.Yv,PD2015.Be,X,Y,'cubic');
     % relate tv to 1950
     tvpd =  tv - samplingyr + 1950;
     % calculate U and E
@@ -116,9 +123,13 @@ function elv = isost_file(file,tv,elv0,samplingyr);
         end;
         % fix file.tv
         file.tv = file.tv + samplingyr - file.yr0;
-        % find index of tv within file.tv and add interpolated elevation difference
-        tvidx = find(tv>=file.tv(1) & tv<=file.tv(end));
-        elv(tvidx) = elv(tvidx) + interp1(file.tv,file.delv,tv(tvidx),'pchip');
+        % find index of tv within or younger than file.tv
+        tvidx = find(tv <= file.tv(end));
+        % interpolate elev diff (extrapolate for tv younger than file.tv) and relate to samplingyr
+        delv2 = interp1(file.tv,file.delv,tv(tvidx),'pchip','extrap');
+        delv2 = delv2 - delv2(1);
+        % add interpolated elevation difference to elevation
+        elv(tvidx) = elv(tvidx) + delv2;
     else;
         fprintf(1,'\nIsostatic adjustment input ERROR! (missing delv or shoreline)\n');
     end;

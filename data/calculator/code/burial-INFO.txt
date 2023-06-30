@@ -1,12 +1,12 @@
-Information for burial.m (version 201912) calculating simple exposure and burial durations for
+Information for burial.m (version 202306) calculating simple exposure and burial durations for
 combined 10Be and 26Al measurements. The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se)
-2015-2019 mainly based on the CRONUS calculator (Balco et al. 2008) and the LSD production rate
+2015-2023 mainly based on the CRONUS calculator (Balco et al. 2008) and the LSD production rate
 scaling (Lifton et al. 2014).
 
 
 TO USE THE CALCULATOR:
 1. Fix the input.txt file (see below).
-2. Make choices in lines 41-46.
+2. Make choices in lines 21-52.
 3. Run burial.m in Octave or Matlab.
 4. Simple exposure and burial durations (yr) are saved in out-burial.txt
 
@@ -21,13 +21,14 @@ The calculator is based on the CRONUS calculator (Balco et al. 2008) with some m
 * Time-constant muon production rate parameterization (modified to reduce near-surface artifacts)
   based on Antarctica depth profile data (Borchers et al. 2016; Marrero et al. 2016; Phillips et al.
   2016) with fstar and sigma0 calibrated using muclib.m.
+* Geomagnetic framework of Lifton (2016) with the SHA.DIF.14k model.
 * Atmospheric pressure based on sample elevation and ERA-40 re-analysis dataset ('std'), Antarctica
   best-fit interpolation ('ant') (Balco et al. 2008), or given directly ('pre') in hPa.
 * Attenuation length for calculating the spallation production rate adjustments for sample thickness
   and erosion rate interpolated from atmospheric pressure and cutoff rigidity (Marrero et al. 2016).
 * A simple history is assumed with one or two of the following scenarios:
-  1. (exposure_burial = 1) Constant duration of exposure at the surface followed by full burial.
-  2. (erosion_burial = 1) Constant erosion rate followed by full burial.
+  1. (par.exposure_burial = 1) Constant duration of exposure at the surface followed by full burial.
+  2. (par.erosion_burial = 1) Constant erosion rate followed by full burial.
   To get the exposure duration and/or the erosion rate and the associated burial duration the 10Be
   and 26Al concentrations are calculated in an iterative approach zooming in on the exposure/erosion
   and burial scenario that yields the measured 10Be and 26Al concentrations. Samples with 26/10
@@ -54,10 +55,10 @@ sampling year. The input should contain 15 columns with the following informatio
 8. Correction factor - Unitless factor used for topo/geom shielding correction (no shielding -> 1).
 9. 10Be concentration [atoms/g] - (if no 10Be measurement: use 0).
 10. 10Be concentration uncertainty [atoms/g] - (if no 10Be measurement: use 0).
-11. 10Be standardization - See make_consts_expage.m lines 34-38 for acceptable names and values.
+11. 10Be standardization - See make_consts_expage.m lines 39-45 for acceptable names and values.
 12. 26Al concentration [atoms/g] - (if no 26Al measurement: use 0).
 13. 26Al concentration uncertainty [atoms/g] - (if no 26Al measurement: use 0).
-14. 26Al standardization - See make_consts_expage.m lines 41-42 for acceptable names and values.
+14. 26Al standardization - See make_consts_expage.m lines 47-49 for acceptable names and values.
 15. Sampling year [CE].
 
 Option 2:
@@ -74,10 +75,10 @@ shield - Correction factor - Unitless factor used for topo/geom shielding correc
 erosion - Erosion rate [mm/ka]. Not used in calculator.
 N10 - 10Be concentration [atoms/g].
 N10unc - 10Be concentration uncertainty [atoms/g].
-std10 - 10Be standardization - See make_consts_expage.m lines 34-38 for acceptable names and values.
+std10 - 10Be standardization - See make_consts_expage.m lines 39-45 for acceptable names and values.
 N26 - 26Al concentration [atoms/g].
 N26unc - 26Al concentration uncertainty [atoms/g].
-std26 - 26Al standardization - See make_consts_expage.m lines 41-42 for acceptable names and values.
+std26 - 26Al standardization - See make_consts_expage.m lines 47-49 for acceptable names and values.
 samplingyr - Sampling year [CE].
 pressure - Atmospheric pressure [hPa] - If pressure is included, data in elv is not used.
 
@@ -89,5 +90,5 @@ If exposure_burial = 1 (line 23 in burial.m): simple exposure and burial duratio
 If erosion_burial = 1 (line 24 in burial.m): simple erosion rates (mm/ka) and burial durations (yr).
 Samples with no simple exposure/erosion solution yield '-' in the output.
 Samples with 10Be and/or 26Al concentration = 0 yield '-' in the output.
-If normNout = 1 (line 32 in burial.m), the calculator will also save sample concentrations and
+If normNout = 1 (line 51 in burial.m), the calculator will also save sample concentrations and
 uncertainties normalized to the sample production rate (for later plotting).

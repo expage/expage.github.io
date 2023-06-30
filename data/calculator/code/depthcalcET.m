@@ -6,7 +6,7 @@ function depthcalcET()
 % specific LSD scaling) and assuming one period of exposure. At least two concentrations must be
 % given for the calculator to work.
 % This is free software: you can use/copy/modify/distribute as long as you keep it free/open.
-% Jakob Heyman - 2015-2018 (jakob.heyman@gu.se)
+% Jakob Heyman - 2015-2023 (jakob.heyman@gu.se)
 
 clear;
 close all;
@@ -23,7 +23,7 @@ Emax = 3; % mm/ka
 ETgrid = 100;
 
 % What version is this?
-ver = '201912';
+ver = '202306';
 
 % fix input ========================================================================================
 % variable names for input with variable names in first line
@@ -49,7 +49,7 @@ else;
     fprintf(1,'ERROR! Something is wrong with the input\n');
     return;
 end;
-indata = textscan(fid,typestr,'CommentStyle','%'); % scan data
+indata = textscan(fid,typestr,'CommentStyle','%','TreatAsEmpty','-'); % scan data
 for i = 1:numel(varsin); % fix variables
     samplein.(varsin{i}) = indata{i};
 end;
@@ -87,6 +87,12 @@ if isfield(samplein,'std10'); std10 = samplein.std10; else; std10(1:numel(sample
 if isfield(samplein,'N26'); N26 = samplein.N26; else; N26(1:numel(sample),1) = 0; end;
 if isfield(samplein,'N26unc'); N26unc = samplein.N26unc; else; N26unc(1:numel(sample),1) = 0; end;
 if isfield(samplein,'std26'); std26 = samplein.std26; else; std26(1:numel(sample),1) = {'0'}; end;
+
+% if there is NaN in N10 and N26: replace with 0
+samplein.N10(isnan(samplein.N10)) = 0;
+samplein.N10unc(isnan(samplein.N10unc)) = 0;
+samplein.N26(isnan(samplein.N26)) = 0;
+samplein.N26unc(isnan(samplein.N26unc)) = 0;
 
 % convert 10Be concentrations according to standards
 [testi,stdi] = ismember(std10,consts.std10); % find index of standard conversion factors
@@ -183,7 +189,7 @@ j10 = 0;
 j26 = 0;
 
 % Age Relative to t0=2010 - LSD tv from LSDfix
-% tv = [0:10:50 60:100:50060 51060:1000:2000060 logspace(log10(2001060),7,200)];
+% tv = [0:10:50 60:100:2960 3060:200:74860 75060:1000:799060 800060:2000:2000060 1E7];
 
 % Fix tv, Rc, RcEst, SPhi, and w for sp and mu prod rate scaling
 LSDfix = LSD_fix(lat,long,Tmax,-1,samplingyr,consts);
@@ -200,7 +206,7 @@ dz = linspace(mind,maxd,100);
 
 % muon production
 fprintf(1,'calculating muon P...');
-Pmu = P_mu_expage(dz.*dens,atm,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
+Pmu = P_mu_expage(dz.*dens,atm,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,0,consts,'no');
 fprintf(1,' done!\n');
 
 % pick out Pmu if data exists
@@ -208,7 +214,7 @@ if nucl10 == 1; Pmu10 = Pmu.mu10 .* shield; end;
 if nucl26 == 1; Pmu26 = Pmu.mu26 .* shield; end;
 
 % spallation surface production scaling
-Psp0 = P_sp_expage(atm,Rc,SPhi,LSDfix.w,consts,nucl10,nucl26);
+Psp0 = P_sp_expage(atm,Rc,SPhi,LSDfix.w,consts,nucl10,nucl26,0);
 
 % pick out Psp if data exists
 if nucl10 == 1; Psp010 = Psp0.sp10 .* shield; end;

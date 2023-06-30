@@ -3,46 +3,52 @@ function burial();
 % expage 10Be and 26Al exposure/burial duration calculator.
 % Read and fix input, use get_exposure_burial to calculate exposure and burial durations and/or
 % get_erosion_burial to calculate erosion rate and burial duration, and fix and write output. If
-% plotting is on, display P-normalized 26/10 banana plot.
+% plotting is on, display 26/10 banana plot.
 %
 % Based on code written by Greg Balco for the CRONUS calculator v. 2.
 %
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 2, as published by the Free Software Foundation (www.fsf.org).
 %
-% Jakob Heyman - 2015-2019 (jakob.heyman@gu.se)
+% Jakob Heyman - 2015-2023 (jakob.heyman@gu.se)
 
 clear; close all;
 tic();
 
 % What version is this?
-ver = '201912';
+ver = '202306';
 
 % make choices here ================================================================================
 % exposure + burial and/or erosion + burial? (1 = yes)
-exposure_burial = 1; % calculate burial assuming prior surface exposure
-erosion_burial = 0; % calculate burial assuming prior constant erosion
+par.exposure_burial = 1; % calculate burial assuming prior surface exposure
+par.erosion_burial = 0; % calculate burial assuming prior constant erosion
 
 % calculate external and/or internal uncertainties? (1 = yes)
-extunc = 1;
-intunc = 0;
+par.extunc = 1;
+par.intunc = 1;
 % Monte Carlo size for uncertainty estimate
 mc = 1E5;
 
 % plotting? (1 = yes)
-pl.expline = 1;       % plot simple exposure line (and burial paths/lines)
-pl.eline = 1;         % plot erosion end point line (and burial paths/lines)
-pl.points = 1;        % plot sample points
-pl.sigma1line = 1;    % plot sample 1 sigma line
-pl.sigma2line = 0;    % plot sample 2 sigma line
-pl.probcontours = 0;  % plot probability contour line
-pl.extunc = 1;        % plot external uncertainty (including prod rate unc) for sample conc
-pl.intunc = 0;        % plot internal uncertainty (excluding prod rate unc) for sample conc
-pl.uncarea = 1;       % plot uncertainties as semi-transparent polygons
-pl.sampleclr = 'red'; % color for sample conc
+pl.expline = 1;              % plot simple exposure line (and burial paths/lines)
+pl.eline = 1;                % plot erosion end point line (and burial paths/lines)
+pl.points = 1;               % plot sample points
+pl.sigma1line = 1;           % plot sample 1 sigma line
+pl.sigma2line = 0;           % plot sample 2 sigma line
+pl.contourarea = 0;          % plot probability contour area
+pl.contourline = 0;          % plot probability contour line
+pl.extunc = 1;               % plot external uncertainty (including prod rate unc) for sample conc
+pl.intunc = 0;               % plot internal uncertainty (excluding prod rate unc) for sample conc
+pl.uncarea = 1;              % plot uncertainties as semi-transparent polygons
+pl.sampleclr = 'red';        % color for sample conc
+pl.explineclr = 'black';     % color for simple exposure line (and burial paths/lines)
+pl.elineclr = [0.7 0.7 0.7]; % color for erosion end point line (and burial paths/lines)
+pl.pointmarker = '.';        % marker for conc points
+%~ pl.pointmarker = 'o';        % marker for conc points
+pl.normalize = 1;            % normalize 26/10-P on Y-axis?
 
 % write normalized conc data? (for later plotting)
-normNout = 1;
+par.normNout = 1;
 % ==================================================================================================
 
 % fix input ========================================================================================
@@ -68,7 +74,7 @@ else;
     fprintf(1,'ERROR! Something is wrong with the input\n');
     return;
 end;
-indata = textscan(fid,typestr,'CommentStyle','%'); % scan data
+indata = textscan(fid,typestr,'CommentStyle','%','TreatAsEmpty','-'); % scan data
 for i = 1:numel(varsin); % fix variables
     samplein.(varsin{i}) = indata{i};
 end;
@@ -87,11 +93,11 @@ l10 = consts.l10; dell10 = consts.l10unc;
 l26 = consts.l26; dell26 = consts.l26unc;
 
 % display external/internal uncertainty info
-if extunc == 1 && intunc == 1;
+if par.extunc == 1 && par.intunc == 1;
     fprintf(1,'external and (internal) uncertainties\n');
-elseif extunc == 1;
+elseif par.extunc == 1;
     fprintf(1,'external uncertainties\n');
-elseif intunc == 1;
+elseif par.intunc == 1;
     fprintf(1,'internal uncertainties\n');
 end;
 
@@ -102,6 +108,12 @@ if isfield(samplein,'std10') == 0; samplein.std10(1:numel(samplein.sample),1) = 
 if isfield(samplein,'N26') == 0; samplein.N26(1:numel(samplein.sample),1) = 0; end;
 if isfield(samplein,'N26unc') == 0; samplein.N26unc(1:numel(samplein.sample),1) = 0; end;
 if isfield(samplein,'std26') == 0; samplein.std26(1:numel(samplein.sample),1) = {'0'}; end;
+
+% if there is NaN in N10 and N26: replace with 0
+samplein.N10(isnan(samplein.N10)) = 0;
+samplein.N10unc(isnan(samplein.N10unc)) = 0;
+samplein.N26(isnan(samplein.N26)) = 0;
+samplein.N26unc(isnan(samplein.N26unc)) = 0;
 
 % convert 10Be concentrations according to standards
 [testi,stdi] = ismember(samplein.std10,consts.std10); % find index of standard conversion factors
@@ -136,52 +148,62 @@ pl.N26n = []; pl.N26uncintn = []; pl.N26uncextn = [];
 pl.P10sp = []; pl.P26sp = []; pl.P_mu10 = []; pl.P_mu26 = []; pl.P10z = []; pl.P26z = [];
 pl.Lsp = []; pl.RcEst = []; pl.SPhiAv = []; pl.thick_dens = []; pl.atm = []; pl.shield = [];
 
-% fix for output
+% fix for output =========================================================================
 output(1,1) = {'sample'};
-outn(1) = 1;
+outcol.sample = 1;
+outputstr = {'exposure(yr)','exp-uncext(yr)','exp-uncint(yr)';...
+    'burial(yr)','bur-uncext(yr)','bur-uncint(yr)';...
+    'erosion(mm/ka)','ero-uncext(mm/ka)','ero-uncint(mm/ka)';...
+    'burial(yr)','bur-uncext(yr)','bur-uncint(yr)';...
+    'N10norm','N10uncext','N10uncint';...
+    'N26norm','N26uncext','N26uncint'};
+outcolstr = {'exp','expextu','expintu';...
+    'expbur','expburextu','expburintu';...
+    'ero','eroextu','erointu';...
+    'erobur','eroburextu','eroburintu';...
+    'N10norm','N10uncext','N10uncint';...
+    'N26norm','N26uncext','N26uncint'};
+chstr = {'exposure_burial','erosion_burial','normNout'};
 if sum(samplein.N10+samplein.N26) > 0;
-    if exposure_burial == 1;
-        output(1,end+1) = {'exposure(yr)'}; outn(1) = max(outn)+1;
-        if extunc == 1; output(1,end+1) = {'exp-uncext(yr)'}; outn(2) = max(outn)+1; end;
-        if intunc == 1; output(1,end+1) = {'exp-uncint(yr)'}; outn(3) = max(outn)+1; end;
-        output(1,end+1) = {'burial(yr)'}; outn(4) = max(outn)+1;
-        if extunc == 1; output(1,end+1) = {'bur-uncext(yr)'}; outn(5) = max(outn)+1; end;
-        if intunc == 1; output(1,end+1) = {'bur-uncint(yr)'}; outn(6) = max(outn)+1; end;
-    end;
-    if erosion_burial == 1;
-        output(1,end+1) = {'erosion(mm/ka)'}; outn(7) = max(outn)+1;
-        if extunc == 1; output(1,end+1) = {'ero-uncext(mm/ka)'}; outn(8) = max(outn)+1; end;
-        if intunc == 1; output(1,end+1) = {'ero-uncint(mm/ka)'}; outn(9) = max(outn)+1; end;
-        output(1,end+1) = {'burial(yr)'}; outn(10) = max(outn)+1;
-        if extunc == 1; output(1,end+1) = {'bur-uncext(yr)'}; outn(11) = max(outn)+1; end;
-        if intunc == 1; output(1,end+1) = {'bur-uncint(yr)'}; outn(12) = max(outn)+1; end;
-    end;
-    if normNout == 1; % if writing normalized conc data
-        output(1,end+1) = {'N10norm'}; outn(13) = max(outn)+1;
-        if extunc == 1; output(1,end+1) = {'N10uncext'}; outn(14) = max(outn)+1; end;
-        if intunc == 1; output(1,end+1) = {'N10uncint'}; outn(15) = max(outn)+1; end;
-        output(1,end+1) = {'N26norm'}; outn(16) = max(outn)+1;
-        if extunc == 1; output(1,end+1) = {'N26uncext'}; outn(17) = max(outn)+1; end;
-        if intunc == 1; output(1,end+1) = {'N26uncint'}; outn(18) = max(outn)+1; end;
+    for i = 1:3;
+        if par.(chstr{i}) == 1;
+            output(1,end+1) = outputstr(i*2-1,1);
+            outcol.(outcolstr{i*2-1,1}) = max(cell2mat(struct2cell(outcol)))+1;
+            if par.extunc == 1;
+                output(1,end+1) = outputstr(i*2-1,2);
+                outcol.(outcolstr{i*2-1,2}) = max(cell2mat(struct2cell(outcol)))+1;
+            end;
+            if par.intunc == 1;
+                output(1,end+1) = outputstr(i*2-1,3);
+                outcol.(outcolstr{i*2-1,3}) = max(cell2mat(struct2cell(outcol)))+1;
+            end;
+            output(1,end+1) = outputstr(i*2,1);
+            outcol.(outcolstr{i*2,1}) = max(cell2mat(struct2cell(outcol)))+1;
+            if par.extunc == 1;
+                output(1,end+1) = outputstr(i*2,2);
+                outcol.(outcolstr{i*2,2}) = max(cell2mat(struct2cell(outcol)))+1;
+            end;
+            if par.intunc == 1;
+                output(1,end+1) = outputstr(i*2,3);
+                outcol.(outcolstr{i*2,3}) = max(cell2mat(struct2cell(outcol)))+1;
+            end;
+        end;
     end;
 end;
+% ========================================================================================
 
 % pick out samples one by one
 for i = 1:numel(samplein.lat);
-    sample.sample = samplein.sample(i);
-    sample.lat = samplein.lat(i);
-    sample.long = samplein.long(i);
-    sample.thick = samplein.thick(i);
-    sample.dens = samplein.dens(i);
-    sample.shield = samplein.shield(i);
-    sample.N10 = samplein.N10(i);
-    sample.N10unc = samplein.N10unc(i);
-    sample.std10 = samplein.std10(i,:);
-    sample.N26 = samplein.N26(i);
-    sample.N26unc = samplein.N26unc(i);
-    sample.std26 = samplein.std26(i,:);
-    sample.samplingyr = samplein.samplingyr(i);
-    sample.pressure = samplein.pressure(i);
+    % pick out sample data
+    samplefields = fieldnames(samplein);
+    for j = 1:numel(samplefields);
+        sample.(samplefields{j}) = samplein.(samplefields{j})(i);
+        % remove fields with input '-' or numeric fields with NaN input
+        if strcmp(sample.(samplefields{j}),'-') || ...
+                (isnumeric(sample.(samplefields{j})) && isnan(sample.(samplefields{j})));
+            sample = rmfield(sample,samplefields{j});
+        end;
+    end;
     
     % write sample name to output
     output(i+1,1) = sample.sample;
@@ -209,7 +231,7 @@ for i = 1:numel(samplein.lat);
     end;
     
     % if calculating uncertainties
-    if extunc+intunc >= 1;
+    if par.extunc+par.intunc >= 1;
         % randomized 10Be and 26Al concentrations for mc simulation
         sample.N10mc = normrnd(sample.N10,sample.N10unc,[1 mc]);
         sample.N26mc = normrnd(sample.N26,sample.N26unc,[1 mc]);
@@ -222,7 +244,7 @@ for i = 1:numel(samplein.lat);
     end;
     
     % spallation production scaling
-    Psp = P_sp_expage(sample.pressure,LSDfix.RcEst,consts.SPhiInf,LSDfix.w,consts,1,1);
+    Psp = P_sp_expage(sample.pressure,LSDfix.RcEst,consts.SPhiInf,LSDfix.w,consts,1,1,0);
     
     % randomized ref prod rates for Monte Carlo simulation
     Pref10mc = normrnd(Pref10,Pref10unc,[1 mc]);
@@ -235,16 +257,16 @@ for i = 1:numel(samplein.lat);
     sample.Psp26mc = Psp.sp26.*Pref26mc.*thickSF.*sample.shield;
     
     % fix shielding depth vector z (g/cm2/yr)
-    if erosion_burial == 1;
-        sample.z = [0 logspace(0,5.3,100)]';
-        %sample.z = [(0:3:27) logspace(1.48,5.3,70)]';
+    if par.erosion_burial == 1;
+        %~ sample.z = [0 logspace(0,5.3,100)]';
+        sample.z = [(0:3:12) logspace(1.18,5.3,50)]';
     else;
         sample.z = 0;
     end;
     zmu = sample.z + sample.thick.*sample.dens./2; % add half sample depth
     
     % muon production
-    P_mu = P_mu_expage(zmu,sample.pressure,LSDfix.RcEst,consts.SPhiInf,1,1,consts,'no');
+    P_mu = P_mu_expage(zmu,sample.pressure,LSDfix.RcEst,consts.SPhiInf,1,1,0,consts,'no');
     sample.Pmu10 = P_mu.mu10'.*sample.shield;
     sample.Pmu26 = P_mu.mu26'.*sample.shield;
     
@@ -257,99 +279,99 @@ for i = 1:numel(samplein.lat);
     N26norm_uncext = sqrt(N26norm_uncint.^2 + (Pref26unc./Pref26.*N26norm).^2);
     
     % calculate exposure + burial
-    if exposure_burial == 1;
-        expbur = get_exposure_burial(sample,consts,mc,extunc,intunc);
+    if par.exposure_burial == 1;
+        expbur = get_exposure_burial(sample,consts,mc,par.extunc,par.intunc);
         
         % write to output
-        output(i+1,outn(1)) = {num2str(expbur.exposure,'%.0f')};
-        output(i+1,outn(4)) = {num2str(expbur.burial,'%.0f')};
-        if extunc == 1;
-            output(i+1,outn(2)) = {num2str(expbur.exposure_uncext,'%.0f')};
-            output(i+1,outn(5)) = {num2str(expbur.burial_uncext,'%.0f')};
+        output(i+1,outcol.exp) = {num2str(expbur.exposure,'%.0f')};
+        output(i+1,outcol.expbur) = {num2str(expbur.burial,'%.0f')};
+        if par.extunc == 1;
+            output(i+1,outcol.expextu) = {num2str(expbur.exposure_uncext,'%.0f')};
+            output(i+1,outcol.expburextu) = {num2str(expbur.burial_uncext,'%.0f')};
         end;
-        if intunc == 1;
-            output(i+1,outn(3)) = {num2str(expbur.exposure_uncint,'%.0f')};
-            output(i+1,outn(6)) = {num2str(expbur.burial_uncint,'%.0f')};
+        if par.intunc == 1;
+            output(i+1,outcol.expintu) = {num2str(expbur.exposure_uncint,'%.0f')};
+            output(i+1,outcol.expburintu) = {num2str(expbur.burial_uncint,'%.0f')};
         end;
         
         % display exposure/burial and fix output if no solution
-        if erosion_burial == 1; fprintf(1,'\n'); end; % separate lines if both exposure/erosion
+        if par.erosion_burial == 1; fprintf(1,'\n'); end; % separate lines if both exposure/erosion
         if expbur.exposure >= 0; % if initial exposure within bounds
-            if extunc == 1 && intunc == 1;
-                fprintf(1,' \texposure = %s ± %s (%s) yr',output{i+1,outn(1)},...
-                    output{i+1,outn(2)},output{i+1,outn(3)});
-                fprintf(1,' \tburial = %s ± %s (%s) yr',output{i+1,outn(4)},output{i+1,outn(5)},...
-                    output{i+1,outn(6)});
-            elseif extunc == 1;
-                fprintf(1,' \texposure = %s ± %s yr',output{i+1,outn(1)},output{i+1,outn(2)});
-                fprintf(1,' \tburial = %s ± %s yr',output{i+1,outn(4)},output{i+1,outn(5)});
-            elseif intunc == 1;
-                fprintf(1,' \texposure = %s ± %s yr',output{i+1,outn(1)},output{i+1,outn(3)});
-                fprintf(1,' \tburial = %s ± %s yr',output{i+1,outn(4)},output{i+1,outn(6)});
+            if par.extunc == 1 && par.intunc == 1;
+                fprintf(1,' \texposure = %s ± %s (%s) yr',output{i+1,outcol.exp},...
+                    output{i+1,outcol.expextu},output{i+1,outcol.expintu});
+                fprintf(1,' \tburial = %s ± %s (%s) yr',output{i+1,outcol.expbur},output{i+1,outcol.expburextu},...
+                    output{i+1,outcol.expburintu});
+            elseif par.extunc == 1;
+                fprintf(1,' \texposure = %s ± %s yr',output{i+1,outcol.exp},output{i+1,outcol.expextu});
+                fprintf(1,' \tburial = %s ± %s yr',output{i+1,outcol.expbur},output{i+1,outcol.expburextu});
+            elseif par.intunc == 1;
+                fprintf(1,' \texposure = %s ± %s yr',output{i+1,outcol.exp},output{i+1,outcol.expintu});
+                fprintf(1,' \tburial = %s ± %s yr',output{i+1,outcol.expbur},output{i+1,outcol.expburintu});
             else;
-                fprintf(1,' \texposure = %s yr',output{i+1,outn(1)});
-                fprintf(1,' \tburial = %s yr',output{i+1,outn(4)});
+                fprintf(1,' \texposure = %s yr',output{i+1,outcol.exp});
+                fprintf(1,' \tburial = %s yr',output{i+1,outcol.expbur});
             end;
         else;
             fprintf(1,' \tno solution!');
-            output(i+1,outn(1)) = {'-'}; output(i+1,outn(4)) = {'-'};
-            if extunc == 1; output(i+1,outn(2)) = {'-'}; output(i+1,outn(5)) = {'-'}; end;
-            if intunc == 1; output(i+1,outn(3)) = {'-'}; output(i+1,outn(6)) = {'-'}; end;
+            output(i+1,outcol.exp) = {'-'}; output(i+1,outcol.expbur) = {'-'};
+            if par.extunc == 1; output(i+1,outcol.expextu) = {'-'}; output(i+1,outcol.expburextu) = {'-'}; end;
+            if par.intunc == 1; output(i+1,outcol.expintu) = {'-'}; output(i+1,outcol.expburintu) = {'-'}; end;
         end;
     end;
     
     % calculate erosion + burial
-    if erosion_burial == 1;
-        erobur = get_erosion_burial(sample,consts,mc,extunc,intunc);
+    if par.erosion_burial == 1;
+        erobur = get_erosion_burial(sample,consts,mc,par.extunc,par.intunc);
         
         % write to output
         if erobur.erosion>0.1;
-            output(i+1,outn(7)) = {num2str(erobur.erosion,'%.2f')};
-            if extunc == 1; output(i+1,outn(8)) = {num2str(erobur.erosion_uncext,'%.2f')}; end;
-            if intunc == 1; output(i+1,outn(9)) = {num2str(erobur.erosion_uncint,'%.2f')}; end;
+            output(i+1,outcol.ero) = {num2str(erobur.erosion,'%.2f')};
+            if par.extunc == 1; output(i+1,outcol.eroextu) = {num2str(erobur.erosion_uncext,'%.2f')}; end;
+            if par.intunc == 1; output(i+1,outcol.erointu) = {num2str(erobur.erosion_uncint,'%.2f')}; end;
         else;
-            output(i+1,outn(7)) = {num2str(erobur.erosion,'%.3f')};
-            if extunc == 1; output(i+1,outn(8)) = {num2str(erobur.erosion_uncext,'%.3f')}; end;
-            if intunc == 1; output(i+1,outn(9)) = {num2str(erobur.erosion_uncint,'%.3f')}; end;
+            output(i+1,outcol.ero) = {num2str(erobur.erosion,'%.3f')};
+            if par.extunc == 1; output(i+1,outcol.eroextu) = {num2str(erobur.erosion_uncext,'%.3f')}; end;
+            if par.intunc == 1; output(i+1,outcol.erointu) = {num2str(erobur.erosion_uncint,'%.3f')}; end;
         end;
-        output(i+1,outn(10)) = {num2str(erobur.burial,'%.0f')};
-        if extunc == 1; output(i+1,outn(11)) = {num2str(erobur.burial_uncext,'%.0f')}; end;
-        if intunc == 1; output(i+1,outn(12)) = {num2str(erobur.burial_uncint,'%.0f')}; end;
+        output(i+1,outcol.erobur) = {num2str(erobur.burial,'%.0f')};
+        if par.extunc == 1; output(i+1,outcol.eroburextu) = {num2str(erobur.burial_uncext,'%.0f')}; end;
+        if par.intunc == 1; output(i+1,outcol.eroburintu) = {num2str(erobur.burial_uncint,'%.0f')}; end;
         
         % display erosion/burial and fix output if no solution
-        if exposure_burial == 1; fprintf(1,'\n'); end; % separate lines if both exposure/erosion
+        if par.exposure_burial == 1; fprintf(1,'\n'); end; % separate lines if both exposure/erosion
         if erobur.erosion >= 0; % if initial erosion within bounds
-            if extunc == 1 && intunc == 1;
-                fprintf(1,' \terosion = %s ± %s (%s) mm/ka',output{i+1,outn(7)},...
-                    output{i+1,outn(8)},output{i+1,outn(9)});
-                fprintf(1,' \tburial = %s ± %s (%s) yr',output{i+1,outn(10)},...
-                    output{i+1,outn(11)},output{i+1,outn(12)});
-            elseif extunc == 1;
-                fprintf(1,' \terosion = %s ± %s mm/ka',output{i+1,outn(7)},output{i+1,outn(8)});
-                fprintf(1,' \tburial = %s ± %s yr',output{i+1,outn(10)},output{i+1,outn(11)});
-            elseif intunc == 1;
-                fprintf(1,' \terosion = %s ± %s mm/ka',output{i+1,outn(7)},output{i+1,outn(9)});
-                fprintf(1,' \tburial = %s ± %s yr',output{i+1,outn(10)},output{i+1,outn(12)});
+            if par.extunc == 1 && par.intunc == 1;
+                fprintf(1,' \terosion = %s ± %s (%s) mm/ka',output{i+1,outcol.ero},...
+                    output{i+1,outcol.eroextu},output{i+1,outcol.erointu});
+                fprintf(1,' \tburial = %s ± %s (%s) yr',output{i+1,outcol.erobur},...
+                    output{i+1,outcol.eroburextu},output{i+1,outcol.eroburintu});
+            elseif par.extunc == 1;
+                fprintf(1,' \terosion = %s ± %s mm/ka',output{i+1,outcol.ero},output{i+1,outcol.eroextu});
+                fprintf(1,' \tburial = %s ± %s yr',output{i+1,outcol.erobur},output{i+1,outcol.eroburextu});
+            elseif par.intunc == 1;
+                fprintf(1,' \terosion = %s ± %s mm/ka',output{i+1,outcol.ero},output{i+1,outcol.erointu});
+                fprintf(1,' \tburial = %s ± %s yr',output{i+1,outcol.erobur},output{i+1,outcol.eroburintu});
             else;
-                fprintf(1,' \terosion = %s mm/ka',output{i+1,outn(7)});
-                fprintf(1,' \tburial = %s yr',output{i+1,outn(10)});
+                fprintf(1,' \terosion = %s mm/ka',output{i+1,outcol.ero});
+                fprintf(1,' \tburial = %s yr',output{i+1,outcol.erobur});
             end;
         else;
             fprintf(1,' \tno solution!');
-            output(i+1,outn(7)) = {'-'}; output(i+1,outn(10)) = {'-'};
-            if extunc == 1; output(i+1,outn(8)) = {'-'}; output(i+1,outn(11)) = {'-'}; end;
-            if intunc == 1; output(i+1,outn(9)) = {'-'}; output(i+1,outn(12)) = {'-'}; end;
+            output(i+1,outcol.ero) = {'-'}; output(i+1,outcol.erobur) = {'-'};
+            if par.extunc == 1; output(i+1,outcol.eroextu) = {'-'}; output(i+1,outcol.eroburextu) = {'-'}; end;
+            if par.intunc == 1; output(i+1,outcol.erointu) = {'-'}; output(i+1,outcol.eroburintu) = {'-'}; end;
         end;
     end;
     
     % if writing normalized conc data
-    if normNout > 0;
-        output(i+1,outn(13)) = {num2str(N10norm,'%.6f')};
-        if extunc == 1; output(i+1,outn(14)) = {num2str(N10norm_uncext,'%.6f')}; end;
-        if intunc == 1; output(i+1,outn(15)) = {num2str(N10norm_uncint,'%.6f')}; end;
-        output(i+1,outn(16)) = {num2str(N26norm,'%.6f')};
-        if extunc == 1; output(i+1,outn(17)) = {num2str(N26norm_uncext,'%.6f')}; end;
-        if intunc == 1; output(i+1,outn(18)) = {num2str(N26norm_uncint,'%.6f')}; end;
+    if par.normNout > 0;
+        output(i+1,outcol.N10norm) = {num2str(N10norm,'%.6f')};
+        if par.extunc == 1; output(i+1,outcol.N10uncext) = {num2str(N10norm_uncext,'%.6f')}; end;
+        if par.intunc == 1; output(i+1,outcol.N10uncint) = {num2str(N10norm_uncint,'%.6f')}; end;
+        output(i+1,outcol.N26norm) = {num2str(N26norm,'%.6f')};
+        if par.extunc == 1; output(i+1,outcol.N26uncext) = {num2str(N26norm_uncext,'%.6f')}; end;
+        if par.intunc == 1; output(i+1,outcol.N26uncint) = {num2str(N26norm_uncint,'%.6f')}; end;
     end;
     
     % new line
@@ -398,9 +420,9 @@ end;
 % end output block ================================================================
 
 % plotting ========================================================================
-if (pl.expline + pl.eline + pl.points + pl.sigma1line + pl.probcontours) > 0;
-    pl.exposure_burial = exposure_burial;
-    pl.erosion_burial = erosion_burial;
+if (pl.expline + pl.eline + pl.points + pl.sigma1line + pl.contourarea + pl.contourline) > 0;
+    pl.exposure_burial = par.exposure_burial;
+    pl.erosion_burial = par.erosion_burial;
     plotting(pl,consts);
 end;
 % end plotting ====================================================================
@@ -810,9 +832,27 @@ burial_unc = sqrt(sum((burialmc-bur_mid).^2)./mc);
 % plotting =========================================================================================
 function plotting(pl,consts);
 % plots banana
-set(gcf,'visible','off'); % hide plots
+banana_plot = figure('name','Banana-plot','NumberTitle','off','visible','off');
+%set(gcf,'visible','off'); % hide plots
 hold on;
 box on;
+
+% fix for normalization
+if pl.normalize == 1;
+    pl.norm2610 = 1;
+else; % use mean 26/10 ratio for all samples
+    norm2610samples = (pl.P26sp+pl.P_mu26)./(pl.P10sp+pl.P_mu10);
+    pl.norm2610 = mean(norm2610samples);
+    pl.N26n = pl.N26n .* norm2610samples;
+    pl.N26uncintn = pl.N26uncintn .* norm2610samples;
+    pl.N26uncextn = pl.N26uncextn .* norm2610samples;
+end;
+
+% probability contours
+if pl.contourarea == 1 || pl.contourline == 1;
+    if pl.intunc == 1; pl_contours(pl,pl.N10uncintn,pl.N26uncintn); end;
+    if pl.extunc == 1; pl_contours(pl,pl.N10uncextn,pl.N26uncextn); end;
+end;
 
 % simple exposure line,
 if pl.expline > 0;
@@ -820,51 +860,56 @@ if pl.expline > 0;
 end;
 
 % erosion line
-if pl.eline > 0;
+if pl.eline == 1;
     pl_eline(pl,consts);
 end;
 
-% probability contours
-if pl.probcontours > 0;
-    if pl.intunc == 1; pl_probcontours(pl,pl.N10uncintn,pl.N26uncintn); end;
-    if pl.extunc == 1; pl_probcontours(pl,pl.N10uncextn,pl.N26uncextn); end;
-end;
-
 % sigma lines
-if pl.sigma1line+pl.sigma2line > 0;
+if pl.sigma1line == 1 || pl.sigma2line == 1;
     if pl.intunc == 1; pl_sigmalines(pl,pl.N10uncintn,pl.N26uncintn); end;
     if pl.extunc == 1; pl_sigmalines(pl,pl.N10uncextn,pl.N26uncextn); end;
 end;
 
 % sample points
-if pl.points > 0;
+if pl.points == 1 && strcmp(pl.pointmarker,'.');
     plot(pl.N10n,pl.N26n./pl.N10n,'.','color',pl.sampleclr,'markersize',15);
+end;
+if pl.points == 1 && strcmp(pl.pointmarker,'o');
+    plot(pl.N10n,pl.N26n./pl.N10n,'o','color',pl.sampleclr,'markersize',3);
 end;
 
 % fix and display plot
 % fix axis
-axis([1000 3000000 0.2 1.2]);
+if pl.normalize == 1;
+    axis([1000 3000000 0.2 1.2]);
+    ylabel('[^{26}Al]*/[^{10}Be]*');
+else;
+    axis([1000 3000000 1.5 8]);
+    ylabel('[^{26}Al]/[^{10}Be]');
+end;
 xlabel('[^{10}Be]*');
-ylabel('[^{26}Al]*/[^{10}Be]*');
 
 set(gca,'layer','top'); % plot axis on top
 set(gca,'XScale','log'); % fix for matlab
 set(gcf,'visible','on'); % display plot
 hold off;
+figure(banana_plot);
 % end subfunction plotting =========================================================================
 
 
 % subfunction pl_expline ===========================================================================
 function pl_expline(pl,consts);
     % create data for the simple-exposure line including ratio uncertainties
-    tempt = logspace(0,7,100);
     tempt = [1 (100:100:900) logspace(3,7,60)];
     be = (1/consts.l10)*(1-exp(-consts.l10*tempt));
     al = (1/consts.l26)*(1-exp(-consts.l26*tempt));
     al_be = al./be;
+
+    % color
+    clr = pl.explineclr;
     
     % plot simple exposure line
-    semilogx(be,al_be,'color','black');
+    semilogx(be,al_be.*pl.norm2610,'color',clr);
     
     if pl.exposure_burial == 1;
         % make data for simple burial lines
@@ -882,29 +927,29 @@ function pl_expline(pl,consts);
         bu_al300 = al.*exp(-consts.l26*3000000);
         
         % plot simple burial lines
-        semilogx(bu_be50,bu_al50./bu_be50,'linestyle','--','color','black');
-        semilogx(bu_be100,bu_al100./bu_be100,'linestyle','--','color','black');
-        semilogx(bu_be150,bu_al150./bu_be150,'linestyle','--','color','black');
-        semilogx(bu_be200,bu_al200./bu_be200,'linestyle','--','color','black');
-        semilogx(bu_be250,bu_al250./bu_be250,'linestyle','--','color','black');
-        semilogx(bu_be300,bu_al300./bu_be300,'linestyle','--','color','black');
+        semilogx(bu_be50,bu_al50./bu_be50.*pl.norm2610,'linestyle','--','color',clr);
+        semilogx(bu_be100,bu_al100./bu_be100.*pl.norm2610,'linestyle','--','color',clr);
+        semilogx(bu_be150,bu_al150./bu_be150.*pl.norm2610,'linestyle','--','color',clr);
+        semilogx(bu_be200,bu_al200./bu_be200.*pl.norm2610,'linestyle','--','color',clr);
+        semilogx(bu_be250,bu_al250./bu_be250.*pl.norm2610,'linestyle','--','color',clr);
+        semilogx(bu_be300,bu_al300./bu_be300.*pl.norm2610,'linestyle','--','color',clr);
         
         % make data for burial pathways
         burv = (0:1E5:1E7);
-        path_be10 = (1/consts.l10)*(1-exp(-consts.l10*1E4)).*exp(-consts.l10.*burv);
-        path_be100 = (1/consts.l10)*(1-exp(-consts.l10*1E5)).*exp(-consts.l10.*burv);
-        path_be1000 = (1/consts.l10)*(1-exp(-consts.l10*1E6)).*exp(-consts.l10.*burv);
-        path_be10000 = (1/consts.l10)*(1-exp(-consts.l10*1E7)).*exp(-consts.l10.*burv);
-        path_al10 = (1/consts.l26)*(1-exp(-consts.l26*1E4)).*exp(-consts.l26.*burv);
-        path_al100 = (1/consts.l26)*(1-exp(-consts.l26*1E5)).*exp(-consts.l26.*burv);
-        path_al1000 = (1/consts.l26)*(1-exp(-consts.l26*1E6)).*exp(-consts.l26.*burv);
-        path_al10000 = (1/consts.l26)*(1-exp(-consts.l26*1E7)).*exp(-consts.l26.*burv);
+        path_be10k = (1/consts.l10)*(1-exp(-consts.l10*1E4)).*exp(-consts.l10.*burv);
+        path_be100k = (1/consts.l10)*(1-exp(-consts.l10*1E5)).*exp(-consts.l10.*burv);
+        path_be1M = (1/consts.l10)*(1-exp(-consts.l10*1E6)).*exp(-consts.l10.*burv);
+        path_be10M = (1/consts.l10)*(1-exp(-consts.l10*1E7)).*exp(-consts.l10.*burv);
+        path_al10k = (1/consts.l26)*(1-exp(-consts.l26*1E4)).*exp(-consts.l26.*burv);
+        path_al100k = (1/consts.l26)*(1-exp(-consts.l26*1E5)).*exp(-consts.l26.*burv);
+        path_al1M = (1/consts.l26)*(1-exp(-consts.l26*1E6)).*exp(-consts.l26.*burv);
+        path_al10M = (1/consts.l26)*(1-exp(-consts.l26*1E7)).*exp(-consts.l26.*burv);
         
         % plot burial pathways
-        semilogx(path_be10,path_al10./path_be10,'linestyle','--','color','black');
-        semilogx(path_be100,path_al100./path_be100,'linestyle','--','color','black');
-        semilogx(path_be1000,path_al1000./path_be1000,'linestyle','--','color','black');
-        semilogx(path_be10000,path_al10000./path_be10000,'linestyle','--','color','black');
+        semilogx(path_be10k,path_al10k./path_be10k.*pl.norm2610,'linestyle','--','color',clr);
+        semilogx(path_be100k,path_al100k./path_be100k.*pl.norm2610,'linestyle','--','color',clr);
+        semilogx(path_be1M,path_al1M./path_be1M.*pl.norm2610,'linestyle','--','color',clr);
+        semilogx(path_be10M,path_al10M./path_be10M.*pl.norm2610,'linestyle','--','color',clr);
     end;
 % end subfunction pl_expline =======================================================================
 
@@ -914,9 +959,9 @@ function pl_eline(pl,consts);
     fprintf(1,'calculating erosion end-point line...');
     % Precompute P_mu(z) to ~200,000 g/cm2 
     % start at the average sample mid-depth.
-    z = [0 logspace(0,5.3,100)]';
+    z = [(0:3:12) logspace(1.18,5.3,50)]';
     z_mu = z+(mean(pl.thick_dens)./2);
-    P_mu_z = P_mu_expage(z_mu,mean(pl.atm),mean(pl.RcEst),consts.SPhiInf,1,1,consts,'no');
+    P_mu_z = P_mu_expage(z_mu,mean(pl.atm),mean(pl.RcEst),consts.SPhiInf,1,1,0,consts,'no');
     P_mu_z10 = P_mu_z.mu10'.*mean(pl.shield);
     P_mu_z26 = P_mu_z.mu26'.*mean(pl.shield);
     P10sp_z = mean(pl.P10sp).*exp(-z./mean(pl.Lsp));
@@ -940,7 +985,7 @@ function pl_eline(pl,consts);
     ale(1,1) = (1/consts.l26)*(1-exp(-consts.l26*1E7));
     ale_bee = ale./bee;
     
-    semilogx(bee,ale_bee,'color','blue');
+    semilogx(bee,ale_bee.*pl.norm2610,'color',pl.elineclr);
     
     if pl.erosion_burial == 1;
         % make data for simple burial lines
@@ -958,12 +1003,12 @@ function pl_eline(pl,consts);
         bu_ale300 = ale.*exp(-consts.l26*3000000);
         
         % plot simple burial lines
-        semilogx(bu_bee50,bu_ale50./bu_bee50,'linestyle','--','color','blue');
-        semilogx(bu_bee100,bu_ale100./bu_bee100,'linestyle','--','color','blue');
-        semilogx(bu_bee150,bu_ale150./bu_bee150,'linestyle','--','color','blue');
-        semilogx(bu_bee200,bu_ale200./bu_bee200,'linestyle','--','color','blue');
-        semilogx(bu_bee250,bu_ale250./bu_bee250,'linestyle','--','color','blue');
-        semilogx(bu_bee300,bu_ale300./bu_bee300,'linestyle','--','color','blue');
+        semilogx(bu_bee50,bu_ale50./bu_bee50.*pl.norm2610,'linestyle','--','color',pl.elineclr);
+        semilogx(bu_bee100,bu_ale100./bu_bee100.*pl.norm2610,'linestyle','--','color',pl.elineclr);
+        semilogx(bu_bee150,bu_ale150./bu_bee150.*pl.norm2610,'linestyle','--','color',pl.elineclr);
+        semilogx(bu_bee200,bu_ale200./bu_bee200.*pl.norm2610,'linestyle','--','color',pl.elineclr);
+        semilogx(bu_bee250,bu_ale250./bu_bee250.*pl.norm2610,'linestyle','--','color',pl.elineclr);
+        semilogx(bu_bee300,bu_ale300./bu_bee300.*pl.norm2610,'linestyle','--','color',pl.elineclr);
         
         % make data for burial pathways
         burv = (0:1E5:1E7);
@@ -988,17 +1033,17 @@ function pl_eline(pl,consts);
         path_ale5 = alep(4).*exp(-consts.l26.*burv);
         
         % plot burial pathways
-        semilogx(path_bee1,path_ale1./path_bee1,'linestyle','--','color','blue');
-        semilogx(path_bee2,path_ale2./path_bee2,'linestyle','--','color','blue');
-        semilogx(path_bee3,path_ale3./path_bee3,'linestyle','--','color','blue');
-        semilogx(path_bee4,path_ale4./path_bee4,'linestyle','--','color','blue');
-        semilogx(path_bee5,path_ale5./path_bee5,'linestyle','--','color','blue');
+        semilogx(path_bee1,path_ale1./path_bee1.*pl.norm2610,'linestyle','--','color',pl.elineclr);
+        semilogx(path_bee2,path_ale2./path_bee2.*pl.norm2610,'linestyle','--','color',pl.elineclr);
+        semilogx(path_bee3,path_ale3./path_bee3.*pl.norm2610,'linestyle','--','color',pl.elineclr);
+        semilogx(path_bee4,path_ale4./path_bee4.*pl.norm2610,'linestyle','--','color',pl.elineclr);
+        semilogx(path_bee5,path_ale5./path_bee5.*pl.norm2610,'linestyle','--','color',pl.elineclr);
     end;
 % end subfunction pl_eline =========================================================================
 
 
-% subfunction pl_probcontours ======================================================================
-function pl_probcontours(pl,N10unc,N26unc);
+% subfunction pl_contours ==========================================================================
+function pl_contours(pl,N10unc,N26unc);
     % Estimate range and create mesh
     Rv = pl.N26n./pl.N10n;
     delRv = sqrt((N26unc./pl.N26n).^2 + (N10unc./pl.N10n).^2);
@@ -1008,19 +1053,28 @@ function pl_probcontours(pl,N10unc,N26unc);
     Rmin = min(Rv.*(1 - 4.*delRv));
     Rmax = max(Rv.*(1 + 4.*delRv));
     
-    [xa,ya] = meshgrid(xmin:0.1 * mean(N10unc):xmax,Rmin:0.1.*mean(Rv).*mean(delRv):Rmax);
+    [xa,ya] = meshgrid(xmin:0.01 * mean(N10unc):xmax,Rmin:0.01.*mean(Rv).*mean(delRv):Rmax);
     
     Proba = zeros(size(xa));
     
     for j = 1:numel(pl.N10n(:,1));
         % calculate PDF
-        Proba1 = xa.*exp(-0.5.*(((ya.*xa-pl.N26n(j))./N26unc(j)).^2+((xa-pl.N10n(j))./...
+        Proba1 = exp(-0.5.*(((ya.*xa-pl.N26n(j))./N26unc(j)).^2+((xa-pl.N10n(j))./...
             N10unc(j)).^2));
         Proba = Proba + Proba1;
     end;
-    
-    contour(xa,ya,Proba);
-% end subfunction pl_probcontours ==================================================================
+    minProba = min(min(Proba));
+    maxProba = max(max(Proba));
+    minlevel = minProba+(maxProba-minProba)/11;
+    if pl.contourarea == 1;
+        contourf(xa,ya,Proba,[linspace(minlevel,maxProba,100)],'linestyle','none');
+        colormap jet;
+    end;
+    if pl.contourline == 1;
+        contour(xa,ya,Proba,[linspace(minlevel,maxProba,10)]);
+        colormap jet;
+    end;
+% end subfunction pl_contours ======================================================================
 
 
 % subfunction pl_sigmalines ========================================================================
@@ -1081,7 +1135,7 @@ function pl_sigmalines(pl,N10unc,N26unc);
             % plot 1 sigma uncertainty
             if pl.uncarea == 1;
                 sd1 = patch(x1,y1,pl.sampleclr,'EdgeColor','none','FaceAlpha',...
-                    min(0.8./numel(N10unc),0.4));
+                    max(min([0.8./numel(N10unc),0.4]),0.2));
             else;
                 sd1 = plot(x1,y1,'color',pl.sampleclr);
             end;
@@ -1100,7 +1154,8 @@ function pl_sigmalines(pl,N10unc,N26unc);
             
             % plot 2 sigma uncertainty
             if pl.uncarea == 1;
-                sd2 = patch(x2,y2,pl.sampleclr,'EdgeColor','none','FaceAlpha',0.8./numel(N10unc));
+                sd2 = patch(x2,y2,pl.sampleclr,'EdgeColor','none','FaceAlpha',...
+                    max(min([0.8./numel(N10unc),0.4]),0.2));
             else;
                 sd2 = plot(x2,y2,'color',pl.sampleclr);
             end;

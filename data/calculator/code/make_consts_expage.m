@@ -5,12 +5,14 @@ function out = make_consts_expage();
 % Based on make_al_be_consts_v22.m (Balco et al. 2008) and make_consts_LSD.m Lifton et al. (2014),
 % created and modified by Greg Balco, Brent Goehring, Nat Lifton.
 %
+% Paleomagnetic records updated to Lifton (2016) data: PMag_Sep12.mat changed to PavonPmag.mat.
+%
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 3, as published by the Free Software Foundation (www.fsf.org).
 %
-% Jakob Heyman - 2018-2019 (jakob.heyman@gu.se)
+% Jakob Heyman - 2018-2023 (jakob.heyman@gu.se)
 
-consts.version = '201912';
+consts.version = '202306';
 consts.prepdate = fix(clock);
 
 % Be-10 decay constant -- new Euro value
@@ -24,6 +26,11 @@ consts.l10unc = sqrt((dldt.*0.012e6)^2); % Chmeleff/Korschinek value
 consts.l26 = 9.83e-7; 
 consts.l26unc = 2.5e-8;
 
+% C-14 decay constant -- t(1/2) = 5730 ± 40 yr (Godwin 1962)
+consts.l14 = -log(0.5)./5730;
+dldt = -log(0.5).*(5730^-2);
+consts.l14unc = sqrt((dldt.*40)^2);
+
 % Effective attenuation length for spallation in rock
 % Commonly accepted value: 160 g/cm2 (Gosse and Phillips 2001)
 % Only used for simple age calculation - else rawattenuationlength is used.
@@ -33,51 +40,61 @@ consts.Lsp = 160;
 % Standards comparison/conversion lookup table. A zero placeholder is allowed.
 consts.std10 = {'07KNSTD','KNSTD','NIST_Certified','NIST_30000','NIST_30200','NIST_30300',...
     'NIST_30500','NIST_30600','NIST_27900','LLNL31000','LLNL10000','LLNL3000','LLNL1000',...
-    'LLNL300','S555','S2007','BEST433','S555N','S2007N','BEST433N','STD11','0'};
+    'LLNL300','S555','S2007','BEST433','S555N','S2007N','BEST433N','STD11','0','-'};
 consts.std10_cf = [1 0.9042 1.0425 0.9313 0.9251 0.9221 0.9157 0.9130 1 0.8761 0.9042 0.8644 ...
-    0.9313 0.8562 0.9124 0.9124 0.9124 1 1 1 1 1]';
+    0.9313 0.8562 0.9124 0.9124 0.9124 1 1 1 1 1 1]';
 
 % Same for Al-26. A zero placeholder is allowed.
-consts.std26 = {'KNSTD','ZAL94','ZAL94N','SMAL11','ASTER','Z92-0222','0'};
-consts.std26_cf = [1 0.9134 1 1.021 1.021 1 1]';
+consts.std26 = {'KNSTD','ZAL94','ZAL94N','SMAL11','ASTER','Z92-0222','0','-'};
+consts.std26_cf = [1 0.9134 1 1.021 1.021 1 1 1]';
 
 % Reference production rates at SLHL for spallation. Letter codes sp and nu refer to the LSD
 % spallation scaling and the LSD nuclide-specific scaling of Lifton et al. (2014), respectively.
 % 10Be production rates are referenced to 07KNSTD.
 % 26Al production rates are referenced to KNSTD.
 
-% Be-10 production rates - global expage-201912 ref prod rate
-consts.Pref10 = 3.98;
-consts.Pref10unc = 0.22;
-consts.Pref10iso = 4.01;
-consts.Pref10isounc = 0.23;
-consts.P10_ref_sp = 4; % not properly calibrated!
-consts.delP10_ref_sp = 0.3; % not properly calibrated!
+% Be-10 production rates - global expage-202306 ref prod rate
+consts.Pref10 = 4.06;
+consts.Pref10unc = 0.25;
+consts.Pref10iso = 4.08;
+consts.Pref10isounc = 0.26;
+consts.P10_ref_sp = 4; % not used and not calibrated!
+consts.delP10_ref_sp = 0.3; % not used and not calibrated!
 
-% Al-26 production rates - global expage-201912 ref prod rate
-consts.Pref26 = 28.44;
-consts.Pref26unc = 1.90;
-consts.Pref26iso = 28.41;
-consts.Pref26isounc = 2.05;
-consts.P26_ref_sp = 29; % not properly calibrated!
-consts.delP26_ref_sp = 3; % not properly calibrated!
+% Al-26 production rates - global expage-202306 ref prod rate
+consts.Pref26 = 28.31;
+consts.Pref26unc = 2.22;
+consts.Pref26iso = 28.19;
+consts.Pref26isounc = 2.35;
+consts.P26_ref_sp = 28; % not used and not calibrated!
+consts.delP26_ref_sp = 3; % not used and not calibrated!
+
+% C-14 production rates - global expage-202306 ref prod rate
+consts.Pref14 = 13.30;
+consts.Pref14unc = 1.13;
+consts.Pref14iso = 13.25;
+consts.Pref14isounc = 1.04;
 
 % Muon interaction cross-sections. All follow Heisinger (2002a,b).
 consts.Natoms10 = 2.006e22;
 consts.Natoms26 = 1.003e22;
+consts.Natoms14 = 2.006e22;
 consts.Natoms3 = 2.006e22; % not used in present version
-consts.Natoms14 = 2.006e22; % not used in present version
 
-% sigma0 and fstar calibrated for the expage calculator using mucalib.m
-% (ref prodrate expage-201912)
-consts.sigma0_10nu = 0.251E-30;
-consts.sigma0_26nu = 4.03E-30;
-consts.delsigma0_10nu = 0.008E-30;
-consts.delsigma0_26nu = 0.37E-30;
-consts.fstar10nu = 1.84E-3;
-consts.fstar26nu = 12.1E-3;
-consts.delfstar10nu = 0.10E-3;
-consts.delfstar26nu = 1.2E-3;
+% sigma0 and fstar calibrated for the expage calculator using mucalib.m (mucalib14.m for 14C)
+% (ref prodrate expage-202306)
+consts.sigma0_10nu = 1.792e-31;
+consts.delsigma0_10nu = 0.399e-31;
+consts.fstar10nu = 1.587e-3;
+consts.delfstar10nu = 0.532e-3;
+consts.sigma0_26nu = 2.651e-30;
+consts.delsigma0_26nu = 1.218e-30;
+consts.fstar26nu = 1.030e-2;
+consts.delfstar26nu = 0.635e-2;
+consts.sigma0_14nu = 0.739e-31;
+consts.delsigma0_14nu = 124.471e-31;
+consts.fstar14nu = 1.321e-1;
+consts.delfstar14nu = 1.034e-1;
 
 % sigma0 and fstar from CRONUScalc calculator (Marrero et al. 2016; Phillips et al. 2016)
 % not used in present version
@@ -86,13 +103,11 @@ consts.sigma0_26sp = 4.10E-30;
 consts.delsigma0_10sp = 0.015e-30;
 consts.delsigma0_26sp = 0.73e-30;
 consts.sigma0_14sp = 8.79321E-30;
-consts.sigma0_14nu = 8.79321E-30;
 consts.fstar10sp = 1.89e-3;
 consts.fstar26sp = 11.7e-3;
 consts.delfstar10sp = 0.18e-3;
 consts.delfstar26sp = 2.6e-3;
 consts.fstar14sp = 0.137;
-consts.fstar14nu = 0.137;
 
 % k_negpartial from CRONUScalc calculator (Marrero et al. 2016; Phillips et al. 2016)
 consts.k_negpartial10 = (0.704 * 0.1828)./1.106;
@@ -124,36 +139,35 @@ consts.SinxHe3T = SinxHe3T;
 consts.SipxHe3T = SipxHe3T;
 
 % Paleomagnetic records for use in time-dependent production rate schemes
-% Load the magnetic field data - incl Dunai version - CALS3K.3, CALS7K.2, GLOPIS-75 to 18ka,
-% PADM2M >18 ka, 1950-2010 Rc from DGRFs
-load PMag_Sep12;
-% Dec11 version includes updated SPhi values from Usoskin et al, 2011, Journal of Geophysical
-% Research, v. 116, no. A2. Changed end value of t_M from Inf to 1e7 to enable to run in MATLAB
-% 2012a and later. 
+% Load the magnetic field data - Lifton (2016) version:
+% 2010-1950: Rc from DGRFs
+% 0-14 ka:   SHA.DIF.14k
+% 14-75 ka:  GLOPIS-75
+% >75 ka:    PADM2M
+load PavonPmag;
+% Includes updated SPhi values from Usoskin et al, 2011, Journal of Geophysical Research, v. 116,
+% no. A2. End value of tM = 1e7 to enable to run in MATLAB 2012a and later. 
 
 % Relative dipole moment and time vector
-consts.M = MM0; 
-consts.t_M = t_M; 
-consts.t_fineRc = t_fineRc;
+consts.M = GLOPADMM0; 
+consts.tM = tM; 
 
-% These start at 7000 yr -- time slices are 100-yr from 7000 to 50000 in order to use
-% 100-yr-averaged data from GLOPIS-75 (to 18 ka) and PADM2M (>18 ka); subsequent time slices are
-% 50000:1000:2000000 for PADM2M data; final two time points are 2001000 and 1e7. - Nat Lifton
+% These start at 14000 yr -- time slices are 100-yr from 0 to 3000, 200-yr from 3000 to 75000,
+% 1000-yr from 75-ka to 800-ka, 2000-yr from 800-ka to 2-Ma, and 10-Ma at the end. The interval
+% spacing is adjusted from that of Lifton et al. (2014) to improve computational speed while
+% remaining faithful to the temporal variability in each model.
 
-% Cutoff rigidity blocks for past 6900 yr. 
-% TTRc and IHRC are lon x lat x time blocks of Rc values for the past 6900 years.
-% Both are derived by Nat Lifton from the magnetic field reconstructions of Korte and Constable. 
-% TTRC has cutoff rigidity obtained by trajectory tracing -- these are for the Lifton and Desilets
-% scaling factors. IHRc has cutoff rigidity obtained by finding magnetic inclination and horizontal
-% field strength from the field model, then applying Equation 2 of Dunai (2001). 
-consts.TTRc = TTRc; % data block
-consts.IHRc = IHRc; % data block
+% Cutoff rigidity blocks for past 14000 yr. 
+% PavonRc has lat x lon x time blocks of Rc values for the past 14000 years.
+% Cutoff rigidity obtained by Nat Lifton using trajectory tracing from the SHA.DIF.14k magnetic
+% field model of Pavón-Carrasco et al. (2014).  
+consts.PavonRc = PavonRc; % data block
 consts.lat_Rc = lat_Rc; % lat and lon indices for Rc data block
 consts.lon_Rc = lon_Rc;
-consts.t_Rc = t_Rc; % time vector for Rc data block
+consts.tRc = tRc; % time vector for Rc data block
 
 % Solar variability from Usoskin et al. 2011
-% 0-11400 yr - 100-yr spacing
+% 0-11260 yr
 
 % Per Tatsuhiko Sato, personal communication, 2013, convert annually averaged Usoskin et al. (2011)
 % solar modulation potential to Sato Force Field Potential due to different assumed Local
@@ -161,7 +175,7 @@ consts.t_Rc = t_Rc; % time vector for Rc data block
 SPhi = 1.1381076.*SPhi - 1.2738468e-4.*SPhi.^2;
 
 consts.SPhi = SPhi;
-consts.SPhiInf = mean(SPhi); % Changed 12/13/11 to refl updated SPhi vals from Usoskin et al. (2011)
+consts.SPhiInf = trapz(tRc(1:78),SPhi)/tRc(78); % time-averaged SPhi
 
 load Reference;
 % Reference values for scaling via Sato et al. (2008) spectra

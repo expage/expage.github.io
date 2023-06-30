@@ -1,11 +1,10 @@
-function out = P_mu_expage(z,h,Rc,SPhi,nucl10,nucl26,consts,dflag)
+function out = P_mu_expage(z,h,Rc,SPhi,nucl10,nucl26,nucl14,consts,dflag)
 
-% Calculates the production rate of Be-10 and/or Al-26 (nucl10 = 1 and nucl26 = 1, respectively) by
+% Calculates the production rate of Be-10 / Al-26 / C-14 (nucl10 = 1 / nucl26 = 1 / nucl14 = 1) by
 % muons as a function of depth below the surface z (g/cm2) and site atmospheric pressure h (hPa),
 % cutoff rigidity Rc (GV), and solar modulation parameter SPhi (MV).
-% consts = consts_LSD (LSD constants structure)
 %
-% syntax out = P_mu_totalLSD1(z,h,Rc,SPhi,nuclide,nucl10,nucl26,consts,dflag)
+% syntax out = P_mu_totalLSD1(z,h,Rc,SPhi,nuclide,nucl10,nucl26,nucl14,consts,dflag)
 %
 % dflag = 'no' causes it to return only the nuclide production rate from muon reactions. Note that
 % this is the total production rate from muons, that is, the sum of production by negative muon
@@ -36,7 +35,7 @@ function out = P_mu_expage(z,h,Rc,SPhi,nucl10,nucl26,consts,dflag)
 % Production rate parameterization with fstar and sigma0 is based on the CRONUScalc calculator
 % (Marrero et al. 2016; Phillips et al. 2016) calibration based on Antarctica depth profile.
 % 
-% Modified by Jakob Heyman (jakob.heyman@gu.se) 2015-2019
+% Modified by Jakob Heyman (jakob.heyman@gu.se) 2015-2023
 %
 % Modified by Nat Lifton -- Purdue University 
 % nlifton@purdue.edu
@@ -52,7 +51,7 @@ function out = P_mu_expage(z,h,Rc,SPhi,nucl10,nucl26,consts,dflag)
 % General Public License, version 3, as published by the Free Software Foundation (www.fsf.org).
 
 % what version is this?
-ver = '201912';
+ver = '202306';
 
 % make h,Rc,SPhi row vectors
 h = h(:)';
@@ -77,12 +76,10 @@ phi_site = (mflux.neg(1,:) + mflux.pos(1,:));
 phiRef = (mfluxRef.neg + mfluxRef.pos);
 
 % changed from P_mu_totalLSD.m
-% linear extrapolation of mflux.E, phi_site, and phiRef (see E2R below)
-phi_site_d = (phi_site(1)-phi_site(2))/(mflux.E(1)-mflux.E(2));
-phiRef_d = (phiRef(1)-phiRef(2))/(mflux.E(1)-mflux.E(2));
-mflux.E = [5.710 mflux.E];
-phi_site = [(mflux.E(1)-mflux.E(2))*phi_site_d+phi_site(1) phi_site];
-phiRef = [(mflux.E(1)-mflux.E(2))*phiRef_d+phiRef(1) phiRef];
+% extrapolation corresponding to a minimum range of 1e-5 g cm-2 (see E2R below)
+mflux.E = [4.8 mflux.E];
+phi_site = interp1(mflux.E(2:end),phi_site,mflux.E,'pchip','extrap');
+phiRef = interp1(mflux.E(2:end),phiRef,mflux.E,'pchip','extrap');
 
 % find the vertical flux at SLHL
 a = 258.5*(100.^2.66);
@@ -106,13 +103,10 @@ RTemp = Temp.R;
 SFmu = phi_site./phiRef;
 
 % Prevent depths less than the minimum range in E2R to be used below
-%z(z < min(RTemp)) = min(RTemp);
-ztemp = z; % changed from P_mu_totalLSD.m to reduce near-surface production artifacts
-ztemp(ztemp < min(RTemp)) = min(RTemp);
+%z(z < min(RTemp)) = min(RTemp); % not needed with extrapolation
 
 % Find scaling factors appropriate for energies associated with stopping muons at depths z
-%Rz = interp1(RTemp,SFmu,z);
-Rz = interp1(RTemp,SFmu,ztemp); % changed to reduce near-surface production artifacts
+Rz = interp1(RTemp,SFmu,z,'linear','extrap'); % extrapolation to enable z = 0
 
 % Set upper limit to stopping range to test comparability with measurements
 %StopLimit = 10;
@@ -135,7 +129,7 @@ for a = 1:length(z);
     % integrate
     % ends at 200,001 g/cm2 to avoid being asked for an zero
     % range of integration -- 
-    % get integration tolerance -- want relative tolerance around 1 part in 10^4. 
+    % get integration tolerance -- want relative tolerance around 1 part in 10^4
     tol = phi_vert_slhl(a) * 1e-4;
     [temp,fcnt] = quad(@(x) Rv0(x).*ppval(RzSpline,x),z(a),(2e5+1),tol);
     % second variable assignment here to preserve fcnt if needed
@@ -230,6 +224,19 @@ if nucl26 == 1
     P_neg26 = R.*k_negpartial26.*fstar_nu26;
 end
 
+if nucl14 == 1
+    Natoms14 = consts.Natoms14;
+    k_negpartial14 = consts.k_negpartial14;
+    sigma0nu14 = consts.sigma0_14nu;
+    fstar_nu14 = consts.fstar14nu;
+    
+    % fast muon production
+    P_fast14 = phi.*Beta.*(Ebar.^aalpha).*sigma0nu14.*Natoms14;
+    
+    % negative muon capture
+    P_neg14 = R.*k_negpartial14.*fstar_nu14;
+end
+
 % return
 
 if strcmp(dflag,'no');
@@ -238,6 +245,9 @@ if strcmp(dflag,'no');
     end
     if nucl26 == 1
         out.mu26 = P_fast26.*mflux.pint./mflux.pint(1) + P_neg26.*mflux.nint./mflux.nint(1);
+    end
+    if nucl14 == 1
+        out.mu14 = P_fast14.*mflux.pint./mflux.pint(1) + P_neg14.*mflux.nint./mflux.nint(1);
     end
 elseif strcmp(dflag,'yes');
     out.phi_vert_slhl = phi_vert_slhl;
@@ -255,6 +265,10 @@ elseif strcmp(dflag,'yes');
     if nucl26 == 1
         out.P_fast26 = P_fast26 .* mflux.pint ./ mflux.pint(1);
         out.P_neg26 = P_neg26 .* mflux.nint ./ mflux.nint(1);
+    end
+    if nucl14 == 1
+        out.P_fast14 = P_fast14 .* mflux.pint ./ mflux.pint(1);
+        out.P_neg14 = P_neg14 .* mflux.nint ./ mflux.nint(1);
     end
     out.H = H;
     out.Rz = Rz;
@@ -297,9 +311,9 @@ function out = E2R(x)
 % http://pdg.lbl.gov/2010/AtomicNuclearProperties/ Table 281
 
 % changed from P_mu_totalLSD.m:
-% first line added based on linear extrapolation to get a minimum range of 0.1 g cm-2
+% first line added based on pchip extrapolation to get a minimum range of 1e-5 g cm-2
 
-data = [5.710 0.1 8.162
+data = [4.8e0 1e-5 8.254
     1.0e1 8.400e-1 6.619
     1.4e1 1.530e0 5.180
     2.0e1 2.854e0 4.057
@@ -334,12 +348,6 @@ data = [5.710 0.1 8.162
 % units are range in g cm-2 (column 2)
 % energy in MeV (column 1)
 % Total energy loss/g/cm2 in MeV cm2/g(column 3)
-
-% deal with zero situation
-
-%too_low = find(x < 10);
-too_low = find(x < 5.710); % changed to match extrapolation of data
-x(too_low) = ones(size(too_low));
 
 % obtain ranges
 % use log-linear interpolation

@@ -1,35 +1,44 @@
-Information for prodrate.m (version 201912) calibrating reference 10Be and 26Al production rates.
-The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2019 mainly based on the CRONUS
-calculator (Balco et al. 2008) and the LSD production rate scaling (Lifton et al. 2014).
+Information for prodrate.m (version 202306) calibrating reference spallation 10Be/26Al/14C
+production rates. The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2023 mainly
+based on the CRONUS calculator (Balco et al. 2008) and the LSD production rate scaling (Lifton et
+al. 2014).
 
 
 TO USE THE CALCULATOR:
 1. Fix the input.txt file (see below).
 2. Run prodrate.m in Octave (Matlab might work as well).
-3. Reference 10Be and/or 26Al production rates (atoms/g/yr) are saved in out-prodrate.txt.
+3. Reference 10Be/26Al/14C production rates (atoms/g/yr) are saved in out-prodrate.txt.
 
 
 The calculator is based on the CRONUS calculator (Balco et al. 2008) with some modifications:
 * Nuclide-specific time-dependent LSD spallation production rate scaling based on simulated cosmic
   ray fluxes (Lifton et al. 2014).
 * Time-constant muon production rate parameterization (modified to reduce near-surface artifacts),
-  including depth dependence for samples with an assumed erosion rate, based on Antarctica depth
-  profile data (Borchers et al. 2016; Marrero et al. 2016; Phillips et al. 2016; Balco 2017) with
-  fstar and sigma0 calibrated using muclib.m.
+  including depth dependence for samples with an assumed erosion rate, with fstar and sigma0
+  calibrated using muclib.m (mucalib14.m for 14C) using the method of CRONUScalc (Borchers et al.
+  2016; Marrero et al. 2016; Phillips et al. 2016). 10Be and 26Al production rate from muons is
+  based on depth profile data from Balco (2017) and 14C production rate from muons is based on depth
+  profile data from Lupker et al. (2015).
+* Geomagnetic framework of Lifton (2016) with the SHA.DIF.14k model.
 * Adjustment of the time-dependent production rate to the year of sampling (assuming a constant
   production since 2010).
 * Atmospheric pressure based on sample elevation and ERA-40 re-analysis dataset ('std'), Antarctica
   best-fit interpolation ('ant') (Balco et al. 2008), or given directly ('pre') in hPa.
 * Attenuation length for calculating the spallation production rate adjustments for sample thickness
   and erosion rate interpolated from atmospheric pressure and cutoff rigidity (Marrero et al. 2016).
-* Sample group reference production rate and uncertainty based on weighted average using the
-  "expected value method" (Birch and Singh 2014).
+* For each site with multiple samples, a weighted mean site reference production rate and weighted
+  uncertainty is calculated based on the individual sample production rates.
+* If including multiple sites, a global mean production rate is calculated as the arithmetic mean of
+  all site production rates (only clustered site production rates if Pcluster = 1). A global
+  uncertainty is based on the deviation from the global mean P of all individual sample P (only
+  included sample P if Pcluster = 1).
 * The calibration age uncertainty, which is not an independent variable for each sample of a
   calibration site, is added in quadrature to the sample group reference production rate (and to
   each sample reference production rate uncertainty).
-* If Pcluster = 1 (line 18), outliers are removed in an attempt to achieve a well-clustered
-  reference production rate. Parameters for this (lines 21-23) are minimum number of well-clustered
-  samples, maximum outlier ratio of full group size, and p-value limit for clustering test.
+* If Pcluster = 1 (line 23), outliers are removed in an attempt to achieve a well-clustered
+  reference production rate. Parameters for this (lines 23-29) are P-value limit for clustering
+  test, minimum number of well-clustered samples, maximum outlier ratio of full group size, and
+  minimum uncertainty ratio used in cluster analysis (see code for details).
 
 
 INPUT INSTRUCTIONS:
@@ -37,6 +46,45 @@ The input is given in the file input.txt and the format can be one of two option
 the data for each sample is specified in one row (rows can be commented out with '%').
 
 Option 1:
+Data in columns with row 1 specifying the data of each columns. The following specifiers are
+allowed (the order of the data/columns is irrelevant):
+site - Name of site to control calculations of multiple site production rates and global average. If
+       not included, all samples are assumed to come from one site.
+sample - Sample name - (strange characters may cause problems).
+lat - Latitude [DD (WGS84)] - North latitudes are positive. South latitudes are negative.
+long - Longitude [DD (WGS84)] - East longitudes are positive. West longitudes are negative.
+elv - Elevation/pressure [m a.s.l. / hPa].
+Pflag - Elevation/pressure flag - std/ant/pre (see above). If not specified std will be used.
+thick - Sample thickness [cm].
+dens - Sample density [g/cm3].
+shield - Correction factor - Unitless factor used for topo/geom shielding correction.
+erosion - Erosion rate [mm/ka]. If not specified a zero erosion rate is assumed.
+N10 - 10Be concentration [atoms/g].
+N10unc - 10Be concentration uncertainty [atoms/g].
+std10 - 10Be standardization - See make_consts_expage.m lines 39-45 for acceptable names and values.
+N26 - 26Al concentration [atoms/g].
+N26unc - 26Al concentration uncertainty [atoms/g].
+std26 - 26Al standardization - See make_consts_expage.m lines 47-49 for acceptable names and values.
+N14 - 14C concentration [atoms/g].
+N14unc - 14C concentration uncertainty [atoms/g].
+samplingyr - Sampling year [CE].
+calage - Calibration age [yr before sampling] - Independently known exposure age.
+calageunc - Calibration age uncertainty [yr].
+pressure - Atmospheric pressure [hPa] - If pressure is included, data in elv is not used.
+isostP - String specifying an isostatic adjustment method for atmospheric pressure adjustments.
+isostPmod - Factor that will be multiplied with all elevations derived from isostP.
+isostsubm - String specifying an isostatic adjustment method for submergence adjustments.
+isostsubmmod - Factor that will be multiplied with all elevations derived from isostsubm.
+  For both isostP and isostsubm, the following strings can be used:
+  ICE7G - Isostatic adjustment using the global ICE7G data (Roy and Peltier 2015, 2017).
+  ICE6G - Isostatic adjustment using the global ICE6G data (Argus et al. 2014; Peltier et al. 2015).
+  ANU2017 - Isostatic adjustment using the data from Lambeck et al. (2017) for North America.
+  PD2015 - Isostatic adjustment using the Påsse and Daniels (2015) data for Fennoscandia.
+  Gowan2021 - Isostatic adjustment using the data from Gowan et al. (2021).
+  filename - Name of file with isostatic adjustment data (tv, delv or shoreline, and yr0).
+  If a sample has the string '-' for isostP or isostsubm, no isostatic adjustment is carried out.
+
+Option 2:
 Similar input as for the CRONUS exposure age calcuator version 2, with changed unit for erosion rate
 and the addition of sampling year, calibration age, and calibration age uncertainty. The input
 should contain 18 columns with the following information:
@@ -51,65 +99,42 @@ should contain 18 columns with the following information:
 9. Erosion rate [mm/ka]. NOTE: different unit than in the CRONUS calculator.
 10. 10Be concentration [atoms/g] - (if no 10Be measurement: use 0).
 11. 10Be concentration uncertainty [atoms/g] - (if no 10Be measurement: use 0).
-12. 10Be standardization - See make_consts_expage.m lines 34-38 for acceptable names and values.
+12. 10Be standardization - See make_consts_expage.m lines 39-45 for acceptable names and values.
 13. 26Al concentration [atoms/g] - (if no 26Al measurement: use 0).
 14. 26Al concentration uncertainty [atoms/g] - (if no 26Al measurement: use 0).
-15. 26Al standardization - See make_consts_expage.m lines 41-42 for acceptable names and values.
+15. 26Al standardization - See make_consts_expage.m lines 47-49 for acceptable names and values.
 16. Sampling year [CE].
 17. Calibration age [yr before sampling] - Independently known exposure age.
 18. Calibration age uncertainty [yr].
 
-Option 2:
-Data in columns with row 1 specifying the data of each columns. The following specifiers are
-allowed (the order of the data/columns is irrelevant):
-sample - Sample name - (strange characters may cause problems).
-lat - Latitude [DD (WGS84)] - North latitudes are positive. South latitudes are negative.
-long - Longitude [DD (WGS84)] - East longitudes are positive. West longitudes are negative.
-elv - Elevation/pressure [m a.s.l. / hPa].
-Pflag - Elevation/pressure flag - std/ant/pre (see above). If not specified std will be used.
-thick - Sample thickness [cm].
-dens - Sample density [g/cm3].
-shield - Correction factor - Unitless factor used for topo/geom shielding correction.
-erosion - Erosion rate [mm/ka]. If not specified a zero erosion rate is assumed.
-N10 - 10Be concentration [atoms/g].
-N10unc - 10Be concentration uncertainty [atoms/g].
-std10 - 10Be standardization - See make_consts_expage.m lines 34-38 for acceptable names and values.
-N26 - 26Al concentration [atoms/g].
-N26unc - 26Al concentration uncertainty [atoms/g].
-std26 - 26Al standardization - See make_consts_expage.m lines 41-42 for acceptable names and values.
-samplingyr - Sampling year [CE].
-calage - Calibration age [yr before sampling] - Independently known exposure age.
-calageunc - Calibration age uncertainty [yr].
-pressure - Atmospheric pressure [hPa] - If pressure is included, data in elv is not used.
-isostP - String specifying the isostatic adjustment method for atmospheric pressure adjustments.
-isostsubm - String specifying the isostatic adjustment method for submergence adjustments.
-For both isostP and isostsubm, the following strings can be used:
-ICE6G - Isostatic adjustment using the global ICE6G data (Argus et al. 2014; Peltier et al. 2015).
-ANU2017 - Isostatic adjustment using the data from Lambeck et al. (2017) for North America.
-PD2015 - Isostatic adjustment using the Påsse and Daniels (2015) data for Fennoscandia.
-filename - Name of file with isostatic adjustment data (tv, delv or shoreline, and yr0).
-If a sample has the string '-' for isostP or isostsubm, no isostatic adjustment is carried out.
-
 
 OUTPUT INFORMATION:
-The calculator saves reference 10Be/26Al production rates in the file out-prodrate.txt. The
+The calculator saves reference 10Be/26Al/14C production rates in the file out-prodrate.txt. The
 reference production rate (atoms/g/yr) with uncertainty (including calibration age uncertainty) is
 saved for each sample. If Pcluster = 1 (line 18), sample production rates included in the site
 production rates are marked with X. Following the individual sample production rates, the individual
 site production rate data is saved with site name, site reference production rate, site reference
-production rate uncertainty, reduced chi square value, and P-value. If Pcluster = 1 (line 18), site
-production rates fulfilling the cluster criteria (lines 21-23) are marked with X.
+production rate uncertainty, reduced chi square value, and P-value. If Pcluster = 1 (line 23), site
+production rates fulfilling the cluster criteria (lines 21-23) are marked with X. If including data
+from multiple sites, the global average and uncertainty (P-total) is included at the end.
 
 If there is only one 10Be or 26Al measurement the output will only contain the individual sample
 production rate (no group production rate and statistics).
 
 Samples with 0/0 concentration/uncertainty yield '-' in the output.
-If all input 10Be concentration/uncertainty are 0/0 no 10Be data is saved.
-If all input 26Al concentration/uncertainty are 0/0 no 26Al data is saved.
+If all input 10Be/26Al/14C concentration/uncertainty are 0/0 no 10Be/26Al/14C data is saved.
 
-The calculator plots (line 17) individual sample proabability density curves (red lines), a summed
-probability density curve (black line) for the reference production rates, individual outlier
-density curves (blue lines), and the group reference production rate (vertical black line) and
-uncertainty (grey area). Note that the probability density curves do not include the calibration age
-uncertainty but the group production rate uncertainty (grey area) does include the calibration age
-uncertainty.
+
+PLOTTING:
+The calculator can plot site probability density curves (line 16) for the reference production rate
+with individual sample probability density curves (10Be/26Al/14C: red/blue/green lines), a summed
+probability density curve (black line), individual outlier density curves (grey lines), and the site
+reference production rate (vertical black line) and uncertainty (grey area). Note that the
+probability density curves do not include the calibration age uncertainty but the group production
+rate uncertainty (grey area) does include the calibration age uncertainty.
+
+If having data from more than one site, the calculator can plot the full data (line 17) with
+individual sample reference production rates and uncertainties (black points and vertical lines),
+individual outlier reference production rates and uncertainties (red points and vertical lines),
+individual site reference production rates and uncertainties (blue horizontal lines and boxes), and
+global average reference production rate and uncertainty (black horizontal line and box).

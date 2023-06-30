@@ -2,6 +2,54 @@ Log file for the expage 10Be and 26Al exposure age calculator
 
 ====================================================================================================
 
+expage-202306 calculator
+* Multiple changes in several functions.
+* Updated the paleomagnetic framwork to use the framework of Lifton (2016) with the SHA.DIF.14k
+  model for the last 14 ka. This includes an updated time vector:
+  [0:10:50 60:100:2960 3060:200:74860 75060:1000:799060 800060:2000:2000060 1E7]
+* P_mu_expage.m: extrapolation of data in E2R changed to get a minimum range of 1e-5 g cm-2.
+* Changed the log step shielding depth vector in erosion.m, burial.m, expage_submerge.m, glacialE.m,
+  and glacialEdepth.m from [(0:3:27) logspace(1.48,5.3,70)] to [(0:3:12) logspace(1.18,5.3,50)] to
+  speed up the calculations slightly.
+* Added the possibility to calculate 14C cosmogenics in prodrate.m, expage.m, expage_submerge.m,
+  glacialE.m, and glacialEdepth.m.
+* Weighted mean and uncertainties are now generally calculated with the function w_mean_unc.m.
+* prodrate.m:
+  - Fixed an error in cases where both isostP and isostsubm are used.
+  - For site production rates, the variable cl.minuncratio (default = 0.05) is used to calculate
+    minimum sample production rate uncertainties used in the cluster test only (not for calculating
+    the weighted mean site production rate).
+  - Added calculation of a full production rate for cases with multiple site production rates. This
+    is calculated as an arithmetic mean of all site production rates fulfilling the cluster test
+    with the uncertainty based on all single sample production rates included in the clustered site
+    production rates.
+  - Added option to plot sample, site, and full mean production rates.
+* expage.m: Added an option to plot sample elevation or elevation change against time for cases when
+  using atmospheric pressure based on time-dependent elevation from variable isostP (and potentially
+  isostPmod). The plotting can be with individual plots for each sample or with all samples in one
+  plot.
+* expage_submerge.m: function which calculates exposure ages just like expage.m plus the difference
+  between the calculated simple exposure age and an expected exposure age assuming a fixed
+  deglaciation time and submergence due to post-glacial isostatic adjustments with subaqueous
+  cosmogenic nuclide production. The input must have variable names in the first line and there must
+  be a deglac variable with deglaciation age. If there is an isostsubm variable the calculation of
+  the exposure age difference is calculated with potential subaqueous cosmogenic nuclide production.
+  If there is no isostsubm variable or no submergence (no post-glacial negative elevation) the
+  exposure age difference is the difference between the simple exposure age and the input
+  deglaciation age.
+* glacialE.m:
+  - Several major changes.
+  - Glacial erosion uncertainty estimated using a Monte Carlo method with an iterative approach
+    zooming in towards the individual glacial erosion that yields the randomized cosmogenic nuclide
+    concentration (subfunction Eunccalc).
+  - Added option to estimate sensitivity of glacial erosion to individual input parameters. The
+    sensitivity is saved as individual glacial erosion uncertainties and plotted.
+* glacialEdepth.m: Calculate glacial erosion based on depth profile data. Based on glacialE.m with
+  calculation of individual sample glacial erosion and weighting of all depth profile samples with
+  relative cosmogenic nuclide concentration uncertainties used as weights.
+
+====================================================================================================
+
 expage-201912 calculator
 * Multiple changes in several functions.
 * New input option with header line specifying the variables in the columns.
@@ -19,11 +67,10 @@ expage-201912 calculator
 * Option to calculate exposure ages and production rates using isostatic adjustments of the
   elevation and associated atmospheric pressure. The elevation change can be calculated from the
   ICE6G data (Argus et al. 2014; Peltier et al. 2015) globally, the PD2015 model (Påsse and Daniels
-  2015) for Fennoscandia, the ANU2017 model (Lambeck et al. 2017) for North America or from the data
-  in a self-provided file. Reference production rates used when employing the isostatic adjustment
-  option have been calibrated using the updated prodrate.m function with the Billingen_uplift.txt
-  data for site 18, PD2015 data for sites 6,7,11,12 in Fennoscandia, and ICE6G data for all other
-  calibration sites.
+  2015) model for Fennoscandia, or from the data in a self-provided file. Reference production rates
+  used when employing the isostatic adjustment option have been calibrated using the updated
+  prodrate.m function with the Billingen_uplift.txt data for site 18, PD2015 data for sites 6,7,11,
+  12 in Fennoscandia, and ICE6G data for all other calibration sites.
 * Changed mu_z in subfunctions get_PmuE to use 5-10 points depending on simple age erosion depth
   instead of 10 (speeds up the calculation somewhat).
 * Changed the log step shielding depth vector in erosion.m, glacialE.m, and burial.m from

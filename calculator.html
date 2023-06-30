@@ -25,7 +25,7 @@
 		<p>
 		<h2>Exposure age calculator</h2>
 		</p>
-		<p>Here the exposure age calculator used to recalculate exposure ages can be downloaded. The calculator comprises a set of scripts for Octave/Matlab that can be used to calculate <span class="sup">10</span>Be and <span class="sup">26</span>Al exposure ages. The code is mainly based on the <a href="http://hess.ess.washington.edu/">CRONUS calculator</a> (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) and the LSD production rate scaling (<a href="http://dx.doi.org/10.1016/j.epsl.2013.10.052">Lifton et al. 2014</a>). In addition to the exposure age calculator (expage.m), there are also scripts for calculating erosion rates (erosion.m), burial durations (burial.m), depth profile exposure ages (depthcalc.m + depthcalcET.m), glacial erosion (glacialE.m), and for calibration of reference <span class="sup">10</span>Be and <span class="sup">26</span>Al production rates (prodrate.m).</p>
+		<p>Here the exposure age calculator used to recalculate exposure ages can be downloaded. The calculator comprises a set of scripts for Octave/Matlab that can be used to calculate <span class="sup">10</span>Be and <span class="sup">26</span>Al exposure ages. The code is mainly based on the <a href="https://hess.ess.washington.edu/">CRONUS calculator</a> (<a href="https://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) and the LSD production rate scaling (<a href="https://dx.doi.org/10.1016/j.epsl.2013.10.052">Lifton et al. 2014</a>). In addition to the exposure age calculator (expage.m), there are also scripts for calculating erosion rates (erosion.m), burial durations (burial.m), depth profile exposure ages (depthcalc.m + depthcalcET.m), glacial erosion (glacialE.m), and for calibration of reference <span class="sup">10</span>Be and <span class="sup">26</span>Al production rates (prodrate.m).</p>
 		<p class="half-line">&nbsp;</p>
 		<p><u>Main characteristics of the calculator:</u></p>
 		<p>
@@ -33,21 +33,23 @@
 			<div class="pnt1">&bull;</div>
 			<div class="pnt2">Numerical integration over time of the <span class="sup">10</span>Be/<span class="sup">26</span>Al production adjusted for sample thickness, topographic shielding, <span class="sup">10</span>Be/<span class="sup">26</span>Al decay, and erosion.</div>
 			<div class="pnt1">&bull;</div>
-			<div class="pnt2">Nuclide-specific LSD spallation and muon production rate scaling based on simulated cosmic ray fluxes (<a href="http://dx.doi.org/10.1016/j.epsl.2013.10.052">Lifton et al. 2014</a>).</div>
+			<div class="pnt2">Nuclide-specific LSD spallation and muon production rate scaling based on simulated cosmic ray fluxes (<a href="https://dx.doi.org/10.1016/j.epsl.2013.10.052">Lifton et al. 2014</a>).</div>
 			<div class="pnt1">&bull;</div>
-			<div class="pnt2">Time-dependent spallation production rate with reference <span class="sup">10</span>Be and <span class="sup">26</span>Al production rates based on global average from calibration studies published 2009-2019.</div>
+			<div class="pnt2">Time-dependent spallation production rate with reference <span class="sup">10</span>Be and <span class="sup">26</span>Al production rates based on global average from calibration studies published 2009-2022.</div>
 			<div class="pnt1">&bull;</div>
-			<div class="pnt2">Time-constant muon production rate parameterization (<a href="http://dx.doi.org/10.1016/j.quageo.2015.01.009">Borchers et al. 2016</a>; <a href="http://dx.doi.org/10.1016/j.quageo.2015.09.005">Marrero et al. 2016</a>; <a href="http://dx.doi.org/10.1016/j.quageo.2015.09.006">Phillips et al. 2016</a>) with f* and σ<span class="sub">0</span> calibrated for the expage calculator based on Beacon Heights (Antarctica) depth profile data.</div>
+			<div class="pnt2">Time-constant muon production rate parameterization (<a href="https://dx.doi.org/10.1016/j.quageo.2015.01.009">Borchers et al. 2016</a>; <a href="https://dx.doi.org/10.1016/j.quageo.2015.09.005">Marrero et al. 2016</a>; <a href="https://dx.doi.org/10.1016/j.quageo.2015.09.006">Phillips et al. 2016</a>) with f* and σ<span class="sub">0</span> calibrated for the expage calculator based on Beacon Heights (Antarctica) depth profile data.</div>
+			<div class="pnt1">&bull;</div>
+			<div class="pnt2">Geomagnetic framework of <a href="https://doi.org/10.1016/j.epsl.2015.11.006">Lifton (2016)</a>.</div>
 			<div class="pnt1">&bull;</div>
 			<div class="pnt2">Adjustment of the time-dependent production rate to the sampling year (assuming a constant production since 2010).</div>
 			<div class="pnt1">&bull;</div>
 			<div class="pnt2">Atmospheric pressure based on sample elevation and ERA-40 re-analysis dataset, Antarctica best-fit interpolation, or given directly.</div>
 			<div class="pnt1">&bull;</div>
-			<div class="pnt2">Attenuation length for calculating the spallation production rate adjustments for sample thickness and erosion rate interpolated from atmospheric pressure and cutoff rigidity (<a href="http://dx.doi.org/10.1016/j.quageo.2015.09.005">Marrero et al. 2016</a>).</div>
+			<div class="pnt2">Attenuation length for calculating the spallation production rate adjustments for sample thickness and erosion rate interpolated from atmospheric pressure and cutoff rigidity (<a href="https://dx.doi.org/10.1016/j.quageo.2015.09.005">Marrero et al. 2016</a>).</div>
 			<div class="pnt1">&bull;</div>
-			<div class="pnt2"><span class="sup">10</span>Be half-life: 1.387 Ma (<a href="http://dx.doi.org/10.1016/j.nimb.2009.09.012">Chmeleff et al. 2010</a>; <a href="http://dx.doi.org/10.1016/j.nimb.2009.09.020">Korschinek et al. 2010</a>). <span class="sup">26</span>Al half-life: 0.705 Ma (<a href="http://dx.doi.org/10.1016/j.nimb.2004.04.075">Nishiizumi 2004</a>).</div>
+			<div class="pnt2"><span class="sup">10</span>Be half-life: 1.387 Ma (<a href="https://dx.doi.org/10.1016/j.nimb.2009.09.012">Chmeleff et al. 2010</a>; <a href="https://dx.doi.org/10.1016/j.nimb.2009.09.020">Korschinek et al. 2010</a>). <span class="sup">26</span>Al half-life: 0.705 Ma (<a href="https://dx.doi.org/10.1016/j.nimb.2004.04.075">Nishiizumi 2004</a>).</div>
 			<div class="pnt1">&bull;</div>
-			<div class="pnt2">Standardization of <span class="sup">10</span>Be concentrations to the 07KNSTD standard (<a href="http://dx.doi.org/10.1016/j.nimb.2007.01.297">Nishiizumi et al. 2007</a>). Standardization of <span class="sup">26</span>Al concentrations to the KNSTD standard (<a href="http://dx.doi.org/10.1016/j.nimb.2004.04.075">Nishiizumi 2004</a>).</div>
+			<div class="pnt2">Standardization of <span class="sup">10</span>Be concentrations to the 07KNSTD standard (<a href="https://dx.doi.org/10.1016/j.nimb.2007.01.297">Nishiizumi et al. 2007</a>). Standardization of <span class="sup">26</span>Al concentrations to the KNSTD standard (<a href="https://dx.doi.org/10.1016/j.nimb.2004.04.075">Nishiizumi 2004</a>).</div>
 		</div>
 		</p>
 		<center>
@@ -58,6 +60,7 @@
 		<hr width="100%">
 		<br>
 		<div class="calclist">
+		<div class="calc"><a href="data/calculator/zip/expage-202306.zip">expage-202306.zip</a></div>
         <div class="calc"><a href="data/calculator/zip/expage-201912.zip">expage-201912.zip</a></div>
         <div class="calc"><a href="data/calculator/zip/expage-201902.zip">expage-201902.zip</a></div>
         <div class="calc"><a href="data/calculator/zip/expage-201810.zip">expage-201810.zip</a></div>

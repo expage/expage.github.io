@@ -1,23 +1,26 @@
-Information for expage.m (version 201912) calculating 10Be and 26Al exposure ages.
-The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2019 mainly based on the CRONUS
+Information for expage.m (version 202306) calculating 10Be/26Al/14C exposure ages.
+The calculator is fixed by Jakob Heyman (jakob.heyman@gu.se) 2015-2023 mainly based on the CRONUS
 calculator (Balco et al. 2008) and the LSD production rate scaling (Lifton et al. 2014).
 
 
 TO USE THE CALCULATOR:
 1. Fix the input.txt file (see below).
 2. Run expage.m in Octave (Matlab might work as well).
-3. 10Be and/or 26Al exposure ages (yr) are saved in out-expages.txt.
+3. 10Be/26Al/14C exposure ages (yr before sampling) are saved in out-expages.txt.
 
 
 The calculator is based on the CRONUS calculator (Balco et al. 2008) with some modifications:
 * Nuclide-specific LSD spallation and muon production rate scaling based on simulated cosmic ray
   fluxes (Lifton et al. 2014).
 * Time-dependent spallation production rate with reference production rates based on global average
-  from calibration studies published 2009-2019 calibrated using prodrate.m.
+  from calibration studies published 2009-2022 calibrated using prodrate.m.
 * Time-constant muon production rate parameterization (modified to reduce near-surface artifacts),
-  including depth dependence for samples with an assumed erosion rate, based on Antarctica depth
-  profile data (Borchers et al. 2016; Marrero et al. 2016; Phillips et al. 2016; Balco 2017) with
-  fstar and sigma0 calibrated using muclib.m.
+  including depth dependence for samples with an assumed erosion rate, with fstar and sigma0
+  calibrated using muclib.m (mucalib14.m for 14C) using the method of CRONUScalc (Borchers et al.
+  2016; Marrero et al. 2016; Phillips et al. 2016). 10Be and 26Al production rate from muons is
+  based on depth profile data from Balco (2017) and 14C production rate from muons is based on depth
+  profile data from Lupker et al. (2015).
+* Geomagnetic framework of Lifton (2016) with the SHA.DIF.14k model.
 * Adjustment of the time-dependent production rate to the year of sampling (assuming a constant
   production since 2010).
 * Atmospheric pressure based on sample elevation and ERA-40 re-analysis dataset ('std'), Antarctica
@@ -31,27 +34,6 @@ The input is given in the file input.txt and the format can be one of two option
 the data for each sample is specified in one row (rows can be commented out with '%').
 
 Option 1:
-Similar input as for the CRONUS calcuator version 2 (Balco et al. 2008), with changed unit for
-erosion rate and the addition of sampling year. The input should contain 16 columns with the
-following information:
-1. Sample name - (strange characters may cause problems).
-2. Latitude [DD (WGS84)] - North latitudes are positive. South latitudes are negative.
-3. Longitude [DD (WGS84)] - East longitudes are positive. West longitudes are negative.
-4. Elevation/pressure [m a.s.l. / hPa].
-5. Elevation/pressure flag - std/ant/pre (ERA40 elev interpol/Antarctica elev/atmospheric pressure).
-6. Sample thickness [cm].
-7. Sample density [g/cm3].
-8. Correction factor - Unitless factor used for topo/geom shielding correction (no shielding -> 1).
-9. Erosion rate [mm/ka]. NOTE: different unit than in the CRONUS calculator.
-10. 10Be concentration [atoms/g] - (if no 10Be measurement: use 0).
-11. 10Be concentration uncertainty [atoms/g] - (if no 10Be measurement: use 0).
-12. 10Be standardization - See make_consts_expage.m lines 34-38 for acceptable names and values.
-13. 26Al concentration [atoms/g] - (if no 26Al measurement: use 0).
-14. 26Al concentration uncertainty [atoms/g] - (if no 26Al measurement: use 0).
-15. 26Al standardization - See make_consts_expage.m lines 41-42 for acceptable names and values.
-16. Sampling year [CE].
-
-Option 2:
 Data in columns with row 1 specifying the data of each columns. The following specifiers are
 allowed (the order of the data/columns is irrelevant):
 sample - Sample name - (strange characters may cause problems).
@@ -69,29 +51,68 @@ std10 - 10Be standardization - See make_consts_expage.m lines 34-38 for acceptab
 N26 - 26Al concentration [atoms/g].
 N26unc - 26Al concentration uncertainty [atoms/g].
 std26 - 26Al standardization - See make_consts_expage.m lines 41-42 for acceptable names and values.
+N14 - 14C concentration [atoms/g].
+N14unc - 14C concentration uncertainty [atoms/g].
 samplingyr - Sampling year [CE].
 pressure - Atmospheric pressure [hPa] - If pressure is included, data in elv is not used.
 isostP - String specifying the isostatic adjustment method for atmospheric pressure adjustments.
-For isostP the following strings can be used:
-ICE6G - Isostatic adjustment using the global ICE6G data (Argus et al. 2014; Peltier et al. 2015).
-ANU2017 - Isostatic adjustment using the data from Lambeck et al. (2017) for North America.
-PD2015 - Isostatic adjustment using the Påsse and Daniels (2015) data for Fennoscandia.
-filename - Name of file with isostatic adjustment data (tv, delv or shoreline, and yr0).
-If a sample has the string '-' for isostP or isostsubm, no isostatic adjustment is carried out.
+  For isostP the following strings can be used:
+  ICE7G - Isostatic adjustment using the global ICE7G data (Roy and Peltier 2015, 2017).
+  ICE6G - Isostatic adjustment using the global ICE6G data (Argus et al. 2014; Peltier et al. 2015).
+  ANU2017 - Isostatic adjustment using the data from Lambeck et al. (2017) for North America.
+  PD2015 - Isostatic adjustment using the Påsse and Daniels (2015) data for Fennoscandia.
+  Gowan2021 - Isostatic adjustment using the data from Gowan et al. (2021).
+  filename - Name of file with isostatic adjustment data (tv, delv or shoreline, and yr0).
+  If a sample has the string '-' for isostP or isostsubm, no isostatic adjustment is carried out.
+isostPmod - Factor for multiplication of the elevation change given by isostP.
+
+Option 2:
+Similar input as for the CRONUS calcuator version 2 (Balco et al. 2008), with changed unit for
+erosion rate and the addition of sampling year. The input should contain 16 columns with the
+following information:
+1. Sample name - (strange characters may cause problems).
+2. Latitude [DD (WGS84)] - North latitudes are positive. South latitudes are negative.
+3. Longitude [DD (WGS84)] - East longitudes are positive. West longitudes are negative.
+4. Elevation/pressure [m a.s.l. / hPa].
+5. Elevation/pressure flag - std/ant/pre (ERA40 elev interpol/Antarctica elev/atmospheric pressure).
+6. Sample thickness [cm].
+7. Sample density [g/cm3].
+8. Correction factor - Unitless factor used for topo/geom shielding correction (no shielding -> 1).
+9. Erosion rate [mm/ka]. NOTE: different unit than in the CRONUS calculator.
+10. 10Be concentration [atoms/g] - (if no 10Be measurement: use 0).
+11. 10Be concentration uncertainty [atoms/g] - (if no 10Be measurement: use 0).
+12. 10Be standardization - See make_consts_expage.m lines 41-45 for acceptable names and values.
+13. 26Al concentration [atoms/g] - (if no 26Al measurement: use 0).
+14. 26Al concentration uncertainty [atoms/g] - (if no 26Al measurement: use 0).
+15. 26Al standardization - See make_consts_expage.m lines 48-49 for acceptable names and values.
+16. Sampling year [CE].
 
 
 OUTPUT INFORMATION:
 The calculator saves 10Be and/or 26Al exposure ages in the file out-expage.txt.
 Exposure ages (yr) are saved with external and internal uncertainties (Balco et al. 2008).
-Fully saturated samples yield exposure age 10000000 (10Be) and 6000000 (26Al).
+Fully saturated samples yield exposure age 10000000 (10Be), 6000000 (26Al), and 60000 (14C).
 Samples with 0/0 concentration/uncertainty yield '-' in the output.
-If all input 10Be concentration/uncertainty are 0/0 no 10Be exposure ages are saved.
-If all input 26Al concentration/uncertainty are 0/0 no 26Al exposure ages are saved.
+If all input 10Be/26Al/14C concentration/uncertainty are 0/0 no 10Be/26Al/14C data is saved.
 
 
 PLOTTING:
 Plotting of point ages and/or probability density curves can be set in lines 20-21.
 Setting plotpointages = 1 plots point ages with external uncertainty (separate plots for 10Be/26Al).
 Setting plotprobdens = 1 plots individual sample probability density curves (using internal
-uncertainty) plus a summed probability density curve and a weighted mean age with propagated
-reference production rate uncertainty if more than one sample.
+uncertainty) plus a summed probability density curve and, if having more than one sample, a weighted
+mean age with a weighted uncertainty (using internal uncertainties) plus the weighted uncertainty
+with reference production rate uncertainty propagated.
+For samples with isostatic adjustments (isostP in input), sample elevation and/or elevation change
+against time can be plotted with a plot for each individual sample or in a combined plot for all
+samples (lines 23-27).
+
+
+INFO FOR expage_submerge.m:
+expage_submerge calculates standard exposure ages in the same way as expage.m and in addition,
+calculates the difference from an expected exposure age for samples that have experienced
+submergence following deglaciation. The expected exposure age is calculated with the assumption that
+the full cosmogenic nuclide concentration has been produced after the last deglaciation. This
+calculator requires input in the option 1 way above plus a deglaciation age (deglac) and a method
+for isostatic uplift (isostsubm and potentially isostsubmmod - compare with isostP and isostPmod
+above).

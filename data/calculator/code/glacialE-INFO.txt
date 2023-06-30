@@ -1,14 +1,13 @@
-Information for glacialE.m (version 201912) calculating erosion depth based on 10Be and/or 26Al data
-from sites with a known or assumed ice cover history. The calculator is fixed by Jakob Heyman
-(jakob.heyman@gu.se) 2017-2019 with production rate (and other) calculations to a large degree based
-on the CRONUS calculator (Balco et al. 2008) and the LSD production rate scaling (Lifton et al.
-2014). This version of the calculator is a preliminary (but fully functioning) version and
-additional calculation options will be added.
+Information for glacialE.m (version 202306) calculating erosion rate/depth based on 10Be and/or
+26Al data from sites with a known or assumed ice cover history. The calculator is fixed by Jakob
+Heyman (jakob.heyman@gu.se) 2017-2023 with production rate (and other) calculations to a large
+degree based on the CRONUS calculator (Balco et al. 2008) and the LSD production rate scaling
+(Lifton et al. 2014).
 
 
 TO USE THE CALCULATOR:
 1. Fix the input.txt file (see below).
-2. Fix parameters in glacialE.m lines 15-73.
+2. Fix parameters in glacialE.m lines 15-84.
 3. Run glacialE.m in Octave (might work in MATLAB).
 4. Output (see below) is saved in out-glacialE.txt
 
@@ -18,9 +17,11 @@ The calculator is based on the CRONUS calculator (Balco et al. 2008) with modifi
   fluxes (Lifton et al. 2014).
 * Time-dependent spallation production rate with reference production rates based on global average
   from calibration studies published 2009-2019 calibrated using prodrate.m.
-* Time-constant muon production rate parameterization (modified to reduce near-surface artifacts)
-  based on Antarctica depth profile data (Borchers et al. 2016; Marrero et al. 2016; Phillips et al.
-  2016; Balco 2017) with fstar and sigma0 calibrated using muclib.m.
+* Time-constant muon production rate parameterization (modified to reduce near-surface artifacts),
+  with fstar and sigma0 calibrated using muclib.m using the method of CRONUScalc (Borchers et al.
+  2016; Marrero et al. 2016; Phillips et al. 2016). 10Be and 26Al production rate from muons is
+  based on depth profile data from Balco (2017).
+* Geomagnetic framework of Lifton (2016) with the SHA.DIF.14k model.
 * Adjustment of the time-dependent production rate to the year of sampling (assuming a constant
   production since 2010).
 * Atmospheric pressure based on sample elevation and ERA-40 re-analysis dataset ('std'), Antarctica
@@ -28,32 +29,29 @@ The calculator is based on the CRONUS calculator (Balco et al. 2008) with modifi
 * Attenuation length for calculating the spallation production rate adjustments for sample thickness
   and erosion rate interpolated from atmospheric pressure and cutoff rigidity (Marrero et al. 2016).
 * The calculator calculates the production rate over time based on input data determining the local
-  production rate, ice cover periods, and erosion history, and uses this to calculate the potential
-  10Be and/or 26Al concentration in the sample. This calculation is done for all erosion values
-  (mm/ka or cm per ice cover period) in Etestv and the best-fit erosion is interpolated from the
-  simulated cosmogenic nuclide concentrations.
+  production rate, ice cover periods, subaerial erosion history, potential submergence due to
+  isostatic modifications, and uses this to calculate the potential 10Be and/or 26Al concentration
+  in the sample. This calculation is done for all erosion values (mm/ka or cm per ice cover period)
+  in Etestv and the best-fit erosion is interpolated from the simulated cosmogenic nuclide
+  concentrations.
 * The production rate is assumed to be zero through all ice cover periods.
 * The calculator can calculate a glacial erosion rate (glacErate = 1) and/or glacial incremental
   depth steps (glacEstep = 1), assuming that all glacial erosion occurs at the deglaciation. If
   glacial erosion (glacE) is specified in the input (see below), the calculator will calculate the
   non-glacial erosion rate.
-* The uncertainty (positive and negative) is estimated using Monte Carlo simulation. An internal
-  uncertainty is calculated based on the cosmogenic nuclide concentration uncertainty. An external
-  uncertainty is calucated based on uncertainties of the production rate, decay factor, and a range
-  of optional parameters that can be specified in the input. The external uncertainty is calculated
-  using the central point erosion and simulating the sample cosmogenic nuclide concentration. This
-  concentration is then converted into erosion using the erosion and concentration calcualated using
-  Etestv. This approach limits the calculations and saves time but it may affect the estimated
-  uncertainty, in particular for uncertainties that may yield significant variations in the ice
-  cover history. Given the major uncertainties with the erosion estimation approach (e.g. assuming
-  that each glaciation erodes in a similar way), this simplification can be motivated. The internal
-  and external uncertainties are combined and reported as one positive and one negative uncertainty.
+* Asymmetric uncertainties (positive and negative) are estimated using Monte Carlo simulation with
+  the number of Monte Carlo iterations defined by mc (line 24). An internal uncertainty is
+  calculated based on the cosmogenic nuclide concentration uncertainty. An external uncertainty is
+  calucated based on uncertainties of the production rate, decay factor, and a range of optional
+  parameters that can be specified in the input. As the production of cosmogenic nuclides varies
+  non-linearly with varying input parameters, the associated glacial erosion for each individual
+  Monte Carlo iteration is estimated using an iterative approach zooming in towards the glacial
+  erosion yielding the input cosmogenic nuclide concentration.
 * For glacial erosion calculations, a maximum erosion value is estimated based on the depth of
   erosion that yield cosmogenic nuclide inheritance equal to 1% of the surface concentration
   expected from the last post-glacial exposure period.
 * For samples with measured 10Be and 26Al concentrations, the calculator can calculate combined
-  erosion (nucl1026 = 1) values and uncertainties (subfunction Ecalc1026). This is only done for
-  samples for which nuclide-specific erosion values overlap within uncertainties.
+  erosion (nucl1026 = 1) values and uncertainties (subfunction Ecalc1026).
 
 
 INPUT INSTRUCTIONS:
@@ -71,63 +69,96 @@ densunc - Sample density uncertainty [g/cm3] - used for erosion uncertainty esti
 shield - Correction factor - Unitless factor used for topo/geom shielding correction.
 erosion - Non-glacial erosion rate [mm/ka]. If not specified a zero erosion rate is assumed.
 erosionunc - Erosion rate uncertainty [mm/ka] - used for erosion uncertainty estimation.
+erosionmin - Minimum in uniform uncertainty [mm/ka] for erosion rate.
+erosionmax - Maximum in uniform uncertainty [mm/ka] for erosion rate.
 N10 - 10Be concentration [atoms/g].
 N10unc - 10Be concentration uncertainty [atoms/g].
-std10 - 10Be standardization - See make_consts_expage.m lines 34-38 for acceptable names and values.
+std10 - 10Be standardization - See make_consts_expage.m lines 39-45 for acceptable names and values.
 N26 - 26Al concentration [atoms/g].
 N26unc - 26Al concentration uncertainty [atoms/g].
-std26 - 26Al standardization - See make_consts_expage.m lines 41-42 for acceptable names and values.
+std26 - 26Al standardization - See make_consts_expage.m lines 47-49 for acceptable names and values.
 samplingyr - Sampling year [CE].
 pressure - Atmospheric pressure [hPa] - If pressure is included, data in elv is not used.
 icevalue - Break value for determination of ice cover period. Periods with a value in iceproxy (see
            below) that is higher than or equal to the icevalue will be ice covered.
 icevalueunc - Uncertainty for the icevalue break value.
+icevaluemin - Minimum in uniform uncertainty for the icevalue break value.
+icevaluemax - Maximum in uniform uncertainty for the icevalue break value.
 deglac - Age of last deglaciation [yr] - used to adjust ice cover history.
 deglacunc - Uncertainty for the age of last glaciation [yr] - for erosion uncertainty estimation.
+deglacmin - Minimum in uniform uncertainty [yr] for deglaciation.
+deglacmax - Maximum in uniform uncertainty [yr] for deglaciation.
 glacE - Glacial erosion rate or incremental depth [mm/ka or cm/glac] - If included (and erosion is
         not included in the input), the non-glacial erosion rate is calculated.
 glacEunc - Glacial erosion rate or incremental depth uncertainty [mm/ka or cm/glac].
+glacEmin - Minimum in uniform uncertainy [mm/ka or cm/glac] for glacial erosion.
+glacEmax - Maximum in uniform uncertainy [mm/ka or cm/glac] for glacial erosion.
 burialdepth - Burial depth [cm] of the sample. Sample density is used for overlying material.
-isostP - String specifying the isostatic adjustment method for atmospheric pressure adjustments.
-isostsubm - String specifying the isostatic adjustment method for submergence adjustments.
+simt - Simulation start time [yr before sampling].
+simtunc - Uncertainty for the simulation start time [yr].
+simtmin - Minimum in uniform uncertainty for the simulation start time [yr before sampling].
+simtmax - Maximum in uniform uncertainty for the simulation start time [yr before sampling].
+isostP - String specifying an isostatic adjustment method for atmospheric pressure adjustments.
+isostPmod - Factor that will be multiplied with all elevations derived from isostP.
+isostsubm - String specifying an isostatic adjustment method for submergence adjustments.
+isostsubmmod - Factor that will be multiplied with all elevations derived from isostsubm.
 isostsubmunc - Uncertainty [ratio, 0.1 = 10%] for the isostatic submergence adjustment.
+isostsubmmin - Minimum in uniform uncertainty [ratio, 0.1 = 10%] for the isostatic submergence.
+isostsubmmax - Maximum in uniform uncertainty [ratio, 0.1 = 10%] for the isostatic submergence.
 For isostP and iostsubm the following strings can be used:
-ICE6G - Isostatic adjustment using the global ICE6G data (Argus et al. 2014; Peltier et al. 2015).
-ANU2017 - Isostatic adjustment using the data from Lambeck et al. (2017) for North America.
-PD2015 - Isostatic adjustment using the Påsse and Daniels (2015) data for Fennoscandia.
-filename - Name of file with isostatic adjustment data (tv, delv or shoreline, and yr0).
-If a sample has the string '-' for isostP or isostsubm, no isostatic adjustment is carried out.
+  For both isostP and isostsubm, the following strings can be used:
+  ICE7G - Isostatic adjustment using the global ICE7G data (Roy and Peltier 2015, 2017).
+  ICE6G - Isostatic adjustment using the global ICE6G data (Argus et al. 2014; Peltier et al. 2015).
+  ANU2017 - Isostatic adjustment using the data from Lambeck et al. (2017) for North America.
+  PD2015 - Isostatic adjustment using the Påsse and Daniels (2015) data for Fennoscandia.
+  Gowan2021 - Isostatic adjustment using the data from Gowan et al. (2021).
+  filename - Name of file with isostatic adjustment data (tv, delv or shoreline, and yr0).
+  If a sample has the string '-' for isostP or isostsubm, no isostatic adjustment is carried out.
+Vector/matrix input options:
+The following input parameters in groups of two or three contains time vectors or matrices in which
+for example glacErv is associated with glacErv_tv and (potentially) glacErv_tv0. The tv
+vectors/matrices should be in a two columns format in which column 2 contains the start point(s) for
+the period(s) and column 1 contains the end point(s) for the period(d). If using multiple periods
+each line in the input represents one time period.
+glacErv - Glacial erosion rate(s) [mm/ka]. Column vector if using multiple time periods.
+glacErv_tv - Time period(s) in which the glacial erosion rate specified in glacErv is used.
+glacErv_tv0 - Year zero [CE] used for glacErv_tv.
+glacEiv - Glacial erosion step(s) [cm/glac]. Column vector if using multiple time periods.
+glacEiv_tv - Time period(s) in which the glacial erosion step specified in glacEiv is used.
+glacEiv_tv0 - Year zero [CE] used for glacEiv_tv.
+erosionv - Non-glacial erosion rate(s) [mm/ka]. Column vector if using multiple time periods.
+erosionv_tv - Time period(s) in which the non-glacial erosion rate specified in erosionv is used.
+erosionv_tv0 - Year zero [CE] used for erosionv_tv.
+burialdepthv - Burial depth(s) [cm] of the sample. Column vector if using multiple time periods.
+burialdepthv_tv - Time period(s) in which the burial depth specified in erosionv is used.
+burialdepthv_tv0 - Year zero [CE] used for burialdepthv_tv.
+shieldv - Shielding factor(s). Column vector if using multiple time periods.
+shieldv_tv - Time period(s) in which the shielding factor specified in shieldv is used.
+shieldv_tv0 - Year zero [CE] used for shieldv_tv.
+ice_tv - Time period(s) with ice cover (overrides ice cover determined by iceproxy and icevalue).
+ice_tv0 - Year zero [CE] used for ice_tv.
+noice_tv - Ice free time period(s) (overrides ice cover determined by iceproxy/icevalue and ice_tv).
 
 
 glacialE.m SETTINGS:
-In lines 15-73 there are a range of parameters and settings that controls the simulation. Here are
+In lines 15-84 there are a range of parameters and settings that controls the simulation. Here are
 some brief explanations for these settings.
-mt - Max time (years before sampling) for the start of the erosion simulation.
+mt - Max time (years before sampling) for the start of the erosion simulation. This is only used if
+     simt is not included in the input file.
 glacErate - Calculate erosion using a glacial erosion rate?
 glacEstep - Calculate erosion using incremental erosion depth at the end of each ice cover period?
 mc - Monte Carlo iterations for uncertainty estimation.
 nucl1026 - Calculate erosion for combined 10Be + 26Al data?
 plch - Choices and parameters for plotting.
+uncsens - Estimate sensitivity of individual parameters?
+sensclr - Colors for the various parameters if calculating and plotting parameter sensitivities.
 tdv - Vector specifying time points (years before sampling) for which the sample depth and
       uncertainty is estimated and included in output. Time points older than mt are not included.
-
-Fixed parameters for specific time period(s): fixE (lines 51-57)
-    Here specific values can be set for specific time periods for the non-glacial erosion and
-    glacial erosion. The values set here overrides the values set in input or the values to find.
-    Various values for various time periods can be set by using multiple rows in the corresponding
-    time vectors (tv) and parameters. For the glacial erosion parameters, both fixed glacial erosion
-    rates and glacial erosion incremental steps can be set and these are independent of glacErate
-    and glacEstep set above.
-Fixed ice-cover and icefree for specific time period(s): fixice (lines 61-63)
-    Here specific periods with ice cover (fixice.ice) and ice-free periods (fixice.noice) can be set
-    that overrides the ice cover periods and ice-free periods determined by the LR04 values and the
-    optional input deglaciation age.
-
 iceproxy - Name of file with ice value parameters for determination of ice cover period. The default
            data is the LR04 stack of d18O (Lisiecki and Raymo 2005). Other data can be used and the
-           should then be organized in a file with two columns of data where column 1 is a time
+           data should then be organized in a file with two columns of data where column 1 is a time
            vector and column 2 is the iceproxy data.
-iceproxy_startyr - Start year (yr 0) of the iceproxy data.
+iceproxy_startyr - Start year (CE) of the iceproxy data.
 
 Etestv - Vector with erosion values (mm/ka or cm per ice cover period) used to interpolate the best-
          fit erosion yielding the measured cosmogenic nuclide concentration.
@@ -137,9 +168,10 @@ OUTPUT INFORMATION:
 The calculator can plot various data plus saves an output file out-glacialE.txt.
 The output contains the erosion rate/step plus positive and negative uncertainty plus the full
 erosion depth (including glacial and non-glacial erosion) at the time points specified in tdv
-(if <= mt). The maximum glacial erosion (see above) is reported as the central value erosion for
-samples indicating deeper erosion. For samples where the central value and positive uncertainty
-surpass the maximum erosion, the positive uncertainty is set to the maximum value of Etestv. Samples
-with 0 concentration yield '-' in the output.
+(if <= mt). If estimating the sensitivity of parameter uncertainties, the parameter uncertainties
+are included in the output as well. The maximum glacial erosion (see above) is reported as the
+central value erosion for samples indicating deeper erosion. For samples where the central value and
+positive uncertainty surpass the maximum erosion, the positive uncertainty is set to the maximum
+value of Etestv. Samples with 0 concentration yield '-' in the output.
 If all input 10Be concentration/uncertainty are 0/0 no 10Be erosion data will be saved.
 If all input 26Al concentration/uncertainty are 0/0 no 26Al erosion data will be saved.

@@ -10,12 +10,10 @@ function l=rawattenuationlength(pressure,rigiditycutoff)
 
 %
 % Take care of extreme rigidity cutoffs that should really be 0.
-%
 rigiditycutoff = rigiditycutoff .* (rigiditycutoff > 0);
 
-%if (rigiditycutoff < 0)
-%  rigiditycutoff=1;
-%end
+% max rigidity cutoff = 20
+rigiditycutoff(rigiditycutoff>20) = 20;
 
 %
 % Convert pressure (hPa) to atmospheric depth (g/cm^2).

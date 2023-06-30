@@ -35,12 +35,12 @@ Psp10m = bsxfun(@times,Psp10rm,mucal.Psp10'); % spallation 10Be production matri
 Psp26m = bsxfun(@times,Psp26rm,mucal.Psp26'); % spallation 26Al production matrix
 
 % 10Be muon prod
-Pfast10m = interp1(mucal.dz,mucal.Pfast10d,tvzm10,'pchip') .* p(5).*1E-30; % calc Pfast10 prod matr
+Pfast10m = interp1(mucal.dz,mucal.Pfast10d,tvzm10,'pchip') .* p(5).*1E-31; % calc Pfast10 prod matr
 Pneg10m = interp1(mucal.dz,mucal.Pneg10d,tvzm10,'pchip') .* p(4).*1E-3; % calc Pneg10 prod matr
 
 % 26Al muon prod
 Pfast26m = interp1(mucal.dz,mucal.Pfast26d,tvzm26,'pchip') .* p(7).*1E-30; % calc Pfast26 prod matr
-Pneg26m = interp1(mucal.dz,mucal.Pneg26d,tvzm26,'pchip') .* p(6).*1E-3; % calc Pneg26 prod matr
+Pneg26m = interp1(mucal.dz,mucal.Pneg26d,tvzm26,'pchip') .* p(6).*1E-2; % calc Pneg26 prod matr
 
 % full production plus decay
 Pfull10m = Psp10m + Pfast10m + Pneg10m; % full P10 matrix

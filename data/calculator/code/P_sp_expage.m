@@ -1,4 +1,4 @@
-function out = P_sp_expage(h,Rc,s,w,consts,nucl10,nucl26)
+function out = P_sp_expage(h,Rc,s,w,consts,nucl10,nucl26,nucl14)
 
 % Calculates spallation scaling factors as a function of atmospheric pressure h (hPa), cutoff
 % rigidity Rc (GV), solar modulation parameter s (MV), and water content w (0-1).
@@ -6,13 +6,13 @@ function out = P_sp_expage(h,Rc,s,w,consts,nucl10,nucl26)
 % Sato et al. (2008) Analytical Function Approximation (PARMA)
 % Implemented in MATLAB by Nat Lifton, 2013
 % Purdue University, nlifton@purdue.edu
-% modified by Jakob Heyman (jakob.heyman@gu.se) 2016-2019
+% modified by Jakob Heyman (jakob.heyman@gu.se) 2016-2023
 
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 3, as published by the Free Software Foundation (www.fsf.org).
 
 % what version is this?
-ver = '201912';
+ver = '202306';
 
 % make h,Rc,s row vectors
 h = h(:)';
@@ -368,6 +368,14 @@ for a = 1:length(Rc)
             consts.SinxAl26(clipindex:end)).*consts.Natoms26.*1e-27.*3.1536e7;
         NP.P26p(a) = trapz(E,PphiPtot.*consts.SipxAl26).*consts.Natoms26.*1e-27.*3.1536e7; 
 	end
+
+    if nucl14 == 1
+        NP.P14n(a) = (trapz(E(clipindex:end),NPhiGMev(clipindex:end).*...
+            consts.O16nn2pC14(clipindex:end))+ trapz(E(clipindex:end),NPhiGMev(clipindex:end).*...
+            consts.SinxC14(clipindex:end)./2)).*consts.Natoms14.*1e-27.*3.1536e7;
+        NP.P14p(a) = (trapz(E,PphiPtot.*consts.O16pxC14)+ ...
+            trapz(E,PphiPtot.*consts.SipxC14./2)).*consts.Natoms14.*1e-27.*3.1536e7;
+    end;
 	
 %    if nuclide == 3
 %        NP.P3n(a) = (trapz(E(clipindex:end),NPhiGMev(clipindex:end).*...
@@ -405,4 +413,8 @@ end
 if nucl26 == 1
     AlRef = consts.P26nRef + consts.P26pRef;
     out.sp26 = (NP.P26n + NP.P26p)./AlRef;
+end
+if nucl14 == 1
+    CRef = consts.P14nRef + consts.P14pRef;
+    out.sp14 = (NP.P14n + NP.P14p)./CRef;
 end

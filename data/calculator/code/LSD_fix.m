@@ -19,20 +19,21 @@ function out = LSD_fix(lat,lon,age,w,samplingyr,consts)
 % Modified by Brent Goehring and  Nat Lifton -- Purdue University
 % nlifton@purdue.edu, bgoehrin@purdue.edu
 %
-% Modified by Jakob Heyman (jakob.heyman@gu.se) 2015-2019
+% Modified by Jakob Heyman (jakob.heyman@gu.se) 2015-2022
 %
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 3, as published by the Free Software Foundation (www.fsf.org).
 
 % Make the time vector
 % Age Relative to t0=2010
-tv1 = [0:10:50 60:100:50060 51060:1000:2000060 logspace(log10(2001060),7,200)];
+% tv1 = [0:10:50 60:100:2960 3060:200:74860 75060:1000:799060 800060:2000:2000060 1E7];
+tv1 = [consts.tRc consts.tM];
 
 Rc = zeros(1,length(tv1));
 
 % Need solar modulation parameter
 SPhi = zeros(size(tv1)) + consts.SPhiInf; % Solar modulation potential for Sato et al. (2008)
-SPhi(1:120) = consts.SPhi; % Solar modulation potential for Sato et al. (2008)
+SPhi(1:78) = consts.SPhi; % Solar modulation potential for Sato et al. (2008)
 
 % Fix w
 if w < 0;
@@ -41,22 +42,22 @@ else;
     out.w = w;
 end;
 
-% interpolate an M for tv1 > 7000...
-temp_M = interp1(consts.t_M,consts.M,tv1(77:end));
+% interpolate an M for tv1 > 14000...
+temp_M = interp1(consts.tM,consts.M,tv1(92:end));
 
 % catch for negative longitudes before Rc interpolation
-if lon < 0; lon = lon + 360;end;
+if lon < 0; lon = lon + 360; end;
 
 % Make up the Rc vectors.
 
 % Modified to work with new interpolation routines in MATLAB 2012a and later. 09/12
-[loni,lati,tvi] = meshgrid(lon,lat,tv1(1:76));
-Rc(1:76) = interp3(consts.lon_Rc,consts.lat_Rc,consts.t_Rc,consts.TTRc,loni,lati,tvi);
+[loni,lati,tvi] = meshgrid(lon,lat,tv1(1:91));
+Rc(1:91) = interp3(consts.lon_Rc,consts.lat_Rc,consts.tRc,consts.PavonRc,loni,lati,tvi);
 
 % Fit to Trajectory-traced GAD dipole field as f(M/M0), as long-term average.
 dd = [6.89901,-103.241,522.061,-1152.15,1189.18,-448.004;];
 
-Rc(77:end) = temp_M.*(dd(1)*cosd(lat) + ...
+Rc(92:end) = temp_M.*(dd(1)*cosd(lat) + ...
     dd(2)*(cosd(lat)).^2 + ...
     dd(3)*(cosd(lat)).^3 + ...
     dd(4)*(cosd(lat)).^4 + ...
@@ -72,17 +73,19 @@ out.RcEst = (dd(1)*cosd(lat) + ...
     dd(6)*(cosd(lat)).^6);
 
 % adjust tv, tv1, Rc, and SPhi to sampling year
-if samplingyr <= 2010;
+if samplingyr < 2010;
     clipidx = find(tv1 > 2010-samplingyr,1,'first');
     tv = [0 (tv1(clipidx:end)-2010+samplingyr)];
     tv1 = [(tv1-2010+samplingyr) tv1(end)];
     Rc = [Rc Rc(end)];
     SPhi = [SPhi SPhi(end)];
-else; % assume 2010 Rc and SPhi value for all years >2010
+elseif samplingyr > 2010; % assume 2010 Rc and SPhi value for all years >2010
     tv = [0 (tv1+samplingyr-2010)];
     tv1 = tv;
     Rc = [Rc(1) Rc];
     SPhi = [SPhi(1) SPhi];
+elseif samplingyr == 2010;
+    tv = tv1;
 end;
 
 % chop off tv at age

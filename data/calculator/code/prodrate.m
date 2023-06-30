@@ -1,35 +1,42 @@
 function prodrate()
 
-% Function for 10Be and 26Al reference production rate calibration.
-% Calibrate site reference 10Be and/or 26Al production rate using chi-square minimization.
+% Function for 10Be/26Al/14C reference production rate calibration.
 % This is free software: you can use/copy/modify/distribute as long as you keep it free/open.
-% Jakob Heyman - 2015-2018 (jakob.heyman@gu.se)
+% Jakob Heyman - 2015-2023 (jakob.heyman@gu.se)
 
 clear;
 close all;
 tic();
 
 % What version is this?
-ver = '201912';
+ver = '202306';
 
 % do choices here ==================================================================================
-% plotting / cluster test?
-plotting = 1; % plot Pref probability curves (1 = yes)
-Pcluster = 0; % exclude outliers to try to achieve a well-clustered group Pref (1 = yes)
+% plotting?
+plsites = 0; % plot Pref probability curves (1 = yes)
+plfull.plot = 1; % plot Pref for samples + sites + total
+plfull.xmax = 0; % max x value in plot (number of sites) - only used if >0
+plfull.printsvg = 0; % print svg file?
+plfull.printscale = '-S1500,400'; % scale printing - only used if printsvg = 1
 
-% parameters for cluster test / outlier rejection
-chiprob = 0.05; % lower p-value limit for chi-square probability test
-mingroupn = 3; % minimum number of samples in well-clustered group
-maxoutratio = 1/3; % maximum outlier ratio
+% cluster test?
+cl.Pcluster = 1; % exclude outliers to try to achieve a well-clustered group Pref (1 = yes)
+% parameters for cluster test / outlier rejection - only used when cl.Pcluster = 1
+cl.chiprob = 0.05; % lower p-value limit for chi-square probability test
+cl.mingroupn = 3; % minimum number of samples in well-clustered group
+cl.maxoutratio = 1/3; % maximum outlier ratio
+% minimum uncertainty ratio used in cluster analysis only (not weighted mean production rate
+% calculation) to not punish samples with low uncertainties
+cl.minuncratio = 0.05;
 % ==================================================================================================
 
 % fix input ========================================================================================
 % variable names for input with variable names in first line
 varnames = {'sample','Pflag','std10','std26','isostP','isostsubm','site','lat','long','elv',...
-    'thick','dens','shield','erosion','N10','N10unc','N26','N26unc','samplingyr','pressure',...
-    'calage','calageunc'};
+    'thick','dens','shield','erosion','N10','N10unc','N26','N26unc','N14','N14unc','samplingyr',...
+    'pressure','calage','calageunc','isostPmod','isostsubmmod'};
 vartypes = {'%s','%s','%s','%s','%s','%s','%s','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n',...
-    '%n','%n','%n','%n','%n'};
+    '%n','%n','%n','%n','%n','%n','%n','%n','%n'};
 % read input file
 fid = fopen('input.txt');
 varsin = strsplit(fgetl(fid)); % read first line
@@ -48,7 +55,7 @@ else;
     fprintf(1,'ERROR! Something is wrong with the input\n');
     return;
 end;
-indata = textscan(fid,typestr,'CommentStyle','%'); % scan data
+indata = textscan(fid,typestr,'CommentStyle','%','TreatAsEmpty','-'); % scan data
 for i = 1:numel(varsin); % fix variables
     samplein.(varsin{i}) = indata{i};
 end;
@@ -62,6 +69,7 @@ load consts_expage;
 % decay constant
 vars.l10 = consts.l10; l10unc = consts.l10unc;
 vars.l26 = consts.l26; l26unc = consts.l26unc;
+vars.l14 = consts.l14; l14unc = consts.l14unc;
 
 % if there is no site in input: assume all samples are from one site
 if isfield(samplein,'site') == 0; samplein.site(1:numel(samplein.sample),1) = {'noname'}; end;
@@ -69,13 +77,23 @@ if isfield(samplein,'site') == 0; samplein.site(1:numel(samplein.sample),1) = {'
 % if there is no erosion in input: assume zero erosion
 if isfield(samplein,'erosion') == 0; samplein.erosion(1:numel(samplein.sample),1) = 0; end;
 
-% if there is no N10 or N26 in input: fill with 0
+% if there is no N10/N26/N14 in input: fill with 0
 if isfield(samplein,'N10') == 0; samplein.N10(1:numel(samplein.sample),1) = 0; end;
 if isfield(samplein,'N10unc') == 0; samplein.N10unc(1:numel(samplein.sample),1) = 0; end;
 if isfield(samplein,'std10') == 0; samplein.std10(1:numel(samplein.sample),1) = {'0'}; end;
 if isfield(samplein,'N26') == 0; samplein.N26(1:numel(samplein.sample),1) = 0; end;
 if isfield(samplein,'N26unc') == 0; samplein.N26unc(1:numel(samplein.sample),1) = 0; end;
 if isfield(samplein,'std26') == 0; samplein.std26(1:numel(samplein.sample),1) = {'0'}; end;
+if isfield(samplein,'N14') == 0; samplein.N14(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'N14unc') == 0; samplein.N14unc(1:numel(samplein.sample),1) = 0; end;
+
+% if there is NaN in N10/N26/N14: replace with 0
+samplein.N10(isnan(samplein.N10)) = 0;
+samplein.N10unc(isnan(samplein.N10unc)) = 0;
+samplein.N26(isnan(samplein.N26)) = 0;
+samplein.N26unc(isnan(samplein.N26unc)) = 0;
+samplein.N14(isnan(samplein.N14)) = 0;
+samplein.N14unc(isnan(samplein.N14unc)) = 0;
 
 % full number of samples
 fulln = numel(samplein.sample);
@@ -130,24 +148,39 @@ samplein.thickSF1(1:fulln,1) = 1;
 samplein.thickSF1(thick_v) = (vars.Lsp1./(samplein.dens(thick_v).*samplein.thick(thick_v))).*...
     (1 - exp(((-1.*samplein.dens(thick_v).*samplein.thick(thick_v))./vars.Lsp1)));
 
+% declare Pfull
+Pfull10.Psite = []; Pfull10.Psiteunc = []; Pfull10.PsiteOK = [];
+Pfull26.Psite = []; Pfull26.Psiteunc = []; Pfull26.PsiteOK = [];
+Pfull14.Psite = []; Pfull14.Psiteunc = []; Pfull14.PsiteOK = [];
+Pfull10.P = []; Pfull10.Punc = []; Pfull10.PidxOK = []; Pfull10.site = {};
+Pfull26.P = []; Pfull26.Punc = []; Pfull26.PidxOK = []; Pfull26.site = {};
+Pfull14.P = []; Pfull14.Punc = []; Pfull14.PidxOK = []; Pfull14.site = {};
+
 % fix for output
 output(1,1) = {'sample'};
 col.sample = 1;
 if sum(samplein.N10+samplein.N10unc) > 0;
     output(1,2:3) = {'P10(at/g/yr)','P10unc(at/g/yr)'};
-    col.P10 = col.sample+1; col.P10unc = col.P10+1;
-    if Pcluster == 1;
+    col.P10 = size(output,2)-1; col.P10unc = size(output,2);
+    if cl.Pcluster == 1;
         output(1,end+1) = {'P10-included?'};
-        col.P10incl = col.P10unc+1;
+        col.P10incl = size(output,2);
     end;
 end;
 if sum(samplein.N26+samplein.N26unc) > 0;
-    output(1,max(cell2mat(struct2cell(col)))+1:max(cell2mat(struct2cell(col)))+2) = ...
-        {'P26(at/g/yr)','P26unc(at/g/yr)'};
-    col.P26 = max(cell2mat(struct2cell(col)))+1; col.P26unc = col.P26+1;
-    if Pcluster == 1;
+    output(1,end+1:end+2) = {'P26(at/g/yr)','P26unc(at/g/yr)'};
+    col.P26 = size(output,2)-1; col.P26unc = size(output,2);
+    if cl.Pcluster == 1;
         output(1,end+1) = {'P26-included?'};
-        col.P26incl = col.P26unc+1;
+        col.P26incl = size(output,2);
+    end;
+end;
+if sum(samplein.N14+samplein.N14unc) > 0;
+    output(1,end+1:end+2) = {'P14(at/g/yr)','P14unc(at/g/yr)'};
+    col.P14 = size(output,2)-1; col.P14unc = size(output,2);
+    if cl.Pcluster == 1;
+        output(1,end+1) = {'P14-included?'};
+        col.P14incl = size(output,2);
     end;
 end;
 
@@ -156,188 +189,105 @@ outputsite(1,1) = {'site'};
 scol.site = 1;
 if sum(samplein.N10+samplein.N10unc) > 0;
     outputsite(1,2:5) = {'P10(at/g/yr)','P10unc(at/g/yr)','P10-χ2R','P10-p-value'};
-    scol.P10 = scol.site+1; scol.P10unc = scol.P10+1;
-    scol.chi10 = scol.P10unc+1; scol.pvalue10 = scol.chi10+1;
-    if Pcluster == 1;
-        outputsite(1,scol.pvalue10+1) = {'P10-included?'};
-        scol.P10incl = scol.pvalue10+1;
+    scol.P10 = size(outputsite,2)-3; scol.P10unc = size(outputsite,2)-2;
+    scol.chi10 = size(outputsite,2)-1; scol.pvalue10 = size(outputsite,2);
+    if cl.Pcluster == 1;
+        outputsite(1,end+1) = {'P10-included?'};
+        scol.P10incl = size(outputsite,2);
     end;
 end;
 if sum(samplein.N26+samplein.N26unc) > 0;
-    scolmax = max(cell2mat(struct2cell(scol)));
-    outputsite(1,scolmax+1:scolmax+4) = {'P26(at/g/yr)','P26unc(at/g/yr)','P26-χ2R','P26-p-value'};
-    scol.P26 = scolmax+1; scol.P26unc = scol.P26+1;
-    scol.chi26 = scol.P26unc+1; scol.pvalue26 = scol.chi26+1;
-    if Pcluster == 1;
-        outputsite(1,scol.pvalue26+1) = {'P26-included?'};
-        scol.P26incl = scol.pvalue26+1;
+    outputsite(1,end+1:end+4) = {'P26(at/g/yr)','P26unc(at/g/yr)','P26-χ2R','P26-p-value'};
+    scol.P26 = size(outputsite,2)-3; scol.P26unc = size(outputsite,2)-2;
+    scol.chi26 = size(outputsite,2)-1; scol.pvalue26 = size(outputsite,2);
+    if cl.Pcluster == 1;
+        outputsite(1,end+1) = {'P26-included?'};
+        scol.P26incl = size(outputsite,2);
     end;
 end;
+if sum(samplein.N14+samplein.N14unc) > 0;
+    outputsite(1,end+1:end+4) = {'P14(at/g/yr)','P14unc(at/g/yr)','P14-χ2R','P14-p-value'};
+    scol.P14 = size(outputsite,2)-3; scol.P14unc = size(outputsite,2)-2;
+    scol.chi14 = size(outputsite,2)-1; scol.pvalue14 = size(outputsite,2);
+    if cl.Pcluster == 1;
+        outputsite(1,end+1) = {'P14-included?'};
+        scol.P14incl = size(outputsite,2);
+    end;
+end;
+
+% fix for total P output
+outputfull = {'P-total','P(at/g/yr)','Punc(at/g/yr)'};
 
 % loop for single sites
 while numel(samplein.site) > 0;
     % display site name
     fprintf(1,'\nSite: %s\n',samplein.site{1});
     
-    % pick out all samples with same sampleID
+    % pick out all samples from the same site
     siteidx = find(strcmp(samplein.site,samplein.site(1)));
-    
-    % pick out variables
-    sitein.sample = samplein.sample(siteidx);
-    sitein.lat = samplein.lat(siteidx);
-    sitein.long = samplein.long(siteidx);
-    sitein.thick = samplein.thick(siteidx);
-    sitein.dens = samplein.dens(siteidx);
-    sitein.shield = samplein.shield(siteidx);
-    sitein.erosion = samplein.erosion(siteidx);
-    sitein.N10 = samplein.N10(siteidx);
-    sitein.N10unc = samplein.N10unc(siteidx);
-    sitein.N26 = samplein.N26(siteidx);
-    sitein.N26unc = samplein.N26unc(siteidx);
-    sitein.samplingyr = samplein.samplingyr(siteidx);
-    sitein.calage = samplein.calage(siteidx);
-    sitein.calageunc = samplein.calageunc(siteidx);
-    sitein.pressure = samplein.pressure(siteidx);
-    sitein.thickSF1 = samplein.thickSF1(siteidx);
-    sitein.rown = samplein.rown(siteidx);
-    if isfield(samplein,'isostP');
-        sitein.isostP = samplein.isostP(siteidx);
-        sitein.elv = samplein.elv(siteidx);
-        sitein.Pflag = samplein.Pflag(siteidx);
-    end;
-    if isfield(samplein,'isostsubm');
-        sitein.isostsubm = samplein.isostsubm(siteidx);
-        sitein.elv = samplein.elv(siteidx);
+
+    % pick out sample data
+    samplefields = fieldnames(samplein);
+    for j = 1:numel(samplefields);
+        sitein.(samplefields{j}) = samplein.(samplefields{j})(siteidx);
     end;
     
     % calculate sample Prefs
-    [output,P10,P26] = get_sample_Prefs(sitein,vars,output,col,consts);
-    
-    % calculate site Pref for 10Be
-    if numel(P10.Prefv) >= mingroupn || (Pcluster==0 && numel(P10.Prefv)>1);
-        % calculate site Pref
-        siteP10 = get_site_Pref(P10);
-        
-        % if doing cluster analysis
-        if Pcluster == 1;
-            % fix variable cl for function get_cluster
-            cl.maxoutratio = maxoutratio; cl.mingroupn = mingroupn; cl.chiprob = chiprob;
-            
-            % find clustered Pref by removing outliers
-            siteP10 = get_cluster(P10,siteP10,cl);
-            
-            % mark OK samples in output
-            output(siteP10.OKrow+1,col.P10incl) = {'X'};
-        end;
-    end;
-    
-    % calculate site Pref for 26Al
-    if numel(P26.Prefv) >= mingroupn || (Pcluster==0 && numel(P26.Prefv)>1);
-        % calculate site Pref
-        siteP26 = get_site_Pref(P26);
-        
-        % if doing cluster analysis
-        if Pcluster == 1;
-            % fix variable cl for function get_cluster
-            cl.maxoutratio = maxoutratio; cl.mingroupn = mingroupn; cl.chiprob = chiprob;
-            
-            % find clustered Pref by removing outliers
-            siteP26 = get_cluster(P26,siteP26,cl);
-            
-            % mark OK samples in output
-            output(siteP26.OKrow+1,col.P26incl) = {'X'};
-        end;
-    end;
-    
-    % fill outputsite and plot
-    if numel(P10.Prefv)+numel(P26.Prefv) > 0;
+    [output,P10,P26,P14] = get_sample_Prefs(sitein,vars,output,col,consts);
+
+    % fix for site calculations
+    if numel(P10.Prefv)+numel(P26.Prefv)+numel(P14.Prefv) > 0;
         siterow = size(outputsite,1)+1;
-        outputsite(siterow,scol.site) = samplein.site(1);
+        outputsite(siterow,scol.site) = sitein.site(1);
     end;
-    if exist('siteP10');
-        outputsite(siterow,scol.P10) = {num2str(siteP10.Pref,'%.3f')};
-        outputsite(siterow,scol.P10unc) = {num2str(siteP10.Prefunc,'%.3f')};
-        outputsite(siterow,scol.chi10) = {num2str(siteP10.rchisq,'%.3f')};
-        outputsite(siterow,scol.pvalue10) = {num2str(siteP10.Pvalue,'%.3f')};
-        % mark OK Pref in output
-        if Pcluster==1 && siteP10.Pvalue>=chiprob && numel(siteP10.OKrow)>=mingroupn;
-            outputsite(siterow,scol.P10incl) = {'X'};
-        end;
-        % display site Pref
-        fprintf(1,'Site Pref10 = %s ± %s at/g/yr',outputsite{siterow,scol.P10},...
-            outputsite{siterow,scol.P10unc});
-        if Pcluster==1 && numel(siteP10.OKrow)<numel(P10.Prow);
-            fprintf(1,'  (%.0f outlier',numel(P10.Prow)-numel(siteP10.OKrow));
-            if numel(P10.Prow)-numel(siteP10.OKrow) > 1; fprintf(1,'s)'); else; fprintf(1,')'); end;
-        end;
-        fprintf(1,'\nR-chi2 = %s    P-value = %s\n',outputsite{siterow,scol.chi10},...
-            outputsite{siterow,scol.pvalue10});
-        % do plotting here...
-        if plotting == 1;
-            if isfield(siteP10,'include') == 0; siteP10.include = (1:1:numel(P10.Prefv)); end;
-            plot_Pref(P10,siteP10,10,samplein.site{1});
-        end;
+
+    if numel(P10.Prefv) >= 1;
+        [output,outputsite,Pfull10] = fix_and_calc_site_Pref(output,outputsite,siterow,...
+            P10,Pfull10,cl,col,scol,plsites,sitein,'10');
     end;
-    if exist('siteP26');
-        outputsite(siterow,scol.P26) = {num2str(siteP26.Pref,'%.3f')};
-        outputsite(siterow,scol.P26unc) = {num2str(siteP26.Prefunc,'%.3f')};
-        outputsite(siterow,scol.chi26) = {num2str(siteP26.rchisq,'%.3f')};
-        outputsite(siterow,scol.pvalue26) = {num2str(siteP26.Pvalue,'%.3f')};
-        % mark OK Pref in output
-        if Pcluster==1 && siteP26.Pvalue>=chiprob && numel(siteP26.OKrow)>=mingroupn;
-            outputsite(siterow,scol.P26incl) = {'X'};
-        end;
-        % display site Pref
-        fprintf(1,'Site Pref26 = %s ± %s at/g/yr',outputsite{siterow,scol.P26},...
-            outputsite{siterow,scol.P26unc});
-        if Pcluster==1 && numel(siteP26.OKrow)<numel(P26.Prow);
-            fprintf(1,'  (%.0f outlier',numel(P26.Prow)-numel(siteP26.OKrow));
-            if numel(P26.Prow)-numel(siteP26.OKrow) > 1; fprintf(1,'s)'); else; fprintf(1,')'); end;
-        end;
-        fprintf(1,'\nR-chi2 = %s    P-value = %s\n',outputsite{siterow,scol.chi26},...
-            outputsite{siterow,scol.pvalue26});
-        % do plotting here...
-        if plotting == 1;
-            if isfield(siteP26,'include') == 0; siteP26.include = (1:1:numel(P26.Prefv)); end;
-            plot_Pref(P26,siteP26,26,samplein.site{1});
-        end;
+    if numel(P26.Prefv) >= 1;
+        [output,outputsite,Pfull26] = fix_and_calc_site_Pref(output,outputsite,siterow,...
+            P26,Pfull26,cl,col,scol,plsites,sitein,'26');
     end;
-    
+    if numel(P14.Prefv) >= 1;
+        [output,outputsite,Pfull14] = fix_and_calc_site_Pref(output,outputsite,siterow,...
+            P14,Pfull14,cl,col,scol,plsites,sitein,'14');
+    end;
+
     % remove calculated samples
-    samplein.site(siteidx) = [];
-    samplein.sample(siteidx) = [];
-    samplein.lat(siteidx) = [];
-    samplein.long(siteidx) = [];
-    samplein.thick(siteidx) = [];
-    samplein.dens(siteidx) = [];
-    samplein.shield(siteidx) = [];
-    samplein.erosion(siteidx) = [];
-    samplein.N10(siteidx) = [];
-    samplein.N10unc(siteidx) = [];
-    samplein.N26(siteidx) = [];
-    samplein.N26unc(siteidx) = [];
-    samplein.samplingyr(siteidx) = [];
-    samplein.calage(siteidx) = [];
-    samplein.calageunc(siteidx) = [];
-    samplein.pressure(siteidx) = [];
-    samplein.thickSF1(siteidx) = [];
-    samplein.rown(siteidx) = [];
-    samplein.elv(siteidx) = [];
-    samplein.Pflag(siteidx) = [];
-    if isfield(samplein,'isostP');
-        samplein.isostP(siteidx) = [];
-    end;
-    if isfield(samplein,'isostsubm');
-        samplein.isostsubm(siteidx) = [];
+    for j = 1:numel(samplefields);
+        samplein.(samplefields{j})(siteidx) = [];
     end;
     
     % clear variables
-    clear sitein; clear P10; clear P26; clear siteP10; clear siteP26;
+    clear sitein; clear P10; clear P26; clear P14; clear siteP10; clear siteP26; clear siteP14;
 end;
+
+% calculate total average
+if numel(Pfull10.Psite) > 1 || numel(Pfull26.Psite) > 1 || numel(Pfull14.Psite) > 1;
+    fprintf(1,'\nTotal Pref\n');
+end;
+if numel(Pfull10.Psite) > 1;
+    [outputfull,Pfull10] = get_total_P(outputfull,Pfull10,'10');
+end;
+if numel(Pfull26.Psite) > 1;
+    [outputfull,Pfull26] = get_total_P(outputfull,Pfull26,'26');
+end;
+if numel(Pfull14.Psite) > 1;
+    [outputfull,Pfull14] = get_total_P(outputfull,Pfull14,'14');
+end;
+
+% add line break
+fprintf(1,'\n');
 
 % display plots
 plotv = findobj('type','figure');
 for i = 1:numel(plotv); figure(plotv(i)); end;
+
+% plot sample + site + global P
+if numel(Pfull10.Psite) > 1 && plfull.plot == 1; plot_fullP(Pfull10,plfull,10); end;
+if numel(Pfull26.Psite) > 1 && plfull.plot == 1; plot_fullP(Pfull26,plfull,26); end;
+if numel(Pfull14.Psite) > 1 && plfull.plot == 1; plot_fullP(Pfull14,plfull,14); end;
 
 % fix and save output ============================
 if size(output,1) > 1;
@@ -372,8 +322,15 @@ if size(output,1) > 1;
         fprintf(out,outstr,output{i,:});
     end;
     if size(outputsite,1) > 1;
+        fprintf(out,'\n');
         for i = 1:size(outputsite,1);
             fprintf(out,outstr2,outputsite{i,:});
+        end;
+    end;
+    if size(outputfull,1) > 1;
+        fprintf(out,'\n');
+        for i = 1:size(outputfull,1);
+            fprintf(out,'%s\t%s\t%s\n',outputfull{i,:});
         end;
     end;
     fclose(out);
@@ -386,72 +343,51 @@ clear;
 
 
 % subfunction get_sample_Prefs =====================================================================
-function [output,P10,P26] = get_sample_Prefs(sitein,vars,output,col,consts);
-    % number of 10Be and 26Al samples
-    num10 = 0;
-    num26 = 0;
+function [output,P10,P26,P14] = get_sample_Prefs(sitein,vars,output,col,consts);
+    % number of 10Be/26Al/14C samples
+    num10 = 0; num26 = 0; num14 = 0;
     
     % declare Pref and Prow matrices
     P10.Prefv = []; P10.Puncv = []; P10.Prow = [];
     P26.Prefv = []; P26.Puncv = []; P26.Prow = [];
+    P14.Prefv = []; P14.Puncv = []; P14.Prow = [];
     
     for i = 1:numel(sitein.sample);
-        % pick out single sample data
-        sample.sample = sitein.sample{i};
-        sample.lat = sitein.lat(i);
-        sample.long = sitein.long(i);
-        sample.thick = sitein.thick(i);
-        sample.dens = sitein.dens(i);
-        sample.shield = sitein.shield(i);
-        sample.erosion = sitein.erosion(i);
-        sample.N10 = sitein.N10(i);
-        sample.N10unc = sitein.N10unc(i);
-        sample.N26 = sitein.N26(i);
-        sample.N26unc = sitein.N26unc(i);
-        sample.samplingyr = sitein.samplingyr(i);
-        sample.calage = sitein.calage(i);
-        sample.calageunc = sitein.calageunc(i);
-        sample.pressure = sitein.pressure(i);
-        sample.thickSF1 = sitein.thickSF1(i);
-        sample.rown = sitein.rown(i);
-        if isfield(sitein,'isostP');
-            sample.isostP = sitein.isostP{i};
-            sample.elv = sitein.elv(i);
-            sample.Pflag = sitein.Pflag{i};
-            if strcmp(sample.isostP,'-') || strcmp(sample.Pflag,'pre');
-                sample = rmfield(sample,'isostP');
+        % pick out sample data
+        samplefields = fieldnames(sitein);
+        for j = 1:numel(samplefields);
+            sample.(samplefields{j}) = sitein.(samplefields{j})(i);
+            % remove fields with input '-' or numeric fields with NaN input
+            if strcmp(sample.(samplefields{j}),'-') || ...
+                    (isnumeric(sample.(samplefields{j})) && isnan(sample.(samplefields{j})));
+                sample = rmfield(sample,samplefields{j});
             end;
         end;
-        if isfield(sitein,'isostsubm');
-            sample.isostsubm = sitein.isostsubm{i};
-            sample.elv = sitein.elv(i);
-            if strcmp(sample.isostsubm,'-'); sample = rmfield(sample,'isostsubm'); end;
+        % remove potential isostatic adjustment if having atmospheric pressure as input
+        if isfield(sample,'isostP') && strcmp(sample.Pflag,'pre');
+            sample = rmfield(sample,'isostP');
         end;
         
         % write sample name to output
         output(sample.rown+1,1) = sample.sample;
         
-        % Set nucl and mt to 0 for both 10/26 and check if there is N10/N26
-        nucl10 = 0; nucl26 = 0; mt10 = 0; mt26 = 0;
+        % Set nucl and mt to 0 for 10/26/14 and check if there is N10/N26/N14
+        nucl10 = 0; nucl26 = 0; nucl14 = 0; mt10 = 0; mt26 = 0; mt14 = 0;
         if (sample.N10 + sample.N10unc) > 0; nucl10 = 1; num10 = num10 + 1; end;
         if (sample.N26 + sample.N26unc) > 0; nucl26 = 1; num26 = num26 + 1; end;
+        if (sample.N14 + sample.N14unc) > 0; nucl14 = 1; num14 = num14 + 1; end;
         
-        if nucl10 + nucl26 == 0;
+        if nucl10 + nucl26 + nucl14 == 0;
             continue;
         end;
         
         % Pref for simple age estimates
         Pref10 = consts.Pref10;
         Pref26 = consts.Pref26;
-        
-        % change Pref to isostatic calibration values if using isostatic adjustment
-        if isfield(sample,'isostP');
-            Pref10 = consts.Pref10iso;
-            Pref26 = consts.Pref26iso;
-        end;
+        Pref14 = consts.Pref14;
         
         % display sample name
-        fprintf(1,'%.0f. %s',i,sample.sample);
+        fprintf(1,'%.0f. %s',i,sample.sample{1});
         
         % Find P scaling factor according to Stone/Lal
         P_St_SF = stone2000(sample.lat,sample.pressure,1) * sample.thickSF1 * sample.shield;
@@ -460,17 +396,20 @@ function [output,P10,P26] = get_sample_Prefs(sitein,vars,output,col,consts);
         if nucl10 == 1;
             [tsimple10,mt10] = get_mt(sample,Pref10,P_St_SF,vars.l10,vars.Lsp1,sample.N10);
         end;
-        
         % if 26Al measured: calculate tsimple for case with erosion
         if nucl26 == 1;
             [tsimple26,mt26] = get_mt(sample,Pref26,P_St_SF,vars.l26,vars.Lsp1,sample.N26);
+        end;
+        % if 14C measured: calculate tsimple for case with erosion
+        if nucl14 == 1;
+            [tsimple14,mt14] = get_mt(sample,Pref14,P_St_SF,vars.l14,vars.Lsp1,sample.N14);
         end;
         
         % use calibration age for scaling
         mt = sample.calage;
         
         % Age Relative to t0=2010 - LSD tv from LSDfix
-        % tv = [0:10:50 60:100:50060 51060:1000:2000060 logspace(log10(2001060),7,200)];
+        % tv = [0:10:50 60:100:2960 3060:200:74860 75060:1000:799060 800060:2000:2000060 1E7];
         
         % Fix tv, Rc, RcEst, SPhi, and w for sp and mu prod rate scaling
         LSDfix = LSD_fix(sample.lat,sample.long,mt,-1,sample.samplingyr,consts);
@@ -480,10 +419,13 @@ function [output,P10,P26] = get_sample_Prefs(sitein,vars,output,col,consts);
         
         % fix submergence vectors if using isostatic adjustment
         if isfield(sample,'isostsubm');
-            sample.elv = isost_elv(sample.isostsubm,sample);
-            sample.overwater = (sample.elv >= 0);
-            sample.underwater = (sample.elv < 0);
-            sample.waterdepth = -sample.elv .* sample.underwater .* 1E2; % cm (dens assumed to be 1)
+            sample.elvv = isost_elv(sample.isostsubm{1},sample);
+            if isfield(sample,'isostsubmmod');
+                sample.elvv = (sample.elvv - sample.elv) .* sample.isostsubmmod + sample.elv;
+            end;
+            sample.overwater = (sample.elvv >= 0);
+            sample.underwater = (sample.elvv < 0);
+            sample.waterdepth = -sample.elvv .* sample.underwater .* 1E2; % cm (assumed density: 1)
             if sum(sample.underwater) == 0;
                 sample = rmfield(sample,'isostsubm');
             end;
@@ -492,33 +434,45 @@ function [output,P10,P26] = get_sample_Prefs(sitein,vars,output,col,consts);
         % Production from muons
         if sample.erosion <= 0 && isfield(sample,'isostsubm') == 0;
             Pmu = P_mu_expage(sample.thick.*sample.dens./2,sample.pressure,LSDfix.RcEst,...
-                consts.SPhiInf,nucl10,nucl26,consts,'no');
+                consts.SPhiInf,nucl10,nucl26,nucl14,consts,'no');
             if nucl10 == 1; sample.mu10 = Pmu.mu10 .* sample.shield; end;
             if nucl26 == 1; sample.mu26 = Pmu.mu26 .* sample.shield; end;
+            if nucl14 == 1; sample.mu14 = Pmu.mu14 .* sample.shield; end;
         else;
             tv_z = (sample.tv.*sample.erosion + sample.thick./2) .* sample.dens; % T-d vect (g/cm^2)
             if nucl10 == 1;
-                sample.mu10 = get_PmuE(sample,tv_z,tsimple10,LSDfix.RcEst,consts,1,0);
+                sample.mu10 = get_PmuE(sample,tv_z,tsimple10,LSDfix.RcEst,consts,1,0,0);
             end;
             if nucl26 == 1;
-                sample.mu26 = get_PmuE(sample,tv_z,tsimple26,LSDfix.RcEst,consts,0,1);
+                sample.mu26 = get_PmuE(sample,tv_z,tsimple26,LSDfix.RcEst,consts,0,1,0);
+            end;
+            if nucl14 == 1;
+                sample.mu14 = get_PmuE(sample,tv_z,tsimple14,LSDfix.RcEst,consts,0,0,1);
             end;
         end;
         
         % fix atmospheric pressure if using isostatic adjustment
         if isfield(sample,'isostP');
             % calculate elevation development
-            sample.elvv = isost_elv(sample.isostP,sample);
+            sample.elvv = isost_elv(sample.isostP{1},sample);
+            if isfield(sample,'isostPmod') && sample.isostPmod>0;
+                sample.elvv = (sample.elvv - sample.elv) .* sample.isostPmod + sample.elv;
+            end;
             % calculate atmospheric pressure
             if strcmp(sample.Pflag,'std');
                 sample.pressure = ERA40atm(sample.lat,sample.long,sample.elvv);
             elseif strcmp(sample.Pflag,'ant');
                 sample.pressure = antatm(sample.elvv);
             end;
+            % estimate muogenic production
+            if numel(sample.pressure) > 1 && min(sample.pressure)<max(sample.pressure);
+                sample = get_Pmu_isost(sample,LSDfix.RcEst,consts,nucl10,nucl26,nucl14);
+            end;
         end;
         
         % spallation production scaling
-        Psp = P_sp_expage(sample.pressure,LSDfix.Rc,LSDfix.SPhi,LSDfix.w,consts,nucl10,nucl26);
+        sample.Psp = P_sp_expage(sample.pressure,LSDfix.Rc,LSDfix.SPhi,LSDfix.w,consts,nucl10,...
+            nucl26,nucl14);
         
         % interpolate Lsp using CRONUScalc method (Sato 2008; Marrero et al. 2016)
         sample.Lsp = rawattenuationlength(sample.pressure,LSDfix.Rc);
@@ -539,59 +493,16 @@ function [output,P10,P26] = get_sample_Prefs(sitein,vars,output,col,consts);
             sample.zdepth = sample.zdepth + sample.waterdepth;
             sample.dpfs = exp(-sample.zdepth./sample.Lsp);
         end;
-        
+
+        % fix and calculate Pref
         if nucl10 == 1;
-            % various parameters
-            sample.dcf = exp(-sample.tv.*vars.l10);
-            sample.N = sample.N10; sample.Nunc = sample.N10unc;
-            sample.l = vars.l10;
-            sample.sp = Psp.sp10;
-            sample.mu = sample.mu10;
-            
-            % get sample Pref
-            [Prefi,Prefiunc,Prefiuncint] = Pref_calc(sample,'10');
-            
-            % fill output
-            output(sample.rown+1,col.P10:col.P10unc) = {num2str(Prefi,'%.3f'),...
-                num2str(Prefiunc,'%.3f')};
-            
-            % display Pref
-            fprintf(1,' \tP10 = %s ± %s at/g/yr',output{sample.rown+1,col.P10},...
-                output{sample.rown+1,col.P10unc});
-            
-            % fill Pref vector for uncertainty estimation, plotting, and cluster analysis
-            P10.Prefv(num10) = Prefi;
-            P10.Puncv(num10) = Prefiuncint;
-            P10.Prow(num10) = sample.rown; % input row number
-            P10.calage(num10) = sample.calage;
-            P10.calageunc(num10) = sample.calageunc;
+            [output,P10] = fix_and_calc_Pref(output,sample,vars,col,P10,num10,'10');
         end;
-        
         if nucl26 == 1;
-            % various parameters
-            sample.dcf = exp(-sample.tv.*vars.l26);
-            sample.N = sample.N26; sample.Nunc = sample.N26unc;
-            sample.l = vars.l26;
-            sample.sp = Psp.sp26;
-            sample.mu = sample.mu26;
-            
-            % get sample Pref
-            [Prefi,Prefiunc,Prefiuncint] = Pref_calc(sample,'26');
-            
-            % fill output
-            output(sample.rown+1,col.P26:col.P26unc) = {num2str(Prefi,'%.3f'),...
-                num2str(Prefiunc,'%.3f')};
-            
-            % display Pref
-            fprintf(1,' \tP26 = %s ± %s at/g/yr',output{sample.rown+1,col.P26},...
-                output{sample.rown+1,col.P26unc});
-            
-            % fill Pref vector for uncertainty estimation, plotting, and cluster analysis
-            P26.Prefv(num26) = Prefi;
-            P26.Puncv(num26) = Prefiuncint;
-            P26.Prow(num26) = sample.rown; % input row number
-            P26.calage(num26) = sample.calage;
-            P26.calageunc(num26) = sample.calageunc;
+            [output,P26] = fix_and_calc_Pref(output,sample,vars,col,P26,num26,'26');
+        end;
+        if nucl14 == 1;
+            [output,P14] = fix_and_calc_Pref(output,sample,vars,col,P14,num14,'14');
         end;
         
         fprintf(1,'\n');
@@ -622,7 +533,7 @@ function [tsimple,mt] = get_mt(sample,Pref,P_St_SF,l,Lsp1,N);
 
 
 % subfunction get_PmuE =============================================================================
-function out = get_PmuE(sample,tv_z,tsimple,RcEst,consts,nucl10,nucl26);
+function out = get_PmuE(sample,tv_z,tsimple,RcEst,consts,nucl10,nucl26,nucl14);
     if sample.erosion > 0;
         agez = sample.erosion .* tsimple .* sample.dens; % shielding depth at t simple
         agezv = [0 25 50 75 125 250]; % shielding depth break values for mu_z points (5-10)
@@ -645,11 +556,70 @@ function out = get_PmuE(sample,tv_z,tsimple,RcEst,consts,nucl10,nucl26);
             mu_z(end)),5);
         tv_z = tv_z + sample.waterdepth;
     end;
-    Pmu_d = P_mu_expage(mu_z,sample.pressure,RcEst,consts.SPhiInf,nucl10,nucl26,consts,'no');
-    if nucl10 == 1; Pmud = Pmu_d.mu10; elseif nucl26 == 1; Pmud = Pmu_d.mu26; end;
+    Pmu_d = P_mu_expage(mu_z,sample.pressure,RcEst,consts.SPhiInf,nucl10,nucl26,nucl14,consts,'no');
+    if nucl10 == 1; Pmud = Pmu_d.mu10;
+    elseif nucl26 == 1; Pmud = Pmu_d.mu26;
+    elseif nucl14 == 1; Pmud = Pmu_d.mu14; end;
     out = interp1(mu_z,Pmud,tv_z,'pchip') .* sample.shield; % P_mu
     out(isnan(out)) = out(end); % fix for nan issue...
 % end subfunction get_PmuE =========================================================================
+
+
+% subfunction get_Pmu_isost ========================================================================
+function sample = get_Pmu_isost(sample,RcEst,consts,nucl10,nucl26,nucl14);
+    % calculate Pmu at 4 points from min to max atmospheric pressure
+    atmv = linspace(min(sample.pressure),max(sample.pressure),4);
+    for j = 1:numel(atmv);
+        Pmu_isost = P_mu_expage(sample.thick.*sample.dens./2,atmv(j),RcEst,consts.SPhiInf,nucl10,...
+            nucl26,nucl14,consts,'no');
+        if nucl10 == 1; Pmu_isost10(j) = Pmu_isost.mu10; end;
+        if nucl26 == 1; Pmu_isost26(j) = Pmu_isost.mu26; end;
+        if nucl14 == 1; Pmu_isost14(j) = Pmu_isost.mu14; end;
+    end;
+    % interpret Pmu based on sample pressure and multiply
+    if nucl10 == 1;
+        Pmu_atm10 = interp1(atmv,Pmu_isost10,sample.pressure,'pchip') .* sample.shield;
+        sample.mu10 = Pmu_atm10 ./ sample.mu10(1) .* sample.mu10;
+    end;
+    if nucl26 == 1;
+        Pmu_atm26 = interp1(atmv,Pmu_isost26,sample.pressure,'pchip') .* sample.shield;
+        sample.mu26 = Pmu_atm26 ./ sample.mu26(1) .* sample.mu26;
+    end;
+    if nucl14 == 1;
+        Pmu_atm14 = interp1(atmv,Pmu_isost14,sample.pressure,'pchip') .* sample.shield;
+        sample.mu14 = Pmu_atm14 ./ sample.mu14(1) .* sample.mu14;
+    end;
+% end subfunction get_Pmu_isost ====================================================================
+
+
+% subfunction fix_and_calc_Pref ====================================================================
+function [output,Pnucl] = fix_and_calc_Pref(output,sample,vars,col,Pnucl,numnucl,nucl);
+    % various parameters
+    sample.dcf = exp(-sample.tv.*vars.(['l' nucl]));
+    sample.N = sample.(['N' nucl]); sample.Nunc = sample.(['N' nucl 'unc']);
+    sample.l = vars.(['l' nucl]);
+    sample.sp = sample.Psp.(['sp' nucl]);
+    sample.mu = sample.(['mu' nucl]);
+    
+    % get sample Pref
+    [Prefi,Prefiunc,Prefiuncint] = Pref_calc(sample,nucl);
+    
+    % fill output
+    output(sample.rown+1,col.(['P' nucl]):col.(['P' nucl 'unc'])) = ...
+        {num2str(Prefi,'%.3f'),num2str(Prefiunc,'%.3f')};
+    
+    % display Pref
+    fprintf(1,[' \tP' nucl ' = %s ± %s at/g/yr'],output{sample.rown+1,col.(['P' nucl])},...
+        output{sample.rown+1,col.(['P' nucl 'unc'])});
+    
+    % fill Pref vector for uncertainty estimation, plotting, and cluster analysis
+    Pnucl.Prefv(numnucl) = Prefi;
+    Pnucl.Puncv(numnucl) = Prefiuncint;
+    Pnucl.Prow(numnucl) = sample.rown; % input row number
+    Pnucl.calage(numnucl) = sample.calage;
+    Pnucl.calageunc(numnucl) = sample.calageunc;
+    Pnucl.site(numnucl) = sample.site;
+% end subfunction fix_and_calc_Pref ================================================================
 
 
 % subfunction Pref_calc ============================================================================
@@ -660,43 +630,105 @@ function [Pref,Prefunc,Prefuncint] = Pref_calc(sample,nuclstr);
     % sample muon P
     Pmu = sample.mu.*sample.dcf;
     
-    % calculate N produced by muons
+    % calculate N produced by muons and spallation
     Nmu = trapz(sample.tv,Pmu);
+    Nsp = sample.N-Nmu;
     
     % calculate N without Pref produced by spallation
     Nsp_scaling = trapz(sample.tv,Psp);
     
     % calculate Pref
-    Pref = (sample.N-Nmu)./Nsp_scaling;
-    
-    % age error propagation from Balco et al. (2008) CRONUS calculator
-    % A with decay-weighted average Lsp
+    Pref = Nsp./Nsp_scaling;
+
+    % error propagation based on Balco et al. (2008) method
+    % decay-weighted average Lsp used in thicksf and A
     Lsp_avg = trapz(sample.tv,sample.Lsp.*exp(-sample.l.*sample.tv))/...
         trapz(sample.tv,exp(-sample.l.*sample.tv));
+    thicksf = (Lsp_avg./(sample.dens.*sample.thick)).*...
+        (1 - exp(((-1.*sample.dens.*sample.thick)./Lsp_avg)));
     A = sample.l + sample.dens.*sample.erosion./Lsp_avg;
-    FP = (sample.N.*A)./(1-exp(-A.*sample.calage));
-    dtdN = 1./(FP-sample.N.*A);
-    ageunc = sqrt(dtdN.^2.*sample.Nunc.^2);
-    
-    % calculate internal and external (including calibration age uncertainty) Pref uncertainty
-    Prefuncint = ageunc./sample.calage.*Pref;
-    Prefunc = sqrt(Prefuncint.^2 + (sample.calageunc./sample.calage.*Pref).^2);
+    SF = (Nsp.*A)./(Pref.*sample.shield.*thicksf.*(1-exp(-A.*sample.calage)));
+    dPdN = A./(SF.*sample.shield.*thicksf.*(1-exp(-A.*sample.calage)));
+    dPdt = Nsp.*A./(SF.*thicksf.*sample.shield).*A.*exp(-A.*sample.calage).*...
+        ((1-exp(-A.*sample.calage)).^-2);
+    % calculate internal Pref uncertainty
+    Prefuncint = sample.Nunc.*dPdN;
+    % add calibration age uncertainty to get external Pref uncertainty
+    Prefunc = sqrt(Prefuncint.^2 + (sample.calageunc.*dPdt).^2);
 % end subfunction Pref_calc ========================================================================
 
 
+% subfunction fix_and_calc_site_Pref ===============================================================
+function [output,outputsite,Pfulln] = fix_and_calc_site_Pref(output,outputsite,siterow,Pn,Pfulln,...
+        cl,col,scol,plsites,sitein,nucl);
+    % if too few samples for site calculation: fill Pfulln with sample Pref
+    if (numel(Pn.Prefv)<2) || (cl.Pcluster==1 && numel(Pn.Prefv)<cl.mingroupn);
+        Pfulln.P(Pn.Prow) = Pn.Prefv;
+        Pfulln.Punc(Pn.Prow) = Pn.Puncv;
+        Pfulln.site(Pn.Prow) = Pn.site;
+        Pfulln.PsiteOK(end+1) = 0;
+        Pfulln.Psite(end+1) = 0;
+        Pfulln.Psiteunc(end+1) = 0;
+        return;
+    end;
+    
+    % calculate site Pref
+    sitePn = get_site_Pref(Pn);
+    
+    % if doing cluster analysis
+    if cl.Pcluster == 1;
+        % find clustered Pref by removing outliers
+        sitePn = get_cluster(Pn,sitePn,cl);
+        
+        % mark OK samples in output
+        output(sitePn.OKrow+1,col.(['P' nucl 'incl'])) = {'X'};
+    end;
+
+    % fill outputsite
+    outputsite(siterow,scol.(['P' nucl])) = {num2str(sitePn.Pref,'%.3f')};
+    outputsite(siterow,scol.(['P' nucl 'unc'])) = {num2str(sitePn.Prefunc,'%.3f')};
+    outputsite(siterow,scol.(['chi' nucl])) = {num2str(sitePn.rchisq,'%.3f')};
+    outputsite(siterow,scol.(['pvalue' nucl])) = {num2str(sitePn.Pvalue,'%.3f')};
+    % OK site Pref for output and full Pref calculation
+    Pfulln.PsiteOK(end+1) = 1;
+    if cl.Pcluster==1;
+        if sitePn.Pvalue>=cl.chiprob && numel(sitePn.OKrow)>=cl.mingroupn;
+            outputsite(siterow,scol.(['P' nucl 'incl'])) = {'X'};
+        else;
+            Pfulln.PsiteOK(end) = 0;
+        end;
+    end;
+    % display site Pref
+    fprintf(1,['Site Pref' nucl ' = %s ± %s at/g/yr'],outputsite{siterow,scol.(['P' nucl])},...
+        outputsite{siterow,scol.(['P' nucl 'unc'])});
+    if cl.Pcluster==1 && numel(sitePn.OKrow)<numel(Pn.Prow);
+        fprintf(1,'  (%.0f outlier',numel(Pn.Prow)-numel(sitePn.OKrow));
+        if numel(Pn.Prow)-numel(sitePn.OKrow) > 1; fprintf(1,'s)'); else; fprintf(1,')'); end;
+    end;
+    fprintf(1,'\nR-chi2 = %s    P-value = %s\n',outputsite{siterow,scol.(['chi' nucl])},...
+        outputsite{siterow,scol.(['pvalue' nucl])});
+    % fill Pfull for total average calculation and plotting
+    Pfulln.Psite(end+1) = sitePn.Pref;
+    Pfulln.Psiteunc(end+1) = sitePn.Prefunc;
+    Pfulln.P(Pn.Prow) = Pn.Prefv;
+    Pfulln.Punc(Pn.Prow) = Pn.Puncv;
+    Pfulln.site(Pn.Prow) = Pn.site;
+    if isfield(sitePn,'OKrow');
+        Pfulln.PidxOK(end+1:end+numel(sitePn.OKrow)) = sitePn.OKrow;
+    else;
+        Pfulln.PidxOK(Pn.Prow) = Pn.Prow;
+    end;
+    % do plotting here...
+    if plsites == 1;
+        if isfield(sitePn,'include') == 0; sitePn.include = (1:1:numel(Pn.Prefv)); end;
+        plot_Pref(Pn,sitePn,str2num(nucl),sitein.site{1});
+    end;
+% end subfunction fix_and_calc_site_Pref ===========================================================
+
 % subfunction get_site_Pref ========================================================================
 function siteP = get_site_Pref(Pn);
-    % calculate weighted Pref and internal uncertainty
-    [siteP.Pref,Puncint] = evm(Pn.Prefv,Pn.Puncv);
-    
-    % number of samples
-    nn = numel(Pn.Prefv);
-    
-    % calculate reduced chi square
-    siteP.rchisq = 1/(nn-1) .* sum(((Pn.Prefv-siteP.Pref)./Pn.Puncv).^2);
-    
-    % calculate P value
-    siteP.Pvalue = 1 - chi2cdf(siteP.rchisq.*(nn-1),nn-1);
+    % calculate weighted Pref, internal Pref uncertainty, reduced chi-square, and P-value
+    [siteP.Pref,Puncint,siteP.rchisq,siteP.Pvalue] = w_mean_unc(Pn.Prefv,Pn.Puncv,1);
     
     % calculate calibration age uncertainty part
     calage_unc = mean(Pn.calageunc./Pn.calage);
@@ -704,33 +736,6 @@ function siteP = get_site_Pref(Pn);
     % calculate total prod rate uncertainty
     siteP.Prefunc = sqrt(Puncint^2 + (calage_unc.*siteP.Pref)^2);
 % end subfunction get_site_Pref ====================================================================
-
-
-% subfunction evm ==================================================================================
-function [Pref,Punc] = evm(Prefv,Puncv);
-    % fix data (make matrices)
-    Prefm = repmat(Prefv,numel(Prefv),1);
-    Puncm = repmat(Puncv,numel(Puncv),1);
-    xm = repmat(Prefv',1,numel(Prefv));
-    
-    % calculate probability for each sample Pref
-    Mui = sum(sqrt(2./(pi.*(2.*Puncm).^2)).*exp(-(xm-Prefm).^2./(2.*Puncm.^2)))./numel(Prefv);
-    
-    % calculate summed probability for all samples
-    Muj = sum(Mui);
-    
-    % calculate sample weights
-    wi = Mui./Muj;
-    
-    % calculate weighted mean Pref
-    Pref = sum(wi.*Prefv);
-    
-    % uncertainty estimation
-    uncint = sqrt(sum(wi.^2.*Puncv.^2));
-    uncext = sqrt(sum(wi.*(Prefv-Pref).^2));
-    Punc = max(uncint,uncext);
-% end subfunction evm ==============================================================================
-
 
 
 % subfunction get_cluster ==========================================================================
@@ -744,11 +749,18 @@ function siteP = get_cluster(Pn,siteP,cl);
     
     % well-clustered samples for plotting
     Pn.include = (1:1:numel(Pn.Prow));
+
+    % calculate modified Pref uncerntainty based on minimum uncertainty ratio cl.minuncratio
+    Puncvmod = Pn.Puncv;
+    Puncvmod(Puncvmod<(siteP.Pref*cl.minuncratio)) = siteP.Pref*cl.minuncratio;
+    % calculate modified rchi2 and Pvalue
+    siteP.rchisq = 1/(numel(Pn.Prefv)-1) .* sum(((Pn.Prefv-siteP.Pref)./Puncvmod).^2);
+    siteP.Pvalue = 1 - chi2cdf(siteP.rchisq.*(numel(Pn.Prefv)-1),numel(Pn.Prefv)-1);
     
     % loop for outlier removal
     while siteP.Pvalue<cl.chiprob && remove>=r && numel(Pn.Prefv)>=cl.mingroupn;
         % calculate deviation for all individual samples
-        chidev = ((Pn.Prefv-siteP.Pref)./Pn.Puncv).^2;
+        chidev = ((Pn.Prefv-siteP.Pref)./Puncvmod).^2;
         
         % find index of sample with largest dev
         [value,rmv_idx] = max(chidev);
@@ -757,9 +769,14 @@ function siteP = get_cluster(Pn,siteP,cl);
         Pn.calage(rmv_idx) = []; Pn.calageunc(rmv_idx) = [];
         Pn.Prefv(rmv_idx) = []; Pn.Puncv(rmv_idx) = [];
         Pn.Prow(rmv_idx) = []; Pn.include(rmv_idx) = [];
+        Puncvmod(rmv_idx) = [];
         
         % calculate Pref
         siteP = get_site_Pref(Pn);
+
+        % calculate modified rchi2 and Pvalue
+        siteP.rchisq = 1/(numel(Pn.Prefv)-1) .* sum(((Pn.Prefv-siteP.Pref)./Puncvmod).^2);
+        siteP.Pvalue = 1 - chi2cdf(siteP.rchisq.*(numel(Pn.Prefv)-1),numel(Pn.Prefv)-1);
         
         % add outlier number
         r = r+1;
@@ -778,15 +795,44 @@ function siteP = get_cluster(Pn,siteP,cl);
 % end subfunction get_cluster ======================================================================
 
 
+% subfunction get_total_P ==========================================================================
+function [outputfull,Pfull] = get_total_P(outputfull,Pfull,nucl);
+    % calculate aritmetic mean of clustered site P
+    Ptot = mean(Pfull.Psite(Pfull.PsiteOK==1));
+    % calculate unbiased deviation from Ptot for all clustered single samples
+    P = Pfull.P(Pfull.PidxOK);
+    Punc = Pfull.Punc(Pfull.PidxOK);
+    Ptotunc = sqrt(sum(1./Punc.^2.*(P-Ptot).^2) / ...
+        (sum(1./Punc.^2)-(sum(1./Punc.^4)/sum(1./Punc.^2))));
+    % display total P
+    fprintf(1,['P' nucl ' = %.2f ± %.2f at/g/yr\n'],Ptot,Ptotunc);
+    % fill outputfull and Pfull
+    outputfull(size(outputfull,1)+1,1) = {['P' nucl]};
+    outputfull(size(outputfull,1),2) = {num2str(Ptot,'%.2f')};
+    outputfull(size(outputfull,1),3) = {num2str(Ptotunc,'%.2f')};
+    Pfull.Ptot = Ptot;
+    Pfull.Ptotunc = Ptotunc;
+% end subfunction get_total_P ======================================================================
+
+
 % subfunction plot_Pref ============================================================================
 function plot_Pref(Pn,siteP,nucl,pltitle);
-    % fix for 10Be/26Al    
+    % fix for 10Be/26Al/14C
     if nucl == 10;
         step = 0.01;
-        nuclstr = '^{10}Be';
+        nuclstr = '10Be';
+        lablestr = '^{10}Be';
+        clrin = 'red';
     elseif nucl == 26;
         step = 0.02;
-        nuclstr = '^{26}Al';
+        nuclstr = '26Al';
+        lablestr = '^{26}Al';
+        clrin = 'blue';
+    elseif nucl == 14;
+        step = 0.02;
+        nuclstr = '14C';
+        lablestr = '^{14}C';
+        clrin = 'green';
     end;
     
     % split Pref vectors in clustered and outliers
@@ -798,8 +844,6 @@ function plot_Pref(Pn,siteP,nucl,pltitle);
     % define min and max Pref for plot
     plmin = floor(min(Pn.Prefv-4.*Pn.Puncv));
     plmax = ceil(max(Pn.Prefv+4.*Pn.Puncv));
-    %~ plmin = floor(siteP.Pref-4.*siteP.Prefunc);
-    %~ plmax = ceil(siteP.Pref+4.*siteP.Prefunc);
     
     % vectors and matrices for probability estimation
     xv = linspace(plmin,plmax,(plmax-plmin)/step+1);
@@ -822,7 +866,8 @@ function plot_Pref(Pn,siteP,nucl,pltitle);
     end;
     
     % start new figure
-    figure,set(gcf,'visible','off'); hold on; box on;
+    figure('name',[pltitle ' – ' nuclstr],'NumberTitle','off','visible','off');
+    hold on; box on;
     
     % plot grey Pref uncertainty region
     uncP = linspace(siteP.Pref-siteP.Prefunc,siteP.Pref+siteP.Prefunc,100);
@@ -837,21 +882,112 @@ function plot_Pref(Pn,siteP,nucl,pltitle);
     
     % plot individual sample prob dens curves (outliers)
     for j = 1:size(oprobdensmatr,1);
-        plot(xv',oprobdensmatr(j,:)','color','blue');
+        plot(xv',oprobdensmatr(j,:)','color',[0.7 0.7 0.7]);
     end
     
     % plot individual sample prob dens curves (clustered samples)
     for j = 1:size(cprobdensmatr,1);
-        plot(xv',cprobdensmatr(j,:)','color','red');
+        plot(xv',cprobdensmatr(j,:)','color',clrin);
     end
     
     % plot summed prob dens curve
     plot(xv',probsum','color','black');
     
-    xlabel(strcat({'Ref '},nuclstr,{' prodrate (atoms/g/yr)'}));
+    xlabel(strcat({'Ref '},lablestr,{' prodrate (atoms/g/yr)'}));
     set(gca,'ytick',[]);
     ylabel('Relative probability');
     set(gca,'layer','top'); % plot axis on top
     title(pltitle);
     hold off;
 % end subfunction plot_Pref ========================================================================
+
+
+% subfunction plot_fullP ===========================================================================
+function plot_fullP(Pfull,plfull,nucl);
+    % fix nuclide specific parameters
+    if nucl == 10; nuclstr = '10Be'; yv = [2 6];
+    elseif nucl == 26; nuclstr = '26Al'; yv = [20 45];
+    elseif nucl == 14; nuclstr = '14C'; yv = [5 23]; end;
+    
+    % fix sites and number of sites
+    sites = Pfull.site;
+    sites(cellfun(@isempty,sites)) = [];
+    sites = unique(sites,'stable');
+    numsites = numel(sites);
+
+    % plot global Pref and uncertainty
+    figure('name',['Pref – ' nuclstr],'NumberTitle','off');
+    hold on; box on;
+    Pmaxtot = Pfull.Ptot + Pfull.Ptotunc;
+    Pmintot = Pfull.Ptot - Pfull.Ptotunc;
+    plot([0 numsites numsites 0 0],[Pmaxtot Pmaxtot Pmintot Pmintot Pmaxtot],'color','black');
+    plot([0 numsites],[Pfull.Ptot Pfull.Ptot],'color','black');
+
+    % fix and plot site Punc
+    idxin = find(Pfull.PsiteOK == 1);
+    sitenr = (1:1:numsites)(idxin);
+    siteP = Pfull.Psite(idxin);
+    sitePunc = Pfull.Psiteunc(idxin);
+    siteunc_x = [sitenr-1;sitenr;sitenr;sitenr-1;sitenr-1];
+    Pmaxsite = siteP + sitePunc;
+    Pminsite = siteP - sitePunc;
+    siteunc_y = [Pmaxsite;Pmaxsite;Pminsite;Pminsite;Pmaxsite];
+    plot(siteunc_x,siteunc_y,'color','blue');
+    % fix and plot site Pref
+    siteP_x = [sitenr-1;sitenr];
+    siteP_y = [siteP;siteP];
+    plot(siteP_x,siteP_y,'color','blue');
+
+    % fix Px, P, Punc, Pin
+    Px = []; P = []; Punc = []; Pin = [];
+    Pincl = zeros(1,numel(Pfull.P));
+    Pincl(Pfull.PidxOK) = 1;
+    for i = 1:numsites;
+        idx = find(strcmp(Pfull.site,sites(i)));
+        n = numel(idx);
+        Px(end+1:end+n) = i - 1 + linspace(1/(n+1),1-1/(n+1),n);
+        P(end+1:end+n) = Pfull.P(idx);
+        Punc(end+1:end+n) = Pfull.Punc(idx);
+        Pin(end+1:end+n) = Pincl(idx);
+    end;
+    
+    % fix included and excluded sample P
+    idxin = find(Pin == 1);
+    idxex = find(Pin == 0);
+    P_in = P(idxin);
+    Punc_in = Punc(idxin);
+    P_ex = P(idxex);
+    Punc_ex = Punc(idxex);
+    
+    % fix Pin and Puncin
+    Pin_x = Px(idxin);
+    Puncin_x = [Pin_x;Pin_x];
+    Puncin_y = [P_in-Punc_in;P_in+Punc_in];
+    % fix Pex and Puncex
+    Pex_x = Px(idxex);
+    Puncex_x = [Pex_x;Pex_x];
+    Puncex_y = [P_ex-Punc_ex;P_ex+Punc_ex];
+    % plot sample Puncex and Pex
+    plot(Puncex_x,Puncex_y,'color','red');
+    plot(Pex_x,P_ex,'marker','o','markersize',2,'linestyle','none','color','red');
+    % plot sample Puncin and Pin
+    plot(Puncin_x,Puncin_y,'color','black');
+    plot(Pin_x,P_in,'marker','o','markersize',2,'linestyle','none','color','black');
+
+    % fix axes
+    if plfull.xmax <= 0; plfull.xmax = numsites; end;
+    xlim([0 plfull.xmax]);
+    ylim(yv);
+
+    % fix x-ticks
+    set(gca,'xtick',[]);
+    set(gca,'xticklabel',[]);
+
+    % fix axis labels and tics
+    if plfull.printsvg ~= 1;
+        ylabel([nuclstr ' Pref (atoms/g/yr)']);
+    else;
+        set(gca,'yticklabel',[]);
+        print(['Pref-' nuclstr '.svg'],'-dsvg',plfull.printscale);
+    end;
+% end subfunction plot_fullP =======================================================================
