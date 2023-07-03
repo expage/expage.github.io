@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Mattas (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>DNG-19-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26630 &#177; 1735<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.824491,27.887137</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27213 &#177; 1765<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.824489,27.888178</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26356 &#177; 1700<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.824396,27.888348</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27286 &#177; 1762<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.823914,27.889140</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25989 &#177; 1682<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.823891,27.890117</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33725 &#177; 2191<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.824286,27.893068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32750 &#177; 2126<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.824326,27.893026</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33528 &#177; 2170<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.824388,27.892312</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32581 &#177; 2075<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.824817,27.890709</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26128 &#177; 1669<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.824880,27.890465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32655 &#177; 2116<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.824992,27.889560</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33384 &#177; 2143<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.824925,27.891202</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39042 &#177; 2546<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.824673,27.893156</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34090 &#177; 2241<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.824875,27.895128</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34576 &#177; 2242<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.825218,27.892690</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34629 &#177; 2246<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.825229,27.893413</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60899 &#177; 3920<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.825344,27.894393</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61153 &#177; 3892<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.825340,27.894424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17774 &#177; 1119<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.823055,27.892526</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17471 &#177; 1130<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.822783,27.891339</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17227 &#177; 1113<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.822677,27.890382</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16588 &#177; 1071<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.822452,27.889499</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21193 &#177; 1388<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.822219,27.888147</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16604 &#177; 1072<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.821968,27.887385</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17981 &#177; 1142<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.821503,27.885629</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16955 &#177; 1095<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.821594,27.885482</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19178 &#177; 1216<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.821433,27.884702</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16738 &#177; 1066<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.821061,27.883767</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16859 &#177; 1087<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.820645,27.883125</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15571 &#177; 1005<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.820250,27.886958</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16570 &#177; 1070<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.820008,27.886460</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DNG-19-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15339 &#177; 986<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Mattas-2021.txt">Mattas (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>86.819991,27.887902</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

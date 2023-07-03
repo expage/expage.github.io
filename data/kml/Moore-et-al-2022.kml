@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Moore et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>RT_1414</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16592 &#177; 1090<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.409,-45.817</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1415</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16715 &#177; 1099<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.409,-45.817</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1416</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16458 &#177; 1081<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.409,-45.817</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1534</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17038 &#177; 1119<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.409,-45.817</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1640</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17254 &#177; 1134<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.409,-45.818</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1527</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16655 &#177; 1098<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.412,-45.818</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1528</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16399 &#177; 1075<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.412,-45.818</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1529</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16716 &#177; 1099<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.412,-45.818</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1530</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15687 &#177; 1032<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.412,-45.818</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1408</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16531 &#177; 1084<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.406,-45.819</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1410</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18256 &#177; 1197<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.408,-45.819</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1411</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18013 &#177; 1184<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.408,-45.819</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1412</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18459 &#177; 1212<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.409,-45.820</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1404</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24533 &#177; 1614<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.407,-45.820</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1407</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39674 &#177; 2613<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.409,-45.821</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1518</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17604 &#177; 1156<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.414,-45.818</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1519</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17702 &#177; 1159<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.414,-45.818</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RT_1526</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17841 &#177; 1173<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Moore-et-al-2022.txt">Moore et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>167.414,-45.818</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

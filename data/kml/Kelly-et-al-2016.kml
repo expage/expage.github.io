@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kelly et al. (2016)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>AF-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11038 &#177; 744<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Kelly-et-al-2016.txt">Kelly et al. (2016)</a><br/>Lowell et al. (2021)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.558,49.654</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11319 &#177; 790<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Kelly-et-al-2016.txt">Kelly et al. (2016)</a><br/>Lowell et al. (2021)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.55746,49.65443</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10994 &#177; 737<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Kelly-et-al-2016.txt">Kelly et al. (2016)</a><br/>Lowell et al. (2021)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.55762,49.65411</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-39</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13028 &#177; 1821<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Kelly-et-al-2016.txt">Kelly et al. (2016)</a><br/>Lowell et al. (2021)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.55721,49.65437</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10751 &#177; 719<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Kelly-et-al-2016.txt">Kelly et al. (2016)</a><br/>Lowell et al. (2021)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.55761,49.65474</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-43</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10222 &#177; 667<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Kelly-et-al-2016.txt">Kelly et al. (2016)</a><br/>Lowell et al. (2021)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.55816,49.65387</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10365 &#177; 688<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Kelly-et-al-2016.txt">Kelly et al. (2016)</a><br/>Lowell et al. (2021)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.16371,50.22102</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10564 &#177; 687<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Kelly-et-al-2016.txt">Kelly et al. (2016)</a><br/>Lowell et al. (2021)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.16346,50.22099</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10827 &#177; 715<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Kelly-et-al-2016.txt">Kelly et al. (2016)</a><br/>Lowell et al. (2021)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.16463,50.22043</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10759 &#177; 714<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Kelly-et-al-2016.txt">Kelly et al. (2016)</a><br/>Lowell et al. (2021)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.16462,50.22094</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10300 &#177; 690<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Kelly-et-al-2016.txt">Kelly et al. (2016)</a><br/>Lowell et al. (2021)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.16477,50.22098</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10159 &#177; 676<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Kelly-et-al-2016.txt">Kelly et al. (2016)</a><br/>Lowell et al. (2021)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-89.16927,50.22895</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9676 &#177; 655<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Kelly-et-al-2016.txt">Kelly et al. (2016)</a><br/>Lowell et al. (2021)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-89.16926,50.22882</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

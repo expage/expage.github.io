@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Spector et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>13-NTK-030-HTR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 499581 &#177; 39031<br/>
+<sup>26</sup>Al: 384377 &#177; 38152<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.14707,-81.10278</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-031-HTR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 456582 &#177; 41715<br/>
+<sup>26</sup>Al: 343901 &#177; 33313<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.14913,-81.10242</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-002-JHN</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 627411 &#177; 49946<br/>
+<sup>26</sup>Al: 544189 &#177; 57579<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.45962,-81.07333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-003-JHN</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 237083 &#177; 17089<br/>
+<sup>26</sup>Al: 226428 &#177; 20329<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.47006,-81.07433</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-006-JHN</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 648722 &#177; 51867<br/>
+<sup>26</sup>Al: 584870 &#177; 63157<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.46298,-81.07343</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-050-GDW</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4644695 &#177; 1138499<br/>
+<sup>26</sup>Al: 2849565 &#177; 1263491<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.74274,-81.11893</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-051-GDW</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3588788 &#177; 619519<br/>
+<sup>26</sup>Al: 2082421 &#177; 553132<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.74162,-81.11891</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-052-GDW</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3375123 &#177; 546584<br/>
+<sup>26</sup>Al: 1937830 &#177; 466693<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.72898,-81.12000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-021-PRT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 589033 &#177; 55691<br/>
+<sup>26</sup>Al: 496760 &#177; 53025<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.35558,-81.13316</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-023-PRT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 962908 &#177; 101594<br/>
+<sup>26</sup>Al: 764171 &#177; 91970<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.36204,-81.13214</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-053-TID</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4744203 &#177; 1202029<br/>
+<sup>26</sup>Al: 3365601 &#177; 2158944<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.43602,-81.14080</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-053-TID</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4811336 &#177; 1247339<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.43602,-81.14080</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-054-TID</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4313053 &#177; 950582<br/>
+<sup>26</sup>Al: 3070169 &#177; 1593545<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.43753,-81.14048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-054-TID</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4236636 &#177; 905301<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.43753,-81.14048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-055-TID</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5832766 &#177; 2165920<br/>
+<sup>26</sup>Al: 3393568 &#177; 2222761<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.43768,-81.14011</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-007-PRT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 835521 &#177; 74356<br/>
+<sup>26</sup>Al: 676765 &#177; 76732<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.32991,-81.14435</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-024-PRT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 708045 &#177; 68996<br/>
+<sup>26</sup>Al: 530773 &#177; 57459<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.32614,-81.14401</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-008-PRT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 537934 &#177; 42298<br/>
+<sup>26</sup>Al: 406731 &#177; 40537<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.34441,-81.14516</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-010-PRT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1020477 &#177; 90811<br/>
+<sup>26</sup>Al: 764075 &#177; 91549<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.34841,-81.14581</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-012-PRT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 735800 &#177; 60528<br/>
+<sup>26</sup>Al: 673365 &#177; 76560<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.35180,-81.14635</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-014-PRT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1096356 &#177; 115719<br/>
+<sup>26</sup>Al: 935045 &#177; 124920<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.35457,-81.14680</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-014-PRT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1063537 &#177; 109295<br/>
+<sup>26</sup>Al: 933194 &#177; 122097<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.35457,-81.14680</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-015-PRT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4907530 &#177; 1769165<br/>
+<sup>26</sup>Al: 2536278 &#177; 913329<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.36050,-81.14780</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-017-PRT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4600972 &#177; 1226036<br/>
+<sup>26</sup>Al: 2796384 &#177; 1186880<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.37856,-81.14905</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-018-PRT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4729228 &#177; 1198233<br/>
+<sup>26</sup>Al: 2778525 &#177; 1182766<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.37407,-81.14826</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-029-PRT-BED</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 332155 &#177; 29387<br/>
+<sup>26</sup>Al: 288177 &#177; 28233<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.30435,-81.14759</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-017-TID</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1202568 &#177; 102200<br/>
+<sup>26</sup>Al: 1036798 &#177; 144762<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.34561,-81.14542</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-023-TID</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1344440 &#177; 118842<br/>
+<sup>26</sup>Al: 1225161 &#177; 190421<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.34973,-81.14603</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-003-TCR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 918374 &#177; 74549<br/>
+<sup>26</sup>Al: 654367 &#177; 73755<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.51145,-81.10383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-006-TCR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1002016 &#177; 80913<br/>
+<sup>26</sup>Al: 726009 &#177; 85417<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.51534,-81.10412</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-009-TCR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1426644 &#177; 129020<br/>
+<sup>26</sup>Al: 962370 &#177; 129662<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.51991,-81.10447</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-038-TCR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 423288 &#177; 29783<br/>
+<sup>26</sup>Al: 337047 &#177; 32179<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.50629,-81.10328</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-043-TCT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2959110 &#177; 420604<br/>
+<sup>26</sup>Al: 1918015 &#177; 455819<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.53564,-81.10926</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-PRT-044-TCT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2261163 &#177; 266399<br/>
+<sup>26</sup>Al: 1619380 &#177; 319428<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-85.54174,-81.10886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-032-NSH</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 296232 &#177; 24560<br/>
+<sup>26</sup>Al: 236192 &#177; 21074<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-89.29568,-81.89015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-033-NSH</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1457801 &#177; 165393<br/>
+<sup>26</sup>Al: 1114186 &#177; 160850<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-89.29498,-81.88980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-034-NSH</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1236993 &#177; 136400<br/>
+<sup>26</sup>Al: 929347 &#177; 121914<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-89.29560,-81.89014</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-048-WHT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2450258 &#177; 368079<br/>
+<sup>26</sup>Al: 1429115 &#177; 247516<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-104.13777,-82.42078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13-NTK-046-WHT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1639837 &#177; 201313<br/>
+<sup>26</sup>Al: 1262884 &#177; 198557<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Spector-et-al-2020.txt">Spector et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-104.05118,-82.43289</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

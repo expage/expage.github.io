@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Bakke et al. (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>HOD-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10072 &#177; 670<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.5247,-54.2840</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOD-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8553 &#177; 574<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.5226,-54.2828</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOD-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12681 &#177; 826<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.5187,-54.2832</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOD-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13269 &#177; 1142<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.5209,-54.2832</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOD-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10487 &#177; 693<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.5217,-54.2830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOD-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7145 &#177; 462<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.5236,-54.2825</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOD-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8839 &#177; 586<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.5270,-54.2830</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOD-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6763 &#177; 437<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.5271,-54.2794</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOD-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6602 &#177; 436<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.5275,-54.2795</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOD-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6898 &#177; 455<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.5276,-54.2794</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOD-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5552 &#177; 390<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.5281,-54.2790</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOD-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5805 &#177; 387<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.5281,-54.2790</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOD-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 579 &#177; 45<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-36.5276,-54.2756</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOD-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1423 &#177; 98<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.5295,-54.2759</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOD-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6556 &#177; 430<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.5291,-54.2809</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOD-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8371 &#177; 552<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.5283,-54.2821</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11782 &#177; 761<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.64030,-54.21779</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9552 &#177; 703<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.64063,-54.21844</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12328 &#177; 795<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.64086,-54.21849</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12421 &#177; 801<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.64305,-54.21755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11271 &#177; 727<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.64284,-54.21754</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10721 &#177; 692<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.64357,-54.21749</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12255 &#177; 828<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.64846,-54.21700</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11701 &#177; 755<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.64895,-54.21643</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12167 &#177; 813<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.64286,-54.21622</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11974 &#177; 849<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.64250,-54.21589</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 269 &#177; 31<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.63564,-54.21177</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 973 &#177; 103<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.63366,-54.21185</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5865 &#177; 386<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.63129,-54.21242</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14251 &#177; 924<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-36.64780,-54.24140</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11568 &#177; 746<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-36.65303,-54.24056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12129 &#177; 836<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.65719,-54.23991</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 223 &#177; 60<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.66247,-54.23909</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 279 &#177; 99<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.66190,-54.23962</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10682 &#177; 766<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.65674,-54.23558</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11673 &#177; 753<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.65313,-54.23134</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9994 &#177; 656<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.65350,-54.23135</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CA-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10941 &#177; 716<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Bakke-et-al-2021.txt">Bakke et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-36.65353,-54.23126</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

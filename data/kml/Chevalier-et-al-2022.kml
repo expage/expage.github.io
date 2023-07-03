@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Chevalier et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>C204</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22682 &#177; 1479<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.43633,28.06138</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C205</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24356 &#177; 1605<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.43575,28.06212</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C206</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21726 &#177; 1437<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.43523,28.06302</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C207</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23252 &#177; 1521<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.43473,28.06435</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C208</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22050 &#177; 1430<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.43366,28.06511</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C209</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40521 &#177; 2666<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.43172,28.06619</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C211</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19919 &#177; 1358<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.42472,28.06736</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C101</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29990 &#177; 1979<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.30846,27.89423</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C102</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25294 &#177; 1662<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.30816,27.89737</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C103</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20271 &#177; 1337<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.30850,27.90011</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C104</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18350 &#177; 1213<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.30837,27.90303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C106</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23026 &#177; 1508<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.31726,27.91631</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C107</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12970 &#177; 849<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.31902,27.91916</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C108</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12147 &#177; 799<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.31930,27.92141</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C110</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55714 &#177; 3582<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.31915,27.92427</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C111</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32220 &#177; 2063<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.31061,27.92372</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C113</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27105 &#177; 1766<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.30717,27.92234</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C115</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19153 &#177; 1263<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.30649,27.91862</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C116</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41736 &#177; 2673<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chevalier-et-al-2022.txt">Chevalier et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>89.30434,27.91874</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

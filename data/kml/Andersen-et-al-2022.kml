@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Andersen et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>BOG01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14270 &#177; 1106<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.0078,68.2133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BOG02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14206 &#177; 1582<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.0081,68.2139</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BOG03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15983 &#177; 1987<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.0056,68.2142</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KRÅ-0601</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15099 &#177; 1207<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.0024,62.0297</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KRÅ-0604</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16113 &#177; 1322<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.0051,62.0300</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KRÅ-0608</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14332 &#177; 1340<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>4.9968,62.0314</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KRÅ-0613</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17509 &#177; 1395<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>4.9968,62.0317</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VG-9712a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11198 &#177; 869<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>4.9885,62.0331</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VG-9708</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11324 &#177; 1652<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.0298,62.0241</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VG-9709</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14570 &#177; 1951<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.0298,62.0241</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VG-9710</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13739 &#177; 1893<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.0298,62.0241</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VG-9705</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15814 &#177; 1868<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.0373,62.0192</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VG-9707</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15602 &#177; 2136<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.0348,62.0178</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VG-9702</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16943 &#177; 2074<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.0231,62.0044</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VG-9703</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17970 &#177; 2732<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.0162,62.0046</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KRÅ-0609</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13239 &#177; 1017<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>4.9994,62.0170</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KRÅ-0610</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14534 &#177; 1052<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Andersen-et-al-2022.txt">Andersen et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.0019,62.0161</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

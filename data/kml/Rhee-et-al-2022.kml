@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Rhee et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>DVD001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1346811 &#177; 120059<br/>
+<sup>26</sup>Al: 1244949 &#177; 192587<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.89425,-75.18957</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD002</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1163673 &#177; 98614<br/>
+<sup>26</sup>Al: 1066034 &#177; 148440<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.89427,-75.18983</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD003</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 431492 &#177; 30150<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.89325,-75.18987</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1465182 &#177; 134965<br/>
+<sup>26</sup>Al: 1269225 &#177; 200280<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.89495,-75.19183</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1513580 &#177; 141332<br/>
+<sup>26</sup>Al: 1226179 &#177; 189857<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.89608,-75.19169</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 643968 &#177; 47666<br/>
+<sup>26</sup>Al: 530557 &#177; 56570<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.94810,-75.21017</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 596120 &#177; 43657<br/>
+<sup>26</sup>Al: 481157 &#177; 50754<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.94650,-75.21053</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD008</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 551774 &#177; 39820<br/>
+<sup>26</sup>Al: 446330 &#177; 46073<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.94575,-75.21094</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD009</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 385032 &#177; 26806<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.94757,-75.21108</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD010</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 911749 &#177; 72359<br/>
+<sup>26</sup>Al: 838616 &#177; 103305<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.94786,-75.21058</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD011</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 87323 &#177; 5816<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.91556,-75.22524</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD012</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 108404 &#177; 7290<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.91580,-75.22551</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD013</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 186978 &#177; 12530<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.91491,-75.22539</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD014</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 180908 &#177; 12071<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.91773,-75.22564</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD015</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 322498 &#177; 22337<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.91715,-75.22581</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD016</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 236486 &#177; 16090<br/>
+<sup>26</sup>Al: 230359 &#177; 20688<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.91699,-75.22593</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD017</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 243910 &#177; 16413<br/>
+<sup>26</sup>Al: 234420 &#177; 21121<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.91817,-75.22600</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD018</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 259424 &#177; 18422<br/>
+<sup>26</sup>Al: 250998 &#177; 24444<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.91719,-75.22558</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD019</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 266766 &#177; 18006<br/>
+<sup>26</sup>Al: 255690 &#177; 23396<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.91606,-75.22565</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD020</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 235519 &#177; 15837<br/>
+<sup>26</sup>Al: 255873 &#177; 23870<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.91599,-75.22521</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD021</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 234075 &#177; 16057<br/>
+<sup>26</sup>Al: 225288 &#177; 20769<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.91528,-75.22481</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD022</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 154870 &#177; 10201<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.91686,-75.22499</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD025</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 74529 &#177; 5716<br/>
+<sup>26</sup>Al: 15308 &#177; 2600<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.01815,-75.24832</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD026</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 53158 &#177; 3767<br/>
+<sup>26</sup>Al: 55860 &#177; 5473<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.02022,-75.24840</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD027</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 70660 &#177; 4780<br/>
+<sup>26</sup>Al: 68281 &#177; 5866<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.02186,-75.24810</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD028</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 71482 &#177; 4716<br/>
+<sup>26</sup>Al: 66921 &#177; 6388<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.02076,-75.24806</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD029</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33696 &#177; 2317<br/>
+<sup>26</sup>Al: 30590 &#177; 2716<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.01930,-75.24801</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD030</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3488 &#177; 383<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.01818,-75.24816</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD031</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 89804 &#177; 6188<br/>
+<sup>26</sup>Al: 88577 &#177; 8170<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.01863,-75.24838</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD032</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 56872 &#177; 3851<br/>
+<sup>26</sup>Al: 60483 &#177; 5359<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.01899,-75.24845</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD033</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3178 &#177; 373<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.02072,-75.24837</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD034</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1903 &#177; 338<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.02135,-75.24825</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD035</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40076 &#177; 3633<br/>
+<sup>26</sup>Al: 31585 &#177; 2786<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.02012,-75.24827</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DVD036</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2050 &#177; 340<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Rhee-et-al-2022.txt">Rhee et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.01957,-75.24864</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

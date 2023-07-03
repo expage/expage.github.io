@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Lowell et al. (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>AF-102</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16707 &#177; 1094<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-91.68219,47.70942</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-103</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15794 &#177; 1025<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-91.93303,47.71392</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-104</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15691 &#177; 1018<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-91.93476,47.71524</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-106</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17685 &#177; 1190<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-91.93301,47.71394</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-107</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17141 &#177; 1116<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-91.93297,47.71392</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-108</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17450 &#177; 1131<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-91.92707,48.02685</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-109</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17561 &#177; 1184<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-91.92699,48.02693</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-110</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15452 &#177; 1004<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-91.92654,48.02679</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-112</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17526 &#177; 1209<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-91.80781,47.82497</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-113</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18010 &#177; 1168<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-91.80717,47.82577</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15546 &#177; 1034<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.57586,48.27993</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15633 &#177; 1031<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.57724,48.27895</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-24x</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15835 &#177; 1037<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.57724,48.27895</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15395 &#177; 1019<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.57725,48.28056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-25x</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15640 &#177; 1035<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.57725,48.28056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-114</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15645 &#177; 1010<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.56782,48.26143</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-115</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14579 &#177; 935<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.56790,48.26132</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-116</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16050 &#177; 1035<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.56725,48.26061</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-117</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14793 &#177; 957<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.56708,48.26033</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-118</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14426 &#177; 959<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.56894,48.26112</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13243 &#177; 877<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.13826,48.33609</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14267 &#177; 967<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.13744,48.33556</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-21x</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14014 &#177; 914<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.13744,48.33556</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-130</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13204 &#177; 915<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.01846,48.44321</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-125</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12818 &#177; 838<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.41331,48.57571</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-126</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12863 &#177; 869<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.41777,48.57343</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-127</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12867 &#177; 918<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.41785,48.57349</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-128</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12839 &#177; 838<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.41739,48.57334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-129</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12949 &#177; 833<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.41697,48.57335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12614 &#177; 858<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.694,48.725</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-119</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12033 &#177; 782<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.25386,48.64577</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-120</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13128 &#177; 885<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.25419,48.64592</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-121</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12910 &#177; 864<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.32540,48.68281</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-122</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11929 &#177; 780<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.32649,48.68285</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-123</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12742 &#177; 829<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.32832,48.68345</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-124</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11730 &#177; 769<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.33350,48.67933</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-47</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12460 &#177; 844<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.53669,49.29088</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-48</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12299 &#177; 877<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.54654,49.34731</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-49</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11544 &#177; 765<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.54651,49.34712</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-50</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11279 &#177; 747<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.54663,49.34701</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AF-52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11500 &#177; 764<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lowell-et-al-2021.txt">Lowell et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.54557,49.34708</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

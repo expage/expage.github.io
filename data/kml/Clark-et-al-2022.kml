@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Clark et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>ABS-1-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13974 &#177; 969<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.796,50.090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABS-2-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14642 &#177; 961<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.796,50.090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABS-3-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14578 &#177; 973<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.796,50.086</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABS-4-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13259 &#177; 885<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.793,50.083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABS-5-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15423 &#177; 1108<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.792,50.083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABS-6-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32729 &#177; 2136<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.792,50.083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABS-7-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16124 &#177; 1075<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.792,50.083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABS-8-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33142 &#177; 2183<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.791,50.083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABS-9-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16768 &#177; 1100<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.798,50.086</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABS-10-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15275 &#177; 1008<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.798,50.086</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABC-1-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13982 &#177; 964<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.831,52.171</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABC-2-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14760 &#177; 1002<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.831,52.171</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABC-3-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14142 &#177; 1027<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.828,52.168</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABC-4-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13259 &#177; 987<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.829,52.168</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABC-5-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15615 &#177; 1044<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.829,52.168</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABC-6-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14455 &#177; 965<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.826,52.169</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABC-7-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25338 &#177; 1667<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.828,52.168</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABC-8-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19190 &#177; 1263<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.829,52.170</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABC-9-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13420 &#177; 931<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.854,52.173</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABC-10-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12276 &#177; 855<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.854,52.173</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABC-11-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19524 &#177; 1284<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.854,52.173</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABC-12-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14173 &#177; 998<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-114.854,52.174</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABN-6-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12346 &#177; 829<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.862,53.980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABN-7-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11998 &#177; 798<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.862,53.980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABN-8-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13140 &#177; 871<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.862,53.980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABN-9-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11704 &#177; 773<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-118.862,53.980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABN-10-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9789 &#177; 945<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.114,53.941</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABN-11-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13700 &#177; 914<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.114,53.941</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABN-12-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12563 &#177; 949<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.113,53.938</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABN-13-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14037 &#177; 1010<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.112,53.936</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABN-14-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13489 &#177; 1051<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.112,53.936</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABN-15-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12266 &#177; 876<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.114,53.939</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABN-17-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13759 &#177; 950<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.113,53.940</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ABN-18-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14319 &#177; 993<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-119.113,53.940</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCS-1-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12812 &#177; 861<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.162,56.078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCS-2-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12425 &#177; 869<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.162,56.078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCS-3-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12161 &#177; 821<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.163,56.078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCS-4-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13668 &#177; 1294<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.164,56.078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCS-5-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12345 &#177; 834<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.162,56.077</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCS-6-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12749 &#177; 844<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.174,56.069</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCS-7-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13040 &#177; 867<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.174,56.069</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCS-8-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11616 &#177; 791<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.174,56.069</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCS-9-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12901 &#177; 871<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.174,56.069</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCS-10-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12229 &#177; 814<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.174,56.068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCS-11-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12478 &#177; 828<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.173,56.068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCS-12-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12134 &#177; 1026<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.173,56.068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCS-13-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11815 &#177; 864<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.173,56.068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCS-14-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12282 &#177; 820<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.174,56.069</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCS-15-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13438 &#177; 885<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.175,56.069</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCC-1-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13048 &#177; 929<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.932,57.563</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCC-2-16.</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9095 &#177; 713<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.913,57.518</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCC-3-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11861 &#177; 857<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.872,57.443</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCC-4-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14023 &#177; 1016<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.873,57.445</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCC-5-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13326 &#177; 1026<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-122.873,57.445</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCN-1-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12824 &#177; 877<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-123.798,58.699</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCN-2-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13858 &#177; 1212<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-123.798,58.699</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCN-3-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12656 &#177; 837<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-123.798,58.699</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCN-4-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12679 &#177; 858<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-123.800,58.698</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCN-5-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13038 &#177; 926<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-123.800,58.698</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCN-7-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12557 &#177; 839<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-123.800,58.698</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCN-8-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13373 &#177; 902<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-123.800,58.698</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCN-9-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12307 &#177; 827<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-123.783,58.691</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCN-10-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13077 &#177; 864<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-123.783,58.691</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BCN-11-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12680 &#177; 836<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Clark-et-al-2022.txt">Clark et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-123.783,58.691</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

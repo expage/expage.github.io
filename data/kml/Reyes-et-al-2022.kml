@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Reyes et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>AVR16-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12425 &#177; 891<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reyes-et-al-2022.txt">Reyes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.71960,65.10489</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AVR16-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11834 &#177; 851<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reyes-et-al-2022.txt">Reyes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.71940,65.10487</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AVR16-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11769 &#177; 908<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reyes-et-al-2022.txt">Reyes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.71877,65.10443</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AVR16-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12326 &#177; 941<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reyes-et-al-2022.txt">Reyes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.71800,65.10442</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AVR16-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11804 &#177; 822<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reyes-et-al-2022.txt">Reyes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.71798,65.10440</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AVR16-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12066 &#177; 931<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reyes-et-al-2022.txt">Reyes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-115.71773,65.10397</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JR16-224</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11138 &#177; 812<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reyes-et-al-2022.txt">Reyes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.27038,65.27030</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JR16-225</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10729 &#177; 774<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reyes-et-al-2022.txt">Reyes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.27040,65.27032</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JR16-226</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6853 &#177; 2111<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reyes-et-al-2022.txt">Reyes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.27179,65.26954</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JR16-227</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10879 &#177; 873<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reyes-et-al-2022.txt">Reyes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.27214,65.27113</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JR16-228</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10519 &#177; 813<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reyes-et-al-2022.txt">Reyes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.27364,65.27190</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JR16-229</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10746 &#177; 711<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reyes-et-al-2022.txt">Reyes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.27339,65.27201</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

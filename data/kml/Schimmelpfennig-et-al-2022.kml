@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Schimmelpfennig et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>STEI-16-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11381 &#177; 933<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schimmelpfennig-et-al-2022.txt">Schimmelpfennig et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.423675,46.725007</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>STEI-16-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11492 &#177; 910<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schimmelpfennig-et-al-2022.txt">Schimmelpfennig et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.423416,46.725253</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>STEI-16-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5616 &#177; 362<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schimmelpfennig-et-al-2022.txt">Schimmelpfennig et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.431499,46.718277</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>STEI-16-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2368 &#177; 173<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schimmelpfennig-et-al-2022.txt">Schimmelpfennig et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.432130,46.717940</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>STEI-16-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3650 &#177; 234<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schimmelpfennig-et-al-2022.txt">Schimmelpfennig et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.433492,46.717755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>STEI-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1186 &#177; 80<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schimmelpfennig-et-al-2022.txt">Schimmelpfennig et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.434230,46.717310</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>STEI-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2512 &#177; 171<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schimmelpfennig-et-al-2022.txt">Schimmelpfennig et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.434520,46.717710</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>STEI-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 564 &#177; 65<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schimmelpfennig-et-al-2022.txt">Schimmelpfennig et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.435030,46.717320</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>STEI-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 187 &#177; 22<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schimmelpfennig-et-al-2022.txt">Schimmelpfennig et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.435200,46.717630</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>STEI-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57 &#177; 7<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schimmelpfennig-et-al-2022.txt">Schimmelpfennig et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.435590,46.717550</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>STEI-16-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60 &#177; 17<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schimmelpfennig-et-al-2022.txt">Schimmelpfennig et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.432754,46.714159</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>STEI-16-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 557 &#177; 45<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Schimmelpfennig-et-al-2022.txt">Schimmelpfennig et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.433553,46.714319</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

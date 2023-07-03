@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dubé-Loubert et al. (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>14-HDL-A-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6767 &#177; 578<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2021.txt">Dubé-Loubert et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.75,57.92</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14-HDL-A-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8045 &#177; 541<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2021.txt">Dubé-Loubert et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.75,57.92</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14-HDL-A-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8263 &#177; 559<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2021.txt">Dubé-Loubert et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.75,57.92</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14-HDL-A-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8014 &#177; 534<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2021.txt">Dubé-Loubert et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.75,57.92</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14-HDL-A-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7487 &#177; 559<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2021.txt">Dubé-Loubert et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.75,57.92</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14-HDL-B-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7973 &#177; 543<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2021.txt">Dubé-Loubert et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.59,57.79</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14-HDL-B-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7445 &#177; 552<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2021.txt">Dubé-Loubert et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.59,57.79</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14-HDL-B-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7597 &#177; 530<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2021.txt">Dubé-Loubert et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.59,57.79</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14-HDL-B-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12690 &#177; 878<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2021.txt">Dubé-Loubert et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-66.59,57.79</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Trans-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15126 &#177; 1109<br/>
+<sup>26</sup>Al: 13880 &#177; 1265<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2021.txt">Dubé-Loubert et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-64.00,57.90</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Trans-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8539 &#177; 677<br/>
+<sup>26</sup>Al: 8082 &#177; 743<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2021.txt">Dubé-Loubert et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.41,57.14</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Trans-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8383 &#177; 631<br/>
+<sup>26</sup>Al: 6981 &#177; 683<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2021.txt">Dubé-Loubert et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-65.02,57.25</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Trans-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15182 &#177; 1138<br/>
+<sup>26</sup>Al: 13625 &#177; 2320<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dubé-Loubert-et-al-2021.txt">Dubé-Loubert et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-64.74,57.49</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

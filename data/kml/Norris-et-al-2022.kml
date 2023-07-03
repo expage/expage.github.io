@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Norris et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>PL-SN-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5985 &#177; 406<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.5128,52.1622</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-SN-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5803 &#177; 415<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.5127,52.1622</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-SN-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8367 &#177; 546<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.5127,52.1621</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-SN-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13201 &#177; 857<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.5440,52.1607</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ML-BR-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13894 &#177; 923<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.0520,54.2769</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ML-BR-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13438 &#177; 908<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.0521,54.2770</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ML-BR-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13399 &#177; 875<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.0535,54.2769</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ML-BR-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14004 &#177; 915<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.0540,54.2768</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ML-BR-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13184 &#177; 869<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.5247,54.3168</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ML-BR-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12982 &#177; 865<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.5248,54.3179</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLM-S-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16522 &#177; 1072<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.0767,56.8340</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLM-S-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10808 &#177; 729<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.0761,56.8344</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLM-S-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12851 &#177; 866<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.9774,56.9179</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLM-S-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14410 &#177; 941<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.9780,56.9178</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLM-S-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12694 &#177; 841<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-108.9780,56.9179</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLM-Mr-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11499 &#177; 750<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.3115,57.5234</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLM-Mr-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12130 &#177; 792<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.3106,57.5233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLM-Mr-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11417 &#177; 745<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.3104,57.5237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLM-Mr-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14203 &#177; 929<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.2239,57.3490</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLM-Mr-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12551 &#177; 818<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-109.2241,57.3500</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UCLM-E-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10754 &#177; 707<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-110.1993,58.4685</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UCLM-E-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10715 &#177; 705<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-110.2001,58.4688</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UCLM-E-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15253 &#177; 997<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-110.1981,58.4678</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UCLM-W-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13132 &#177; 875<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-110.4310,58.1798</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UCLM-W-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11503 &#177; 751<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-110.4298,58.1807</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UCLM-W-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11602 &#177; 759<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Norris-et-al-2022.txt">Norris et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-110.4296,58.1807</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

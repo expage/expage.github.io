@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Quirk et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>CB-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27737 &#177; 2129<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.1555,48.5936</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CB-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18931 &#177; 1443<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.1577,48.6009</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CB-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17543 &#177; 1340<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.1565,48.6016</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CB-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17900 &#177; 1279<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.1673,48.6260</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CB-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19036 &#177; 1457<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.1670,48.6257</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CB-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17425 &#177; 1293<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.1633,48.6210</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CB-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18057 &#177; 1352<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.1656,48.6196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CB-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15721 &#177; 1173<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.1913,48.6345</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CB-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17936 &#177; 1399<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.1910,48.6338</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CB-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17369 &#177; 1206<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.2336,48.6170</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CB-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16849 &#177; 1427<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.2447,48.6115</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CB-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17543 &#177; 1474<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.2418,48.6111</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CB-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13877 &#177; 1111<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-113.2414,48.6108</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC11-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14304 &#177; 950<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-110.4626,45.4840</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC11-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36093 &#177; 3759<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-110.4668,45.4859</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC11-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18923 &#177; 2487<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-110.4664,45.4862</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC11-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15375 &#177; 1233<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-110.4667,45.4885</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC11-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15644 &#177; 1102<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-110.4670,45.4885</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC11-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12598 &#177; 895<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-110.4668,45.4886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC11-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15144 &#177; 1075<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-110.4772,45.4919</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC11-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15869 &#177; 1296<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-110.4773,45.4919</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC11-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19164 &#177; 1470<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-110.4873,45.4912</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC11-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16760 &#177; 1186<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-110.4870,45.4914</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PC11-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14331 &#177; 1018<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Quirk-et-al-2022.txt">Quirk et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-110.4939,45.4898</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

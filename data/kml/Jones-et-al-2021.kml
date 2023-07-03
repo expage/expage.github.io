@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Jones et al. (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>BP-16-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8041 &#177; 886<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.39751,-76.14240</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6573 &#177; 587<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.39753,-76.14250</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6374 &#177; 582<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.39778,-76.14249</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6815 &#177; 751<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.39718,-76.14309</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6801 &#177; 706<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.39747,-76.14343</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5520 &#177; 768<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.39760,-76.14384</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7411 &#177; 666<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.39795,-76.14463</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5832 &#177; 652<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.39810,-76.14472</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6245 &#177; 691<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.39845,-76.14520</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6007 &#177; 893<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.39968,-76.14519</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6798 &#177; 769<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.39906,-76.14555</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6040 &#177; 708<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.39956,-76.14557</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7437 &#177; 949<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.40115,-76.14558</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6557 &#177; 647<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.40250,-76.14545</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9164 &#177; 1436<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.40673,-76.14514</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5864 &#177; 582<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.40544,-76.14540</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14859 &#177; 1436<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.40542,-76.14568</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6486 &#177; 767<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.40478,-76.14584</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7411 &#177; 714<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.40422,-76.14610</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6737 &#177; 1071<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.40139,-76.14688</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8400 &#177; 1074<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>162.40223,-76.14686</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6721 &#177; 657<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.40212,-76.14712</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6643 &#177; 919<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.40196,-76.14719</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5058 &#177; 863<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.40081,-76.14742</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-16-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5366 &#177; 651<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.40233,-76.14748</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5650 &#177; 395<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.40223,-76.14686</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5209 &#177; 412<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.01445,-76.18388</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6149 &#177; 551<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.01445,-76.18388</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5914 &#177; 565<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.01743,-76.18397</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5648 &#177; 461<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.01981,-76.18433</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46829 &#177; 3148<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.02745,-76.18335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4248 &#177; 1322<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.02745,-76.18335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5306 &#177; 627<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>162.02873,-76.18348</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5393 &#177; 600<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.94219,-76.19010</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 51489 &#177; 3377<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.94341,-76.19012</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31481 &#177; 2103<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.94259,-76.19123</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38781 &#177; 2473<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.94254,-76.19122</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5354 &#177; 727<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.94159,-76.19155</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47700 &#177; 3086<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.94115,-76.19197</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2600 &#177; 200<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.94149,-76.19230</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35669 &#177; 2679<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.95614,-76.19111</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24765 &#177; 1700<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.95593,-76.19133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3102 &#177; 254<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.95450,-76.19123</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2719 &#177; 657<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a><br/>Whitmore (2020)
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.95468,-76.19164</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-31-M</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1467 &#177; 556<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.96673,-76.19110</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-32-M</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 528 &#177; 526<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.96684,-76.19110</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MM-16-34-M</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 871 &#177; 802<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jones-et-al-2021.txt">Jones et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.96829,-76.19108</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

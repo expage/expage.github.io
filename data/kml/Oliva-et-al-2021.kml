@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Oliva et al. (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>ARAN-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14114 &#177; 960<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>0.9717,42.7017</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18345 &#177; 1678<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>0.9700,42.7033</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13466 &#177; 937<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>0.9880,42.6968</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13982 &#177; 949<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>0.9879,42.6946</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15266 &#177; 1105<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>0.9956,42.6980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15792 &#177; 1085<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>1.0047,42.6950</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13977 &#177; 1034<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>1.0046,42.6948</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14855 &#177; 1203<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>1.0031,42.6961</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13717 &#177; 963<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>1.0023,42.6967</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15076 &#177; 1141<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>1.0063,42.7034</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10673 &#177; 761<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>1.0062,42.7034</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12775 &#177; 912<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>1.0052,42.6959</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12827 &#177; 899<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>1.0052,42.6959</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12921 &#177; 950<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>1.0083,42.7067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15076 &#177; 1146<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>1.0042,42.6945</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7616 &#177; 600<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>1.0043,42.6943</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ARAN-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13763 &#177; 953<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Oliva-et-al-2021.txt">Oliva et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>1.0041,42.6945</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

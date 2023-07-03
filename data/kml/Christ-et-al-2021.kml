@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Christ et al. (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>ACX-13-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13139 &#177; 866<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Christ-et-al-2021.txt">Christ et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>165.51527,-78.33312</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACX-14-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21104 &#177; 1425<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Christ-et-al-2021.txt">Christ et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>165.46350,-78.08128</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACX-14-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35796 &#177; 2329<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Christ-et-al-2021.txt">Christ et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>165.34780,-78.10072</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACX-14-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13422 &#177; 882<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Christ-et-al-2021.txt">Christ et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>165.38325,-78.08815</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ACX-13-56</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 148822 &#177; 9713<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Christ-et-al-2021.txt">Christ et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>165.34763,-78.36180</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

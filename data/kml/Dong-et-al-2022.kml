@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Dong et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>PKC20-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 171053 &#177; 11170<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2022.txt">Dong et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.534319,28.729682</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PKC20-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 151139 &#177; 9822<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2022.txt">Dong et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.534259,28.729509</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PKC20-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 97911 &#177; 6282<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2022.txt">Dong et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.534083,28.729059</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PKC20-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 166909 &#177; 10903<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2022.txt">Dong et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.533984,28.728959</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PKC20-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 170672 &#177; 11167<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2022.txt">Dong et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.533983,28.728471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PKC20-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 171789 &#177; 11237<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2022.txt">Dong et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.535231,28.727811</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PKC20-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 172083 &#177; 11265<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2022.txt">Dong et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.535589,28.727683</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PKC20-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 165650 &#177; 10825<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2022.txt">Dong et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.535738,28.727649</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PKC20-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 131110 &#177; 8595<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2022.txt">Dong et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.535721,28.727480</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PKC20-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 167121 &#177; 10926<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2022.txt">Dong et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.535731,28.727372</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PKC20-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 136945 &#177; 8878<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2022.txt">Dong et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.535768,28.727387</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PKC20-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 167538 &#177; 10966<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Dong-et-al-2022.txt">Dong et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>85.537327,28.729375</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

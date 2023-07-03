@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Walcott et al. (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>18JB005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14798 &#177; 1032<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-135.5314,56.8482</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18JB006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14410 &#177; 1037<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-135.5315,56.8471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18JB007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14812 &#177; 1044<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-135.5363,56.8527</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18JB008</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13241 &#177; 933<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-135.5362,56.8528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19SEAK-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15247 &#177; 1151<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-133.3414,55.2469</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19SEAK-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14734 &#177; 1439<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-133.3419,55.2470</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19SEAK-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17034 &#177; 1606<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-133.3406,55.2477</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19SEAK-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19310 &#177; 1701<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-133.3406,55.2477</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19SEAK-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16481 &#177; 1291<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.9015,56.3677</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19SEAK-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20952 &#177; 1568<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-134.9084,56.3723</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19SEAK-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26911 &#177; 1968<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-134.9094,56.3718</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19SEAK-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13964 &#177; 1121<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.9082,56.3712</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19SEAK-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13907 &#177; 1069<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.9068,56.3636</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19SEAK-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13902 &#177; 1013<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-134.9072,56.3636</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19SEAK-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14577 &#177; 1059<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.9092,56.3638</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19SEAK-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15760 &#177; 1110<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-134.8920,56.3228</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19SEAK-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15274 &#177; 1084<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-134.8916,56.3231</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19SEAK-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17574 &#177; 1301<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-134.8856,56.3554</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19SEAK-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19469 &#177; 1418<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-134.8855,56.3555</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>20SEAK-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14363 &#177; 1173<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-135.8126,57.3112</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>20SEAK-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12976 &#177; 1218<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-135.8111,57.3112</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>20SEAK-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14363 &#177; 1099<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-135.8110,57.3110</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>20SEAK-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14084 &#177; 1161<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-135.8109,57.3109</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>20SEAK-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14730 &#177; 1150<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-135.6354,57.4621</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>20SEAK-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12218 &#177; 1001<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-135.6354,57.4621</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>20SEAK-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8612 &#177; 766<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-135.6351,57.4618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>20SEAK-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11835 &#177; 1136<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-135.2721,57.5743</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>20SEAK-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13514 &#177; 1046<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-135.2720,57.5743</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>20SEAK-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17022 &#177; 1287<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Walcott-et-al-2021.txt">Walcott et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-135.3483,57.6425</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

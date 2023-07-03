@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Reynhout et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>CD15-01-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16063 &#177; 1093<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reynhout-et-al-2022.txt">Reynhout et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.1372,-54.5908</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CD15-01-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12908 &#177; 870<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reynhout-et-al-2022.txt">Reynhout et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.1341,-54.5929</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CD15-01-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12983 &#177; 866<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reynhout-et-al-2022.txt">Reynhout et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.1383,-54.5901</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CD14-03-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 810 &#177; 62<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reynhout-et-al-2022.txt">Reynhout et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.1264,-54.6048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CD14-03-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 783 &#177; 58<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reynhout-et-al-2022.txt">Reynhout et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.1282,-54.6023</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CD14-03-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 822 &#177; 59<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reynhout-et-al-2022.txt">Reynhout et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.1368,-54.6004</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CD14-03-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 894 &#177; 64<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reynhout-et-al-2022.txt">Reynhout et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.1385,-54.6001</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CD14-03-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2116 &#177; 139<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reynhout-et-al-2022.txt">Reynhout et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.1258,-54.6051</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CD15-01-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 239 &#177; 24<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reynhout-et-al-2022.txt">Reynhout et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.1524,-54.6101</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CD15-01-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1620 &#177; 122<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Reynhout-et-al-2022.txt">Reynhout et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.1526,-54.6084</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

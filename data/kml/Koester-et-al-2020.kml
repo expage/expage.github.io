@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Koester et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>MW-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 77061 &#177; 5258<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.304066,44.259032</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33113 &#177; 2128<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.312163,44.258794</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15907 &#177; 1099<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.276200,44.280867</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35509 &#177; 2338<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.29971,44.27324</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43490 &#177; 2803<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.29919,44.27444</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 56773 &#177; 3631<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.29178,44.27923</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41221 &#177; 2719<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.28619,44.27964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19554 &#177; 1299<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.28368,44.28053</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22894 &#177; 1504<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.28089,44.28194</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15897 &#177; 1037<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.27884,44.28183</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33308 &#177; 2182<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.27335,44.27901</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14166 &#177; 977<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.27335,44.27901</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14767 &#177; 1089<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.27335,44.27901</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14935 &#177; 971<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.27509,44.23803</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15101 &#177; 987<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.27435,44.23939</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14836 &#177; 964<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.245585,44.256864</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13193 &#177; 863<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.248683,44.255965</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13885 &#177; 907<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.250133,44.244893</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 79771 &#177; 5273<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.304169,44.271162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MW-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 48590 &#177; 3284<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Koester-et-al-2020.txt">Koester et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.304496,44.271170</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

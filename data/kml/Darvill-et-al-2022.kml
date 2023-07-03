@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Darvill et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>18-HEC-01-ARZ</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14694 &#177; 1067<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-129.210529,52.715231</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-02-ARZ</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16279 &#177; 1198<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-129.210529,52.715220</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-03-ARZ</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16576 &#177; 1206<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-129.209939,52.714937</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-04-BNK</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18234 &#177; 1697<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-129.872732,53.307404</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-05-BNK</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19343 &#177; 1374<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-129.872427,53.307690</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-06-BNK</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14007 &#177; 1038<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-129.871360,53.307942</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-07-BNK</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17909 &#177; 1444<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-129.872223,53.308424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-08-BNK</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17581 &#177; 1216<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-129.902076,53.331570</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-09-BNK</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16387 &#177; 1183<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-129.902300,53.331616</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-11-SKM</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15513 &#177; 1497<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-129.947240,54.233202</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-12-POR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13464 &#177; 1060<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-130.599285,53.972853</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-13-POR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14885 &#177; 1272<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-130.599160,53.973041</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-14-POR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19271 &#177; 1490<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-130.599190,53.973592</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-15-POR</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12191 &#177; 941<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-130.600040,53.972930</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-16-PIT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13983 &#177; 1219<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-130.157903,53.733311</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-17-PIT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15457 &#177; 1086<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-130.157662,53.733150</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-18-PIT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14591 &#177; 1156<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-130.193207,53.729071</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-19-PIT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13030 &#177; 1345<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-130.193537,53.729160</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-20-PIT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19153 &#177; 1483<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-130.193455,53.728900</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18-HEC-21-PIT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18341 &#177; 2505<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Darvill-et-al-2022.txt">Darvill et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-130.176131,53.744381</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

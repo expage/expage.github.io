@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Denton et al. (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>PL-09-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19951 &#177; 1368<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.22732,-44.19375</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19543 &#177; 1279<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.22595,-44.20084</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21277 &#177; 1487<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.23536,-44.18206</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19627 &#177; 1318<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.23525,-44.18224</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20211 &#177; 1347<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.23871,-44.18179</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20649 &#177; 1407<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.23709,-44.17937</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18942 &#177; 1265<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.22801,-44.18323</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19586 &#177; 1309<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.21895,-44.18074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19457 &#177; 1270<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.22445,-44.17952</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19151 &#177; 1244<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.22791,-44.17901</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18039 &#177; 1267<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.22856,-44.17784</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19278 &#177; 1245<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.22845,-44.17459</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-71</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20989 &#177; 1380<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.21405,-44.17990</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-633</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19200 &#177; 1264<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.23304,-44.18020</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-634</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19576 &#177; 1261<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.23257,-44.18048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18088 &#177; 1193<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.22878,-44.16784</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-70</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18499 &#177; 1288<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.21418,-44.17861</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BST-08-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20735 &#177; 1397<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.11586,-44.04235</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KIWI-404-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18046 &#177; 1270<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.16328,-44.17922</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KIWI-405</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17724 &#177; 1165<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.16030,-44.18064</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KIWI-406</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19836 &#177; 1285<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.18168,-44.17982</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KIWI-408-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16679 &#177; 1159<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.18407,-44.18057</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KIWI-524</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18228 &#177; 1267<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.21759,-44.16400</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-49</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18434 &#177; 1199<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.22427,-44.16091</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-50</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19198 &#177; 1780<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.21350,-44.17036</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17336 &#177; 1185<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.21012,-44.17138</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-55</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17942 &#177; 1208<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.19650,-44.18063</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-56</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18630 &#177; 1320<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.19531,-44.18330</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-68</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25242 &#177; 2146<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.21371,-44.17500</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-84</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17712 &#177; 1167<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.16030,-44.18064</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-09-85</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18005 &#177; 1199<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.18122,-44.18119</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-12-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17929 &#177; 1177<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.18520,-44.18336</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-12-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17577 &#177; 1137<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.18494,-44.18328</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-12-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18162 &#177; 1175<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.18356,-44.18205</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-12-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17242 &#177; 1115<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.18251,-44.18037</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-12-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17627 &#177; 1144<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.17571,-44.17710</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-12-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17799 &#177; 1172<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.20917,-44.17222</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-12-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17372 &#177; 1300<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.22212,-44.16540</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-949</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18467 &#177; 1191<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.13373,-44.18528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-950</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18046 &#177; 1190<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.13415,-44.18382</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kiwi-951</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17239 &#177; 1109<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.13424,-44.18392</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PT-13-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18000 &#177; 1174<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.13375,-44.18442</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PT-13-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18397 &#177; 1275<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.13421,-44.18464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KIWI-602</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17223 &#177; 1275<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.24690,-43.98291</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KIWI-603</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17438 &#177; 1167<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.24686,-43.98302</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-07-01xxx</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17806 &#177; 1322<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.24842,-43.98530</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-07-02xxx</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17081 &#177; 1278<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.24454,-43.97477</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-07-02xxxx</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18128 &#177; 1184<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.24454,-43.97477</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-07-03xx</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23481 &#177; 1555<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.23958,-43.95661</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-07-03xxxx</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23591 &#177; 1560<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.23958,-43.95661</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-07-07xxx</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17358 &#177; 1275<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.24566,-44.01504</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-07-08xx</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18624 &#177; 1227<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.24004,-44.02799</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-08-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17410 &#177; 1150<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.24737,-43.99636</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-08-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18035 &#177; 1212<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.24847,-43.98611</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-07-05xxx</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16750 &#177; 1142<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.25038,-43.97821</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-10-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17904 &#177; 1185<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.17473,-43.84301</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-10-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17454 &#177; 1142<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.17467,-43.84336</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-10-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17159 &#177; 1151<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.17473,-43.84429</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-10-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16766 &#177; 1107<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.17451,-43.84594</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PL-10-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16751 &#177; 1135<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Denton-et-al-2021.txt">Denton et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.17470,-43.84677</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

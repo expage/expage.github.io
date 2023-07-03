@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Balter-Kennedy et al. (2020)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>15-ROB-029-COL</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5270399 &#177; 1616873<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-177.79202,-85.50998</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-ROB-032-COL</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5619174 &#177; 1952878<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.79535,-85.51025</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-ROB-033-COL</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5576551 &#177; 1920385<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.80135,-85.51110</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-ROB-034-COL</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5048380 &#177; 1436054<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.79913,-85.51245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-ROB-071-LMM</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8302 &#177; 558<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.14732,-85.55093</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-ROB-072-LMM</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7145 &#177; 479<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.14815,-85.55092</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-ROB-082-IPX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7582 &#177; 514<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.16433,-85.55028</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-ROB-084-IPX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7024 &#177; 498<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.16775,-85.55032</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-ROB-086-IPX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8786 &#177; 595<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.15413,-85.55035</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-ROB-087-IPX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7488 &#177; 509<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.17408,-85.55013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15-ROB-089-IPX</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66214 &#177; 4334<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.18065,-85.55028</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-ROB-009-NLO</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1216319 &#177; 105382<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-176.87100,-85.50520</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-ROB-020-AND</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1453564 &#177; 134398<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-176.86501,-85.50810</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-ROB-060-RIN</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3197868 &#177; 497925<br/>
+<sup>26</sup>Al: 3296357 &#177; 2029818<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-176.96899,-85.52140</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-ROB-062-RIN</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3629232 &#177; 647464<br/>
+<sup>26</sup>Al: 3718124 &#177; 3146992<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-176.96600,-85.52250</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-ROB-073-MON</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 653887 &#177; 48452<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.10100,-85.53910</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-ROB-074-MON</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 836285 &#177; 65130<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.10500,-85.53850</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-ROB-075-MON</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1052561 &#177; 86983<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.10500,-85.53850</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-ROB-078-MON</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 959288 &#177; 77218<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.10800,-85.53870</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-ROB-086-WIN</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 381192 &#177; 26580<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.08099,-85.53960</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-ROB-097-PIT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20633 &#177; 1394<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.17101,-85.54110</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-ROB-099-PIT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 421009 &#177; 29969<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.16299,-85.54090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-ROB-100-PIT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18403 &#177; 1210<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.16299,-85.54090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-ROB-101-PIT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29975 &#177; 1952<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.15900,-85.54070</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-ROB-103-PIT</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 144226 &#177; 9765<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Balter-Kennedy-et-al-2020.txt">Balter-Kennedy et al. (2020)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-177.13500,-85.54030</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

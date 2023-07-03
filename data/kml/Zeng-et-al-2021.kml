@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zeng et al. (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>GLYE-a1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 116712 &#177; 7522<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zeng-et-al-2021.txt">Zeng et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>81.622,35.303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYE-a2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62792 &#177; 4000<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zeng-et-al-2021.txt">Zeng et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>81.621,35.303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYE-a3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55328 &#177; 3519<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zeng-et-al-2021.txt">Zeng et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>81.619,35.301</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYE-b1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 90887 &#177; 5817<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zeng-et-al-2021.txt">Zeng et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>81.626,35.314</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYE-b2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 97777 &#177; 6269<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zeng-et-al-2021.txt">Zeng et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>81.625,35.314</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYE-b3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 97937 &#177; 6279<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zeng-et-al-2021.txt">Zeng et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>81.626,35.313</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYE-c1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34368 &#177; 2190<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zeng-et-al-2021.txt">Zeng et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>81.621,35.322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYE-c2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37929 &#177; 2410<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zeng-et-al-2021.txt">Zeng et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>81.621,35.320</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYE-c3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 135803 &#177; 8788<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zeng-et-al-2021.txt">Zeng et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>81.620,35.319</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYE-c4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 236789 &#177; 15703<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zeng-et-al-2021.txt">Zeng et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>81.617,35.312</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYE-d1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 94336 &#177; 6058<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zeng-et-al-2021.txt">Zeng et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>81.589,35.313</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYE-d2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 44188 &#177; 2827<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zeng-et-al-2021.txt">Zeng et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>81.586,35.313</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYE-d3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 56438 &#177; 3598<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zeng-et-al-2021.txt">Zeng et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>81.588,35.314</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYE-d4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 115424 &#177; 7438<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zeng-et-al-2021.txt">Zeng et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>81.587,35.309</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

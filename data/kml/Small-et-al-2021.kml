@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Small et al. (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>MIL-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 106648 &#177; 7169<br/>
+<sup>26</sup>Al: 45737 &#177; 4568<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-55.2681,-83.6561</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MIL-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 263130 &#177; 18409<br/>
+<sup>26</sup>Al: 167065 &#177; 17314<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-55.2681,-83.6561</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MIL-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 165699 &#177; 11324<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-55.2683,-83.6563</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MIL-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 210748 &#177; 14540<br/>
+<sup>26</sup>Al: 102942 &#177; 10444<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-55.2227,-83.6576</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MIL-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 136176 &#177; 9241<br/>
+<sup>26</sup>Al: 62059 &#177; 6195<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-55.2232,-83.6576</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MIL-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 114803 &#177; 7770<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-55.2242,-83.6576</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MIL-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1402656 &#177; 132646<br/>
+<sup>26</sup>Al: 1088692 &#177; 187140<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-55.2093,-83.6574</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MIL-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1149830 &#177; 100812<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-55.2096,-83.6574</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MIL-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1514103 &#177; 148126<br/>
+<sup>26</sup>Al: 1301567 &#177; 251966<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-55.1214,-83.6556</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MIL-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2080894 &#177; 239413<br/>
+<sup>26</sup>Al: 1851326 &#177; 501284<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-55.1216,-83.6555</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JON-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2670998 &#177; 366230<br/>
+<sup>26</sup>Al: 1577228 &#177; 353623<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-57.2544,-83.9729</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JON-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3738111 &#177; 715595<br/>
+<sup>26</sup>Al: 2980042 &#177; 1683910<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-57.2566,-83.9727</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JON-3B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2298833 &#177; 280960<br/>
+<sup>26</sup>Al: 1503470 &#177; 323678<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-57.2538,-83.9734</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JON-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2672950 &#177; 363473<br/>
+<sup>26</sup>Al: 1872433 &#177; 506078<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-57.2145,-83.9842</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JON-6B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3225049 &#177; 520216<br/>
+<sup>26</sup>Al: 1872438 &#177; 508010<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-57.2146,-83.9843</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JON-7B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1899330 &#177; 206284<br/>
+<sup>26</sup>Al: 1466875 &#177; 308678<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-57.1666,-83.9601</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JON-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3020693 &#177; 461299<br/>
+<sup>26</sup>Al: 1977946 &#177; 570322<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-57.1661,-83.9629</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JON-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1313971 &#177; 120933<br/>
+<sup>26</sup>Al: 1072636 &#177; 179350<br/><br/>
+<u>Sample</u><br/>cobble/boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Small-et-al-2021.txt">Small et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-57.1650,-83.9602</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

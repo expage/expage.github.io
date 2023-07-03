@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ruszkiczay-Rüdiger et al. (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>Re15-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19661 &#177; 1439<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.73947,45.32296</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18359 &#177; 1297<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.73967,45.32246</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19444 &#177; 1373<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.74004,45.32265</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16010 &#177; 1128<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.80453,45.31234</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16993 &#177; 1207<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.80410,45.31189</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16645 &#177; 1187<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.80382,45.31153</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12921 &#177; 915<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.86547,45.35852</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13830 &#177; 988<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.86547,45.35852</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12264 &#177; 862<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.86512,45.35854</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14973 &#177; 1067<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.87180,45.35946</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13787 &#177; 972<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.87236,45.35934</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15466 &#177; 1388<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.87370,45.35794</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16930 &#177; 1259<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.87696,45.35705</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13434 &#177; 1044<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.87538,45.35646</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14670 &#177; 1096<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.87626,45.35556</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13771 &#177; 1023<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.87662,45.35481</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13887 &#177; 1331<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.87788,45.35176</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15323 &#177; 1282<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.87788,45.35176</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12936 &#177; 908<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.87612,45.35307</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13782 &#177; 971<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.88634,45.34473</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14378 &#177; 1010<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.88720,45.34414</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14752 &#177; 1163<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.88781,45.34387</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15567 &#177; 1267<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.89464,45.33970</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17400 &#177; 1369<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.89507,45.33831</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re16-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14112 &#177; 1211<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.89467,45.33778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re15-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10738 &#177; 1548<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.78038,45.31425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re16-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16493 &#177; 1215<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.89755,45.33355</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re16-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14686 &#177; 1082<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.89734,45.33334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re16-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16836 &#177; 1290<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.91037,45.35686</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re16-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13278 &#177; 972<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.91056,45.35641</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re16-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16495 &#177; 1256<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.90961,45.35788</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re16-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16568 &#177; 1220<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.90919,45.35776</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re16-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14060 &#177; 1436<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.90879,45.35721</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re16-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17425 &#177; 1270<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>22.88187,45.36327</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re16-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15848 &#177; 1153<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.87944,45.36144</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re16-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15947 &#177; 1169<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.87987,45.36092</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re16-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16790 &#177; 1221<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>22.87974,45.36090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re16-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15818 &#177; 1152<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.87102,45.35576</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Re16-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15725 &#177; 1291<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ruszkiczay-Rüdiger-et-al-2021.txt">Ruszkiczay-Rüdiger et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>22.87077,45.35603</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

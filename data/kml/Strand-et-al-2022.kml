@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Strand et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202306<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>HOTON-14-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22367 &#177; 1440<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.380231,48.700661</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26737 &#177; 1725<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.379323,48.701751</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31839 &#177; 2071<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.375048,48.705214</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 70139 &#177; 4721<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.372132,48.707102</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31607 &#177; 2053<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.370526,48.707363</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 84510 &#177; 5454<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.368647,48.708839</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32257 &#177; 2105<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.353813,48.715740</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33759 &#177; 2244<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.353851,48.710828</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21215 &#177; 1343<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.369819,48.705358</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20808 &#177; 1346<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.372891,48.701765</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22214 &#177; 1437<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.374645,48.699841</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21211 &#177; 1372<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.374490,48.699712</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-15-104</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19829 &#177; 1343<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.369724,48.699541</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-15-105</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21274 &#177; 1377<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.369583,48.699696</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-15-106</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33328 &#177; 2163<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.368895,48.700097</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-15-109</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23990 &#177; 1555<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.362318,48.704968</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19409 &#177; 1308<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.367139,48.681834</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19590 &#177; 1266<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.367695,48.682589</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19291 &#177; 1254<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.368107,48.683063</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18526 &#177; 1191<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.367852,48.685527</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19616 &#177; 1282<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.367536,48.686424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20081 &#177; 1298<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.366419,48.687260</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18737 &#177; 1217<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.364315,48.690857</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22689 &#177; 1479<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.359867,48.692844</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-15-58</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18123 &#177; 1187<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.430928,48.613232</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-15-62</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18526 &#177; 1199<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.426909,48.617095</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-15-63</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18576 &#177; 1202<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.426772,48.617203</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18528 &#177; 1186<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.354325,48.651683</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17958 &#177; 1149<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.354372,48.651643</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19261 &#177; 1233<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.354275,48.651243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17806 &#177; 1152<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.355177,48.650403</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17731 &#177; 1164<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.350597,48.655151</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18210 &#177; 1220<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.350426,48.655673</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18406 &#177; 1181<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.358912,48.647849</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18017 &#177; 1153<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.360574,48.645442</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-15-95</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18286 &#177; 1196<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.325625,48.651496</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-15-80</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17787 &#177; 1200<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.324094,48.646225</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-15-81</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17653 &#177; 1142<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.323519,48.646522</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-15-82</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17895 &#177; 1145<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.322678,48.647172</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16664 &#177; 1066<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.163773,48.743686</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-43</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17292 &#177; 1115<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.163833,48.743642</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-44</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16703 &#177; 1110<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.163739,48.743550</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-46</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17657 &#177; 1142<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.164724,48.743320</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HOTON-14-47</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17237 &#177; 1103<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.164845,48.743534</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGV-15-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18316 &#177; 1184<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.129472,48.793568</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGV-15-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16557 &#177; 1070<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.128281,48.793384</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGV-15-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29715 &#177; 1955<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.125715,48.793399</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGV-15-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13845 &#177; 912<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.124583,48.793693</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGV-15-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25657 &#177; 1650<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.123924,48.793803</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGV-15-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16905 &#177; 1104<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.123528,48.793740</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGV-15-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39843 &#177; 2549<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.123528,48.793741</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGV-15-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15513 &#177; 1016<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.132561,48.811246</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGV-15-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15691 &#177; 1014<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.132320,48.811508</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGV-15-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16336 &#177; 1056<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.131886,48.830322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGV-15-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15829 &#177; 1012<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.133712,48.823420</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGV-15-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15799 &#177; 1010<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.136163,48.816023</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGV-15-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17185 &#177; 1110<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.123579,48.793046</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TKLT-16-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15097 &#177; 978<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.078977,48.969241</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TKLT-16-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14448 &#177; 942<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.080177,48.971589</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TKLT-16-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15020 &#177; 970<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Strand-et-al-2022.txt">Strand et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.081185,48.972330</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
