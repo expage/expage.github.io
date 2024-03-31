@@ -5,13 +5,13 @@ function mucalib14()
 %
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 2, as published by the Free Software Foundation (www.fsf.org).
-% Jakob Heyman - 2016-2023 (jakob.heyman@gu.se)
+% Jakob Heyman - 2016-2024 (jakob.heyman@gu.se)
 
 clear;
 close all;
 
 % What version is this?
-ver = '202306';
+ver = '202403';
 
 % parameters for cluster test / outlier rejection
 cl.minpvalue = 0.05; % lower limit for chi-square p-value

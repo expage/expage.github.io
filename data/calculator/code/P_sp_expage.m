@@ -6,13 +6,13 @@ function out = P_sp_expage(h,Rc,s,w,consts,nucl10,nucl26,nucl14)
 % Sato et al. (2008) Analytical Function Approximation (PARMA)
 % Implemented in MATLAB by Nat Lifton, 2013
 % Purdue University, nlifton@purdue.edu
-% modified by Jakob Heyman (jakob.heyman@gu.se) 2016-2023
+% modified by Jakob Heyman (jakob.heyman@gu.se) 2016-2024
 
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 3, as published by the Free Software Foundation (www.fsf.org).
 
 % what version is this?
-ver = '202306';
+ver = '202403';
 
 % make h,Rc,s row vectors
 h = h(:)';

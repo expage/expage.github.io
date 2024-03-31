@@ -2,22 +2,23 @@ function prodrate()
 
 % Function for 10Be/26Al/14C reference production rate calibration.
 % This is free software: you can use/copy/modify/distribute as long as you keep it free/open.
-% Jakob Heyman - 2015-2023 (jakob.heyman@gu.se)
+% Jakob Heyman - 2015-2024 (jakob.heyman@gu.se)
 
 clear;
 close all;
 tic();
 
 % What version is this?
-ver = '202306';
+ver = '202403';
 
 % do choices here ==================================================================================
 % plotting?
 plsites = 0; % plot Pref probability curves (1 = yes)
 plfull.plot = 1; % plot Pref for samples + sites + total
-plfull.xmax = 0; % max x value in plot (number of sites) - only used if >0
-plfull.printsvg = 0; % print svg file?
+plfull.xmax = 8; % max x value in plot (number of sites) - only used if >0
+plfull.printsvg = 1; % print svg file?
 plfull.printscale = '-S1500,400'; % scale printing - only used if printsvg = 1
+plfull.printscale = '-S1000,500';
 
 % cluster test?
 cl.Pcluster = 1; % exclude outliers to try to achieve a well-clustered group Pref (1 = yes)
@@ -905,8 +906,8 @@ function plot_Pref(Pn,siteP,nucl,pltitle);
 % subfunction plot_fullP ===========================================================================
 function plot_fullP(Pfull,plfull,nucl);
     % fix nuclide specific parameters
-    if nucl == 10; nuclstr = '10Be'; yv = [2 6];
-    elseif nucl == 26; nuclstr = '26Al'; yv = [20 45];
+    if nucl == 10; nuclstr = '10Be'; yv = [1.9 6];
+    elseif nucl == 26; nuclstr = '26Al'; yv = [20 42];
     elseif nucl == 14; nuclstr = '14C'; yv = [5 23]; end;
     
     % fix sites and number of sites

@@ -10,13 +10,13 @@ function burial();
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 2, as published by the Free Software Foundation (www.fsf.org).
 %
-% Jakob Heyman - 2015-2023 (jakob.heyman@gu.se)
+% Jakob Heyman - 2015-2024 (jakob.heyman@gu.se)
 
 clear; close all;
 tic();
 
 % What version is this?
-ver = '202306';
+ver = '202403';
 
 % make choices here ================================================================================
 % exposure + burial and/or erosion + burial? (1 = yes)

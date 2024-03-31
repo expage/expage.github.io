@@ -35,7 +35,7 @@ function out = P_mu_expage(z,h,Rc,SPhi,nucl10,nucl26,nucl14,consts,dflag)
 % Production rate parameterization with fstar and sigma0 is based on the CRONUScalc calculator
 % (Marrero et al. 2016; Phillips et al. 2016) calibration based on Antarctica depth profile.
 % 
-% Modified by Jakob Heyman (jakob.heyman@gu.se) 2015-2023
+% Modified by Jakob Heyman (jakob.heyman@gu.se) 2015-2024
 %
 % Modified by Nat Lifton -- Purdue University 
 % nlifton@purdue.edu
@@ -51,7 +51,7 @@ function out = P_mu_expage(z,h,Rc,SPhi,nucl10,nucl26,nucl14,consts,dflag)
 % General Public License, version 3, as published by the Free Software Foundation (www.fsf.org).
 
 % what version is this?
-ver = '202306';
+ver = '202403';
 
 % make h,Rc,SPhi row vectors
 h = h(:)';

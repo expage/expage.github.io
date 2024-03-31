@@ -13,14 +13,14 @@ function expage_submerge()
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 2, as published by the Free Software Foundation (www.fsf.org).
 %
-% Jakob Heyman - 2015-2023 (jakob.heyman@gu.se)
+% Jakob Heyman - 2015-2024 (jakob.heyman@gu.se)
 
 clear;
 close all;
 tic();
 
 % What version is this?
-ver = '202306';
+ver = '202403';
 
 % plotting? (1 = yes) ==============================================================================
 plots.pointages = 0; % plots exposure ages as points
@@ -30,13 +30,13 @@ plots.seaageelv = 1; % plot sealevels and ages against elevation
 plots.submarea = 0;  % plot submerged time-elevation domain as area
 plots.submline = 0;  % plot submerged time-elevation domain as line (polygon)
 plots.deglac = 0;    % plot vertical lines at sample input delgaciation times
-plots.ymax = 80;    % max elevation for sealevel plot (m a.s.l.) =========================
+plots.ymax = 80;     % max elevation for sealevel plot (m a.s.l.) =========================
 % plot elevation change over time - only valid if input has isostP ========================
 plots.elv = 0;       % plot sample elevation against time (all samples in one plot)
-plots.delv = 1;      % plot sample elevation change against time (all samples in one plot)
+plots.delv = 0;      % plot sample elevation change against time (all samples in one plot)
 plots.elv1 = 0;      % plot single sample elevation against time (NOTE! one plot per sample)
 plots.delv1 = 0;     % plot single sample elevation change against time (NOTE! one plot per sample)
-plots.maxT = 14000;  % max time for elevation plots =======================================
+plots.maxT = 10000;  % max time for elevation plots =======================================
 plots.color10 = 'red'; % color for 10Be
 plots.color26 = 'blue'; % color for 26Al
 plots.color14 = 'green'; % color for 14C

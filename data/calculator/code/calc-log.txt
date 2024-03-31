@@ -2,6 +2,14 @@ Log file for the expage 10Be and 26Al exposure age calculator
 
 ====================================================================================================
 
+expage-202403 calculator
+* Updated the 14C decay constant using the half-life of 5700 ± 30 yr (Kutschera 2013).
+* Updated reference 14C production rate (prodrate-202403).
+* glacialE.m:
+  - Some changes including an option to use multiple icevalues for various time periods.
+
+====================================================================================================
+
 expage-202306 calculator
 * Multiple changes in several functions.
 * Updated the paleomagnetic framwork to use the framework of Lifton (2016) with the SHA.DIF.14k

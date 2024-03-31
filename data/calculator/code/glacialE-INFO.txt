@@ -1,6 +1,6 @@
-Information for glacialE.m (version 202306) calculating erosion rate/depth based on 10Be and/or
+Information for glacialE.m (version 202403) calculating erosion rate/depth based on 10Be and/or
 26Al data from sites with a known or assumed ice cover history. The calculator is fixed by Jakob
-Heyman (jakob.heyman@gu.se) 2017-2023 with production rate (and other) calculations to a large
+Heyman (jakob.heyman@gu.se) 2017-2024 with production rate (and other) calculations to a large
 degree based on the CRONUS calculator (Balco et al. 2008) and the LSD production rate scaling
 (Lifton et al. 2014).
 
@@ -135,9 +135,13 @@ burialdepthv_tv0 - Year zero [CE] used for burialdepthv_tv.
 shieldv - Shielding factor(s). Column vector if using multiple time periods.
 shieldv_tv - Time period(s) in which the shielding factor specified in shieldv is used.
 shieldv_tv0 - Year zero [CE] used for shieldv_tv.
+icevaluev - Ice value(s) for ice cover period. Column vector if using multiple time periods.
+icevaluev_tv - Time period(s) in which the ice value specified in icevaluev is used.
+icevaluev_tv0 - Year zero [CE] used for icevaluev_tv.
 ice_tv - Time period(s) with ice cover (overrides ice cover determined by iceproxy and icevalue).
 ice_tv0 - Year zero [CE] used for ice_tv.
 noice_tv - Ice free time period(s) (overrides ice cover determined by iceproxy/icevalue and ice_tv).
+noice_tv0 - Year zero [CE] used for noice_tv.
 
 
 glacialE.m SETTINGS:

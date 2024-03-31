@@ -8,13 +8,13 @@ function expage()
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 2, as published by the Free Software Foundation (www.fsf.org).
 %
-% Jakob Heyman - 2015-2023 (jakob.heyman@gu.se)
+% Jakob Heyman - 2015-2024 (jakob.heyman@gu.se)
 
 clear;
 tic();
 
 % What version is this?
-ver = '202306';
+ver = '202403';
 
 % plotting? (1 = yes) ==============================================================================
 plots.pointages = 0; % plot exposure ages as points
@@ -568,8 +568,8 @@ function plot_probdens(agem,Pref,Prefunc,nucl_legend,xmaxmax);
 
     if numel(ages)>1;
         % calculate weigthed mean age and uncertainty
-    %    [wage,wunc] = w_mean_unc(ages,uncs);
-        [wage,wunc,rchi,pvalue] = w_mean_unc(ages,uncs,1)
+        %[wage,wunc] = w_mean_unc(ages,uncs);
+        [wage,wunc,rchi,pvalue] = w_mean_unc(ages,uncs,1);
         wuncp = sqrt(wunc^2 + (wage.*mean(Prefunc./Pref))^2) % add prodrate uncertainty
         
         % plot grey age uncertainty regions

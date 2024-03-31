@@ -150,7 +150,6 @@ elseif strcmp(site,'LeymonHigh14');
     
     % depth profile 14C concentrations and depths
     % data source: Lupker et al. (2015)
-    % sample LH731 excluded as an outlier
     % {sample_name  dz14(g/cm2)  N14(at/g)  N14unc(at/g)}
     depth_profile14 = ...
     {'LH1'	2.6	306500	54900

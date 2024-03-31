@@ -5,14 +5,14 @@ function depthcalc()
 % lines 18-19 below). The calculation is done using the expage calculator production rates (nuclide-
 % specific LSD scaling). At least two concentrations must be given for the calculator to work.
 % This is free software: you can use/copy/modify/distribute as long as you keep it free/open.
-% Jakob Heyman - 2015-2023 (jakob.heyman@gu.se)
+% Jakob Heyman - 2015-2024 (jakob.heyman@gu.se)
 
 clear;
 close all;
 tic();
 
 % What version is this?
-ver = '202306';
+ver = '202403';
 
 % make choices here ================================================================================
 % use absolute concentration uncertainties for depth profile matching (1 = yes)

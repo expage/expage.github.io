@@ -10,9 +10,9 @@ function out = make_consts_expage();
 % This program is free software; you can redistribute it and/or modify it under the terms of the GNU
 % General Public License, version 3, as published by the Free Software Foundation (www.fsf.org).
 %
-% Jakob Heyman - 2018-2023 (jakob.heyman@gu.se)
+% Jakob Heyman - 2018-2024 (jakob.heyman@gu.se)
 
-consts.version = '202306';
+consts.version = '202403';
 consts.prepdate = fix(clock);
 
 % Be-10 decay constant -- new Euro value
@@ -26,10 +26,10 @@ consts.l10unc = sqrt((dldt.*0.012e6)^2); % Chmeleff/Korschinek value
 consts.l26 = 9.83e-7; 
 consts.l26unc = 2.5e-8;
 
-% C-14 decay constant -- t(1/2) = 5730 ± 40 yr (Godwin 1962)
-consts.l14 = -log(0.5)./5730;
-dldt = -log(0.5).*(5730^-2);
-consts.l14unc = sqrt((dldt.*40)^2);
+% C-14 decay constant -- t(1/2) = 5700 ± 30 yr (Kutschera 2013)
+consts.l14 = -log(0.5)./5700;
+dldt = -log(0.5).*(5700^-2);
+consts.l14unc = sqrt((dldt.*30)^2);
 
 % Effective attenuation length for spallation in rock
 % Commonly accepted value: 160 g/cm2 (Gosse and Phillips 2001)
@@ -53,7 +53,7 @@ consts.std26_cf = [1 0.9134 1 1.021 1.021 1 1 1]';
 % 10Be production rates are referenced to 07KNSTD.
 % 26Al production rates are referenced to KNSTD.
 
-% Be-10 production rates - global expage-202306 ref prod rate
+% Be-10 production rates - global expage-202403 ref prod rate
 consts.Pref10 = 4.06;
 consts.Pref10unc = 0.25;
 consts.Pref10iso = 4.08;
@@ -61,7 +61,7 @@ consts.Pref10isounc = 0.26;
 consts.P10_ref_sp = 4; % not used and not calibrated!
 consts.delP10_ref_sp = 0.3; % not used and not calibrated!
 
-% Al-26 production rates - global expage-202306 ref prod rate
+% Al-26 production rates - global expage-202403 ref prod rate
 consts.Pref26 = 28.31;
 consts.Pref26unc = 2.22;
 consts.Pref26iso = 28.19;
@@ -69,11 +69,11 @@ consts.Pref26isounc = 2.35;
 consts.P26_ref_sp = 28; % not used and not calibrated!
 consts.delP26_ref_sp = 3; % not used and not calibrated!
 
-% C-14 production rates - global expage-202306 ref prod rate
-consts.Pref14 = 13.30;
-consts.Pref14unc = 1.13;
-consts.Pref14iso = 13.25;
-consts.Pref14isounc = 1.04;
+% C-14 production rates - global expage-202403 ref prod rate
+consts.Pref14 = 12.81;
+consts.Pref14unc = 1.25;
+consts.Pref14iso = 12.76;
+consts.Pref14isounc = 1.16;
 
 % Muon interaction cross-sections. All follow Heisinger (2002a,b).
 consts.Natoms10 = 2.006e22;
@@ -82,7 +82,7 @@ consts.Natoms14 = 2.006e22;
 consts.Natoms3 = 2.006e22; % not used in present version
 
 % sigma0 and fstar calibrated for the expage calculator using mucalib.m (mucalib14.m for 14C)
-% (ref prodrate expage-202306)
+% (ref prodrate expage-202403)
 consts.sigma0_10nu = 1.792e-31;
 consts.delsigma0_10nu = 0.399e-31;
 consts.fstar10nu = 1.587e-3;
@@ -91,10 +91,10 @@ consts.sigma0_26nu = 2.651e-30;
 consts.delsigma0_26nu = 1.218e-30;
 consts.fstar26nu = 1.030e-2;
 consts.delfstar26nu = 0.635e-2;
-consts.sigma0_14nu = 0.739e-31;
-consts.delsigma0_14nu = 124.471e-31;
-consts.fstar14nu = 1.321e-1;
-consts.delfstar14nu = 1.034e-1;
+consts.sigma0_14nu = 0.792e-31;
+consts.delsigma0_14nu = 125.111e-31;
+consts.fstar14nu = 1.355e-1;
+consts.delfstar14nu = 1.040e-1;
 
 % sigma0 and fstar from CRONUScalc calculator (Marrero et al. 2016; Phillips et al. 2016)
 % not used in present version

@@ -5,14 +5,14 @@ function glacialEdepth();
 % Interpolates the best fitting glacial erosion to yield the 10Be and/or 26Al conc given as input
 % based on the time-dependent cosmogenic nuclide production rate.
 % This is free software: you can use/copy/modify/distribute as long as you keep it free/open.
-% Jakob Heyman (jakob.heyman@gu.se) 2018-2023
+% Jakob Heyman (jakob.heyman@gu.se) 2018-2024
 
 clear;
 close all;
 tic();
 
 % What version is this?
-ver = '202306';
+ver = '202403';
 
 % =============== MAKE CHOICES HERE ================================================================
 % max time (determines the start of the simulation - max 1E7)
@@ -33,10 +33,11 @@ plch.depth = 0;         % plot sample depth
 plch.P = 0;             % plot sample production
 plch.N = 0;             % plot nuclide build-up
 plch.Pprcnt = 1;         % plot sample production as percent of P at time 0
+plch.Nprcnt = 0;        % plot sample conc as percent of N at time 0
 plch.combined = 0;      % plot 10Be and 26Al data together? (requires combined_full ~= 1)
 plch.combined_full = 0; % plot 10Be, 26Al and potential combined 1020 data together?
 plch.uncline = 0;       % plot uncertainties as lines instead of areas?
-plch.banana = 0;        % plot 26/10 banana
+plch.banana = 0;        % plot 26/10 banana - only possible when nucl1026 = 1
 plch.maxt = 120000;     % max time for plotting (yr)
 plch.maxt = plch.maxt.*1E-3; % change to ka
 plch.maxd = 10;         % max depth for plotting (m)
@@ -102,22 +103,25 @@ Etestv = [(0:0.01:0.99) logspace(0,4,900)]; % mm/ka or cm/glac
 % variable names for input with variable names in first line
 varnames = {'sample','Pflag','std10','std26','isostsubm','isostP','glacErv','glacErv_tv',...
     'glacEiv','glacEiv_tv','erosionv','erosionv_tv','burialdepthv','burialdepthv_tv','shieldv',...
-    'shieldv_tv','ice_tv','noice_tv','lat','long','elv','depth','thick','depthmin','depthmax',...
-    'dens','densunc','shield','erosion','erosionunc','N10','N10unc','N26','N26unc','N14',...
-    'N14unc','samplingyr','pressure','deglac','deglacunc','icevalue','icevalueunc','glacE',...
-    'glacEunc','isostsubmunc','simt','simtunc','densmin','densmax','erosionmin','erosionmax',...
-    'deglacmin','deglacmax','icevaluemin','icevaluemax','glacEmin','glacEmax','isostsubmmin',...
-    'isostsubmmax','simtmin','simtmax','isostPmod','isostsubmmod','glacErv_tv0','glacEiv_tv0',...
-    'erosionv_tv0','burialdepthv_tv0','shieldv_tv0','ice_tv0','noice_tv0'};
+    'shieldv_tv','icevaluev','icevaluev_tv','ice_tv','noice_tv','lat','long','elv','depth',...
+    'thick','depthmin','depthmax','dens','densunc','shield','erosion','erosionunc','N10',...
+    'N10unc','N26','N26unc','N14','N14unc','samplingyr','pressure','deglac','deglacunc',...
+    'icevalue','icevalueunc','glacE','glacEunc','isostsubmunc','simt','simtunc','densmin',...
+    'densmax','erosionmin','erosionmax','deglacmin','deglacmax','icevaluemin','icevaluemax',...
+    'glacEmin','glacEmax','isostsubmmin','isostsubmmax','simtmin','simtmax','isostPmod',...
+    'isostsubmmod','glacErv_tv0','glacEiv_tv0','erosionv_tv0','burialdepthv_tv0','shieldv_tv0',...
+    'icevalue_tv0','ice_tv0','noice_tv0'};
 vartypes = {'%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s',...
-    '%s','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n',...
+    '%s','%s','%s','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n',...
     '%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n',...
-    '%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n'};
+    '%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n','%n',...
+    '%n','%n'};
 
 % optional variables for pars
 opt_pars = {'glacErv','glacErv_tv','glacErv_tv0','glacEiv','glacEiv_tv','glacEiv_tv0','erosionv',...
     'erosionv_tv','erosionv_tv0','burialdepthv','burialdepthv_tv','burialdepthv_tv0','shieldv',...
-    'shieldv_tv','shieldv_tv0','ice_tv','ice_tv0','noice_tv','noice_tv0'};
+    'shieldv_tv','shieldv_tv0','icevaluev','icevaluev_tv','icevalue_tv0','ice_tv','ice_tv0',...
+    'noice_tv','noice_tv0'};
 
 % read input file
 fid = fopen('input.txt');
@@ -137,10 +141,20 @@ for i = 1:numel(varsin); % fix variables
     samplein.(varsin{i}) = indata{i};
 end;
 fclose(fid);
+% ==================================================================================================
+
+% if there is no N10/N26/N14 in input: fill with 0
+if isfield(samplein,'N10') == 0; samplein.N10(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'N10unc') == 0; samplein.N10unc(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'std10') == 0; samplein.std10(1:numel(samplein.sample),1) = {'0'}; end;
+if isfield(samplein,'N26') == 0; samplein.N26(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'N26unc') == 0; samplein.N26unc(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'std26') == 0; samplein.std26(1:numel(samplein.sample),1) = {'0'}; end;
+if isfield(samplein,'N14') == 0; samplein.N14(1:numel(samplein.sample),1) = 0; end;
+if isfield(samplein,'N14unc') == 0; samplein.N14unc(1:numel(samplein.sample),1) = 0; end;
 
 % check differences in input samples and take average of number values
 sample = inputfix(samplein);
-% ==================================================================================================
 
 % fix for sensitivity calculations
 if uncsens.yes == 0;
@@ -156,16 +170,6 @@ load consts_expage;
 l10 = consts.l10; l10unc = consts.l10unc;
 l26 = consts.l26; l26unc = consts.l26unc;
 l14 = consts.l14; l14unc = consts.l14unc;
-
-% if there is no N10/N26/N14 in input: fill with 0
-if isfield(samplein,'N10') == 0; samplein.N10(1:numel(samplein.sample),1) = 0; end;
-if isfield(samplein,'N10unc') == 0; samplein.N10unc(1:numel(samplein.sample),1) = 0; end;
-if isfield(samplein,'std10') == 0; samplein.std10(1:numel(samplein.sample),1) = {'0'}; end;
-if isfield(samplein,'N26') == 0; samplein.N26(1:numel(samplein.sample),1) = 0; end;
-if isfield(samplein,'N26unc') == 0; samplein.N26unc(1:numel(samplein.sample),1) = 0; end;
-if isfield(samplein,'std26') == 0; samplein.std26(1:numel(samplein.sample),1) = {'0'}; end;
-if isfield(samplein,'N14') == 0; samplein.N14(1:numel(samplein.sample),1) = 0; end;
-if isfield(samplein,'N14unc') == 0; samplein.N14unc(1:numel(samplein.sample),1) = 0; end;
 
 % if there is NaN in N10/N26/N14: replace with 0
 samplein.N10(isnan(samplein.N10)) = 0;
@@ -347,9 +351,6 @@ LSDfix = LSD_fix(sample.lat,sample.long,sample.mt,-1,sample.samplingyr,consts);
 Pmu_z = P_mu_expage(z_mu,sample.pressure,LSDfix.RcEst,consts.SPhiInf,nucl10,nucl26,nucl14,consts,...
     'no');
 
-% include tv in sample
-sample.tv = LSDfix.tv(:);
-
 % fix ice proxy
 iceproxy = interp1(iceproxy_tv,iceproxyin,sample.tv+iceproxy_startyr-sample.samplingyr);
 
@@ -519,6 +520,8 @@ for i = 1:numel(samplein.lat);
         np10.Nmc = normrnd(sample.N10,sample.N10unc,[1 mc]); % N vect for N uncertainty estimation
         % calculate erosion and internal unc
         N10E = nuclE(pars,prp2,np10,Etestv,mc,glaccalc);
+    else;
+        np10 = [];
     end;
     if nucl26 == 1; % 26Al
         % fix nuclide conc
@@ -526,6 +529,8 @@ for i = 1:numel(samplein.lat);
         np26.Nmc = normrnd(sample.N26,sample.N26unc,[1 mc]); % N vect for N uncertainty estimation
         % calculate erosion and internal unc
         N26E = nuclE(pars,prp2,np26,Etestv,mc,glaccalc);
+    else;
+        np26 = [];
     end;
     if nucl14 == 1; % 14C
         % fix nuclide conc
@@ -533,6 +538,8 @@ for i = 1:numel(samplein.lat);
         np14.Nmc = normrnd(sample.N14,sample.N14unc,[1 mc]); % N vect for N uncertainty estimation
         % calculate erosion and internal unc
         N14E = nuclE(pars,prp2,np14,Etestv,mc,glaccalc);
+    else;
+        np14 = [];
     end;
 
     % nuclide-specific uncertainty calculations
@@ -592,8 +599,8 @@ nuclstr = {'10','10','26','26','14','14'};
 fprintf(1,'Full depth profile data:');
 for j = 1:numel(ristr);
     if isfield(pl.dp,[ristr{j} nuclstr{j}]);
-        [output pl.dp] = get_dpE(output,pl.dp,ristr{j},nuclstr{j},pars,np10,np26,prp1,glaccalc,...
-            outcol,mc);
+        [output pl.dp] = get_dpE(output,pl.dp,ristr{j},nuclstr{j},pars,np10,np26,np14,prp1,...
+            glaccalc,outcol,mc);
     end;
 end;
 for j = 1:2;
@@ -660,7 +667,7 @@ end;
 % ==========================================================
 
 toc()
-%~ clear; clear plch; clear plch;
+%~ clear;
 % end glacialEdepth function =======================================================================
 
 
@@ -943,7 +950,11 @@ function NE = Ecalc(Nend,Evect,N);
     N(N<min(Nend)) = min(Nend);
     N(N>max(Nend)) = max(Nend);
     % interpolate erosion
-    NE = interp1(Nend,Evect,N,'pchip');
+    if numel(Nend)>1;
+        NE = interp1(Nend,Evect,N,'pchip');
+    else; % sample is saturated and we set the erosion to zero
+        NE = 0;
+    end;
 % end subfunction Ecalc ============================================================================
 
 
@@ -1414,17 +1425,20 @@ function [output,pl] = depthPconc(output,pl,pars,parsu,prp1,prpunc,Emid,uncp,Ev,
     end;
     % plot N ==============================================================
     if any(strcmp(nstr,{'10','26','14'})) && plch.N==1;
+	% normalize to N at t = 0
+        if plch.Nprcnt == 1; N0 = Nmid(1)/100; else; N0 = 1; end;
+
         % calculate N and uncertainty through simulation tv
         Nmid = Npathcalc(pars.tv,Pmid,np.l)';
         Nmunc = Npathcalc(pars.tv,Pmunc,np.l)';
         Nmidm = repmat(Nmid,size(Nmunc,1),1);
         Nmuncp = Nmunc; Nmuncp(Nmuncp<Nmidm) = NaN;
         Nmuncn = Nmunc; Nmuncn(Nmuncn>=Nmidm) = NaN;
-        Np = prctile(Nmuncp,68.27)' ./ Nmid(1) .* 1E2;
-        Nn = prctile(Nmuncn,31.73)' ./ Nmid(1) .* 1E2;
+        Np = prctile(Nmuncp,68.27)' ./ N0;
+        Nn = prctile(Nmuncn,31.73)' ./ N0;
         
         % save N and pos and neg uncertainty for plotting
-        pl.([ri nstr 'N']).y(1:numel(Nmid),end+1) = Nmid ./ Nmid(1) .* 1E2;
+        pl.([ri nstr 'N']).y(1:numel(Nmid),end+1) = Nmid ./ N0;
         pl.([ri nstr 'N']).yunc(1:numel(Pmid)*2,end+1) = [flip(Np);Nn];
         pl.([ri nstr 'N']).t(1:numel(pars.tv),end+1) = pars.tv.*1E-3;
         pl.([ri nstr 'N']).tunc(1:numel(pars.tv)*2,end+1) = [flip(pars.tv.*1E-3);pars.tv.*1E-3];
@@ -1441,8 +1455,14 @@ function pl = plfix(plch,sample,nucl1026,glacErate,glacEstep,sensstr);
     % fix for dPN figures
     dPN = {}; leg = {};
     if plch.depth == 1; dPN(end+1) = {'d'}; leg(end+1) = {'Sample depth (m)'}; end;
-    if plch.P == 1; dPN(end+1) = {'P'}; leg(end+1) = {'P (atoms/g/yr)'}; end;
-    if plch.N == 1; dPN(end+1) = {'N'}; leg(end+1) = {'N (%)'}; end;
+    if plch.P == 1;
+        dPN(end+1) = {'P'};
+        if plch.Pprcnt == 1; leg(end+1) = {'P (%)'}; else; leg(end+1) = {'P (atoms/g/yr)'}; end;
+    end;
+    if plch.N == 1;
+        dPN(end+1) = {'N'};
+        if plch.Nprcnt == 1; leg(end+1) = {'N (%)'}; else; leg(end+1) = {'N (atoms/g)'}; end;
+    end;
     for j = 1:numel(dPN);
         if sum(sample.N10) > 0;
             if glacErate == 1; [pl,num] = plfixdPN(pl,num,plch,'r','10',dPN{j},leg{j}); end;
@@ -1461,12 +1481,11 @@ function pl = plfix(plch,sample,nucl1026,glacErate,glacEstep,sensstr);
             if glacEstep == 1; [pl,num] = plfixdPN(pl,num,plch,'i','1026','d',leg{j}); end;
         end;
     end;
-    % vectors for sensitivity and depth profile figure fixing
-    ratestepv = [glacErate glacEstep glacErate glacEstep glacErate glacEstep];
-    riv = {'r','i','r','i','r','i'};
-    nuclv = {'10','10','26','26','14','14'};
     % fix for sensitivity figures
     if numel(sensstr) > 0;
+	ratestepv = [glacErate glacEstep glacErate glacEstep glacErate glacEstep];
+    	riv = {'r','i','r','i','r','i'};
+    	nuclv = {'10','10','26','26','14','14'};
         for j = 1:6;
             if sum(sample.(['N' nuclv{j}]))>0 && ratestepv(j)==1;
                 pl.(['sens' nuclv{j} riv{j}]).pos = [];
@@ -1766,7 +1785,7 @@ function pl = plot_dPN(pl,plch,dPN,nucl,ri);
     xlim([0 plch.maxt]);
     % fix reversed y-axis for depth plot
     if strcmp(dPN,'d'); ylim([0 plch.maxd]); axis('ij'); end;
-    % fix x-axisEmid
+    % fix x-axis
     xlim([0 plch.maxt]); set(gca(),'xdir','reverse');
     % fix axis labels
     xlabel('Time (ka)'); ylabel(pl.([ri nucl dPN]).yleg);
@@ -1865,38 +1884,13 @@ function [outx,outy] = bananaNunc(N10n,N26n,N10uncn,N26uncn);
 % subfunction Npathcalc ============================================================================
 function Nm = Npathcalc(tv,P,l);    
     % fix flipped full prod matrices and tv matrix
-    Pm = flip(P);
-    tvflip = flip(tv);
-    % calculate mean P, fix tv change vector and check for varying time steps
-    Pmean = (Pm(1:end-1,:)+Pm(2:end,:))./2;
-    dtv = tvflip(1:end-1) - tvflip(2:end);
-    fidx = min(find(dtv(1:end-1)-dtv(2:end)==0));
+    Pfl = flip(P);
+    tvfl = flip(tv);
     % fix output N matric
-    Nm(1,size(Pm,2)) = 0;
-    % for loop used for first part with varying time steps
-    if fidx > 1;
-        for i = 1:fidx-1;
-            Nm(i+1,:) = (Nm(end,:) + Pmean(i,:).*(tvflip(i)-tvflip(i+1))) .* ...
-                exp(-(tvflip(i)-tvflip(i+1)).*l);
-        end;
-        % remove calculated steps
-        tvflip(1:fidx-1) = [];
-        dtv(1:fidx-1) = [];
-        Pmean(1:fidx-1,:) = [];
-    end;
-    % while loop used for filtering parts with constant time step
-    while numel(tvflip) > 1;
-        widx = max(find(dtv==dtv(1)));
-        Ptemp = Pmean(1:widx,:).*dtv(1);
-        Ptemp(2:end+1,:) = Ptemp;
-        Ptemp(1,:) = Nm(end,:);
-        decay = -exp(-l.*dtv(1));
-        Ntemp = filter(1,[1,decay],Ptemp);
-        Nm(end+1:end+widx,:) = Ntemp(2:end,:);
-        % remove calculated steps
-        tvflip(1:widx) = [];
-        dtv(1:widx) = [];
-        Pmean(1:widx,:) = [];
+    Nm(1,size(Pfl,2)) = 0;
+    % calculate N through time
+    for i = 1:numel(tvfl)-1;
+        Nm(i+1,:) = (Nm(end,:) + Pfl(i,:).*(tvfl(i)-tvfl(i+1))) .* exp(-(tvfl(i)-tvfl(i+1)).*l);
     end;
     Nm = flip(Nm);
 % end subfunction Npathcalc ========================================================================
@@ -1989,7 +1983,7 @@ function plot_banana(pl,consts,z);
 
 
 % subfunction get_dpE ==============================================================================
-function [output,dp] = get_dpE(output,dp,ri,nstr,pars,np10,np26,prp1,glaccalc,outcol,mc);
+function [output,dp] = get_dpE(output,dp,ri,nstr,pars,np10,np26,np14,prp1,glaccalc,outcol,mc);
 % calculate and display depth profile weighted average erosion plus reduced chi-square and P-value
     if strcmp(nstr,'10'); nstr1 = '10Be'; elseif strcmp(nstr,'26'); nstr1 = '26Al'; end;
     % fix unit string
@@ -2016,7 +2010,9 @@ function [output,dp] = get_dpE(output,dp,ri,nstr,pars,np10,np26,prp1,glaccalc,ou
     % fix mid-point erosion parameter for depth matrix
     if glaccalc == 1; pars.glacE = Emid; else; pars.erosion = Emid; end;
     % fix np
-    if strcmp(nstr,'10'); np = np10; elseif strcmp(nstr,'26'); np = np26; end;
+    if strcmp(nstr,'10'); np = np10;
+    elseif strcmp(nstr,'26'); np = np26;
+    elseif strcmp(nstr,'14'); np = np14; end;
     % fix glacErate/glacEstep
     if strcmp(ri,'r'); glacErate = 1; glacEstep = 0; else; glacErate = 0; glacEstep = 1; end;
     % calculate depth for mid-point E
@@ -2266,7 +2262,7 @@ function z = trapz_m(x,y);
 
 
 % subfunction get_waterdepth =======================================================================
-function waterdm = get_waterdepth(elv,delv,icem,tv);
+function [waterdm,delvmfull] = get_waterdepth(elv,delv,icem,tv);
     % fix ice matrix
     if size(delv,2)>1 && size(icem,2)==1;
         icem = repmat(icem,1,size(delv,2));
@@ -2324,6 +2320,18 @@ function [sample,LSDfix,pars] = add_tv_points(sample,LSDfix,iceproxytv,iceproxyi
 % add time points for ice cover start/end and potential submergence
     % adjust ice proxy to tv
     iceproxy = interp1(iceproxytv,iceproxyin,LSDfix.tv+iceproxy_startyr-sample.samplingyr);
+
+    % fix icevalue vector if using time-varying icevalue
+    if isfield(sample,'icevaluev') && isfield(sample,'icevaluev_tv');
+        sample.icevalue(1,1:numel(LSDfix.tv)) = sample.icevalue;
+        sample.icevaluev = str2num(sample.icevaluev{1});
+        sample.icevaluev_tv = str2num(sample.icevaluev_tv{1});
+        sample.tv = LSDfix.tv;
+        minmaxv = fix_minmaxv(sample,'icevaluev');
+        for j = 1:size(minmaxv,1);
+            sample.icevalue(1,minmaxv(j,1):minmaxv(j,2)) = sample.icevaluev(j);
+        end;
+    end;
     
     % find break points based on iceproxy and icevalue
     glac1 = find(diff(iceproxy >= sample.icevalue) == -1);
@@ -2332,8 +2340,14 @@ function [sample,LSDfix,pars] = add_tv_points(sample,LSDfix,iceproxytv,iceproxyi
     deglac2 = deglac1 + 1;
     
     % find ratio (icevalue-idx1)/(idx2-idx1)
-    glacratio = (sample.icevalue-iceproxy(glac1))./(iceproxy(glac2)-iceproxy(glac1));
-    deglacratio = (sample.icevalue-iceproxy(deglac1))./(iceproxy(deglac2)-iceproxy(deglac1));
+    if numel(sample.icevalue) == 1;
+        glacratio = (sample.icevalue-iceproxy(glac1))./(iceproxy(glac2)-iceproxy(glac1));
+        deglacratio = (sample.icevalue-iceproxy(deglac1))./(iceproxy(deglac2)-iceproxy(deglac1));
+    else;
+        glacratio = (sample.icevalue(glac1)-iceproxy(glac1))./(iceproxy(glac2)-iceproxy(glac1));
+        deglacratio = (sample.icevalue(deglac1)-iceproxy(deglac1))./...
+            (iceproxy(deglac2)-iceproxy(deglac1));
+    end;
     
     % find exact time points based on linear interpolation
     glactv = LSDfix.tv(glac1)+(LSDfix.tv(glac2)-LSDfix.tv(glac1)).*glacratio;
@@ -2350,8 +2364,8 @@ function [sample,LSDfix,pars] = add_tv_points(sample,LSDfix,iceproxytv,iceproxyi
     % fix specified ice periods if using ice_tv
     if isfield(sample,'ice_tv');
         if isfield(sample,'ice_tv0'); % fix year 0
-            icetv = sample.ice_tv + sample.samplingyr - sample.ice_tv0;
-        else; icetv = sample.ice_tv; end;
+            icetv = str2num(sample.ice_tv{1}) + sample.samplingyr - sample.ice_tv0;
+        else; icetv = str2num(sample.ice_tv{1}); end;
         for j = 1:size(icetv,1);
             % remove points within icetv periods
             glactv((glactv<=icetv(j,2))==(glactv>=icetv(j,1))) = [];
@@ -2373,8 +2387,8 @@ function [sample,LSDfix,pars] = add_tv_points(sample,LSDfix,iceproxytv,iceproxyi
     % fix specified ice free periods if using noice_tv
     if isfield(sample,'noice_tv');
         if isfield(sample,'noice_tv0'); % fix year 0
-            noicetv = sample.noice_tv + sample.samplingyr - sample.noice_tv0;
-        else; noicetv = sample.noice_tv; end;
+            noicetv = str2num(sample.noice_tv{1}) + sample.samplingyr - sample.noice_tv0;
+        else; noicetv = str2num(sample.noice_tv{1}); end;
         for j = 1:size(noicetv,1);
             % remove points within noicetv periods
             glactv((glactv<=noicetv(j,2))==(glactv>=noicetv(j,1))) = [];
@@ -2400,6 +2414,9 @@ function [sample,LSDfix,pars] = add_tv_points(sample,LSDfix,iceproxytv,iceproxyi
     LSDfix.Rc = interp1(LSDfix.tv,LSDfix.Rc,sample.tv);
     LSDfix.SPhi = interp1(LSDfix.tv,LSDfix.SPhi,sample.tv);
     pars.iceproxy = interp1(LSDfix.tv,iceproxy,sample.tv(:));
+    if numel(sample.icevalue) > 1;
+        sample.icevalue = interp1(LSDfix.tv,sample.icevalue,sample.tv(:));
+    end;
     sample.tv = sample.tv(:);
 
     % fix submergence vectors if using isostatic adjustment
@@ -2439,6 +2456,9 @@ function [sample,LSDfix,pars] = add_tv_points(sample,LSDfix,iceproxytv,iceproxyi
         pars.iceproxy = interp1(sample.tv,pars.iceproxy,newtv);
         pars.waterdm = interp1(sample.tv,pars.waterdm,newtv);
         sample.delv = interp1(sample.tv,sample.delv,newtv);
+        if numel(sample.icevalue) > 1;
+            sample.icevalue = interp1(sample.tv,sample.icevalue,newtv);
+        end;
         sample.tv = newtv;
     end;
 % end subfunction add_tv_points ====================================================================
