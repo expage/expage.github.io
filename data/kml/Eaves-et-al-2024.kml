@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Eaves et al. (2024)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>A1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15038 &#177; 1173<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59351,-42.16202</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14646 &#177; 1268<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59280,-42.16189</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15190 &#177; 1410<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59194,-42.16165</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13394 &#177; 1154<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59510,-42.15701</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13897 &#177; 1394<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59440,-42.15703</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15468 &#177; 1397<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59405,-42.15705</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>B1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12841 &#177; 1109<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59334,-42.16182</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>B2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14016 &#177; 1054<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59304,-42.16167</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>B3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14682 &#177; 1094<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59269,-42.16117</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>B5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12720 &#177; 966<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59526,-42.15725</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>B6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13713 &#177; 1066<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59491,-42.15728</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12818 &#177; 1091<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59524,-42.15826</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12848 &#177; 1056<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59503,-42.15844</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12603 &#177; 1058<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59461,-42.15851</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18189 &#177; 3341<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59429,-42.15880</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12303 &#177; 1014<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.59479,-42.16068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>D1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10955 &#177; 975<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.60062,-42.16119</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>D2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12211 &#177; 996<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.60049,-42.16119</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13997 &#177; 1176<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.60083,-42.15797</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13037 &#177; 1051<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.60091,-42.15807</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35033 &#177; 2734<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.60124,-42.15929</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13647 &#177; 1114<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.60141,-42.15919</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12693 &#177; 1038<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Eaves-et-al-2024.txt">Eaves et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.60128,-42.15912</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

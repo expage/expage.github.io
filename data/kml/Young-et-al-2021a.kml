@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Young et al. (2021a)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>13ELB-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9860 &#177; 639<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.20550,70.14660</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13ELB-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9880 &#177; 640<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.19710,70.14620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13ELB-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9660 &#177; 634<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.19360,70.14660</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BAC-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12063 &#177; 816<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.67410,66.76820</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BAC-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11848 &#177; 834<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.67520,66.77060</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BAC-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11547 &#177; 795<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.67770,66.77130</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BAC-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6805 &#177; 478<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.68190,66.76920</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BAC-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27961 &#177; 1880<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.29590,66.76590</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BAC-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8276 &#177; 587<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.68290,66.76970</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BAC-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8430 &#177; 603<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.68610,66.77170</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BAC-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8934 &#177; 639<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.69030,66.77350</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BAC-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8948 &#177; 650<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.29800,66.75980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BAC-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8863 &#177; 613<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.70980,66.77520</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BAC-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8804 &#177; 660<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.71080,66.77520</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BRR-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8729 &#177; 717<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.30360,66.75450</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BRR-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8728 &#177; 671<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.30520,66.75430</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BRR-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8079 &#177; 577<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.28510,66.76560</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BRR-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8332 &#177; 591<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.29130,66.76580</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BRR-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8882 &#177; 617<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.29280,66.76580</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BRR-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8433 &#177; 591<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.29590,66.76590</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BRR-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8474 &#177; 588<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.30360,66.76550</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BRR-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4901 &#177; 353<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.28950,66.75660</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BRR-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8621 &#177; 787<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.28090,66.75690</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BRR-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8916 &#177; 757<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.28270,66.75690</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BRR-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6482 &#177; 477<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.28480,66.75670</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BRR-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8702 &#177; 673<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.30090,66.75640</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BRR-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8405 &#177; 617<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.29870,66.76210</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15BRR-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14515 &#177; 1032<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Young-et-al-2021a.txt">Young et al. (2021a)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-62.30020,66.75840</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Jomelli et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>CQ-13-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 613 &#177; 67<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11476,-16.31155</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CQ-13-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 413 &#177; 56<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11437,-16.31158</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cb-12 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 281 &#177; 67<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11478,-16.31157</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ch-M1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 502 &#177; 71<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11580,-16.31132</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ch-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 535 &#177; 68<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11619,-16.31141</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ch-LIA</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 558 &#177; 52<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11625,-16.31011</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ch-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 625 &#177; 70<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11568,-16.31132</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>R-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 527 &#177; 44<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11340,-16.31204</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>R-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 293 &#177; 62<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11390,-16.31193</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cq-13-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11086 &#177; 804<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11692,-16.31195</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cq-13-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10739 &#177; 725<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11669,-16.31211</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cq-13-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13179 &#177; 904<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11611,-16.31267</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cb-15 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10104 &#177; 717<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11670,-16.31193</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cb-17 </name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10975 &#177; 761<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11666,-16.31217</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CQ11-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1347 &#177; 154<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11037,-16.28633</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CQ11-1replicate</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1301 &#177; 275<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11037,-16.28633</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CQ2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1480 &#177; 273<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11042,-16.28580</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CQ11-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1211 &#177; 231<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11034,-16.28446</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CQ11-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4568 &#177; 690<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11034,-16.28446</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10984 &#177; 758<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11483,-16.28144</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10919 &#177; 1067<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11439,-16.28188</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CNB-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10732 &#177; 736<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11442,-16.28138</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CQ11-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10611 &#177; 1715<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-68.11036,-16.28339</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55 &#177; 24<br/>
+<sup>14</sup>C: 33 &#177; 64<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a><br/>Gorin et al. (2024)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.10237,-16.29507</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 73 &#177; 22<br/>
+<sup>14</sup>C: 16 &#177; 55<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a><br/>Gorin et al. (2024)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.10281,-16.29385</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 87 &#177; 29<br/>
+<sup>14</sup>C: 85 &#177; 93<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a><br/>Gorin et al. (2024)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.10301,-16.29255</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P3Bis</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 110 &#177; 29<br/>
+<sup>14</sup>C: 85 &#177; 91<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a><br/>Gorin et al. (2024)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.10293,-16.29206</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2751 &#177; 195<br/>
+<sup>14</sup>C: 587 &#177; 152<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a><br/>Gorin et al. (2024)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.10618,-16.28814</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3387 &#177; 291<br/>
+<sup>14</sup>C: 852 &#177; 174<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a><br/>Gorin et al. (2024)
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.10615,-16.28833</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10370 &#177; 714<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.17523,45.18576</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9447 &#177; 1358<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.17506,45.18494</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9185 &#177; 1049<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.17488,45.18509</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11212 &#177; 859<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.17634,45.18615</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12134 &#177; 1338<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.17629,45.18603</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11613 &#177; 1050<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.17462,45.18903</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12221 &#177; 1155<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.17483,45.18917</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10582 &#177; 1188<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.17544,45.18916</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11038 &#177; 760<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.17319,45.20320</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>S-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11889 &#177; 1188<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.17312,45.20310</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zack-41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 271 &#177; 248<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.33244,74.37672</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1088 &#177; 143<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.33414,74.37761</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1168 &#177; 133<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.33419,74.37767</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-53</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1312 &#177; 305<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.33452,74.37759</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-45</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10088 &#177; 716<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.37007,74.37649</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-46</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9854 &#177; 718<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.37001,74.37649</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-49</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9428 &#177; 963<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.35754,74.37685</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cla-50</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10380 &#177; 704<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-21.33414,74.37695</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EN07-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 616 &#177; 40<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-120.81827,47.47905</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EN07-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 965 &#177; 62<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-120.81743,47.47868</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EN07-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 976 &#177; 63<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-120.81735,47.47857</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EN07-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 199 &#177; 16<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-120.82082,47.47925</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EN07-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 950 &#177; 61<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-120.82309,47.48013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EN07-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 119 &#177; 10<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-120.82291,47.48000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EN07-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 188 &#177; 14<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-120.82267,47.47964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EN07-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 147 &#177; 11<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-120.82217,47.47901</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EN07-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 495 &#177; 32<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-120.81065,47.47688</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EN07-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1997 &#177; 129<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-120.81075,47.47701</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EN07-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4786 &#177; 309<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-120.81075,47.47701</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EN07-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1266 &#177; 82<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-120.81172,47.47712</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EN07-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2393 &#177; 154<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-120.81131,47.47703</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EN07-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2505 &#177; 161<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jomelli-et-al-2022.txt">Jomelli et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-120.81131,47.47703</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

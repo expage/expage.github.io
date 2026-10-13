@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hall et al. (2026)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>EXP06-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17709 &#177; 1138<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.6864,-54.8281</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EXP06-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16673 &#177; 1057<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.6868,-54.8294</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>E07-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17175 &#177; 1092<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7358,-54.8182</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PIA12-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16760 &#177; 1104<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7358,-54.8181</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PIA12-2M</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17156 &#177; 1087<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7402,-54.8256</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PIA12-2L</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16879 &#177; 1071<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7402,-54.8256</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PIA12-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16369 &#177; 1110<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7402,-54.8257</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PIA12-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15311 &#177; 1034<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7418,-54.8291</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PIA12-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16419 &#177; 1054<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7427,-54.8303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PIA12-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17753 &#177; 1125<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7320,-54.8224</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PIA12-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20701 &#177; 1425<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7320,-54.8224</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PIA12-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16898 &#177; 1095<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7331,-54.8205</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PIA12-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17338 &#177; 1101<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7328,-54.8155</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PIA12-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16167 &#177; 1041<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7303,-54.8145</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PIA12-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17412 &#177; 1192<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7309,-54.8133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PIA12-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17206 &#177; 1084<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7321,-54.8122</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PIA12-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16307 &#177; 1118<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7310,-54.8078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PIA12-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16529 &#177; 1159<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2026.txt">Hall et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.7281,-54.8033</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Radue (2018)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>TGP-16-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20979 &#177; 1324<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.145080,49.095195</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14701 &#177; 927<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.147502,49.095293</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16800 &#177; 1060<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.155554,49.087360</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14843 &#177; 946<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.173021,49.094106</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15801 &#177; 992<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.173475,49.094879</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14945 &#177; 932<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.173733,49.094944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33898 &#177; 2122<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.182758,49.093854</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14388 &#177; 906<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.963735,49.138686</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10470 &#177; 658<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.964663,49.137884</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14854 &#177; 954<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.969812,49.136582</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16577 &#177; 1029<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.971589,49.137361</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14730 &#177; 906<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.971777,49.137102</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16191 &#177; 1005<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.972227,49.137217</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15680 &#177; 963<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.972969,49.136505</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17472 &#177; 1077<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.974540,49.135759</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16260 &#177; 1012<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.975229,49.135184</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15757 &#177; 993<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.977797,49.133516</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 73812 &#177; 4759<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.983721,49.133514</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 86748 &#177; 5424<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.984612,49.132630</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33842 &#177; 2098<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.985873,49.133685</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-39</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21590 &#177; 1359<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.985177,49.130688</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16328 &#177; 1029<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.984755,49.130587</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15138 &#177; 977<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.635407,49.059642</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22801 &#177; 1473<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.633698,49.057207</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-53</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22699 &#177; 1414<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.627317,49.054660</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-56</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9011 &#177; 571<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.652138,49.062771</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-57</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12557 &#177; 796<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.653214,49.064419</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-59</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52008 &#177; 3225<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.652671,49.065663</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-60</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46766 &#177; 2898<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.656118,49.072387</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-61</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 177611 &#177; 11239<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.653505,49.059996</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-62</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 120720 &#177; 7543<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.655264,49.058525</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-65</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 147240 &#177; 9261<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.658480,49.058356</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-66</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21807 &#177; 1395<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.615017,49.064390</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-67</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57326 &#177; 3547<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.623632,49.067667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-68</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22269 &#177; 1379<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.629759,49.074052</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-69</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20796 &#177; 1312<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.629416,49.075702</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-70</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26301 &#177; 1630<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.622170,49.067381</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-71</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26974 &#177; 1704<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.620041,49.066025</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-75</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20607 &#177; 1301<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.611448,49.062938</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-73</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19695 &#177; 1242<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.604645,49.067227</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TGP-16-74</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18276 &#177; 1152<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Radue-2018.txt">Radue (2018)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>88.598131,49.067949</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hall et al. (2023)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>FORS-19-3A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5998 &#177; 589<br/>
+<sup>26</sup>Al: 6432 &#177; 775<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2023.txt">Hall et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.1803,60.4276</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FORS-19-3B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4644 &#177; 714<br/>
+<sup>26</sup>Al: 5592 &#177; 866<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2023.txt">Hall et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.1803,60.4276</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FORS-19-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4337 &#177; 566<br/>
+<sup>26</sup>Al: 4750 &#177; 665<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2023.txt">Hall et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.1799,60.4278</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FORS-19-5A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8138 &#177; 822<br/>
+<sup>26</sup>Al: 9168 &#177; 1102<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2023.txt">Hall et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.1427,60.4033</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FORS-19-5B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8078 &#177; 1032<br/>
+<sup>26</sup>Al: 8688 &#177; 1433<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2023.txt">Hall et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.1427,60.4033</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FORS-19-6A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6936 &#177; 685<br/>
+<sup>26</sup>Al: 7527 &#177; 932<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2023.txt">Hall et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.1559,60.3831</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FORS-19-6B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12326 &#177; 1383<br/>
+<sup>26</sup>Al: 11140 &#177; 1732<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2023.txt">Hall et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.1559,60.3831</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FORS-19-7A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 49403 &#177; 3528<br/>
+<sup>26</sup>Al: 44985 &#177; 4526<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2023.txt">Hall et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.2352,60.3791</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FORS-19-7B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15808 &#177; 1331<br/>
+<sup>26</sup>Al: 14430 &#177; 1453<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2023.txt">Hall et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.2352,60.3791</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FORS-19-8A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43643 &#177; 3261<br/>
+<sup>26</sup>Al: 48468 &#177; 4627<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2023.txt">Hall et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.2349,60.3793</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FORS-19-8B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9776 &#177; 1139<br/>
+<sup>26</sup>Al: 10523 &#177; 1168<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2023.txt">Hall et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.2349,60.3793</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FORS-19-02-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36288 &#177; 2598<br/>
+<sup>26</sup>Al: 36309 &#177; 3429<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2023.txt">Hall et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.2350,60.3792</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

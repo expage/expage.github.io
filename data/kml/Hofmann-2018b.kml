@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hofmann (2018b)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>VdR-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10834 &#177; 747<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3367200,44.7570000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10238 &#177; 767<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3367701,44.7571983</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9911 &#177; 707<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3368101,44.7573013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10547 &#177; 743<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3376698,44.7574997</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11010 &#177; 885<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3377800,44.7574997</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10719 &#177; 732<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3377500,44.7577019</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11288 &#177; 800<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3383298,44.7563019</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11040 &#177; 962<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3381500,44.7568016</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10432 &#177; 731<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3382802,44.7580986</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11050 &#177; 773<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3388400,44.7552986</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11690 &#177; 1185<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3392501,44.7566986</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7175 &#177; 586<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3390799,44.7579002</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1252 &#177; 129<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3421998,44.7626991</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11024 &#177; 756<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3416200,44.7627983</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10542 &#177; 751<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3409700,44.7630005</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11635 &#177; 804<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3405600,44.7640991</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10567 &#177; 764<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3406301,44.7639999</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11139 &#177; 1420<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3401599,44.7640991</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12363 &#177; 1036<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3375201,44.7644997</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7730 &#177; 575<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3368702,44.7644997</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7734 &#177; 559<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3360100,44.7645988</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9770 &#177; 714<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3359199,44.7648010</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10353 &#177; 761<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3353000,44.7631989</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12137 &#177; 930<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3354402,44.7634010</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-25-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11691 &#177; 818<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3352499,44.7635002</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-25-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10627 &#177; 723<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3352499,44.7635002</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12290 &#177; 854<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3342099,44.7638016</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12215 &#177; 850<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3344798,44.7635002</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11933 &#177; 903<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3344598,44.7635002</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7767 &#177; 1331<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3342400,44.7657013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7703 &#177; 1359<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3340402,44.7657013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdR-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3047 &#177; 1003<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3338099,44.7655983</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdP-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10189 &#177; 711<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3222899,44.7452011</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdP-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11086 &#177; 780<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3222198,44.7449989</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VdP-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10307 &#177; 717<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3222799,44.7450981</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PdC-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10875 &#177; 1376<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3252201,44.7639008</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PdC-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11854 &#177; 1297<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3253102,44.7636986</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PdC-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10284 &#177; 800<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3255000,44.7635994</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PdC-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16181 &#177; 1845<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Hofmann-2018b.txt">Hofmann (2018b)</a><br/>Hofmann (2018a), Hofmann et al. (2019)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>6.3254900,44.7634010</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

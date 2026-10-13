@@ -8,9 +8,10 @@ body {
 	background: rgb(245,245,245);
 	margin: 0;
 	width: 100%;
-	min-width: 1000px;
 	height: auto;
 	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 .container { 
@@ -23,14 +24,23 @@ body {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	width: 1000px; 
-	height: 100%; 
+	max-width: 1000px;
+	width: 100%;
+	flex: 1;
 	visibility: visible;
+	box-sizing: border-box;
 }
 
 .content  {
 	padding: 70px 15px 90px 15px;
 	background: rgb(245,245,245);
+	box-sizing: border-box;
+}
+
+.topfig-wrapper {
+	display: flex;
+	flex-direction: column;
+	position: relative;
 }
 
 .topfig {
@@ -43,8 +53,9 @@ body {
 	height: 40px;
 	display: block;
 	background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,1));
-	position: absolute;
 	margin-top: -40px;
+	position: relative;
+	z-index: 0;
 }
 
 .half-line {
@@ -106,170 +117,214 @@ reftext {
 .reflist {
 	display: -webkit-flex;
 	display: flex;
-	width: 970px;
+	max-width: 970px;
+	width: 100%;
 	height: auto;
 	flex-flow: row wrap;
 	justify-content: flex-end;
+	box-sizing: border-box;
 }
 .ref1 {
 	width: 825px;
+	max-width: 100%;
 	height: auto;
 	text-align: justify;
 	margin-top: 8px;
 	margin-bottom: 8px;
 	text-indent: -25px;
+	box-sizing: border-box;
 }
 .ref2 {
 	width: 90px;
+	min-width: 90px;
 	height: auto;
 	text-align: center;
 	margin-top: 8px;
 	margin-bottom: 8px;
+	box-sizing: border-box;
 }
 .ref3 {
 	width: 30px;
+	min-width: 30px;
 	height: auto;
 	text-align: center;
 	margin-top: 8px;
 	margin-bottom: 8px;
+	box-sizing: border-box;
 }
 
 .compilation {
 	display: -webkit-flex;
 	display: flex;
-	width: 700px;
+	max-width: 700px;
+	width: 100%;
 	height: auto;
 	flex-flow: row wrap;
 	justify-content: flex-end;
+	box-sizing: border-box;
 }
 .comp1 {
 	width: 190px;
+	max-width: 100%;
 	height: auto;
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	box-sizing: border-box;
 }
 .comp2 {
 	width: 270px;
+	max-width: 100%;
 	height: auto;
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	box-sizing: border-box;
 }
 .comp3 {
 	width: 240px;
+	max-width: 100%;
 	height: auto;
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	box-sizing: border-box;
 }
 
 .numlist {
 	display: -webkit-flex;
 	display: flex;
-	width: 970px;
+	max-width: 970px;
+	width: 100%;
 	height: auto;
 	flex-flow: row wrap;
 	justify-content: flex-end;
+	box-sizing: border-box;
 }
 .num1 {
 	width: 30px;
+	min-width: 30px;
 	height: auto;
 	text-align: right;
 	margin-top: 7px;
 	margin-bottom: 7px;
+	box-sizing: border-box;
 }
 .num2 {
 	width: 930px;
+	max-width: 100%;
 	height: auto;
 	text-align: justify;
 	margin-top: 7px;
 	margin-bottom: 7px;
 	margin-left: 10px;
+	box-sizing: border-box;
 }
 
 .pointlist {
 	display: -webkit-flex;
 	display: flex;
-	width: 970px;
+	max-width: 970px;
+	width: 100%;
 	height: auto;
 	flex-flow: row wrap;
 	justify-content: flex-end;
+	box-sizing: border-box;
 }
 .pnt1 {
 	width: 8px;
+	min-width: 8px;
 	height: auto;
 	text-align: right;
 	margin-top: 7px;
 	margin-bottom: 7px;
+	box-sizing: border-box;
 }
 .pnt2 {
 	width: 954px;
+	max-width: 100%;
 	height: auto;
 	text-align: justify;
 	margin-top: 7px;
 	margin-bottom: 7px;
 	margin-left: 8px;
+	box-sizing: border-box;
 }
 
 .prodlist {
 	display: -webkit-flex;
 	display: flex;
-	width: 900px;
+	max-width: 900px;
+	width: 100%;
 	height: auto;
 	flex-flow: row wrap;
 	justify-content: flex-end;
+	box-sizing: border-box;
 }
 .pro1 {
 	width: 172px;
+	max-width: 100%;
 	height: auto;
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	box-sizing: border-box;
 }
 .pro2 {
 	width: 172px;
+	max-width: 100%;
 	height: auto;
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	box-sizing: border-box;
 }
 .pro3 {
 	width: 177px;
+	max-width: 100%;
 	height: auto;
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	box-sizing: border-box;
 }
 .pro4 {
 	width: 216px;
+	max-width: 100%;
 	height: auto;
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	box-sizing: border-box;
 }
 .pro5 {
 	width: 163px;
+	max-width: 100%;
 	height: auto;
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	box-sizing: border-box;
 }
 
 .calclist {
 	display: -webkit-flex;
 	display: flex;
-	width: 970px;
+	max-width: 970px;
+	width: 100%;
 	height: auto;
 	flex-flow: row wrap;
 	justify-content: flex-end;
+	box-sizing: border-box;
 }
 .calc {
 	width: 970px;
+	max-width: 100%;
 	height: auto;
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	box-sizing: border-box;
 }
 
 H2 { font-family: Verdana, Geneva, Arial, sans-serif;
@@ -309,13 +364,104 @@ a:hover
 
 .footer {
 	display: block;
-	position: absolute;
 	width: 100%;
-	bottom: 0;
 	padding: 15px 0px 15px 0px;
-	height: 20px;
 	background: rgb(180,180,180);
 	font-size: 15px;
 	font-family: Verdana, Arial, sans-serif;
 	text-align: center;
+	box-sizing: border-box;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+	ul.menu {
+		position: relative;
+		left: auto;
+		top: auto;
+		background: rgb(60,60,60);
+		padding: 5px 0;
+		text-align: center;
+	}
+
+	ul.menu li {
+		float: none;
+		display: inline-block;
+		margin-right: 5px;
+		margin-left: 5px;
+		padding: 5px 8px;
+	}
+
+	ul.menu li.selected {
+		border-top: 4px double rgb(245,245,245);
+		border-left: none;
+		border-right: none;
+		margin-top: 0;
+	}
+
+	ul.menu li a {
+		color: #fff;
+	}
+
+	.content {
+		padding: 50px 15px 70px 15px;
+	}
+
+	.ref1 {
+		width: 100%;
+		text-indent: 0;
+	}
+
+	.ref2 {
+		width: 100%;
+		min-width: 0;
+		text-align: left;
+	}
+
+	.ref3 {
+		width: 100%;
+		min-width: 0;
+		text-align: left;
+	}
+
+	.comp1, .comp2, .comp3 {
+		width: 100%;
+	}
+
+	.num1 {
+		width: 25px;
+		min-width: 25px;
+	}
+
+	.num2 {
+		width: calc(100% - 35px);
+	}
+
+	.pnt1 {
+		width: 15px;
+		min-width: 15px;
+	}
+
+	.pnt2 {
+		width: calc(100% - 23px);
+	}
+
+	.pro1, .pro2, .pro3, .pro4, .pro5 {
+		width: 100%;
+	}
+
+	.prodlist {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.content {
+		padding: 40px 10px 60px 10px;
+		font-size: 14px;
+	}
+
+	.footer {
+		padding: 10px 0;
+	}
 }

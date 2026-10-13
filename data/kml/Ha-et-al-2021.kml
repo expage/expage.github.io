@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ha et al. (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>UT1B15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29451 &#177; 1895<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Ha-et-al-2021.txt">Ha et al. (2021)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.86304,48.53157</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UT1B16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29348 &#177; 1913<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Ha-et-al-2021.txt">Ha et al. (2021)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.86281,48.53145</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UT1B17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 120556 &#177; 8077<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Ha-et-al-2021.txt">Ha et al. (2021)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.86264,48.53138</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UT1B18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20178 &#177; 1315<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Ha-et-al-2021.txt">Ha et al. (2021)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.86258,48.53136</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UT1B19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 68795 &#177; 4384<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Ha-et-al-2021.txt">Ha et al. (2021)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.86204,48.53112</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UT1B20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30174 &#177; 1928<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Ha-et-al-2021.txt">Ha et al. (2021)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.86202,48.53107</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UT1B21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20891 &#177; 1385<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Ha-et-al-2021.txt">Ha et al. (2021)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>90.86190,48.53107</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UT2B36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 58389 &#177; 3758<br/><br/>
+<u>Sample</u><br/>cobbles<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ha-et-al-2021.txt">Ha et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>90.841897,48.537368</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

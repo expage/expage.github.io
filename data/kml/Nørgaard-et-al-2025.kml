@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Nørgaard et al. (2025)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>UN-VB−1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 94043 &#177; 5968<br/>
+<sup>26</sup>Al: 87676 &#177; 7910<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2025.txt">Nørgaard et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>143.27109,64.51454</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UN-VB−2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47007 &#177; 3477<br/>
+<sup>26</sup>Al: 48582 &#177; 4535<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2025.txt">Nørgaard et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>143.27109,64.51454</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UN-VB−3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42803 &#177; 3255<br/>
+<sup>26</sup>Al: 42559 &#177; 3843<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2025.txt">Nørgaard et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>143.26236,64.51295</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UN-VB−4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 44682 &#177; 3368<br/>
+<sup>26</sup>Al: 45476 &#177; 4134<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2025.txt">Nørgaard et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>143.26236,64.51295</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UN-VB−7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 99231 &#177; 6388<br/>
+<sup>26</sup>Al: 102891 &#177; 9570<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2025.txt">Nørgaard et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>143.27390,64.50961</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UN-VB−8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 48296 &#177; 3141<br/>
+<sup>26</sup>Al: 50936 &#177; 4853<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2025.txt">Nørgaard et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>143.27580,64.51082</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UN-VB−9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 67588 &#177; 5671<br/>
+<sup>26</sup>Al: 64818 &#177; 5923<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2025.txt">Nørgaard et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>143.27502,64.51035</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

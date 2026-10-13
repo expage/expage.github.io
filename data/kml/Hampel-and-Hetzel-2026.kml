@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hampel and Hetzel (2026)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>KLAG-22A1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15624 &#177; 1181<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hampel-and-Hetzel-2026.txt">Hampel and Hetzel (2026)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>14.06676,46.63179</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KLAG-23A9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15575 &#177; 1111<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hampel-and-Hetzel-2026.txt">Hampel and Hetzel (2026)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>14.07474,46.63237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KLAG-23A10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16737 &#177; 1188<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hampel-and-Hetzel-2026.txt">Hampel and Hetzel (2026)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>14.07479,46.63371</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KLAG-22A2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13732 &#177; 1082<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hampel-and-Hetzel-2026.txt">Hampel and Hetzel (2026)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>14.23472,46.63395</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KLAG-23A11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16083 &#177; 1143<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hampel-and-Hetzel-2026.txt">Hampel and Hetzel (2026)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>14.24768,46.62855</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KLAG-23A12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17727 &#177; 1241<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hampel-and-Hetzel-2026.txt">Hampel and Hetzel (2026)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>14.25621,46.62872</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KLAG-23A13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15716 &#177; 1096<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hampel-and-Hetzel-2026.txt">Hampel and Hetzel (2026)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>14.14033,46.61036</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

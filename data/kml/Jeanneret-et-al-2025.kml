@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Jeanneret et al. (2025)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>MI01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 96541 &#177; 7427<br/>
+<sup>26</sup>Al: 85300 &#177; 8406<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jeanneret-et-al-2025.txt">Jeanneret et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0121,-31.9210</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MI04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7854 &#177; 602<br/>
+<sup>26</sup>Al: 6753 &#177; 641<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jeanneret-et-al-2025.txt">Jeanneret et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0127,-31.9216</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MII01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22319 &#177; 1696<br/>
+<sup>26</sup>Al: 21837 &#177; 2140<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jeanneret-et-al-2025.txt">Jeanneret et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0107,-31.9221</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MI02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57952 &#177; 4449<br/>
+<sup>26</sup>Al: 54039 &#177; 5524<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jeanneret-et-al-2025.txt">Jeanneret et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.8857,-31.9137</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MI03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39144 &#177; 3006<br/>
+<sup>26</sup>Al: 36985 &#177; 3608<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jeanneret-et-al-2025.txt">Jeanneret et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.8860,-31.9137</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MII02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19894 &#177; 1776<br/>
+<sup>26</sup>Al: 20829 &#177; 1971<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jeanneret-et-al-2025.txt">Jeanneret et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0004,-31.9066</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MLG02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 133440 &#177; 10325<br/>
+<sup>26</sup>Al: 106747 &#177; 10893<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jeanneret-et-al-2025.txt">Jeanneret et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0323,-31.9360</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MLG03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 135591 &#177; 12981<br/>
+<sup>26</sup>Al: 126571 &#177; 12194<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jeanneret-et-al-2025.txt">Jeanneret et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0325,-31.9360</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

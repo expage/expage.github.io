@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Martini et al. (2025)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>CH‐10‐67</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 177659 &#177; 11839<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martini-et-al-2025.txt">Martini et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.67568,-24.05423</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CH‐10‐68</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 115977 &#177; 8167<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martini-et-al-2025.txt">Martini et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.67399,-24.05418</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CH‐10‐69</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 182855 &#177; 11805<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martini-et-al-2025.txt">Martini et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.67267,-24.05421</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CH‐12‐79</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 140196 &#177; 9048<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martini-et-al-2025.txt">Martini et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.80410,-24.04730</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CH‐12‐80</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 165364 &#177; 11003<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martini-et-al-2025.txt">Martini et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.80400,-24.04750</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CH‐10‐63</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52048 &#177; 3240<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martini-et-al-2025.txt">Martini et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.69236,-24.05151</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CH‐10‐64</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61683 &#177; 4126<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martini-et-al-2025.txt">Martini et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.69221,-24.05159</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CH‐10‐40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34792 &#177; 2188<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martini-et-al-2025.txt">Martini et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.67878,-24.05734</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CH‐10‐41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22039 &#177; 1405<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Martini-et-al-2025.txt">Martini et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-65.67949,-24.05716</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

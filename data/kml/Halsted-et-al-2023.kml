@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Halsted et al. (2023)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>CAT-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20210 &#177; 1298<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.398,41.953</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CAT-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20009 &#177; 1351<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.398,41.952</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CAT-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19839 &#177; 1303<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.4,41.951</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CAT-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19056 &#177; 1282<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.416,41.944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CAT-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18789 &#177; 1253<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-74.416,41.943</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WSP-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18398 &#177; 1313<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.894,42.501</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WSP-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16827 &#177; 1331<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.894,42.503</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WSP-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17569 &#177; 1367<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.888,42.486</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MG-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16458 &#177; 1098<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-73.165,42.637</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MG-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15665 &#177; 1567<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.163,42.641</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MG-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16900 &#177; 1186<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-73.158,42.669</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MG-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 53853 &#177; 3765<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.158,42.668</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MG-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17180 &#177; 1215<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-73.174,42.6727</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MG-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15868 &#177; 1259<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.1735,42.6722</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MG-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15294 &#177; 1210<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.16669,42.72139</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MG-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16370 &#177; 1278<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.16669,42.72139</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MG-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14575 &#177; 1111<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.174,42.721</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MG-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15816 &#177; 1133<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-73.174,42.717</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NH15-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16211 &#177; 1022<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.10701,42.86118</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NH15-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15451 &#177; 995<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.10825,42.86171</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NH15-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15625 &#177; 985<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.10804,42.86177</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NH15-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16538 &#177; 1033<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.10699,42.86164</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13649 &#177; 1420<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.117,42.864</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16327 &#177; 1242<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.12,42.863</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16949 &#177; 1390<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.129,42.86</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16520 &#177; 1991<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.137,42.86</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18237 &#177; 1669<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.137,42.86</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16662 &#177; 1391<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.137,42.859</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MON-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16156 &#177; 1154<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.141,42.864</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12326 &#177; 852<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.82,43.605</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14625 &#177; 1085<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.82,43.605</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15112 &#177; 1003<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.82,43.605</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15582 &#177; 1035<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.82,43.605</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10953 &#177; 770<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.826,43.611</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9990 &#177; 732<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.833,43.614</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15926 &#177; 1049<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.839,43.618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18869 &#177; 1286<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.833,43.6653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13507 &#177; 1164<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.868,43.619</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19813 &#177; 1694<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.87,43.619</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14484 &#177; 1034<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.79464,43.67319</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KM-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13926 &#177; 1042<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.79464,43.67319</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LFT-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23502 &#177; 1527<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.645,44.161</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LFT-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 49923 &#177; 3171<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.645,44.161</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LFT-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24984 &#177; 1649<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.645,44.161</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FR-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 146053 &#177; 9221<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.644,44.143</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LFT-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13235 &#177; 957<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.653,44.161</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LFT-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14701 &#177; 999<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.664,44.159</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LFT-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16892 &#177; 1309<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.666,44.155</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LFT-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10358 &#177; 801<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.666,44.154</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTD-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14435 &#177; 1111<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6684,44.151333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FW-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24093 &#177; 1856<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.656,44.141</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTD-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13921 &#177; 1007<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.667117,44.146733</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14991 &#177; 1125<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.715,44.139</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LL-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14849 &#177; 1096<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.7054,44.1384</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PTD-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12469 &#177; 1001<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.670017,44.134</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FW-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13416 &#177; 1001<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.671,44.137</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AB-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13674 &#177; 947<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.695,44.181</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AB-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13966 &#177; 1075<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.695,44.181</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FN-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14994 &#177; 1041<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.682,44.167</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FN-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13060 &#177; 933<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.683,44.171</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BR-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7417 &#177; 478<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.67812,44.15313</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19580 &#177; 1328<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.53586,44.75425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12834 &#177; 1411<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.532,44.756</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15641 &#177; 1078<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.54944,44.74797</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9894 &#177; 842<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.54708,44.748056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13626 &#177; 1076<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.544806,44.748056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11948 &#177; 1516<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.537,44.737</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15396 &#177; 1489<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.526,44.729</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9350 &#177; 1211<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.526,44.729</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27223 &#177; 1777<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.288,45.147</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18105 &#177; 1202<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.288,45.147</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BP-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14927 &#177; 1124<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.317,45.12</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JP-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14092 &#177; 942<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.526,44.924</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JP-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14685 &#177; 993<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.526,44.924</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JP-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16694 &#177; 1122<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.526,44.924</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JP-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11697 &#177; 827<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.523,44.922</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JP-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5283 &#177; 580<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.522,44.922</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JP-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13943 &#177; 977<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.516,44.921</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JP-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17378 &#177; 1208<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.511,44.917</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JP-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16425 &#177; 1123<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.5043,44.9135</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JP-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1223 &#177; 264<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Halsted-et-al-2023.txt">Halsted et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.514,44.906</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

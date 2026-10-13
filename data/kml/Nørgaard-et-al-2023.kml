@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Nørgaard et al. (2023)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>MS-M15B-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 130013 &#177; 8294<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.68770,63.43148</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-M15B-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 113841 &#177; 7220<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.68498,63.43182</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-M15B-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 133425 &#177; 9465<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.68724,63.43183</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-MB-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29761 &#177; 2257<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.65989,63.42026</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-MB-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39431 &#177; 2411<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.66888,63.41818</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-MB-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 73981 &#177; 4942<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.67362,63.41729</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-MB-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13510 &#177; 1084<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.66183,63.42305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-MB-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7771 &#177; 700<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.66767,63.42503</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-MB-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47490 &#177; 3096<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.66876,63.42593</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-M2B-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35591 &#177; 2491<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.76514,63.45558</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-M2B-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42171 &#177; 2696<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.76429,63.45386</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-M2B-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 48972 &#177; 3242<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.76260,63.45465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-M2B-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41613 &#177; 2757<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.76038,63.45559</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-M2B-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 72778 &#177; 4573<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.75728,63.45634</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-M2B-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 99450 &#177; 8287<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.75829,63.45708</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-M3B-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15797 &#177; 1336<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.82303,63.48573</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-M3B-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29200 &#177; 1934<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.82472,63.48246</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-M3B-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20177 &#177; 1369<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.82318,63.48555</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-M3B-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14921 &#177; 1719<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.82164,63.48478</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-M3B-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43740 &#177; 2772<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.82126,63.48416</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-M3B-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14870 &#177; 1003<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.82126,63.48416</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS-M3B-9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12125 &#177; 843<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Nørgaard-et-al-2023.txt">Nørgaard et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>147.82117,63.48353</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

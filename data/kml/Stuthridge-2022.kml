@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Stuthridge (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>TNX-12-012</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66138 &#177; 4307<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72917,-42.22644</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-013</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64407 &#177; 4179<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72904,-42.22619</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-018</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 65008 &#177; 4231<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71729,-42.21799</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-019</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24405 &#177; 1575<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71791,-42.21858</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-020</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 83336 &#177; 5436<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71906,-42.21894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-014</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18930 &#177; 1193<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.73153,-42.22340</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-017</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17975 &#177; 1121<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71722,-42.21702</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-022</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17610 &#177; 1098<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72715,-42.22255</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-023</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63261 &#177; 3965<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.73142,-42.22346</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18248 &#177; 1155<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71508,-42.21241</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-002</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18907 &#177; 1194<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71602,-42.21380</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-030</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18173 &#177; 1144<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71661,-42.21448</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-033</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16854 &#177; 1063<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71664,-42.21436</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-003</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18290 &#177; 1153<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71784,-42.21485</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-025</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17189 &#177; 1110<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72374,-42.21938</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-034</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16556 &#177; 1044<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71885,-42.21591</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-032</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16861 &#177; 1063<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71549,-42.21230</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19176 &#177; 1228<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72348,-42.21672</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18505 &#177; 1201<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71932,-42.21315</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-008</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18490 &#177; 1191<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72123,-42.21451</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-026</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18284 &#177; 1164<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71960,-42.21343</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-032</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19350 &#177; 1245<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71680,-42.21261</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-024</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19399 &#177; 1233<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.73871,-42.21829</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18385 &#177; 1188<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71767,-42.20932</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-035</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17760 &#177; 1150<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72564,-42.21644</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-20-001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18402 &#177; 1208<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72160,-42.21423</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-20-003</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17933 &#177; 1168<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72280,-42.21502</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-20-004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19146 &#177; 1259<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72417,-42.21547</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-20-007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19105 &#177; 1252<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72706,-42.21659</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-20-021</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18545 &#177; 1197<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72987,-42.21686</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-20-022</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19719 &#177; 1277<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72912,-42.21648</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-20-023</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18339 &#177; 1186<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72848,-42.21664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19398 &#177; 1280<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72692,-42.21568</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-21-004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18462 &#177; 1192<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72696,-42.21376</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-21-005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19199 &#177; 1243<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72774,-42.21376</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-21-007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18554 &#177; 1193<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72771,-42.21379</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-027</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18868 &#177; 1237<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72522,-42.21143</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-028</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18140 &#177; 1170<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72538,-42.21007</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-12-029</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19044 &#177; 1228<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72577,-42.21015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19277 &#177; 1240<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72598,-42.21044</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-002</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19384 &#177; 1245<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72626,-42.21151</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-003</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18984 &#177; 1220<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72621,-42.21150</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19876 &#177; 1277<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72427,-42.21157</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18789 &#177; 1214<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71991,-42.20871</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18257 &#177; 1173<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71981,-42.20915</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18910 &#177; 1217<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.71984,-42.20845</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-023</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18388 &#177; 1182<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.72739,-42.20897</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-21-001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15544 &#177; 993<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.73350,-42.21323</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-21-003</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19308 &#177; 1250<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.73324,-42.21319</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-025</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24145 &#177; 1552<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.74039,-42.21990</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-026</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40362 &#177; 2604<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.74098,-42.22058</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-027</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20965 &#177; 1378<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.74846,-42.21576</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-028</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18637 &#177; 1206<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.75024,-42.21657</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TNX-13-029</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20323 &#177; 1313<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stuthridge-2022.txt">Stuthridge (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>172.75091,-42.21805</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

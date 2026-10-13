@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hofmann et al. (2024)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>HK11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19277 &#177; 1524<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.4452,47.1339</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HK12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19770 &#177; 1503<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.4452,47.1339</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6723 &#177; 2059<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.6903,47.2479</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LW21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9050 &#177; 604<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.7080,47.2496</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MF11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17193 &#177; 1257<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.5376,47.2274</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MF12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28543 &#177; 5733<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.5376,47.2274</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MF31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18193 &#177; 1334<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.5416,47.2308</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MF41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17110 &#177; 1434<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.5439,47.2334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MF42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16594 &#177; 1286<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.5439,47.2334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MF51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31331 &#177; 2261<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.5471,47.2265</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MF61</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26935 &#177; 2201<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.5489,47.2288</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MF71</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20469 &#177; 1639<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.5499,47.2278</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MF81</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19330 &#177; 1408<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.5545,47.2283</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MF91</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18504 &#177; 1955<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.5543,47.2282</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SZ11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 41537 &#177; 3148<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.4612,47.2102</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SZ21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4060 &#177; 652<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.4676,47.2114</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SZ31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 87014 &#177; 5984<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2024.txt">Hofmann et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.4672,47.2112</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

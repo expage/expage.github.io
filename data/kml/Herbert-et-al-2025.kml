@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Herbert et al. (2025)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>SNC-12-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15775 &#177; 997<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33504,6.36190</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15122 &#177; 952<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33125,6.36000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-12-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14830 &#177; 974<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33138,6.35853</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-12-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13760 &#177; 886<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33087,6.35782</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13248 &#177; 832<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.32928,6.35912</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13777 &#177; 867<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33009,6.35878</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13782 &#177; 868<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33039,6.35828</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13622 &#177; 858<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33250,6.35895</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13341 &#177; 855<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33262,6.35909</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13740 &#177; 866<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33262,6.35909</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13530 &#177; 842<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33289,6.35972</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13194 &#177; 832<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33331,6.36057</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13459 &#177; 848<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33314,6.36028</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-12-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9834 &#177; 620<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33141,6.35545</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-12-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11596 &#177; 723<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33059,6.35362</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-12-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11454 &#177; 722<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.32887,6.35053</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-12-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11392 &#177; 710<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.32970,6.35012</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-12-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11428 &#177; 720<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.32954,6.34935</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14920 &#177; 943<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33504,6.36735</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15645 &#177; 978<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33510,6.36739</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-23-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16557 &#177; 1041<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33528,6.36874</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-23-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16225 &#177; 1025<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33511,6.36809</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-23-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16053 &#177; 1018<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33511,6.36782</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12738 &#177; 805<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33407,6.36584</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12099 &#177; 764<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33440,6.36740</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12749 &#177; 800<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33430,6.36729</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-39</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12515 &#177; 785<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33447,6.36706</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-23-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12972 &#177; 809<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33443,6.36753</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-23-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13233 &#177; 834<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33445,6.36708</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11350 &#177; 717<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33160,6.36638</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11577 &#177; 738<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33166,6.36635</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11128 &#177; 700<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.33165,6.36631</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-12-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10915 &#177; 700<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.32173,6.36469</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-12-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 346 &#177; 24<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.32093,6.36445</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-12-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 664 &#177; 43<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.32093,6.36445</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-12-09A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26 &#177; 2<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Herbert-et-al-2025.txt">Herbert et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.30404,6.36569</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

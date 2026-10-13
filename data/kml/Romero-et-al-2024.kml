@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Romero et al. (2024)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>AV-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 244511 &#177; 19420<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.5469,-50.2972</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AV-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 132962 &#177; 10361<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.3764,-50.2437</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AV-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 164505 &#177; 12963<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.4327,-50.1995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AV-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 164003 &#177; 12986<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.4100,-50.1888</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ET-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 59524 &#177; 4698<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.7018,-50.2906</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ET-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34624 &#177; 3163<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6391,-50.2822</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ET-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31176 &#177; 2847<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6294,-50.2638</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ET-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43120 &#177; 3344<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6923,-50.1415</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ET-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37337 &#177; 6278<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6979,-50.1363</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ET-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 46107 &#177; 3945<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6762,-50.1299</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ET-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37823 &#177; 3310<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6382,-50.1673</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ET-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27930 &#177; 2292<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6491,-50.1702</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ET-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38117 &#177; 2995<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.0998,-50.1090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ET-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37516 &#177; 2961<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.1079,-50.1111</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ET-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35965 &#177; 2823<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.1191,-50.0996</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ET-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38078 &#177; 2953<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.0817,-50.1090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ET-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35516 &#177; 3075<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.0813,-50.1038</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LA-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 35991 &#177; 3377<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Romero-et-al-2024.txt">Romero et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.1261,-50.3138</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

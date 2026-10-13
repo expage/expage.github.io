@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>expage | Intro</title>
 
 <link rel="stylesheet" type="text/css" href="styles.css" />
@@ -9,8 +10,10 @@
 </head>
 <body>
 
-<img src="images/topfig_intro.jpg" class="topfig">
-<div class="gradient"></div>
+<div class="topfig-wrapper">
+	<img src="images/topfig_intro.jpg" class="topfig">
+	<div class="gradient"></div>
+</div>
 <div class="container">
 	<ul class="menu">
 		<li class="selected"><a href="index.html">INTRO</a></li>
@@ -22,16 +25,16 @@
 
 	<div class="content"> 
 		<p>
-		<h2>A global compilation of glacial <span class="sup">10</span>Be and <span class="sup">26</span>Al data</h2>
+		<h2>A global compilation of glacial <span class="sup">10</span>Be, <span class="sup">26</span>Al, and <span class="sup">14</span>C data</h2>
 		</p>
-		<p>These pages host a global compilation of published <span class="sup">10</span>Be and <span class="sup">26</span>Al data from glacial samples, with the aim of allowing easy access to data enabling recalculation of exposure ages and cosmogenic data meta-analysis. Data has been compiled from published sources and additional data sources are recorded (data directly from the authors, data from another paper, assumptions etc).</p>
+		<p>These pages host a global compilation of published <span class="sup">10</span>Be, <span class="sup">26</span>Al, <span class="sup">14</span>C data from glacial samples, with the aim of allowing easy access to data enabling recalculation of exposure ages and cosmogenic data meta-analysis. Data has been compiled from published sources and additional data sources are recorded (data directly from the authors, data from another paper, assumptions etc).</p>
 		<p class="half-line">&nbsp;</p>
 		<p>If you find mistakes in the data or if you have more correct / new data: <a href="mailto:jakob.heyman@gu.se">jakob.heyman@gu.se</a></p>
 		<br>
 		<hr width="100%">
 		<br>
 		<h2>Data description</h2>
-		The exposure age data is presented in tab-delimited text files with the following 29 columns:<br><br>
+		The exposure age data is presented in tab-delimited text files with the following 36 columns:<br><br>
 		<div class="numlist">
 			<div class="num1"><b>1.</div><div class="num2">Publication</b> – Primary publication presenting the data with enough detail to enable recalculation.</div>
 			<div class="num1"><b>2.</div><div class="num2">Sample type</b> – Type of sample such as boulder, bedrock, cobble, pebbles...</div>
@@ -50,18 +53,25 @@
 			<div class="num1"><b>15.</div><div class="num2"><span class="sup">26</span>Al concentration</b> – (atoms/g).</div>
 			<div class="num1"><b>16.</div><div class="num2"><span class="sup">26</span>Al uncertainty</b> – (atoms/g).</div>
 			<div class="num1"><b>17.</div><div class="num2"><span class="sup">26</span>Al standard</b> – Identifier for <span class="sup">26</span>Al standard material and its assumed isotope ratio. Based on <a href="http://hess.ess.washington.edu/math/docs/al_be_v22/standard_names.html">CRONUS standards</a>.</div>
-			<div class="num1"><b>18.</div><div class="num2">Sampling year</b> – Year of sample collection. Generally assumed to be two years before publication if not indicated.</div>
-			<div class="num1"><b>19.</div><div class="num2">Published <span class="sup">10</span>Be exposure age</b> – (yr).</div>
-			<div class="num1"><b>20.</div><div class="num2">Published <span class="sup">10</span>Be exposure age uncertainty </b> – (yr).</div>
-			<div class="num1"><b>21.</div><div class="num2">Published <span class="sup">26</span>Al exposure age</b> – (yr).</div>
-			<div class="num1"><b>22.</div><div class="num2">Published <span class="sup">26</span>Al exposure age uncertainty </b> – (yr).</div>
-			<div class="num1"><b>23.</div><div class="num2"><span class="sup">10</span>Be exposure age</b> – Recalculated zero erosion <span class="sup">10</span>Be exposure age (yr before sampling).</div>
-			<div class="num1"><b>24.</div><div class="num2"><span class="sup">10</span>Be external uncertainty</b> – External uncertainty (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) for the recalculated <span class="sup">10</span>Be exposure age (yr).</div>
-			<div class="num1"><b>25.</div><div class="num2"><span class="sup">10</span>Be internal uncertainty</b> – Internal uncertainty (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) for the recalculated <span class="sup">10</span>Be exposure age (yr).</div>
-			<div class="num1"><b>26.</div><div class="num2"><span class="sup">26</span>Al exposure age</b> – Recalculated zero erosion <span class="sup">26</span>Al exposure age (yr before sampling).</div>
-			<div class="num1"><b>27.</div><div class="num2"><span class="sup">26</span>Al external uncertainty</b> – External uncertainty (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) for the recalculated <span class="sup">26</span>Al exposure age (yr).</div>
-			<div class="num1"><b>28.</div><div class="num2"><span class="sup">26</span>Al internal uncertainty</b> – Internal uncertainty (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) for the recalculated <span class="sup">26</span>Al exposure age (yr).</div>
-			<div class="num1"><b>29.</div><div class="num2">Extra publication</b> – Extra publication including/describing the data.</div>
+			<div class="num1"><b>18.</div><div class="num2"><span class="sup">14</span>C concentration</b> – (atoms/g).</div>
+			<div class="num1"><b>19.</div><div class="num2"><span class="sup">14</span>C uncertainty</b> – (atoms/g).</div>
+			<div class="num1"><b>20.</div><div class="num2">Sampling year</b> – Year of sample collection. Generally assumed to be two years before publication if not indicated.</div>
+			<div class="num1"><b>21.</div><div class="num2">Published <span class="sup">10</span>Be exposure age</b> – (yr).</div>
+			<div class="num1"><b>22.</div><div class="num2">Published <span class="sup">10</span>Be exposure age uncertainty </b> – (yr).</div>
+			<div class="num1"><b>23.</div><div class="num2">Published <span class="sup">26</span>Al exposure age</b> – (yr).</div>
+			<div class="num1"><b>24.</div><div class="num2">Published <span class="sup">26</span>Al exposure age uncertainty </b> – (yr).</div>
+			<div class="num1"><b>25.</div><div class="num2">Published <span class="sup">14</span>C exposure age</b> – (yr).</div>
+			<div class="num1"><b>26.</div><div class="num2">Published <span class="sup">14</span>C exposure age uncertainty </b> – (yr).</div>
+			<div class="num1"><b>27.</div><div class="num2"><span class="sup">10</span>Be exposure age</b> – Recalculated zero erosion <span class="sup">10</span>Be exposure age (yr before sampling).</div>
+			<div class="num1"><b>28.</div><div class="num2"><span class="sup">10</span>Be external uncertainty</b> – External uncertainty (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) for the recalculated <span class="sup">10</span>Be exposure age (yr).</div>
+			<div class="num1"><b>29.</div><div class="num2"><span class="sup">10</span>Be internal uncertainty</b> – Internal uncertainty (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) for the recalculated <span class="sup">10</span>Be exposure age (yr).</div>
+			<div class="num1"><b>30.</div><div class="num2"><span class="sup">26</span>Al exposure age</b> – Recalculated zero erosion <span class="sup">26</span>Al exposure age (yr before sampling).</div>
+			<div class="num1"><b>31.</div><div class="num2"><span class="sup">26</span>Al external uncertainty</b> – External uncertainty (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) for the recalculated <span class="sup">26</span>Al exposure age (yr).</div>
+			<div class="num1"><b>32.</div><div class="num2"><span class="sup">26</span>Al internal uncertainty</b> – Internal uncertainty (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) for the recalculated <span class="sup">26</span>Al exposure age (yr).</div>
+			<div class="num1"><b>33.</div><div class="num2"><span class="sup">14</span>C exposure age</b> – Recalculated zero erosion <span class="sup">14</span>C exposure age (yr before sampling).</div>
+			<div class="num1"><b>34.</div><div class="num2"><span class="sup">14</span>C external uncertainty</b> – External uncertainty (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) for the recalculated <span class="sup">14</span>C exposure age (yr).</div>
+			<div class="num1"><b>35.</div><div class="num2"><span class="sup">14</span>C internal uncertainty</b> – Internal uncertainty (<a href="http://dx.doi.org/10.1016/j.quageo.2007.12.001">Balco et al. 2008</a>) for the recalculated <span class="sup">14</span>C exposure age (yr).</div>
+			<div class="num1"><b>36.</div><div class="num2">Extra publication</b> – Extra publication including/describing the data.</div>
 		</div>
 		<br>
 		<hr width="100%">

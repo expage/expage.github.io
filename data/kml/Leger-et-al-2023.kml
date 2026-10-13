@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Leger et al. (2023)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>RC20-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 124970 &#177; 8423<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.12655,-43.79239</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 108004 &#177; 6848<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.12502,-43.79345</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 161172 &#177; 10679<br/>
+<sup>26</sup>Al: 149489 &#177; 14473<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.13014,-43.79690</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 147937 &#177; 9666<br/>
+<sup>26</sup>Al: 143043 &#177; 13899<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.15841,-43.81415</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 79609 &#177; 5127<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.15717,-43.81509</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 107109 &#177; 6930<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.13924,-43.80433</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 124170 &#177; 8085<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.11590,-43.79607</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 120323 &#177; 7708<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.11590,-43.79607</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 122084 &#177; 7926<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.12183,-43.80491</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 146054 &#177; 10057<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.12183,-43.80491</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 142478 &#177; 9683<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.12228,-43.80383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 130160 &#177; 8350<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.12228,-43.80383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 235720 &#177; 17430<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.09769,-43.86717</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 207286 &#177; 13867<br/>
+<sup>26</sup>Al: 199167 &#177; 20743<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.09769,-43.86717</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 197630 &#177; 13996<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.10005,-43.87017</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 184355 &#177; 11947<br/>
+<sup>26</sup>Al: 164356 &#177; 24045<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.10005,-43.87017</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 256310 &#177; 17648<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.09883,-43.87132</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC20-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 184842 &#177; 12613<br/>
+<sup>26</sup>Al: 187851 &#177; 19257<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.10018,-43.77036</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19RHS09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 275797 &#177; 19993<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-70.88756,-43.55975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19RHS10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 261628 &#177; 19037<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-70.88756,-43.55975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19RHS12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 310744 &#177; 21695<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-70.88756,-43.55975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19RHS13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 283558 &#177; 19546<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-70.88756,-43.55975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19RHS15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 251229 &#177; 17215<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leger-et-al-2023.txt">Leger et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-70.88756,-43.55975</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

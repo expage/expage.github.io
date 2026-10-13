@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Audet (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>PUK-20-57</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18745 &#177; 1237<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.169877,-44.180049</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-58</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18571 &#177; 1299<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.169365,-44.180090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-59</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18142 &#177; 1300<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.168436,-44.180088</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-60</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17510 &#177; 1173<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.167354,-44.180546</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-61</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17633 &#177; 1343<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.165815,-44.181096</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-82</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18411 &#177; 1227<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.174711,-44.180303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17627 &#177; 1348<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.195016,-44.188512</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18949 &#177; 1225<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.195537,-44.188097</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-43</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26177 &#177; 1666<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.196752,-44.187060</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-48</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20641 &#177; 1351<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.200721,-44.190365</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-49</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19947 &#177; 1298<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.202003,-44.189580</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-50</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18870 &#177; 1309<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.202305,-44.189113</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20556 &#177; 1419<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.202921,-44.188442</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21010 &#177; 1523<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.203228,-44.187970</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19814 &#177; 1305<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.183499,-44.191709</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21305 &#177; 1357<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.185244,-44.192244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20567 &#177; 1312<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.188156,-44.193156</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20585 &#177; 1297<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.188591,-44.193356</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20411 &#177; 1319<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.188847,-44.193759</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20494 &#177; 1293<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.180221,-44.191811</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20696 &#177; 1384<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.181646,-44.191893</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19961 &#177; 1276<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.181626,-44.191954</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20686 &#177; 1313<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.185726,-44.194275</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20134 &#177; 1310<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.188700,-44.195436</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20374 &#177; 1359<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.209891,-44.195499</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19956 &#177; 1261<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.209061,-44.195581</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20264 &#177; 1278<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.208796,-44.195699</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21156 &#177; 1464<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.207667,-44.196219</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20845 &#177; 1547<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.207529,-44.196320</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19786 &#177; 1334<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.206979,-44.196433</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-67</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20697 &#177; 1315<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.191815,-44.215173</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-68</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20337 &#177; 1294<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.193550,-44.215132</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUK-20-69</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20596 &#177; 1304<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Audet-2021.txt">Audet (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>170.196653,-44.215781</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

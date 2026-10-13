@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Leigh et al. (2024)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>RV-19-18B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13602 &#177; 1069<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leigh-et-al-2024.txt">Leigh et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.7019,69.7237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RV-19-20B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13345 &#177; 908<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leigh-et-al-2024.txt">Leigh et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.6965,69.7253</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RV-19-21B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10352 &#177; 704<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leigh-et-al-2024.txt">Leigh et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.6975,69.7248</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RV-19-15M</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13253 &#177; 940<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leigh-et-al-2024.txt">Leigh et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.7075,69.7269</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RV-19-17M</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11655 &#177; 977<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leigh-et-al-2024.txt">Leigh et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.7022,69.7268</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RV-19-09M</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11255 &#177; 810<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leigh-et-al-2024.txt">Leigh et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.6918,69.7288</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RV-19-10M</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11940 &#177; 889<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leigh-et-al-2024.txt">Leigh et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.6918,69.7286</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RV-19-11M</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12589 &#177; 862<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leigh-et-al-2024.txt">Leigh et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.6927,69.7267</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RV-19-16M</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9871 &#177; 814<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leigh-et-al-2024.txt">Leigh et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.6933,69.7270</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RV-19-05M</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11936 &#177; 844<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leigh-et-al-2024.txt">Leigh et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.6842,69.7253</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RV-19-07M</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9752 &#177; 713<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leigh-et-al-2024.txt">Leigh et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.6804,69.7260</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RV-19-01M</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12632 &#177; 897<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leigh-et-al-2024.txt">Leigh et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.6717,69.7226</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RV-19-04M</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12726 &#177; 868<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Leigh-et-al-2024.txt">Leigh et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>20.6753,69.7235</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

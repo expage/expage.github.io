@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Khandsuren et al. (2023)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>IAM001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20577 &#177; 1441<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.26020,44.95421</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IAM002</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21426 &#177; 1499<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.26022,44.95429</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IAM003</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21909 &#177; 1572<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.26030,44.95427</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IAM004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20586 &#177; 1468<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.26035,44.95438</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IAM005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19997 &#177; 1351<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.26015,44.95435</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IAM006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20955 &#177; 1424<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.26006,44.95437</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IAM007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19795 &#177; 1376<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.26004,44.95438</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 289074 &#177; 19063<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29007,44.97614</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM002</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 183400 &#177; 11842<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29012,44.97627</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM003</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 664303 &#177; 48128<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29021,44.97651</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 216555 &#177; 14040<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.28988,44.97654</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 192868 &#177; 12410<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29008,44.97665</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37145 &#177; 8283<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29092,44.97891</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 76688 &#177; 16269<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29079,44.97886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM008</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 216533 &#177; 27178<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29084,44.97894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM009</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47736 &#177; 9141<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29095,44.97891</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM010</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 128132 &#177; 20108<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29089,44.97897</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM011</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 167886 &#177; 10795<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29328,44.98058</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM012</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 294908 &#177; 19435<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29321,44.98083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM013</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 255652 &#177; 21594<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29263,44.98095</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM014</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 187927 &#177; 23889<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29259,44.98096</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM015</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 190053 &#177; 21141<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29260,44.98096</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM016</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10994 &#177; 847<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29684,44.98224</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM017</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16884 &#177; 1416<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29693,44.98232</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM018</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19586 &#177; 1726<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29693,44.98232</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM019</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15586 &#177; 1305<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29745,44.98326</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM020</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18820 &#177; 1269<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29716,44.98379</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JAM021</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17953 &#177; 1244<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publications</u><br/><a href="http://expage.github.io/data/txt/Khandsuren-et-al-2023.txt">Khandsuren et al. (2023)</a><br/>Khandsuren et al. (2026)
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>100.29712,44.98385</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

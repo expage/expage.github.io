@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Knight et al. (2025)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>KL-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12740 &#177; 895<br/>
+<sup>26</sup>Al: 11284 &#177; 1437<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Knight-et-al-2025.txt">Knight et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.423583,52.958475</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KL-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19527 &#177; 3239<br/>
+<sup>26</sup>Al: 16713 &#177; 3329<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Knight-et-al-2025.txt">Knight et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.424794,52.959756</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KL-3</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 11503 &#177; 2015<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Knight-et-al-2025.txt">Knight et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.429275,52.960603</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KL-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10171 &#177; 779<br/>
+<sup>26</sup>Al: 14441 &#177; 2054<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Knight-et-al-2025.txt">Knight et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.430731,52.961519</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBO-1</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 25335 &#177; 3596<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Knight-et-al-2025.txt">Knight et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.296572,53.179058</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBO-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22643 &#177; 2056<br/>
+<sup>26</sup>Al: 29460 &#177; 3528<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Knight-et-al-2025.txt">Knight et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.294172,53.179717</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBO-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21622 &#177; 2070<br/>
+<sup>26</sup>Al: 22844 &#177; 3349<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Knight-et-al-2025.txt">Knight et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.292358,53.182778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBI-1</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 10072 &#177; 1894<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Knight-et-al-2025.txt">Knight et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.300486,53.180197</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBI-2</name>
+<description>
+<![CDATA[
+<sup>26</sup>Al: 12343 &#177; 2321<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Knight-et-al-2025.txt">Knight et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.298472,53.177811</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBI-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2990 &#177; 319<br/>
+<sup>26</sup>Al: 11957 &#177; 2090<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Knight-et-al-2025.txt">Knight et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.298128,53.177358</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBI-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11011 &#177; 887<br/>
+<sup>26</sup>Al: 12512 &#177; 2269<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Knight-et-al-2025.txt">Knight et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.297575,53.176689</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBI-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12223 &#177; 1086<br/>
+<sup>26</sup>Al: 12611 &#177; 1780<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Knight-et-al-2025.txt">Knight et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.296958,53.176303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LT-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23467 &#177; 3743<br/>
+<sup>26</sup>Al: 18859 &#177; 2893<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Knight-et-al-2025.txt">Knight et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-6.270328,53.102181</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

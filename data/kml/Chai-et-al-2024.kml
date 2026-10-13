@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Chai et al. (2024)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>JQB-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 92904 &#177; 5857<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.907,30.654</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JQB-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14813 &#177; 1271<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.904,30.652</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JQB-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 121943 &#177; 7580<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.906,30.652</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JQB-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47821 &#177; 3249<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.905,30.655</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JQB-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55482 &#177; 10797<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.890,30.646</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JQB-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 58796 &#177; 3772<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.880,30.647</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JQB-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 48552 &#177; 3060<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.881,30.653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JQB-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 99060 &#177; 6675<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.884,30.656</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JQB-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13936 &#177; 994<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.893,30.571</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JQB-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31938 &#177; 2042<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.893,30.570</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JQB-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23799 &#177; 1584<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.892,30.570</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JQB-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8372 &#177; 598<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.859,30.467</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JQB-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4097 &#177; 433<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.859,30.468</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JQB-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8915 &#177; 730<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>96.859,30.469</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JQB-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10179 &#177; 697<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>96.858,30.470</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QGLB-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17001 &#177; 1050<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>97.110,30.429</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QGLB-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7233 &#177; 467<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.110,30.429</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QGLB-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10167 &#177; 650<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.112,30.429</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QGLB-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9908 &#177; 629<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.112,30.429</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QGLB-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13770 &#177; 892<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.124,30.443</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QGLB-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17652 &#177; 1117<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.124,30.443</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QGLB-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22665 &#177; 1427<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.124,30.442</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QGLB-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16202 &#177; 1019<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.124,30.442</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QGLB-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55566 &#177; 3403<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.133,30.449</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QGLB-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18950 &#177; 1182<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.133,30.449</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>QGLB-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21747 &#177; 1407<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Chai-et-al-2024.txt">Chai et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>97.134,30.450</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

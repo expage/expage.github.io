@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tielidze et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>AL-19-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19977 &#177; 1282<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.678879,-44.409645</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-19-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19894 &#177; 1305<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.677258,-44.410053</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-19-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20360 &#177; 1364<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.677116,-44.410519</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-19-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19486 &#177; 1255<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.671040,-44.411370</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-19-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20039 &#177; 1307<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.672710,-44.411840</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-20-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19879 &#177; 1281<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.680340,-44.410720</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-20-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20214 &#177; 1313<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.678770,-44.411170</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-20-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19725 &#177; 1275<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.675830,-44.411790</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-20-39</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20070 &#177; 1294<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.673490,-44.412820</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-20-40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19654 &#177; 1267<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.670300,-44.413890</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-20-41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19698 &#177; 1262<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.671200,-44.414430</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-26-49</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20532 &#177; 1318<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.666723,-44.395441</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-26-53</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20584 &#177; 1323<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.669205,-44.393977</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-26-55</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20257 &#177; 1301<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.668986,-44.393104</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-26-57</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21190 &#177; 1361<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.666613,-44.391977</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-27-59</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20519 &#177; 1317<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.655063,-44.394375</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-27-61</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17925 &#177; 1151<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.658087,-44.395731</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-27-63</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19484 &#177; 1246<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.657308,-44.400109</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-27-64</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20848 &#177; 1338<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.659033,-44.401301</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-27-65</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20211 &#177; 1301<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.659769,-44.401771</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-27-66</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20815 &#177; 1431<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.659257,-44.403993</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AL-27-68</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20862 &#177; 1344<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.660573,-44.396934</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AML-28-102</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11742 &#177; 780<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.637987,-44.362613</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AML-28-103</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12555 &#177; 914<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.637718,-44.362858</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AML-28-104</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11100 &#177; 731<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.637915,-44.363229</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AML-28-105</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10237 &#177; 682<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.637183,-44.363044</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AML-28-106</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11045 &#177; 769<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.637083,-44.362497</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AM-17-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17099 &#177; 1110<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.605771,-44.264579</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AM-18-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17457 &#177; 1144<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.614783,-44.241326</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AM-18-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17058 &#177; 1085<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.616435,-44.239497</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AM-18-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16845 &#177; 1088<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.619302,-44.239671</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AM-18-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17013 &#177; 1095<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.619328,-44.239705</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AM-18-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16916 &#177; 1089<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>169.615160,-44.251190</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AM-18-08b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16863 &#177; 1085<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>169.614529,-44.241709</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AM-18-09b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16629 &#177; 1071<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>169.614466,-44.241693</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AM-18-10b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17207 &#177; 1108<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>169.614460,-44.241688</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AM-18-12b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16843 &#177; 1083<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>169.614766,-44.241384</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AM-18-14b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17064 &#177; 1097<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tielidze-et-al-2022.txt">Tielidze et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>169.617903,-44.237240</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

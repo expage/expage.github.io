@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hall et al. (2024)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>LO16-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28716 &#177; 2007<br/>
+<sup>26</sup>Al: 30815 &#177; 3264<br/>
+<sup>14</sup>C: 17875 &#177; 7407<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-3.2166,56.9608</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LO16-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61644 &#177; 4303<br/>
+<sup>26</sup>Al: 60078 &#177; 6269<br/>
+<sup>14</sup>C: 17330 &#177; 6875<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-3.2168,56.9591</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LO16-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17616 &#177; 1245<br/>
+<sup>26</sup>Al: 14968 &#177; 1917<br/>
+<sup>14</sup>C: 60000 &#177; 60000<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.2051,56.9504</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LO16-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24133 &#177; 1693<br/>
+<sup>26</sup>Al: 22522 &#177; 2382<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.2044,56.9525</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LO16-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25132 &#177; 1759<br/>
+<sup>26</sup>Al: 19705 &#177; 2584<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.2044,56.9525</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LO16-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18344 &#177; 1295<br/>
+<sup>26</sup>Al: 16183 &#177; 2064<br/>
+<sup>14</sup>C: 60000 &#177; 60000<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.2000,56.9520</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LO16-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 58783 &#177; 4127<br/>
+<sup>26</sup>Al: 39648 &#177; 4001<br/>
+<sup>14</sup>C: 15955 &#177; 5703<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.1907,56.9543</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LO16-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16448 &#177; 1173<br/>
+<sup>26</sup>Al: 15027 &#177; 1976<br/>
+<sup>14</sup>C: 60000 &#177; 60000<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.1844,56.9512</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LOCH-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12744 &#177; 1022<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.2267,56.9640</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LOCH-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14048 &#177; 1145<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.2271,56.9646</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LOCH-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16193 &#177; 1309<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.2286,56.9643</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LOCH-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11126 &#177; 992<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.2277,56.9631</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MAS-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16525 &#177; 1514<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.2220,56.9733</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MAS-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26237 &#177; 2565<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.2243,56.9733</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MAS-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18509 &#177; 2073<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.2224,56.9731</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MAS-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25820 &#177; 2497<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.2209,56.9726</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MAS-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19863 &#177; 2038<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.2205,56.9728</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MAS-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14167 &#177; 1431<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.2198,56.9727</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MAS-8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20596 &#177; 2396<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hall-et-al-2024.txt">Hall et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-3.2190,56.9720</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

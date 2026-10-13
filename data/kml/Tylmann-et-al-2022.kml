@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tylmann et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>PM-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16357 &#177; 1293<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>16.2552,53.2181</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17505 &#177; 1681<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>15.2299,53.2089</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17557 &#177; 1752<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>15.2299,53.2091</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-04A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19154 &#177; 1733<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>15.4031,52.9963</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-04B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16055 &#177; 1582<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>15.4031,52.9963</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15787 &#177; 1421<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>15.4213,52.9784</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17528 &#177; 1830<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>16.2611,53.9316</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17876 &#177; 1783<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>16.7199,53.9072</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18827 &#177; 1813<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>16.7262,53.9576</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18450 &#177; 1693<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>16.4278,54.0496</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21777 &#177; 1796<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>16.8343,54.1706</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16798 &#177; 1410<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>16.7664,54.1909</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15635 &#177; 1294<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>16.7453,54.1860</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14890 &#177; 1445<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>16.7886,54.1770</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19501 &#177; 2498<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>17.1412,54.2823</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20900 &#177; 1597<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>17.9010,54.2883</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43561 &#177; 5163<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.0064,54.4242</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19684 &#177; 1930<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.3522,53.9621</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31117 &#177; 2576<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.2682,54.4910</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15818 &#177; 1334<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.2352,54.5126</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18374 &#177; 2733<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.3146,54.5465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15374 &#177; 1258<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.2681,54.5038</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13123 &#177; 1251<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.4396,54.1910</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18186 &#177; 1512<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.4396,54.1910</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25525 &#177; 2428<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.4038,54.3006</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18391 &#177; 1647<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Tylmann-et-al-2022.txt">Tylmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>18.5100,54.3932</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

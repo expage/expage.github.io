@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Fernández-Navarro et al. (2024)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>UNI1913</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18688 &#177; 1407<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.435000,-34.743694</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1914</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18766 &#177; 1413<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.434750,-34.744306</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1915</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19431 &#177; 1418<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.434833,-34.744306</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1916</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18827 &#177; 1441<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.437028,-34.745778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1808</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20693 &#177; 1692<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.434370,-34.745145</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1806</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19626 &#177; 1618<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.435478,-34.745448</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1814</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20513 &#177; 1664<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.458204,-34.790424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1815</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18842 &#177; 1579<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.451256,-34.785006</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1816</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19065 &#177; 1520<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.451642,-34.785200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1817</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21170 &#177; 1546<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.451643,-34.785254</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1910</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26789 &#177; 2088<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.447778,-34.776972</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1911</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16952 &#177; 1408<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.448111,-34.776889</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1912</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19136 &#177; 1539<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.435056,-34.743667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI2005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23066 &#177; 1566<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.449528,-34.779361</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI2006</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18347 &#177; 1299<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.450667,-34.779139</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI2007</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19662 &#177; 1334<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.450139,-34.780611</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI2008</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19119 &#177; 1315<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.450167,-34.780583</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1811</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15381 &#177; 1459<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.438000,-34.749782</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1810</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10712 &#177; 889<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.438261,-34.750311</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1813</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18068 &#177; 1673<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.437113,-34.748395</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1809</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14700 &#177; 1241<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.438787,-34.751035</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1812</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12507 &#177; 871<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.437676,-34.749335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI2016</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10592 &#177; 777<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.437889,-34.756972</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI2017</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14917 &#177; 1032<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.436611,-34.756583</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1818</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 138988 &#177; 10216<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.443452,-34.786172</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1820</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 104199 &#177; 8083<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.446534,-34.788083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNI1821</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 54368 &#177; 3972<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Fernández-Navarro-et-al-2024.txt">Fernández-Navarro et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.446677,-34.788145</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

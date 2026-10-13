@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Wang et al. (2024)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>WLT-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21116 &#177; 1369<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.948307,29.855468</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WLT-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21240 &#177; 1344<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.948315,29.855338</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WLT-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22307 &#177; 1419<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.947643,29.855424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WLT-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21513 &#177; 1362<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.947519,29.855640</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WLT-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21141 &#177; 1327<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.947323,29.855777</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WLT-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26968 &#177; 1705<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.947731,29.855640</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WLT-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36556 &#177; 2288<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.947814,29.855665</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-52</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20457 &#177; 1318<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.956167,29.830667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-53</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21287 &#177; 1376<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.955052,29.831632</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-54</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25889 &#177; 1638<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.955044,29.831584</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-55</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20179 &#177; 1299<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.954966,29.831603</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-56</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22112 &#177; 1440<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.954938,29.831650</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-47</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21018 &#177; 1333<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.955412,29.829598</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-48</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21167 &#177; 1356<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.955109,29.829648</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-49</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21626 &#177; 1398<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.955085,29.829658</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-50</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23183 &#177; 1476<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.955059,29.829804</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-51</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21303 &#177; 1364<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.955088,29.829785</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19757 &#177; 1242<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.954345,29.828313</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32610 &#177; 2043<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.955224,29.827966</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23393 &#177; 1460<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.955211,29.827993</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24040 &#177; 1550<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.955147,29.828103</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19606 &#177; 1235<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.955227,29.828041</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19203 &#177; 1227<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.955308,29.827875</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20079 &#177; 1288<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.956280,29.827088</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60140 &#177; 3776<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.956310,29.827097</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19561 &#177; 1276<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.956961,29.827033</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-39</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17996 &#177; 1197<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.957465,29.824789</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23820 &#177; 1518<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.957692,29.824235</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24212 &#177; 1548<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.957875,29.824211</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23029 &#177; 1543<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.958429,29.824181</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-43</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19904 &#177; 1296<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.957108,29.824460</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-44</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19424 &#177; 1234<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.957011,29.824457</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-45</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23180 &#177; 1457<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.956627,29.824409</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-46</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20303 &#177; 1291<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.956635,29.824438</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17202 &#177; 1133<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.957294,29.818160</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 40742 &#177; 2550<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.958017,29.818430</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18572 &#177; 1188<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.958194,29.818249</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-26</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17687 &#177; 1132<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.958183,29.818250</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17410 &#177; 1103<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.958569,29.818276</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27391 &#177; 1719<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.958964,29.818178</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26123 &#177; 1635<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.959379,29.818159</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16954 &#177; 1114<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.958749,29.817259</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16048 &#177; 1432<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.958963,29.817335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16728 &#177; 1084<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.959050,29.817374</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17018 &#177; 1102<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.958687,29.817537</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16048 &#177; 1258<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.958728,29.817537</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17393 &#177; 1150<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.958040,29.817615</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18230 &#177; 1194<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.957702,29.817606</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9129 &#177; 611<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.960788,29.816718</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17560 &#177; 1122<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.961109,29.816948</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10553 &#177; 821<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.961394,29.816809</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15796 &#177; 1066<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.960169,29.816610</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16919 &#177; 1153<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.959806,29.816567</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16903 &#177; 1101<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.959309,29.816680</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18648 &#177; 1222<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.959191,29.816670</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18678 &#177; 1188<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.959136,29.815298</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16594 &#177; 1047<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.959287,29.815370</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 58574 &#177; 3646<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.960244,29.815240</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17707 &#177; 1111<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.960585,29.815245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17507 &#177; 1102<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.960648,29.815257</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16733 &#177; 1053<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.960953,29.815224</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15965 &#177; 1009<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.961059,29.815348</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DLT-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10890 &#177; 702<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Wang-et-al-2024.txt">Wang et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>99.961470,29.815608</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

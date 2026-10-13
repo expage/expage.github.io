@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ancrenaz et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>AU16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25462 &#177; 1697<br/>
+<sup>26</sup>Al: 23497 &#177; 3350<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.13529,44.72376</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25021 &#177; 1723<br/>
+<sup>26</sup>Al: 21710 &#177; 2842<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.13884,44.72129</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24612 &#177; 2411<br/>
+<sup>26</sup>Al: 21256 &#177; 2554<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.03059,44.76507</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 54756 &#177; 3853<br/>
+<sup>26</sup>Al: 40345 &#177; 3967<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.02938,44.76518</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19428 &#177; 1604<br/>
+<sup>26</sup>Al: 18774 &#177; 2558<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.03313,44.76508</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21617 &#177; 1544<br/>
+<sup>26</sup>Al: 19886 &#177; 2138<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.02857,44.74249</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21915 &#177; 1750<br/>
+<sup>26</sup>Al: 12868 &#177; 1449<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.02884,44.74255</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20605 &#177; 1554<br/>
+<sup>26</sup>Al: 19703 &#177; 2246<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.02869,44.74258</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10769 &#177; 796<br/>
+<sup>26</sup>Al: 6599 &#177; 888<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.11014,44.69774</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21756 &#177; 1510<br/>
+<sup>26</sup>Al: 13888 &#177; 1586<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.11018,44.69747</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3244 &#177; 322<br/>
+<sup>26</sup>Al: 2260 &#177; 399<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.10930,44.69751</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6993 &#177; 594<br/>
+<sup>26</sup>Al: 5715 &#177; 743<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.10931,44.69747</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20894 &#177; 1533<br/>
+<sup>26</sup>Al: 19024 &#177; 1896<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.11173,44.69665</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20069 &#177; 1533<br/>
+<sup>26</sup>Al: 15615 &#177; 1656<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.11348,44.69616</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17340 &#177; 1567<br/>
+<sup>26</sup>Al: 15557 &#177; 1643<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.09323,44.66155</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18733 &#177; 1403<br/>
+<sup>26</sup>Al: 16414 &#177; 1772<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.09253,44.66220</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7776 &#177; 645<br/>
+<sup>26</sup>Al: 7361 &#177; 1439<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.09170,44.66254</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18959 &#177; 1299<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.12281,44.55976</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16953 &#177; 1171<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.12659,44.56162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AU33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17028 &#177; 1228<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ancrenaz-et-al-2022.txt">Ancrenaz et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>3.12665,44.55988</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Matthews et al. (2024)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>JUV-1901</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10838 &#177; 754<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.403,61.688</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JUV-1902</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11031 &#177; 862<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.402,61.688</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JUV-1903</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10379 &#177; 757<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.398,61.686</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JUV-1905</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10848 &#177; 735<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.391,61.694</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JUV-1906</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10810 &#177; 764<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.391,61.694</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JUV-1907</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14252 &#177; 969<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.391,61.694</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JUV-1908</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6209 &#177; 471<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.390,61.695</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JUV-1909</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13167 &#177; 911<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.385,61.694</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JUV-1910</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11196 &#177; 810<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.385,61.694</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JUV-1911</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11658 &#177; 807<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.385,61.694</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JUV-2201</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7990 &#177; 568<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.386,61.689</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-2101</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10744 &#177; 692<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.653,61.664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-2102</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8990 &#177; 612<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.643,61.670</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-2103</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8142 &#177; 525<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.644,61.669</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-2104</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10815 &#177; 704<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.659,61.666</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-2201</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11109 &#177; 804<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.663,61.670</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-2202</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10459 &#177; 713<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.663,61.670</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-2203</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12997 &#177; 859<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.666,61.668</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-2105</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10835 &#177; 719<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.679,61.664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-2204</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10369 &#177; 742<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>8.683,61.661</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-2205</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11180 &#177; 746<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.689,61.664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER-2206</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9969 &#177; 681<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.686,61.664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BRU-2201</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19822 &#177; 1424<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Matthews-et-al-2024.txt">Matthews et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>8.822,61.442</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

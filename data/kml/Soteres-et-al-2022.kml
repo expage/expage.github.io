@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Soteres et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>LVM17-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19195 &#177; 1223<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.4727,-43.9504</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LVM17-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20939 &#177; 1321<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.4823,-43.9615</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LVM17-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19680 &#177; 1315<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.4822,-43.9614</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LVM17-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20156 &#177; 1343<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.4802,-43.9593</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16798 &#177; 1059<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6348,-43.9563</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15844 &#177; 1011<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6381,-43.9576</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16369 &#177; 1035<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6385,-43.9578</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15779 &#177; 1051<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6355,-43.9568</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15627 &#177; 1007<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6350,-43.9567</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16934 &#177; 1113<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6342,-43.9566</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-41</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16197 &#177; 1023<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6345,-43.9560</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13408 &#177; 868<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6401,-43.9595</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14314 &#177; 896<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6394,-43.9590</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14016 &#177; 884<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6365,-43.9574</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14066 &#177; 907<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6358,-43.9572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13629 &#177; 861<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6357,-43.9572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13503 &#177; 851<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6346,-43.9569</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13885 &#177; 876<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6333,-43.9585</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13505 &#177; 865<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6334,-43.9585</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13284 &#177; 871<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6346,-43.9582</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13220 &#177; 837<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6371,-43.9589</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13472 &#177; 864<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6382,-43.9594</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13317 &#177; 862<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6384,-43.9594</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13293 &#177; 838<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6406,-43.9604</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13244 &#177; 842<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6350,-43.9607</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 101348 &#177; 6237<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6355,-43.9607</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13719 &#177; 870<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6335,-43.9625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12833 &#177; 810<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6471,-43.9689</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-39</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12907 &#177; 813<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6468,-43.9688</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LV17-42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16631 &#177; 1090<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Soteres-et-al-2022.txt">Soteres et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.6244,-43.9588</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

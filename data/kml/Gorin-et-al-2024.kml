@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Gorin et al. (2024)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>SNC-12-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39 &#177; 12<br/>
+<sup>14</sup>C: 121 &#177; 68<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Gorin-et-al-2024.txt">Gorin et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.30404,6.36569</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 65 &#177; 16<br/>
+<sup>14</sup>C: 82 &#177; 62<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Gorin-et-al-2024.txt">Gorin et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.30497,6.37353</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNC-18-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36 &#177; 11<br/>
+<sup>14</sup>C: 96 &#177; 71<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Gorin-et-al-2024.txt">Gorin et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.30504,6.37316</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Que-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19 &#177; 10<br/>
+<sup>14</sup>C: 102 &#177; 73<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Gorin-et-al-2024.txt">Gorin et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-77.25158,-9.79249</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Que-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17 &#177; 9<br/>
+<sup>14</sup>C: 79 &#177; 64<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Gorin-et-al-2024.txt">Gorin et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-77.25153,-9.79252</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Que-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9 &#177; 8<br/>
+<sup>14</sup>C: 104 &#177; 74<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Gorin-et-al-2024.txt">Gorin et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-77.25150,-9.79283</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Que-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33 &#177; 18<br/>
+<sup>14</sup>C: 111 &#177; 75<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Gorin-et-al-2024.txt">Gorin et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-77.25262,-9.79307</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Que-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34 &#177; 12<br/>
+<sup>14</sup>C: 133 &#177; 77<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Gorin-et-al-2024.txt">Gorin et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-77.25394,-9.79410</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Que-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 88 &#177; 18<br/>
+<sup>14</sup>C: 159 &#177; 78<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Gorin-et-al-2024.txt">Gorin et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-77.25555,-9.79439</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zon-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32 &#177; 9<br/>
+<sup>14</sup>C: 229 &#177; 71<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Gorin-et-al-2024.txt">Gorin et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.13677,-16.28062</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zon-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 70 &#177; 14<br/>
+<sup>14</sup>C: 159 &#177; 67<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Gorin-et-al-2024.txt">Gorin et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.13659,-16.28044</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zon-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 70 &#177; 18<br/>
+<sup>14</sup>C: 66 &#177; 54<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Gorin-et-al-2024.txt">Gorin et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.13613,-16.27877</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zon-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 45 &#177; 12<br/>
+<sup>14</sup>C: 159 &#177; 65<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Gorin-et-al-2024.txt">Gorin et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.13631,-16.27875</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zon-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30 &#177; 11<br/>
+<sup>14</sup>C: 1825 &#177; 249<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Gorin-et-al-2024.txt">Gorin et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-68.13642,-16.27875</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

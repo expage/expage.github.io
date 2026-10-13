@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Lira et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>SSK1801</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26416 &#177; 2110<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.2333,-52.2558</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1802</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31243 &#177; 3492<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.2313,-52.2529</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1804</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 39778 &#177; 6524<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.2333,-52.2571</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1807</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23910 &#177; 1917<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.2304,-52.1496</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1809a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23806 &#177; 1845<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.2761,-52.2764</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1809b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27043 &#177; 2224<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.2761,-52.2764</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1814</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25662 &#177; 2058<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.2756,-52.2762</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1820</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20860 &#177; 1717<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.0005,-52.3796</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1830</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31394 &#177; 3619<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.9907,-52.3127</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1805</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19374 &#177; 1942<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.1514,-52.2090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1817</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7509 &#177; 751<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.1799,-52.2650</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1818</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24720 &#177; 1854<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.2175,-52.2642</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1819</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22962 &#177; 1860<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.2353,-52.2676</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1824</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22873 &#177; 1870<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.0030,-52.3455</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1831</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16796 &#177; 1463<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.3671,-52.6455</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1833</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19048 &#177; 1662<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.3713,-52.6561</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1835</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37054 &#177; 6569<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.3670,-52.6459</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1836</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19450 &#177; 1951<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.3618,-52.6262</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1837</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23124 &#177; 2421<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.3596,-52.6250</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1838</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16796 &#177; 1343<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.3459,-52.6170</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1839</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18145 &#177; 1627<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.3413,-52.6127</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1840</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20669 &#177; 1907<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.3415,-52.6123</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1841</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28232 &#177; 2136<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.3519,-52.6580</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1807_O</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20238 &#177; 1596<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.2304,-52.2496</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1803_O</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18431 &#177; 1725<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.2296,-52.2495</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1919_O</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20523 &#177; 1621<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.2337,-52.2520</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1920_O</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20825 &#177; 1605<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.2337,-52.2520</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1921_O</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 104853 &#177; 7484<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.2337,-52.2520</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1901_S</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17444 &#177; 1357<br/><br/>
+<u>Sample</u><br/>cobbles<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.1030,-52.3047</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSK1902_S</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33238 &#177; 2506<br/><br/>
+<u>Sample</u><br/>cobbles<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-71.1280,-52.2627</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSKOH1911</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17265 &#177; 1283<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-70.5482,-52.5996</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSKOH1914</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11637 &#177; 856<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-70.5482,-52.5996</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSKOH1915</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34635 &#177; 2465<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-70.5482,-52.5996</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SSKOH1916</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19387 &#177; 1365<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-70.5482,-52.5996</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CD12-OAZ-SS03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16711 &#177; 1112<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-70.5482,-52.5996</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CD12-OAZ-SS10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27129 &#177; 1786<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-70.5482,-52.5996</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CD12-OAZ-SS11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16085 &#177; 1095<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Lira-et-al-2022.txt">Lira et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-70.5482,-52.5996</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

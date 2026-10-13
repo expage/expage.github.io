@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Briner et al. (2023)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>BER_0901</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24057 &#177; 1723<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.24109,60.36403</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER_0903</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23781 &#177; 1780<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.24261,60.36785</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER_0904</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13618 &#177; 1185<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.24289,60.36490</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER_0906</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12364 &#177; 953<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.25159,60.36104</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER_0902</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15610 &#177; 1109<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.24202,60.37355</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>80-L17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11548 &#177; 768<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.23655,60.38437</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>81-L18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12733 &#177; 804<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.24293,60.37367</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>81-L19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11069 &#177; 700<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.23924,60.37693</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER_0907</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16380 &#177; 1282<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.37584,60.38908</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER_1001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14358 &#177; 1045<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.32172,60.35901</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER_1002</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13253 &#177; 921<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.32135,60.35939</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER_1003</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19472 &#177; 1485<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.29500,60.38433</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER_1004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16416 &#177; 1264<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.29508,60.38409</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER_1105</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23127 &#177; 1575<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.36427,60.36516</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER_1107</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21865 &#177; 1466<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>5.36389,60.36520</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER_1005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10813 &#177; 763<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.29543,60.37416</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER_0908</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13644 &#177; 1172<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.30492,60.36285</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BER_0909</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11762 &#177; 1032<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>4.98883,60.54381</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>U-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12793 &#177; 921<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.41263,60.40433</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>U-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13238 &#177; 1002<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.40204,60.40908</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>U-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12588 &#177; 937<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.40204,60.40908</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>78-U1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12695 &#177; 793<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.40849,60.36783</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>78-U2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13839 &#177; 873<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.40805,60.36930</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>78-U3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16729 &#177; 1056<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.41252,60.37079</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>78-U4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12078 &#177; 762<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.42018,60.37649</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>78-U5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12466 &#177; 787<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.41871,60.37444</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>80-U6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16814 &#177; 1066<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.38684,60.37650</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>94-U7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13945 &#177; 901<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.39155,60.36567</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>94-U9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12359 &#177; 804<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.39171,60.36773</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>94-U11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11844 &#177; 765<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.39565,60.36218</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>U12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12004 &#177; 758<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.39598,60.36267</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>U13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14378 &#177; 908<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.39434,60.36475</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>U14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11386 &#177; 719<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>5.39777,60.36225</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T-2020-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11008 &#177; 731<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.18418,60.76977</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>T-2020-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11050 &#177; 749<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.17727,60.76542</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JIS_T1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9555 &#177; 624<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.17829,60.75968</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JIS_T3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11580 &#177; 750<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.15456,60.76340</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>JIS_T4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15018 &#177; 964<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Briner-et-al-2023.txt">Briner et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.13657,60.76635</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>McMartin et al. (2025)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>15MOB035A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 51783 &#177; 3298<br/>
+<sup>26</sup>Al: 49401 &#177; 4741<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-89.9042,65.3937</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15MOB053A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60369 &#177; 3828<br/>
+<sup>26</sup>Al: 46371 &#177; 4570<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-90.5104,65.6115</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16MOB147A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 51216 &#177; 3296<br/>
+<sup>26</sup>Al: 44930 &#177; 4561<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.5108,65.6119</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15MOB054A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52771 &#177; 3398<br/>
+<sup>26</sup>Al: 48910 &#177; 4856<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-90.3564,65.5696</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15MOB055A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 54349 &#177; 3501<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-90.1637,65.5105</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16MOB144A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 53735 &#177; 3461<br/>
+<sup>26</sup>Al: 47606 &#177; 4632<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-90.1484,65.5152</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16MOB146A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 48484 &#177; 3123<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-90.4694,65.4965</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17MOB018A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26814 &#177; 1728<br/>
+<sup>26</sup>Al: 22776 &#177; 3434<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-93.7120,65.1690</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17MOB018B01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30607 &#177; 1955<br/>
+<sup>26</sup>Al: 24209 &#177; 3243<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-93.7120,65.1690</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17MOB018B02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26031 &#177; 1667<br/>
+<sup>26</sup>Al: 21690 &#177; 2797<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-93.7120,65.1690</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17MOB019A02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21919 &#177; 1402<br/>
+<sup>26</sup>Al: 14593 &#177; 1904<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-93.9275,65.2231</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17MOB022A02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18751 &#177; 1252<br/>
+<sup>26</sup>Al: 12973 &#177; 1733<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>-92.9925,65.3436</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15MOB074A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19313 &#177; 1337<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-89.1099,65.3669</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17MOB006A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22508 &#177; 1440<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-94.4051,64.5991</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17MOB008A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24581 &#177; 1573<br/>
+<sup>26</sup>Al: 23715 &#177; 3513<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-93.7081,64.5535</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17MOB009A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22978 &#177; 1470<br/>
+<sup>26</sup>Al: 21296 &#177; 4017<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-93.7021,64.5528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15MOB068A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8032 &#177; 517<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-90.4504,64.4957</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15MOB069A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8607 &#177; 586<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-90.4176,64.4499</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15MOB070A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8880 &#177; 586<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-90.0172,64.3614</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15MOB078A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8641 &#177; 576<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-88.8114,65.3162</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17MOB012A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8838 &#177; 576<br/>
+<sup>26</sup>Al: 10425 &#177; 1792<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-96.2359,64.4250</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15MOB110A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8055 &#177; 539<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-90.0998,64.6055</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17MOB030A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8213 &#177; 666<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-98.4495,65.7091</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17MOB036A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7124 &#177; 481<br/>
+<sup>26</sup>Al: 6209 &#177; 879<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-99.6566,64.3216</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17MOB043A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8970 &#177; 610<br/>
+<sup>26</sup>Al: 8621 &#177; 1088<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-97.2276,60.8553</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17MOB075A01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9309 &#177; 609<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McMartin-et-al-2025.txt">McMartin et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-96.8860,60.5383</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

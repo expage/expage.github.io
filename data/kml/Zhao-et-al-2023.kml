@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zhao et al. (2023)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>TS16-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61718 &#177; 3928<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>94.345331,43.025200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47005 &#177; 2957<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>94.345183,43.025081</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25836 &#177; 1630<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>94.336481,43.036975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23433 &#177; 1497<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>94.324783,43.036603</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15092 &#177; 951<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>94.325706,43.035100</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17456 &#177; 1093<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>94.303422,43.025694</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19374 &#177; 1252<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>94.303558,43.025136</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57359 &#177; 3726<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.282311,43.010169</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 75396 &#177; 4892<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.171739,42.982222</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62092 &#177; 4000<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.179833,42.982894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64102 &#177; 4132<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.179650,42.982886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64980 &#177; 4183<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.182097,42.985236</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 89876 &#177; 5620<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.224319,42.990197</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63065 &#177; 3959<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.207808,42.990003</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 72999 &#177; 4550<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.207681,42.990261</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 69230 &#177; 4322<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.210342,42.990089</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17015 &#177; 1054<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.250769,43.017747</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24819 &#177; 1533<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.251839,43.017400</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24925 &#177; 1575<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.246925,43.015728</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 302 &#177; 32<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.269889,43.048756</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 283 &#177; 31<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.269967,43.048175</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14724 &#177; 929<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.256950,43.037267</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14984 &#177; 944<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.256889,43.036850</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 70018 &#177; 4546<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.226739,43.038442</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TS16-25</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 50989 &#177; 3269<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.225761,43.038564</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YSG-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16819 &#177; 1050<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.204178,43.036975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YSG-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11523 &#177; 909<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.202294,43.038175</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YSG-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17535 &#177; 1277<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.168686,43.047242</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YSG-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13795 &#177; 902<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.168822,43.047581</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YSG-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19213 &#177; 1215<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.189081,43.075981</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YSG-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20353 &#177; 1289<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.188614,43.075897</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>YSG-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18358 &#177; 1165<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Zhao-et-al-2023.txt">Zhao et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.187456,43.075808</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

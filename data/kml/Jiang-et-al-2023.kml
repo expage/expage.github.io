@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Jiang et al. (2023)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>12BSC8</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1083 &#177; 187<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jiang-et-al-2023.txt">Jiang et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.07224,30.09656</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12BSC9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1023 &#177; 174<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jiang-et-al-2023.txt">Jiang et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.07228,30.09568</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12BSC9a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 975 &#177; 262<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jiang-et-al-2023.txt">Jiang et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.07228,30.09568</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12BSC3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 485 &#177; 211<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jiang-et-al-2023.txt">Jiang et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.10134,30.14220</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12BSC4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 998 &#177; 583<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jiang-et-al-2023.txt">Jiang et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.10120,30.14239</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12BSC5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 665 &#177; 435<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jiang-et-al-2023.txt">Jiang et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.10120,30.14239</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12BSC6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 359 &#177; 72<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jiang-et-al-2023.txt">Jiang et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.10073,30.14265</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12BSC7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 270 &#177; 105<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jiang-et-al-2023.txt">Jiang et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.10063,30.14280</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12BSC1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 179 &#177; 102<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jiang-et-al-2023.txt">Jiang et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.10105,30.15633</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12BSC1a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 94 &#177; 155<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jiang-et-al-2023.txt">Jiang et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.10105,30.15633</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12BSC2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 2122 &#177; 668<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jiang-et-al-2023.txt">Jiang et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>94.10083,30.15635</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hofmann et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>KS‐1a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14323 &#177; 981<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.950002,47.880995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KS‐1b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4133 &#177; 450<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.947639,47.882771</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KS‐2a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10646 &#177; 800<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.948489,47.883475</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KS‐2b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13026 &#177; 986<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.949545,47.883464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KS‐2c</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18806 &#177; 4319<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.950439,47.883693</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KS‐2d</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13622 &#177; 1014<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.950471,47.883615</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KS‐2e</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14893 &#177; 1066<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.950357,47.883608</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KS‐2f</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8910 &#177; 733<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.948615,47.883602</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KS‐2g</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12267 &#177; 941<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.949847,47.883334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KS‐3a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14135 &#177; 1057<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.950995,47.883767</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SW‐2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14136 &#177; 1158<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.983656,47.882025</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SW‐9</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16326 &#177; 1192<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.959058,47.891912</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SW‐10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16240 &#177; 1299<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.957121,47.891928</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SW‐11a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17673 &#177; 1432<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.954207,47.892901</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SW‐11b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10171 &#177; 742<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.953907,47.893093</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SW‐11c</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15277 &#177; 1198<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.953808,47.893038</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SW‐11d</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17743 &#177; 1422<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.953791,47.893185</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SW‐12a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17210 &#177; 1209<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.953460,47.892540</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SW‐15a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16529 &#177; 1176<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.946590,47.891977</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SW‐15b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17692 &#177; 1206<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.946578,47.891899</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SW‐16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 3279 &#177; 353<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.944610,47.893502</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SW‐17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16460 &#177; 1154<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.943865,47.892935</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SW‐18a</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20158 &#177; 1528<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.932353,47.901610</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SW‐18b</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17780 &#177; 1261<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.932376,47.901672</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SW‐18c</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17155 &#177; 1258<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hofmann-et-al-2022.txt">Hofmann et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>7.931987,47.901887</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

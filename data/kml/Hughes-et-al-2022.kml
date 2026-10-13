@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Hughes et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>SNOWDON-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16812 &#177; 1158<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hughes-et-al-2022.txt">Hughes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-4.0437,53.0768</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNOWDON-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14079 &#177; 991<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hughes-et-al-2022.txt">Hughes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-4.0483,53.0765</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNOWDON-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8658 &#177; 618<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hughes-et-al-2022.txt">Hughes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-4.0520,53.0766</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNOWDON-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 5680 &#177; 401<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hughes-et-al-2022.txt">Hughes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-4.0532,53.0768</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNOWDON-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6087 &#177; 422<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hughes-et-al-2022.txt">Hughes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-4.0546,53.0763</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNOWDON-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14107 &#177; 986<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hughes-et-al-2022.txt">Hughes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-4.0671,53.0765</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNOWDON-7</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 4247 &#177; 320<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hughes-et-al-2022.txt">Hughes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-4.0734,53.0760</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYDER-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 75581 &#177; 5446<br/>
+<sup>26</sup>Al: 69811 &#177; 7073<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hughes-et-al-2022.txt">Hughes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-4.0071,53.1055</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYDER-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 160231 &#177; 11796<br/>
+<sup>26</sup>Al: 158283 &#177; 16558<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hughes-et-al-2022.txt">Hughes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-4.0198,53.1029</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYDER-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60011 &#177; 4325<br/>
+<sup>26</sup>Al: 62826 &#177; 6128<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hughes-et-al-2022.txt">Hughes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-4.0261,53.1018</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYDER-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16443 &#177; 1196<br/>
+<sup>26</sup>Al: 18196 &#177; 1833<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hughes-et-al-2022.txt">Hughes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-4.0317,53.0903</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLYDER-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18192 &#177; 1288<br/>
+<sup>26</sup>Al: 19351 &#177; 1899<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Hughes-et-al-2022.txt">Hughes et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-4.0306,53.0906</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Peltier et al. (2021)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>SM-17-42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18076 &#177; 1149<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.4325,-53.0746</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-02-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16928 &#177; 1070<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.4311,-53.0689</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17260 &#177; 1220<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.1553,-53.0929</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17613 &#177; 1149<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.1549,-53.0928</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18336 &#177; 1180<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.1544,-53.0896</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20476 &#177; 1579<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.1463,-53.0721</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26848 &#177; 1719<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.1421,-53.0813</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-16-33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23098 &#177; 1461<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.1448,-53.0807</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-22</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19568 &#177; 1263<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0431,-52.9035</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-16-38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18433 &#177; 1168<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0474,-52.9087</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-21</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18009 &#177; 1209<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0393,-52.9094</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-16-37</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9223 &#177; 659<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.2627,-52.8869</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-15</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22249 &#177; 1503<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0699,-53.0545</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 22995 &#177; 1516<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0515,-53.0459</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23562 &#177; 1605<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0574,-53.0474</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23782 &#177; 1547<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0455,-53.0447</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23906 &#177; 1562<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0733,-53.0565</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-16-34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24829 &#177; 1625<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.1245,-53.0980</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24802 &#177; 1752<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0725,-53.0680</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-16-36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25561 &#177; 1609<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.1248,-53.0922</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-16-35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21329 &#177; 1358<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.1245,-53.0981</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26367 &#177; 1763<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0667,-53.1100</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26481 &#177; 1699<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0389,-53.0963</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26705 &#177; 1691<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0282,-53.0861</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-13-18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27054 &#177; 1742<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0404,-53.1014</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-15-29</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63206 &#177; 4114<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0194,-53.1288</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-15-31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64137 &#177; 4066<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0155,-53.1745</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-15-27</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64743 &#177; 4135<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0114,-53.1239</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-15-28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 65907 &#177; 4226<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0119,-53.1235</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-15-24</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66421 &#177; 4241<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.9975,-53.1748</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-15-30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37793 &#177; 2374<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0338,-53.1338</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-15-23</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52699 &#177; 3365<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-69.9984,-53.1757</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-15-32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57687 &#177; 3636<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0145,-53.1743</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SM-17-40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 60527 &#177; 3761<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Peltier-et-al-2021.txt">Peltier et al. (2021)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.0440,-53.1623</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

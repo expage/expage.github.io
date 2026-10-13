@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Jena et al. (2023)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>TIR-2A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30940 &#177; 2582<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.626,34.572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TIR-2B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 30051 &#177; 2189<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.626,34.572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TIR-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28277 &#177; 2466<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.626,34.572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TIR-4A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 74852 &#177; 6688<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.626,34.572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TIR-4B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28717 &#177; 2697<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.626,34.572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TIR-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 66202 &#177; 5412<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.626,34.572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TIR-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37943 &#177; 3791<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.626,34.572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TIR-1A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 61916 &#177; 5406<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.627,34.575</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TIR-1B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 76010 &#177; 6029<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.627,34.575</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TIR-1C</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 52902 &#177; 4777<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.627,34.575</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TIR-1D</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 108285 &#177; 11226<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.627,34.575</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TTW-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37512 &#177; 2813<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.620,34.568</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TTW-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29656 &#177; 2230<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.619,34.568</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TTW-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23694 &#177; 1579<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.619,34.568</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>R1-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 75152 &#177; 5561<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.653,34.549</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>R1-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 90112 &#177; 6323<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.654,34.541</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>R1-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 79759 &#177; 5926<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.654,34.541</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>R1-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63945 &#177; 4751<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.654,34.549</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>R2-1A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 47065 &#177; 4254<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.640,34.546</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>R2-1C</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 45606 &#177; 4861<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.640,34.546</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>R2-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 63719 &#177; 4871<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.640,34.546</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>R2-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 64352 &#177; 4902<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.641,34.548</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TBR-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 75446 &#177; 5645<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.664,34.535</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TBR-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 78600 &#177; 6050<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.665,34.534</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TBR-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 107865 &#177; 7894<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.665,34.534</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PAN-1A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23642 &#177; 2319<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.569,34.726</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PAN-3A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37488 &#177; 4008<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.569,34.726</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PAN-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28759 &#177; 2189<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.569,34.722</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PAN-2B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33383 &#177; 3979<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.569,34.725</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GGL-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29648 &#177; 2247<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.627,34.229</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GGL-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 32685 &#177; 2180<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.627,34.229</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GGL-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 75448 &#177; 5717<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.614,34.219</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GGL-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 102606 &#177; 7921<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.613,34.203</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GGL-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18913 &#177; 1335<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.604,34.194</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GGL-6</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 56879 &#177; 4291<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.598,34.189</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAR-1A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 228244 &#177; 19691<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.434,34.210</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAR-1B</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 160425 &#177; 12505<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.434,34.210</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAR-2A</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 62325 &#177; 5608<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.434,34.212</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAR-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 176667 &#177; 14537<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>77.434,34.210</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAR-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 343958 &#177; 28660<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Jena-et-al-2023.txt">Jena et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>77.420,34.205</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

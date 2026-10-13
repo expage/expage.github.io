@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Couette et al. (2023)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>LBD19‐32</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13090 &#177; 1070<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-56.383,51.7933</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐33</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13294 &#177; 904<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-56.380,51.7942</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐40</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13356 &#177; 999<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.368,51.4997</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐42</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13802 &#177; 996<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.356,51.4985</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐43</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13432 &#177; 935<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.322,51.5075</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐34</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11607 &#177; 846<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.382,51.5021</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐35</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12231 &#177; 907<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.381,51.5031</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐36</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12428 &#177; 1494<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.381,51.5044</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐38</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11608 &#177; 825<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.393,51.5040</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐39</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11771 &#177; 897<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.393,51.5044</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐53</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21535 &#177; 1466<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.470,53.0460</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐54</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 38410 &#177; 2627<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.469,53.0458</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐56</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11854 &#177; 839<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.466,53.0453</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐57</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12798 &#177; 916<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.464,53.0449</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐58</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13223 &#177; 929<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-57.465,53.0468</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐63</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15277 &#177; 1053<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.825,52.4698</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐64</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13989 &#177; 953<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.826,52.4699</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐65</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11730 &#177; 962<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.824,52.4680</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐66</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10175 &#177; 712<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.823,52.4678</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐67</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11550 &#177; 784<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-59.826,52.4696</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐68</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8528 &#177; 616<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.230,53.9088</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐69</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8203 &#177; 595<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.230,53.9092</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐70</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9422 &#177; 666<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.230,53.9091</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐71</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8880 &#177; 615<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.230,53.9096</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐73</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8266 &#177; 617<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.230,53.9108</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐16</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8576 &#177; 650<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.934,53.3786</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐17</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8945 &#177; 673<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.934,53.3788</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐18</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7085 &#177; 536<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.937,53.3770</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐19</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12836 &#177; 926<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.937,53.3769</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐20</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7761 &#177; 583<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.932,53.3785</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐28</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12481 &#177; 885<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-56.246,52.5126</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐30</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14621 &#177; 1068<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-55.663,52.3696</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐31</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13025 &#177; 934<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-55.664,52.3689</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐46</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11041 &#177; 783<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-57.476,51.4780</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐74</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9991 &#177; 708<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-60.128,53.8120</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐75</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13765 &#177; 984<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-60.127,53.8136</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LBD19‐84</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8103 &#177; 642<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Couette-et-al-2023.txt">Couette et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-60.146,53.5438</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

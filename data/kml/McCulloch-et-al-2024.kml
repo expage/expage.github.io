@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>McCulloch et al. (2024)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>PY21-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17436 &#177; 1168<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.14562,-53.89713</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PY21-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 21730 &#177; 1978<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.14400,-53.89778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PY21-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 42166 &#177; 3270<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.14398,-53.89779</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PY21-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 83367 &#177; 5352<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.14449,-53.89733</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PY21-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 81241 &#177; 5101<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.14439,-53.89787</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PY21-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18375 &#177; 1262<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.14801,-53.89639</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PY21-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17311 &#177; 1178<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.13663,-53.88363</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PY21-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18916 &#177; 1251<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.13570,-53.88408</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PY21-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 58020 &#177; 3887<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.13396,-53.88397</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM21-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19299 &#177; 1764<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.13020,-53.93442</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PM21-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 25857 &#177; 1840<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.12972,-53.93469</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC21-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15558 &#177; 1113<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.11724,-53.94310</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC21-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17094 &#177; 1124<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.10284,-53.94551</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC21-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15186 &#177; 1030<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.10444,-53.94505</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC21-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17146 &#177; 1134<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.09521,-53.94459</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RC21-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19061 &#177; 1399<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.09515,-53.94451</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EC22-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16070 &#177; 1079<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.58438,-53.42026</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EC22-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15422 &#177; 1040<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.58390,-53.42073</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EC22-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15231 &#177; 1037<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.58388,-53.42072</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>EC22-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16143 &#177; 1103<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.58430,-53.42014</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SI22-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15664 &#177; 1021<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.41565,-53.70696</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SI22-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15960 &#177; 1035<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.41552,-53.70690</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SI22-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16335 &#177; 1103<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.41594,-53.70714</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SI22-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 17567 &#177; 1355<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.46625,-53.70106</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SI22-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15990 &#177; 1212<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.46632,-53.70109</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SI22-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14694 &#177; 999<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.46643,-53.70115</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SI22-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 20316 &#177; 2903<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.46630,-53.69987</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SI22–08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15758 &#177; 2496<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.46606,-53.69978</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CM22-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15303 &#177; 1049<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.08990,-53.87370</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CM22-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15459 &#177; 1048<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.07786,-53.87329</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CM22-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16588 &#177; 1112<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.08315,-53.86995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CM22-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16272 &#177; 1131<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-72.08498,-53.86990</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CM22-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15654 &#177; 1013<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.08447,-53.87252</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CM22-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14677 &#177; 1004<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.07803,-53.89074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CM22-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16760 &#177; 1136<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.08241,-53.89067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CM22-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16164 &#177; 1055<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.08543,-53.88929</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SP22-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 27054 &#177; 3230<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.59311,-53.93661</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PA22-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15805 &#177; 1079<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.88973,-54.06801</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PA22-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16228 &#177; 1132<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.89252,-54.07006</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PA22-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15692 &#177; 1073<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.89507,-54.07006</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH22-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18952 &#177; 1405<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.00008,-54.12252</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH22-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15148 &#177; 1060<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-70.99637,-54.11963</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PH22-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14632 &#177; 1000<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-70.99799,-54.12063</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC22-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16187 &#177; 1104<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.14403,-54.43284</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC22-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 14506 &#177; 979<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.14525,-54.43359</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC22-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 16608 &#177; 1111<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.14574,-54.43378</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SC22-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18105 &#177; 2216<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/McCulloch-et-al-2024.txt">McCulloch et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>-71.14574,-54.43378</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

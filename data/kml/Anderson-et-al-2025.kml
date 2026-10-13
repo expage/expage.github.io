@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Anderson et al. (2025)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>TM14-CS6-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1292396 &#177; 116852<br/>
+<sup>26</sup>Al: 1065761 &#177; 166824<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2025.txt">Anderson et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.9802,-77.9618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-CS6-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 988410 &#177; 83180<br/>
+<sup>26</sup>Al: 818209 &#177; 111364<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2025.txt">Anderson et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>161.9802,-77.9618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-CS7-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 695921 &#177; 53611<br/>
+<sup>26</sup>Al: 537801 &#177; 62809<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2025.txt">Anderson et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.9786,-77.9620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-CS7-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 523872 &#177; 38657<br/>
+<sup>26</sup>Al: 390546 &#177; 42485<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2025.txt">Anderson et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.9786,-77.9620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-CS7-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 236356 &#177; 16184<br/>
+<sup>26</sup>Al: 208811 &#177; 20574<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2025.txt">Anderson et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.9786,-77.9620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-CS09-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1566231 &#177; 145523<br/>
+<sup>26</sup>Al: 1579310 &#177; 346360<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2025.txt">Anderson et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.9788,-77.9634</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-CS10-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1665177 &#177; 158879<br/>
+<sup>26</sup>Al: 1557787 &#177; 337308<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2025.txt">Anderson et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>161.9808,-77.9631</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TM14-H-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 573088 &#177; 40885<br/>
+<sup>26</sup>Al: 533337 &#177; 64150<br/><br/>
+<u>Sample</u><br/>sediments<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Anderson-et-al-2025.txt">Anderson et al. (2025)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>161.9802,-77.9618</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

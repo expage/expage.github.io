@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Goodfellow et al. (2024)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>BG21-001</name>
+<description>
+<![CDATA[
+<sup>14</sup>C: 10683 &#177; 2590<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2024.txt">Goodfellow et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.33134,60.47432</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BG21-002</name>
+<description>
+<![CDATA[
+<sup>14</sup>C: 12383 &#177; 3400<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2024.txt">Goodfellow et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.22197,60.40615</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BG21-002R</name>
+<description>
+<![CDATA[
+<sup>14</sup>C: 12498 &#177; 3528<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2024.txt">Goodfellow et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.22197,60.40615</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BG21-003</name>
+<description>
+<![CDATA[
+<sup>14</sup>C: 12983 &#177; 3745<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2024.txt">Goodfellow et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.17649,60.38459</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BG21-004</name>
+<description>
+<![CDATA[
+<sup>14</sup>C: 12765 &#177; 3581<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2024.txt">Goodfellow et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.17440,60.38451</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BG21-005</name>
+<description>
+<![CDATA[
+<sup>14</sup>C: 11672 &#177; 3081<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2024.txt">Goodfellow et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>16.30526,60.36888</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BG21-006</name>
+<description>
+<![CDATA[
+<sup>14</sup>C: 1547 &#177; 239<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2024.txt">Goodfellow et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.22308,60.38490</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BG21-007</name>
+<description>
+<![CDATA[
+<sup>14</sup>C: 2593 &#177; 381<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2024.txt">Goodfellow et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.19129,60.37892</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BG21-008</name>
+<description>
+<![CDATA[
+<sup>14</sup>C: 4474 &#177; 720<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2024.txt">Goodfellow et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.04993,60.30504</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BG21-009</name>
+<description>
+<![CDATA[
+<sup>14</sup>C: 8259 &#177; 1712<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2024.txt">Goodfellow et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>17.94989,60.22988</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BG21-010</name>
+<description>
+<![CDATA[
+<sup>14</sup>C: 8203 &#177; 1663<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Goodfellow-et-al-2024.txt">Goodfellow et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>17.95051,60.22431</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

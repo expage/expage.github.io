@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Stroeven et al. (2026)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>16-001</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12391 &#177; 807<br/>
+<sup>26</sup>Al: 11913 &#177; 1131<br/>
+<sup>14</sup>C: 4901 &#177; 819<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stroeven-et-al-2026.txt">Stroeven et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.07339,68.08005</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-002</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 15165 &#177; 984<br/>
+<sup>26</sup>Al: 14824 &#177; 1347<br/>
+<sup>14</sup>C: 5427 &#177; 936<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stroeven-et-al-2026.txt">Stroeven et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.07315,68.08013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-003</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6339 &#177; 496<br/>
+<sup>26</sup>Al: 6562 &#177; 616<br/>
+<sup>14</sup>C: 3567 &#177; 569<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stroeven-et-al-2026.txt">Stroeven et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.06473,68.08749</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-004</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 6610 &#177; 580<br/>
+<sup>26</sup>Al: 6976 &#177; 729<br/>
+<sup>14</sup>C: 3160 &#177; 498<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stroeven-et-al-2026.txt">Stroeven et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.06409,68.08751</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16-005</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8172 &#177; 658<br/>
+<sup>26</sup>Al: 8444 &#177; 781<br/>
+<sup>14</sup>C: 8245 &#177; 1706<br/><br/>
+<u>Sample</u><br/>bedrock<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Stroeven-et-al-2026.txt">Stroeven et al. (2026)</a>
+]]>
+</description>
+<styleUrl>#bedrock</styleUrl>
+<Point>
+<coordinates>18.09376,68.08550</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

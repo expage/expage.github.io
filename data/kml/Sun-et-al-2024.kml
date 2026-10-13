@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Sun et al. (2024)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>MZ3-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43441 &#177; 2728<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>87.2798,36.5070</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ3-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 845 &#177; 87<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2795,36.5069</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ3-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 374 &#177; 118<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2794,36.5068</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ4-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26771 &#177; 1704<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2791,36.5070</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ4-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 626 &#177; 107<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2792,36.5070</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ4-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 718 &#177; 88<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>87.2792,36.5070</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ1-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1180 &#177; 90<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2812,36.5022</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ1-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1034 &#177; 92<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2811,36.5021</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ1-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 1728 &#177; 136<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2811,36.5021</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ1-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18293 &#177; 1136<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2811,36.5021</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ2-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 8400 &#177; 589<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>87.2771,36.5025</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ2-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7891 &#177; 513<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2770,36.5025</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ2-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7772 &#177; 557<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2769,36.5027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ2-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 772 &#177; 149<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2767,36.5027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ2-5</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 23788 &#177; 1479<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2767,36.5027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ6-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 31818 &#177; 2030<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>87.2783,36.5082</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ6-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33633 &#177; 2080<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2783,36.5082</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ6-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37280 &#177; 2373<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2782,36.5082</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ7-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 34458 &#177; 2180<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2017,36.4726</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ7-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24297 &#177; 1518<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>87.2017,36.4726</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ7-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 28890 &#177; 1789<br/><br/>
+<u>Sample</u><br/>pebbles<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>87.2017,36.4726</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ8-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 37552 &#177; 2481<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2011,36.4758</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ8-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 57491 &#177; 3656<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2011,36.4758</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ8-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 36584 &#177; 2311<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2012,36.4757</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ8-4</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 91407 &#177; 5742<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.1978,36.4782</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ10-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 18094 &#177; 1161<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2175,36.5651</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ10-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 13306 &#177; 1048<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>87.2176,36.5651</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ9-1</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26800 &#177; 1665<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>87.2085,36.5530</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ9-2</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 26075 &#177; 1616<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>87.2086,36.5532</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MZ9-3</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 24793 &#177; 1622<br/><br/>
+<u>Sample</u><br/>cobble<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Sun-et-al-2024.txt">Sun et al. (2024)</a>
+]]>
+</description>
+<styleUrl>#other</styleUrl>
+<Point>
+<coordinates>87.2085,36.5532</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

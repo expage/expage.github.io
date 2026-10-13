@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Portenga et al. (2023)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>IR-18-01</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10436 &#177; 8244<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Portenga-et-al-2023.txt">Portenga et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.01206,47.95536</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IR-18-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 11824 &#177; 7754<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Portenga-et-al-2023.txt">Portenga et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.01217,47.98524</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IR-18-03</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9272 &#177; 7739<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Portenga-et-al-2023.txt">Portenga et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.01228,47.95000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IR-18-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9480 &#177; 8551<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Portenga-et-al-2023.txt">Portenga et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.01215,47.95499</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IR-18-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9659 &#177; 10310<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Portenga-et-al-2023.txt">Portenga et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.01457,47.95890</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IR-18-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 12816 &#177; 10646<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Portenga-et-al-2023.txt">Portenga et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.02392,47.95174</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IR-18-07</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10268 &#177; 10260<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Portenga-et-al-2023.txt">Portenga et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.02894,47.94902</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IR-18-08</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 9909 &#177; 7007<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Portenga-et-al-2023.txt">Portenga et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.02398,47.95077</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IR-18-09</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10129 &#177; 5832<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Portenga-et-al-2023.txt">Portenga et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.03035,47.94488</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IR-18-10</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 10267 &#177; 8997<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Portenga-et-al-2023.txt">Portenga et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.06030,47.91520</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>IR-18-11</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 7200 &#177; 8673<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Portenga-et-al-2023.txt">Portenga et al. (2023)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-89.04440,47.93444</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

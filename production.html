@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>expage | Production</title>
 
 <link rel="stylesheet" type="text/css" href="styles.css" />
@@ -9,8 +10,10 @@
 </head>
 <body>
 
-<img src="images/topfig_production.jpg" class="topfig">
-<div class="gradient"></div>
+<div class="topfig-wrapper">
+	<img src="images/topfig_production.jpg" class="topfig">
+	<div class="gradient"></div>
+</div>
 <div class="container">
 
 	<ul class="menu">
@@ -30,30 +33,30 @@
 	<p><u>Calibration methodology:</u></p>
 	<p><div class="pointlist">
 		<div class="pnt1">&bull;</div>
-		<div class="pnt2">All data has been divided into calibration sites including samples from one location with a single deglaciation age.</div>
+		<div class="pnt2">All data has been divided into calibration sites including samples from one location with a single deglaciation age. For <span class="sup">14</span>C production rate calibration, the sites follow <a href="https://doi.org/10.5194/gchron-5-21-2023">Koester and Lifton (2023)</a>.</div>
 		<div class="pnt1">&bull;</div>
-		<div class="pnt2">Calibration ages are derived from the original publications with radiocarbon ages generally recalibrated against IntCal13, Marine13 (<a href="https://dx.doi.org/10.2458/azu_js_rc.55.16947">Reimer et al. 2013</a>), and SHCal13 (<a href="https://dx.doi.org/10.2458/azu_js_rc.55.16783">Hogg et al. 2013</a>) using <a href="https://c14.arch.ox.ac.uk/oxcal.html">OxCal</a> 4.2.</div>
+		<div class="pnt2">Calibration ages are derived from the original publications with radiocarbon ages generally recalibrated against <a href="https://doi.org/10.1017/RDC.2020.41">IntCal20</a>, <a href="https://doi.org/10.1017/RDC.2020.59">SHCal20</a>, and <a href="https://doi.org/10.1017/RDC.2020.68">Marine20</a> calibration curves using <a href="https://github.com/bryanlougheed/MatCal/">MatCal</a>.</div>
 		<div class="pnt1">&bull;</div>
-		<div class="pnt2">The <span class="sup">10</span>Be and <span class="sup">26</span>Al concentrations from single sample repeat measurements have been combined as uncertainty-weighted means. To account for interlaboratory measurement uncertainties (<a href="https://dx.doi.org/10.1016/j.quageo.2013.09.003">Jull et al. 2015</a>), the highest of the reported (or uncertainty-weighted) concentration uncertainty or 2.9% (<span class="sup">10</span>Be) and 4.9% (<span class="sup">26</span>Al) of the concentration is used for the calibration.</div>
+		<div class="pnt2">The <span class="sup">10</span>Be/<span class="sup">26</span>Al/<span class="sup">14</span>C concentrations from single sample repeat measurements have been combined as uncertainty-weighted means. To account for interlaboratory measurement uncertainties (<a href="https://dx.doi.org/10.1016/j.quageo.2013.09.003">Jull et al. 2015</a>; <a href="https://doi.org/10.1016/j.quageo.2014.11.002">Lifton et al. 2015</a>; <a href="https://doi.org/10.5194/egusphere-2026-5512">Wilcken et al. 2026</a>), the highest of the reported (or uncertainty-weighted) concentration uncertainty or 2% of the concentration is used for the calibration.</div>
 		<div class="pnt1">&bull;</div>
-		<div class="pnt2">For all calibration sites with at least three separate samples, an uncertainty-weighted site reference production rate is calculated for the expage calculator (prodrate.m). The calibration age uncertainty, which is not an independent variable for each sample of a calibration site, is added in quadrature to the initial site reference production rate.</div>
+		<div class="pnt2">For all calibration sites with at least three separate samples, an uncertainty-weighted site reference production rate is calculated for the expage calculator (<a href="https://github.com/expage/expage-calculator/blob/master/prodrate.m">prodrate.m</a>). The calibration age uncertainty, which is not an independent variable for each sample of a calibration site, is added in quadrature to the initial site reference production rate.</div>
 		<div class="pnt1">&bull;</div>
-		<div class="pnt2">To avoid data affected by prior and/or incomplete exposure, well-clustered site production rates are combined into a global <span class="sup">10</span>Be and <span class="sup">26</span>Al reference production rate. For scattered site production rates, with chi-square statistics p-value < 0.05 for the hypothesis that all sample production rates are drawn from one normal distribution, a maximum of 1/3 of the samples are excluded as outliers (still requiring a minimum of three separate samples). The site production rates that cannot pass this clustering test after outlier rejection are not included in the global reference production rate.</div>
+		<div class="pnt2">To avoid data affected by prior and/or incomplete exposure, well-clustered site production rates are combined into a global <span class="sup">10</span>Be/<span class="sup">26</span>Al/<span class="sup">14</span>C reference production rate. For scattered site production rates, with chi-square statistics p-value < 0.05 (calculated with minimum concentration uncertainty of 5% to not punish high precision measurements) for the hypothesis that all sample production rates are drawn from one normal distribution, a maximum of 1/3 of the samples are excluded as outliers (still requiring a minimum of three separate samples).</div>
 		<div class="pnt1">&bull;</div>
-		<div class="pnt2">For global average production rates, the arithmetic mean of the well-clustered site reference production rates are used. To estimate the production rate uncertainty the root-mean-square deviation of all single sample production rates included in the well-clustered sites is used. This yields the global reference <span class="sup">10</span>Be (4.06 ± 0.25 atoms g<span class="sup">–1</span> yr<span class="sup">–1</span>) and <span class="sup">26</span>Al (28.31 ± 2.22 atoms g<span class="sup">–1</span> yr<span class="sup">–1</span>) production rates.</div>
+		<div class="pnt2">For global average production rates, the arithmetic mean of the well-clustered site reference production rates are used. To estimate the production rate uncertainty the root-mean-square deviation of all single sample production rates included in the well-clustered sites is used. This yields the global reference <span class="sup">10</span>Be (4.17 ± 0.25 atoms g<span class="sup">–1</span> yr<span class="sup">–1</span>), <span class="sup">26</span>Al (28.48 ± 2.36 atoms g<span class="sup">–1</span> yr<span class="sup">–1</span>), and <span class="sup">14</span>C (12.75 ± 1.46 atoms g<span class="sup">–1</span> yr<span class="sup">–1</span>) production rates.</div>
 	</div></p>
 	<br>
 	<hr width="100%">
 	<br>
-	<p>Global production rate kml: <a href="data/prodrate/prodrate.kml">prodrate.kml</a></p>
-	<p>Global production rate log: <a href="data/prodrate/P-log.txt">P-log.txt</a></p>
+	<p>Global production rate kml: <a href="data/production/prodrate.kml">prodrate.kml</a></p>
+	<p>Global production rate log: <a href="https://github.com/expage/expage-production/blob/master/P-log.txt">P-log.txt</a></p>
 	<br>
 	<hr width="100%">
 	<br>
 	<p><u>The production rate calibration data is presented in the following text files:</u></p>
-	<p><b>P-input</b> – Input for production rate calibration of <span class="sup">10</span>Be, <span class="sup">26</span>Al, and <span class="sup">14</span>C production rates.</p>
-	<p><b>P-output</b> – Production rate calibration output with reference <span class="sup">10</span>Be, <span class="sup">26</span>Al, and <span class="sup">14</span>C production rates.</p>
-	<p><b>P-origin</b> – Original data with individual reported <span class="sup">10</span>Be and <span class="sup">26</span>Al measurements.</p>
+	<p><b>P-input</b> – Input for production rate calibration of <span class="sup">10</span>Be, <span class="sup">26</span>Al, <span class="sup">14</span>C production rates.</p>
+	<p><b>P-output</b> – Production rate calibration output with reference <span class="sup">10</span>Be, <span class="sup">26</span>Al, <span class="sup">14</span>C production rates.</p>
+	<p><b>P-origin</b> – Original data with individual reported <span class="sup">10</span>Be, <span class="sup">26</span>Al, <span class="sup">14</span>C measurements.</p>
 	<p><b>P-comments</b> – Comments on the data.</p>
 	<p><b>P-refs</b> – References for the production rate calibration.</p>
     <br>
@@ -67,70 +70,75 @@
 	To display special characters in the text files correctly, use UTF-8 (unicode) encoding.<br>
 	<br>
 	<div class="prodlist">
-	<div class="pro1"><a href="data/prodrate/P-202403-input.txt">P-202403-input</a></div>
-	<div class="pro2"><a href="data/prodrate/P-202403-output.txt">P-202403-output</a></div>
-	<div class="pro3"><a href="data/prodrate/P-202403-origin.txt">P-202403-origin</a></div>
-	<div class="pro4"><a href="data/prodrate/P-202403-comments.txt">P-202403-comments</a></div>
-	<div class="pro5"><a href="data/prodrate/P-202403-refs.txt">P-202403-refs</a></div>
-    <div class="pro1"><a href="data/prodrate/P-202306-input.txt">P-202306-input</a></div>
-	<div class="pro2"><a href="data/prodrate/P-202306-output.txt">P-202306-output</a></div>
-	<div class="pro3"><a href="data/prodrate/P-202306-origin.txt">P-202306-origin</a></div>
-	<div class="pro4"><a href="data/prodrate/P-202306-comments.txt">P-202306-comments</a></div>
-	<div class="pro5"><a href="data/prodrate/P-202306-refs.txt">P-202306-refs</a></div>
-    <div class="pro1"><a href="data/prodrate/P-201912-sites.txt">P-201912-sites</a></div>
-	<div class="pro2"><a href="data/prodrate/P-201912-calib.txt">P-201912-calib</a></div>
-	<div class="pro3"><a href="data/prodrate/P-201912-origin.txt">P-201912-origin</a></div>
-	<div class="pro4"><a href="data/prodrate/P-201912-comments.txt">P-201912-comments</a></div>
-	<div class="pro5"><a href="data/prodrate/P-201912-refs.txt">P-201912-refs</a></div>
-    <div class="pro1"><a href="data/prodrate/P-201902-sites.txt">P-201902-sites</a></div>
-	<div class="pro2"><a href="data/prodrate/P-201902-calib.txt">P-201902-calib</a></div>
-	<div class="pro3"><a href="data/prodrate/P-201902-origin.txt">P-201902-origin</a></div>
-	<div class="pro4"><a href="data/prodrate/P-201902-comments.txt">P-201902-comments</a></div>
-	<div class="pro5"><a href="data/prodrate/P-201902-refs.txt">P-201902-refs</a></div>
-    <div class="pro1"><a href="data/prodrate/P-201810-sites.txt">P-201810-sites</a></div>
-	<div class="pro2"><a href="data/prodrate/P-201810-calib.txt">P-201810-calib</a></div>
-	<div class="pro3"><a href="data/prodrate/P-201810-origin.txt">P-201810-origin</a></div>
-	<div class="pro4"><a href="data/prodrate/P-201810-comments.txt">P-201810-comments</a></div>
-	<div class="pro5"><a href="data/prodrate/P-201810-refs.txt">P-201810-refs</a></div>
-	<div class="pro1"><a href="data/prodrate/P-201806-sites.txt">P-201806-sites</a></div>
-	<div class="pro2"><a href="data/prodrate/P-201806-calib.txt">P-201806-calib</a></div>
-	<div class="pro3"><a href="data/prodrate/P-201806-origin.txt">P-201806-origin</a></div>
-	<div class="pro4"><a href="data/prodrate/P-201806-comments.txt">P-201806-comments</a></div>
-	<div class="pro5"><a href="data/prodrate/P-201806-refs.txt">P-201806-refs</a></div>
-    <div class="pro1"><a href="data/prodrate/P-201708-sites.txt">P-201708-sites</a></div>
-	<div class="pro2"><a href="data/prodrate/P-201708-calib.txt">P-201708-calib</a></div>
-	<div class="pro3"><a href="data/prodrate/P-201708-origin.txt">P-201708-origin</a></div>
-	<div class="pro4"><a href="data/prodrate/P-201708-comments.txt">P-201708-comments</a></div>
-	<div class="pro5"><a href="data/prodrate/P-201708-refs.txt">P-201708-refs</a></div>
-	<div class="pro1"><a href="data/prodrate/P-201702-sites.txt">P-201702-sites</a></div>
-	<div class="pro2"><a href="data/prodrate/P-201702-calib.txt">P-201702-calib</a></div>
-	<div class="pro3"><a href="data/prodrate/P-201702-origin.txt">P-201702-origin</a></div>
-	<div class="pro4"><a href="data/prodrate/P-201702-comments.txt">P-201702-comments</a></div>
-	<div class="pro5"><a href="data/prodrate/P-201702-refs.txt">P-201702-refs</a></div>
-	<div class="pro1"><a href="data/prodrate/P-201611-sites.txt">P-201611-sites</a></div>
-	<div class="pro2"><a href="data/prodrate/P-201611-calib.txt">P-201611-calib</a></div>
-	<div class="pro3"><a href="data/prodrate/P-201611-origin.txt">P-201611-origin</a></div>
-	<div class="pro4"><a href="data/prodrate/P-201611-comments.txt">P-201611-comments</a></div>
-	<div class="pro5"><a href="data/prodrate/P-201611-refs.txt">P-201611-refs</a></div>
-	<div class="pro1"><a href="data/prodrate/P-201610-sites.txt">P-201610-sites</a></div>
-	<div class="pro2"><a href="data/prodrate/P-201610-calib.txt">P-201610-calib</a></div>
-	<div class="pro3"><a href="data/prodrate/P-201610-origin.txt">P-201610-origin</a></div>
-	<div class="pro4"><a href="data/prodrate/P-201610-comments.txt">P-201610-comments</a></div>
-	<div class="pro5"><a href="data/prodrate/P-201610-refs.txt">P-201610-refs</a></div>
-	<div class="pro1"><a href="data/prodrate/P-201606-sites.txt">P-201606-sites</a></div>
-	<div class="pro2"><a href="data/prodrate/P-201606-calib.txt">P-201606-calib</a></div>
-	<div class="pro3"><a href="data/prodrate/P-201606-origin.txt">P-201606-origin</a></div>
-	<div class="pro4"><a href="data/prodrate/P-201606-comments.txt">P-201606-comments</a></div>
-	<div class="pro5"><a href="data/prodrate/P-201606-refs.txt">P-201606-refs</a></div>
+	<div class="pro1"><a href="data/production/P-202610-input.txt">P-202610-input</a></div>
+	<div class="pro2"><a href="data/production/P-202610-output.txt">P-202610-output</a></div>
+	<div class="pro3"><a href="data/production/P-202610-origin.txt">P-202610-origin</a></div>
+	<div class="pro4"><a href="data/production/P-202610-comments.txt">P-202610-comments</a></div>
+	<div class="pro5"><a href="data/production/P-202610-refs.txt">P-202610-refs</a></div>
+	<div class="pro1"><a href="data/production/P-202403-input.txt">P-202403-input</a></div>
+	<div class="pro2"><a href="data/production/P-202403-output.txt">P-202403-output</a></div>
+	<div class="pro3"><a href="data/production/P-202403-origin.txt">P-202403-origin</a></div>
+	<div class="pro4"><a href="data/production/P-202403-comments.txt">P-202403-comments</a></div>
+	<div class="pro5"><a href="data/production/P-202403-refs.txt">P-202403-refs</a></div>
+    <div class="pro1"><a href="data/production/P-202306-input.txt">P-202306-input</a></div>
+	<div class="pro2"><a href="data/production/P-202306-output.txt">P-202306-output</a></div>
+	<div class="pro3"><a href="data/production/P-202306-origin.txt">P-202306-origin</a></div>
+	<div class="pro4"><a href="data/production/P-202306-comments.txt">P-202306-comments</a></div>
+	<div class="pro5"><a href="data/production/P-202306-refs.txt">P-202306-refs</a></div>
+    <div class="pro1"><a href="data/production/P-201912-sites.txt">P-201912-sites</a></div>
+	<div class="pro2"><a href="data/production/P-201912-calib.txt">P-201912-calib</a></div>
+	<div class="pro3"><a href="data/production/P-201912-origin.txt">P-201912-origin</a></div>
+	<div class="pro4"><a href="data/production/P-201912-comments.txt">P-201912-comments</a></div>
+	<div class="pro5"><a href="data/production/P-201912-refs.txt">P-201912-refs</a></div>
+    <div class="pro1"><a href="data/production/P-201902-sites.txt">P-201902-sites</a></div>
+	<div class="pro2"><a href="data/production/P-201902-calib.txt">P-201902-calib</a></div>
+	<div class="pro3"><a href="data/production/P-201902-origin.txt">P-201902-origin</a></div>
+	<div class="pro4"><a href="data/production/P-201902-comments.txt">P-201902-comments</a></div>
+	<div class="pro5"><a href="data/production/P-201902-refs.txt">P-201902-refs</a></div>
+    <div class="pro1"><a href="data/production/P-201810-sites.txt">P-201810-sites</a></div>
+	<div class="pro2"><a href="data/production/P-201810-calib.txt">P-201810-calib</a></div>
+	<div class="pro3"><a href="data/production/P-201810-origin.txt">P-201810-origin</a></div>
+	<div class="pro4"><a href="data/production/P-201810-comments.txt">P-201810-comments</a></div>
+	<div class="pro5"><a href="data/production/P-201810-refs.txt">P-201810-refs</a></div>
+	<div class="pro1"><a href="data/production/P-201806-sites.txt">P-201806-sites</a></div>
+	<div class="pro2"><a href="data/production/P-201806-calib.txt">P-201806-calib</a></div>
+	<div class="pro3"><a href="data/production/P-201806-origin.txt">P-201806-origin</a></div>
+	<div class="pro4"><a href="data/production/P-201806-comments.txt">P-201806-comments</a></div>
+	<div class="pro5"><a href="data/production/P-201806-refs.txt">P-201806-refs</a></div>
+    <div class="pro1"><a href="data/production/P-201708-sites.txt">P-201708-sites</a></div>
+	<div class="pro2"><a href="data/production/P-201708-calib.txt">P-201708-calib</a></div>
+	<div class="pro3"><a href="data/production/P-201708-origin.txt">P-201708-origin</a></div>
+	<div class="pro4"><a href="data/production/P-201708-comments.txt">P-201708-comments</a></div>
+	<div class="pro5"><a href="data/production/P-201708-refs.txt">P-201708-refs</a></div>
+	<div class="pro1"><a href="data/production/P-201702-sites.txt">P-201702-sites</a></div>
+	<div class="pro2"><a href="data/production/P-201702-calib.txt">P-201702-calib</a></div>
+	<div class="pro3"><a href="data/production/P-201702-origin.txt">P-201702-origin</a></div>
+	<div class="pro4"><a href="data/production/P-201702-comments.txt">P-201702-comments</a></div>
+	<div class="pro5"><a href="data/production/P-201702-refs.txt">P-201702-refs</a></div>
+	<div class="pro1"><a href="data/production/P-201611-sites.txt">P-201611-sites</a></div>
+	<div class="pro2"><a href="data/production/P-201611-calib.txt">P-201611-calib</a></div>
+	<div class="pro3"><a href="data/production/P-201611-origin.txt">P-201611-origin</a></div>
+	<div class="pro4"><a href="data/production/P-201611-comments.txt">P-201611-comments</a></div>
+	<div class="pro5"><a href="data/production/P-201611-refs.txt">P-201611-refs</a></div>
+	<div class="pro1"><a href="data/production/P-201610-sites.txt">P-201610-sites</a></div>
+	<div class="pro2"><a href="data/production/P-201610-calib.txt">P-201610-calib</a></div>
+	<div class="pro3"><a href="data/production/P-201610-origin.txt">P-201610-origin</a></div>
+	<div class="pro4"><a href="data/production/P-201610-comments.txt">P-201610-comments</a></div>
+	<div class="pro5"><a href="data/production/P-201610-refs.txt">P-201610-refs</a></div>
+	<div class="pro1"><a href="data/production/P-201606-sites.txt">P-201606-sites</a></div>
+	<div class="pro2"><a href="data/production/P-201606-calib.txt">P-201606-calib</a></div>
+	<div class="pro3"><a href="data/production/P-201606-origin.txt">P-201606-origin</a></div>
+	<div class="pro4"><a href="data/production/P-201606-comments.txt">P-201606-comments</a></div>
+	<div class="pro5"><a href="data/production/P-201606-refs.txt">P-201606-refs</a></div>
 	</div>
 	</center>
 	<br>
 	<hr width="100%">
 	<br><br>
-	<center><img src="data/prodrate/prodrate.png" width="970" height="1061"></center>
+	<center><img src="data/production/prodrate.png" style="max-width: 970px; width: 100%; height: auto;"></center>
 	<br><br>
 	<hr width="100%">
-	<br><br>
+	<br>
 	</div>
 </div>
 <div class="footer">Contact: <a href="mailto:jakob.heyman@gu.se">jakob.heyman@gu.se</a></div>

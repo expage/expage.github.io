@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ҫiner et al. (2022)</name>
+<description>
+<![CDATA[
+Data from expage-202610<br/><br/>
+<a href="http://expage.github.io/">expage.github.io</a>
+]]>
+</description>
+<Style id="bedrock">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="boulder">
+<IconStyle>
+<color>ff00ffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+<Style id="other">
+<IconStyle>
+<color>ffff0000</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+</Icon>
+</IconStyle>
+<BalloonStyle>
+<text><![CDATA[<b><font size='4'>$[name]</font></b><br/><br/><u>LSD age (yr)</u><br/>$[description]]]></text>
+</BalloonStyle>
+</Style>
+
+<Placemark>
+<name>ESP17-04</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 53232 &#177; 3507<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ҫiner-et-al-2022.txt">Ҫiner et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.9592,-52.0187</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ESP17-05</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 48671 &#177; 3459<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ҫiner-et-al-2022.txt">Ҫiner et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.9667,-52.0220</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ESP17-06</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 55250 &#177; 5425<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ҫiner-et-al-2022.txt">Ҫiner et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-71.9648,-52.0257</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ESP17-02</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 43787 &#177; 3276<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ҫiner-et-al-2022.txt">Ҫiner et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.2039,-51.7887</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CRB17-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 33513 &#177; 2265<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ҫiner-et-al-2022.txt">Ҫiner et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.4957,-51.5008</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ESP17-12</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19563 &#177; 1504<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ҫiner-et-al-2022.txt">Ҫiner et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3721,-51.9909</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ESP17-14</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 19252 &#177; 1374<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ҫiner-et-al-2022.txt">Ҫiner et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3676,-52.0113</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ESP17-13</name>
+<description>
+<![CDATA[
+<sup>10</sup>Be: 29072 &#177; 2292<br/><br/>
+<u>Sample</u><br/>boulder<br/><br/>
+<u>Publication</u><br/><a href="http://expage.github.io/data/txt/Ҫiner-et-al-2022.txt">Ҫiner et al. (2022)</a>
+]]>
+</description>
+<styleUrl>#boulder</styleUrl>
+<Point>
+<coordinates>-72.3776,-52.0420</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
